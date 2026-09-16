@@ -1,0 +1,106 @@
+{
+  "port": 3270,
+  "host": "127.0.0.1",
+  "watchdogMinutes": 15,
+  "maxArticleAgeDays": 7,
+
+  "site": {
+    "title": "ずかん速報",
+    "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
+    "url": "https://poke.gamelab.website/",
+    "contactUrl": ""
+  },
+
+  "feeds": [
+    { "name": "4Gamer", "url": "https://www.4gamer.net/rss/index.xml" },
+    { "name": "Game*Spark", "url": "https://www.gamespark.jp/rss20/index.rdf" },
+    { "name": "インサイド", "url": "https://www.inside-games.jp/rss20/index.rdf" },
+    { "name": "電ファミニコゲーマー", "url": "https://news.denfaminicogamer.jp/feed" },
+    { "name": "AUTOMATON", "url": "https://automaton-media.com/feed/" },
+    { "name": "GAME Watch", "url": "https://game.watch.impress.co.jp/data/rss/1.0/gmw/feed.rdf" },
+    { "name": "IGN Japan", "url": "https://jp.ign.com/feed.xml" },
+    { "name": "電撃ホビーウェブ", "url": "https://hobby.dengeki.com/feed/" },
+    { "name": "コミックナタリー", "url": "https://natalie.mu/comic/feed/news" },
+    { "name": "アニメ！アニメ！", "url": "https://animeanime.jp/rss20/index.rdf" }
+  ],
+
+  "steamNews": { "enabled": false, "apps": [] },
+
+  "googleNews": {
+    "enabled": true,
+    "within": "3d",
+    "perQuery": 40,
+    "queries": [
+      "ポケモン",
+      "ポケモンGO",
+      "ポケモンカード",
+      "ポケモン スカーレット バイオレット",
+      "ポケモンユナイト",
+      "ポケモンスリープ",
+      "ポケモン アニメ",
+      "Pokémon Presents",
+      "ポケモン グッズ"
+    ]
+  },
+
+  "keywords": [
+    "ポケモン",
+    "\\bPok[eé]mon\\b",
+    "ポケGO",
+    "ポケカ",
+    "ピカチュウ",
+    "イーブイ",
+    "ミュウツー",
+    "リザードン",
+    "ゲームフリーク",
+    "\\bポケットモンスター\\b"
+  ],
+
+  "series": [
+    { "id": "main", "label": "本編ゲーム", "keywords": ["スカーレット", "バイオレット", "\\bSV\\b", "LEGENDS", "レジェンズ", "ダイパ", "ソード.?シールド", "新作", "ポケットモンスター"] },
+    { "id": "go", "label": "ポケモンGO", "keywords": ["ポケモンGO", "ポケGO", "Pok[eé]mon GO", "コミュニティ・?デイ", "レイド"] },
+    { "id": "tcg", "label": "ポケカ", "keywords": ["ポケモンカード", "ポケカ", "拡張パック", "\\bTCG\\b", "トレーナーズ"] },
+    { "id": "anime", "label": "アニメ・映画", "keywords": ["アニメ", "劇場版", "映画", "放送", "配信開始", "声優"] },
+    { "id": "unite", "label": "ユナイト", "keywords": ["ユナイト", "\\bUNITE\\b"] },
+    { "id": "sleep", "label": "スリープ", "keywords": ["ポケモンスリープ", "ポケスリ", "Pok[eé]mon Sleep"] },
+    { "id": "goods", "label": "グッズ・コラボ", "keywords": ["グッズ", "ぬいぐるみ", "フィギュア", "コラボ", "ポケモンセンター", "一番くじ", "受注", "発売", "予約"] }
+  ],
+
+  "categories": [
+    { "id": "new", "label": "新作・発表", "keywords": ["発表", "新作", "続報", "ティザー", "発売日", "予約", "体験版", "Presents", "公開"] },
+    { "id": "update", "label": "アップデート", "keywords": ["アップデート", "Ver\\.?\\s?\\d", "修正", "不具合", "調整", "配信開始"] },
+    { "id": "event", "label": "イベント", "keywords": ["イベント", "キャンペーン", "コミュニティ・?デイ", "レイド", "大会", "配布", "特典", "ログイン"] },
+    { "id": "tcgcat", "label": "カード", "keywords": ["ポケモンカード", "ポケカ", "拡張パック", "強化拡張パック", "再販", "抽選", "シングル"] },
+    { "id": "goodscat", "label": "グッズ・コラボ", "keywords": ["グッズ", "ぬいぐるみ", "フィギュア", "コラボ", "一番くじ", "ポケモンセンター", "アパレル", "カフェ"] },
+    { "id": "media", "label": "アニメ・映画・音楽", "keywords": ["アニメ", "劇場版", "映画", "主題歌", "声優", "配信", "放送"] },
+    { "id": "guide", "label": "攻略・データ", "keywords": ["攻略", "厳選", "育成", "構築", "環境", "最強", "おすすめ", "個体値", "テラスタル"] },
+    { "id": "community", "label": "大会・コミュニティ", "keywords": ["大会", "世界大会", "\\bWCS\\b", "ランクマ", "対戦", "チャンピオン"] },
+    { "id": "biz", "label": "売上・企業", "keywords": ["売上", "決算", "販売本数", "記録", "任天堂", "株式会社ポケモン", "クリーチャーズ"] }
+  ],
+  "fallbackCategory": { "id": "other", "label": "その他" },
+
+  "prSources": ["PR TIMES", "プレスリリース", "@Press", "ValuePress"],
+
+  "note2": "見出しがこれに当たるものは載せない。画像ギャラリーのページが、何年も前の記事なのに新着として流れてくるため。",
+  "blockTitlePatterns": [
+    "^[＜<]?\\s*画像\\s*\\d+\\s*[/／]\\s*\\d+\\s*[＞>]",
+    "^\\s*\\d+\\s*[/／]\\s*\\d+\\s*[＞>]"
+  ],
+
+  "cluster": {
+    "enabled": true,
+    "windowHours": 48,
+    "minSources": 2,
+    "threshold": 0.34,
+    "stopwords": [
+      "ポケモン", "ポケットモンスター", "ゲーム", "情報", "発表", "公開", "記事", "配信", "今日", "本日",
+      "pokemon", "com", "www", "https", "nintendo", "switch", "任天堂", "シリーズ", "対応", "実施",
+      "開始", "予定", "登場", "紹介", "最新", "話題", "販売", "商品"
+    ]
+  },
+
+  "entities": [
+    "ポケモンGO", "ポケモンカード", "ポケモンユナイト", "ポケモンスリープ", "スカーレット", "バイオレット",
+    "ポケモンセンター", "ピカチュウ", "イーブイ", "ゲームフリーク", "クリーチャーズ"
+  ]
+}
