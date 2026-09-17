@@ -550,10 +550,12 @@
   const BASE_TITLE = document.title;
   function showFavView() {
     favViewOpen = true;
-    for (const id of ["topicsSection", "feedSection"]) {
+    for (const id of ["topicsSection", "feedSection", "catMod"]) {
       const el = document.getElementById(id);
       if (el) el.hidden = true;
     }
+    $(".side-left").hidden = true;
+    $(".side-right").hidden = true;
     $("#favView").hidden = false;
     renderFavView();
     document.title = `あとで読む｜${BASE_TITLE}`;
@@ -564,6 +566,9 @@
     $("#favView").hidden = true;
     $("#topicsSection").hidden = !(data?.topics?.length);
     $("#feedSection").hidden = false;
+    $("#catMod").hidden = false;
+    $(".side-left").hidden = false;
+    $(".side-right").hidden = false;
     document.title = BASE_TITLE;
   }
   function syncFavView() {
