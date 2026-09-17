@@ -60,6 +60,44 @@
   function labelOfSeries(id) {
     return data.series.find((s) => s.id === id)?.label || "";
   }
+  // ---------- サムネイル ----------
+  // 画像が取れなかった記事には、見出しから作った色つきのプレースホルダーを出す
+  const CAT_EMOJI = {
+    new: "✨", update: "🛠️", event: "🎉", tcgcat: "🃏", goodscat: "🎁",
+    media: "🎬", guide: "📖", community: "🏆", biz: "📈", other: "📰",
+  };
+  function hashHue(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+    return h % 360;
+  }
+  function applyPlaceholder(box, seed, glyph) {
+    const hue = hashHue(seed);
+    box.classList.add("thumb-ph");
+    box.style.background = `linear-gradient(135deg, hsl(${hue} 68% 62%), hsl(${(hue + 46) % 360} 68% 46%))`;
+    box.textContent = glyph;
+  }
+  // url があれば画像、なければプレースホルダー。画像の読み込みに失敗したらプレースホルダーに差し替える
+  function thumbNode(url, seed, glyph, className) {
+    const box = document.createElement("div");
+    box.className = className;
+    if (url) {
+      const img = document.createElement("img");
+      img.src = url;
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.referrerPolicy = "no-referrer";
+      img.addEventListener("error", () => {
+        img.remove();
+        applyPlaceholder(box, seed, glyph);
+      });
+      box.appendChild(img);
+    } else {
+      applyPlaceholder(box, seed, glyph);
+    }
+    return box;
+  }
   function spinnerNode() {
     const sp = document.createElement("span");
     sp.className = "spinner";
@@ -117,6 +155,8 @@
     const row = document.createElement("article");
     row.className = "row" + (it.isNew ? " is-new" : "");
 
+    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "row-thumb");
+
     const body = document.createElement("div");
     body.className = "row-body";
 
@@ -160,7 +200,7 @@
       renderFav();
     });
 
-    row.append(body, star);
+    row.append(thumb, body, star);
     return row;
   }
 
@@ -238,6 +278,8 @@
       const card = document.createElement("article");
       card.className = "topic";
 
+      const thumb = thumbNode(t.image, t.title, CAT_EMOJI[(t.categories || [])[0]] || CAT_EMOJI.other, "topic-thumb");
+
       const top = document.createElement("div");
       top.className = "topic-top";
       const stars = document.createElement("span");
@@ -250,7 +292,7 @@
       count.textContent = `${t.sourceCount} 媒体`;
       const time = document.createElement("span");
       time.className = "topic-time";
-      time.textContent = hhmm(t.newestAt || t.items?.[0]?.publishedAt || data.updatedAt);
+      time.textContent = hhmm(t.publishedAt || data.updatedAt);
       top.append(stars, count, time);
 
       const body = document.createElement("div");
@@ -269,7 +311,7 @@
 
       const links = document.createElement("ul");
       links.className = "topic-links";
-      for (const it of (t.items || []).slice(0, 4)) {
+      for (const it of (t.articles || []).slice(0, 4)) {
         const li = document.createElement("li");
         const s = document.createElement("span");
         s.className = "src";
@@ -279,13 +321,13 @@
         la.target = "_blank";
         la.rel = "noopener noreferrer";
         la.textContent = it.title;
-        la.addEventListener("click", () => markRead(it.id));
+        la.addEventListener("click", () => markRead(it.id || it.url));
         li.append(s, la);
         links.appendChild(li);
       }
 
       body.append(h, sum, links);
-      card.append(top, body);
+      card.append(thumb, top, body);
       grid.appendChild(card);
     }
     const more = $("#topicMore");
@@ -390,13 +432,17 @@
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.addEventListener("click", () => markRead(it.id));
+    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "gacha-thumb");
+    const info = document.createElement("div");
+    info.className = "gacha-info";
     const meta = document.createElement("div");
     meta.className = "gacha-meta";
     meta.textContent = `${it.source} ・ ${hhmm(it.publishedAt)}`;
     const t = document.createElement("div");
     t.className = "gacha-title";
     t.textContent = it.title;
-    a.append(meta, t);
+    info.append(meta, t);
+    a.append(thumb, info);
     box.appendChild(a);
   }
 
