@@ -369,13 +369,6 @@
       cl.appendChild(b);
     }
 
-    const srcs = $("#srcList");
-    srcs.innerHTML = "";
-    for (const s of data.sources.slice(0, 12)) {
-      const li = document.createElement("li");
-      li.innerHTML = `<span>${s.name}</span><span class="c">${s.count}</span>`;
-      srcs.appendChild(li);
-    }
     $("#sourceList").textContent = data.sources.map((s) => s.name).join(" / ");
 
     $("#hidePR").checked = state.hidePR;
@@ -689,6 +682,21 @@
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
   toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+  // スマホ幅では「ニュースの種別」を新着ニュースの直前に移す（デスクトップは左カラムのまま）
+  const mobileQuery = window.matchMedia("(max-width: 820px)");
+  function layoutCatMod() {
+    const catMod = $("#catMod");
+    const sideLeft = $(".side-left");
+    const feedSection = $("#feedSection");
+    if (mobileQuery.matches) {
+      if (catMod.nextElementSibling !== feedSection) feedSection.before(catMod);
+    } else if (sideLeft.firstElementChild !== catMod) {
+      sideLeft.prepend(catMod);
+    }
+  }
+  mobileQuery.addEventListener("change", layoutCatMod);
+  layoutCatMod();
 
   boot();
 })();

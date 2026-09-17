@@ -129,7 +129,8 @@ button {
 }
 
 .fav-link {
-  display: flex;
+  display: inline-flex;
+  flex: none;
   align-items: center;
   gap: 6px;
   background: var(--surface);
@@ -254,10 +255,6 @@ main.wrap {
   margin-top: 2px;
   font-size: 11px;
   color: var(--ink-muted);
-}
-
-.mod-quiet {
-  background: var(--surface-2);
 }
 
 .mod-btn {
@@ -413,26 +410,6 @@ main.wrap {
   border-color: var(--plum);
   background: var(--plum-soft);
   color: var(--plum);
-}
-
-/* 収集元 */
-.src-list {
-  margin-top: 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  font-size: 11.5px;
-  color: var(--ink-muted);
-}
-
-.src-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.src-list .c {
-  font-variant-numeric: tabular-nums;
 }
 
 /* ガチャ・おみくじの中身 */
@@ -1148,7 +1125,6 @@ main.wrap {
   .header-inner {
     height: auto;
     padding: 9px 0;
-    flex-wrap: wrap;
     gap: 8px;
   }
 
@@ -1156,13 +1132,36 @@ main.wrap {
     display: none;
   }
 
-  .search {
-    width: 100%;
+  .fav-link {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    gap: 3px;
+    color: var(--ember);
   }
 
-  .header-tools {
-    width: 100%;
-    margin-left: 0;
+  .fav-link svg {
+    display: none;
+  }
+
+  .fav-link::after {
+    content: "→";
+  }
+
+  .fav-link .fav-count {
+    background: none;
+    color: var(--ember);
+    padding: 0;
+  }
+
+  .cat-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 2px;
+  }
+
+  .cat-list button {
+    flex: none;
   }
 }
 
