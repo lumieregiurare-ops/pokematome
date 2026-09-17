@@ -209,11 +209,6 @@ button {
   color: var(--ember);
 }
 
-.header-meta .next {
-  margin-left: 8px;
-  opacity: .85;
-}
-
 /* ---------- layout ---------- */
 main.wrap {
   padding-top: 20px;
@@ -1076,8 +1071,18 @@ main.wrap {
     grid-template-columns: minmax(0, 1fr) 280px;
   }
 
+  /* 話題・ニュースを先に見せて、フィルタ類は下に回す */
+  .col-main {
+    order: 1;
+  }
+
+  .side-right {
+    order: 2;
+  }
+
   .side-left {
     grid-column: 1 / -1;
+    order: 3;
     position: static;
     flex-direction: row;
     flex-wrap: wrap;
