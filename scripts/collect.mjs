@@ -9,6 +9,7 @@ import { buildTopics } from "./lib/cluster.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "docs", "data", "news.json");
+const OTHER_OUT = join(ROOT, "docs", "data", "other.json");
 const RUN = join(ROOT, "data", "last-run.json");
 const STATE = join(ROOT, "data", "state.json");
 
@@ -77,6 +78,7 @@ log(`fetched ${raw.length} items`);
 // ---------- 2. 絞り込み・整形・重複除去 ----------
 const maxAge = (config.maxArticleAgeDays ?? 5) * 86400000;
 const byId = new Map();
+const otherById = new Map();
 let dropped = { offTopic: 0, notJa: 0, tooOld: 0, dup: 0, noTitle: 0, blocked: 0 };
 // ひらがな・カタカナ・漢字のいずれかを含むか（日本語の見出しかの判定）
 const JA_RE = /[぀-ゟ゠-ヿ一-鿿]/;
@@ -103,9 +105,23 @@ for (const r of raw) {
     continue;
   }
   const text = `${r.title} ${r.summary || ""}`;
-  // 総合ゲームメディアのフィードも読んでいるので、モンハンに関係する記事だけを残す
+  // 総合ゲームメディアのフィードも読んでいるので、モンハンに関係する記事だけを残す。
+  // 対象外になった記事も、ゲームニュースとしては読めるので「その他のニュース」に回す
+  // （画像は付けない・サムネイルなしのテキストだけの一覧で見せる想定）
   if (!r.always && !isTopic(text)) {
     dropped.offTopic++;
+    const oid = idOf(`t:${normTitle(r.title)}`);
+    if (!otherById.has(oid)) {
+      otherById.set(oid, {
+        id: oid,
+        title: truncate(r.title, 120),
+        url: r.url,
+        host: r.sourceHost || hostOf(r.url),
+        source: r.source,
+        publishedAt: r.publishedAt || nowIso,
+        isPR: prRe.some((re) => re.test(r.source)),
+      });
+    }
     continue;
   }
 
@@ -150,6 +166,13 @@ for (const r of raw) {
 
 const items = [...byId.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 log(`kept ${items.length} (対象外 ${dropped.offTopic} / 古い ${dropped.tooOld} / 除外 ${dropped.blocked} / 重複 ${dropped.dup})`);
+
+// 本編の記事と重複するタイトルは「その他のニュース」から外す
+for (const id of byId.keys()) otherById.delete(id);
+const otherNews = [...otherById.values()]
+  .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
+  .slice(0, 300);
+log(`other news: ${otherNews.length}`);
 
 // ---------- 2.5 画像の補完 ----------
 // Google ニュース経由の記事は RSS に画像も元記事の URL も入っていないので、
@@ -222,6 +245,13 @@ await writeJson(OUT, {
   updateGapMin,
   nextUpdateAt,
   items,
+});
+
+await writeJson(OTHER_OUT, {
+  updatedAt: nowIso,
+  site: config.site || {},
+  total: otherNews.length,
+  items: otherNews,
 });
 
 await writeJson(STATE, { ranAt: nowIso, runs, ids: items.map((i) => i.id) });

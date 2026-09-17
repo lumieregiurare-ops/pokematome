@@ -318,6 +318,46 @@ main.wrap {
   color: #fff;
 }
 
+.mod-link {
+  display: block;
+  margin-top: 9px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ember);
+}
+
+.mod-link:hover {
+  text-decoration: underline;
+}
+
+/* その他のニュース（サイドバーの簡易リスト） */
+.other-list {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.other-list li {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.other-meta {
+  font-size: 10.5px;
+  color: var(--ink-muted);
+}
+
+.other-list a {
+  display: block;
+  font-weight: 500;
+}
+
+.other-list a:hover {
+  color: var(--ember);
+}
+
 .mod-gacha {
   border-color: var(--amber);
   background: linear-gradient(180deg, #fffdf6, var(--amber-soft));
@@ -669,6 +709,84 @@ main.wrap {
 
 .fav-view {
   min-height: 50vh;
+}
+
+/* その他のニュース専用ページ */
+.other-page {
+  max-width: 760px;
+  margin: 0 auto;
+  min-height: 50vh;
+}
+
+.other-page-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.other-page-list li {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 9px 11px;
+}
+
+.other-page-list .other-meta {
+  margin-bottom: 2px;
+}
+
+.other-page-list a {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.other-page-list a:hover {
+  color: var(--ember);
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  border: 2px solid var(--border-strong);
+  background: var(--surface);
+  border-radius: 999px;
+  min-width: 32px;
+  padding: 4px 10px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--ink-muted);
+}
+
+.pagination button:hover:not(:disabled) {
+  border-color: var(--ember);
+  color: var(--ember);
+}
+
+.pagination button.active {
+  background: var(--ember);
+  border-color: var(--ember);
+  color: #fff;
+}
+
+.pagination button:disabled {
+  opacity: .4;
+  cursor: default;
+}
+
+.pg-dots {
+  color: var(--ink-muted);
+  padding: 0 2px;
 }
 
 .sec-title {

@@ -103,7 +103,6 @@
           <div class="sec-head">
             <h2 class="sec-title">新着ニュース</h2>
             <div class="feed-tools">
-              <label class="toggle"><input type="checkbox" id="hidePR"><span>プレスリリースを除く</span></label>
               <div class="seg" id="sortSeg" role="group" aria-label="並び順">
                 <button type="button" data-sort="new" class="active">新着順</button>
                 <button type="button" data-sort="shuffle">おまかせ</button>
@@ -149,6 +148,13 @@
             <button class="mod-btn" id="dexAgain" type="button">引き直す</button>
             <label class="toggle toggle-mini"><input type="checkbox" id="dexRare"><span>伝説・幻だけ</span></label>
           </div>
+        </section>
+
+        <section class="mod" id="otherMod" hidden>
+          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>その他のニュース</h2>
+          <p class="mod-desc">ポケモン以外のゲームニュースです。</p>
+          <ul class="other-list" id="otherList"></ul>
+          <a class="mod-link" href="other.html">もっと見る</a>
         </section>
 
       </aside>

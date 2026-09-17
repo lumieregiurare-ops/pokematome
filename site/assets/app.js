@@ -34,7 +34,7 @@
   let fav = store.get(FAV_KEY, []);
   let read = store.get(READ_KEY, []);
   let ngWords = store.get(NG_KEY, []);
-  const state = Object.assign({ cat: "all", q: "", hidePR: false, sort: "new" }, store.get(STATE_KEY, {}));
+  const state = Object.assign({ cat: "all", q: "", sort: "new" }, store.get(STATE_KEY, {}));
 
   // ---------- 小物 ----------
   function hhmm(iso) {
@@ -145,7 +145,6 @@
     const q = state.q.trim().toLowerCase();
     return data.items.filter((it) => {
       if (state.cat !== "all" && !it.categories.includes(state.cat)) return false;
-      if (state.hidePR && it.isPR) return false;
       if (matchesNg(it)) return false;
       if (q && !`${it.title} ${it.summary || ""} ${it.source}`.toLowerCase().includes(q)) return false;
       return true;
@@ -391,7 +390,6 @@
 
     $("#sourceList").textContent = data.sources.map((s) => s.name).join(" / ");
 
-    $("#hidePR").checked = state.hidePR;
     for (const b of document.querySelectorAll("#sortSeg button")) b.classList.toggle("active", b.dataset.sort === state.sort);
   }
 
@@ -455,6 +453,35 @@
     info.append(meta, t);
     a.append(thumb, info);
     box.appendChild(a);
+  }
+
+  // ---------- その他のニュース（対象タイトル以外のゲームニュース） ----------
+  async function renderOtherNews() {
+    let other;
+    try {
+      const r = await fetch(`data/other.json?t=${Math.floor(Date.now() / 300000)}`);
+      other = await r.json();
+    } catch {
+      return;
+    }
+    const items = (other.items || []).slice(0, 5);
+    if (!items.length) return;
+    $("#otherMod").hidden = false;
+    const box = $("#otherList");
+    box.innerHTML = "";
+    for (const it of items) {
+      const li = document.createElement("li");
+      const meta = document.createElement("div");
+      meta.className = "other-meta";
+      meta.textContent = `${it.source} ・ ${hhmm(it.publishedAt)}`;
+      const a = document.createElement("a");
+      a.href = it.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = it.title;
+      li.append(meta, a);
+      box.appendChild(li);
+    }
   }
 
   // ---------- きょうの1匹（全国図鑑） ----------
@@ -647,8 +674,9 @@
     renderTopics();
     renderList();
     renderGacha();
-    // 図鑑は後回しにして、ニュースの表示を先に終わらせる
+    // 図鑑・その他のニュースは後回しにして、ニュースの表示を先に終わらせる
     loadDex().then(renderDex);
+    renderOtherNews();
     updateFavCount();
     syncFavView();
   }
@@ -673,7 +701,6 @@
     renderTopics();
     renderList();
   });
-  $("#hidePR").addEventListener("change", (e) => set({ hidePR: e.target.checked }));
   for (const b of document.querySelectorAll("#sortSeg button")) {
     b.addEventListener("click", () => {
       shuffleSeed = Math.random();
