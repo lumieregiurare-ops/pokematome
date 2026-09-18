@@ -105,23 +105,9 @@ for (const r of raw) {
     continue;
   }
   const text = `${r.title} ${r.summary || ""}`;
-  // 総合ゲームメディアのフィードも読んでいるので、モンハンに関係する記事だけを残す。
-  // 対象外になった記事も、ゲームニュースとしては読めるので「その他のニュース」に回す
-  // （画像は付けない・サムネイルなしのテキストだけの一覧で見せる想定）
+  // 総合ゲームメディアのフィードも読んでいるので、ポケモンに関係する記事だけを残す
   if (!r.always && !isTopic(text)) {
     dropped.offTopic++;
-    const oid = idOf(`t:${normTitle(r.title)}`);
-    if (!otherById.has(oid)) {
-      otherById.set(oid, {
-        id: oid,
-        title: truncate(r.title, 120),
-        url: r.url,
-        host: r.sourceHost || hostOf(r.url),
-        source: r.source,
-        publishedAt: r.publishedAt || nowIso,
-        isPR: prRe.some((re) => re.test(r.source)),
-      });
-    }
     continue;
   }
 
@@ -133,6 +119,22 @@ for (const r of raw) {
 
   if (prev) {
     dropped.dup++;
+    // 別媒体が伝えた同じニュースも、「その他のニュース」用にリンクだけ拾っておく
+    // （本編には載せないテキストだけの一覧なので画像は持たせない）
+    if (r.url !== prev.url) {
+      const oid = idOf(`u:${r.url}`);
+      if (!otherById.has(oid)) {
+        otherById.set(oid, {
+          id: oid,
+          title: truncate(r.title, 120),
+          url: r.url,
+          host: r.sourceHost || hostOf(r.url),
+          source: r.source,
+          publishedAt: r.publishedAt || nowIso,
+          isPR,
+        });
+      }
+    }
     // 元サイトの直リンクが手に入ったら、Google 経由のリンクより優先する
     if (prev.viaGoogle && !r.viaGoogle) {
       prev.url = r.url;
@@ -167,12 +169,13 @@ for (const r of raw) {
 const items = [...byId.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 log(`kept ${items.length} (対象外 ${dropped.offTopic} / 古い ${dropped.tooOld} / 除外 ${dropped.blocked} / 重複 ${dropped.dup})`);
 
-// 本編の記事と重複するタイトルは「その他のニュース」から外す
-for (const id of byId.keys()) otherById.delete(id);
+// 本編の記事と同じ URL のものは「その他のニュース」から外す
+const primaryUrls = new Set(items.map((it) => it.url));
+for (const [oid, it] of otherById) if (primaryUrls.has(it.url)) otherById.delete(oid);
 const otherNews = [...otherById.values()]
   .sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt))
   .slice(0, 300);
-log(`other news: ${otherNews.length}`);
+log(`other news (同一ニュースの別媒体記事): ${otherNews.length}`);
 
 // ---------- 2.5 画像の補完 ----------
 // Google ニュース経由の記事は RSS に画像も元記事の URL も入っていないので、
