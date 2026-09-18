@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T01:00:16.517Z",
+  "updatedAt": "2026-09-18T01:30:14.242Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": ""
   },
   "total": 199,
-  "todayCount": 18,
+  "todayCount": 25,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 24
+      "count": 22
     },
     {
       "id": "update",
@@ -27,17 +27,17 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 45
+      "count": 44
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 24
+      "count": 27
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 10
+      "count": 11
     },
     {
       "id": "guide",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 90
+      "count": 87
     }
   ],
   "series": [
@@ -74,12 +74,12 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 44
+      "count": 43
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 9
+      "count": 10
     },
     {
       "id": "unite",
@@ -94,61 +94,53 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 52
+      "count": 54
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 53
+      "count": 52
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 22
+      "count": 24
     },
     {
       "name": "SNKRDUNK",
-      "count": 13
+      "count": 12
     },
     {
       "name": "PR TIMES",
-      "count": 11
+      "count": 12
     },
     {
       "name": "YouTube",
       "count": 9
     },
     {
+      "name": "インサイド",
+      "count": 7
+    },
+    {
       "name": "ガジェット通信",
       "count": 7
     },
     {
-      "name": "famitsu.com",
-      "count": 5
-    },
-    {
-      "name": "インサイド",
-      "count": 5
+      "name": "ファミ通",
+      "count": 6
     },
     {
       "name": "4Gamer",
       "count": 4
     },
     {
-      "name": "oricon.co.jp",
-      "count": 4
-    },
-    {
-      "name": "Nintendo DREAM WEB",
-      "count": 4
-    },
-    {
-      "name": "福井新聞社",
+      "name": "ABEMA TIMES",
       "count": 3
     },
     {
-      "name": "ABEMA TIMES",
+      "name": "Nintendo DREAM WEB",
       "count": 3
     },
     {
@@ -172,12 +164,24 @@
       "count": 2
     },
     {
-      "name": "ニコニコニュース",
+      "name": "株探",
       "count": 2
     },
     {
-      "name": "株探",
+      "name": "pashplus.jp",
       "count": 2
+    },
+    {
+      "name": "オリコンニュース",
+      "count": 2
+    },
+    {
+      "name": "au Webポータル",
+      "count": 1
+    },
+    {
+      "name": "Sirabee",
+      "count": 1
     },
     {
       "name": "キャラグー",
@@ -188,11 +192,19 @@
       "count": 1
     },
     {
+      "name": "山陽新聞",
+      "count": 1
+    },
+    {
       "name": "jocr.jp",
       "count": 1
     },
     {
       "name": "tv-tokyo.co.jp",
+      "count": 1
+    },
+    {
+      "name": "pokemon-foundation.or.jp",
       "count": 1
     },
     {
@@ -244,7 +256,15 @@
       "count": 1
     },
     {
-      "name": "Hypebeast",
+      "name": "hypebeast.com",
+      "count": 1
+    },
+    {
+      "name": "福井新聞社",
+      "count": 1
+    },
+    {
+      "name": "ニコニコニュース",
       "count": 1
     },
     {
@@ -272,15 +292,11 @@
       "count": 1
     },
     {
-      "name": "ｄメニューニュース",
+      "name": "topics.smt.docomo.ne.jp",
       "count": 1
     },
     {
       "name": "読売新聞",
-      "count": 1
-    },
-    {
-      "name": "PASH! PLUS",
       "count": 1
     },
     {
@@ -296,11 +312,11 @@
       "count": 1
     },
     {
-      "name": "ふくおかナビ",
+      "name": "日本経済新聞",
       "count": 1
     },
     {
-      "name": "TVO テレビ大阪",
+      "name": "ふくおかナビ",
       "count": 1
     },
     {
@@ -308,11 +324,7 @@
       "count": 1
     },
     {
-      "name": "au Webポータル",
-      "count": 1
-    },
-    {
-      "name": "グルメ Watch",
+      "name": "Togetter",
       "count": 1
     },
     {
@@ -328,19 +340,75 @@
       "count": 1
     },
     {
-      "name": "アニメ！アニメ！",
-      "count": 1
-    },
-    {
-      "name": "ELLE",
-      "count": 1
-    },
-    {
-      "name": "WWDJAPAN",
+      "name": "animeanime.jp",
       "count": 1
     }
   ],
   "topics": [
+    {
+      "id": "9d5cdaa85e09",
+      "title": "アディダス、スポーツウェアブランドとポケモンがコラボ。「ADIDAS | POKÉMON」をECなどで日本展開",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/0b668df8418d382032f7fd9be89cff81c2a247b3",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000003-netshop-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-09-16T06:31:05.000Z",
+      "sourceCount": 7,
+      "articleCount": 7,
+      "categories": [
+        "goodscat",
+        "other"
+      ],
+      "keywords": [
+        "コラボ",
+        "アディダス",
+        "pok"
+      ],
+      "articles": [
+        {
+          "title": "すっぴんパウダーがPokémon Sleepとコラボ！限定デザイン全4種が登場",
+          "url": "https://www.wowkorea.jp/woman/read/160109.html",
+          "source": "wowKorea",
+          "publishedAt": "2026-09-15T21:25:11.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『満月の晩のカラカラの過ごし方』Pokémon Sleep公式の動画によって、初代から続く「かわいそう…なんとかしてあげて…」に答えが出て泣いた",
+          "url": "https://togetter.com/li/2745779",
+          "source": "Togetter",
+          "publishedAt": "2026-09-15T03:37:08.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アディダスとポケモンがコラボ！ ピカチュウやリザードン、レックウザたちをイメージしたスニーカー＆アパレルコレクション「ADIDAS | POKÉMON」が9月15日より発売",
+          "url": "https://www.ndw.jp/pokemon-goods-260915-01/",
+          "source": "Nintendo DREAM WEB",
+          "publishedAt": "2026-09-15T03:18:47.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモン』×「アディダス」コラボコレクションが発売！ピカチュウやゲンガーなどモチーフのシューズ&アパレルが遊び心溢れるデザイン",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaVUlKNEFzMXU4cU1UVWV4WXJUUnp0U05OaGw3NzhxX3N5V3hBcjA5LV9GcnA3N0pEQ1dKbUFWR1BrWDIyWFNmeXFmSWRyRmVXRGVnRzkxVUswZUNaS3RyTFhHX3dQLVlGQUE?oc=5",
+          "source": "インサイド",
+          "publishedAt": "2026-09-15T03:10:03.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモン】アディダス オリジナルスのコラボ商品が本日（9/15）発売。ゲンガーのまなざしをデザインしたスニーカーなどが登場",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxSlBXekdXbXZZbU9peWhSaEZEZkx3TTlEbUJBMm5IbzVTZ2UyUjEzNnlDVFhiRzVaSDMzNjZCZjVHQ2FUTVVjcUhFQUVtd2FOQXBhb1pjNA?oc=5",
+          "source": "ファミ通",
+          "publishedAt": "2026-09-15T02:46:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモン：アディダスコラボ ピカチュウ、ゲンガーのTシャツ リザードン、ミュウツー、レックウザがスニーカーに",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JMGhPTXhLbV9WX3VvQXd2d25FN3lUeVRZeHJmT0ZhWEhldEVtUFNQSVNybXFBOXc3NUJnYzd4OWc3bEluNkE4b2E0VXV6UlZ3S05EVHpMd1pocWgwdUxuYTZ0VGh4X0tLT1R3?oc=5",
+          "source": "Mantan Web",
+          "publishedAt": "2026-09-15T02:08:33.000Z",
+          "isPR": false
+        }
+      ]
+    },
     {
       "id": "46ac93cf886b",
       "title": "世界で10組だけの特権！ NOT A HOTELが『ポケモンスリープ』とコラボ 北海道・苫小牧の湖畔に現れた“モンスターボール型ホテル”とは（VAGUE）",
@@ -349,8 +417,8 @@
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260915-10457315-vague-000-1-view.jpg?exp=10800",
       "leadSource": "Yahoo!ニュース",
       "publishedAt": "2026-09-15T11:10:00.000Z",
-      "sourceCount": 9,
-      "articleCount": 9,
+      "sourceCount": 7,
+      "articleCount": 7,
       "categories": [
         "goodscat",
         "event"
@@ -358,9 +426,16 @@
       "keywords": [
         "モンスターボール",
         "ホテル",
-        "北海道"
+        "コラボ"
       ],
       "articles": [
+        {
+          "title": "ノットアホテル、森に「モンスターボール」型寝室 ポケモンとコラボ",
+          "url": "https://www.nikkei.com/article/DGXZQOUC1567Z0V10C26A9000000/",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-09-15T09:25:43.000Z",
+          "isPR": false
+        },
         {
           "title": "泊まれるモンスターボール～ポケモンがキャンペーン～苫小牧の湖のほとりに登場",
           "url": "https://hokkaido-nl.jp/article/43939",
@@ -371,7 +446,7 @@
         {
           "title": "『ポケモン』泊まれるモンスターボール発表。『ポケスリ』とNOT A HOTELの特別コラボ。詳細は9月15日解禁",
           "url": "https://www.famitsu.com/article/202609/86209",
-          "source": "famitsu.com",
+          "source": "ファミ通",
           "publishedAt": "2026-09-15T07:00:00.000Z",
           "isPR": false
         },
@@ -392,43 +467,22 @@
         {
           "title": "「ポケモン」モンスターボールに泊まれる!? 北海道・苫小牧に「モンスターボール型ホテル」があらわれた☆ 抽選で宿泊体験プレゼント",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qY3otN1Q5RkdoMVBPOFpNcGY3X25wRHhjZ3hFa2N3amUwdTcwWUZ2a3FaWXlSQmxDd3UxRkxQTFNheXhuNWd5cDgtTGlHa0dWLXp6c0licXFnY1lxVlJMNFdB?oc=5",
-          "source": "アニメ！アニメ！",
+          "source": "animeanime.jp",
           "publishedAt": "2026-09-15T02:00:04.000Z",
-          "isPR": false
-        },
-        {
-          "title": "北海道・苫小牧に「泊まれるモンスターボール」出現 湖のほとりでポケモンの世界を堪能できる特別体験",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WZUxfWWYxb3R5RlpfNm5JWVhrNFVHQmtrWHZxZVN0Z195Yk1GRlpuOHAtTW40aE5iV1U3di1YRHVmRHZUMXFpVzU1YlpVVFlBMWxldA?oc=5",
-          "source": "ニコニコニュース",
-          "publishedAt": "2026-09-15T01:06:02.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「NOT A HOTEL」が「ポケモン」とコラボ！ 北海道に“泊まれるモンスターボール”が出現",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGJKcWVnSFZmYzlJb0tJY21Qb21fQ1RudncwQmI5YUhkZ3BDSjJIelN0ZTFHdkEtOTYzaVJkTmszRnIybnRxQTU1eHU4T0JrbXVuRkNUeDNtMUVENkxpR0lic1Y2V0UxUi1iYXEyWjhsUTJ4UGxpbi0tT2I1bml3V3lBRjczY2JtNW9VRG5NRDQ?oc=5",
-          "source": "ELLE",
-          "publishedAt": "2026-09-15T01:05:08.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ポケモンスリープ」とノットアホテルがコラボ モンスターボール型ホテルに宿泊できるキャンペーンを実施",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvYVdQcVR2OHRXOUFNZDB0djNGMU9WYTFJa1NZMjFwZWRKTmo3MU52QjNZVVoxWUMwUmtVSFhxMWNwTURDS0tYRTdpLWRBaTNLczlB?oc=5",
-          "source": "WWDJAPAN",
-          "publishedAt": "2026-09-15T01:01:15.000Z",
           "isPR": false
         }
       ]
     },
     {
-      "id": "4befb1c0638a",
-      "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "id": "a5c5154399e2",
+      "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
       "summary": "",
-      "url": "https://snkrdunk.com/articles/33323/",
-      "image": "https://cdn.snkrdunk.com/uploads/media/93efbc7f-92bd-4d56-bf1b-61150d19a2b2.png",
+      "url": "https://snkrdunk.com/articles/33322/",
+      "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
       "leadSource": "SNKRDUNK",
-      "publishedAt": "2026-09-18T00:20:30.000Z",
+      "publishedAt": "2026-09-18T01:11:04.000Z",
       "sourceCount": 6,
-      "articleCount": 16,
+      "articleCount": 15,
       "categories": [
         "tcgcat",
         "new"
@@ -440,17 +494,17 @@
       ],
       "articles": [
         {
+          "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+          "url": "https://snkrdunk.com/articles/33323/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-09-18T00:20:30.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケカ】ゲンガーex SARの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)｜30th CELEBRATION(30th セレブレーション)",
           "url": "https://snkrdunk.com/articles/33306/",
           "source": "SNKRDUNK",
           "publishedAt": "2026-09-17T23:23:04.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-          "url": "https://snkrdunk.com/articles/33322/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-09-17T22:10:50.000Z",
           "isPR": false
         },
         {
@@ -463,7 +517,7 @@
         {
           "title": "【ポケカ】『30th CELEBRATION』FUR/SAR/ARまとめ。ポケカ30周年をお祝いした記念パックがついに発売。新レアリティのミュウ、ミュウツーも登場。",
           "url": "https://www.famitsu.com/article/202609/87867",
-          "source": "famitsu.com",
+          "source": "ファミ通",
           "publishedAt": "2026-09-17T14:00:00.000Z",
           "isPR": false
         },
@@ -482,18 +536,18 @@
           "isPR": false
         },
         {
-          "title": "【ポケカ】ミュウ B/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-          "url": "https://snkrdunk.com/articles/33324/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-09-16T10:21:51.000Z",
-          "isPR": false
-        },
-        {
           "title": "【速報】ポケカ30周年の初日買取1位は公式リスト外“RGBミュウ”の赤130万円！2位ミュウexの52倍！トレゲトが実測",
           "url": "https://prtimes.jp/main/html/rd/p/000000051.000183006.html",
           "source": "PR TIMES",
           "publishedAt": "2026-09-16T08:37:49.000Z",
           "isPR": true
+        },
+        {
+          "title": "『ポケモンカードゲーム』30周年記念拡張パックより特別仕様の “RGB ミュウ” 3種が発覚",
+          "url": "https://hypebeast.com/jp/2026/9/pokemon-tcg-30th-celebration-mew-rgb-card-news",
+          "source": "hypebeast.com",
+          "publishedAt": "2026-09-16T08:26:40.000Z",
+          "isPR": false
         }
       ]
     },
@@ -568,25 +622,25 @@
         {
           "title": "画像・写真 | メルカリ、ポケモンカード30周年関連の新商品の出品禁止 16日から一定期間で実施 2枚目",
           "url": "https://www.oricon.co.jp/news/2480608/photo/2/",
-          "source": "oricon.co.jp",
+          "source": "オリコンニュース",
           "publishedAt": "2026-09-15T10:23:00.000Z",
           "isPR": false
         }
       ]
     },
     {
-      "id": "b286cbf50061",
-      "title": "東プレのキーボード「REALFORCE」にピカチュウを描いたコラボモデルが登場。2026年12月下旬予約開始［TGS2026］",
-      "summary": "2026年9月17日，東プレは，TGS2026の同社ブースにて新製品発表イベントを開催し，「ピカチュウ」をデザインしたコラボキーボード「REALFORCEGX1PlusKeyboardPikachuEdition」の予約受付を2026年12月下旬に開始すると発表した。",
-      "url": "https://www.4gamer.net/games/317/G031703/20260918006/",
-      "image": "https://www.4gamer.net/games/317/G031703/20260918006/SS/003.jpg",
-      "leadSource": "4Gamer",
-      "publishedAt": "2026-09-17T15:38:51.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "id": "bdd5a4d73895",
+      "title": "「ポケモン」ピカチュウ/「ホロライブ」博衣こより＆音乃瀬奏の新コラボキーボードを見た！「東プレ REALFORCE」ブースレポ【TGS2026】",
+      "summary": "東京ゲームショウ2026の東プレREALFORCEブースでGX1Plusを体感、重厚な打鍵と静音を実感。新コラボの「ピカチュウ」デザインや「博衣こより」＆「音之瀬奏」デザインなども展示。",
+      "url": "https://www.inside-games.jp/article/2026/09/18/187933.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1782266.jpg",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-09-18T01:25:02.000Z",
+      "sourceCount": 6,
+      "articleCount": 6,
       "categories": [
-        "new",
-        "event"
+        "goodscat",
+        "new"
       ],
       "keywords": [
         "ピカチュウ",
@@ -594,6 +648,13 @@
         "キーボード"
       ],
       "articles": [
+        {
+          "title": "東プレのキーボード「REALFORCE」にピカチュウを描いたコラボモデルが登場。2026年12月下旬予約開始［TGS2026］",
+          "url": "https://www.4gamer.net/games/317/G031703/20260918006/",
+          "source": "4Gamer",
+          "publishedAt": "2026-09-17T15:38:51.000Z",
+          "isPR": false
+        },
         {
           "title": "「REALFORCE」ピカチュウとホロライブ・博衣こよりさん＆音乃瀬奏さんコラボのキーボード「GX1 Plus」が初お披露目！【TGS2026】",
           "url": "https://game.watch.impress.co.jp/docs/news/2141940.html",
@@ -618,59 +679,58 @@
         {
           "title": "【ポケモン】ゲーミングキーボード『REALFORCE GX1 Plus』ピカチュウエディションが発表。12月から量販店で予約販売スタート【TGS2026】",
           "url": "https://www.famitsu.com/article/202609/88285",
-          "source": "famitsu.com",
+          "source": "ファミ通",
           "publishedAt": "2026-09-17T06:03:00.000Z",
           "isPR": false
         }
       ]
     },
     {
-      "id": "7eb520af7271",
-      "title": "しまむらで『ポケモン』グッズが発売！ゲンガーのトレーナー、ミミッキュ枕カバーなど「ゴーストタイプ」のアイテム多数",
-      "summary": "しまむらにて、『ポケットモンスター』ゴーストタイプに注目したアパレルやバッグ、寝具類が9月18日発売！同日15時よりオンラインストアでも取り扱われます。",
-      "url": "https://www.inside-games.jp/article/2026/09/17/187911.html",
-      "image": "https://www.inside-games.jp/imgs/rss/1780338.jpg",
-      "leadSource": "インサイド",
-      "publishedAt": "2026-09-17T16:10:50.000Z",
+      "id": "6b377650e349",
+      "title": "シルバーウィークはABEMAでポケモン！朝10時から無料放送",
+      "summary": "",
+      "url": "https://article.auone.jp/75a988bf-be9c-41b0-abfb-16ea10ee9b5f",
+      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/09/18/https___news_jp_i_1473490046816551573_w500.webp",
+      "leadSource": "au Webポータル",
+      "publishedAt": "2026-09-18T01:23:00.000Z",
       "sourceCount": 4,
       "articleCount": 5,
       "categories": [
-        "goodscat",
-        "new"
+        "media"
       ],
       "keywords": [
-        "発売",
-        "グッズ",
-        "アイテム"
+        "abema",
+        "シルバーウィーク",
+        "無料放送"
       ],
       "articles": [
         {
-          "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
-          "url": "https://www.fukuishimbun.co.jp/articles/gallery/2697973?ph",
-          "source": "福井新聞社",
-          "publishedAt": "2026-09-17T16:10:50.000Z",
+          "title": "シルバーウィークはABEMAでポケモン三昧！劇場版長編やショートアニメなど計24作品を無料放送",
+          "url": "https://times.abema.tv/articles/-/10273594",
+          "source": "ABEMA TIMES",
+          "publishedAt": "2026-09-17T12:10:00.000Z",
           "isPR": false
         },
         {
-          "title": "ポケモン×しまむら バッグとポーチの新作全10種 9月19日発売!",
-          "url": "https://collabo-cafe.com/events/collabo/pokemon-fashion-shimamura-2026/",
-          "source": "コラボカフェ",
-          "publishedAt": "2026-09-17T10:34:54.000Z",
+          "title": "【写真・画像】シルバーウィークはABEMAでポケモン三昧！劇場版長編やショートアニメなど計24作品を無料放送 1枚目",
+          "url": "https://times.abema.tv/articles/photo/10273594",
+          "source": "ABEMA TIMES",
+          "publishedAt": "2026-09-17T12:10:00.000Z",
           "isPR": false
         },
         {
-          "title": "しまむらにて、トートバッグやミニポーチなど「ポケモン」アイテムが9月19日より発売",
-          "url": "https://www.ndw.jp/pokemon-goods-260916/",
-          "source": "Nintendo DREAM WEB",
-          "publishedAt": "2026-09-16T15:13:20.000Z",
+          "title": "ABEMA、アニメ『ポケモン』劇場版からショートアニメまで計24作品をシルバーウィークに毎日放送！",
+          "url": "https://gamebiz.jp/news/432907",
+          "source": "gamebiz【ゲームビズ】",
+          "publishedAt": "2026-09-17T09:00:00.000Z",
           "isPR": false
         },
         {
-          "title": "しまむらで『ポケモン』グッズが9月19日発売！バッグ類や雑貨多数、エーフィ・ブラッキー・イーブイらの組み合わせが可愛い",
-          "url": "https://www.inside-games.jp/article/2026/09/16/187843.html",
-          "source": "インサイド",
-          "publishedAt": "2026-09-16T12:25:02.000Z",
-          "isPR": false
+          "title": "シルバーウィークもABEMAで“ポケモンアニメ＆映画”！劇場版長編・短編・スピンオフ作品から、ショートアニメ作品まで計24作品を9月19日（土）より4日間連続で毎朝10時から無料放送！",
+          "url": "https://prtimes.jp/main/html/rd/p/000003984.000064643.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-09-17T08:33:35.000Z",
+          "isPR": true
         }
       ]
     },
@@ -697,14 +757,14 @@
         {
           "title": "【ポケモン】“泊まれるモンスターボール”ホテルへ行ってみた！ はたしてどんなホテルなのか、写真で紹介【ポケスリ】",
           "url": "https://www.famitsu.com/article/202609/87753",
-          "source": "famitsu.com",
+          "source": "ファミ通",
           "publishedAt": "2026-09-16T01:56:26.000Z",
           "isPR": false
         },
         {
           "title": "【ポケスリ】泊まれるモンスターボール、誕生!? ポケモン30周年、『ポケモンスリープ』3周年を記念したキャンペーンが開催",
           "url": "https://www.pashplus.jp/game_app/495581/",
-          "source": "PASH! PLUS",
+          "source": "pashplus.jp",
           "publishedAt": "2026-09-15T14:10:32.000Z",
           "isPR": false
         },
@@ -718,86 +778,45 @@
       ]
     },
     {
-      "id": "9d5cdaa85e09",
-      "title": "アディダス、スポーツウェアブランドとポケモンがコラボ。「ADIDAS | POKÉMON」をECなどで日本展開",
-      "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/0b668df8418d382032f7fd9be89cff81c2a247b3",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00000003-netshop-000-1-view.jpg?exp=10800",
-      "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-09-16T06:31:05.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "goodscat"
-      ],
-      "keywords": [
-        "コラボ",
-        "pok",
-        "mon"
-      ],
-      "articles": [
-        {
-          "title": "すっぴんパウダーがPokémon Sleepとコラボ！限定デザイン全4種が登場",
-          "url": "https://www.wowkorea.jp/woman/read/160109.html",
-          "source": "wowKorea",
-          "publishedAt": "2026-09-15T21:25:11.000Z",
-          "isPR": false
-        },
-        {
-          "title": "アディダスとポケモンがコラボ！ ピカチュウやリザードン、レックウザたちをイメージしたスニーカー＆アパレルコレクション「ADIDAS | POKÉMON」が9月15日より発売",
-          "url": "https://www.ndw.jp/pokemon-goods-260915-01/",
-          "source": "Nintendo DREAM WEB",
-          "publishedAt": "2026-09-15T03:18:47.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン：アディダスコラボ ピカチュウ、ゲンガーのTシャツ リザードン、ミュウツー、レックウザがスニーカーに",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1JMGhPTXhLbV9WX3VvQXd2d25FN3lUeVRZeHJmT0ZhWEhldEVtUFNQSVNybXFBOXc3NUJnYzd4OWc3bEluNkE4b2E0VXV6UlZ3S05EVHpMd1pocWgwdUxuYTZ0VGh4X0tLT1R3?oc=5",
-          "source": "Mantan Web",
-          "publishedAt": "2026-09-15T02:08:33.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "cca5c0da5135",
-      "title": "シルバーウィークはABEMAでポケモン三昧！劇場版長編やショートアニメなど計24作品を無料放送",
-      "summary": "",
-      "url": "https://times.abema.tv/articles/-/10273594",
-      "image": "https://times-abema.ismcdn.jp/mwimgs/b/0/1200w/img_b091dd1a5f2cc146ec9989980a2e9751913374.jpg",
-      "leadSource": "ABEMA TIMES",
-      "publishedAt": "2026-09-17T12:10:00.000Z",
+      "id": "7eb520af7271",
+      "title": "しまむらで『ポケモン』グッズが発売！ゲンガーのトレーナー、ミミッキュ枕カバーなど「ゴーストタイプ」のアイテム多数",
+      "summary": "しまむらにて、『ポケットモンスター』ゴーストタイプに注目したアパレルやバッグ、寝具類が9月18日発売！同日15時よりオンラインストアでも取り扱われます。",
+      "url": "https://www.inside-games.jp/article/2026/09/17/187911.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1780338.jpg",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-09-17T22:43:29.000Z",
       "sourceCount": 3,
       "articleCount": 4,
       "categories": [
-        "media"
+        "goodscat",
+        "new"
       ],
       "keywords": [
-        "abema",
-        "シルバーウィーク",
-        "ショートアニメ"
+        "グッズ",
+        "発売",
+        "アイテム"
       ],
       "articles": [
         {
-          "title": "【写真・画像】シルバーウィークはABEMAでポケモン三昧！劇場版長編やショートアニメなど計24作品を無料放送 1枚目",
-          "url": "https://times.abema.tv/articles/photo/10273594",
-          "source": "ABEMA TIMES",
-          "publishedAt": "2026-09-17T12:10:00.000Z",
+          "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
+          "url": "https://www.sanyonews.jp/article/1988529?rct",
+          "source": "山陽新聞",
+          "publishedAt": "2026-09-17T22:43:29.000Z",
           "isPR": false
         },
         {
-          "title": "ABEMA、アニメ『ポケモン』劇場版からショートアニメまで計24作品をシルバーウィークに毎日放送！",
-          "url": "https://gamebiz.jp/news/432907",
-          "source": "gamebiz【ゲームビズ】",
-          "publishedAt": "2026-09-17T09:00:00.000Z",
+          "title": "ポケモン×しまむら バッグとポーチの新作全10種 9月19日発売!",
+          "url": "https://collabo-cafe.com/events/collabo/pokemon-fashion-shimamura-2026/",
+          "source": "コラボカフェ",
+          "publishedAt": "2026-09-17T10:34:54.000Z",
           "isPR": false
         },
         {
-          "title": "シルバーウィークもABEMAで“ポケモンアニメ＆映画”！劇場版長編・短編・スピンオフ作品から、ショートアニメ作品まで計24作品を9月19日（土）より4日間連続で毎朝10時から無料放送！",
-          "url": "https://prtimes.jp/main/html/rd/p/000003984.000064643.html",
-          "source": "PR TIMES",
-          "publishedAt": "2026-09-17T08:33:35.000Z",
-          "isPR": true
+          "title": "しまむらで『ポケモン』グッズが9月19日発売！バッグ類や雑貨多数、エーフィ・ブラッキー・イーブイらの組み合わせが可愛い",
+          "url": "https://www.inside-games.jp/article/2026/09/16/187843.html",
+          "source": "インサイド",
+          "publishedAt": "2026-09-16T12:25:02.000Z",
+          "isPR": false
         }
       ]
     },
@@ -824,7 +843,7 @@
         {
           "title": "『ポケモン』ブラッキー＆エーフィのSwitch2コントローラーが予約開始。星空をイメージした幻想的なデザイン",
           "url": "https://www.famitsu.com/article/202609/88261",
-          "source": "famitsu.com",
+          "source": "ファミ通",
           "publishedAt": "2026-09-17T13:50:00.000Z",
           "isPR": false
         },
@@ -880,6 +899,41 @@
       ]
     },
     {
+      "id": "9202ea85184a",
+      "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
+      "summary": "",
+      "url": "https://pokemongo.gamewith.jp/article/show/577622",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
+      "leadSource": "GameWith",
+      "publishedAt": "2026-09-18T01:06:28.000Z",
+      "sourceCount": 2,
+      "articleCount": 3,
+      "categories": [
+        "event",
+        "other"
+      ],
+      "keywords": [
+        "ポケモンGO",
+        "イベントスケジュール"
+      ],
+      "articles": [
+        {
+          "title": "【ゴーグルヒトカゲ】まさかの神展開!!!激熱スポライが最高すぎたっ✨【ポケモンGO】",
+          "url": "https://youtu.be/cVKAF6YxLxc?si",
+          "source": "YouTube",
+          "publishedAt": "2026-09-17T13:47:48.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】2026年9月のイベントスケジュールまとめ",
+          "url": "https://pokemongo.gamewith.jp/article/show/573668",
+          "source": "GameWith",
+          "publishedAt": "2026-09-17T05:31:10.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "0235cd794441",
       "title": "【ポケカ】30th CELEBRATION再録カード特集！それぞれの特徴や注目ポイントなどを解説",
       "summary": "",
@@ -914,43 +968,161 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "42f28e586d0a",
-      "title": "【ゴーグルヒトカゲ】まさかの神展開!!!激熱スポライが最高すぎたっ✨【ポケモンGO】",
-      "summary": "",
-      "url": "https://youtu.be/cVKAF6YxLxc?si",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/573668.png?date=1787706547",
-      "leadSource": "YouTube",
-      "publishedAt": "2026-09-17T13:47:48.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other",
-        "event"
-      ],
-      "keywords": [
-        "ポケモンGO"
-      ],
-      "articles": [
-        {
-          "title": "【ポケモンGO】2026年9月のイベントスケジュールまとめ",
-          "url": "https://pokemongo.gamewith.jp/article/show/573668",
-          "source": "GameWith",
-          "publishedAt": "2026-09-17T05:31:10.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-09-18T00:30:17.500Z",
-    "previousCount": 200,
-    "newCount": 10
+    "previousAt": "2026-09-18T01:00:16.517Z",
+    "previousCount": 199,
+    "newCount": 15
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-18T01:30:16.517Z",
+  "nextUpdateAt": "2026-09-18T02:00:14.242Z",
   "items": [
+    {
+      "id": "bdd5a4d73895",
+      "title": "「ポケモン」ピカチュウ/「ホロライブ」博衣こより＆音乃瀬奏の新コラボキーボードを見た！「東プレ REALFORCE」ブースレポ【TGS2026】",
+      "url": "https://www.inside-games.jp/article/2026/09/18/187933.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "東京ゲームショウ2026の東プレREALFORCEブースでGX1Plusを体感、重厚な打鍵と静音を実感。新コラボの「ピカチュウ」デザインや「博衣こより」＆「音之瀬奏」デザインなども展示。",
+      "publishedAt": "2026-09-18T01:25:02.000Z",
+      "image": "https://www.inside-games.jp/imgs/rss/1782266.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6b377650e349",
+      "title": "シルバーウィークはABEMAでポケモン！朝10時から無料放送",
+      "url": "https://article.auone.jp/75a988bf-be9c-41b0-abfb-16ea10ee9b5f",
+      "host": "article.auone.jp",
+      "source": "au Webポータル",
+      "summary": "",
+      "publishedAt": "2026-09-18T01:23:00.000Z",
+      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/09/18/https___news_jp_i_1473490046816551573_w500.webp",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ac94c686f736",
+      "title": "「ポケミク」特典アクスタに印刷不良 謝罪 良品送付へ 「ポケモン×初音ミクプロジェクト」（スポニチアネックス）",
+      "url": "https://news.yahoo.co.jp/articles/c0f313ab24141cdbbcd595665be6e01aa739aca3",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-18T01:17:21.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260918-00000159-spnannex-000-2-view.jpg?exp=10800",
+      "categories": [
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a5c5154399e2",
+      "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33322/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-18T01:11:04.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "9202ea85184a",
+      "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
+      "url": "https://pokemongo.gamewith.jp/article/show/577622",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-18T01:06:28.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2102f59c9f4c",
+      "title": "【petit main】ポケモン公式ベビーブランド「monpoké（モンポケ）」とのスペシャルアイテム第2弾を発売！",
+      "url": "https://prtimes.jp/main/html/rd/p/000000494.000066361.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-09-18T01:00:02.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/66361/494/66361-494-4e56db021aae8e55e82edf3da466c6c3-3900x1950.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6a2d457f88fa",
+      "title": "セブンイレブン、ポケモンカード販売のルール徹底が「神対応すぎる」と話題 セブン広報は「今後も継続する」と回答",
+      "url": "https://sirabee.com/2026/09/18/20163584269/",
+      "host": "sirabee.com",
+      "source": "Sirabee",
+      "summary": "",
+      "publishedAt": "2026-09-18T01:00:00.000Z",
+      "image": "https://img.sirabee.com/wp-content/uploads/2024/06/sirabee20240617seveneleven1-scaled.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "4befb1c0638a",
       "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
@@ -1053,7 +1225,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "b78a06ec5039",
+      "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
+      "url": "https://www.sanyonews.jp/article/1988529?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-17T22:43:29.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/7/c/7/67c74ed3e23db15450e319590946508b_1.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "6178daec4642",
@@ -1069,27 +1262,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a5c5154399e2",
-      "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33322/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-17T22:10:50.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1134,6 +1306,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5028c2540e3b",
+      "title": "「ポケモンと考える アート・環境教育展 in 八重洲」開催のお知らせ - pokemon-foundation.or.jp",
+      "url": "https://www.pokemon-foundation.or.jp/news/179/",
+      "host": "pokemon-foundation.or.jp",
+      "source": "pokemon-foundation.or.jp",
+      "summary": "",
+      "publishedAt": "2026-09-17T18:23:57.000Z",
+      "image": "https://www.pokemon-foundation.or.jp/assets/img/og_fb.jpg",
+      "categories": [
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0c50d8146166",
@@ -1208,27 +1399,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b78a06ec5039",
-      "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
-      "url": "https://www.fukuishimbun.co.jp/articles/gallery/2697973?ph",
-      "host": "fukuishimbun.co.jp",
-      "source": "福井新聞社",
-      "summary": "",
-      "publishedAt": "2026-09-17T16:10:50.000Z",
-      "image": "https://fki.ismcdn.jp/mwimgs/7/4/-/img_7454798b16f9471c0102df62dbf59a8d65617.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1391,7 +1561,7 @@
       "title": "【ポケカ】『30th CELEBRATION』FUR/SAR/ARまとめ。ポケカ30周年をお祝いした記念パックがついに発売。新レアリティのミュウ、ミュウツーも登場。",
       "url": "https://www.famitsu.com/article/202609/87867",
       "host": "famitsu.com",
-      "source": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
       "publishedAt": "2026-09-17T14:00:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/87867/thumbnail_aExs.png?x=1280",
@@ -1413,7 +1583,7 @@
       "title": "『ポケモン』ブラッキー＆エーフィのSwitch2コントローラーが予約開始。星空をイメージした幻想的なデザイン",
       "url": "https://www.famitsu.com/article/202609/88261",
       "host": "famitsu.com",
-      "source": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
       "publishedAt": "2026-09-17T13:50:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/88261/thumbnail_paiz.jpg?x=1280",
@@ -1448,7 +1618,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7eb520af7271",
@@ -1619,7 +1789,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2e427ffc8771",
@@ -1748,13 +1918,13 @@
     },
     {
       "id": "09b245d989f8",
-      "title": "ポケモン関連商品の偽造品の注意点とは?正規品と比較で説明 ポケカやぬいぐるみ…スニダン鑑定研究所の公式レポート",
-      "url": "https://www.oricon.co.jp/news/2481165/photo/12/",
-      "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "title": "ポケモン関連商品の偽造品の注意点とは？正規品と比較で説明 ポケカやぬいぐるみ…スニダン鑑定研究所の公式レポート",
+      "url": "https://news.yahoo.co.jp/articles/654c5e5d521f6c2885f9d1fdd246455cdbf3a8f4",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-09-17T09:21:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2482000/2481165/20260917_181349_p_o_52247308.jpg",
+      "publishedAt": "2026-09-17T09:21:11.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260917-00000552-oric-000-1-view.jpg?exp=10800",
       "categories": [
         "tcgcat",
         "goodscat"
@@ -2025,7 +2195,7 @@
       "title": "【ポケモン】ゲーミングキーボード『REALFORCE GX1 Plus』ピカチュウエディションが発表。12月から量販店で予約販売スタート【TGS2026】",
       "url": "https://www.famitsu.com/article/202609/88285",
       "host": "famitsu.com",
-      "source": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
       "publishedAt": "2026-09-17T06:03:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/88285/thumbnail_DZIX.jpg?x=1280",
@@ -2454,27 +2624,6 @@
       "isNew": false
     },
     {
-      "id": "bba017e2ce35",
-      "title": "しまむらにて、トートバッグやミニポーチなど「ポケモン」アイテムが9月19日より発売",
-      "url": "https://www.ndw.jp/pokemon-goods-260916/",
-      "host": "ndw.jp",
-      "source": "Nintendo DREAM WEB",
-      "summary": "",
-      "publishedAt": "2026-09-16T15:13:20.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/09/260916-pokemongoods-00.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "f90b71a13bd5",
       "title": "「ポケモン言えるかな？」3COINSで『初代ポケモン151匹大集合・ビニール傘』を見つけた！「ついつい歌いたくなる！」（LIMO）",
       "url": "https://news.yahoo.co.jp/articles/e8ca7b21101d45450007010a253c124644c4fa8e",
@@ -2494,28 +2643,6 @@
       "isNew": false
     },
     {
-      "id": "f7c2b24eb0f5",
-      "title": "【ポケポケ】HP回復のおすすめカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466695",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-16T13:20:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466695.png?date=1743150329",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "85f502aee5a3",
       "title": "【アニポケコラボ】最悪の事態が起きた……【ポケモンGO】",
       "url": "https://youtu.be/Hl41R0IRtbo?si",
@@ -2523,7 +2650,7 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-16T12:51:11.000Z",
-      "image": "https://i.ytimg.com/vi/Hl41R0IRtbo/maxresdefault.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -2753,27 +2880,6 @@
       "isNew": false
     },
     {
-      "id": "f6eb8596a22b",
-      "title": "【ポケカ】ミュウ B/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33324/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-16T10:21:51.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/f8c38fab-0e4e-42ca-85e0-e36f5cbd8121.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "567607c2ed39",
       "title": "30周年ポケカ、即転売で100万円超えの落札 異常事態に「ミュウだしてアルファード買いたい」の声も（ENCOUNT）",
       "url": "https://news.yahoo.co.jp/articles/1f69d975afac0768484f56eccebfa0c62b4f4d89",
@@ -2820,7 +2926,7 @@
       "title": "『ポケモンカードゲーム』30周年記念拡張パックより特別仕様の “RGB ミュウ” 3種が発覚",
       "url": "https://hypebeast.com/jp/2026/9/pokemon-tcg-30th-celebration-mew-rgb-card-news",
       "host": "hypebeast.com",
-      "source": "Hypebeast",
+      "source": "hypebeast.com",
       "summary": "",
       "publishedAt": "2026-09-16T08:26:40.000Z",
       "image": "",
@@ -3068,7 +3174,7 @@
       "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2e05b06cbda0",
@@ -3115,7 +3221,7 @@
     {
       "id": "82110ca01a3f",
       "title": "超巨大「モンスターボール」や「タマザラシ」が夜のラスベガスに登場！世界最大の“球形スクリーン”で表現された『ポケモンス",
-      "url": "https://news.nicovideo.jp/watch/nw19778377?news_ref",
+      "url": "https://news.nicovideo.jp/watch/nw19778377",
       "host": "news.nicovideo.jp",
       "source": "ニコニコニュース",
       "summary": "",
@@ -3302,7 +3408,7 @@
       "title": "【ポケモン】“泊まれるモンスターボール”ホテルへ行ってみた！ はたしてどんなホテルなのか、写真で紹介【ポケスリ】",
       "url": "https://www.famitsu.com/article/202609/87753",
       "host": "famitsu.com",
-      "source": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
       "publishedAt": "2026-09-16T01:56:26.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/87753/thumbnail_sxVt.png?x=1280",
@@ -3347,7 +3453,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-09-16T01:39:58.000Z",
-      "image": "https://kahoku.news/images/2026/09/16/ori2480654/001_size7.jpg?timestamp=20260918100040",
+      "image": "https://kahoku.news/images/2026/09/16/ori2480654/001_size7.jpg?timestamp=20260918103041",
       "categories": [
         "other"
       ],
@@ -3466,27 +3572,6 @@
       "isNew": false
     },
     {
-      "id": "30ae578816f7",
-      "title": "【ポケモンGO】ほのおタイプのポケモンを10匹捕まえる(イベント)の報酬",
-      "url": "https://pokemongo.gamewith.jp/article/show/577122",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-15T22:26:14.000Z",
-      "image": "",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "aed9f7faab63",
       "title": "【ポケスリ】ミュウツー 性能と厳選基準について徹底解説！【ポケモンスリープ】",
       "url": "https://youtu.be/FKuk__wPecc?si",
@@ -3528,6 +3613,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "d7b5b487fc3d",
+      "title": "【ポケモンSV】アシレーヌの色違いと特性・進化と弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/429811",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-15T19:14:05.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "90803e1d0057",
@@ -3579,7 +3685,7 @@
       "title": "『ポケGO』“限定色違い”と“スペシャル背景”が狙える1週間！「テレビアニメコラボ2026」重要ポイントまとめ",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUGtzR254YnNWRVlPc0R3Z2RQUjg5Z25nVVdmNXJNQUtkX3lOZEJ1eEw0aXNmZzhIMnpwNXpIZmtnR2lJR0VROHhZcUVsckRjQllGa2FTUFJORkpZUWNJZUFUak8xRTBsQjF5S3FWWlp6Wl8zd2dnbFpiUTlmdm5DVU4tTFcwOEJpVFVV0gGHAUFVX3lxTFB3TzFsZkhLb0pWeXdybi0yVHByN19HNHJqWTNfSmtnUFo5U0VDUjU3T0pKeUlmUjRKM3BoNXpRLTVXNWtFUWFEN1JpdzAxZGVsRFRWRGFxVXNaMU16R0dRQkEtWUthRTl2MWI3U2tGUWxQRnNIcUNlN1p4YVA5aVFVTHgtT05mZw?oc=5",
       "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
+      "source": "topics.smt.docomo.ne.jp",
       "summary": "",
       "publishedAt": "2026-09-15T15:00:00.000Z",
       "image": "",
@@ -3624,7 +3730,7 @@
       "title": "【ポケスリ】泊まれるモンスターボール、誕生!? ポケモン30周年、『ポケモンスリープ』3周年を記念したキャンペーンが開催",
       "url": "https://www.pashplus.jp/game_app/495581/",
       "host": "pashplus.jp",
-      "source": "PASH! PLUS",
+      "source": "pashplus.jp",
       "summary": "",
       "publishedAt": "2026-09-15T14:10:32.000Z",
       "image": "https://www.pashplus.jp/wp-content/uploads/01-2447.jpg",
@@ -3742,7 +3848,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "46ac93cf886b",
@@ -3813,7 +3919,7 @@
       "title": "画像・写真 | メルカリ、ポケモンカード30周年関連の新商品の出品禁止 16日から一定期間で実施 2枚目",
       "url": "https://www.oricon.co.jp/news/2480608/photo/2/",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-15T10:23:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2481000/2480608/20260601_220830_p_o_40287118.jpg",
@@ -3868,6 +3974,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "58cf0035d761",
+      "title": "ノットアホテル、森に「モンスターボール」型寝室 ポケモンとコラボ",
+      "url": "https://www.nikkei.com/article/DGXZQOUC1567Z0V10C26A9000000/",
+      "host": "nikkei.com",
+      "source": "日本経済新聞",
+      "summary": "",
+      "publishedAt": "2026-09-15T09:25:43.000Z",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3601644015092026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=089028b7fcedd8939ccf988cf2bd180d",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "e6e8a37f82c7",
@@ -3932,7 +4059,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d2cb57ee3cbf",
@@ -3967,25 +4094,6 @@
       "categories": [
         "new",
         "event"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cb39d572c3ee",
-      "title": "おはスタ【ポケモン・レジェンドリサーチを調査！ハナコのアニポケルーム】",
-      "url": "https://www.tv-osaka.co.jp/onair/detail/oaid",
-      "host": "tv-osaka.co.jp",
-      "source": "TVO テレビ大阪",
-      "summary": "",
-      "publishedAt": "2026-09-15T07:05:02.000Z",
-      "image": "",
-      "categories": [
-        "other"
       ],
       "series": [],
       "isOfficial": false,
@@ -4039,7 +4147,7 @@
       "title": "『ポケモン』泊まれるモンスターボール発表。『ポケスリ』とNOT A HOTELの特別コラボ。詳細は9月15日解禁",
       "url": "https://www.famitsu.com/article/202609/86209",
       "host": "famitsu.com",
-      "source": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
       "publishedAt": "2026-09-15T07:00:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/86209/thumbnail_jzfp.jpg?x=1280",
@@ -4100,25 +4208,6 @@
       "isNew": false
     },
     {
-      "id": "19d8a1edf607",
-      "title": "ポケモンやブルーイもが登場、YouTubeがシルバーウィークにキッズ向け特別プレイリスト公開",
-      "url": "https://article.auone.jp/d8ae3c84-6ca3-4336-8ba9-ea6145008ae6",
-      "host": "article.auone.jp",
-      "source": "au Webポータル",
-      "summary": "",
-      "publishedAt": "2026-09-15T05:49:00.000Z",
-      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/09/15/https___news_mynavi_jp_article_20260915-4972198_.jpg",
-      "categories": [
-        "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "cfc9d04f9583",
       "title": "【ポケモンSV】コノヨザルの進化と色違い・弱点と出現場所【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373400",
@@ -4159,6 +4248,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4ff6390b6cee",
+      "title": "『満月の晩のカラカラの過ごし方』Pokémon Sleep公式の動画によって、初代から続く「かわいそう…なんとかしてあげて…」に答えが出て泣いた",
+      "url": "https://togetter.com/li/2745779",
+      "host": "togetter.com",
+      "source": "Togetter",
+      "summary": "",
+      "publishedAt": "2026-09-15T03:37:08.000Z",
+      "image": "https://s.tgstc.com/ogp3/ed2e4c34e421732baf671ffd70b081be-1200x630.jpeg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "368594155876",
@@ -4245,27 +4355,6 @@
       "isNew": false
     },
     {
-      "id": "8663a2ef2b20",
-      "title": "【ポケモンSV】モルフォンの色違いと進化・努力値【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373714",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-15T03:16:55.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "8b85bbe179f5",
       "title": "【ポケモンSV】ガーディの進化と色違い・出現場所【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373705",
@@ -4331,7 +4420,7 @@
     {
       "id": "71eb0abca018",
       "title": "【ポケモンSV】ウソッキーの弱点と進化・色違い【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JZkthRDlVd01IdkVWcjdNUlJCMl9WMUZVTjlOcmlmN2F0djFzTmpSVDV0TWxSUWZhenNGR1dqWnNma1VncEYyRzJUVEd3UGw5eVFvRFJybnZiLVBxTTV3?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4345,14 +4434,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "6f683fd723bc",
       "title": "【ポケモンSV】ヤドキングの進化と色違い・弱点【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373660",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1vV0VhNXdnUTcxbFBfdk5kZ1k3bkJ1Uy1OcDJzWWk1bzNGSF9VT2l1OVBwa0ZKY3d5SDEwTC02MUh0Rnp6QTR3RE5PS3BVNllxOS0tN29lV3lDVXhkbGl3?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4366,7 +4455,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -4455,11 +4544,32 @@
       "isNew": false
     },
     {
+      "id": "0d9d57ebe885",
+      "title": "【ポケモンSV】ルカリオの色違いと進化・弱点と技構成【スカーレットバイオレット】",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aR3hwa1M0RnEwSnUySFd2Y2JWQjJhVEo4bVZ2T09oRTl1RlZPNVdNbEJxakpsYUVsd3hlX2xwVzJwVERmZ2MtZ2x2THlCbENFWmlmZU1OUjJYY29CTkc0?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-15T03:15:06.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9b40e2fccbf5",
       "title": "画像・写真 | アディダス『ポケモン』特別コラボ実現 センス抜群なデザイン！靴やシャツ、ジャケットなど展開 4枚目",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ISExVU1JlVGRuRktYWHI0SW1PVmN1TzVXZm94bFp6LXJYMnFuVUVNUFkzak5pZEc2VXFFOU9Ya052dEpEaGQzZEpTbTBkamJud0dYRXZZd1lkQQ?oc=5",
       "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-09-15T03:15:00.000Z",
       "image": "",
@@ -4479,27 +4589,6 @@
       "id": "4e20399acedf",
       "title": "【ポケモンSV】グレイシアの色違いと進化方法・夢特性と技構成【スカーレットバイオレット】",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UaUdUQnVDWkJjNjBoU19hZmFjUW14Qm5YM3M5XzAzRzdSWllhYXdRcEpPMWRxUmhPb3VNQXBrbFRPVW1ad2dQMlFKdUF2SXdEdlJOOXpIb3RzVzQ3N0Vr?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-15T03:14:56.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "819452a1b6be",
-      "title": "【ポケモンSV】リーフィアの色違いと進化・弱点と夢特性【スカーレットバイオレット】",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lT3R1akhjOUtDeTl3ZkluWTdNYTNtdk9OX1VibHFNbVFaQUpkOUVxNmk0TnhvRHctZS1DRnQ4VGt1elcya3Vrc2JwaWlzdTZTUWdJQ3BGeXlROUVScWsw?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4791,6 +4880,48 @@
       "isNew": false
     },
     {
+      "id": "d4f4cf123dd3",
+      "title": "【ポケモンSV】ヨノワールの進化と色違い・弱点【スカーレットバイオレット】",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HTWwtdjdLa1Zob3JBUmJBMHowbWtmcHFwV2U1T3NFSWRER25UQ08wd3hQTUR5UEdPVGI0akJINmphU2ZWbDNqMEdfd2UwX1BOY3RNU0JLeGpzUEtkX2Zj?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-15T03:10:09.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b40948813c63",
+      "title": "『ポケモン』×「アディダス」コラボコレクションが発売！ピカチュウやゲンガーなどモチーフのシューズ&アパレルが遊び心溢れるデザイン",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaVUlKNEFzMXU4cU1UVWV4WXJUUnp0U05OaGw3NzhxX3N5V3hBcjA5LV9GcnA3N0pEQ1dKbUFWR1BrWDIyWFNmeXFmSWRyRmVXRGVnRzkxVUswZUNaS3RyTFhHX3dQLVlGQUE?oc=5",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-09-15T03:10:03.000Z",
+      "image": "",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "8cd889203d47",
       "title": "【ポケモンSV】ドダイトスの色違いと進化・弱点【スカーレットバイオレット】",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EdW1GcHB0R3UyOWpmbkhQNVV1bXRnVFh1UGRKUm9JVVZnbzVpRXhmQVpSTFRuY2ZUeWItQXl0aW9JbWI4ckFDUEtzeFgwM1Jqc0Y5bGtlREFKRWtqR2Uw?oc=5",
@@ -4896,37 +5027,16 @@
       "isNew": false
     },
     {
-      "id": "aa5d7c6de30c",
-      "title": "【ポケモンSV】うすもものミツの入手方法と効果【スカーレットバイオレット】",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1OdzlTdmowYjFDdjdJaExBVDF1TFhaS2VoZEVEQzRGWlRDN09UR0xFb21DTTk0ZEk0MHRiNmlGZXVnYnhkOVluZVh2Wi1vNnZfN3A0R2hfQ0E3S0VyLTJr?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
+      "id": "e2130046b75b",
+      "title": "【ポケモン】アディダス オリジナルスのコラボ商品が本日（9/15）発売。ゲンガーのまなざしをデザインしたスニーカーなどが登場",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxSlBXekdXbXZZbU9peWhSaEZEZkx3TTlEbUJBMm5IbzVTZ2UyUjEzNnlDVFhiRzVaSDMzNjZCZjVHQ2FUTVVjcUhFQUVtd2FOQXBhb1pjNA?oc=5",
+      "host": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
-      "publishedAt": "2026-09-15T03:06:45.000Z",
+      "publishedAt": "2026-09-15T02:46:00.000Z",
       "image": "",
       "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f18c7f756a5c",
-      "title": "3COINS×ポケモン「赤・緑」30周年記念でバッグ/マグカップ/小皿/ポーチ/ステッカーなど全62アイテムを発売！",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5TTEthNU1PNHNxMVAzVHB5dmZZSVdEenJUVEVtMGtVYTljV2g2amhETExlbE9DS3JtQll2UldjclFGQjBHa3NfUE8xR0FnYjJvZEU2X3ZNVEtpVm1NMWlCZjFSZnNqdXliX1E?oc=5",
-      "host": "gourmet.watch.impress.co.jp",
-      "source": "グルメ Watch",
-      "summary": "",
-      "publishedAt": "2026-09-15T02:52:57.000Z",
-      "image": "",
-      "categories": [
-        "other"
+        "goodscat"
       ],
       "series": [
         "goods"
@@ -5003,7 +5113,7 @@
       "title": "「ポケモン」モンスターボールに泊まれる!? 北海道・苫小牧に「モンスターボール型ホテル」があらわれた☆ 抽選で宿泊体験プレゼント",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qY3otN1Q5RkdoMVBPOFpNcGY3X25wRHhjZ3hFa2N3amUwdTcwWUZ2a3FaWXlSQmxDd3UxRkxQTFNheXhuNWd5cDgtTGlHa0dWLXp6c0licXFnY1lxVlJMNFdB?oc=5",
       "host": "animeanime.jp",
-      "source": "アニメ！アニメ！",
+      "source": "animeanime.jp",
       "summary": "",
       "publishedAt": "2026-09-15T02:00:04.000Z",
       "image": "",
@@ -5018,70 +5128,13 @@
       "isNew": false
     },
     {
-      "id": "6f7eed442233",
-      "title": "『ポケモン』フリードとリザードンの出会いとは？ ヒトカゲ時代の過去…第150話あらすじ＆場面カット解禁",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pcHlZZkdIcE9XS1N1VGVuazBTSl82ckNfNUdpZ085bjc2am9Hc1NuSXRlWWpNRDJ1alVzRjNBcGhYY0YxamVGSElOa2w4NlM5a05FaDdrOW5DQlNaNDBzbkEtYmhnQQ?oc=5",
-      "host": "fukuishimbun.co.jp",
-      "source": "福井新聞社",
+      "id": "5f1ad459db7f",
+      "title": "『ポケモン』30周年記念グッズが「3COINS」より登場！ ショッピングバッグやミニタオルなど普段使いにも大活躍のアイテムがラインナップ",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9UeWQ3RXNiaDBVcU44by1VdnBfS0ZfY0F3bTNSLTdmQWgyblgtZGlhQy1XdTNZLXhINFYtR2NkTVRFcW9UZkQzdnJLZ19ndw?oc=5",
+      "host": "pashplus.jp",
+      "source": "pashplus.jp",
       "summary": "",
-      "publishedAt": "2026-09-15T01:20:56.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "27f729beed14",
-      "title": "「泊まれるモンスターボール」詳細発表 直径3メートルの球体が北海道・苫小牧に出現、好きなポケモンと就寝",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tVG81bmd4QUVsemJvS2h6cE9jN1Byd19qUG1TRzQ3ZXZjckRoajQwUW5INHpNOFhEWmk5QTZHbHdMYlRzOFJOZXVrTXhSWWVINGNjVmM1bTZNdw?oc=5",
-      "host": "oricon.co.jp",
-      "source": "oricon.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-15T01:06:44.000Z",
-      "image": "",
-      "categories": [
-        "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c52062f3e4e6",
-      "title": "北海道・苫小牧に「泊まれるモンスターボール」出現 湖のほとりでポケモンの世界を堪能できる特別体験",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WZUxfWWYxb3R5RlpfNm5JWVhrNFVHQmtrWHZxZVN0Z195Yk1GRlpuOHAtTW40aE5iV1U3di1YRHVmRHZUMXFpVzU1YlpVVFlBMWxldA?oc=5",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-09-15T01:06:02.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cd0a0ae3e0de",
-      "title": "「NOT A HOTEL」が「ポケモン」とコラボ！ 北海道に“泊まれるモンスターボール”が出現",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdGJKcWVnSFZmYzlJb0tJY21Qb21fQ1RudncwQmI5YUhkZ3BDSjJIelN0ZTFHdkEtOTYzaVJkTmszRnIybnRxQTU1eHU4T0JrbXVuRkNUeDNtMUVENkxpR0lic1Y2V0UxUi1iYXEyWjhsUTJ4UGxpbi0tT2I1bml3V3lBRjczY2JtNW9VRG5NRDQ?oc=5",
-      "host": "elle.com",
-      "source": "ELLE",
-      "summary": "",
-      "publishedAt": "2026-09-15T01:05:08.000Z",
+      "publishedAt": "2026-09-15T01:55:35.000Z",
       "image": "",
       "categories": [
         "goodscat"
@@ -5093,30 +5146,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0505a80ef690",
-      "title": "「ポケモンスリープ」とノットアホテルがコラボ モンスターボール型ホテルに宿泊できるキャンペーンを実施",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvYVdQcVR2OHRXOUFNZDB0djNGMU9WYTFJa1NZMjFwZWRKTmo3MU52QjNZVVoxWUMwUmtVSFhxMWNwTURDS0tYRTdpLWRBaTNLczlB?oc=5",
-      "host": "wwdjapan.com",
-      "source": "WWDJAPAN",
-      "summary": "",
-      "publishedAt": "2026-09-15T01:01:15.000Z",
-      "image": "",
-      "categories": [
-        "event",
-        "goodscat"
-      ],
-      "series": [
-        "sleep",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     }
   ]
 }
