@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-21T21:00:15.814Z",
+  "updatedAt": "2026-09-21T21:30:14.909Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 150,
-  "todayCount": 18,
+  "total": 149,
+  "todayCount": 20,
   "categories": [
     {
       "id": "new",
@@ -17,27 +17,27 @@
     {
       "id": "update",
       "label": "アップデート",
-      "count": 1
+      "count": 2
     },
     {
       "id": "event",
       "label": "イベント",
-      "count": 17
+      "count": 16
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 43
+      "count": 44
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 18
+      "count": 17
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 6
+      "count": 4
     },
     {
       "id": "guide",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 13
+      "count": 14
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 49
+      "count": 50
     }
   ],
   "series": [
@@ -74,12 +74,12 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 44
+      "count": 45
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 5
+      "count": 3
     },
     {
       "id": "unite",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 24
+      "count": 23
     }
   ],
   "weapons": [],
@@ -104,12 +104,12 @@
       "count": 47
     },
     {
-      "name": "youtu.be",
+      "name": "YouTube",
       "count": 19
     },
     {
       "name": "SNKRDUNK",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Yahoo!ニュース",
@@ -117,7 +117,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 9
+      "count": 8
     },
     {
       "name": "AppMedia",
@@ -136,11 +136,15 @@
       "count": 3
     },
     {
-      "name": "tv-tokyo.co.jp",
-      "count": 3
+      "name": "ウォーカープラス",
+      "count": 2
     },
     {
       "name": "ファミ通",
+      "count": 2
+    },
+    {
+      "name": "tv-tokyo.co.jp",
       "count": 2
     },
     {
@@ -150,10 +154,6 @@
     {
       "name": "4Gamer.net",
       "count": 2
-    },
-    {
-      "name": "ウォーカープラス",
-      "count": 1
     },
     {
       "name": "東愛知新聞",
@@ -212,10 +212,6 @@
       "count": 1
     },
     {
-      "name": "ABEMA",
-      "count": 1
-    },
-    {
       "name": "いこーよニュース",
       "count": 1
     },
@@ -228,7 +224,7 @@
       "count": 1
     },
     {
-      "name": "news.ntv.co.jp",
+      "name": "日テレNEWS NNN",
       "count": 1
     }
   ],
@@ -270,7 +266,7 @@
         {
           "title": "【Google Fitbit Air】Pokémon Sleepコラボを開封＆試してみた！",
           "url": "https://youtu.be/jI_DY-vul04?si",
-          "source": "youtu.be",
+          "source": "YouTube",
           "publishedAt": "2026-09-19T00:00:16.000Z",
           "isPR": false
         }
@@ -283,7 +279,7 @@
       "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
       "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
       "leadSource": "GameWith",
-      "publishedAt": "2026-09-21T17:27:37.000Z",
+      "publishedAt": "2026-09-21T15:16:24.000Z",
       "sourceCount": 2,
       "articleCount": 17,
       "categories": [
@@ -299,7 +295,7 @@
         {
           "title": "【アグノム！】課金なし開封動画 ポケポケ#219 #ポケモンカード #ポケカ #shorts #pokemoncards #pokemon #ar#ex",
           "url": "https://youtu.be/PAn9HCTk4bY?si",
-          "source": "youtu.be",
+          "source": "YouTube",
           "publishedAt": "2026-09-21T14:37:33.000Z",
           "isPR": false
         },
@@ -534,7 +530,7 @@
       "summary": "",
       "url": "https://youtu.be/VEBuja_2uDc?si",
       "image": "",
-      "leadSource": "youtu.be",
+      "leadSource": "YouTube",
       "publishedAt": "2026-09-19T09:36:35.000Z",
       "sourceCount": 2,
       "articleCount": 2,
@@ -557,13 +553,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-21T20:30:17.869Z",
-    "previousCount": 152,
-    "newCount": 4
+    "previousAt": "2026-09-21T21:00:15.814Z",
+    "previousCount": 150,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-21T21:30:15.814Z",
+  "nextUpdateAt": "2026-09-21T22:00:14.909Z",
   "items": [
+    {
+      "id": "a62b5b86d466",
+      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【9/21更新】",
+      "url": "https://snkrdunk.com/articles/33304/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-21T20:34:11.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "a5c5154399e2",
       "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
@@ -603,7 +620,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "f509a7b7a331",
+      "title": "【ポケモンチャンピオンズ】最強パーティランキング｜おすすめ構築",
+      "url": "https://gamewith.jp/pokemon-champions/555537",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T19:20:10.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/555537.png?date=1775997490",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "ec6347ecc410",
@@ -648,6 +685,26 @@
       "isNew": false
     },
     {
+      "id": "8dc0db820d35",
+      "title": "【ポケモンチャンピオンズ】ブリジュラスの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/554978",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T18:03:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554978.png?date=1775801139",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "eec8c4ac79f4",
       "title": "ポケモン1025匹の30周年記念ロゴがTシャツに！Tシャツコレクションが9月18日よりZOZOTOWNで販売開始",
       "url": "https://www.walkerplus.com/article/1441015/",
@@ -664,7 +721,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "884d74fbeb4f",
@@ -680,27 +737,6 @@
         "community"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c6ce94867b8a",
-      "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-21T17:27:37.000Z",
-      "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -758,27 +794,6 @@
       "summary": "",
       "publishedAt": "2026-09-21T17:16:59.000Z",
       "image": "https://cdn.snkrdunk.com/images/ogp/og-image.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a62b5b86d466",
-      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【9/21更新】",
-      "url": "https://snkrdunk.com/articles/33304/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-21T17:02:07.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
       "categories": [
         "tcgcat"
       ],
@@ -872,6 +887,27 @@
       "isNew": false
     },
     {
+      "id": "c6ce94867b8a",
+      "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T15:16:24.000Z",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "10836196f490",
       "title": "【ポケモンチャンピオンズ】ソウブレイズの育成論と対策・パーティ",
       "url": "https://gamewith.jp/pokemon-champions/555328",
@@ -948,7 +984,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "24cf7ffbb340",
@@ -1080,7 +1116,7 @@
       "title": "【アグノム！】課金なし開封動画 ポケポケ#219 #ポケモンカード #ポケカ #shorts #pokemoncards #pokemon #ar#ex",
       "url": "https://youtu.be/PAn9HCTk4bY?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-21T14:37:33.000Z",
       "image": "",
@@ -1201,26 +1237,6 @@
       "isNew": false
     },
     {
-      "id": "f509a7b7a331",
-      "title": "【ポケモンチャンピオンズ】最強パーティランキング｜おすすめ構築",
-      "url": "https://gamewith.jp/pokemon-champions/555537",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-21T12:52:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/555537.png?date=1775997490",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "84e1f4a7c273",
       "title": "【ポケカ】ミュウex FURの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
       "url": "https://snkrdunk.com/articles/32477/",
@@ -1282,6 +1298,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4befb1c0638a",
+      "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33323/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-21T10:52:13.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/93efbc7f-92bd-4d56-bf1b-61150d19a2b2.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "273b1c2b851e",
@@ -1351,7 +1388,7 @@
       "title": "【明日】今回はいつもと違うから大丈夫！でもとんでもないバグ発生＆ミュウツーの価値が暴落…【シルバーウィーク事情】",
       "url": "https://youtu.be/pyqHpFHx_IQ?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-21T09:25:31.000Z",
       "image": "",
@@ -1380,25 +1417,6 @@
       "series": [
         "go"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3fff252cbc3d",
-      "title": "【ぽこあポケモン】ブクブクうみぞこの街の行き方と攻略【ぽこポケ】",
-      "url": "https://gamewith.jp/pocoapokemon/571194",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-21T08:58:08.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/571194.png?date=1785992339",
-      "categories": [
-        "guide"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1443,27 +1461,6 @@
       ],
       "series": [
         "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b3625a4753e2",
-      "title": "【ポケカ】パラダイムトリガーの当たりランキングと買取価格・相場一覧まとめ | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/14275/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-21T07:57:14.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20240606104046-0.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2017,27 +2014,6 @@
       "isNew": false
     },
     {
-      "id": "b78a06ec5039",
-      "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
-      "url": "https://www.sanyonews.jp/article/1988529",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-09-21T01:49:57.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/7/c/7/67c74ed3e23db15450e319590946508b_1.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ac021efa4c88",
       "title": "【ポケモンGO】ポケモン天文台イベントの開催期間と場所",
       "url": "https://pokemongo.gamewith.jp/article/show/544716",
@@ -2185,6 +2161,25 @@
       "isNew": false
     },
     {
+      "id": "9a03c8812b3e",
+      "title": "“ポケモン”を御殿場プレミアム・アウトレットでゲット",
+      "url": "https://www.walkerplus.com/trend/matome/article/61280/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-09-21T00:03:14.000Z",
+      "image": "https://news.walkerplus.com/article/61280/341314_615.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "cc2413868714",
       "title": "「ポケモン天文台」で世界初公開！約4億7000万年前の「隕石の化石」Ark 017を豊橋会場（のんほいパーク「豊橋市自然史博物館」）から展示開始",
       "url": "https://animeanime.jp/release/prtimes/20260921/314478.html",
@@ -2264,27 +2259,6 @@
       "isNew": false
     },
     {
-      "id": "06fe03412c7d",
-      "title": "【ポケモンGO】2026年9月のイベントスケジュールまとめ",
-      "url": "https://pokemongo.gamewith.jp/article/show/573668",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-20T21:49:13.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/573668.png?date=1787706547",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7497a93d8307",
       "title": "『ポケモン』オーガポン登場！キタカミの里のお祭り物語 第151話あらすじ＆場面カット公開",
       "url": "https://www.sanyonews.jp/article/1991533",
@@ -2308,7 +2282,7 @@
       "title": "【アニポケコラボ】やるんだな！？今………！ここ(八重洲)で！！【ポケモンGO】",
       "url": "https://youtu.be/r6AJ-OKCSI4?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T21:24:16.000Z",
       "image": "",
@@ -2411,7 +2385,7 @@
       "title": "自由すぎるレジェンド調査の旅 !!!! in埼玉→東京【ポケモンGO】",
       "url": "https://youtu.be/kdqn8Vc_qe0?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T14:58:16.000Z",
       "image": "",
@@ -2453,7 +2427,7 @@
       "title": "【大阪】ポケフタ&ポケセン1日でコンプリート!!!結果は!?大阪満喫ですわ〜✨【ポケモンGO】",
       "url": "https://youtu.be/kD-1fUK3ObI?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T14:21:18.000Z",
       "image": "",
@@ -2474,7 +2448,7 @@
       "title": "【ポケモンGO】実は使い方次第で最強のひこうアタッカーになるメガムクホークのスーパーメガレイドイベントに参加したら個体値100や色違いが！？",
       "url": "https://youtu.be/uAZE_6por7s",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T14:05:33.000Z",
       "image": "",
@@ -2580,7 +2554,7 @@
       "title": "【ポケモンGO】7万8678人が集まるTGSだったらスーパーメガレイドが成立する説→検証してみた結果ｗｗ",
       "url": "https://youtu.be/4EQxtgC3SbA",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T11:52:30.000Z",
       "image": "",
@@ -2637,7 +2611,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "beceb7844cf0",
@@ -2665,7 +2639,7 @@
       "title": "【明日から無料入手⚠️】このあと受け取り早めに！？このあと日本限定入手とさらにあの激レアも・・？【ポケモンGO・三鳥ダイマックス・ESAコラボ・pokemon GO】",
       "url": "https://youtu.be/SRvE_ZUcoxM?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T08:28:34.000Z",
       "image": "",
@@ -2683,11 +2657,32 @@
       "isNew": false
     },
     {
+      "id": "5ccf05627466",
+      "title": "【ポケカ】ゲンガー(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION",
+      "url": "https://snkrdunk.com/articles/33357/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-20T08:09:34.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/6b49f36d-8083-4ed4-9f8f-19b190d74ae2.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "371501695a57",
       "title": "ミアレ美術館で迷子のコーフライ12匹大捜索！まさかの13匹目ゲット＆ビビヨンへ進化！！＃５０【 Pokémon LEGENDS Z-A 】",
       "url": "https://youtu.be/2mLqaQ_l6zI?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T08:01:14.000Z",
       "image": "",
@@ -2849,7 +2844,7 @@
       "title": "【育成忘れてない？】明日からの最強に備えよ！日本でGETできる激レアを制するために！今週のポケ活まとめ【ポケモンGO】",
       "url": "https://youtu.be/21eDkd6ezwY?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-20T03:34:11.000Z",
       "image": "",
@@ -2951,6 +2946,27 @@
       "isNew": false
     },
     {
+      "id": "29cf83a33a47",
+      "title": "【ポケモンGO】GOバトルリーグ黄昏の旅路シーズンのスケジュールと調整内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/574389",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-20T00:15:49.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574389.png?date=1788169180",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a1a8a86bce3d",
       "title": "ポケモンとどこいく！？【すいすて音井ちゃんと“ぽこポケ”特集！】(テレ東、2026/9/27 07:30 OA)の番組情報ページ - tv-tokyo.co.jp",
       "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202609/26884_202609270730.html",
@@ -2963,27 +2979,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4a802bc252c7",
-      "title": "ポケモンとどこいく！？｜テレビ東京アニメ公式 - tv-tokyo.co.jp",
-      "url": "https://www.tv-tokyo.co.jp/anime/pokedoko/pokemogu/mogu_260920.html",
-      "host": "tv-tokyo.co.jp",
-      "source": "tv-tokyo.co.jp",
-      "summary": "",
-      "publishedAt": "2026-09-19T23:22:52.000Z",
-      "image": "https://www.tv-tokyo.co.jp/anime/pokedoko/images/facebook_icon.jpg",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3029,32 +3024,11 @@
       "isNew": false
     },
     {
-      "id": "3102bb1d2fe9",
-      "title": "テレ東系にて「ポケモンとどこいく！？」が現在放送中！",
-      "url": "https://abema.tv/channels/pokemon-1/slots/91UdZVxkfXHzf1",
-      "host": "abema.tv",
-      "source": "ABEMA",
-      "summary": "",
-      "publishedAt": "2026-09-19T16:40:37.000Z",
-      "image": "",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "a432c666f4b0",
       "title": "【遠征開始!!】メガムクホーク37戦討伐!!やっと念願の子に出会えてにっこにこの結果に✨【ポケモンGO】",
       "url": "https://youtu.be/UN4du0ut70I?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T13:40:26.000Z",
       "image": "",
@@ -3096,7 +3070,7 @@
       "title": "ムクホークのスーパーメガレイド！誰よりもガチらなければいけない理由がある！！【ポケモンGO】",
       "url": "https://youtu.be/OSwDU6_CDDQ?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T13:11:05.000Z",
       "image": "",
@@ -3216,7 +3190,7 @@
       "title": "【メガムクホーク】え？今日ってムクホークの日やんな？？もはや別イベになりつつある1日www【ポケモンGO】",
       "url": "https://youtu.be/A_MZeYU2K-g?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T11:07:57.000Z",
       "image": "",
@@ -3319,7 +3293,7 @@
       "title": "【逃走中】ぽこあポケモンでブクブクうみぞこの街が登場！新エリアでハンターから逃げきれるのか！？？",
       "url": "https://youtu.be/LaVxV8RHOKM?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T10:00:08.000Z",
       "image": "",
@@ -3359,7 +3333,7 @@
       "title": "新実装メガムクホーク！期待のブレバ＋の性能があああああうわあぁぁぁぁ！【ポケモンGO】",
       "url": "https://youtu.be/VEBuja_2uDc?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T09:36:35.000Z",
       "image": "",
@@ -3380,7 +3354,7 @@
       "title": "スタイリッシュに勝利せよ！メガバシャーモで挑むデザイナーアサミのリクエスト勝負！＃４９【 Pokémon LEGENDS Z-A 】",
       "url": "https://youtu.be/zIkEOoFxFfw?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T09:24:22.000Z",
       "image": "",
@@ -3401,7 +3375,7 @@
       "title": "【特別企画】ポケモンバンク終了前に全ダークポケモンを救出せよ！【ゆっくり実況/ポケモンコロシアム】",
       "url": "https://youtu.be/4NTMOogRYZ0?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T08:48:00.000Z",
       "image": "",
@@ -3462,7 +3436,7 @@
       "title": "【ポケモンユナイト 参加型】レジェンド目指して頑張りたい！マスター440～【FlyingFantasia】",
       "url": "https://youtu.be/Vh2Q2-aPMSI",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T07:28:37.000Z",
       "image": "",
@@ -3607,7 +3581,7 @@
       "title": "【ポケモングッズ ゲットだぜ！】オリジナルグッズや岩手県の特産品などを一堂に集めた物産展始まる",
       "url": "https://news.ntv.co.jp/n/tvi/category/society/tv2c80fd07b2a348269b6d328e68c02b0a",
       "host": "news.ntv.co.jp",
-      "source": "news.ntv.co.jp",
+      "source": "日テレNEWS NNN",
       "summary": "",
       "publishedAt": "2026-09-19T01:50:00.000Z",
       "image": "https://image.gallery.play.jp/tvi-news/articles/69d0d17130314e47828cdda539d8c3fd/df68bd52-217e-4bb9-87e7-59af84231b6d.jpg?w=1200",
@@ -3649,7 +3623,7 @@
       "title": "【Google Fitbit Air】Pokémon Sleepコラボを開封＆試してみた！",
       "url": "https://youtu.be/jI_DY-vul04?si",
       "host": "youtu.be",
-      "source": "youtu.be",
+      "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-09-19T00:00:16.000Z",
       "image": "",
