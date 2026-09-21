@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-09-21T12:00:16.441Z",
+  "updatedAt": "2026-09-21T12:30:16.410Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 141,
-  "todayCount": 75,
+  "total": 144,
+  "todayCount": 78,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 8
+      "count": 9
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 18
+      "count": 19
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 17
+      "count": 19
     },
     {
       "id": "media",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 12
+      "count": 15
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 8
+      "count": 10
     },
     {
       "id": "biz",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 44
+      "count": 42
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 9
+      "count": 8
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 27
+      "count": 28
     },
     {
       "id": "tcg",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 23
+      "count": 25
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 35
+      "count": 36
     },
     {
       "name": "SNKRDUNK",
@@ -113,11 +113,11 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 12
+      "count": 13
     },
     {
       "name": "山陽新聞",
-      "count": 9
+      "count": 10
     },
     {
       "name": "ガジェット通信",
@@ -156,15 +156,15 @@
       "count": 2
     },
     {
+      "name": "au Webポータル",
+      "count": 1
+    },
+    {
       "name": "Aviation Wire",
       "count": 1
     },
     {
       "name": "なびたび北東北",
-      "count": 1
-    },
-    {
-      "name": "ウォーカープラス",
       "count": 1
     },
     {
@@ -196,7 +196,7 @@
       "count": 1
     },
     {
-      "name": "いこーよニュース",
+      "name": "report.iko-yo.net",
       "count": 1
     },
     {
@@ -462,12 +462,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-21T11:30:18.190Z",
+    "previousAt": "2026-09-21T12:00:16.441Z",
     "previousCount": 141,
-    "newCount": 6
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-21T12:30:16.441Z",
+  "nextUpdateAt": "2026-09-21T13:00:16.410Z",
   "items": [
     {
       "id": "3fd25a757c03",
@@ -575,6 +575,27 @@
       "isNew": false
     },
     {
+      "id": "b099b8d96621",
+      "title": "【ポケカ】ミュウツーex SARの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33307/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-21T10:10:07.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/a230f59a-0412-4890-9a07-fbe712836e6d.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "cd35024adaa9",
       "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
       "url": "https://gamewith.jp/pokemon-champions/546477",
@@ -613,6 +634,46 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "1a9888841688",
+      "title": "【ポケモンチャンピオンズ】WCS2026記念セレクトチケットのおすすめポケモン",
+      "url": "https://gamewith.jp/pokemon-champions/573341",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T09:56:02.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/573341.png?date=1787543057",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ff26d002baa4",
+      "title": "【ポケモンチャンピオンズ】ゴリランダーの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/574661",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T09:51:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574661.png?date=1788429832",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0646ba98fcc5",
@@ -654,7 +715,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "66ae4dca3ef0",
@@ -714,7 +775,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7ce29a27e667",
@@ -735,7 +796,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "c902cbc90842",
+      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
+      "url": "https://gamewith.jp/pokemon-champions/546413",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T09:04:16.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "6401a21c1b19",
@@ -930,26 +1011,6 @@
       "isNew": false
     },
     {
-      "id": "c902cbc90842",
-      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
-      "url": "https://gamewith.jp/pokemon-champions/546413",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-21T07:16:02.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9f671a8362f5",
       "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
       "url": "https://appmedia.jp/pokemonchampions/79917667",
@@ -1073,27 +1134,6 @@
       "isNew": false
     },
     {
-      "id": "96dede30191d",
-      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-21T06:15:03.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "6bdf0e2fef54",
       "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
@@ -1123,27 +1163,6 @@
       "summary": "",
       "publishedAt": "2026-09-21T06:15:00.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562224.png?date=1779968137",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "358278432ae6",
-      "title": "【ポケポケ】テラパゴスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562183",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-21T06:15:00.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562183.png?date=1779956790",
       "categories": [
         "tcgcat"
       ],
@@ -1197,6 +1216,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "1909f74d0bb3",
+      "title": "【ポケポケ】ガチグマデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/566880",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T06:14:57.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566880.png?date=1783137421",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "833ac77d5fe0",
@@ -1275,6 +1315,27 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "a6562d7ad91c",
+      "title": "ミュウツー☆5寝顔 イベントランク7でゲット 1154日目プレイ感想【ポケスリ日記】",
+      "url": "https://skypenguin.net/2026/09/20/post-167625/",
+      "host": "skypenguin.net",
+      "source": "人鳥日記",
+      "summary": "",
+      "publishedAt": "2026-09-21T05:21:04.000Z",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "sleep"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1388,27 +1449,6 @@
       "isNew": false
     },
     {
-      "id": "b099b8d96621",
-      "title": "【ポケカ】ミュウツーex SARの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33307/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-21T03:55:35.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/a230f59a-0412-4890-9a07-fbe712836e6d.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ec6347ecc410",
       "title": "【ポケモンGO】欧州宇宙機関(ESA)コラボイベント(欧州)の開催期間とボーナス",
       "url": "https://pokemongo.gamewith.jp/article/show/577905",
@@ -1497,6 +1537,27 @@
       "isNew": false
     },
     {
+      "id": "0b950edfee2e",
+      "title": "え、でかっ！ 『ポケモン』ディグダ、「本家超え」の巨大ぬいぐるみが2026年10月より登場",
+      "url": "https://article.auone.jp/b5deb8c7-c8b2-41c0-ae50-0653cd6db7db",
+      "host": "article.auone.jp",
+      "source": "au Webポータル",
+      "summary": "",
+      "publishedAt": "2026-09-21T03:10:00.000Z",
+      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/09/21/https___magmix_jp_post_376955_w570.webp",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3260e474ab62",
       "title": "ポケモンとどこいく！？【アニポケサイエンスショー！あば＆小森がダンス！？】(テレ東、2026/9/20 07:30 OA)の番組情報ページ - tv-tokyo.co.jp",
       "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202609/26884_202609200730.html",
@@ -1533,6 +1594,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "14d075643868",
+      "title": "【ポケモンGO】メガムクホークレイド対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/574838",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T02:50:46.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574838.png?date=1788330648",
+      "categories": [
+        "event",
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6776d9947ded",
@@ -1767,25 +1850,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "9a03c8812b3e",
-      "title": "“ポケモン”を御殿場プレミアム・アウトレットでゲット",
-      "url": "https://www.walkerplus.com/trend/matome/article/61280/",
-      "host": "walkerplus.com",
-      "source": "ウォーカープラス",
-      "summary": "",
-      "publishedAt": "2026-09-21T00:03:14.000Z",
-      "image": "https://news.walkerplus.com/article/61280/341314_615.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "cc2413868714",
@@ -2156,6 +2220,28 @@
       "isNew": false
     },
     {
+      "id": "a9ef3eac4c3c",
+      "title": "【きょうから】ポケモン、コメダ珈琲店＆おかげ庵とコラボ 「豆菓子風チャーム」ほか限定グッズ発表＆“転売禁止”呼びかけ",
+      "url": "https://www.sanyonews.jp/article/1883200",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-20T09:20:22.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/a/4/d/9a4d1b9d485034c3f2639d8f8987edf6_1.jpg",
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "beceb7844cf0",
       "title": "ミュウツー☆2寝顔ゲット 1153日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/19/post-167365/",
@@ -2166,27 +2252,6 @@
       "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
       "categories": [
         "other"
-      ],
-      "series": [
-        "sleep"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a6562d7ad91c",
-      "title": "ミュウツー☆5寝顔 イベントランク7でゲット 1154日目プレイ感想【ポケスリ日記】",
-      "url": "https://skypenguin.net/2026/09/20/post-167625/",
-      "host": "skypenguin.net",
-      "source": "人鳥日記",
-      "summary": "",
-      "publishedAt": "2026-09-20T08:31:09.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
-      "categories": [
-        "event"
       ],
       "series": [
         "sleep"
@@ -2685,6 +2750,27 @@
       "isNew": false
     },
     {
+      "id": "099e98c51352",
+      "title": "ポケカ30周年商品がメルカリで販売禁止。シングルカードはOK、線引きの理由は？（LIMO）",
+      "url": "https://news.yahoo.co.jp/articles/0921c8c915900d7a6dd2f448cf6cc836451cd4c3",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-19T12:37:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00138764-toushin-000-2-view.png?fmt=jpeg&q=85&exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e81c62c4be4c",
       "title": "「ポケモン151匹が集合！」3COINSの『ポケモン30周年クリアファイルセット』が豪華！『だーれだ？』デザインも（LIMO）",
       "url": "https://news.yahoo.co.jp/articles/e6a9efc6fde65e6d8bf86973b08c1b349001f8c8",
@@ -2761,7 +2847,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4e7810a900eb",
@@ -2849,10 +2935,10 @@
     },
     {
       "id": "9cc876197dd7",
-      "title": "【2026】シルバーウィークはポケモンイベントへ！謎解き・展示・スタンプラリー8選｜2ページ目",
+      "title": "【2026】シルバーウィークはポケモンイベントへ！謎解き・展示・スタンプラリー8選｜2ページ目 - report.iko-yo.net",
       "url": "https://report.iko-yo.net/articles/33389?page",
       "host": "report.iko-yo.net",
-      "source": "いこーよニュース",
+      "source": "report.iko-yo.net",
       "summary": "",
       "publishedAt": "2026-09-19T10:05:50.000Z",
       "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/33252/normal.jpg?1789509065",
@@ -3358,27 +3444,6 @@
       ],
       "series": [
         "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "20e6d660217a",
-      "title": "【ポケモンSV】イダイトウ(オス)の進化方法と色違い・種族値【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/401420",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-18T12:14:10.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
       ],
       "isOfficial": false,
       "isPR": false,
