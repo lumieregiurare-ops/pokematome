@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T22:30:25.447Z",
+  "updatedAt": "2026-09-21T23:00:17.299Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -12,7 +12,7 @@
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 9
+      "count": 10
     },
     {
       "id": "update",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 19
+      "count": 18
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 14
+      "count": 13
     },
     {
       "id": "biz",
@@ -64,7 +64,7 @@
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 10
+      "count": 11
     },
     {
       "id": "go",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 48
+      "count": 49
     },
     {
       "name": "YouTube",
@@ -112,16 +112,12 @@
       "count": 17
     },
     {
-      "name": "Yahoo!ニュース",
+      "name": "news.yahoo.co.jp",
       "count": 14
     },
     {
       "name": "山陽新聞",
       "count": 8
-    },
-    {
-      "name": "AppMedia",
-      "count": 4
     },
     {
       "name": "インサイド",
@@ -134,6 +130,10 @@
     {
       "name": "人鳥日記",
       "count": 4
+    },
+    {
+      "name": "AppMedia",
+      "count": 3
     },
     {
       "name": "ウォーカープラス",
@@ -244,14 +244,14 @@
         {
           "title": "【ポケセン限定】フィギュアコレクション Pokémon Sleep トープ洞窟を開封！（ダイスチャンネル） - エキスパート",
           "url": "https://news.yahoo.co.jp/expert/articles/390cc0ef2f415c648340c9a4dcb262d84ff22de7",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-20T01:01:23.000Z",
           "isPR": false
         },
         {
           "title": "【ポケセン限定】ポケモン30周年記念のステッカーセット「アローラ」がかわいい！（ダイスチャンネル） - エキスパート",
           "url": "https://news.yahoo.co.jp/expert/articles/f290246a8fedc03617f913677c865f380d11cfbd",
-          "source": "Yahoo!ニュース",
+          "source": "news.yahoo.co.jp",
           "publishedAt": "2026-09-19T22:01:28.000Z",
           "isPR": false
         },
@@ -545,13 +545,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-21T22:00:19.327Z",
+    "previousAt": "2026-09-21T22:30:25.447Z",
     "previousCount": 148,
-    "newCount": 4
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-21T23:00:25.447Z",
+  "nextUpdateAt": "2026-09-21T23:30:17.299Z",
   "items": [
+    {
+      "id": "a5c5154399e2",
+      "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33322/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-21T22:53:15.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "4befb1c0638a",
       "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
@@ -578,7 +599,7 @@
       "title": "ポケカ30周年、買い占めた転売屋が悲鳴。高レアカードが予想以上に出やすく相場急落（多根清史） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/edf83a9056879ee3bbb718be62388bbaa3dd10e2",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-21T22:01:12.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/tanekiyoshi/02725610/title-1790006189443.jpeg?exp=10800",
@@ -592,7 +613,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9cc876197dd7",
@@ -622,27 +643,6 @@
       "summary": "",
       "publishedAt": "2026-09-21T20:34:11.000Z",
       "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a5c5154399e2",
-      "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33322/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-21T19:52:24.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
       "categories": [
         "tcgcat"
       ],
@@ -693,7 +693,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ec6347ecc410",
@@ -857,7 +857,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c7274b3c4a5",
@@ -1048,26 +1048,6 @@
       "summary": "",
       "publishedAt": "2026-09-21T14:53:12.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554808.png?date=1775800780",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0e102320f039",
-      "title": "【ポケモンチャンピオンズ】ラウドボーンの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/555324",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-21T14:51:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/555324.png?date=1775810706",
       "categories": [
         "guide",
         "community"
@@ -1311,25 +1291,6 @@
       "isNew": false
     },
     {
-      "id": "cd35024adaa9",
-      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
-      "url": "https://appmedia.jp/pokemonchampions/79639586",
-      "host": "appmedia.jp",
-      "source": "AppMedia",
-      "summary": "",
-      "publishedAt": "2026-09-21T12:44:03.000Z",
-      "image": "https://appmedia.jp/wp-content/uploads/2025/06/165232_gyqu0.webp",
-      "categories": [
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "273b1c2b851e",
       "title": "【ポケモンチャンピオンズ】最初のポケモンのおすすめ・だれを選ぶべき？",
       "url": "https://gamewith.jp/pokemon-champions/554181",
@@ -1340,6 +1301,25 @@
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554181.png?date=1775627326",
       "categories": [
         "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "cd35024adaa9",
+      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
+      "url": "https://gamewith.jp/pokemon-champions/546477",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T10:08:51.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546477.png?date=1774602101",
+      "categories": [
         "community"
       ],
       "series": [],
@@ -1754,7 +1734,7 @@
       "title": "お宝は家の中に眠ってるかも？ 最高額25億円超 ポケモンカード高騰 レアカード＆限定版求めて争奪戦",
       "url": "https://news.yahoo.co.jp/articles/434f53a260c22dca5c494a89972a185c442e76c8/images/000",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-21T03:30:02.000Z",
       "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y30FuE9u6zLBRO4B_aRTKNgLtLWNJ67LoT2FZy2o5cAsh4S29wAo1VVTNzPZ8zpSNRgf0Hp18bKnd2RwXTEeGxEnav-gZnQLVY_2TbVGtQjqNn38G-61I5tNYnp1_IEB7A",
@@ -1811,6 +1791,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5d6af1f077c1",
+      "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
+      "url": "https://gamewith.jp/pokemon/574415",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-21T03:19:38.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3260e474ab62",
@@ -1987,7 +1988,7 @@
       "title": "小学校から持ち続けるポケカ3000枚を査定に 衝撃の金額→その場で売却 「思い出を売った」複雑心境（ENCOUNT）",
       "url": "https://news.yahoo.co.jp/articles/459ce16ca9c28cb46bd1ba88c09958c049cd94d6",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-21T01:20:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260921-01068277-encount-000-8-view.jpg?exp=10800",
@@ -2071,7 +2072,7 @@
       "title": "ポケモンカードにはまる30～40代 フリマでの取引急増＝韓国",
       "url": "https://news.yahoo.co.jp/articles/e8352ae5e0b45ff43e84bbf902a3340829759eb6",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-21T00:40:27.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260921-00535373-yonh-000-1-view.jpg?exp=10800",
@@ -2622,7 +2623,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "371501695a57",
@@ -2833,7 +2834,7 @@
       "title": "台風25号の影響で21日のイベント開催中止続く ポケモンカードの大型大会・東京ゲームショウ・ROCK IN JAPAN FES.（オリコン）",
       "url": "https://news.yahoo.co.jp/articles/68c929eef9d49caa3d67e42d47e828c6d449e2eb",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-20T03:25:17.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260920-00000383-oric-000-10-view.jpg?exp=10800",
@@ -2874,7 +2875,7 @@
       "title": "【ポケセン限定】フィギュアコレクション Pokémon Sleep トープ洞窟を開封！（ダイスチャンネル） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/390cc0ef2f415c648340c9a4dcb262d84ff22de7",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-20T01:01:23.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/dicchannel/02723807/title-1789853621262.jpeg?exp=10800",
@@ -2958,7 +2959,7 @@
       "title": "【ポケセン限定】ポケモン30周年記念のステッカーセット「アローラ」がかわいい！（ダイスチャンネル） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/f290246a8fedc03617f913677c865f380d11cfbd",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T22:01:28.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/dicchannel/02723786/title-1789850870973.jpeg?exp=10800",
@@ -3017,7 +3018,7 @@
       "title": "あのヤクデが本気の座椅子に！14990円で買えるポケモングッズが42段階リクライニング＆至福のスエード調で快適すぎる",
       "url": "https://news.yahoo.co.jp/articles/abc6bc97a66f73d940f1bd6e8c3204115e9c7234",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T13:36:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260913-00137258-toushin-000-2-view.jpg?exp=10800",
@@ -3059,7 +3060,7 @@
       "title": "ポケカ30周年商品がメルカリで販売禁止。シングルカードはOK、線引きの理由は？（LIMO）",
       "url": "https://news.yahoo.co.jp/articles/0921c8c915900d7a6dd2f448cf6cc836451cd4c3",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T12:37:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00138764-toushin-000-2-view.png?fmt=jpeg&q=85&exp=10800",
@@ -3080,7 +3081,7 @@
       "title": "「ポケモン151匹が集合！」3COINSの『ポケモン30周年クリアファイルセット』が豪華！『だーれだ？』デザインも（LIMO）",
       "url": "https://news.yahoo.co.jp/articles/e6a9efc6fde65e6d8bf86973b08c1b349001f8c8",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T12:36:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260917-00138564-toushin-000-2-view.jpg?exp=10800",
@@ -3099,7 +3100,7 @@
       "title": "「ポケモン言えるかな？」3COINSで『初代ポケモン151匹大集合・ビニール傘』を見つけた！「ついつい歌いたくなる！」（LIMO）",
       "url": "https://news.yahoo.co.jp/articles/e8ca7b21101d45450007010a253c124644c4fa8e",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T12:32:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260916-00138489-toushin-000-2-view.jpg?exp=10800",
@@ -3118,7 +3119,7 @@
       "title": "松丸亮吾さんのポケモン愛がたっぷり！ 日本橋＆八重洲に100匹以上のポケモンが出現した謎解きイベント「レジェンドリサーチ」を現地レポート（HugKum）",
       "url": "https://news.yahoo.co.jp/articles/c5bb4e7a6825187f07845b52179a26d6152b3400",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T12:30:39.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260919-00010000-hugkum-000-1-view.jpg?exp=10800",
@@ -3261,7 +3262,7 @@
       "title": "ポケカ「出品禁止」の効果はあったのか メルカリに聞いてみた（山口健太） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/8ff44442002ffbf0676e950329b62d6e2a1bd7ee",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T09:46:53.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/yamaguchikenta/02723084/title-1789804669862.jpeg?exp=10800",
@@ -3574,7 +3575,7 @@
       "title": "家が何軒買えるんだ…世界で最も高額なポケモンカードランキング（3位）一般向けの市販品が…8600万円に高騰",
       "url": "https://news.yahoo.co.jp/articles/5fa92dd437719f596f7b88381d83f3fcd2f15ea9",
       "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "source": "news.yahoo.co.jp",
       "summary": "",
       "publishedAt": "2026-09-19T01:30:16.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260919-00010003-eigach-000-1-view.jpg?exp=10800",
