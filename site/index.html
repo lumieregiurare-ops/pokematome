@@ -30,85 +30,55 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
-  <header class="header">
-    <div class="wrap header-inner">
-      <h1 class="logo">
-        <a href="./">
-          <span class="logo-mark" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2l2.6 5.9 6.4.8-4.7 4.4 1.2 6.4L12 16.4 6.5 19.5l1.2-6.4L3 8.7l6.4-.8z"/></svg>
-          </span>
-          <span class="logo-text">ポケモン<span class="logo-accent">速報</span></span>
-        </a>
-      </h1>
-      <p class="tagline">ポケモン関連ニュースまとめ</p>
-      <div class="header-tools">
-        <a class="fav-link" href="#favorites" id="favNavLink">
-          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M12 2l2.9 6.5L22 9.6l-5.2 4.8 1.4 7.6L12 18.1l-6.2 3.9 1.4-7.6L2 9.6l7.1-1.1z"/></svg>
-          <span>あとで読む</span>
-          <span class="fav-count" id="favCount" hidden>0</span>
-        </a>
-      </div>
-    </div>
-    <nav class="global-nav" aria-label="ページ内ナビゲーション">
-      <a href="#topicsSection">注目の話題</a>
-      <a href="#feedSection">新着ニュース</a>
-    </nav>
-    <div class="wrap header-meta">
-      <span id="meta">読み込み中…</span>
-      <span class="churn" id="churn" hidden></span>
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <h1 class="logo"><a href="./">ポケモン速報</a></h1>
+      <p class="masthead-sub">ポケモン関連のニュースを、媒体をまたいで追いかけています。</p>
+      <a class="later-link" href="#favorites" id="favNavLink">あとで読む<span class="later-count" id="favCount" hidden>0</span></a>
     </div>
   </header>
 
-  <main class="wrap">
-    <div class="layout">
+  <!-- タイトル別のナビ。このサイトの一次的な分け方なので、種別より上に置く -->
+  <nav class="title-nav" aria-label="タイトル別">
+    <div class="wrap title-nav-inner" id="seriesNav"></div>
+  </nav>
 
-      <aside class="side side-left">
-        <section class="mod" id="catMod">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>ニュースの種別</h2>
-          <div class="cat-list" id="catList"></div>
-        </section>
+  <p class="wrap status-line"><span id="meta">読み込み中…</span><span class="churn" id="churn" hidden></span></p>
 
-        <section class="mod" id="ngMod">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>NGキーワード</h2>
-          <p class="mod-desc">含む記事を一覧・話題・ガチャから隠します。</p>
-          <div class="ng-list" id="ngList"></div>
-          <form class="ng-form" id="ngForm">
-            <input type="text" id="ngInput" placeholder="例: 買取" autocomplete="off" aria-label="NGキーワードを追加">
-            <button type="submit">追加</button>
-          </form>
-        </section>
+  <main>
+    <!-- いちばん大きな出来事。1 件だけ、全幅で出す -->
+    <section class="lead" id="leadSection" hidden>
+      <div class="wrap" id="leadBody"></div>
+    </section>
 
-        <section class="mod" id="wordMod" hidden>
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>よく出ている語</h2>
-          <div class="word-cloud" id="wordCloud"></div>
-        </section>
-
-      </aside>
-
+    <div class="wrap layout">
       <div class="col-main">
-        <section class="board" id="topicsSection" hidden>
+
+        <section class="tracking" id="topicsSection" hidden>
           <div class="sec-head">
-            <h2 class="sec-title">注目の話題</h2>
-            <p class="sec-desc">複数の媒体が同じことを報じた話題です。★が多いほど多くの媒体が取り上げています。</p>
+            <h2 class="sec-title">追いかけている話題</h2>
+            <p class="sec-note">2 つ以上の媒体が同じことを報じたものです。初報からの流れをまとめています。</p>
           </div>
-          <div class="topic-grid" id="topicGrid"></div>
+          <ol class="topic-list" id="topicList"></ol>
           <button class="more-btn" id="topicMore" hidden></button>
         </section>
 
         <section class="feed" id="feedSection">
-          <div class="sec-head">
-            <h2 class="sec-title">新着ニュース</h2>
-            <div class="feed-tools">
-              <div class="seg" id="sortSeg" role="group" aria-label="並び順">
-                <button type="button" data-sort="new" class="active">新着順</button>
-                <button type="button" data-sort="shuffle">おまかせ</button>
-              </div>
+          <div class="sec-head sec-head-row">
+            <div>
+              <h2 class="sec-title">ニュースの流れ</h2>
+              <p class="sec-note">新しい順。大きく出しているものほど、この日の中心にある話です。</p>
+            </div>
+            <div class="seg" id="sortSeg" role="group" aria-label="並び順">
+              <button type="button" data-sort="new" class="active">時系列</button>
+              <button type="button" data-sort="shuffle">おまかせ</button>
             </div>
           </div>
+          <div class="cat-bar" id="catList" aria-label="種別で絞り込む"></div>
           <p class="count" id="count"></p>
           <!-- 記事が入るまでの間、同じくらいの高さを確保しておく（描画時に下の要素が飛ばないように） -->
           <div id="list"><div class="loading loading-feed"><span class="spinner" role="status" aria-label="読み込み中"></span><span>ニュースを読み込んでいます…</span></div></div>
@@ -117,31 +87,28 @@
         </section>
 
         <section class="fav-view" id="favView" hidden>
-          <div class="sec-head">
-            <div class="sec-head-row">
+          <div class="sec-head sec-head-row">
+            <div>
               <h2 class="sec-title">あとで読む</h2>
-              <button type="button" class="back-btn" id="favBack">
-                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
-                トップに戻る
-              </button>
+              <p class="sec-note">記事の「＋」を押すと保存できます。このブラウザにだけ保存しています。</p>
             </div>
-            <p class="sec-desc">記事の ☆ を押すと保存できます。このブラウザにだけ保存しています。</p>
+            <button type="button" class="back-btn" id="favBack">トップに戻る</button>
           </div>
           <div id="favViewBody"></div>
-          <p class="empty" id="favViewEmpty" hidden>まだ何も保存されていません。記事の ☆ を押すとここに貯まります。</p>
+          <p class="empty" id="favViewEmpty" hidden>まだ何も保存されていません。記事の「＋」を押すとここに貯まります。</p>
         </section>
       </div>
 
       <aside class="side side-right">
         <section class="mod mod-gacha">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>ニュースガチャ</h2>
+          <h2 class="mod-head">ニュースガチャ</h2>
           <p class="mod-desc">まだ読んでいない記事から 1 本引きます。</p>
           <div id="gachaBody"></div>
           <button class="mod-btn" id="gachaAgain" type="button">もう一度引く</button>
         </section>
 
         <section class="mod mod-dex">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>きょうの1匹</h2>
+          <h2 class="mod-head">きょうの1匹</h2>
           <p class="mod-desc">全国図鑑 1025 匹からランダムに表示します。</p>
           <div id="dexBody"></div>
           <div class="dex-tools">
@@ -150,18 +117,32 @@
           </div>
         </section>
 
-        <section class="mod" id="otherMod" hidden>
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>その他のニュース</h2>
+        <section class="mod mod-plain" id="otherMod" hidden>
+          <h2 class="mod-head">同じ話題の別記事</h2>
           <ul class="other-list" id="otherList"></ul>
           <a class="mod-link" href="other.html">もっと見る</a>
         </section>
 
+        <section class="mod mod-plain" id="wordMod" hidden>
+          <h2 class="mod-head">見出しによく出ている語</h2>
+          <div class="word-cloud" id="wordCloud"></div>
+        </section>
+
+        <section class="mod mod-plain" id="ngMod">
+          <h2 class="mod-head">NGキーワード</h2>
+          <p class="mod-desc">含む記事を一覧・話題・ガチャから隠します。</p>
+          <div class="ng-list" id="ngList"></div>
+          <form class="ng-form" id="ngForm">
+            <input type="text" id="ngInput" placeholder="例: 買取" autocomplete="off" aria-label="NGキーワードを追加">
+            <button type="submit">追加</button>
+          </form>
+        </section>
       </aside>
 
     </div>
   </main>
 
-  <button class="to-top" id="toTop" type="button" hidden aria-label="先頭へ戻る">▲</button>
+  <button class="to-top" id="toTop" type="button" hidden aria-label="先頭へ戻る">先頭へ</button>
 
   <footer class="footer">
     <div class="wrap">

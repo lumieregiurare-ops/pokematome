@@ -86,6 +86,9 @@ export function buildTopics(items, cfg = {}, entities = []) {
       image,
       leadSource: lead.source,
       publishedAt: g.members.reduce((a, m) => (m.publishedAt > a ? m.publishedAt : a), g.members[0].publishedAt),
+      // 初報の時刻と、代表記事そのものの時刻。「いつ最初に報じられたか」を画面に出すために持たせる
+      firstAt: g.members.reduce((a, m) => (m.publishedAt < a ? m.publishedAt : a), g.members[0].publishedAt),
+      leadPublishedAt: lead.publishedAt,
       sourceCount: sources.length,
       articleCount: g.members.length,
       categories: [...new Set(g.members.flatMap((m) => m.categories || []))].slice(0, 2),
