@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-22T19:00:26.178Z",
+  "updatedAt": "2026-09-22T19:30:16.377Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 156,
-  "todayCount": 9,
+  "total": 154,
+  "todayCount": 15,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 16
+      "count": 15
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 2
+      "count": 1
     },
     {
       "id": "event",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 56
+      "count": 53
     },
     {
       "id": "goodscat",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 12
+      "count": 13
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 46
+      "count": 47
     }
   ],
   "series": [
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 30
+      "count": 29
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 54
+      "count": 51
     },
     {
       "id": "anime",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 29
+      "count": 28
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 54
+      "count": 52
     },
     {
       "name": "SNKRDUNK",
-      "count": 22
+      "count": 21
     },
     {
       "name": "YouTube",
@@ -124,20 +124,24 @@
       "count": 4
     },
     {
-      "name": "ガジェット通信",
+      "name": "電ファミニコゲーマー",
       "count": 4
     },
     {
-      "name": "電ファミニコゲーマー",
-      "count": 3
+      "name": "ガジェット通信",
+      "count": 4
     },
     {
       "name": "インサイド",
       "count": 3
     },
     {
-      "name": "skypenguin.net",
+      "name": "人鳥日記",
       "count": 3
+    },
+    {
+      "name": "ウォーカープラス",
+      "count": 2
     },
     {
       "name": "アニメ！アニメ！",
@@ -154,10 +158,6 @@
     {
       "name": "tv-tokyo.co.jp",
       "count": 2
-    },
-    {
-      "name": "news.denfaminicogamer.jp",
-      "count": 1
     },
     {
       "name": "オタク総研",
@@ -208,7 +208,7 @@
       "count": 1
     },
     {
-      "name": "TBS NEWS DIG",
+      "name": "newsdig.tbs.co.jp",
       "count": 1
     },
     {
@@ -225,10 +225,6 @@
     },
     {
       "name": "なびたび北東北",
-      "count": 1
-    },
-    {
-      "name": "ウォーカープラス",
       "count": 1
     },
     {
@@ -289,7 +285,7 @@
       "leadSource": "SNKRDUNK",
       "publishedAt": "2026-09-22T06:37:18.000Z",
       "sourceCount": 2,
-      "articleCount": 8,
+      "articleCount": 7,
       "categories": [
         "tcgcat",
         "new"
@@ -297,7 +293,7 @@
       "keywords": [
         "ポケカ",
         "抽選",
-        "カード"
+        "予約"
       ],
       "articles": [
         {
@@ -336,17 +332,52 @@
           "isPR": false
         },
         {
-          "title": "【ポケポケ】いれかえ効果のおすすめカード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/466693",
-          "source": "GameWith",
-          "publishedAt": "2026-09-20T12:17:35.000Z",
-          "isPR": false
-        },
-        {
           "title": "【ポケポケ】HP回復のおすすめカード一覧【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/466695",
           "source": "GameWith",
           "publishedAt": "2026-09-20T11:35:07.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "0d62f7382f7e",
+      "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携のやり方【ポケモンFRLG】",
+      "summary": "",
+      "url": "https://appmedia.jp/pokemon_frlg/79791953",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/02/133609_0oyjk.webp",
+      "leadSource": "AppMedia",
+      "publishedAt": "2026-09-22T16:38:46.000Z",
+      "sourceCount": 2,
+      "articleCount": 4,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "ポケモンホーム",
+        "連携",
+        "ファイアレッド"
+      ],
+      "articles": [
+        {
+          "title": "ファイアレッド・リーフグリーンはポケモンホームと連携できる？",
+          "url": "https://gamewith.jp/pokemon/545767",
+          "source": "GameWith",
+          "publishedAt": "2026-09-22T04:29:34.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ぽこあポケモン】ポケモンホームと連携できる？【ぽこポケ】",
+          "url": "https://gamewith.jp/pocoapokemon/545314",
+          "source": "GameWith",
+          "publishedAt": "2026-09-21T20:31:11.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
+          "url": "https://appmedia.jp/pokemon_frlg/79776995",
+          "source": "AppMedia",
+          "publishedAt": "2026-09-21T18:29:12.000Z",
           "isPR": false
         }
       ]
@@ -388,41 +419,6 @@
       ]
     },
     {
-      "id": "15d18cdc4c3c",
-      "title": "ファイアレッド・リーフグリーンはポケモンホームと連携できる？",
-      "summary": "",
-      "url": "https://gamewith.jp/pokemon/545767",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/545767.png?date=1786626767",
-      "leadSource": "GameWith",
-      "publishedAt": "2026-09-22T04:29:34.000Z",
-      "sourceCount": 2,
-      "articleCount": 3,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "ポケモンホーム",
-        "連携",
-        "ファイアレッド"
-      ],
-      "articles": [
-        {
-          "title": "【ぽこあポケモン】ポケモンホームと連携できる？【ぽこポケ】",
-          "url": "https://gamewith.jp/pocoapokemon/545314",
-          "source": "GameWith",
-          "publishedAt": "2026-09-21T20:31:11.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携のやり方【ポケモンFRLG】",
-          "url": "https://appmedia.jp/pokemon_frlg/79791953",
-          "source": "AppMedia",
-          "publishedAt": "2026-09-21T16:48:09.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "59578e1ea79a",
       "title": "スリコにポケモングッズがずらり♡ステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》",
       "summary": "",
@@ -457,27 +453,6 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "04c2fc51feab",
-      "title": "ゲームフリーク新作『雨のちハレ女』ティザーPVの作曲は、『ポケモン』の一之瀬剛氏。映像のもととなるアニメコンテまで制作していた",
-      "summary": "作詞は『ポケモンSV』でメインシナリオを担当した村中亮太氏。一之瀬氏は「アニメの主題歌みたいな曲を作ることに憧れていた」とコメント",
-      "url": "https://news.denfaminicogamer.jp/news/260922u",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/09/ed4aa2fd844aa5b57dd5eebc719b21eb-1024x581.png",
-      "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-09-22T13:43:32.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "new",
-        "media"
-      ],
-      "keywords": [
-        "ゲームフリーク",
-        "ティザー",
-        "アニメコンテ"
-      ],
-      "articles": []
     },
     {
       "id": "5e11099dcc59",
@@ -565,13 +540,32 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-22T18:30:15.970Z",
+    "previousAt": "2026-09-22T19:00:26.178Z",
     "previousCount": 156,
-    "newCount": 3
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-22T19:30:26.178Z",
+  "nextUpdateAt": "2026-09-22T20:00:16.377Z",
   "items": [
+    {
+      "id": "eec8c4ac79f4",
+      "title": "ポケモン1025匹の30周年記念ロゴがTシャツに！Tシャツコレクションが9月18日よりZOZOTOWNで販売開始",
+      "url": "https://www.walkerplus.com/article/1441015/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-09-22T17:56:39.000Z",
+      "image": "https://news.walkerplus.com/article/1441015/18525111_615.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "3fd25a757c03",
       "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
@@ -602,6 +596,27 @@
       "summary": "",
       "publishedAt": "2026-09-22T17:40:36.000Z",
       "image": "https://cdn.snkrdunk.com/uploads/media/ae0dc9c1-0da8-46bf-90cb-413081856201.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "9548c13e111e",
+      "title": "【ポケカ】ゲンガーex SARの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33306/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-22T17:32:18.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/fbf3a687-c261-40e3-b181-66b741cad74c.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -663,11 +678,30 @@
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-09-22T16:21:36.000Z",
+      "publishedAt": "2026-09-22T16:54:01.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
       "categories": [
         "guide",
         "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "0d62f7382f7e",
+      "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携のやり方【ポケモンFRLG】",
+      "url": "https://appmedia.jp/pokemon_frlg/79791953",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-09-22T16:38:46.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/02/133609_0oyjk.webp",
+      "categories": [
+        "other"
       ],
       "series": [],
       "isOfficial": false,
@@ -698,6 +732,26 @@
       "isNew": false
     },
     {
+      "id": "7184db3d4977",
+      "title": "【ポケモンチャンピオンズ】メガピクシーの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/554670",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-22T15:24:24.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554670.png?date=1775805528",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "8dc0db820d35",
       "title": "【ポケモンチャンピオンズ】ブリジュラスの育成論と対策・パーティ",
       "url": "https://gamewith.jp/pokemon-champions/554978",
@@ -716,6 +770,48 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "d95dcc960f46",
+      "title": "【ポケポケ】エリートデッキ(メガルカリオex)の入手方法【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570822",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-22T15:13:10.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570822.png?date=1789543017",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "21beed7ca646",
+      "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-22T15:08:36.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/573136.png?date=1787237535",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "884d74fbeb4f",
@@ -822,27 +918,6 @@
       "isNew": false
     },
     {
-      "id": "9548c13e111e",
-      "title": "【ポケカ】ゲンガーex SARの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33306/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-22T14:49:06.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/fbf3a687-c261-40e3-b181-66b741cad74c.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "70ef5780f165",
       "title": "【ポケモンチャンピオンズ】ダブル最強ポケモンランキング・Tier表",
       "url": "https://gamewith.jp/pokemon-champions/555405",
@@ -933,7 +1008,7 @@
       "title": "ゲームフリーク新作『雨のちハレ女』一之瀬剛氏がティザーPVの作曲に加え、映像のもととなるアニメコンテも制作",
       "url": "https://news.denfaminicogamer.jp/news/260922u",
       "host": "news.denfaminicogamer.jp",
-      "source": "news.denfaminicogamer.jp",
+      "source": "電ファミニコゲーマー",
       "summary": "",
       "publishedAt": "2026-09-22T13:43:00.000Z",
       "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/09/ed4aa2fd844aa5b57dd5eebc719b21eb.png",
@@ -1448,48 +1523,6 @@
       "isNew": false
     },
     {
-      "id": "6bdf0e2fef54",
-      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-22T09:59:56.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "65229ee18342",
-      "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-22T09:59:56.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562182.png?date=1779956758",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d008ec02fedc",
       "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
@@ -1883,27 +1916,6 @@
       "isNew": false
     },
     {
-      "id": "3a29c3fefe74",
-      "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-22T06:30:53.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561436.png?date=1779369911",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ac021efa4c88",
       "title": "【ポケモンGO】ポケモン天文台イベントの開催期間と場所",
       "url": "https://pokemongo.gamewith.jp/article/show/544716",
@@ -2111,7 +2123,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "780ca96f34b4",
@@ -2200,27 +2212,6 @@
       "isNew": false
     },
     {
-      "id": "733d2c4cf18b",
-      "title": "【ポケモンGO】GOバトルリーグめくるめく記憶シーズンのスケジュールと調整内容",
-      "url": "https://pokemongo.gamewith.jp/article/show/546090",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-22T01:48:55.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546090.png?date=1771993864",
-      "categories": [
-        "update"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "4618d9968e96",
       "title": "【ポケモンGO】選べるタイムチャレンジの最新情報と開催期間",
       "url": "https://pokemongo.gamewith.jp/article/show/560061",
@@ -2234,29 +2225,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2579fb478e5b",
-      "title": "【ポケカ】ロケット団の栄光の当たりランキング/買取相場/封入率/予約抽選/値段まとめ",
-      "url": "https://snkrdunk.com/articles/27332/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-22T01:41:41.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20250417100209-0.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2285,7 +2253,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6b745a98ea38",
@@ -2670,25 +2638,6 @@
       "isNew": false
     },
     {
-      "id": "0d62f7382f7e",
-      "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携のやり方【ポケモンFRLG】",
-      "url": "https://appmedia.jp/pokemon_frlg/79791953",
-      "host": "appmedia.jp",
-      "source": "AppMedia",
-      "summary": "",
-      "publishedAt": "2026-09-21T16:48:09.000Z",
-      "image": "https://appmedia.jp/wp-content/uploads/2026/02/133609_0oyjk.webp",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6fe7bbeda916",
       "title": "【ポケカ】熱風のアリーナの予約・抽選情報まとめ【3月17日更新】",
       "url": "https://snkrdunk.com/articles/27096/",
@@ -2780,7 +2729,7 @@
       "title": "レアなポケモンをゲット！「ポケモンGO」イベントに県内外からファンが訪れ観光PRも 仙台",
       "url": "https://newsdig.tbs.co.jp/articles/gallery/2797193",
       "host": "newsdig.tbs.co.jp",
-      "source": "TBS NEWS DIG",
+      "source": "newsdig.tbs.co.jp",
       "summary": "",
       "publishedAt": "2026-09-21T13:20:00.000Z",
       "image": "https://newsdig.ismcdn.jp/mwimgs/2/5/1200w/img_259281d92595dc93e6712292175e7a86141423.jpg",
@@ -2943,7 +2892,7 @@
       "title": "ミュウツー☆5寝顔 イベントランク7でゲット 1154日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/20/post-167625/",
       "host": "skypenguin.net",
-      "source": "skypenguin.net",
+      "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-09-21T05:21:04.000Z",
       "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
@@ -2964,7 +2913,7 @@
       "title": "ミュウツーイベント イベントランク13にも☆5寝顔があるのか？ 1155日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/21/post-167816/",
       "host": "skypenguin.net",
-      "source": "skypenguin.net",
+      "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-09-21T05:18:55.000Z",
       "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
@@ -3394,28 +3343,6 @@
       "isNew": false
     },
     {
-      "id": "188738446f13",
-      "title": "【ポケポケ】いれかえ効果のおすすめカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466693",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-20T12:17:35.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466693.png?date=1743150294",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "fd580a915afe",
       "title": "【ポケモンGO】7万8678人が集まるTGSだったらスーパーメガレイドが成立する説→検証してみた結果ｗｗ",
       "url": "https://youtu.be/4EQxtgC3SbA",
@@ -3505,7 +3432,7 @@
       "title": "ミュウツー☆2寝顔ゲット 1153日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/19/post-167365/",
       "host": "skypenguin.net",
-      "source": "skypenguin.net",
+      "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-09-20T08:31:25.000Z",
       "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
