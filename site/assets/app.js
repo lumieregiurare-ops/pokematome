@@ -1,12 +1,11 @@
 (() => {
   const $ = (s) => document.querySelector(s);
   const PAGE = 40;
-  const TOPICS_FIRST = 5;
+  const TOPICS_FIRST = 4;
   const SPIN_MS = 320;
   const FAV_KEY = "poke:fav";
   const READ_KEY = "poke:read";
   const STATE_KEY = "poke:state";
-  const NG_KEY = "poke:ng";
 
   let data = null;
   let shown = PAGE;
@@ -31,39 +30,16 @@
     },
   };
 
+  const NG_KEY = "poke:ng";
   let fav = store.get(FAV_KEY, []);
   let read = store.get(READ_KEY, []);
   let ngWords = store.get(NG_KEY, []);
-  const state = Object.assign({ series: "all", cat: "all", q: "", sort: "new" }, store.get(STATE_KEY, {}));
+  const state = Object.assign({ cat: "all", q: "", sort: "new" }, store.get(STATE_KEY, {}));
 
-  // 権利元・運営が自分で出した告知。ここから来たものは「公式発表」として大きく扱う
-  const OFFICIAL_HOSTS = [
-    "pokemon.co.jp", "pokemon.com", "pokemon-card.com", "pokemongolive.com",
-    "pokemonunite.jp", "pokemon-sleep.net", "pokemoncenter-online.com",
-    "nintendo.com", "nintendo.co.jp", "gamefreak.co.jp", "creatures.co.jp",
-  ];
-  // 攻略記事・カードの相場記事。毎日たくさん流れてくるので、一覧では小さく扱う
-  const GUIDE_HOSTS = ["gamewith.jp", "appmedia.jp", "snkrdunk.com", "game8.jp", "altema.jp", "gamerch.com"];
-  const GUIDE_TITLE = /買取|相場|値段|価格推移|厳選|育成論|最強|ランキング|一覧|入手方法|個体値/;
-  const VIDEO_HOSTS = ["youtu.be", "youtube.com"];
-
-  function hostIn(host, list) {
-    const h = (host || "").toLowerCase();
-    return list.some((o) => h === o || h.endsWith(`.${o}`));
-  }
-  const isOfficial = (it) => !!it.isOfficial || hostIn(it.host, OFFICIAL_HOSTS);
-  const isGuide = (it) =>
-    hostIn(it.host, GUIDE_HOSTS) || (it.categories || []).includes("guide") || GUIDE_TITLE.test(it.title);
-  const isVideo = (it) => hostIn(it.host, VIDEO_HOSTS);
-
-  // ---------- 時刻 ----------
+  // ---------- 小物 ----------
   function hhmm(iso) {
     const d = new Date(iso);
     return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
-  }
-  function mdhm(iso) {
-    const d = new Date(iso);
-    return `${d.getMonth() + 1}/${d.getDate()} ${hhmm(iso)}`;
   }
   function dayKey(iso) {
     const d = new Date(iso);
@@ -76,140 +52,63 @@
     today.setHours(0, 0, 0, 0);
     const diff = Math.round((today - date) / 86400000);
     const wd = ["日", "月", "火", "水", "木", "金", "土"][date.getDay()];
-    if (diff === 0) return `きょう ${m}月${d}日（${wd}）`;
-    if (diff === 1) return `きのう ${m}月${d}日（${wd}）`;
-    return `${m}月${d}日（${wd}）`;
+    if (diff === 0) return `今日 ${m}/${d}（${wd}）`;
+    if (diff === 1) return `昨日 ${m}/${d}（${wd}）`;
+    return `${m}/${d}（${wd}）`;
   }
-
-  const labelOfCat = (id) => data.categories.find((c) => c.id === id)?.label || "";
-  const labelOfSeries = (id) => data.series.find((s) => s.id === id)?.label || "";
-  const seriesOf = (it) => (it.series || [])[0] || "";
-  const seriesClass = (id) => `s-${id || "none"}`;
-
-  // ---------- 話題（クラスタ）の索引 ----------
-  // 記事がどの話題に属しているかを URL から引けるようにしておく。
-  // 一覧の扱いの大小も、ここで決まった「話題の中心かどうか」で決める。
-  let leadUrl = "";
-  let topicByUrl = new Map();
-  function indexTopics() {
-    topicByUrl = new Map();
-    (data.topics || []).forEach((t, i) => {
-      topicByUrl.set(t.url, { topic: t, rank: i, isLead: true });
-      for (const a of t.articles || []) {
-        if (!topicByUrl.has(a.url)) topicByUrl.set(a.url, { topic: t, rank: i, isLead: false });
-      }
-    });
+  function labelOfCat(id) {
+    return data.categories.find((c) => c.id === id)?.label || "";
   }
-  const topicOf = (it) => topicByUrl.get(it.url) || null;
-
-  // 話題に集まった記事を、古い順に並べ直す（初報 → 最新の流れを見せるため）
-  function flowOf(t) {
-    const arts = (t.articles || []).map((a) => ({ ...a }));
-    if (t.leadPublishedAt) {
-      arts.push({ title: t.title, url: t.url, source: t.leadSource, publishedAt: t.leadPublishedAt, isLead: true });
+  function labelOfSeries(id) {
+    return data.series.find((s) => s.id === id)?.label || "";
+  }
+  // ---------- サムネイル ----------
+  // 画像が取れなかった記事には、見出しから作った色つきのプレースホルダーを出す
+  const CAT_EMOJI = {
+    new: "✨", update: "🛠️", event: "🎉", tcgcat: "🃏", goodscat: "🎁",
+    media: "🎬", guide: "📖", community: "🏆", biz: "📈", other: "📰",
+  };
+  function hashHue(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+    return h % 360;
+  }
+  function applyPlaceholder(box, seed, glyph) {
+    const hue = hashHue(seed);
+    box.classList.add("thumb-ph");
+    box.style.background = `linear-gradient(135deg, hsl(${hue} 68% 62%), hsl(${(hue + 46) % 360} 68% 46%))`;
+    box.textContent = glyph;
+  }
+  // url があれば画像、なければプレースホルダー。画像の読み込みに失敗したらプレースホルダーに差し替える
+  function thumbNode(url, seed, glyph, className) {
+    const box = document.createElement("div");
+    box.className = className;
+    if (url) {
+      const img = document.createElement("img");
+      img.src = url;
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.referrerPolicy = "no-referrer";
+      img.addEventListener("error", () => {
+        img.remove();
+        applyPlaceholder(box, seed, glyph);
+      });
+      box.appendChild(img);
+    } else {
+      applyPlaceholder(box, seed, glyph);
     }
-    arts.sort((a, b) => new Date(a.publishedAt) - new Date(b.publishedAt));
-    return arts;
-  }
-  function firstReport(t) {
-    const flow = flowOf(t);
-    const at = t.firstAt || flow[0]?.publishedAt || t.publishedAt;
-    const hit = flow.find((a) => a.publishedAt === at);
-    return { at, source: hit?.source || t.leadSource || "" };
-  }
-  function lastReport(t) {
-    const flow = flowOf(t);
-    const at = t.publishedAt;
-    const hit = [...flow].reverse().find((a) => a.publishedAt === at);
-    return { at, source: hit?.source || t.leadSource || "" };
-  }
-
-  // ---------- 話題の状態 ----------
-  // 「急浮上」「本日初報」などの見出しは、必ず手元のデータから言えることだけにする。
-  // 何をもってそう呼んでいるかは、title 属性で読めるようにしておく。
-  function topicStatus(t) {
-    const first = firstReport(t).at;
-    const last = lastReport(t).at;
-    const gapH = (new Date(last) - new Date(first)) / 3600000;
-    const d0 = new Date();
-    d0.setHours(0, 0, 0, 0);
-    const firstToday = new Date(first) >= d0;
-
-    if (firstToday && t.sourceCount >= 3 && gapH <= 6) {
-      return { text: "急浮上", cls: "st-hot", why: `初報から ${Math.max(1, Math.round(gapH))} 時間のうちに ${t.sourceCount} 媒体が報じています` };
-    }
-    if (firstToday) {
-      return { text: "本日初報", cls: "st-new", why: `最初の記事が今日（${mdhm(first)}）出た話題です` };
-    }
-    const firstDay = new Date(first);
-    firstDay.setHours(0, 0, 0, 0);
-    const days = Math.round((d0 - firstDay) / 86400000) + 1;
-    return { text: `${days}日続く`, cls: "st-cont", why: `初報 ${mdhm(first)} から記事が出つづけています` };
-  }
-
-  function statusChip(t) {
-    const st = topicStatus(t);
-    const n = el("span", `status ${st.cls}`, st.text);
-    n.title = st.why;
-    return n;
-  }
-
-  // ---------- 記事の扱いの大きさ ----------
-  // 3 = この日の中心（話題の代表記事・公式発表）
-  // 2 = ふつうのニュース
-  // 1 = 小さく流すもの（攻略・相場・同じ話題の重複・PR・分類できなかったもの）
-  function tierOf(it) {
-    if (it.isPR) return 1;
-    if (isOfficial(it)) return 3;
-    // 攻略サイトの記事でも、複数の媒体が報じた話題の中心なら大きく扱う
-    const t = topicOf(it);
-    if (t && t.isLead && t.rank < 6) return 3;
-    if (isGuide(it)) return 1;
-    if (t) return 2;
-    if (!it.image) return 1;
-    if ((it.categories || []).length === 1 && it.categories[0] === "other" && !(it.series || []).length) return 1;
-    return 2;
-  }
-
-  // ---------- 小物 ----------
-  function el(tag, cls, text) {
-    const n = document.createElement(tag);
-    if (cls) n.className = cls;
-    if (text != null) n.textContent = text;
-    return n;
-  }
-  function extLink(cls, url, text, id) {
-    const a = el("a", cls, text);
-    a.href = url;
-    a.target = "_blank";
-    a.rel = "noopener noreferrer";
-    if (id) a.addEventListener("click", () => markRead(id));
-    return a;
-  }
-  function mark(text, cls) {
-    return el("span", `mark ${cls}`, text);
-  }
-  // 画像。読み込めなかったときは枠ごと消す（代わりの絵は出さない）
-  function thumbNode(url, cls, href, id) {
-    if (!url) return null;
-    const box = href ? extLink(cls, href, null, id) : el("div", cls);
-    const img = document.createElement("img");
-    img.src = url;
-    img.alt = "";
-    img.loading = "lazy";
-    img.decoding = "async";
-    img.referrerPolicy = "no-referrer";
-    img.addEventListener("error", () => box.remove());
-    box.appendChild(img);
     return box;
   }
   function spinnerNode() {
-    const sp = el("span", "spinner");
+    const sp = document.createElement("span");
+    sp.className = "spinner";
     sp.setAttribute("role", "status");
     sp.setAttribute("aria-label", "読み込み中");
     return sp;
   }
-  // 高さを保ったままクルクルを挟んでから中身を入れ替える
+  // 高さを保ったままクルクルを挟んでから中身を入れ替える。
+  // 描画前や非表示のタブでは offsetHeight が 0 や極端な値になるので、常識的な範囲に丸める
   function swapWithSpinner(box, render, { min = 76, max = 260 } = {}) {
     const h = Math.min(max, Math.max(min, box.offsetHeight || 0));
     box.style.minHeight = `${h}px`;
@@ -230,11 +129,12 @@
     Object.assign(state, patch);
     shown = PAGE;
     save();
-    renderNav();
+    renderFilters();
     renderList();
   }
 
   // ---------- 絞り込み ----------
+  // NGキーワードを含む記事を隠す（あとで読むに保存済みのものは対象外）
   function matchesNg(it) {
     if (!ngWords.length) return false;
     const text = `${it.title} ${it.summary || ""}`.toLowerCase();
@@ -244,7 +144,6 @@
   function visible() {
     const q = state.q.trim().toLowerCase();
     return data.items.filter((it) => {
-      if (state.series !== "all" && !(it.series || []).includes(state.series)) return false;
       if (state.cat !== "all" && !it.categories.includes(state.cat)) return false;
       if (matchesNg(it)) return false;
       if (q && !`${it.title} ${it.summary || ""} ${it.source}`.toLowerCase().includes(q)) return false;
@@ -252,304 +151,105 @@
     });
   }
 
+  // おまかせ順。並べ替えのたびに変わらないよう、seed から決める
   function shuffled(list) {
     const arr = list.map((it, i) => ({ it, k: Math.sin((i + 1) * 9301 + shuffleSeed * 49297) }));
     arr.sort((a, b) => a.k - b.k);
     return arr.map((x) => x.it);
   }
 
-  // ---------- きょうの注目 ----------
-  // 媒体数がいちばん多い話題が、必ずしも「きょうの話」とは限らない。
-  // きょうも記事が出ている話題の中から、急浮上しているもの・媒体数の多いものを選ぶ。
-  function pickLead(list) {
-    const d0 = new Date();
-    d0.setHours(0, 0, 0, 0);
-    const moving = list.filter((t) => new Date(lastReport(t).at) >= d0);
-    const pool = moving.length ? moving : list;
-    const hot = (t) => (topicStatus(t).cls === "st-hot" ? 1 : 0);
-    return [...pool].sort(
-      (a, b) => hot(b) - hot(a) || b.sourceCount - a.sourceCount || new Date(lastReport(b).at) - new Date(lastReport(a).at)
-    )[0];
-  }
+  // ---------- 記事の行 ----------
+  function makeRow(it) {
+    const row = document.createElement("article");
+    row.className = "row" + (it.isNew ? " is-new" : "");
 
-  // ---------- トップ記事 ----------
-  function renderLead() {
-    const box = $("#leadBody");
-    box.innerHTML = "";
-    const t = pickLead((data.topics || []).filter((x) => !matchesNg({ title: x.title, summary: x.summary })));
-    leadUrl = t ? t.url : "";
-    if (!t) {
-      box.hidden = true;
-      return;
-    }
-    box.hidden = false;
+    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "row-thumb");
 
-    const sid = seriesOfTopic(t);
-    const art = el("article", `lead-art ${seriesClass(sid)}`);
+    const body = document.createElement("div");
+    body.className = "row-body";
 
-    const text = el("div", "lead-text");
-    const eyebrow = el("p", "lead-eyebrow");
-    eyebrow.appendChild(statusChip(t));
-    if (sid) eyebrow.appendChild(el("span", "series-tag", labelOfSeries(sid)));
-    eyebrow.appendChild(mark(`${t.sourceCount} 媒体が報じています`, "mark-spread"));
-    for (const c of (t.categories || []).slice(0, 1)) {
-      const l = labelOfCat(c);
-      if (l && l !== "その他") eyebrow.appendChild(el("span", "cat-tag", l));
-    }
-
-    const h = el("h2", "lead-title");
-    h.appendChild(extLink(null, t.url, t.title, t.id));
-
-    const sum = el("p", "lead-sum", t.summary || "");
-
-    const first = firstReport(t);
-    const last = lastReport(t);
-    const track = el("dl", "track");
-    track.appendChild(trackRow("初報", first.at, first.source));
-    if (first.at !== last.at) track.appendChild(trackRow("最新", last.at, last.source));
-    const cnt = el("div");
-    cnt.append(el("dt", null, "記事"), el("dd", null, `${t.articleCount} 本`));
-    track.appendChild(cnt);
-
-    text.append(eyebrow, h, sum, track);
-
-    const all = flowOf(t).filter((a) => a.url !== t.url).reverse();
-    if (all.length) {
-      const ul = el("ul", "lead-arts");
-      const draw = (n) => {
-        ul.innerHTML = "";
-        for (const a of all.slice(0, n)) {
-          const li = el("li");
-          const time = el("time", "src", mdhm(a.publishedAt));
-          time.dateTime = a.publishedAt;
-          li.append(time, el("span", "src", a.source), extLink(null, a.url, a.title));
-          ul.appendChild(li);
-        }
-      };
-      draw(3);
-      text.appendChild(ul);
-      if (all.length > 3) {
-        const more = el("button", "lead-more", `この話題の記事をすべて見る（${all.length} 本）`);
-        more.type = "button";
-        more.addEventListener("click", () => {
-          draw(all.length);
-          more.remove();
-        });
-        text.appendChild(more);
-      }
-    }
-
-    art.appendChild(text);
-    const thumb = thumbNode(t.image, "lead-thumb", t.url, t.id);
-    if (thumb) art.appendChild(thumb);
-    else art.style.gridTemplateColumns = "minmax(0, 1fr)";
-    box.appendChild(art);
-  }
-
-  function trackRow(label, at, source) {
-    const d = el("div");
-    const dd = el("dd");
-    dd.appendChild(el("b", null, mdhm(at)));
-    if (source) dd.append(` ${source}`);
-    d.append(el("dt", null, label), dd);
-    return d;
-  }
-
-  // 話題に集まった記事から、いちばん多いタイトル（本編 / GO / ポケカ …）を選ぶ
-  function seriesOfTopic(t) {
-    const hit = data.items.find((it) => it.url === t.url);
-    if (hit && (hit.series || []).length) return hit.series[0];
-    for (const a of t.articles || []) {
-      const m = data.items.find((it) => it.url === a.url);
-      if (m && (m.series || []).length) return m.series[0];
-    }
-    return "";
-  }
-
-  // ---------- きょう動いたジャンル ----------
-  // 本編ゲーム / ポケカ / GO / アニメ …という分け方は、ポケモンだから成り立つもの。
-  // きょう記事が出たジャンルだけを、新聞の段組みのように並べる。
-  function renderGenres() {
-    const d0 = new Date();
-    d0.setHours(0, 0, 0, 0);
-    const todays = data.items.filter((it) => new Date(it.publishedAt) >= d0 && !matchesNg(it));
-    const cols = data.series
-      .map((sr) => ({ id: sr.id, label: sr.label, items: todays.filter((it) => (it.series || []).includes(sr.id)) }))
-      .filter((g) => g.items.length >= 2)
-      .sort((a, b) => b.items.length - a.items.length)
-      .slice(0, 4);
-
-    const sec = $("#genreSection");
-    if (cols.length < 2) {
-      sec.hidden = true;
-      return;
-    }
-    sec.hidden = false;
-    const box = $("#genreCols");
-    box.innerHTML = "";
-
-    for (const g of cols) {
-      const col = el("div", `genre ${seriesClass(g.id)}`);
-      const name = el("button", "genre-name");
-      name.type = "button";
-      name.append(g.label, el("span", "genre-n", `きょう ${g.items.length} 本`));
-      name.addEventListener("click", () => {
-        set({ series: g.id, cat: "all" });
-        $("#feedSection")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
-
-      // 攻略・相場より、ふつうのニュースを先に見せる
-      const pick = [...g.items]
-        .sort((a, b) => tierOf(b) - tierOf(a) || new Date(b.publishedAt) - new Date(a.publishedAt))
-        .slice(0, 3);
-      const ul = el("ul", "genre-list");
-      for (const it of pick) {
-        const li = el("li");
-        const time = el("time", "src", hhmm(it.publishedAt));
-        time.dateTime = it.publishedAt;
-        li.append(time, extLink(null, it.url, it.title, it.id));
-        ul.appendChild(li);
-      }
-      col.append(name, ul);
-      box.appendChild(col);
-    }
-  }
-
-  // ---------- 追いかけている話題 ----------
-  function renderTopics() {
-    const list = (data.topics || [])
-      .filter((t) => !matchesNg({ title: t.title, summary: t.summary }))
-      .filter((t) => t.url !== leadUrl); // トップ記事に出したものは外す
-    const sec = $("#topicsSection");
-    if (!list.length) {
-      sec.hidden = true;
-      return;
-    }
-    sec.hidden = false;
-    const box = $("#topicList");
-    box.innerHTML = "";
-
-    list.slice(0, topicsShown).forEach((t, i) => {
-      const sid = seriesOfTopic(t);
-      const li = el("li", `topic ${seriesClass(sid)}`);
-      li.appendChild(el("div", "topic-rank", String(i + 2).padStart(2, "0")));
-
-      const main = el("div", "topic-main");
-
-      const meta = el("div", "topic-meta");
-      meta.appendChild(statusChip(t));
-      if (sid) meta.appendChild(el("span", "series-tag", labelOfSeries(sid)));
-      for (const c of (t.categories || []).slice(0, 2)) {
-        const l = labelOfCat(c);
-        if (l && l !== "その他") meta.appendChild(el("span", "cat-tag", l));
-      }
-
-      const h = el("h3", "topic-title");
-      h.appendChild(extLink(null, t.url, t.title, t.id));
-
-      // 媒体数のものさし。段階評価ではなく、報じた媒体の数をそのまま並べる
-      const spread = el("div", "spread");
-      const bar = el("span", "spread-bar");
-      for (let k = 0; k < Math.min(14, t.sourceCount); k++) bar.appendChild(el("i"));
-      spread.append(bar, el("span", "spread-n", `${t.sourceCount} 媒体`), el("span", "src", `${t.articleCount} 本`));
-
-      const first = firstReport(t);
-      const last = lastReport(t);
-      const range = el("div", "topic-range");
-      if (first.at === last.at) range.append(`${mdhm(first.at)} ${first.source} が報じました`);
-      else range.append(`初報 ${mdhm(first.at)} ${first.source}`, el("span", "to", "→"), `最新 ${mdhm(last.at)} ${last.source}`);
-
-      const flowList = flowOf(t);
-      main.append(meta, h, spread, range);
-
-      if (flowList.length) {
-        const toggle = el("button", "topic-toggle", `報道の流れを見る（${flowList.length} 本）`);
-        toggle.type = "button";
-        const ol = el("ol", "topic-flow");
-        ol.hidden = true;
-        flowList.forEach((a, k) => {
-          const row = el("li", k === 0 ? "is-first" : "");
-          const time = el("time", null, mdhm(a.publishedAt));
-          time.dateTime = a.publishedAt;
-          row.append(time, el("span", "src", a.source), extLink(null, a.url, a.title));
-          ol.appendChild(row);
-        });
-        toggle.addEventListener("click", () => {
-          ol.hidden = !ol.hidden;
-          toggle.textContent = ol.hidden ? `報道の流れを見る（${flowList.length} 本）` : "報道の流れを閉じる";
-        });
-        main.append(toggle, ol);
-      }
-
-      li.appendChild(main);
-      const thumb = thumbNode(t.image, "topic-thumb", t.url, t.id);
-      if (thumb) li.appendChild(thumb);
-      box.appendChild(li);
-    });
-
-    const more = $("#topicMore");
-    more.hidden = list.length <= topicsShown;
-    more.textContent = `ほかの話題を見る（残り ${list.length - topicsShown} 件）`;
-  }
-
-  // ---------- 一覧（時系列） ----------
-  function makeItem(it, forcedTier) {
-    const tier = forcedTier || tierOf(it);
-    const sid = seriesOf(it);
-    const li = el("li", `tl t${tier} ${seriesClass(sid)}`);
-
-    const time = el("time", "tl-time", hhmm(it.publishedAt));
-    time.dateTime = it.publishedAt;
-
-    const main = el("div", "tl-main");
-    const text = el("div", "tl-text");
-
-    const meta = el("div", "tl-meta");
-    if (sid) meta.appendChild(el("span", "series-tag", labelOfSeries(sid)));
-    meta.appendChild(el("span", "src", it.source));
+    const top = document.createElement("div");
+    top.className = "row-top";
+    if (it.isNew) top.appendChild(badge("NEW", "badge-new"));
+    if (it.isOfficial) top.appendChild(badge("公式", "badge-official"));
+    for (const s of (it.series || []).slice(0, 1)) top.appendChild(badge(labelOfSeries(s), "badge-series"));
     for (const c of it.categories.slice(0, 1)) {
-      const l = labelOfCat(c);
-      if (l && l !== "その他") meta.appendChild(el("span", "cat-tag", l));
+      const label = labelOfCat(c);
+      if (label) top.appendChild(badge(label, "badge-cat"));
     }
-    if (isOfficial(it)) meta.appendChild(mark("公式発表", "mark-official"));
-    const t = topicOf(it);
-    if (t) meta.appendChild(mark(`${t.topic.sourceCount} 媒体が報道`, "mark-spread"));
-    if (isVideo(it)) meta.appendChild(mark("動画", "mark-video"));
-    if (it.isPR) meta.appendChild(mark("PR", "mark-pr"));
-    if (it.isNew) meta.appendChild(mark("NEW", "mark-new"));
+    if (it.isPR) top.appendChild(badge("PR", "badge-pr"));
+    const src = document.createElement("span");
+    src.textContent = `${it.source} ・ ${hhmm(it.publishedAt)}`;
+    top.appendChild(src);
 
-    const h = el("h3", "tl-title");
-    h.appendChild(extLink(null, it.url, it.title, it.id));
+    const a = document.createElement("a");
+    a.className = "row-title";
+    a.href = it.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = it.title;
+    a.addEventListener("click", () => markRead(it.id));
 
-    text.append(meta, h);
-    if (tier > 1 && it.summary) text.appendChild(el("p", "tl-sum", it.summary));
+    const sum = document.createElement("p");
+    sum.className = "row-sum";
+    sum.textContent = it.summary || "";
 
-    main.appendChild(text);
-    if (tier > 1) {
-      const thumb = thumbNode(it.image, "tl-thumb", it.url, it.id);
-      if (thumb) main.appendChild(thumb);
-    }
-    main.appendChild(laterBtn(it));
+    body.append(top, a, sum);
 
-    li.append(time, main);
-    return li;
-  }
-
-  function laterBtn(it) {
-    const b = el("button", "later-btn" + (fav.includes(it.id) ? " on" : ""), fav.includes(it.id) ? "✓" : "＋");
-    b.type = "button";
-    b.title = "あとで読む";
-    b.setAttribute("aria-label", "あとで読むに入れる");
-    b.addEventListener("click", () => {
+    const star = document.createElement("button");
+    star.type = "button";
+    star.className = "fav-btn" + (fav.includes(it.id) ? " on" : "");
+    star.textContent = fav.includes(it.id) ? "★" : "☆";
+    star.title = "あとで読む";
+    star.addEventListener("click", () => {
       toggleFav(it.id);
-      const on = fav.includes(it.id);
-      b.classList.toggle("on", on);
-      b.textContent = on ? "✓" : "＋";
+      const isOn = fav.includes(it.id);
+      star.classList.toggle("on", isOn);
+      star.textContent = isOn ? "★" : "☆";
+      if (isOn) burstStar(star);
       onFavChanged();
     });
+
+    row.append(thumb, body, star);
+    return row;
+  }
+
+  function burstStar(el) {
+    el.classList.remove("pop");
+    void el.offsetWidth;
+    el.classList.add("pop");
+    const burst = document.createElement("span");
+    burst.className = "fav-burst";
+    const n = 6;
+    for (let i = 0; i < n; i++) {
+      const p = document.createElement("i");
+      p.className = "fav-burst-star";
+      p.style.setProperty("--angle", `${(360 / n) * i}deg`);
+      p.style.animationDelay = `${i * 12}ms`;
+      burst.appendChild(p);
+    }
+    el.appendChild(burst);
+    setTimeout(() => burst.remove(), 700);
+  }
+
+  function badge(text, cls) {
+    const b = document.createElement("span");
+    b.className = `badge ${cls}`;
+    b.textContent = text;
     return b;
   }
 
+  function markRead(id) {
+    if (read.includes(id)) return;
+    read = [id, ...read].slice(0, 400);
+    store.set(READ_KEY, read);
+  }
+  function toggleFav(id) {
+    fav = fav.includes(id) ? fav.filter((x) => x !== id) : [id, ...fav].slice(0, 200);
+    store.set(FAV_KEY, fav);
+  }
+
+  // ---------- 一覧 ----------
   function renderList() {
     const all = visible();
     const ordered = state.sort === "shuffle" ? shuffled(all) : all;
@@ -559,19 +259,22 @@
 
     const countEl = $("#count");
     countEl.innerHTML = "";
-    countEl.append(`${all.length} 本`);
+    countEl.append(`${all.length} 件`);
     if (state.q) {
-      countEl.append(`　「${state.q}」で絞り込み中`);
-      const clear = el("button", "q-clear", "解除");
+      countEl.append(`「${state.q}」で絞り込み中 `);
+      const clear = document.createElement("button");
       clear.type = "button";
+      clear.className = "q-clear";
+      clear.textContent = "✕ 解除";
       clear.addEventListener("click", () => set({ q: "" }));
       countEl.appendChild(clear);
     }
     $("#empty").hidden = all.length > 0;
 
     if (state.sort === "shuffle") {
-      const rows = el("ol", "rows");
-      for (const it of list) rows.appendChild(makeItem(it));
+      const rows = document.createElement("div");
+      rows.className = "rows";
+      for (const it of list) rows.appendChild(makeRow(it));
       box.appendChild(rows);
     } else {
       const groups = new Map();
@@ -581,53 +284,117 @@
         groups.get(k).push(it);
       }
       for (const [key, items] of groups) {
-        const sec = el("section", "day");
-        sec.appendChild(el("h3", "day-head", dayLabel(key)));
-        const ol = el("ol", "day-items");
-        for (const it of items) ol.appendChild(makeItem(it));
-        sec.appendChild(ol);
+        const sec = document.createElement("section");
+        sec.className = "day";
+        const h = document.createElement("h3");
+        h.className = "day-head";
+        h.textContent = dayLabel(key);
+        const rows = document.createElement("div");
+        rows.className = "rows";
+        for (const it of items) rows.appendChild(makeRow(it));
+        sec.append(h, rows);
         box.appendChild(sec);
       }
     }
 
     const more = $("#listMore");
     more.hidden = all.length <= list.length;
-    more.textContent = `もっと見る（残り ${all.length - list.length} 本）`;
+    more.textContent = `もっと見る（残り ${all.length - list.length} 件）`;
   }
 
-  // ---------- ナビ・絞り込み ----------
-  function renderNav() {
-    const nav = $("#seriesNav");
-    nav.innerHTML = "";
-    const all = [{ id: "all", label: "すべて", count: data.total }, ...data.series.filter((s) => s.count > 0)];
-    for (const s of all) {
-      const b = el("button", `${seriesClass(s.id === "all" ? "" : s.id)}${state.series === s.id ? " active" : ""}`);
-      b.type = "button";
-      b.append(s.label, el("span", "n", String(s.count)));
-      b.addEventListener("click", () => {
-        set({ series: s.id });
-        if (state.series !== "all") $("#feedSection")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
-      nav.appendChild(b);
+  // ---------- 注目の話題 ----------
+  function renderTopics() {
+    const list = (data.topics || []).filter((t) => !matchesNg({ title: t.title, summary: t.summary }));
+    const sec = $("#topicsSection");
+    if (!list.length) {
+      sec.hidden = true;
+      return;
     }
+    sec.hidden = false;
+    const grid = $("#topicGrid");
+    grid.innerHTML = "";
+    for (const t of list.slice(0, topicsShown)) {
+      const card = document.createElement("article");
+      card.className = "topic";
 
+      const thumb = thumbNode(t.image, t.title, CAT_EMOJI[(t.categories || [])[0]] || CAT_EMOJI.other, "topic-thumb");
+
+      const top = document.createElement("div");
+      top.className = "topic-top";
+      const stars = document.createElement("span");
+      stars.className = "topic-stars";
+      // 媒体数をそのまま★にする（最大 5 つ）
+      const n = Math.min(5, t.sourceCount);
+      stars.textContent = "★".repeat(n) + "☆".repeat(Math.max(0, 5 - n));
+      const count = document.createElement("span");
+      count.className = "topic-count";
+      count.textContent = `${t.sourceCount} 媒体`;
+      const time = document.createElement("span");
+      time.className = "topic-time";
+      time.textContent = hhmm(t.publishedAt || data.updatedAt);
+      top.append(stars, count, time);
+
+      const body = document.createElement("div");
+      body.className = "topic-body";
+      const h = document.createElement("h3");
+      h.className = "topic-title";
+      const a = document.createElement("a");
+      a.href = t.url || t.items?.[0]?.url || "#";
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = t.title;
+      h.appendChild(a);
+      const sum = document.createElement("p");
+      sum.className = "topic-sum";
+      sum.textContent = t.summary || "";
+
+      const links = document.createElement("ul");
+      links.className = "topic-links";
+      for (const it of (t.articles || []).slice(0, 4)) {
+        const li = document.createElement("li");
+        const s = document.createElement("span");
+        s.className = "src";
+        s.textContent = it.source;
+        const la = document.createElement("a");
+        la.href = it.url;
+        la.target = "_blank";
+        la.rel = "noopener noreferrer";
+        la.textContent = it.title;
+        la.addEventListener("click", () => markRead(it.id || it.url));
+        li.append(s, la);
+        links.appendChild(li);
+      }
+
+      body.append(h, sum, links);
+      card.append(thumb, top, body);
+      grid.appendChild(card);
+    }
+    const more = $("#topicMore");
+    more.hidden = list.length <= topicsShown;
+    more.textContent = `ほかの話題を見る（残り ${list.length - topicsShown} 件）`;
+  }
+
+  // ---------- 左カラム ----------
+  function renderFilters() {
     const cl = $("#catList");
     cl.innerHTML = "";
-    const cats = [{ id: "all", label: "種別すべて", count: data.total }, ...data.categories.filter((c) => c.count > 0)];
+    const cats = [{ id: "all", label: "すべて", count: data.total }, ...data.categories.filter((c) => c.count > 0)];
     for (const c of cats) {
-      const b = el("button", state.cat === c.id ? "active" : "");
+      const b = document.createElement("button");
       b.type = "button";
-      b.append(c.label, el("span", "n", String(c.count)));
+      b.className = state.cat === c.id ? "active" : "";
+      b.innerHTML = `${c.label}<span class="n">${c.count}</span>`;
       b.addEventListener("click", () => set({ cat: c.id }));
       cl.appendChild(b);
     }
 
     $("#sourceList").textContent = data.sources.map((s) => s.name).join(" / ");
+
     for (const b of document.querySelectorAll("#sortSeg button")) b.classList.toggle("active", b.dataset.sort === state.sort);
   }
 
   // 見出しによく出ている語。押すと検索に入る
-  const STOP = new Set(["ポケモン", "ポケットモンスター", "ゲーム", "情報", "発表", "公開", "配信", "実施", "開始", "登場", "予定", "紹介", "今日", "本日", "最新", "対応", "シリーズ", "販売", "商品", "価格"]);
+  const STOP = new Set(["モンスターハンター", "モンハン", "ワイルズ", "モンスター", "ハンター", "ゲーム", "情報", "発表", "公開", "配信", "実施", "開始", "登場", "予定", "紹介", "今日", "本日", "最新", "対応", "シリーズ", "カプコン"]);
   function renderWords() {
     const count = new Map();
     for (const it of data.items) {
@@ -638,15 +405,15 @@
         count.set(w, (count.get(w) || 0) + 1);
       }
     }
-    const top = [...count.entries()].filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1]).slice(0, 16);
+    const top = [...count.entries()].filter(([, n]) => n >= 2).sort((a, b) => b[1] - a[1]).slice(0, 18);
     if (!top.length) return;
     $("#wordMod").hidden = false;
     const box = $("#wordCloud");
     box.innerHTML = "";
     for (const [w, n] of top) {
-      const b = el("button");
+      const b = document.createElement("button");
       b.type = "button";
-      b.append(w, el("span", "n", String(n)));
+      b.textContent = `${w} ${n}`;
       b.addEventListener("click", () => {
         set({ q: w });
         $("#feedSection")?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -655,27 +422,40 @@
     }
   }
 
-  // ---------- 補助の欄 ----------
+  // ---------- 右カラム ----------
   let gachaId = "";
   function renderGacha() {
     const pool = data.items.filter((it) => !it.isPR && !matchesNg(it));
     const box = $("#gachaBody");
     box.innerHTML = "";
     if (!pool.length) return;
+    // まだ開いていない記事を優先する（毎回同じものが出ないように）
     const unread = pool.filter((it) => !read.includes(it.id) && it.id !== gachaId);
     const from = unread.length ? unread : pool.filter((it) => it.id !== gachaId);
     const it = (from.length ? from : pool)[Math.floor(Math.random() * (from.length || pool.length))];
     gachaId = it.id;
 
-    const a = extLink("gacha-item", it.url, null, it.id);
-    const thumb = thumbNode(it.image, "gacha-thumb");
-    if (thumb) a.appendChild(thumb);
-    const info = el("div", "gacha-info");
-    info.append(el("div", "gacha-meta", `${it.source} ・ ${hhmm(it.publishedAt)}`), el("div", "gacha-title", it.title));
-    a.appendChild(info);
+    const a = document.createElement("a");
+    a.className = "gacha-item";
+    a.href = it.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.addEventListener("click", () => markRead(it.id));
+    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "gacha-thumb");
+    const info = document.createElement("div");
+    info.className = "gacha-info";
+    const meta = document.createElement("div");
+    meta.className = "gacha-meta";
+    meta.textContent = `${it.source} ・ ${hhmm(it.publishedAt)}`;
+    const t = document.createElement("div");
+    t.className = "gacha-title";
+    t.textContent = it.title;
+    info.append(meta, t);
+    a.append(thumb, info);
     box.appendChild(a);
   }
 
+  // ---------- その他のニュース（対象タイトル以外のゲームニュース） ----------
   async function renderOtherNews() {
     let other;
     try {
@@ -690,13 +470,23 @@
     const box = $("#otherList");
     box.innerHTML = "";
     for (const it of items) {
-      const li = el("li");
-      li.append(el("div", "other-meta", `${it.source} ・ ${hhmm(it.publishedAt)}`), extLink(null, it.url, it.title));
+      const li = document.createElement("li");
+      const meta = document.createElement("div");
+      meta.className = "other-meta";
+      meta.textContent = `${it.source} ・ ${hhmm(it.publishedAt)}`;
+      const a = document.createElement("a");
+      a.href = it.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = it.title;
+      li.append(meta, a);
       box.appendChild(li);
     }
   }
 
   // ---------- きょうの1匹（全国図鑑） ----------
+  // 図鑑データ（dex.json）は 400KB ほどあり中身も変わらないので、
+  // ニュースの表示を邪魔しないよう、本文を描いたあとに遅延して読み込む
   let dex = null;
   let dexId = 0;
   async function loadDex() {
@@ -714,7 +504,7 @@
     const box = $("#dexBody");
     box.innerHTML = "";
     if (!dex || !dex.length) {
-      box.appendChild(el("p", "mod-desc", "図鑑データを読み込めませんでした。"));
+      box.innerHTML = `<p class="mod-desc">図鑑データを読み込めませんでした。</p>`;
       return;
     }
     const rareOnly = $("#dexRare").checked;
@@ -724,7 +514,9 @@
     if (!e) return;
     dexId = e.id;
 
-    const card = el("div", "dex-card");
+    const card = document.createElement("div");
+    card.className = "dex-card";
+
     const img = document.createElement("img");
     img.className = "dex-img";
     img.src = e.image;
@@ -733,61 +525,74 @@
     img.decoding = "async";
     img.referrerPolicy = "no-referrer";
 
-    const name = el("div", "dex-name", e.name);
-    if (e.isLegendary || e.isMythical) name.appendChild(el("span", "dex-rare", e.isMythical ? "幻" : "伝説"));
+    const no = document.createElement("div");
+    no.className = "dex-no";
+    no.textContent = `No.${String(e.id).padStart(4, "0")}`;
 
-    const types = el("div", "dex-types");
-    for (const t of e.types || []) types.appendChild(el("span", "dex-type", t));
+    const name = document.createElement("div");
+    name.className = "dex-name";
+    name.textContent = e.name;
+    if (e.isLegendary || e.isMythical) {
+      const tag = document.createElement("span");
+      tag.className = "dex-rare";
+      tag.textContent = e.isMythical ? "幻" : "伝説";
+      name.appendChild(tag);
+    }
 
-    card.append(
-      img,
-      el("div", "dex-no", `No.${String(e.id).padStart(4, "0")}`),
-      name,
-      types,
-      el("div", "dex-size", `${e.genus ? `${e.genus} ・ ` : ""}高さ ${e.height}m ・ 重さ ${e.weight}kg`),
-      el("p", "dex-flavor", e.flavor || "")
-    );
+    const types = document.createElement("div");
+    types.className = "dex-types";
+    for (const t of e.types || []) {
+      const s = document.createElement("span");
+      s.className = `dex-type type-${t}`;
+      s.textContent = t;
+      types.appendChild(s);
+    }
+
+    const size = document.createElement("div");
+    size.className = "dex-size";
+    size.textContent = `${e.genus ? `${e.genus} ・ ` : ""}高さ ${e.height}m ・ 重さ ${e.weight}kg`;
+
+    const flavor = document.createElement("p");
+    flavor.className = "dex-flavor";
+    flavor.textContent = e.flavor || "";
+
+    card.append(img, no, name, types, size, flavor);
     box.appendChild(card);
   }
 
-  // ---------- あとで読む ----------
-  function markRead(id) {
-    if (!id || read.includes(id)) return;
-    read = [id, ...read].slice(0, 400);
-    store.set(READ_KEY, read);
-  }
-  function toggleFav(id) {
-    fav = fav.includes(id) ? fav.filter((x) => x !== id) : [id, ...fav].slice(0, 200);
-    store.set(FAV_KEY, fav);
-  }
   function updateFavCount() {
-    const el2 = $("#favCount");
-    el2.hidden = fav.length === 0;
-    el2.textContent = String(fav.length);
+    const el = $("#favCount");
+    el.hidden = fav.length === 0;
+    el.textContent = String(fav.length);
   }
+
   function renderFavView() {
     const box = $("#favViewBody");
     box.innerHTML = "";
     const items = fav.map((id) => data.items.find((it) => it.id === id)).filter(Boolean);
     $("#favViewEmpty").hidden = items.length > 0;
     if (!items.length) return;
-    const ol = el("ol", "rows");
-    for (const it of items) ol.appendChild(makeItem(it, 2));
-    box.appendChild(ol);
+    const rows = document.createElement("div");
+    rows.className = "rows";
+    for (const it of items) rows.appendChild(makeRow(it));
+    box.appendChild(rows);
   }
+
   function onFavChanged() {
     updateFavCount();
     if (favViewOpen) renderFavView();
   }
 
+  // ---------- あとで読む（中央エリアだけを差し替える簡易ルーティング） ----------
   let favViewOpen = false;
   const BASE_TITLE = document.title;
   function showFavView() {
     favViewOpen = true;
-    for (const id of ["todaySection", "topicsSection", "feedSection"]) {
-      const n = document.getElementById(id);
-      if (n) n.hidden = true;
+    for (const id of ["topicsSection", "feedSection", "catMod"]) {
+      const el = document.getElementById(id);
+      if (el) el.hidden = true;
     }
+    $(".side-left").classList.add("fav-hide");
     $("#favView").hidden = false;
     renderFavView();
     document.title = `あとで読む｜${BASE_TITLE}`;
@@ -796,9 +601,10 @@
   function hideFavView() {
     favViewOpen = false;
     $("#favView").hidden = true;
-    $("#todaySection").hidden = false;
-    $("#topicsSection").hidden = !((data?.topics || []).length > 1);
+    $("#topicsSection").hidden = !(data?.topics?.length);
     $("#feedSection").hidden = false;
+    $("#catMod").hidden = false;
+    $(".side-left").classList.remove("fav-hide");
     document.title = BASE_TITLE;
   }
   function syncFavView() {
@@ -811,37 +617,36 @@
     const box = $("#ngList");
     box.innerHTML = "";
     for (const w of ngWords) {
-      const chip = el("span", "ng-chip", w);
-      const del = el("button", null, "×");
+      const chip = document.createElement("span");
+      chip.className = "ng-chip";
+      chip.textContent = w;
+      const del = document.createElement("button");
       del.type = "button";
+      del.textContent = "×";
       del.title = "削除";
       del.addEventListener("click", () => {
         ngWords = ngWords.filter((x) => x !== w);
         store.set(NG_KEY, ngWords);
         renderNg();
-        redrawNews();
+        shown = PAGE;
+        renderTopics();
+        renderList();
       });
       chip.appendChild(del);
       box.appendChild(chip);
     }
   }
-  function redrawNews() {
-    shown = PAGE;
-    renderLead();
-    renderGenres();
-    renderTopics();
-    renderList();
-  }
 
+  // ---------- 更新の様子 ----------
   function renderChurn() {
     const c = data.churn;
-    const n = $("#churn");
+    const el = $("#churn");
     if (!c || !c.previousCount) {
-      n.hidden = true;
+      el.hidden = true;
       return;
     }
-    n.hidden = false;
-    n.innerHTML = `前回から <b>${c.newCount}</b> 本`;
+    el.hidden = false;
+    el.innerHTML = `前回から <b>${c.newCount}</b> 本が新着`;
   }
 
   // ---------- 起動 ----------
@@ -860,20 +665,16 @@
       return;
     }
 
-    indexTopics();
-
     const u = new Date(data.updatedAt);
-    $("#meta").textContent = `${u.getMonth() + 1}月${u.getDate()}日 ${hhmm(data.updatedAt)} 更新 ・ ${data.total} 本を掲載中（きょう ${data.todayCount} 本）・ 追いかけている話題 ${data.topics.length} 件`;
+    $("#meta").textContent = `${data.total} 本のニュース ・ 今日 ${data.todayCount} 本 ・ ${data.topics.length} の話題 ・ 最終更新 ${u.getMonth() + 1}/${u.getDate()} ${hhmm(data.updatedAt)}`;
 
     renderChurn();
-    renderNav();
+    renderFilters();
     renderWords();
-    renderLead();
-    renderGenres();
     renderTopics();
     renderList();
     renderGacha();
-    // 図鑑・別記事の一覧は後回しにして、ニュースの表示を先に終わらせる
+    // 図鑑・その他のニュースは後回しにして、ニュースの表示を先に終わらせる
     loadDex().then(renderDex);
     renderOtherNews();
     updateFavCount();
@@ -886,6 +687,7 @@
     history.replaceState(null, "", location.pathname + location.search);
     hideFavView();
   });
+  document.querySelectorAll(".global-nav a").forEach((a) => a.addEventListener("click", () => hideFavView()));
   $("#ngForm").addEventListener("submit", (e) => {
     e.preventDefault();
     const input = $("#ngInput");
@@ -895,7 +697,9 @@
     ngWords = [...ngWords, w].slice(0, 30);
     store.set(NG_KEY, ngWords);
     renderNg();
-    redrawNews();
+    shown = PAGE;
+    renderTopics();
+    renderList();
   });
   for (const b of document.querySelectorAll("#sortSeg button")) {
     b.addEventListener("click", () => {
@@ -908,18 +712,32 @@
     renderList();
   });
   $("#topicMore").addEventListener("click", () => {
-    topicsShown += 5;
+    topicsShown += 4;
     renderTopics();
   });
   $("#gachaAgain").addEventListener("click", () => swapWithSpinner($("#gachaBody"), renderGacha));
   $("#dexAgain").addEventListener("click", () => swapWithSpinner($("#dexBody"), renderDex, { min: 210, max: 360 }));
   $("#dexRare").addEventListener("change", () => swapWithSpinner($("#dexBody"), renderDex, { min: 210, max: 360 }));
-
   const toTop = $("#toTop");
-  const onScroll = () => (toTop.hidden = window.scrollY < 600);
+  const onScroll = () => (toTop.hidden = window.scrollY < 500);
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
   toTop.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+  // スマホ幅では「ニュースの種別」を新着ニュースの直前に移す（デスクトップは左カラムのまま）
+  const mobileQuery = window.matchMedia("(max-width: 820px)");
+  function layoutCatMod() {
+    const catMod = $("#catMod");
+    const sideLeft = $(".side-left");
+    const feedSection = $("#feedSection");
+    if (mobileQuery.matches) {
+      if (catMod.nextElementSibling !== feedSection) feedSection.before(catMod);
+    } else if (sideLeft.firstElementChild !== catMod) {
+      sideLeft.prepend(catMod);
+    }
+  }
+  mobileQuery.addEventListener("change", layoutCatMod);
+  layoutCatMod();
 
   boot();
 })();

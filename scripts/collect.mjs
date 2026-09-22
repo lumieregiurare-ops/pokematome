@@ -31,13 +31,6 @@ const fallback = config.fallbackCategory || { id: "other", label: "その他" };
 const blockRe = (config.blockTitlePatterns || []).map((k) => new RegExp(k));
 const prRe = (config.prSources || []).map((s) => new RegExp(s, "i"));
 
-// 権利元・運営が自分で出した告知かどうか。画面では「公式発表」として大きく扱う
-const officialHosts = (config.officialHosts || []).map((h) => h.toLowerCase());
-function isOfficialHost(host) {
-  const h = (host || "").toLowerCase();
-  return officialHosts.some((o) => h === o || h.endsWith(`.${o}`));
-}
-
 // 重複判定用に見出しを正規化する（全角英数を半角に、空白と末尾の媒体名を落とす）
 function normTitle(t) {
   return t
@@ -166,7 +159,7 @@ for (const r of raw) {
     image: r.image || "",
     categories: categorize(text),
     series: detectSeries(text, r.series),
-    isOfficial: r.sourceKind === "official" || isOfficialHost(r.sourceHost || hostOf(r.url)),
+    isOfficial: r.sourceKind === "official",
     isPR,
     viaGoogle: !!r.viaGoogle,
     sourceKind: r.sourceKind || "news",

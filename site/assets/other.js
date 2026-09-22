@@ -39,19 +39,39 @@
   }
 
   // ---------- サムネイル ----------
-  // 画像が取れなかったときは枠ごと消す（代わりの絵は出さない）
-  function thumbNode(url, className) {
-    if (!url) return null;
+  const CAT_EMOJI = {
+    new: "✨", update: "🛠️", event: "🎉", tcgcat: "🃏", goodscat: "🎁",
+    media: "🎬", guide: "📖", community: "🏆", biz: "📈", other: "📰",
+  };
+  function hashHue(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+    return h % 360;
+  }
+  function applyPlaceholder(box, seed, glyph) {
+    const hue = hashHue(seed);
+    box.classList.add("thumb-ph");
+    box.style.background = `linear-gradient(135deg, hsl(${hue} 68% 62%), hsl(${(hue + 46) % 360} 68% 46%))`;
+    box.textContent = glyph;
+  }
+  function thumbNode(url, seed, glyph, className) {
     const box = document.createElement("div");
     box.className = className;
-    const img = document.createElement("img");
-    img.src = url;
-    img.alt = "";
-    img.loading = "lazy";
-    img.decoding = "async";
-    img.referrerPolicy = "no-referrer";
-    img.addEventListener("error", () => box.remove());
-    box.appendChild(img);
+    if (url) {
+      const img = document.createElement("img");
+      img.src = url;
+      img.alt = "";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.referrerPolicy = "no-referrer";
+      img.addEventListener("error", () => {
+        img.remove();
+        applyPlaceholder(box, seed, glyph);
+      });
+      box.appendChild(img);
+    } else {
+      applyPlaceholder(box, seed, glyph);
+    }
     return box;
   }
   function spinnerNode() {
@@ -98,7 +118,7 @@
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.addEventListener("click", () => markRead(it.id));
-    const thumb = thumbNode(it.image, "gacha-thumb");
+    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "gacha-thumb");
     const info = document.createElement("div");
     info.className = "gacha-info";
     const meta = document.createElement("div");
@@ -108,8 +128,7 @@
     t.className = "gacha-title";
     t.textContent = it.title;
     info.append(meta, t);
-    if (thumb) a.appendChild(thumb);
-    a.appendChild(info);
+    a.append(thumb, info);
     box.appendChild(a);
   }
 
@@ -169,7 +188,7 @@
     types.className = "dex-types";
     for (const t of e.types || []) {
       const s = document.createElement("span");
-      s.className = "dex-type";
+      s.className = `dex-type type-${t}`;
       s.textContent = t;
       types.appendChild(s);
     }
