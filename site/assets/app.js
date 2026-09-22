@@ -89,6 +89,7 @@
   // ---------- 話題（クラスタ）の索引 ----------
   // 記事がどの話題に属しているかを URL から引けるようにしておく。
   // 一覧の扱いの大小も、ここで決まった「話題の中心かどうか」で決める。
+  let leadUrl = "";
   let topicByUrl = new Map();
   function indexTopics() {
     topicByUrl = new Map();
@@ -121,6 +122,36 @@
     const at = t.publishedAt;
     const hit = [...flow].reverse().find((a) => a.publishedAt === at);
     return { at, source: hit?.source || t.leadSource || "" };
+  }
+
+  // ---------- 話題の状態 ----------
+  // 「急浮上」「本日初報」などの見出しは、必ず手元のデータから言えることだけにする。
+  // 何をもってそう呼んでいるかは、title 属性で読めるようにしておく。
+  function topicStatus(t) {
+    const first = firstReport(t).at;
+    const last = lastReport(t).at;
+    const gapH = (new Date(last) - new Date(first)) / 3600000;
+    const d0 = new Date();
+    d0.setHours(0, 0, 0, 0);
+    const firstToday = new Date(first) >= d0;
+
+    if (firstToday && t.sourceCount >= 3 && gapH <= 6) {
+      return { text: "急浮上", cls: "st-hot", why: `初報から ${Math.max(1, Math.round(gapH))} 時間のうちに ${t.sourceCount} 媒体が報じています` };
+    }
+    if (firstToday) {
+      return { text: "本日初報", cls: "st-new", why: `最初の記事が今日（${mdhm(first)}）出た話題です` };
+    }
+    const firstDay = new Date(first);
+    firstDay.setHours(0, 0, 0, 0);
+    const days = Math.round((d0 - firstDay) / 86400000) + 1;
+    return { text: `${days}日続く`, cls: "st-cont", why: `初報 ${mdhm(first)} から記事が出つづけています` };
+  }
+
+  function statusChip(t) {
+    const st = topicStatus(t);
+    const n = el("span", `status ${st.cls}`, st.text);
+    n.title = st.why;
+    return n;
   }
 
   // ---------- 記事の扱いの大きさ ----------
@@ -227,23 +258,38 @@
     return arr.map((x) => x.it);
   }
 
+  // ---------- きょうの注目 ----------
+  // 媒体数がいちばん多い話題が、必ずしも「きょうの話」とは限らない。
+  // きょうも記事が出ている話題の中から、急浮上しているもの・媒体数の多いものを選ぶ。
+  function pickLead(list) {
+    const d0 = new Date();
+    d0.setHours(0, 0, 0, 0);
+    const moving = list.filter((t) => new Date(lastReport(t).at) >= d0);
+    const pool = moving.length ? moving : list;
+    const hot = (t) => (topicStatus(t).cls === "st-hot" ? 1 : 0);
+    return [...pool].sort(
+      (a, b) => hot(b) - hot(a) || b.sourceCount - a.sourceCount || new Date(lastReport(b).at) - new Date(lastReport(a).at)
+    )[0];
+  }
+
   // ---------- トップ記事 ----------
   function renderLead() {
-    const sec = $("#leadSection");
-    const t = (data.topics || []).find((x) => !matchesNg({ title: x.title, summary: x.summary }));
-    if (!t) {
-      sec.hidden = true;
-      return;
-    }
-    sec.hidden = false;
     const box = $("#leadBody");
     box.innerHTML = "";
+    const t = pickLead((data.topics || []).filter((x) => !matchesNg({ title: x.title, summary: x.summary })));
+    leadUrl = t ? t.url : "";
+    if (!t) {
+      box.hidden = true;
+      return;
+    }
+    box.hidden = false;
 
     const sid = seriesOfTopic(t);
     const art = el("article", `lead-art ${seriesClass(sid)}`);
 
     const text = el("div", "lead-text");
     const eyebrow = el("p", "lead-eyebrow");
+    eyebrow.appendChild(statusChip(t));
     if (sid) eyebrow.appendChild(el("span", "series-tag", labelOfSeries(sid)));
     eyebrow.appendChild(mark(`${t.sourceCount} 媒体が報じています`, "mark-spread"));
     for (const c of (t.categories || []).slice(0, 1)) {
@@ -267,15 +313,30 @@
 
     text.append(eyebrow, h, sum, track);
 
-    const flow = flowOf(t).filter((a) => a.url !== t.url).reverse().slice(0, 4);
-    if (flow.length) {
+    const all = flowOf(t).filter((a) => a.url !== t.url).reverse();
+    if (all.length) {
       const ul = el("ul", "lead-arts");
-      for (const a of flow) {
-        const li = el("li");
-        li.append(el("span", "src", a.source), extLink(null, a.url, a.title));
-        ul.appendChild(li);
-      }
+      const draw = (n) => {
+        ul.innerHTML = "";
+        for (const a of all.slice(0, n)) {
+          const li = el("li");
+          const time = el("time", "src", mdhm(a.publishedAt));
+          time.dateTime = a.publishedAt;
+          li.append(time, el("span", "src", a.source), extLink(null, a.url, a.title));
+          ul.appendChild(li);
+        }
+      };
+      draw(3);
       text.appendChild(ul);
+      if (all.length > 3) {
+        const more = el("button", "lead-more", `この話題の記事をすべて見る（${all.length} 本）`);
+        more.type = "button";
+        more.addEventListener("click", () => {
+          draw(all.length);
+          more.remove();
+        });
+        text.appendChild(more);
+      }
     }
 
     art.appendChild(text);
@@ -305,10 +366,60 @@
     return "";
   }
 
+  // ---------- きょう動いたジャンル ----------
+  // 本編ゲーム / ポケカ / GO / アニメ …という分け方は、ポケモンだから成り立つもの。
+  // きょう記事が出たジャンルだけを、新聞の段組みのように並べる。
+  function renderGenres() {
+    const d0 = new Date();
+    d0.setHours(0, 0, 0, 0);
+    const todays = data.items.filter((it) => new Date(it.publishedAt) >= d0 && !matchesNg(it));
+    const cols = data.series
+      .map((sr) => ({ id: sr.id, label: sr.label, items: todays.filter((it) => (it.series || []).includes(sr.id)) }))
+      .filter((g) => g.items.length >= 2)
+      .sort((a, b) => b.items.length - a.items.length)
+      .slice(0, 4);
+
+    const sec = $("#genreSection");
+    if (cols.length < 2) {
+      sec.hidden = true;
+      return;
+    }
+    sec.hidden = false;
+    const box = $("#genreCols");
+    box.innerHTML = "";
+
+    for (const g of cols) {
+      const col = el("div", `genre ${seriesClass(g.id)}`);
+      const name = el("button", "genre-name");
+      name.type = "button";
+      name.append(g.label, el("span", "genre-n", `きょう ${g.items.length} 本`));
+      name.addEventListener("click", () => {
+        set({ series: g.id, cat: "all" });
+        $("#feedSection")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      // 攻略・相場より、ふつうのニュースを先に見せる
+      const pick = [...g.items]
+        .sort((a, b) => tierOf(b) - tierOf(a) || new Date(b.publishedAt) - new Date(a.publishedAt))
+        .slice(0, 3);
+      const ul = el("ul", "genre-list");
+      for (const it of pick) {
+        const li = el("li");
+        const time = el("time", "src", hhmm(it.publishedAt));
+        time.dateTime = it.publishedAt;
+        li.append(time, extLink(null, it.url, it.title, it.id));
+        ul.appendChild(li);
+      }
+      col.append(name, ul);
+      box.appendChild(col);
+    }
+  }
+
   // ---------- 追いかけている話題 ----------
   function renderTopics() {
-    const all = (data.topics || []).filter((t) => !matchesNg({ title: t.title, summary: t.summary }));
-    const list = all.slice(1); // 1 件目はトップ記事に出しているので外す
+    const list = (data.topics || [])
+      .filter((t) => !matchesNg({ title: t.title, summary: t.summary }))
+      .filter((t) => t.url !== leadUrl); // トップ記事に出したものは外す
     const sec = $("#topicsSection");
     if (!list.length) {
       sec.hidden = true;
@@ -326,6 +437,7 @@
       const main = el("div", "topic-main");
 
       const meta = el("div", "topic-meta");
+      meta.appendChild(statusChip(t));
       if (sid) meta.appendChild(el("span", "series-tag", labelOfSeries(sid)));
       for (const c of (t.categories || []).slice(0, 2)) {
         const l = labelOfCat(c);
@@ -672,7 +784,7 @@
   const BASE_TITLE = document.title;
   function showFavView() {
     favViewOpen = true;
-    for (const id of ["leadSection", "topicsSection", "feedSection"]) {
+    for (const id of ["todaySection", "topicsSection", "feedSection"]) {
       const n = document.getElementById(id);
       if (n) n.hidden = true;
     }
@@ -684,7 +796,7 @@
   function hideFavView() {
     favViewOpen = false;
     $("#favView").hidden = true;
-    $("#leadSection").hidden = !(data?.topics?.length);
+    $("#todaySection").hidden = false;
     $("#topicsSection").hidden = !((data?.topics || []).length > 1);
     $("#feedSection").hidden = false;
     document.title = BASE_TITLE;
@@ -716,6 +828,7 @@
   function redrawNews() {
     shown = PAGE;
     renderLead();
+    renderGenres();
     renderTopics();
     renderList();
   }
@@ -756,6 +869,7 @@
     renderNav();
     renderWords();
     renderLead();
+    renderGenres();
     renderTopics();
     renderList();
     renderGacha();

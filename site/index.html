@@ -47,12 +47,20 @@
     <div class="wrap title-nav-inner" id="seriesNav"></div>
   </nav>
 
-  <p class="wrap status-line"><span id="meta">読み込み中…</span><span class="churn" id="churn" hidden></span></p>
-
   <main>
-    <!-- いちばん大きな出来事。1 件だけ、全幅で出す -->
-    <section class="lead" id="leadSection" hidden>
-      <div class="wrap" id="leadBody"></div>
+    <!-- ファーストビュー。きょうの一番大きな出来事と、きょう動いたジャンル -->
+    <section class="today" id="todaySection">
+      <div class="wrap">
+        <div class="edition">
+          <h2 class="edition-title">きょうのポケモン界隈</h2>
+          <p class="edition-meta"><span id="meta">読み込み中…</span><span class="churn" id="churn" hidden></span></p>
+        </div>
+        <div class="lead" id="leadBody"></div>
+        <div class="genres" id="genreSection" hidden>
+          <h3 class="genres-title">きょう動いたジャンル</h3>
+          <div class="genre-cols" id="genreCols"></div>
+        </div>
+      </div>
     </section>
 
     <div class="wrap layout">
@@ -123,23 +131,30 @@
           <a class="mod-link" href="other.html">もっと見る</a>
         </section>
 
-        <section class="mod mod-plain" id="wordMod" hidden>
-          <h2 class="mod-head">見出しによく出ている語</h2>
+      </aside>
+
+    </div>
+
+    <!-- 読みものではなく道具。ニュースを読み終えたあとの位置に置く -->
+    <section class="tools">
+      <div class="wrap tools-inner">
+        <section class="tool" id="wordMod" hidden>
+          <h2 class="tool-head">見出しに出ている語</h2>
+          <p class="tool-desc">掲載中の見出しから拾った語です。押すとその語で絞り込みます。</p>
           <div class="word-cloud" id="wordCloud"></div>
         </section>
 
-        <section class="mod mod-plain" id="ngMod">
-          <h2 class="mod-head">NGキーワード</h2>
-          <p class="mod-desc">含む記事を一覧・話題・ガチャから隠します。</p>
+        <section class="tool" id="ngMod">
+          <h2 class="tool-head">NGキーワード</h2>
+          <p class="tool-desc">含む記事を一覧・話題・ガチャから隠します。このブラウザにだけ保存します。</p>
           <div class="ng-list" id="ngList"></div>
           <form class="ng-form" id="ngForm">
             <input type="text" id="ngInput" placeholder="例: 買取" autocomplete="off" aria-label="NGキーワードを追加">
             <button type="submit">追加</button>
           </form>
         </section>
-      </aside>
-
-    </div>
+      </div>
+    </section>
   </main>
 
   <button class="to-top" id="toTop" type="button" hidden aria-label="先頭へ戻る">先頭へ</button>
