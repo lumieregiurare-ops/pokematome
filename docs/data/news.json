@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-23T11:00:16.159Z",
+  "updatedAt": "2026-09-23T11:30:24.970Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": ""
   },
-  "total": 144,
+  "total": 143,
   "todayCount": 77,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 16
+      "count": 17
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 4
+      "count": 3
     },
     {
       "id": "event",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 18
+      "count": 17
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 13
+      "count": 12
     },
     {
       "id": "biz",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 41
+      "count": 42
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 16
+      "count": 15
     },
     {
       "id": "go",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 48
+      "count": 47
     },
     {
       "name": "YouTube",
@@ -116,8 +116,12 @@
       "count": 7
     },
     {
-      "name": "news.yahoo.co.jp",
+      "name": "Yahoo!ニュース",
       "count": 6
+    },
+    {
+      "name": "ガジェット通信",
+      "count": 4
     },
     {
       "name": "AppMedia",
@@ -129,10 +133,6 @@
     },
     {
       "name": "人鳥日記",
-      "count": 3
-    },
-    {
-      "name": "ガジェット通信",
       "count": 3
     },
     {
@@ -156,10 +156,6 @@
       "count": 2
     },
     {
-      "name": "ファミ通",
-      "count": 2
-    },
-    {
       "name": "ライブドアニュース",
       "count": 2
     },
@@ -176,7 +172,7 @@
       "count": 1
     },
     {
-      "name": "The Ukrainians Media",
+      "name": "theukrainians.org",
       "count": 1
     },
     {
@@ -200,7 +196,11 @@
       "count": 1
     },
     {
-      "name": "ニコニコニュース",
+      "name": "news.nicovideo.jp",
+      "count": 1
+    },
+    {
+      "name": "ファミ通",
       "count": 1
     },
     {
@@ -240,7 +240,7 @@
       "count": 1
     },
     {
-      "name": "玩具人 TOY PEOPLE",
+      "name": "toy-people.com",
       "count": 1
     },
     {
@@ -257,8 +257,8 @@
       "image": "https://pbs.twimg.com/media/HSxrYiNagAAA1uG?format=webp&name=medium",
       "leadSource": "x.com",
       "publishedAt": "2026-09-23T10:19:04.000Z",
-      "sourceCount": 6,
-      "articleCount": 11,
+      "sourceCount": 5,
+      "articleCount": 10,
       "categories": [
         "event",
         "other"
@@ -319,10 +319,10 @@
           "isPR": false
         },
         {
-          "title": "えええぇ！？こんな展開ある！？【ポケモンGO】",
-          "url": "https://youtu.be/q2ne9B-uFSk?si",
-          "source": "YouTube",
-          "publishedAt": "2026-09-22T15:13:18.000Z",
+          "title": "1日20分の背景ピッピチャンスを制するべし / 「おつきみダンス」イベントの攻略法はスマホアラーム【ポケモンGO】",
+          "url": "https://getnews.jp/archives/3744762",
+          "source": "ガジェット通信",
+          "publishedAt": "2026-09-21T23:00:19.000Z",
           "isPR": false
         }
       ]
@@ -391,7 +391,7 @@
           "isPR": false
         },
         {
-          "title": "【画像】スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》 4/5",
+          "title": "【画像】スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》 5/5",
           "url": "https://news.livedoor.com/article/image_detail/32383977/?img_id",
           "source": "ライブドアニュース",
           "publishedAt": "2026-09-21T23:13:00.000Z",
@@ -440,7 +440,7 @@
       "summary": "",
       "url": "https://news.yahoo.co.jp/articles/68e83d3c48931289dffe38b2a5d3c6ea2a96b91d",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260923-00043702-jprime-000-1-view.jpg?exp=10800",
-      "leadSource": "news.yahoo.co.jp",
+      "leadSource": "Yahoo!ニュース",
       "publishedAt": "2026-09-22T23:00:39.000Z",
       "sourceCount": 2,
       "articleCount": 3,
@@ -465,6 +465,32 @@
           "url": "https://www.jprime.jp/articles/-/43702?page",
           "source": "週刊女性PRIME",
           "publishedAt": "2026-09-22T23:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "4ec803edee79",
+      "title": "TL80を目指すならコラッタのスポライは参加必須 / 埋めづらい“コンパクトファインダー”メダルを一気に進めるチャンス【ポケモンGO】",
+      "summary": "",
+      "url": "https://getnews.jp/archives/3744888",
+      "image": "https://rensai.jp/wp-content/uploads/2026/09/0923_pokemon-4.jpeg",
+      "leadSource": "ガジェット通信",
+      "publishedAt": "2026-09-23T11:00:51.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "ポケモンGO"
+      ],
+      "articles": [
+        {
+          "title": "えええぇ！？こんな展開ある！？【ポケモンGO】",
+          "url": "https://youtu.be/q2ne9B-uFSk?si",
+          "source": "YouTube",
+          "publishedAt": "2026-09-22T15:13:18.000Z",
           "isPR": false
         }
       ]
@@ -583,12 +609,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-23T10:30:15.777Z",
-    "previousCount": 141,
-    "newCount": 11
+    "previousAt": "2026-09-23T11:00:16.159Z",
+    "previousCount": 144,
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-23T11:30:16.159Z",
+  "nextUpdateAt": "2026-09-23T12:00:24.970Z",
   "items": [
     {
       "id": "36b373b21312",
@@ -597,7 +623,7 @@
       "host": "sneakerwars.jp",
       "source": "スニーカーウォーズ",
       "summary": "",
-      "publishedAt": "2026-09-23T10:58:43.000Z",
+      "publishedAt": "2026-09-23T11:23:15.000Z",
       "image": "https://img.sneakerwars.jp/images/33291/larges/pokemon-adidas-originals-megaride-f50-pikachu-kh6544_08.webp",
       "categories": [
         "other"
@@ -610,6 +636,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4ec803edee79",
+      "title": "TL80を目指すならコラッタのスポライは参加必須 / 埋めづらい“コンパクトファインダー”メダルを一気に進めるチャンス【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3744888",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-09-23T11:00:51.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/09/0923_pokemon-4.jpeg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "59578e1ea79a",
@@ -743,7 +790,7 @@
       "title": "30代エディターも編集部でときめいた！ 「ポラロイド」×「ポケモン」がかわいすぎる【新作試してはしゃぎ隊】",
       "url": "https://news.yahoo.co.jp/articles/8f35cc446bef67b6a63c9ecac3803811f9a238bf",
       "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-23T09:00:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260923-02503093-wwdjapan-000-68-view.png?fmt=jpeg&q=85&exp=10800",
@@ -760,14 +807,14 @@
       "isNew": false
     },
     {
-      "id": "3fd25a757c03",
-      "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33338/",
+      "id": "f0ebd661eb41",
+      "title": "【ポケカ】ミュウex SARの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33300/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-09-23T08:50:48.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
+      "publishedAt": "2026-09-23T08:58:53.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/1fcd9ea1-4ac7-4176-ad48-684708344c25.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -779,26 +826,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "273b1c2b851e",
-      "title": "【ポケモンチャンピオンズ】最初のポケモンのおすすめ・だれを選ぶべき？",
-      "url": "https://gamewith.jp/pokemon-champions/554181",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T08:39:18.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554181.png?date=1775627326",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "a62b5b86d466",
@@ -884,14 +911,14 @@
       "isNew": false
     },
     {
-      "id": "24cf7ffbb340",
-      "title": "【ポケモンチャンピオンズ】メガリザードンYの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/554808",
+      "id": "538721aa7762",
+      "title": "【ポケモンチャンピオンズ】メガマフォクシーの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/554672",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-09-23T08:08:13.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554808.png?date=1775800780",
+      "publishedAt": "2026-09-23T08:08:31.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554672.png?date=1775801354",
       "categories": [
         "guide",
         "community"
@@ -968,7 +995,7 @@
       "title": "ポケモンカード 裂空の訪問者デオキシス 映画10周年記念 プレミアムシ 映画10周年記念プレミアムシート ート",
       "url": "https://theukrainians.org/?pin",
       "host": "theukrainians.org",
-      "source": "The Ukrainians Media",
+      "source": "theukrainians.org",
       "summary": "",
       "publishedAt": "2026-09-23T08:02:03.000Z",
       "image": "",
@@ -1008,26 +1035,6 @@
       "isNew": false
     },
     {
-      "id": "66ae4dca3ef0",
-      "title": "【ポケモンチャンピオンズ】メガボーマンダの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/575012",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T08:00:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575012.png?date=1788430141",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "d7ef5516dcd3",
       "title": "「仙台ポケモンGOイベント」東北大学AO入試と重なり受験生が仙台で宿泊できず…大半は宮城県外に宿泊？",
       "url": "https://kahoku.news/articles/20260923khn000024.html",
@@ -1035,7 +1042,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-09-23T08:00:00.000Z",
-      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260923192725",
+      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260923203040",
       "categories": [
         "event"
       ],
@@ -1047,6 +1054,26 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c5f9230cdfd9",
+      "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/575630",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-23T07:59:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575630.png?date=1788944463",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4891421959cc",
@@ -1097,7 +1124,7 @@
       "source": "トレカプロ株式会社",
       "summary": "",
       "publishedAt": "2026-09-23T07:23:18.000Z",
-      "image": "https://tcgpro.co.jp/public/images/cardlist/ogp/30th-celebration.jpg?v=1790160764",
+      "image": "https://tcgpro.co.jp/public/images/cardlist/ogp/30th-celebration.jpg?v=1790162070",
       "categories": [
         "tcgcat"
       ],
@@ -1237,6 +1264,27 @@
       "isNew": false
     },
     {
+      "id": "358278432ae6",
+      "title": "【ポケポケ】テラパゴスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562183",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-23T07:07:30.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562183.png?date=1779956790",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "01e6f654bf7f",
       "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
@@ -1300,6 +1348,27 @@
       "isNew": false
     },
     {
+      "id": "0c36a702358d",
+      "title": "【ポケポケ】こいぬまみれデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565901",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-23T07:07:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565901.png?date=1782796990",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "833ac77d5fe0",
       "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
@@ -1350,6 +1419,27 @@
       "summary": "",
       "publishedAt": "2026-09-23T07:07:24.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "184b8e77d2d9",
+      "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-23T07:07:22.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570625.png?date=1785392878",
       "categories": [
         "tcgcat"
       ],
@@ -1466,14 +1556,14 @@
       "isNew": false
     },
     {
-      "id": "f0ebd661eb41",
-      "title": "【ポケカ】ミュウex SARの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33300/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "f0ea3ad1c7fc",
+      "title": "72歳男性、ポケカの店舗配送車にGPS追跡装置取り付け有罪に。不正に入荷情報得ようとしたか",
+      "url": "https://gadget.phileweb.com/post-133734/",
+      "host": "gadget.phileweb.com",
+      "source": "gadget.phileweb.com",
       "summary": "",
-      "publishedAt": "2026-09-23T05:58:05.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/1fcd9ea1-4ac7-4176-ad48-684708344c25.jpeg",
+      "publishedAt": "2026-09-23T05:50:00.000Z",
+      "image": "https://gadget.phileweb.com/wp-content/uploads/2026/09/79cc1665f2966c600737d3f48811b34a.jpg",
       "categories": [
         "tcgcat"
       ],
@@ -1487,14 +1577,14 @@
       "isNew": false
     },
     {
-      "id": "f0ea3ad1c7fc",
-      "title": "72歳男性、ポケカの店舗配送車にGPS追跡装置取り付け有罪に。不正に入荷情報得ようとしたか",
-      "url": "https://gadget.phileweb.com/post-133734/",
-      "host": "gadget.phileweb.com",
-      "source": "gadget.phileweb.com",
+      "id": "3fd25a757c03",
+      "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33338/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-09-23T05:50:00.000Z",
-      "image": "https://gadget.phileweb.com/wp-content/uploads/2026/09/79cc1665f2966c600737d3f48811b34a.jpg",
+      "publishedAt": "2026-09-23T05:48:04.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
       "categories": [
         "tcgcat"
       ],
@@ -1625,48 +1715,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "0c36a702358d",
-      "title": "【ポケポケ】こいぬまみれデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565901",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T04:08:32.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565901.png?date=1782796990",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b76506a0856d",
-      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T04:08:28.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1874,27 +1922,6 @@
       "isNew": false
     },
     {
-      "id": "92c8cdc36e70",
-      "title": "【ポケモンGO】GOバトルリーグ新たな歩みシーズンのスケジュールと調整内容",
-      "url": "https://pokemongo.gamewith.jp/article/show/561792",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T01:15:32.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561792.png?date=1779826799",
-      "categories": [
-        "update"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "733d2c4cf18b",
       "title": "【ポケモンGO】GOバトルリーグめくるめく記憶シーズンのスケジュールと調整内容",
       "url": "https://pokemongo.gamewith.jp/article/show/546090",
@@ -2028,7 +2055,7 @@
       "title": "10万円越えの出品も！30周年ポケカが無法地帯化で『ヤフオク』『ラクマ』の規制は？両社が明かした今後の対応",
       "url": "https://news.yahoo.co.jp/articles/68e83d3c48931289dffe38b2a5d3c6ea2a96b91d",
       "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-22T23:00:39.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260923-00043702-jprime-000-1-view.jpg?exp=10800",
@@ -2091,7 +2118,7 @@
       "title": "ポケカ再入荷時に暴力沙汰、4歳女児も巻き添えに 転売屋らしき男「逮捕」との情報（多根清史） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/af9472b5faef2aa8746e52a344df9a51991de67c",
       "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-22T22:01:30.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/tanekiyoshi/02726366/title-1790090433205.jpeg?exp=10800",
@@ -2105,7 +2132,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3910f8a324f2",
@@ -2390,7 +2417,7 @@
       "title": "『ポケモン』のゲーフリが萌えソシャゲに本格参入？ 新作『雨のちハレ女』に“本領発揮”を期待する声",
       "url": "https://news.nicovideo.jp/watch/nw19798149?news_ref",
       "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
+      "source": "news.nicovideo.jp",
       "summary": "",
       "publishedAt": "2026-09-22T10:09:17.000Z",
       "image": "",
@@ -2555,6 +2582,27 @@
       "isNew": false
     },
     {
+      "id": "fbeb4b9c14e3",
+      "title": "【ポケモンSV】オニゴーリの色違いと進化・弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373600",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-22T07:14:43.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b83cd2a19527",
       "title": "【ポケモンSV】シビルドンの進化と弱点・色違いと種族値【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373531",
@@ -2594,28 +2642,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "3be399684e2f",
-      "title": "【ポケモンSV】ゴルーグの色違いと進化・特性と弱点【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/429823",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-22T07:08:03.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e11099dcc59",
@@ -2700,7 +2727,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3ecccd276eb0",
@@ -2725,29 +2752,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "a9d1a8dc3dec",
-      "title": "【ポケカ】バイオレットexの収録カードリスト一覧【2023年1月20日発売】",
-      "url": "https://snkrdunk.com/articles/15139/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-22T02:33:38.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20250410043514-0.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "main",
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "6b745a98ea38",
@@ -2863,7 +2867,7 @@
     },
     {
       "id": "27b3f0a6439f",
-      "title": "【画像】スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》 4/5",
+      "title": "【画像】スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》 5/5",
       "url": "https://news.livedoor.com/article/image_detail/32383977/?img_id",
       "host": "news.livedoor.com",
       "source": "ライブドアニュース",
@@ -2910,7 +2914,7 @@
       "title": "ポケカ30周年、買い占めた転売屋が悲鳴。高レアカードが予想以上に出やすく相場急落（多根清史） - エキスパート",
       "url": "https://news.yahoo.co.jp/expert/articles/edf83a9056879ee3bbb718be62388bbaa3dd10e2",
       "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-21T22:01:12.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/tanekiyoshi/02725610/title-1790006189443.jpeg?exp=10800",
@@ -3003,6 +3007,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "6fe7bbeda916",
+      "title": "【ポケカ】熱風のアリーナの予約・抽選情報まとめ【3月17日更新】",
+      "url": "https://snkrdunk.com/articles/27096/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-21T15:32:38.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20250207051039-1.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d84d9b187f23",
@@ -3278,7 +3305,7 @@
       "title": "小学校から持ち続けるポケカ3000枚を査定に 衝撃の金額→その場で売却 「思い出を売った」複雑心境（ENCOUNT）",
       "url": "https://news.yahoo.co.jp/articles/459ce16ca9c28cb46bd1ba88c09958c049cd94d6",
       "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-21T01:20:00.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260921-01068277-encount-000-8-view.jpg?exp=10800",
@@ -3320,7 +3347,7 @@
       "title": "ポケモンカードにはまる30～40代 フリマでの取引急増＝韓国",
       "url": "https://news.yahoo.co.jp/articles/e8352ae5e0b45ff43e84bbf902a3340829759eb6",
       "host": "news.yahoo.co.jp",
-      "source": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-09-21T00:40:27.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260921-00535373-yonh-000-1-view.jpg?exp=10800",
@@ -3395,10 +3422,10 @@
     },
     {
       "id": "7e0e013c0a33",
-      "title": "ESA×『ポケットモンスター』、ピカチュウが本当に宇宙へ！ 『Pokémon GO』には宇宙飛行士ピカチュウが登場",
+      "title": "ESA×『ポケットモンスター』、ピカチュウが本当に宇宙へ！ 『Pokémon GO』には宇宙飛行士ピカチュウが登場 - toy-people.com",
       "url": "https://www.toy-people.com/jp/?p",
       "host": "toy-people.com",
-      "source": "玩具人 TOY PEOPLE",
+      "source": "toy-people.com",
       "summary": "",
       "publishedAt": "2026-09-20T22:51:57.000Z",
       "image": "",
@@ -3572,27 +3599,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "dc8159599e9b",
-      "title": "【ポケカ】Amazon抽選販売まとめ。30周年記念パック“30th CELEBRATION”やフシギダネ・ヒトカゲ・ゼニガメのカードセットなど",
-      "url": "https://www.famitsu.com/article/202609/88456",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-09-20T11:30:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/88456/thumbnail_Gxxo.jpg?x=1280",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
