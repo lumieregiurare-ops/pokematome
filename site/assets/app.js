@@ -1,11 +1,14 @@
 (() => {
   const $ = (s) => document.querySelector(s);
   const PAGE = 40;
-  const TOPICS_FIRST = 4;
+  const TOPICS_FIRST = 5;
   const SPIN_MS = 320;
   const FAV_KEY = "poke:fav";
   const READ_KEY = "poke:read";
   const STATE_KEY = "poke:state";
+  const SEEN_KEY = "poke:seen";
+  const QUIZ_KEY = "poke:quiz";
+  const DEX_KEY = "poke:dex";
 
   let data = null;
   let shown = PAGE;
@@ -63,24 +66,21 @@
     return data.series.find((s) => s.id === id)?.label || "";
   }
   // ---------- サムネイル ----------
-  // 画像が取れなかった記事には、見出しから作った色つきのプレースホルダーを出す
-  const CAT_EMOJI = {
-    new: "✨", update: "🛠️", event: "🎉", tcgcat: "🃏", goodscat: "🎁",
-    media: "🎬", guide: "📖", community: "🏆", biz: "📈", other: "📰",
-  };
-  function hashHue(str) {
+  // 画像が取れなかった記事には、見出しから決めた淡い色の地にボールの線画を出す
+  const PH_COLORS = ["#f5d9c6", "#d6e3f5", "#f4e9b8", "#d7ebca", "#e6dcf3", "#f4d6de", "#d5ecea", "#e9e1cf"];
+  const PH_BALL = '<svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#2a2c33" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h7M15 12h7"/><circle cx="12" cy="12" r="3"/></g></svg>';
+  function hash32(str) {
     let h = 0;
     for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
-    return h % 360;
+    return h;
   }
-  function applyPlaceholder(box, seed, glyph) {
-    const hue = hashHue(seed);
+  function applyPlaceholder(box, seed) {
     box.classList.add("thumb-ph");
-    box.style.background = `linear-gradient(135deg, hsl(${hue} 68% 62%), hsl(${(hue + 46) % 360} 68% 46%))`;
-    box.textContent = glyph;
+    box.style.background = PH_COLORS[hash32(seed) % PH_COLORS.length];
+    box.innerHTML = PH_BALL;
   }
   // url があれば画像、なければプレースホルダー。画像の読み込みに失敗したらプレースホルダーに差し替える
-  function thumbNode(url, seed, glyph, className) {
+  function thumbNode(url, seed, className) {
     const box = document.createElement("div");
     box.className = className;
     if (url) {
@@ -92,11 +92,11 @@
       img.referrerPolicy = "no-referrer";
       img.addEventListener("error", () => {
         img.remove();
-        applyPlaceholder(box, seed, glyph);
+        applyPlaceholder(box, seed);
       });
       box.appendChild(img);
     } else {
-      applyPlaceholder(box, seed, glyph);
+      applyPlaceholder(box, seed);
     }
     return box;
   }
@@ -145,6 +145,7 @@
     const q = state.q.trim().toLowerCase();
     return data.items.filter((it) => {
       if (state.cat !== "all" && !it.categories.includes(state.cat)) return false;
+      if (state.sort === "fresh" && !isFresh(it)) return false;
       if (matchesNg(it)) return false;
       if (q && !`${it.title} ${it.summary || ""} ${it.source}`.toLowerCase().includes(q)) return false;
       return true;
@@ -161,16 +162,17 @@
   // ---------- 記事の行 ----------
   function makeRow(it) {
     const row = document.createElement("article");
-    row.className = "row" + (it.isNew ? " is-new" : "");
+    const fresh = isFresh(it);
+    row.className = "row" + (fresh ? " is-new" : "");
 
-    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "row-thumb");
+    const thumb = thumbNode(it.image, it.title, "row-thumb");
 
     const body = document.createElement("div");
     body.className = "row-body";
 
     const top = document.createElement("div");
     top.className = "row-top";
-    if (it.isNew) top.appendChild(badge("NEW", "badge-new"));
+    if (fresh) top.appendChild(badge("NEW", "badge-new"));
     if (it.isOfficial) top.appendChild(badge("公式", "badge-official"));
     for (const s of (it.series || []).slice(0, 1)) top.appendChild(badge(labelOfSeries(s), "badge-series"));
     for (const c of it.categories.slice(0, 1)) {
@@ -259,7 +261,7 @@
 
     const countEl = $("#count");
     countEl.innerHTML = "";
-    countEl.append(`${all.length} 件`);
+    countEl.append(`${all.length} 件 `);
     if (state.q) {
       countEl.append(`「${state.q}」で絞り込み中 `);
       const clear = document.createElement("button");
@@ -313,19 +315,24 @@
     sec.hidden = false;
     const grid = $("#topicGrid");
     grid.innerHTML = "";
-    for (const t of list.slice(0, topicsShown)) {
+    list.slice(0, topicsShown).forEach((t, i) => {
       const card = document.createElement("article");
-      card.className = "topic";
+      // 先頭（いちばん多くの媒体が報じた話題）だけ横長にする
+      card.className = "topic" + (i === 0 ? " is-lead" : "");
 
-      const thumb = thumbNode(t.image, t.title, CAT_EMOJI[(t.categories || [])[0]] || CAT_EMOJI.other, "topic-thumb");
+      const thumb = thumbNode(t.image, t.title, "topic-thumb");
 
       const top = document.createElement("div");
       top.className = "topic-top";
+      // 媒体数を、手持ちの 6 匹のようにボールで並べる
       const stars = document.createElement("span");
-      stars.className = "topic-stars";
-      // 媒体数をそのまま★にする（最大 5 つ）
-      const n = Math.min(5, t.sourceCount);
-      stars.textContent = "★".repeat(n) + "☆".repeat(Math.max(0, 5 - n));
+      stars.className = "party";
+      stars.setAttribute("aria-hidden", "true");
+      for (let k = 0; k < 6; k++) {
+        const b = document.createElement("i");
+        b.className = "ball" + (k < t.sourceCount ? "" : " off");
+        stars.appendChild(b);
+      }
       const count = document.createElement("span");
       count.className = "topic-count";
       count.textContent = `${t.sourceCount} 媒体`;
@@ -350,7 +357,7 @@
 
       const links = document.createElement("ul");
       links.className = "topic-links";
-      for (const it of (t.articles || []).slice(0, 4)) {
+      for (const it of (t.articles || []).slice(0, i === 0 ? 5 : 3)) {
         const li = document.createElement("li");
         const s = document.createElement("span");
         s.className = "src";
@@ -368,7 +375,7 @@
       body.append(h, sum, links);
       card.append(thumb, top, body);
       grid.appendChild(card);
-    }
+    });
     const more = $("#topicMore");
     more.hidden = list.length <= topicsShown;
     more.textContent = `ほかの話題を見る（残り ${list.length - topicsShown} 件）`;
@@ -390,6 +397,10 @@
 
     $("#sourceList").textContent = data.sources.map((s) => s.name).join(" / ");
 
+    const freshN = baseline ? data.items.filter(isFresh).length : 0;
+    const freshBtn = $("#sortSeg [data-sort=fresh]");
+    freshBtn.hidden = !freshN;
+    freshBtn.textContent = `前回から +${freshN}`;
     for (const b of document.querySelectorAll("#sortSeg button")) b.classList.toggle("active", b.dataset.sort === state.sort);
   }
 
@@ -441,7 +452,7 @@
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.addEventListener("click", () => markRead(it.id));
-    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "gacha-thumb");
+    const thumb = thumbNode(it.image, it.title, "gacha-thumb");
     const info = document.createElement("div");
     info.className = "gacha-info";
     const meta = document.createElement("div");
@@ -513,6 +524,8 @@
     const e = from[Math.floor(Math.random() * from.length)] || pool[0];
     if (!e) return;
     dexId = e.id;
+    addToDex(e.id, false);
+    renderDexProgress();
 
     const card = document.createElement("div");
     card.className = "dex-card";
@@ -558,6 +571,192 @@
 
     card.append(img, no, name, types, size, flavor);
     box.appendChild(card);
+  }
+
+  // ---------- 前回見たときから増えた記事 ----------
+  // 前回開いたときに一覧にあった記事の id を覚えておき、それ以外を「新しい」とみなす。
+  // 同じタブで開き直しても基準が動かないよう、最初に読んだ値を sessionStorage に固定する
+  let baseline = null;
+  function setupBaseline() {
+    let prev = null;
+    try {
+      prev = JSON.parse(sessionStorage.getItem(SEEN_KEY) || "null");
+    } catch {
+      /* 読めなければ localStorage の値を使う */
+    }
+    if (!prev) {
+      prev = store.get(SEEN_KEY, []);
+      try {
+        sessionStorage.setItem(SEEN_KEY, JSON.stringify(prev));
+      } catch {
+        /* 保存できなくても動く */
+      }
+    }
+    store.set(SEEN_KEY, data.items.map((it) => it.id));
+    baseline = prev.length ? new Set(prev) : null;
+  }
+  function isFresh(it) {
+    return baseline ? !baseline.has(it.id) : !!it.isNew;
+  }
+
+  // ---------- きょうのだれだ？ と、自分の図鑑 ----------
+  // 問題は日付から決めるので、同じ日に来た人には同じポケモンが出る
+  let quizLog = store.get(QUIZ_KEY, {});
+  const myDex = Object.assign({ seen: [], caught: [] }, store.get(DEX_KEY, {}));
+
+  function seeded(seed) {
+    let a = hash32(seed) || 1;
+    return () => {
+      a = (a + 0x6d2b79f5) >>> 0;
+      let t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+  function todayKey() {
+    return dayKey(new Date().toISOString());
+  }
+  function quizFor(key) {
+    const rnd = seeded(`dareda:${key}`);
+    const pick = () => dex[Math.floor(rnd() * dex.length)];
+    const answer = pick();
+    const choices = [answer];
+    while (choices.length < 4) {
+      const e = pick();
+      if (!choices.includes(e)) choices.push(e);
+    }
+    for (let i = choices.length - 1; i > 0; i--) {
+      const j = Math.floor(rnd() * (i + 1));
+      [choices[i], choices[j]] = [choices[j], choices[i]];
+    }
+    return { answer, choices };
+  }
+  function addToDex(id, caught) {
+    if (caught && !myDex.caught.includes(id)) myDex.caught = [id, ...myDex.caught];
+    if (!myDex.seen.includes(id)) myDex.seen = [id, ...myDex.seen];
+    store.set(DEX_KEY, myDex);
+  }
+  // 今日（未回答なら昨日）からさかのぼって、続けて正解した日数
+  function quizStreak() {
+    let n = 0;
+    const d = new Date();
+    if (!quizLog[todayKey()]) d.setDate(d.getDate() - 1);
+    for (;;) {
+      const r = quizLog[dayKey(d.toISOString())];
+      if (!r || r.pick !== r.id) break;
+      n++;
+      d.setDate(d.getDate() - 1);
+    }
+    return n;
+  }
+  function untilTomorrow() {
+    const now = new Date();
+    const next = new Date(now);
+    next.setHours(24, 0, 0, 0);
+    const min = Math.ceil((next - now) / 60000);
+    return min >= 60 ? `${Math.floor(min / 60)}時間${min % 60}分` : `${min}分`;
+  }
+
+  function renderQuiz(justAnswered = false) {
+    const box = $("#quizBody");
+    if (!box) return;
+    box.innerHTML = "";
+    if (!dex || !dex.length) {
+      box.innerHTML = `<p class="mod-desc">図鑑データを読み込めませんでした。</p>`;
+      return;
+    }
+    const key = todayKey();
+    const { answer, choices } = quizFor(key);
+    const rec = quizLog[key];
+
+    const stage = document.createElement("div");
+    stage.className = "quiz-stage" + (rec && !justAnswered ? " revealed" : "");
+    const q = document.createElement("span");
+    q.className = "quiz-q";
+    q.textContent = rec ? `No.${String(answer.id).padStart(4, "0")}` : "だれだ？";
+    const img = document.createElement("img");
+    img.className = "quiz-img";
+    img.src = answer.image;
+    img.alt = rec ? answer.name : "シルエット";
+    img.decoding = "async";
+    img.referrerPolicy = "no-referrer";
+    stage.append(q, img);
+    if (justAnswered) requestAnimationFrame(() => requestAnimationFrame(() => stage.classList.add("revealed")));
+
+    const grid = document.createElement("div");
+    grid.className = "quiz-choices";
+    for (const e of choices) {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.textContent = e.name;
+      if (rec) {
+        b.disabled = true;
+        if (e.id === answer.id) b.classList.add("is-answer");
+        else if (e.id === rec.pick) b.classList.add("is-miss");
+      } else {
+        b.addEventListener("click", () => {
+          quizLog[key] = { id: answer.id, pick: e.id };
+          // 古い記録は 90 日ぶんだけ残す
+          quizLog = Object.fromEntries(Object.entries(quizLog).sort().slice(-90));
+          store.set(QUIZ_KEY, quizLog);
+          addToDex(answer.id, e.id === answer.id);
+          renderQuiz(true);
+        });
+      }
+      grid.appendChild(b);
+    }
+    box.append(stage, grid);
+
+    if (rec) {
+      const msg = document.createElement("p");
+      msg.className = "quiz-msg";
+      const ok = rec.pick === answer.id;
+      msg.innerHTML = ok ? "せいかい！ <b></b> を つかまえた！" : "ざんねん！ せいかいは <b></b> でした。";
+      msg.querySelector("b").textContent = answer.name;
+      const next = document.createElement("span");
+      next.className = "next";
+      next.textContent = `つぎの問題まで あと ${untilTomorrow()}`;
+      msg.appendChild(next);
+      box.appendChild(msg);
+    }
+
+    const played = Object.values(quizLog);
+    const stats = document.createElement("div");
+    stats.className = "quiz-stats";
+    stats.innerHTML = `<span>連続正解 <b>${quizStreak()}</b>日</span><span>正解 <b>${played.filter((r) => r.pick === r.id).length}</b>/${played.length}回</span>`;
+    box.appendChild(stats);
+
+    const prog = document.createElement("div");
+    prog.className = "dex-progress";
+    prog.id = "dexProgress";
+    box.appendChild(prog);
+    renderDexProgress();
+  }
+
+  // みつけた数（図鑑を引いた・クイズに出た）と、つかまえた数（クイズに正解した）
+  function renderDexProgress() {
+    const box = $("#dexProgress");
+    if (!box || !dex) return;
+    const total = dex.length;
+    const seen = myDex.seen.length;
+    const caught = myDex.caught.length;
+    box.innerHTML = `<div class="dex-progress-head"><span>みつけた <b>${seen}</b></span><span>つかまえた <b>${caught}</b></span><span style="margin-left:auto">/ ${total}</span></div>
+      <div class="dex-bar"><i class="caught" style="width:${(caught / total) * 100}%"></i><i class="seen" style="width:${((seen - caught) / total) * 100}%"></i></div>`;
+    if (!caught) return;
+    const sprites = document.createElement("div");
+    sprites.className = "dex-sprites";
+    for (const id of myDex.caught.slice(0, 12)) {
+      const e = dex.find((x) => x.id === id);
+      const img = document.createElement("img");
+      img.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+      img.alt = e ? e.name : "";
+      img.title = e ? e.name : "";
+      img.loading = "lazy";
+      img.referrerPolicy = "no-referrer";
+      sprites.appendChild(img);
+    }
+    box.appendChild(sprites);
   }
 
   function updateFavCount() {
@@ -641,6 +840,12 @@
   function renderChurn() {
     const c = data.churn;
     const el = $("#churn");
+    if (baseline) {
+      const n = data.items.filter(isFresh).length;
+      el.hidden = false;
+      el.innerHTML = n ? `前回見たときから <b>${n}</b> 本増えています` : "前回見たときから新しい記事はありません";
+      return;
+    }
     if (!c || !c.previousCount) {
       el.hidden = true;
       return;
@@ -668,6 +873,8 @@
     const u = new Date(data.updatedAt);
     $("#meta").textContent = `${data.total} 本のニュース ・ 今日 ${data.todayCount} 本 ・ ${data.topics.length} の話題 ・ 最終更新 ${u.getMonth() + 1}/${u.getDate()} ${hhmm(data.updatedAt)}`;
 
+    setupBaseline();
+    if (state.sort === "fresh" && !data.items.some(isFresh)) state.sort = "new";
     renderChurn();
     renderFilters();
     renderWords();
@@ -675,7 +882,10 @@
     renderList();
     renderGacha();
     // 図鑑・その他のニュースは後回しにして、ニュースの表示を先に終わらせる
-    loadDex().then(renderDex);
+    loadDex().then(() => {
+      renderDex();
+      renderQuiz();
+    });
     renderOtherNews();
     updateFavCount();
     syncFavView();

@@ -30,7 +30,7 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/app.css">
 </head>
 <body>
@@ -38,9 +38,7 @@
     <div class="wrap header-inner">
       <h1 class="logo">
         <a href="./">
-          <span class="logo-mark" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2l2.6 5.9 6.4.8-4.7 4.4 1.2 6.4L12 16.4 6.5 19.5l1.2-6.4L3 8.7l6.4-.8z"/></svg>
-          </span>
+          <span class="logo-mark" aria-hidden="true"><span class="lens"></span><span class="lamp"></span><span class="lamp y"></span><span class="lamp g"></span></span>
           <span class="logo-text">ポケモン<span class="logo-accent">速報</span></span>
         </a>
       </h1>
@@ -56,6 +54,7 @@
     <nav class="global-nav" aria-label="ページ内ナビゲーション">
       <a href="#topicsSection">注目の話題</a>
       <a href="#feedSection">新着ニュース</a>
+      <a href="#quizMod">きょうのだれだ？</a>
     </nav>
     <div class="wrap header-meta">
       <span id="meta">読み込み中…</span>
@@ -68,12 +67,12 @@
 
       <aside class="side side-left">
         <section class="mod" id="catMod">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>ニュースの種別</h2>
+          <h2 class="mod-head">ニュースの種別</h2>
           <div class="cat-list" id="catList"></div>
         </section>
 
         <section class="mod" id="ngMod">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>NGキーワード</h2>
+          <h2 class="mod-head">NGキーワード</h2>
           <p class="mod-desc">含む記事を一覧・話題・ガチャから隠します。</p>
           <div class="ng-list" id="ngList"></div>
           <form class="ng-form" id="ngForm">
@@ -83,7 +82,7 @@
         </section>
 
         <section class="mod" id="wordMod" hidden>
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">■</span>よく出ている語</h2>
+          <h2 class="mod-head">よく出ている語</h2>
           <div class="word-cloud" id="wordCloud"></div>
         </section>
 
@@ -92,8 +91,8 @@
       <div class="col-main">
         <section class="board" id="topicsSection" hidden>
           <div class="sec-head">
-            <h2 class="sec-title">注目の話題</h2>
-            <p class="sec-desc">複数の媒体が同じことを報じた話題です。★が多いほど多くの媒体が取り上げています。</p>
+            <h2 class="sec-title"><span class="ball" aria-hidden="true"></span>注目の話題</h2>
+            <p class="sec-desc">同じ出来事を複数の媒体が報じたもの。<span class="ball" aria-hidden="true"></span>ひとつが 1 媒体です。</p>
           </div>
           <div class="topic-grid" id="topicGrid"></div>
           <button class="more-btn" id="topicMore" hidden></button>
@@ -101,11 +100,12 @@
 
         <section class="feed" id="feedSection">
           <div class="sec-head">
-            <h2 class="sec-title">新着ニュース</h2>
+            <h2 class="sec-title"><span class="ball" aria-hidden="true"></span>新着ニュース</h2>
             <div class="feed-tools">
               <div class="seg" id="sortSeg" role="group" aria-label="並び順">
                 <button type="button" data-sort="new" class="active">新着順</button>
                 <button type="button" data-sort="shuffle">おまかせ</button>
+                <button type="button" data-sort="fresh" hidden>前回から</button>
               </div>
             </div>
           </div>
@@ -113,13 +113,13 @@
           <!-- 記事が入るまでの間、同じくらいの高さを確保しておく（描画時に下の要素が飛ばないように） -->
           <div id="list"><div class="loading loading-feed"><span class="spinner" role="status" aria-label="読み込み中"></span><span>ニュースを読み込んでいます…</span></div></div>
           <button class="more-btn" id="listMore" hidden></button>
-          <p class="empty" id="empty" hidden>該当するニュースがありません。絞り込みを変えてみてください。</p>
+          <p class="empty" id="empty" hidden>しかし なにも みつからなかった！<br>絞り込みを変えてみてください。</p>
         </section>
 
         <section class="fav-view" id="favView" hidden>
           <div class="sec-head">
             <div class="sec-head-row">
-              <h2 class="sec-title">あとで読む</h2>
+              <h2 class="sec-title"><span class="ball" aria-hidden="true"></span>あとで読む</h2>
               <button type="button" class="back-btn" id="favBack">
                 <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
                 トップに戻る
@@ -128,21 +128,24 @@
             <p class="sec-desc">記事の ☆ を押すと保存できます。このブラウザにだけ保存しています。</p>
           </div>
           <div id="favViewBody"></div>
-          <p class="empty" id="favViewEmpty" hidden>まだ何も保存されていません。記事の ☆ を押すとここに貯まります。</p>
+          <p class="empty" id="favViewEmpty" hidden>まだ なにも ない。<br>記事の ☆ を押すとここに貯まります。</p>
         </section>
       </div>
 
       <aside class="side side-right">
+        <section class="mod mod-quiz" id="quizMod">
+          <h2 class="mod-head">きょうのだれだ？</h2>
+          <div id="quizBody"><div class="loading is-loading"><span class="spinner" role="status" aria-label="読み込み中"></span></div></div>
+        </section>
+
         <section class="mod mod-gacha">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>ニュースガチャ</h2>
-          <p class="mod-desc">まだ読んでいない記事から 1 本引きます。</p>
+          <h2 class="mod-head">ニュースガチャ</h2>
           <div id="gachaBody"></div>
           <button class="mod-btn" id="gachaAgain" type="button">もう一度引く</button>
         </section>
 
         <section class="mod mod-dex">
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>きょうの1匹</h2>
-          <p class="mod-desc">全国図鑑 1025 匹からランダムに表示します。</p>
+          <h2 class="mod-head">きょうの1匹</h2>
           <div id="dexBody"></div>
           <div class="dex-tools">
             <button class="mod-btn" id="dexAgain" type="button">引き直す</button>
@@ -151,7 +154,7 @@
         </section>
 
         <section class="mod" id="otherMod" hidden>
-          <h2 class="mod-head"><span class="mod-icon" aria-hidden="true">◆</span>その他のニュース</h2>
+          <h2 class="mod-head">その他のニュース</h2>
           <ul class="other-list" id="otherList"></ul>
           <a class="mod-link" href="other.html">もっと見る</a>
         </section>

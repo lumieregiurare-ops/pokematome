@@ -39,22 +39,20 @@
   }
 
   // ---------- サムネイル ----------
-  const CAT_EMOJI = {
-    new: "✨", update: "🛠️", event: "🎉", tcgcat: "🃏", goodscat: "🎁",
-    media: "🎬", guide: "📖", community: "🏆", biz: "📈", other: "📰",
-  };
-  function hashHue(str) {
+  const PH_COLORS = ["#f5d9c6", "#d6e3f5", "#f4e9b8", "#d7ebca", "#e6dcf3", "#f4d6de", "#d5ecea", "#e9e1cf"];
+  const PH_BALL = '<svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#2a2c33" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M2 12h7M15 12h7"/><circle cx="12" cy="12" r="3"/></g></svg>';
+  function hash32(str) {
     let h = 0;
     for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
-    return h % 360;
+    return h;
   }
-  function applyPlaceholder(box, seed, glyph) {
-    const hue = hashHue(seed);
+  function applyPlaceholder(box, seed) {
     box.classList.add("thumb-ph");
-    box.style.background = `linear-gradient(135deg, hsl(${hue} 68% 62%), hsl(${(hue + 46) % 360} 68% 46%))`;
-    box.textContent = glyph;
+    box.style.background = PH_COLORS[hash32(seed) % PH_COLORS.length];
+    box.innerHTML = PH_BALL;
   }
-  function thumbNode(url, seed, glyph, className) {
+  // url があれば画像、なければプレースホルダー。画像の読み込みに失敗したらプレースホルダーに差し替える
+  function thumbNode(url, seed, className) {
     const box = document.createElement("div");
     box.className = className;
     if (url) {
@@ -66,11 +64,11 @@
       img.referrerPolicy = "no-referrer";
       img.addEventListener("error", () => {
         img.remove();
-        applyPlaceholder(box, seed, glyph);
+        applyPlaceholder(box, seed);
       });
       box.appendChild(img);
     } else {
-      applyPlaceholder(box, seed, glyph);
+      applyPlaceholder(box, seed);
     }
     return box;
   }
@@ -118,7 +116,7 @@
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.addEventListener("click", () => markRead(it.id));
-    const thumb = thumbNode(it.image, it.title, CAT_EMOJI[it.categories[0]] || CAT_EMOJI.other, "gacha-thumb");
+    const thumb = thumbNode(it.image, it.title, "gacha-thumb");
     const info = document.createElement("div");
     info.className = "gacha-info";
     const meta = document.createElement("div");
