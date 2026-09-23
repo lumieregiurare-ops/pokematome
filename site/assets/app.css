@@ -1798,3 +1798,13 @@ main.wrap {
 .side-right {
   position: static;
 }
+
+.footer .contact a {
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer .contact a:hover {
+  color: var(--red);
+}
