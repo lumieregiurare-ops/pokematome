@@ -11,6 +11,49 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
 
+  "note_pages": "pages は収集のたびに作る静的ページ（検索エンジン向け）の文言。series はタイトル別（/<slug>/）、genres はニュースの種別（/news/<slug>/）で、キーはそれぞれ series・categories の id。entities は名前別のページで、図鑑（dex.json）の名前が見出し・要約に 3 回以上出たポケモンだけ作る。googleSiteVerification は Search Console の HTML タグの content の値。",
+  "pages": {
+    "googleSiteVerification": "",
+    "topic": "ポケモン",
+    "themeColor": "#d42a3c",
+    "seriesHead": "タイトル別",
+    "series": {
+      "main": { "slug": "game", "title": "ポケモン本編ゲームの最新ニュース", "desc": "ポケットモンスターの本編ゲーム（スカーレット・バイオレット、LEGENDS など）の新作発表・発売日・アップデートのニュースをまとめています。" },
+      "go": { "slug": "go", "title": "ポケモンGOの最新ニュース・イベント情報", "desc": "ポケモンGOのイベント・コミュニティ・デイ・レイド・アップデートのニュースをまとめています。" },
+      "tcg": { "slug": "tcg", "title": "ポケモンカード（ポケカ）の最新ニュース", "desc": "ポケモンカードゲーム（ポケカ）の新弾・拡張パックの発売日、再販・抽選、大会のニュースをまとめています。" },
+      "anime": { "slug": "anime", "title": "ポケモンのアニメ・映画の最新ニュース", "desc": "アニメ『ポケットモンスター』の放送・配信、劇場版、声優のニュースをまとめています。" },
+      "unite": { "slug": "unite", "title": "ポケモンユナイトの最新ニュース", "desc": "ポケモンユナイトの新ポケモン参戦・アップデート・イベント・大会のニュースをまとめています。" },
+      "sleep": { "slug": "sleep", "title": "ポケモンスリープの最新ニュース", "desc": "ポケモンスリープ（ポケスリ）のイベント・新ポケモン・アップデートのニュースをまとめています。" },
+      "goods": { "slug": "goods", "title": "ポケモングッズ・コラボの最新ニュース", "desc": "ポケモンのぬいぐるみ・フィギュア・一番くじ・ポケモンセンターの新商品、コラボのニュースをまとめています。" }
+    },
+    "genres": {
+      "new": { "slug": "new", "title": "ポケモンの新作・発表のニュース", "desc": "ポケモンの新作ゲームの発表・続報・発売日、Pokémon Presents のニュースをまとめています。" },
+      "update": { "slug": "update", "title": "ポケモンのアップデート情報", "desc": "ポケモンのゲームのアップデート・配信開始・不具合の修正・調整のニュースをまとめています。" },
+      "event": { "slug": "event", "title": "ポケモンのイベント・キャンペーン情報", "desc": "ポケモンのゲーム内イベント・配布・キャンペーン・特典のニュースをまとめています。" },
+      "tcgcat": { "slug": "card", "title": "ポケカの新弾・再販・抽選情報", "desc": "ポケモンカードの拡張パックの発売、再販・抽選販売のニュースをまとめています。" },
+      "goodscat": { "slug": "goods", "title": "ポケモンのグッズ・コラボ情報", "desc": "ポケモンのグッズ・一番くじ・ポケモンセンターの新商品・コラボカフェのニュースをまとめています。" },
+      "media": { "slug": "media", "title": "ポケモンのアニメ・映画・音楽のニュース", "desc": "ポケモンのアニメ・劇場版・主題歌・声優のニュースをまとめています。" },
+      "guide": { "slug": "guide", "title": "ポケモンの攻略・データのニュース", "desc": "ポケモンの攻略・育成・対戦環境・おすすめのポケモンなどのニュースをまとめています。" },
+      "community": { "slug": "community", "title": "ポケモンの大会・対戦のニュース", "desc": "ポケモンの世界大会（WCS）・公式大会・ランクマッチなど対戦のニュースをまとめています。" },
+      "biz": { "slug": "biz", "title": "ポケモンの売上・企業のニュース", "desc": "ポケモンのゲームの売上・販売本数・記録、株式会社ポケモンや任天堂の企業ニュースをまとめています。" }
+    },
+    "entities": {
+      "from": "dex",
+      "path": "pokemon",
+      "minLength": 3,
+      "label": "ポケモン別",
+      "navLabel": "ポケモン別",
+      "indexTitle": "ポケモン別のニュース",
+      "indexDesc": "ピカチュウ・イーブイ・リザードンなど、ニュースの見出しに名前が出てきたポケモンごとにニュースをまとめています。",
+      "titleTpl": "{name}のニュース・グッズ情報",
+      "descTpl": "「{name}」の名前が出てくるポケモンのゲーム・グッズ・イベントのニュースをまとめています。"
+    },
+    "placeholder": {
+      "colors": ["#f5d9c6", "#d6e3f5", "#f4e9b8", "#d7ebca", "#e6dcf3", "#f4d6de", "#d5ecea", "#e9e1cf"],
+      "svg": "<svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><g fill=\"none\" stroke=\"#2a2c33\" stroke-width=\"1.8\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M2 12h7M15 12h7\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/></g></svg>"
+    }
+  },
+
   "feeds": [
     { "name": "4Gamer", "url": "https://www.4gamer.net/rss/index.xml" },
     { "name": "Game*Spark", "url": "https://www.gamespark.jp/rss20/index.rdf" },
