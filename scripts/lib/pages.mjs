@@ -6,7 +6,7 @@
 //
 // ヘッダーとフッターは site/index.html から切り出して使うので、見た目を変えるときは index.html を直せばよい。
 // ページの文言は config.json の pages に書く（series / genres / entities）。
-// このファイルは pokematome と mhmatome で同じものを使っている（違いは config.json の pages だけ）。
+// このファイルは pokematome・mhmatome・aimatome で同じものを使っている（違いは config.json の pages だけ）。
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { join, dirname } from "node:path";
@@ -73,8 +73,9 @@ async function readJsonOr(p, fallback) {
     return fallback;
   }
 }
+// 改行コードをそろえてから計算する（Windows で git が CRLF に変えたファイルでも、Actions と同じ値になるように）
 async function verOf(p) {
-  const t = await readText(p);
+  const t = (await readText(p)).replace(/\r\n/g, "\n");
   return t ? createHash("sha1").update(t).digest("hex").slice(0, 8) : "0";
 }
 function hash32(str) {
@@ -123,8 +124,6 @@ export async function renderPages(root, { log = () => {} } = {}) {
     }
   all.sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
   const recent = all.filter((it) => nowMs - new Date(it.publishedAt).getTime() <= LIST_DAYS * 86400000);
-  const monthAgo = nowMs - 30 * 86400000;
-  const countIn = (pred) => recent.filter((it) => new Date(it.publishedAt).getTime() >= monthAgo && pred(it)).length;
 
   // 名前別（ポケモン / モンスター）。見出し・要約に名前が出てくる記事を集める。
   // 「ミュウ」と「ミュウツー」のように、長い名前の一部になっている短い名前は数えない
@@ -139,17 +138,24 @@ export async function renderPages(root, { log = () => {} } = {}) {
       const js = await readText(join(root, "site", "assets", "app.js"));
       const m = js.match(new RegExp(`const ${E.var}\\s*=\\s*(\\[[^\\]]*\\])`));
       names = m ? JSON.parse(m[1]).map((name) => ({ name, slug: createHash("sha1").update(name).digest("hex").slice(0, 8) })) : [];
+    } else if (E.from === "appjs-regex") {
+      // app.js の { id: "openai", label: "OpenAI", re: /OpenAI|ChatGPT/i } のような一覧。判定は app.js と同じ正規表現で行う
+      const js = await readText(join(root, "site", "assets", "app.js"));
+      const block = (js.match(new RegExp(`const ${E.var}\\s*=\\s*\\[([\\s\\S]*?)\\];`)) || [])[1] || "";
+      for (const m of block.matchAll(/\{\s*id:\s*"([\w-]+)",\s*label:\s*"([^"]+)",\s*re:\s*\/(.+?)\/([a-z]*)\s*\}/g)) {
+        names.push({ name: m[2], slug: m[1], re: new RegExp(m[3], m[4]) });
+      }
     }
     const exclude = new Set(E.exclude || []);
     names = names.filter((n) => [...n.name].length >= (E.minLength || 2) && !exclude.has(n.name));
     // 前後にカタカナが続くものは別の語の一部なので数えない（「ポケモンスリープ」の「スリープ」など）
-    for (const n of names) n.re = new RegExp(`(?<![ァ-ヴー])${n.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![ァ-ヴー])`);
+    for (const n of names) n.re ||= new RegExp(`(?<![ァ-ヴー])${n.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?![ァ-ヴー])`);
     const hits = new Map();
     for (const it of recent) {
       const text = `${it.title} ${it.summary || ""}`;
       const found = names.filter((n) => n.re.test(text));
       for (const n of found) {
-        if (found.some((o) => o !== n && o.name.includes(n.name))) continue;
+        if (E.from !== "appjs-regex" && found.some((o) => o !== n && o.name.includes(n.name))) continue;
         if (!hits.has(n.slug)) hits.set(n.slug, { ...n, items: [] });
         hits.get(n.slug).items.push(it);
       }
@@ -176,7 +182,22 @@ export async function renderPages(root, { log = () => {} } = {}) {
     </nav>`;
   }
   const sources = (news?.sources || []).map((s) => s.name);
-  const tplHeader = (indexTpl.match(/<header class="header">[\s\S]*?<\/header>/) || [""])[0];
+  // 入れ子の div ごと 1 つの要素を取り除く（正規表現だと最初の </div> で切れてしまうため）
+  function dropElement(html, openTag) {
+    const start = html.indexOf(openTag);
+    if (start < 0) return html;
+    const re = /<\/?div\b[^>]*>/g;
+    re.lastIndex = start;
+    let depth = 0;
+    for (let m; (m = re.exec(html)); ) {
+      depth += m[0].startsWith("</") ? -1 : 1;
+      if (depth === 0) return html.slice(0, start) + html.slice(re.lastIndex);
+    }
+    return html;
+  }
+  let tplHeader = (indexTpl.match(/<header class="header">[\s\S]*?<\/header>/) || [""])[0];
+  // 検索欄など、app.js が無いと動かない部品はサブページでは外す
+  if (P.dropHeaderTools) tplHeader = dropElement(tplHeader, '<div class="header-tools">');
   const tplFooter = (indexTpl.match(/<footer class="footer">[\s\S]*?<\/footer>/) || [""])[0];
   const headerHtml = tplHeader
     .replace(/<h1 class="logo">([\s\S]*?)<\/h1>/, '<div class="logo">$1</div>')
@@ -188,7 +209,7 @@ export async function renderPages(root, { log = () => {} } = {}) {
   const footerHtml = tplFooter
     .replace('<div class="wrap">', `<div class="wrap">${footerLinks()}`)
     .replace('<span id="year"></span>', String(year))
-    .replace('<span id="sourceList"></span>', esc(sources.join(" / ")))
+    .replace(/<p class="sources">[\s\S]*?<\/p>/, '<p class="sources">収集元は<a href="/about/">このサイトについて</a>に載せています。</p>')
     .replace(/<!--ssr:footer-links-->/, "")
     .replace(/ id="[^"]*"/g, "");
   const notice = ((tplFooter.match(/<p class="notice">([\s\S]*?)<\/p>/) || [])[1] || "").trim();
@@ -206,7 +227,7 @@ export async function renderPages(root, { log = () => {} } = {}) {
   async function out(path, html, { lastmod, index = true } = {}) {
     const file = path.endsWith("/") ? join(DOCS, path, "index.html") : join(DOCS, path);
     const text = path.endsWith(".xml") ? html : minifyHtml(html);
-    if ((await readText(file)) !== text) {
+    if ((await readText(file)).replace(/\r\n/g, "\n") !== text) {
       await mkdir(dirname(file), { recursive: true });
       await writeFile(file, text, "utf8");
       written.push(path);
@@ -214,20 +235,32 @@ export async function renderPages(root, { log = () => {} } = {}) {
     if (index) sitemap.push({ loc: abs(path), lastmod });
   }
 
+  // サイドバーとフッターは全ページに入るので、収集のたびに変わる値（件数・並び順・収集元）は入れない。
+  // 入れると、記事が増えない過去の日別ページまで毎回書き換わり、FTP で送る量とリポジトリが膨らみ続ける
+  const sideEntities = entities
+    .slice()
+    .sort((a, b) => a.slug.localeCompare(b.slug, "en", { numeric: true }))
+    .slice(0, 12);
   function sideHtml() {
     const block = (title, list) => (list.length ? `<section class="mod"><h2 class="mod-head">${esc(title)}</h2><ul class="side-links">${list.join("")}</ul></section>` : "");
     return `<aside class="side side-right">
       ${block(
         P.seriesHead || "タイトル別",
-        seriesPages.map((s) => `<li><a href="/${s.slug}/">${esc(s.label)}<span class="n">${countIn((it) => (it.series || []).includes(s.id))}</span></a></li>`)
+        seriesPages.map((s) => `<li><a href="/${s.slug}/">${esc(s.label)}</a></li>`)
       )}
       ${block(
         "ニュースの種別",
-        genres.map((g) => `<li><a href="/news/${g.slug}/">${esc(g.label)}<span class="n">${countIn((it) => (it.categories || []).includes(g.id))}</span></a></li>`)
+        genres.map((g) => `<li><a href="/news/${g.slug}/">${esc(g.label)}</a></li>`)
       )}
-      ${E && entities.length ? block(E.indexTitle, entities.slice(0, 12).map((e) => `<li><a href="${entityUrl(e)}">${esc(e.name)}<span class="n">${e.items.length}</span></a></li>`)) : ""}
-      ${block("ほかのページ", ['<li><a href="/">トップ（注目の話題・ガチャ）</a></li>', '<li><a href="/archive/">過去のニュース</a></li>', '<li><a href="/about/">このサイトについて</a></li>'])}
-      <p class="side-note">数字はこの 30 日の件数です。</p>
+      ${
+        E && entities.length
+          ? block(E.indexTitle, [
+              ...sideEntities.map((e) => `<li><a href="${entityUrl(e)}">${esc(e.name)}</a></li>`),
+              `<li><a href="/${E.path}/">すべて見る</a></li>`,
+            ])
+          : ""
+      }
+      ${block("ほかのページ", [`<li><a href="/">${esc(P.topLinkLabel || "トップ（注目の話題・ガチャ）")}</a></li>`, '<li><a href="/archive/">過去のニュース</a></li>', '<li><a href="/about/">このサイトについて</a></li>'])}
     </aside>`;
   }
 
@@ -306,6 +339,12 @@ export async function renderPages(root, { log = () => {} } = {}) {
     return `<div class="row-thumb thumb-ph"${bg}>${ph.svg || esc(firstGlyph(it.title, ph.fallback || "?"))}</div>`;
   }
   function rowHtml(it) {
+    // 1 行に時刻・媒体・見出し・種別を並べる形（aimatome の app.js の makeRow と同じ）
+    if (P.rowStyle === "compact") {
+      return `<div class="row"><time class="row-time" datetime="${esc(it.publishedAt)}">${hhmm(it.publishedAt)}</time><span class="row-src" title="${esc(it.source)}">${esc(it.source)}</span>
+        <div class="row-main"><a class="row-title" href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>${it.summary ? `<p class="row-sum">${esc(it.summary)}</p>` : ""}</div>
+        ${it.isPR ? '<span class="row-pr">PR</span>' : `<span class="row-cat">${esc(catLabel((it.categories || [])[0]))}</span>`}</div>`;
+    }
     const badges = [];
     if (it.isOfficial) badges.push('<span class="badge badge-official">公式</span>');
     for (const s of (it.series || []).slice(0, 1)) if (seriesLabel(s)) badges.push(`<span class="badge badge-series">${esc(seriesLabel(s))}</span>`);
@@ -325,7 +364,8 @@ export async function renderPages(root, { log = () => {} } = {}) {
       groups.get(k).push(it);
     }
     let html = "";
-    for (const [day, list] of groups) html += `<section class="day"><${tag} class="day-head">${mdw(day)}</${tag}><div class="rows">${list.map(rowHtml).join("")}</div></section>`;
+    const n = (list) => (P.rowStyle === "compact" ? `<span class="n">${list.length} 件</span>` : "");
+    for (const [day, list] of groups) html += `<section class="day"><${tag} class="day-head">${mdw(day)}${n(list)}</${tag}><div class="rows">${list.map(rowHtml).join("")}</div></section>`;
     return html;
   }
   function itemList(items, name) {
@@ -545,7 +585,7 @@ export async function renderPages(root, { log = () => {} } = {}) {
       h1: "このサイトについて",
       body: `<div class="prose">
         <h2>どんなサイト？</h2>
-        <p>${esc(SITE)}は、${esc(P.topic)}関連のニュースを、ゲームメディア・ホビー媒体・プレスリリースなどから集めて、一か所で見られるようにしているまとめサイトです。30 分おきに更新しています。同じ出来事を複数の媒体が報じたものは「注目の話題」としてまとめています。</p>
+        <p>${esc(SITE)}は、${esc(P.topic)}関連のニュースを、${esc(P.aboutSources || "ゲームメディア・ホビー媒体・プレスリリース")}などから集めて、一か所で見られるようにしているまとめサイトです。30 分おきに更新しています。同じ出来事を複数の媒体が報じたものは「注目の話題」としてまとめています。</p>
         <h2>載せているもの</h2>
         <p>載せているのは、記事の見出し・要約の一部・元記事へのリンクと、元記事が設定している紹介用の画像だけです。記事の本文は転載していません。くわしい内容はリンク先の元記事でご覧ください。記事と画像の権利は、それぞれの発行元に帰属します。タイトル・種別の分け方は見出しのことばから機械的に判定しているので、まちがっていることもあります。</p>
         ${notice ? `<h2>非公式のサイトです</h2><p>${notice}</p>` : ""}
