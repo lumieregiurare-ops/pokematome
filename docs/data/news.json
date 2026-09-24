@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-09-24T03:00:16.001Z",
+  "updatedAt": "2026-09-24T03:30:13.725Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 161,
-  "todayCount": 53,
+  "total": 162,
+  "todayCount": 61,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 20
+      "count": 19
     },
     {
       "id": "update",
@@ -22,22 +22,22 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 13
+      "count": 12
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 52
+      "count": 47
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 20
+      "count": 23
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 8
+      "count": 7
     },
     {
       "id": "guide",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 52
+      "count": 55
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 32
+      "count": 33
     },
     {
       "id": "go",
@@ -74,12 +74,12 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 48
+      "count": 45
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 7
+      "count": 6
     },
     {
       "id": "unite",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 27
+      "count": 29
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 58
+      "count": 57
     },
     {
       "name": "YouTube",
@@ -109,26 +109,30 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 17
-    },
-    {
-      "name": "山陽新聞",
-      "count": 6
+      "count": 15
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 6
+      "count": 8
+    },
+    {
+      "name": "AppMedia",
+      "count": 5
     },
     {
       "name": "ガジェット通信",
       "count": 5
     },
     {
-      "name": "AppMedia",
-      "count": 4
+      "name": "山陽新聞",
+      "count": 5
     },
     {
-      "name": "stories.starbucks.co.jp",
+      "name": "GAME Watch",
+      "count": 3
+    },
+    {
+      "name": "スターバックス ストーリーズ",
       "count": 3
     },
     {
@@ -136,27 +140,35 @@
       "count": 3
     },
     {
-      "name": "人鳥日記",
+      "name": "skypenguin.net",
       "count": 3
     },
     {
-      "name": "news.livedoor.com",
-      "count": 3
-    },
-    {
-      "name": "電ファミニコゲーマー",
-      "count": 3
-    },
-    {
-      "name": "GAME Watch",
+      "name": "ｄメニューニュース",
       "count": 2
     },
     {
-      "name": "tcgpro.co.jp",
+      "name": "アニメ！アニメ！",
       "count": 2
     },
     {
       "name": "インサイド",
+      "count": 2
+    },
+    {
+      "name": "ニコニコニュース",
+      "count": 2
+    },
+    {
+      "name": "トレカプロ株式会社",
+      "count": 2
+    },
+    {
+      "name": "Dtimes",
+      "count": 1
+    },
+    {
+      "name": "4Gamer",
       "count": 1
     },
     {
@@ -168,11 +180,11 @@
       "count": 1
     },
     {
-      "name": "スニーカーウォーズ",
+      "name": "mdpr.jp",
       "count": 1
     },
     {
-      "name": "game.watch.impress.co.jp",
+      "name": "スニーカーウォーズ",
       "count": 1
     },
     {
@@ -180,7 +192,7 @@
       "count": 1
     },
     {
-      "name": "クランクイン！",
+      "name": "crank-in.net",
       "count": 1
     },
     {
@@ -196,7 +208,7 @@
       "count": 1
     },
     {
-      "name": "ｄメニューニュース",
+      "name": "Unisba Media",
       "count": 1
     },
     {
@@ -212,7 +224,7 @@
       "count": 1
     },
     {
-      "name": "fan.books.rakuten.co.jp",
+      "name": "推し楽",
       "count": 1
     },
     {
@@ -224,15 +236,11 @@
       "count": 1
     },
     {
+      "name": "電ファミニコゲーマー",
+      "count": 1
+    },
+    {
       "name": "オタク総研",
-      "count": 1
-    },
-    {
-      "name": "ニコニコニュース",
-      "count": 1
-    },
-    {
-      "name": "アニメ！アニメ！",
       "count": 1
     },
     {
@@ -246,45 +254,133 @@
     {
       "name": "攻略大百科",
       "count": 1
-    },
-    {
-      "name": "au Webポータル",
-      "count": 1
     }
   ],
   "topics": [
     {
-      "id": "e1e71b89d35c",
-      "title": "スターバックスで『ポケモン』コラボが9月30日より開催！特別な「ピカチュウラテ」やステンレスボトル、タンブラーなどのグッズを展開",
-      "summary": "スターバックスにて、『ポケットモンスター』とのコラボレーションが2026年9月30日より開催！全41種のコラボグッズを展開。",
-      "url": "https://www.inside-games.jp/article/2026/09/24/188181.html",
-      "image": "https://www.inside-games.jp/imgs/rss/1784331.jpg",
-      "leadSource": "インサイド",
-      "publishedAt": "2026-09-24T03:00:03.000Z",
+      "id": "5613467ac08f",
+      "title": "スタバ×ポケモンがコラボ！30日からドリンク＆グッズが登場 ネット「すごいね！」「次はスタバですか」",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTVVzc2hvTmVJYlQzdV9GSXNWTDVzVU5JYzIwV0dUeUg3bjZxVnlDQXB3blpYRVMteWlQRTlPMU8zNjh6c0Jzb2JCaldIMHFmOXRoZ2UzUnRNSkUwMC1UNy1YWU1nOXdiSHZ5ek9aTWE4Zk9MM2JEOHhmbWxsX25vbXp6eHBHNk5wVHdpdXVEOHpRcHVRTHVoWnVPN3NkOUdkc3FiM2F0TEVEZ9IBnAFBVV95cUxQSUF4eGR3Zkd2alhhUkE1b2g0Tzc2UGpiNVpSazRUZ1RRSnRlM0kyUUhQSXN4YTJISmoxdmFXdXZNbFBST1B3a2JGTHl3bTdPdkJadjJzRktOMEhBOXFuMU1yWDBldkZyWU4wcWZhY21NRkVhYjlaVV96TFo3LVF2MFlUZy1ZVVEtUlg5dmNGaWc2bGF4YUxObWxSbmE?oc=5",
+      "image": "https://cimg.kgl-systems.io/camion/files/88985/thumbnail_eNOu.jpg?x=1280",
+      "leadSource": "ｄメニューニュース",
+      "publishedAt": "2026-09-24T03:22:00.000Z",
+      "sourceCount": 8,
+      "articleCount": 9,
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "keywords": [
+        "コラボ",
+        "スタバ",
+        "グッズ"
+      ],
+      "articles": [
+        {
+          "title": "『ポケモン』スタバコラボが9月30日よりスタート。ピカチュウをイメージしたドリンクをはじめ、オシャレなタンブラーなど多彩なグッズも登場",
+          "url": "https://www.famitsu.com/article/202609/88985",
+          "source": "ファミ通",
+          "publishedAt": "2026-09-24T02:45:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "スタバ×ポケモンがコラボ決定 バリスタ考案「ピカチュウ ハニークリーム ラテ」＆限定グッズ41アイテム登場",
+          "url": "https://mdpr.jp/gourmet/detail/4848891",
+          "source": "mdpr.jp",
+          "publishedAt": "2026-09-24T02:43:49.000Z",
+          "isPR": false
+        },
+        {
+          "title": "スタバ、「ポケモン」コラボのグッズ情報まとめ。9月30日より販売開始",
+          "url": "https://game.watch.impress.co.jp/docs/news/2142778.html",
+          "source": "GAME Watch",
+          "publishedAt": "2026-09-24T02:29:24.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ガセじゃない…よね？」スタバ新作で”まさかのコラボ”実現！ ピカチュウイメージドリンク登場しファン歓喜",
+          "url": "https://news.infoseek.co.jp/article/magmix_377606/",
+          "source": "Infoseek",
+          "publishedAt": "2026-09-24T02:26:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「スタバ」×「ポケモン」がコラボ！ ピカチュウのラテや全41アイテムのグッズ登場（クランクイン！）",
+          "url": "https://news.yahoo.co.jp/articles/f8cd96107c067015ba058d83e0db0d65c028b2f6",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-24T02:25:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「スタバ」×「ポケモン」がコラボ！ ピカチュウのラテや全41アイテムのグッズ登場 - crank-in.net",
+          "url": "https://www.crank-in.net/trend/sweets/191659",
+          "source": "crank-in.net",
+          "publishedAt": "2026-09-24T02:25:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "スタバ×ポケモン、9・30からコラボ ピカチュウの新作ラテ＆全41アイテムが登場【アイテム詳細あり】（オリコン）",
+          "url": "https://news.yahoo.co.jp/articles/28a4829c95b66c709530148481403162543f6eab",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-24T02:08:50.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【きょうから】ポケモン、コメダ珈琲店＆おかげ庵とコラボ 「豆菓子風チャーム」ほか限定グッズ発表＆“転売禁止”呼びかけ",
+          "url": "https://www.sanyonews.jp/article/1883200",
+          "source": "山陽新聞",
+          "publishedAt": "2026-09-22T07:27:45.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "5a6d340ed228",
+      "title": "全41アイテム！スターバックス×ポケモン「POKÉMON + STARBUCKS®」限定コラボグッズまとめ",
+      "summary": "",
+      "url": "https://dtimes.jp/post-1388344/",
+      "image": "https://dtimes.jp/wp-content/uploads/2026/09/4524785641471_1-20260924-648ae3.jpg",
+      "leadSource": "Dtimes",
+      "publishedAt": "2026-09-24T03:24:49.000Z",
       "sourceCount": 6,
-      "articleCount": 6,
+      "articleCount": 8,
       "categories": [
         "goodscat",
         "other"
       ],
       "keywords": [
         "グッズ",
-        "展開",
-        "ピカチュウ"
+        "pok",
+        "mon"
       ],
       "articles": [
         {
-          "title": "「スタバ」×「ポケモン」がコラボ！ ピカチュウのラテや全41アイテムのグッズ登場",
-          "url": "https://www.crank-in.net/trend/sweets/191659",
-          "source": "クランクイン！",
-          "publishedAt": "2026-09-24T02:25:00.000Z",
+          "title": "POKÉMON + STARBUCKS® 「ポケモンと一緒に、コーヒーをめぐる冒険の旅へ」バリスタ考案『ピカチュウ ハニークリーム ラテ』と全41のグッズを9月30日（水）より発売",
+          "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0924/",
+          "source": "スターバックス ストーリーズ",
+          "publishedAt": "2026-09-24T01:30:00.000Z",
           "isPR": false
         },
         {
-          "title": "「ポケモン」とスタバのコラボが9月30日より開始決定！ ピカチュウラテやグッズなどが展開",
-          "url": "https://game.watch.impress.co.jp/docs/news/2142751.html",
-          "source": "GAME Watch",
-          "publishedAt": "2026-09-24T01:43:12.000Z",
+          "title": "ポケモンといっしょにコーヒーの可能性を巡る冒険へ。",
+          "url": "https://stories.starbucks.co.jp/stories/2026/pr-2026-0924-2/",
+          "source": "スターバックス ストーリーズ",
+          "publishedAt": "2026-09-24T01:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "パートナーの熱いバトルが生んだ、ポケモンとコーヒーの冒険の一杯",
+          "url": "https://stories.starbucks.co.jp/stories/2026/pr-2026-0924-1/",
+          "source": "スターバックス ストーリーズ",
+          "publishedAt": "2026-09-24T01:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「Pokémon GO Tour 2027」開催決定！",
+          "url": "https://pokemongo.com/ja/news/save-the-date-go-tour-2027",
+          "source": "Pokémon GO",
+          "publishedAt": "2026-09-23T23:03:33.000Z",
           "isPR": false
         },
         {
@@ -297,7 +393,7 @@
         {
           "title": "ポケモンデザインのグッズが3COINSから登場♪ テーブルウエアや文具など62アイテム",
           "url": "https://fan.books.rakuten.co.jp/articles/n0vof3o0nzn08d5fdtx03qfv",
-          "source": "fan.books.rakuten.co.jp",
+          "source": "推し楽",
           "publishedAt": "2026-09-23T04:43:44.000Z",
           "isPR": false
         },
@@ -311,47 +407,11 @@
       ]
     },
     {
-      "id": "9803f2499590",
-      "title": "スタバ、「ポケモン」コラボのグッズ情報まとめ。9月30日より販売開始各種カップやモンスターボール型ストロータンブラーなど多数登場",
-      "summary": "スターバックス コーヒー ジャパンが9月30日より実施するポケモンとのコラボレーション「ポケモンと一緒に、コーヒーをめぐる冒険の旅へ」。本稿では、合わせて登場するグッズを一覧で紹介する。",
-      "url": "https://game.watch.impress.co.jp/docs/news/2142778.html",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2142/778/25.jpg",
-      "leadSource": "GAME Watch",
-      "publishedAt": "2026-09-24T02:29:24.000Z",
-      "sourceCount": 3,
-      "articleCount": 4,
-      "categories": [
-        "goodscat",
-        "other"
-      ],
-      "keywords": [
-        "スタバ",
-        "コラボ",
-        "グッズ"
-      ],
-      "articles": [
-        {
-          "title": "ポケモンといっしょにコーヒーの可能性を巡る冒険へ。",
-          "url": "https://stories.starbucks.co.jp/stories/2026/pr-2026-0924-2/",
-          "source": "stories.starbucks.co.jp",
-          "publishedAt": "2026-09-24T01:30:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "パートナーの熱いバトルが生んだ、ポケモンとコーヒーの冒険の一杯",
-          "url": "https://stories.starbucks.co.jp/stories/2026/pr-2026-0924-1/",
-          "source": "stories.starbucks.co.jp",
-          "publishedAt": "2026-09-24T01:30:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "a6b6c5c03bdf",
       "title": "【悲報】ワイルドエリア仙台のチケットまた落ちました…ガチでどうしよう【ポケモンGO】",
       "summary": "",
       "url": "https://youtu.be/xRqO_PJ8a34",
-      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260924113039",
+      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260924114602",
       "leadSource": "YouTube",
       "publishedAt": "2026-09-23T13:25:57.000Z",
       "sourceCount": 3,
@@ -390,72 +450,37 @@
       ]
     },
     {
-      "id": "430a6c26e801",
-      "title": "2017年鳥取砂丘ポケモンGOイベント、8万9千人集結の圧巻写真",
-      "summary": "",
-      "url": "https://x.com/i/trending/2102193781428937155",
-      "image": "https://pbs.twimg.com/media/HSxrYiNagAAA1uG?format=webp&name=medium",
-      "leadSource": "x.com",
-      "publishedAt": "2026-09-24T01:30:13.000Z",
-      "sourceCount": 2,
+      "id": "dcf14ee04a06",
+      "title": "「ポケモン」がスターバックスと9月30日からコラボ。コラボレーションビバレッジ「ピカチュウ ハニークリーム ラテ」が登場",
+      "summary": "スターバックスコーヒージャパンは本日（2026年9月24日），「ポケモン」とのコラボレーションを9月30日に開始すると発表した。コラボレーションビバレッジやコラボレーショングッズを展開する。",
+      "url": "https://www.4gamer.net/games/619/G061991/20260924006/",
+      "image": "https://www.4gamer.net/games/619/G061991/20260924006/SS/002.jpg",
+      "leadSource": "4Gamer",
+      "publishedAt": "2026-09-24T03:16:38.000Z",
+      "sourceCount": 3,
       "articleCount": 3,
       "categories": [
-        "event"
+        "goodscat",
+        "new"
       ],
       "keywords": [
-        "ポケモンGO",
-        "イベント",
-        "イベントスケジュール"
+        "ピカチュウ",
+        "コラボ",
+        "スターバックス"
       ],
       "articles": [
         {
-          "title": "【ポケモンGO】2026年9月のイベントスケジュールまとめ",
-          "url": "https://pokemongo.gamewith.jp/article/show/573668",
-          "source": "GameWith",
-          "publishedAt": "2026-09-24T00:41:17.000Z",
+          "title": "スターバックスで『ポケモン』コラボが9月30日より開催！特別な「ピカチュウラテ」やステンレスボトル、タンブラーなどのグッズを展開",
+          "url": "https://www.inside-games.jp/article/2026/09/24/188181.html",
+          "source": "インサイド",
+          "publishedAt": "2026-09-24T03:00:03.000Z",
           "isPR": false
         },
         {
-          "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
-          "url": "https://pokemongo.gamewith.jp/article/show/577622",
-          "source": "GameWith",
-          "publishedAt": "2026-09-23T21:11:24.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "59578e1ea79a",
-      "title": "スリコにポケモングッズがずらり♡ステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》",
-      "summary": "",
-      "url": "https://topics.smt.docomo.ne.jp/article/bgmania/life/bgmania-703220",
-      "image": "https://img.topics.smt.news.goo.ne.jp/picture/bgmania/m_bgmania-703220.jpg",
-      "leadSource": "ｄメニューニュース",
-      "publishedAt": "2026-09-23T16:40:20.000Z",
-      "sourceCount": 2,
-      "articleCount": 3,
-      "categories": [
-        "tcgcat",
-        "goodscat"
-      ],
-      "keywords": [
-        "スリコ",
-        "ポケモングッズ",
-        "ステーショナリー"
-      ],
-      "articles": [
-        {
-          "title": "スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》",
-          "url": "https://news.livedoor.com/topics/detail/32383977/",
-          "source": "news.livedoor.com",
-          "publishedAt": "2026-09-21T23:13:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【画像】スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》 5/5",
-          "url": "https://news.livedoor.com/article/image_detail/32383977/?img_id",
-          "source": "news.livedoor.com",
-          "publishedAt": "2026-09-21T23:13:00.000Z",
+          "title": "「ポケモン」とスタバのコラボが9月30日より開始決定！ ピカチュウラテやグッズなどが展開",
+          "url": "https://game.watch.impress.co.jp/docs/news/2142751.html",
+          "source": "GAME Watch",
+          "publishedAt": "2026-09-24T01:43:12.000Z",
           "isPR": false
         }
       ]
@@ -497,57 +522,91 @@
       ]
     },
     {
-      "id": "1d47694cbb6f",
-      "title": "POKÉMON + STARBUCKS® 「ポケモンと一緒に、コーヒーをめぐる冒険の旅へ」バリスタ考案『ピカチュウ ハニークリーム ラテ』と全41のグッズを9月30日（水）より発売",
+      "id": "55e5467c096b",
+      "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
       "summary": "",
-      "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0924/",
-      "image": "https://lh3.googleusercontent.com/ZD_ZnJIVRb8a2RWD8L9wF4UR3f0fBAT2ZKk9lLB58yOlXhKOrghIstmijArGABhFlVacGQU56R514Pl0NsA9tTqEpGxbIo4D4oipystojQ",
-      "leadSource": "stories.starbucks.co.jp",
-      "publishedAt": "2026-09-24T01:30:00.000Z",
+      "url": "https://appmedia.jp/pokemon_frlg/79776995",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/02/132043_ojxaf.webp",
+      "leadSource": "AppMedia",
+      "publishedAt": "2026-09-23T11:13:42.000Z",
       "sourceCount": 2,
-      "articleCount": 2,
+      "articleCount": 3,
       "categories": [
-        "goodscat",
         "other"
       ],
       "keywords": [
-        "pok",
-        "mon"
+        "frlg",
+        "ファイアレッドリーフグリーン",
+        "ポケモンホーム"
       ],
       "articles": [
         {
-          "title": "「Pokémon GO Tour 2027」開催決定！",
-          "url": "https://pokemongo.com/ja/news/save-the-date-go-tour-2027",
-          "source": "Pokémon GO",
-          "publishedAt": "2026-09-23T23:03:33.000Z",
+          "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携のやり方【ポケモンFRLG】",
+          "url": "https://appmedia.jp/pokemon_frlg/79791953",
+          "source": "AppMedia",
+          "publishedAt": "2026-09-23T10:25:55.000Z",
           "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "cd35024adaa9",
-      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
-      "summary": "",
-      "url": "https://appmedia.jp/pokemonchampions/79639586",
-      "image": "https://appmedia.jp/wp-content/uploads/2025/06/165232_gyqu0.webp",
-      "leadSource": "AppMedia",
-      "publishedAt": "2026-09-23T14:56:21.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "community",
-        "other"
-      ],
-      "keywords": [
-        "ポケモンホーム",
-        "連携"
-      ],
-      "articles": [
+        },
         {
           "title": "【ぽこあポケモン】ポケモンホームと連携できる？【ぽこポケ】",
           "url": "https://gamewith.jp/pocoapokemon/545314",
           "source": "GameWith",
           "publishedAt": "2026-09-21T20:31:11.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "fbea028709d2",
+      "title": "「ポケピース」ピカチュウやポッチャマがペロペロチョコに！可愛すぎるチャームが新登場♪",
+      "summary": "ポケモンたちの“ピース”なくらしを描く「ポケピース」より、スティックチョコ型のチャームが新登場。2026年9月24日（木）13時より、プレミアムバンダイ内「キャンディオンラインショップ」にて予約受付中だ。",
+      "url": "https://animeanime.jp/article/2026/09/24/103186.html",
+      "image": "https://animeanime.jp/imgs/rss/934562.jpg",
+      "leadSource": "アニメ！アニメ！",
+      "publishedAt": "2026-09-24T03:16:45.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "new"
+      ],
+      "keywords": [
+        "ピカチュウ",
+        "ポケピース",
+        "ポッチャマ"
+      ],
+      "articles": [
+        {
+          "title": "スティックチョコの形をした可愛いチャーム「ロリポップチョコチャーム ポケピース」が登場！ピカチュウ、ポッチャマ、ヒバニー、ニャスパー、モクロー、ミミッキュ、プリンをラインナップ！",
+          "url": "https://hobby.dengeki.com/news/3169446/",
+          "source": "電撃ホビーウェブ",
+          "publishedAt": "2026-09-24T01:12:22.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "430a6c26e801",
+      "title": "2017年鳥取砂丘ポケモンGOイベント、8万9千人集結の圧巻写真",
+      "summary": "",
+      "url": "https://x.com/i/trending/2102193781428937155",
+      "image": "https://pbs.twimg.com/media/HSxrYiNagAAA1uG?format=webp&name=medium",
+      "leadSource": "x.com",
+      "publishedAt": "2026-09-24T01:30:13.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "event"
+      ],
+      "keywords": [
+        "ポケモンGO",
+        "イベント"
+      ],
+      "articles": [
+        {
+          "title": "【ポケモンGO】2026年9月のイベントスケジュールまとめ",
+          "url": "https://pokemongo.gamewith.jp/article/show/573668",
+          "source": "GameWith",
+          "publishedAt": "2026-09-24T00:41:17.000Z",
           "isPR": false
         }
       ]
@@ -583,13 +642,140 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-24T02:30:18.147Z",
-    "previousCount": 157,
+    "previousAt": "2026-09-24T03:00:16.001Z",
+    "previousCount": 161,
     "newCount": 13
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-24T03:30:16.001Z",
+  "nextUpdateAt": "2026-09-24T04:00:13.725Z",
   "items": [
+    {
+      "id": "5a6d340ed228",
+      "title": "全41アイテム！スターバックス×ポケモン「POKÉMON + STARBUCKS®」限定コラボグッズまとめ",
+      "url": "https://dtimes.jp/post-1388344/",
+      "host": "dtimes.jp",
+      "source": "Dtimes",
+      "summary": "",
+      "publishedAt": "2026-09-24T03:24:49.000Z",
+      "image": "https://dtimes.jp/wp-content/uploads/2026/09/4524785641471_1-20260924-648ae3.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5613467ac08f",
+      "title": "スタバ×ポケモンがコラボ！30日からドリンク＆グッズが登場 ネット「すごいね！」「次はスタバですか」",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTVVzc2hvTmVJYlQzdV9GSXNWTDVzVU5JYzIwV0dUeUg3bjZxVnlDQXB3blpYRVMteWlQRTlPMU8zNjh6c0Jzb2JCaldIMHFmOXRoZ2UzUnRNSkUwMC1UNy1YWU1nOXdiSHZ5ek9aTWE4Zk9MM2JEOHhmbWxsX25vbXp6eHBHNk5wVHdpdXVEOHpRcHVRTHVoWnVPN3NkOUdkc3FiM2F0TEVEZ9IBnAFBVV95cUxQSUF4eGR3Zkd2alhhUkE1b2g0Tzc2UGpiNVpSazRUZ1RRSnRlM0kyUUhQSXN4YTJISmoxdmFXdXZNbFBST1B3a2JGTHl3bTdPdkJadjJzRktOMEhBOXFuMU1yWDBldkZyWU4wcWZhY21NRkVhYjlaVV96TFo3LVF2MFlUZy1ZVVEtUlg5dmNGaWc2bGF4YUxObWxSbmE?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
+      "summary": "",
+      "publishedAt": "2026-09-24T03:22:00.000Z",
+      "image": "",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fbea028709d2",
+      "title": "「ポケピース」ピカチュウやポッチャマがペロペロチョコに！可愛すぎるチャームが新登場♪",
+      "url": "https://animeanime.jp/article/2026/09/24/103186.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "ポケモンたちの“ピース”なくらしを描く「ポケピース」より、スティックチョコ型のチャームが新登場。2026年9月24日（木）13時より、プレミアムバンダイ内「キャンディオンラインショップ」にて予約受付中だ。",
+      "publishedAt": "2026-09-24T03:16:45.000Z",
+      "image": "https://animeanime.jp/imgs/rss/934562.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "dcf14ee04a06",
+      "title": "「ポケモン」がスターバックスと9月30日からコラボ。コラボレーションビバレッジ「ピカチュウ ハニークリーム ラテ」が登場",
+      "url": "https://www.4gamer.net/games/619/G061991/20260924006/",
+      "host": "4gamer.net",
+      "source": "4Gamer",
+      "summary": "スターバックスコーヒージャパンは本日（2026年9月24日），「ポケモン」とのコラボレーションを9月30日に開始すると発表した。コラボレーションビバレッジやコラボレーショングッズを展開する。",
+      "publishedAt": "2026-09-24T03:16:38.000Z",
+      "image": "https://www.4gamer.net/games/619/G061991/20260924006/SS/002.jpg",
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5ccf05627466",
+      "title": "【ポケカ】ゲンガー(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION",
+      "url": "https://snkrdunk.com/articles/33357/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-24T03:11:41.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/6b49f36d-8083-4ed4-9f8f-19b190d74ae2.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "e0bc4c85f3ad",
+      "title": "『Pokémon LEGENDS Z-A』セイカとマチエールが立体化！旅立ちの3匹、ジガルデ 10％フォルム含む「ポケモンスケールワールド」全11種セット",
+      "url": "https://www.inside-games.jp/article/2026/09/24/188183.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "『Pokémon LEGENDS Z-A』トレーナーとポケモンたちが「ポケモンスケールワールド」に登場！",
+      "publishedAt": "2026-09-24T03:10:10.000Z",
+      "image": "https://www.inside-games.jp/imgs/rss/1784185.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "e1e71b89d35c",
       "title": "スターバックスで『ポケモン』コラボが9月30日より開催！特別な「ピカチュウラテ」やステンレスボトル、タンブラーなどのグッズを展開",
@@ -610,7 +796,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "a62b5b86d466",
+      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【9/23更新】",
+      "url": "https://snkrdunk.com/articles/33304/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-24T02:50:21.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "532cf6ff8063",
@@ -629,7 +836,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "46d978dfc99f",
@@ -640,6 +847,27 @@
       "summary": "",
       "publishedAt": "2026-09-24T02:45:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/88985/thumbnail_eNOu.jpg?x=1280",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "96b21195186d",
+      "title": "スタバ×ポケモンがコラボ決定 バリスタ考案「ピカチュウ ハニークリーム ラテ」＆限定グッズ41アイテム登場",
+      "url": "https://mdpr.jp/gourmet/detail/4848891",
+      "host": "mdpr.jp",
+      "source": "mdpr.jp",
+      "summary": "",
+      "publishedAt": "2026-09-24T02:43:49.000Z",
+      "image": "https://img-mdpr.freetls.fastly.net/article/oEG3/nm/oEG3gnvpBl_-1ASr1ghuDIUibnLXMMUTBmWZVWuEgZw.jpg?width=700&disable=upscale&auto=webp&quality=80",
       "categories": [
         "goodscat"
       ],
@@ -671,7 +899,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9803f2499590",
@@ -692,17 +920,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c7d87a2fcc12",
       "title": "スタバ、「ポケモン」コラボのグッズ情報まとめ。9月30日より販売開始",
       "url": "https://game.watch.impress.co.jp/docs/news/2142778.html",
       "host": "game.watch.impress.co.jp",
-      "source": "game.watch.impress.co.jp",
+      "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-09-24T02:29:24.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2142/778/25.jpg",
       "categories": [
         "goodscat"
       ],
@@ -713,7 +941,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d938d481b97e",
@@ -736,14 +964,35 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f44a63bc53c3",
-      "title": "「スタバ」×「ポケモン」がコラボ！ ピカチュウのラテや全41アイテムのグッズ登場",
+      "title": "「スタバ」×「ポケモン」がコラボ！ ピカチュウのラテや全41アイテムのグッズ登場（クランクイン！）",
+      "url": "https://news.yahoo.co.jp/articles/f8cd96107c067015ba058d83e0db0d65c028b2f6",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-24T02:25:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260924-00191659-crankinn-000-1-view.jpg?exp=10800",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "347c3a586534",
+      "title": "「スタバ」×「ポケモン」がコラボ！ ピカチュウのラテや全41アイテムのグッズ登場 - crank-in.net",
       "url": "https://www.crank-in.net/trend/sweets/191659",
       "host": "crank-in.net",
-      "source": "クランクイン！",
+      "source": "crank-in.net",
       "summary": "",
       "publishedAt": "2026-09-24T02:25:00.000Z",
       "image": "https://www.crank-in.net/img/db/263094249118169_1200.jpg",
@@ -758,6 +1007,92 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": true
+    },
+    {
+      "id": "4befb1c0638a",
+      "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33323/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-24T02:20:15.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/93efbc7f-92bd-4d56-bf1b-61150d19a2b2.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "22218f279261",
+      "title": "【ポケカ】30周年記念ピカチュウをまるごとチェック！買取・相場価格/注目カードまとめ",
+      "url": "https://snkrdunk.com/articles/33255/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-24T02:18:16.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/a283fd47-f236-4427-b317-4486e4e559c7.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d3736a3109ae",
+      "title": "スタバ×ポケモン、9・30からコラボ ピカチュウの新作ラテ＆全41アイテムが登場【アイテム詳細あり】（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/28a4829c95b66c709530148481403162543f6eab",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-24T02:08:50.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260924-00000345-oric-000-3-view.jpg?exp=10800",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a54d539d0370",
+      "title": "【ポケカ】ルギア(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33331/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-24T01:54:12.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/ae0dc9c1-0da8-46bf-90cb-413081856201.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "7db98a464140",
@@ -779,26 +1114,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "f509a7b7a331",
-      "title": "【ポケモンチャンピオンズ】最強パーティランキング｜おすすめ構築",
-      "url": "https://gamewith.jp/pokemon-champions/555537",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-24T01:32:03.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/555537.png?date=1775997490",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "430a6c26e801",
@@ -826,10 +1141,10 @@
       "title": "POKÉMON + STARBUCKS® 「ポケモンと一緒に、コーヒーをめぐる冒険の旅へ」バリスタ考案『ピカチュウ ハニークリーム ラテ』と全41のグッズを9月30日（水）より発売",
       "url": "https://stories.starbucks.co.jp/press/2026/pr-2026-0924/",
       "host": "stories.starbucks.co.jp",
-      "source": "stories.starbucks.co.jp",
+      "source": "スターバックス ストーリーズ",
       "summary": "",
       "publishedAt": "2026-09-24T01:30:00.000Z",
-      "image": "",
+      "image": "https://stories.starbucks.co.jp/uploads/sites/30/2026/09/PR_F_0702_4x16_margin.jpg",
       "categories": [
         "goodscat"
       ],
@@ -847,7 +1162,7 @@
       "title": "ポケモンといっしょにコーヒーの可能性を巡る冒険へ。",
       "url": "https://stories.starbucks.co.jp/stories/2026/pr-2026-0924-2/",
       "host": "stories.starbucks.co.jp",
-      "source": "stories.starbucks.co.jp",
+      "source": "スターバックス ストーリーズ",
       "summary": "",
       "publishedAt": "2026-09-24T01:30:00.000Z",
       "image": "",
@@ -866,10 +1181,10 @@
       "title": "パートナーの熱いバトルが生んだ、ポケモンとコーヒーの冒険の一杯",
       "url": "https://stories.starbucks.co.jp/stories/2026/pr-2026-0924-1/",
       "host": "stories.starbucks.co.jp",
-      "source": "stories.starbucks.co.jp",
+      "source": "スターバックス ストーリーズ",
       "summary": "",
       "publishedAt": "2026-09-24T01:30:00.000Z",
-      "image": "",
+      "image": "https://stories.starbucks.co.jp/uploads/sites/30/2026/09/★_DSP6011_トリミング-scaled.jpg",
       "categories": [
         "other"
       ],
@@ -972,7 +1287,7 @@
       "source": "jetstream.blog",
       "summary": "",
       "publishedAt": "2026-09-24T00:32:44.000Z",
-      "image": "https://jetstream.blog/wp-content/uploads/2026/07/Google-Fitbit-Air-1.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -1022,7 +1337,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c7274b3c4a5",
@@ -1045,6 +1360,26 @@
       "isNew": false
     },
     {
+      "id": "8a0df3af32aa",
+      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-5構築記事)",
+      "url": "https://gamewith.jp/pokemon-champions/560474",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-24T00:11:27.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
+      "categories": [
+        "community",
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3fd25a757c03",
       "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
       "url": "https://snkrdunk.com/articles/33338/",
@@ -1052,28 +1387,7 @@
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-09-23T23:58:46.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a62b5b86d466",
-      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【9/23更新】",
-      "url": "https://snkrdunk.com/articles/33304/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-23T23:36:39.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -1149,25 +1463,47 @@
       "isNew": false
     },
     {
-      "id": "22218f279261",
-      "title": "【ポケカ】30周年記念ピカチュウをまるごとチェック！買取・相場価格/注目カードまとめ",
-      "url": "https://snkrdunk.com/articles/33255/",
+      "id": "f6270760409f",
+      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
+      "url": "https://snkrdunk.com/articles/32998/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-09-23T23:18:12.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/a283fd47-f236-4427-b317-4486e4e559c7.png",
+      "publishedAt": "2026-09-23T23:26:57.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
       "categories": [
-        "tcgcat"
+        "tcgcat",
+        "new"
       ],
       "series": [
-        "tcg"
+        "tcg",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3457bc6f3336",
+      "title": "【ポケモンチャンピオンズ】アローラキュウコンの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/554987",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-23T23:20:25.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/554987.png?date=1775806095",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "87b56682c6ca",
@@ -1212,50 +1548,6 @@
       "isNew": false
     },
     {
-      "id": "f6270760409f",
-      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
-      "url": "https://snkrdunk.com/articles/32998/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-23T22:54:59.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a54d539d0370",
-      "title": "【ポケカ】ルギア(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33331/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-23T22:40:59.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/ae0dc9c1-0da8-46bf-90cb-413081856201.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "4618d9968e96",
       "title": "【ポケモンGO】選べるタイムチャレンジの最新情報と開催期間",
       "url": "https://pokemongo.gamewith.jp/article/show/560061",
@@ -1270,25 +1562,6 @@
       "series": [
         "go"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "27f729beed14",
-      "title": "「泊まれるモンスターボール」詳細発表 直径3メートルの球体が北海道・苫小牧に出現、好きなポケモンと就寝",
-      "url": "https://www.sanyonews.jp/article/1989013",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-09-23T22:15:00.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/3/7/b/d/37bd244460e4c05e0c36217da8f046b3_1.jpg",
-      "categories": [
-        "new"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1338,45 +1611,25 @@
       "isNew": false
     },
     {
-      "id": "c902cbc90842",
-      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
-      "url": "https://gamewith.jp/pokemon-champions/546413",
+      "id": "3f4e3bd3edff",
+      "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-09-23T21:13:44.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
+      "publishedAt": "2026-09-23T21:09:11.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564725.png?date=1784813440",
       "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9202ea85184a",
-      "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
-      "url": "https://pokemongo.gamewith.jp/article/show/577622",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T21:11:24.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
-      "categories": [
-        "event"
+        "tcgcat"
       ],
       "series": [
-        "go"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "17bbf1e80e61",
@@ -1562,6 +1815,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "da7ac9c44808",
+      "title": "ここだけは絶対押さえて!!デカくて強いの目白押し!!!今週のまとめ!!【ポケモンGO】 Zach Bryan (0Vcyto91ML)",
+      "url": "https://media.unisba.ac.id/f433624e/a2a75443OQAJIlVfIVYYPS8",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-09-23T17:31:22.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -1579,27 +1853,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4befb1c0638a",
-      "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33323/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-23T16:26:53.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/93efbc7f-92bd-4d56-bf1b-61150d19a2b2.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1650,27 +1903,6 @@
       "isNew": false
     },
     {
-      "id": "5ccf05627466",
-      "title": "【ポケカ】ゲンガー(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION",
-      "url": "https://snkrdunk.com/articles/33357/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-23T15:18:46.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/6b49f36d-8083-4ed4-9f8f-19b190d74ae2.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "a166f80878a1",
       "title": "ポケモンカード投資が欧米で急拡大 1枚1億円超も、鑑定機関は逼迫",
       "url": "https://www.nikkei.com/prime/ft/article/DGXZQOCB180EH0Y6A910C2000000",
@@ -1704,27 +1936,6 @@
         "community"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8f7626922741",
-      "title": "【ポケポケ】パルデアワンダーの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/545635",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T13:55:34.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/545635.png?date=1771511273",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1897,7 +2108,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7761cbb1df05",
@@ -2192,6 +2403,25 @@
       "isNew": false
     },
     {
+      "id": "0d62f7382f7e",
+      "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携のやり方【ポケモンFRLG】",
+      "url": "https://appmedia.jp/pokemon_frlg/79791953",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-09-23T10:25:55.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/02/133609_0oyjk.webp",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "303deed2e5ca",
       "title": "30代エディターも編集部でときめいた！ 「ポラロイド」×「ポケモン」がかわいすぎる【新作試してはしゃぎ隊】",
       "url": "https://news.yahoo.co.jp/articles/8f35cc446bef67b6a63c9ecac3803811f9a238bf/images/000",
@@ -2266,7 +2496,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-09-23T08:00:00.000Z",
-      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260924113039",
+      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260924114602",
       "categories": [
         "event"
       ],
@@ -2389,10 +2619,10 @@
       "title": "ミュウツーイベント2週目BGMはおつきみ山のどうくつ？ 1157日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/23/post-167967/",
       "host": "skypenguin.net",
-      "source": "人鳥日記",
+      "source": "skypenguin.net",
       "summary": "",
       "publishedAt": "2026-09-23T04:51:06.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
+      "image": "",
       "categories": [
         "event"
       ],
@@ -2410,7 +2640,7 @@
       "title": "ポケモンデザインのグッズが3COINSから登場♪ テーブルウエアや文具など62アイテム",
       "url": "https://fan.books.rakuten.co.jp/articles/n0vof3o0nzn08d5fdtx03qfv",
       "host": "fan.books.rakuten.co.jp",
-      "source": "fan.books.rakuten.co.jp",
+      "source": "推し楽",
       "summary": "",
       "publishedAt": "2026-09-23T04:43:44.000Z",
       "image": "https://books.r10s.jp/fan/images/oshiraku-images/pokemon_3coins_main_e3760ba969.jpg",
@@ -2567,46 +2797,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0af5497c0e71",
-      "title": "ポケモンカード30周年記念商品を出品規制せず…ヤフオクなど各社の対応策は (2026年9月23日掲載)",
-      "url": "https://news.livedoor.com/topics/detail/32389562/",
-      "host": "news.livedoor.com",
-      "source": "news.livedoor.com",
-      "summary": "",
-      "publishedAt": "2026-09-22T23:00:00.000Z",
-      "image": "https://image.news.livedoor.com/newsimage/stf/e/b/ebd3b_1462_5496b26a_231e6eff.jpg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7497a93d8307",
-      "title": "『ポケモン』オーガポン登場！キタカミの里のお祭り物語 第151話あらすじ＆場面カット公開",
-      "url": "https://www.sanyonews.jp/article/1991533?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-09-22T22:25:56.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/a/2/f/7/a2f72bc69ab508a5e6bbaf453e86fa92_1.jpg",
-      "categories": [
-        "new"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2776,29 +2966,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "04c2fc51feab",
-      "title": "ゲームフリーク新作『雨のちハレ女』ティザーPVの作曲は、『ポケモン』の一之瀬剛氏。映像のもととなるアニメコンテまで制作していた",
-      "url": "https://news.denfaminicogamer.jp/news/260922u",
-      "host": "news.denfaminicogamer.jp",
-      "source": "電ファミニコゲーマー",
-      "summary": "作詞は『ポケモンSV』でメインシナリオを担当した村中亮太氏。一之瀬氏は「アニメの主題歌みたいな曲を作ることに憧れていた」とコメント",
-      "publishedAt": "2026-09-22T13:43:32.000Z",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/09/ed4aa2fd844aa5b57dd5eebc719b21eb-1024x581.png",
-      "categories": [
-        "new",
-        "media"
-      ],
-      "series": [
-        "main",
-        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2979,12 +3146,12 @@
     {
       "id": "34a0953052bd",
       "title": "『ポケモン』純金製のサーフゴーが“154万円”で販売へ。お値段まで「おうごんのからだ」すぎる",
-      "url": "https://news.denfaminicogamer.jp/news/260922t",
-      "host": "news.denfaminicogamer.jp",
-      "source": "電ファミニコゲーマー",
-      "summary": "金箔を使った高さ約120cmの等身大サーフゴーや、約40cmの等身大ピカチュウも展示。9月30日から横浜高島屋の「横浜大黄金展」に登場",
-      "publishedAt": "2026-09-22T10:00:44.000Z",
-      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/09/sub1-97.jpg",
+      "url": "https://news.nicovideo.jp/watch/nw19798136",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-09-22T10:03:16.000Z",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -3310,7 +3477,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "715a3cef397e",
@@ -3485,10 +3652,10 @@
       "title": "ポケカ30周年収録カードリスト一覧まとめ！【9月24日最新弾】",
       "url": "https://tcgpro.co.jp/media/pokeka-30th-atari/30th-card-list/",
       "host": "tcgpro.co.jp",
-      "source": "tcgpro.co.jp",
+      "source": "トレカプロ株式会社",
       "summary": "",
       "publishedAt": "2026-09-22T07:00:00.000Z",
-      "image": "https://tcgpro.co.jp/public/images/cardlist/ogp/30th-celebration.jpg?v=1790216924",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -3525,10 +3692,10 @@
       "title": "ポケカ30周年の再販はいつ？公式未発表と再入荷抽選133件の最新情報",
       "url": "https://tcgpro.co.jp/media/30th-saihan/",
       "host": "tcgpro.co.jp",
-      "source": "tcgpro.co.jp",
+      "source": "トレカプロ株式会社",
       "summary": "",
       "publishedAt": "2026-09-22T04:33:46.000Z",
-      "image": "https://tcgpro.co.jp/public/images/media/30th-box-product-photo.png",
+      "image": "",
       "categories": [
         "tcgcat",
         "new"
@@ -3582,73 +3749,6 @@
       "series": [
         "anime",
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7711e0ed16c4",
-      "title": "【ポケカ】ブラックボルトの予約・抽選情報まとめ【6月5日更新】",
-      "url": "https://snkrdunk.com/articles/28054/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-21T23:50:08.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20250503105027-0.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2b838e22c3d4",
-      "title": "スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》",
-      "url": "https://news.livedoor.com/topics/detail/32383977/",
-      "host": "news.livedoor.com",
-      "source": "news.livedoor.com",
-      "summary": "",
-      "publishedAt": "2026-09-21T23:13:00.000Z",
-      "image": "https://image.news.livedoor.com/newsimage/stf/9/5/95a61_1315_fb367738_fc63d6e5.jpg",
-      "categories": [
-        "tcgcat",
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "27b3f0a6439f",
-      "title": "【画像】スリコにポケモングッズがずらりステーショナリーや巾着、ミニタオルなどが勢ぞろい《事前抽選受付は9月23日まで》 5/5",
-      "url": "https://news.livedoor.com/article/image_detail/32383977/?img_id",
-      "host": "news.livedoor.com",
-      "source": "news.livedoor.com",
-      "summary": "",
-      "publishedAt": "2026-09-21T23:13:00.000Z",
-      "image": "https://image.news.livedoor.com/newsimage/stf/9/5/95a61_1315_fb367738_fc63d6e5.jpg",
-      "categories": [
-        "tcgcat",
-        "goodscat"
-      ],
-      "series": [
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3719,6 +3819,25 @@
       "isNew": false
     },
     {
+      "id": "27f729beed14",
+      "title": "「泊まれるモンスターボール」詳細発表 直径3メートルの球体が北海道・苫小牧に出現、好きなポケモンと就寝",
+      "url": "https://www.sanyonews.jp/article/1989013",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-21T19:57:40.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/3/7/b/d/37bd244460e4c05e0c36217da8f046b3_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "e1a1f59a5ff4",
       "title": "「世界宇宙週間」で「宇宙飛行ピカチュウ」と一緒に出発しよう",
       "url": "https://pokemongo.com/ja/news/world-space-week-2026",
@@ -3771,29 +3890,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6fe7bbeda916",
-      "title": "【ポケカ】熱風のアリーナの予約・抽選情報まとめ【3月17日更新】",
-      "url": "https://snkrdunk.com/articles/27096/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-21T15:32:38.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20250207051039-1.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3910,10 +4006,10 @@
       "title": "ミュウツー☆5寝顔 イベントランク7でゲット 1154日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/20/post-167625/",
       "host": "skypenguin.net",
-      "source": "人鳥日記",
+      "source": "skypenguin.net",
       "summary": "",
       "publishedAt": "2026-09-21T05:21:04.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
+      "image": "",
       "categories": [
         "event"
       ],
@@ -3931,36 +4027,15 @@
       "title": "ミュウツーイベント イベントランク13にも☆5寝顔があるのか？ 1155日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/21/post-167816/",
       "host": "skypenguin.net",
-      "source": "人鳥日記",
+      "source": "skypenguin.net",
       "summary": "",
       "publishedAt": "2026-09-21T05:18:55.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
+      "image": "",
       "categories": [
         "event"
       ],
       "series": [
         "sleep"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0b950edfee2e",
-      "title": "え、でかっ！ 『ポケモン』ディグダ、「本家超え」の巨大ぬいぐるみが2026年10月より登場",
-      "url": "https://article.auone.jp/b5deb8c7-c8b2-41c0-ae50-0653cd6db7db",
-      "host": "article.auone.jp",
-      "source": "au Webポータル",
-      "summary": "",
-      "publishedAt": "2026-09-21T03:10:00.000Z",
-      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/09/21/https___magmix_jp_post_376955_w570.webp",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
