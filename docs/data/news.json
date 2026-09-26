@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-26T04:00:17.556Z",
+  "updatedAt": "2026-09-26T04:30:18.398Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 159,
+  "total": 160,
   "todayCount": 43,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 22
+      "count": 21
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 1
+      "count": 2
     },
     {
       "id": "event",
@@ -37,7 +37,7 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 12
+      "count": 11
     },
     {
       "id": "guide",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 43
+      "count": 45
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 18
+      "count": 17
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 27
+      "count": 29
     },
     {
       "id": "tcg",
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 6
+      "count": 5
     },
     {
       "id": "unite",
@@ -109,11 +109,11 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 17
+      "count": 16
     },
     {
       "name": "YouTube",
-      "count": 14
+      "count": 15
     },
     {
       "name": "ガジェット通信",
@@ -150,6 +150,10 @@
     {
       "name": "スターバックス ストーリーズ",
       "count": 3
+    },
+    {
+      "name": "ｄメニューニュース",
+      "count": 2
     },
     {
       "name": "佐賀新聞",
@@ -204,10 +208,6 @@
       "count": 1
     },
     {
-      "name": "topics.smt.docomo.ne.jp",
-      "count": 1
-    },
-    {
       "name": "corocoro-news.jp",
       "count": 1
     },
@@ -224,15 +224,15 @@
       "count": 1
     },
     {
-      "name": "風傳媒",
+      "name": "japan.storm.mg",
       "count": 1
     },
     {
-      "name": "Unisba Media",
+      "name": "media.unisba.ac.id",
       "count": 1
     },
     {
-      "name": "city.living.jp",
+      "name": "シティリビングWeb",
       "count": 1
     },
     {
@@ -264,7 +264,7 @@
       "count": 1
     },
     {
-      "name": "lmaga.jp",
+      "name": "Lmaga.jp",
       "count": 1
     },
     {
@@ -575,7 +575,7 @@
         {
           "title": "「これは泣く」“スタバ×ポケモン”がコラボ！全41種の限定グッズを販売「全部ほしい」とファン歓喜",
           "url": "https://www.lmaga.jp/news/2026/09/1102686/",
-          "source": "lmaga.jp",
+          "source": "Lmaga.jp",
           "publishedAt": "2026-09-24T08:30:00.000Z",
           "isPR": false
         },
@@ -839,12 +839,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-26T03:30:17.454Z",
+    "previousAt": "2026-09-26T04:00:17.556Z",
     "previousCount": 159,
-    "newCount": 4
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-26T04:30:17.556Z",
+  "nextUpdateAt": "2026-09-26T05:00:18.398Z",
   "items": [
     {
       "id": "fb6c5c681af0",
@@ -888,7 +888,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f3a0975b860d",
@@ -969,6 +969,27 @@
       "series": [
         "tcg",
         "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "780ca96f34b4",
+      "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
+      "url": "https://snkrdunk.com/articles/18862/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-26T01:39:40.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1074,6 +1095,29 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "c3572f07ab43",
+      "title": "【ポケカ30周年】30th CELEBRATION(30th セレブレーション)の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【9/25更新】",
+      "url": "https://snkrdunk.com/articles/30971/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-26T01:13:51.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/2b5245f0-2774-4480-bb7d-cd8b457f7349.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1367,7 +1411,7 @@
       "source": "ABEMA",
       "summary": "",
       "publishedAt": "2026-09-25T22:12:31.000Z",
-      "image": "https://image.p-c2-x.abema-tv.com/image/programs/111-1yyirbkzgnz_s2_p676/thumb001.png?height=720&quality=75&version=1790243561&width=1280",
+      "image": "",
       "categories": [
         "media"
       ],
@@ -1436,29 +1480,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c3572f07ab43",
-      "title": "【ポケカ30周年】30th CELEBRATION(30th セレブレーション)の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【9/25更新】",
-      "url": "https://snkrdunk.com/articles/30971/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-25T21:39:28.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/2b5245f0-2774-4480-bb7d-cd8b457f7349.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1713,27 +1734,6 @@
       "isNew": false
     },
     {
-      "id": "780ca96f34b4",
-      "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
-      "url": "https://snkrdunk.com/articles/18862/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-25T16:05:53.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9f671a8362f5",
       "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
       "url": "https://appmedia.jp/pokemonchampions/79917667",
@@ -1794,7 +1794,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d95dcc960f46",
@@ -1885,7 +1885,7 @@
       "title": "「アイドル？だれかな？」ポケモン GO、コラボに期待の声！ 「平野紫耀さんと神宮寺勇太さんっぽい？」",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcGhGLUtkWlJwbE9pLWszdXJLT1dIbUpYMDhfbVVFNDU1MVFmM0ZLX2YxWkgyM1hTc0xVenJTWExDMU5BcHV3WE1zQkViYnJ4anRiVVhTMEc4NlNfRDNXb3Jock1ib1F4T2FBUXYxMnBYNEVUQ2NXVmJhVTVNY3duRVNnQVdlRklOeUE4RXhsc0JNUUNX0gGUAUFVX3lxTFBwaEYtS2RaUnBsT2ktazN1cktPV0htSlgwOF9tVUU0NTUxUWYzRktfZjFaSDIzWFNzTFV6clNYTEMxTkFwdXdYTXNCRWJicnhqdGJVWFMwRzg2U19EM1dvcmhyTWJvUXhPYUFRdjEycFg0RVRDY1dWYmFVNU1jd25FU2dBV2VGSU55QThFeGxzQk1RQ1c?oc=5",
       "host": "topics.smt.docomo.ne.jp",
-      "source": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
       "summary": "",
       "publishedAt": "2026-09-25T11:15:00.000Z",
       "image": "",
@@ -2420,7 +2420,7 @@
       "title": "ポケモンGO「ワイルドエリア」が仙台とメキシコシティで同時開催へ 宮城県全域を舞台に東北の魅力発信",
       "url": "https://japan.storm.mg/articles/1163539",
       "host": "japan.storm.mg",
-      "source": "風傳媒",
+      "source": "japan.storm.mg",
       "summary": "",
       "publishedAt": "2026-09-25T04:21:00.000Z",
       "image": "https://images.storm.mg/cloud/a9ffaf741176b1e429439ac6440a11af7746df61.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2213036%2FN83DrXbAy1ODMZ14vVBcHVS5hHRc3rzl9NTtAWAp.png&g=sm&h=900&resize=fill&w=1600&format=jpg",
@@ -2526,7 +2526,7 @@
       "title": "カイロスさんがキラいな銀色のポケモン使ってみた【ポケモンSV】【ゆっくり実況】 San Marino (2sJUrw5Wp3)",
       "url": "https://media.unisba.ac.id/faf17c68/52f0afd3VT8GWhZ7FDxbJlY",
       "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
+      "source": "media.unisba.ac.id",
       "summary": "",
       "publishedAt": "2026-09-25T01:46:12.000Z",
       "image": "",
@@ -2547,7 +2547,7 @@
       "title": "【ポケモン】スマホや手帳のデコに◎ 新作ステッカーセットをレポ！",
       "url": "https://city.living.jp/citymate/citymate355/mate_shopping/1770973/",
       "host": "city.living.jp",
-      "source": "city.living.jp",
+      "source": "シティリビングWeb",
       "summary": "",
       "publishedAt": "2026-09-25T00:01:25.000Z",
       "image": "https://city.living.cdn.anymanager.io/wp-content/uploads/2026/09/citymate355/870_1790154109.jpg",
@@ -2561,7 +2561,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7497a93d8307",
@@ -2829,6 +2829,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "9c57d90ae383",
+      "title": "ワイルドエリア完売日？なんの不具合？補填？ざわつくポケモンgo...色々心配ですが...今日も楽しむ!!!!【ポケモンGO】",
+      "url": "https://youtu.be/Bw0ZwAi02dw?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-09-24T11:52:52.000Z",
+      "image": "",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "cb24b2d0a535",
@@ -3149,7 +3170,7 @@
       "title": "「これは泣く」“スタバ×ポケモン”がコラボ！全41種の限定グッズを販売「全部ほしい」とファン歓喜",
       "url": "https://www.lmaga.jp/news/2026/09/1102686/",
       "host": "lmaga.jp",
-      "source": "lmaga.jp",
+      "source": "Lmaga.jp",
       "summary": "",
       "publishedAt": "2026-09-24T08:30:00.000Z",
       "image": "https://www.lmaga.jp/wp-content/uploads/2026/09/sutaba2026_0924_20.jpg",
@@ -3482,27 +3503,6 @@
       "isNew": false
     },
     {
-      "id": "fbea028709d2",
-      "title": "「ポケピース」ピカチュウやポッチャマがペロペロチョコに！可愛すぎるチャームが新登場♪（アニメ！アニメ！）",
-      "url": "https://news.yahoo.co.jp/articles/caaeb7004f3cd3adbac0b266c34d093edf7db7cf",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-24T03:16:45.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260924-00000010-anmanmv-000-1-view.jpg?exp=10800",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "dcf14ee04a06",
       "title": "「ポケモン」がスターバックスと9月30日からコラボ。コラボレーションビバレッジ「ピカチュウ ハニークリーム ラテ」が登場",
       "url": "https://www.4gamer.net/games/619/G061991/20260924006/",
@@ -3520,6 +3520,25 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "fbea028709d2",
+      "title": "「ポケピース」ピカチュウやポッチャマがペロペロチョコに！可愛すぎるチャームが新登場♪",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ3lLN0R4N0VXbGRjWEhvUFRJNmp1d1Q4X1F0V0xtS2lrTVNDdzcyWlJNSWFMcDA1TGIybWtEb0xpaTB2VkVQNTVhbXlFdy14VUhEWXhmc3p3UjRrQ1Ric1kyNTN6cU40emJiTjkySGhmNEZYcmZpNWxPd0ZDZlFzeTFMM0ZxVlFwOVNIMW1tWdIBjwFBVV95cUxQQ3lLN0R4N0VXbGRjWEhvUFRJNmp1d1Q4X1F0V0xtS2lrTVNDdzcyWlJNSWFMcDA1TGIybWtEb0xpaTB2VkVQNTVhbXlFdy14VUhEWXhmc3p3UjRrQ1Ric1kyNTN6cU40emJiTjkySGhmNEZYcmZpNWxPd0ZDZlFzeTFMM0ZxVlFwOVNIMW1tWQ?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
+      "summary": "",
+      "publishedAt": "2026-09-24T03:16:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3628,7 +3647,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "52ff836d537d",
@@ -3982,27 +4001,6 @@
       "isNew": false
     },
     {
-      "id": "5d6af1f077c1",
-      "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
-      "url": "https://gamewith.jp/pokemon/574415",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-23T11:06:15.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "4ec803edee79",
       "title": "TL80を目指すならコラッタのスポライは参加必須 / 埋めづらい“コンパクトファインダー”メダルを一気に進めるチャンス【ポケモンGO】",
       "url": "https://getnews.jp/archives/3744888",
@@ -4022,6 +4020,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5827aab5bfa8",
+      "title": "【ポケモンGO】ケーシィかスリープを5匹捕まえるの報酬",
+      "url": "https://pokemongo.gamewith.jp/article/show/122987",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-23T10:17:19.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a543c1b7bec2",
@@ -4077,7 +4096,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-09-23T08:00:00.000Z",
-      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260926130049",
+      "image": "https://kahoku.news/images/2026/09/23/20260923khn000024/001_size7.jpg?timestamp=20260926133048",
       "categories": [
         "event"
       ],
