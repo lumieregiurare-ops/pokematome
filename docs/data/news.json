@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T19:30:14.348Z",
+  "updatedAt": "2026-09-27T20:00:15.758Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -12,7 +12,7 @@
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 21
+      "count": 19
     },
     {
       "id": "update",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 17
+      "count": 16
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 40
+      "count": 39
     },
     {
       "id": "goodscat",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 8
+      "count": 9
     },
     {
       "id": "community",
@@ -64,7 +64,7 @@
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 20
+      "count": 22
     },
     {
       "id": "go",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 39
+      "count": 38
     },
     {
       "id": "anime",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 12
+      "count": 11
     },
     {
       "id": "sleep",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 50
+      "count": 48
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 29
+      "count": 32
     },
     {
       "name": "SNKRDUNK",
-      "count": 26
+      "count": 23
     },
     {
       "name": "Yahoo!ニュース",
@@ -116,15 +116,15 @@
       "count": 13
     },
     {
-      "name": "getnews.jp",
+      "name": "山陽新聞",
       "count": 5
     },
     {
-      "name": "山陽新聞",
-      "count": 4
+      "name": "ガジェット通信",
+      "count": 5
     },
     {
-      "name": "Infoseek",
+      "name": "news.infoseek.co.jp",
       "count": 4
     },
     {
@@ -132,11 +132,15 @@
       "count": 3
     },
     {
+      "name": "インサイド",
+      "count": 3
+    },
+    {
       "name": "tv-tokyo.co.jp",
       "count": 3
     },
     {
-      "name": "人鳥日記",
+      "name": "skypenguin.net",
       "count": 3
     },
     {
@@ -149,14 +153,6 @@
     },
     {
       "name": "AppMedia",
-      "count": 2
-    },
-    {
-      "name": "インサイド",
-      "count": 2
-    },
-    {
-      "name": "news.livedoor.com",
       "count": 2
     },
     {
@@ -184,11 +180,15 @@
       "count": 1
     },
     {
+      "name": "ライブドアニュース",
+      "count": 1
+    },
+    {
       "name": "産経ニュース",
       "count": 1
     },
     {
-      "name": "yomiuri.co.jp",
+      "name": "読売新聞",
       "count": 1
     },
     {
@@ -204,7 +204,7 @@
       "count": 1
     },
     {
-      "name": "lp.p.pia.jp",
+      "name": "ぴあエンタメ情報",
       "count": 1
     },
     {
@@ -237,10 +237,6 @@
     },
     {
       "name": "MEN'S NON-NO WEB",
-      "count": 1
-    },
-    {
-      "name": "s.inside-games.jp",
       "count": 1
     },
     {
@@ -286,7 +282,7 @@
       "leadSource": "Yahoo!ニュース",
       "publishedAt": "2026-09-27T12:34:01.000Z",
       "sourceCount": 8,
-      "articleCount": 11,
+      "articleCount": 10,
       "categories": [
         "other",
         "event"
@@ -294,20 +290,13 @@
       "keywords": [
         "ポケモンユナイト",
         "スポーツ",
-        "日本"
+        "アジア"
       ],
       "articles": [
         {
           "title": "ポケモンユナイトで日本が金メダル、高2の主将が決勝で値千金の一撃 (2026年9月27日掲載)",
           "url": "https://news.livedoor.com/topics/detail/32425300/",
-          "source": "news.livedoor.com",
-          "publishedAt": "2026-09-27T12:33:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【画像】ポケモンユナイトで日本が金メダル、高2の主将が決勝で値千金の一撃 2/2",
-          "url": "https://news.livedoor.com/article/image_detail/32425300/?img_id",
-          "source": "news.livedoor.com",
+          "source": "ライブドアニュース",
           "publishedAt": "2026-09-27T12:33:00.000Z",
           "isPR": false
         },
@@ -321,7 +310,7 @@
         {
           "title": "eスポーツ ポケモンユナイト 試合結果・記録 アジア競技大会2026 愛知・名古屋",
           "url": "https://www.yomiuri.co.jp/sports/asian-games/2026/results/229/FMSR20260927229ASS---PO------JGSTm020000197/",
-          "source": "yomiuri.co.jp",
+          "source": "読売新聞",
           "publishedAt": "2026-09-27T11:00:00.000Z",
           "isPR": false
         },
@@ -351,6 +340,13 @@
           "url": "https://www.chunichi.co.jp/article/1317027?rct",
           "source": "中日新聞Web",
           "publishedAt": "2026-09-27T00:45:31.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【アジア競技大会】大会でウッウが大活躍！？実はこれ、勝利が必然の完璧すぎるドラフトでした…【ポケモンユナイト】",
+          "url": "https://youtu.be/2oudGmsTWjM",
+          "source": "YouTube",
+          "publishedAt": "2026-09-26T13:24:56.000Z",
           "isPR": false
         }
       ]
@@ -385,7 +381,7 @@
         {
           "title": "【ファン必見！】『Pokémon Sleep』とNOT A HOTELがコラボ！ 北海道・苫小牧でモンスターボールに宿泊できる？！",
           "url": "https://lp.p.pia.jp/article/news/513489/index.html",
-          "source": "lp.p.pia.jp",
+          "source": "ぴあエンタメ情報",
           "publishedAt": "2026-09-27T03:00:00.000Z",
           "isPR": false
         },
@@ -490,7 +486,7 @@
       "summary": "",
       "url": "https://news.infoseek.co.jp/article/oricon_2482506/",
       "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2482506_0-enlarge.jpg",
-      "leadSource": "Infoseek",
+      "leadSource": "news.infoseek.co.jp",
       "publishedAt": "2026-09-25T10:25:00.000Z",
       "sourceCount": 3,
       "articleCount": 3,
@@ -597,7 +593,7 @@
       "summary": "",
       "url": "https://skypenguin.net/2026/09/27/post-168470/",
       "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
-      "leadSource": "人鳥日記",
+      "leadSource": "skypenguin.net",
       "publishedAt": "2026-09-27T08:01:55.000Z",
       "sourceCount": 2,
       "articleCount": 3,
@@ -614,7 +610,7 @@
         {
           "title": "ミュウツー☆3寝顔を狙って GSDスタート 1160日目プレイ感想【ポケスリ日記】",
           "url": "https://skypenguin.net/2026/09/26/post-168313/",
-          "source": "人鳥日記",
+          "source": "skypenguin.net",
           "publishedAt": "2026-09-26T02:34:38.000Z",
           "isPR": false
         },
@@ -739,12 +735,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-09-27T19:00:15.217Z",
-    "previousCount": 153,
+    "previousAt": "2026-09-27T19:30:14.348Z",
+    "previousCount": 155,
     "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-27T20:00:14.348Z",
+  "nextUpdateAt": "2026-09-27T20:30:15.758Z",
   "items": [
     {
       "id": "55e5467c096b",
@@ -890,7 +886,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2b2526ba106b",
@@ -1110,7 +1106,7 @@
       "title": "ポケモンユナイトで日本が金メダル、高2の主将が決勝で値千金の一撃 (2026年9月27日掲載)",
       "url": "https://news.livedoor.com/topics/detail/32425300/",
       "host": "news.livedoor.com",
-      "source": "news.livedoor.com",
+      "source": "ライブドアニュース",
       "summary": "",
       "publishedAt": "2026-09-27T12:33:00.000Z",
       "image": "https://image.news.livedoor.com/newsimage/stf/7/6/7691d_1231_3d25dc16_61be9933.jpg",
@@ -1125,27 +1121,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "149fc7548810",
-      "title": "【画像】ポケモンユナイトで日本が金メダル、高2の主将が決勝で値千金の一撃 2/2",
-      "url": "https://news.livedoor.com/article/image_detail/32425300/?img_id",
-      "host": "news.livedoor.com",
-      "source": "news.livedoor.com",
-      "summary": "",
-      "publishedAt": "2026-09-27T12:33:00.000Z",
-      "image": "https://image.news.livedoor.com/newsimage/stf/7/6/7691d_1231_3d25dc16_61be9933.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "0528f7b9bb26",
@@ -1302,7 +1277,7 @@
       "title": "eスポーツ ポケモンユナイト 試合結果・記録 アジア競技大会2026 愛知・名古屋",
       "url": "https://www.yomiuri.co.jp/sports/asian-games/2026/results/229/FMSR20260927229ASS---PO------JGSTm020000197/",
       "host": "yomiuri.co.jp",
-      "source": "yomiuri.co.jp",
+      "source": "読売新聞",
       "summary": "",
       "publishedAt": "2026-09-27T11:00:00.000Z",
       "image": "https://www.yomiuri.co.jp/media/2026/06/asian-games-ogp.jpg?type=ogp",
@@ -1746,7 +1721,7 @@
       "title": "ミュウツー☆3寝顔ゲット 1161日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/27/post-168470/",
       "host": "skypenguin.net",
-      "source": "人鳥日記",
+      "source": "skypenguin.net",
       "summary": "",
       "publishedAt": "2026-09-27T08:01:55.000Z",
       "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
@@ -1886,51 +1861,6 @@
       "isNew": false
     },
     {
-      "id": "1c77f0d64ed5",
-      "title": "【ポケカ】ブラックボルトの当たりランキング/買取相場/封入率/予約抽選/値段まとめ",
-      "url": "https://snkrdunk.com/articles/28051/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-27T04:50:14.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20250606055350-0.png",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "fa68f7df0c6a",
-      "title": "ポケカ始めるならスニダン！新弾&ビルドBOXセットが抽選で当たるポケカスタートキャンペーン開始！初回購入クーポンも配布中",
-      "url": "https://snkrdunk.com/articles/22112/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-27T04:26:52.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20240125110816-0.jpeg",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ccabeed8fafd",
       "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/16466/",
@@ -1981,7 +1911,7 @@
       "title": "メガレベル4の強さを知っているか？ / 無課金でも最強アタッカーを手に入れる方法は散歩である【ポケモンGO】",
       "url": "https://getnews.jp/archives/3745516",
       "host": "getnews.jp",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "summary": "",
       "publishedAt": "2026-09-27T04:00:53.000Z",
       "image": "https://rensai.jp/wp-content/uploads/2026/09/0926_pokemon1-9.jpeg",
@@ -2024,7 +1954,7 @@
       "title": "【ファン必見！】『Pokémon Sleep』とNOT A HOTELがコラボ！ 北海道・苫小牧でモンスターボールに宿泊できる？！",
       "url": "https://lp.p.pia.jp/article/news/513489/index.html",
       "host": "lp.p.pia.jp",
-      "source": "lp.p.pia.jp",
+      "source": "ぴあエンタメ情報",
       "summary": "",
       "publishedAt": "2026-09-27T03:00:00.000Z",
       "image": "https://lp.p.pia.jp/shared/materials/b1f4ade4-8bf2-4f64-9b3f-b0fbd54e2d86/origin.jpg",
@@ -2157,29 +2087,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9a7e9575f46a",
-      "title": "【ポケカ】拡張パック「バトルリージョン」の収録・当たりカードリスト/予約/抽選/定価/販売店舗まとめ",
-      "url": "https://snkrdunk.com/articles/12268/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-27T00:56:46.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20240108091345-0.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2369,7 +2276,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dad551a2fd27",
@@ -2409,7 +2316,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b64f9ff1a2d0",
@@ -2556,6 +2463,27 @@
       "isNew": false
     },
     {
+      "id": "8c3d67802d5c",
+      "title": "【ポケポケ】トレードTier表|星2レートまとめ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/532418",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-26T14:50:16.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/532418.png?date=1764743075",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "ac0f1935f9f6",
       "title": "【ポケポケ】プロモカードの入手方法一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/462569",
@@ -2662,6 +2590,27 @@
       "isNew": false
     },
     {
+      "id": "368629950b48",
+      "title": "【ポケモンSV】最強ポケモンランキング｜レギュI【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/375523/1000",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-26T12:30:18.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375523.png?date=1668958633",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "94b22cee27de",
       "title": "「Pokémon（ポケモン）」×「STARBUCKS®」コラボ！バリスタ考案メニューと全41のグッズが登場",
       "url": "https://charalab.com/143314/",
@@ -2746,11 +2695,53 @@
       "isNew": false
     },
     {
+      "id": "8d251878b18e",
+      "title": "『渋谷区立加計塚小学校』にてポケモンカードを活用した体験型ブースを出展！ミニゲームなどを実施",
+      "url": "https://www.sanyonews.jp/article/1920078",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-09-26T07:00:00.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1https://prtimes.jp/img/177148/9/resize/d177148-9-881b59a29d9db113fa30-0.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "8cd889203d47",
+      "title": "【ポケモンSV】ドダイトスの色違いと進化・弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/417242",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-26T06:41:27.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "968bbe00861f",
       "title": "ポケスリ ☆5寝顔情報まとめ おこうは戻る？いつ見れる？ 【ポケモンスリープ】",
       "url": "https://skypenguin.net/2026/09/26/post-168327/",
       "host": "skypenguin.net",
-      "source": "人鳥日記",
+      "source": "skypenguin.net",
       "summary": "",
       "publishedAt": "2026-09-26T04:30:30.000Z",
       "image": "https://skypenguin.net/wp/wp-content/uploads/2026/09/ポケスリ☆5寝顔.png",
@@ -2771,7 +2762,7 @@
       "title": "ミュウツー☆3寝顔を狙って GSDスタート 1160日目プレイ感想【ポケスリ日記】",
       "url": "https://skypenguin.net/2026/09/26/post-168313/",
       "host": "skypenguin.net",
-      "source": "人鳥日記",
+      "source": "skypenguin.net",
       "summary": "",
       "publishedAt": "2026-09-26T02:34:38.000Z",
       "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
@@ -2815,7 +2806,7 @@
       "title": "メガカラマネロはソロ周回が可能 / ふしぎなアメ＆XLやわざマシンスペシャル稼ぎに最適【ポケモンGO】",
       "url": "https://getnews.jp/archives/3745389",
       "host": "getnews.jp",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "summary": "",
       "publishedAt": "2026-09-26T01:30:29.000Z",
       "image": "https://rensai.jp/wp-content/uploads/2026/09/0926_pokemon-8.jpeg",
@@ -2839,7 +2830,7 @@
       "source": "MEN'S NON-NO WEB",
       "summary": "",
       "publishedAt": "2026-09-26T01:01:10.000Z",
-      "image": "",
+      "image": "https://www.mensnonno.jp/wp-content/uploads/2026/09/FotoJet-3.jpg",
       "categories": [
         "goodscat"
       ],
@@ -2857,7 +2848,7 @@
       "title": "「デンジュモク」は2名集まれば余裕で周回可能 / 超貴重な色違い個体を厳選せよ【ポケモンGO】",
       "url": "https://getnews.jp/archives/3745387",
       "host": "getnews.jp",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "summary": "",
       "publishedAt": "2026-09-26T01:00:57.000Z",
       "image": "https://rensai.jp/wp-content/uploads/2026/09/0926_pokemon-7.jpeg",
@@ -2875,10 +2866,10 @@
     },
     {
       "id": "6681fe9d125f",
-      "title": "『ポケモン』1,025匹の30周年記念ロゴTシャツが受注販売！子どもから大人まで選べる13サイズ - s.inside-games.jp",
+      "title": "『ポケモン』1,025匹の30周年記念ロゴTシャツが受注販売！子どもから大人まで選べる13サイズ",
       "url": "https://s.inside-games.jp/article/2026/09/26/188293.html?from",
       "host": "s.inside-games.jp",
-      "source": "s.inside-games.jp",
+      "source": "インサイド",
       "summary": "",
       "publishedAt": "2026-09-26T00:20:02.000Z",
       "image": "https://www.inside-games.jp/imgs/ogp_f/1780057.jpg",
@@ -3194,7 +3185,7 @@
       "title": "ポケモン新グッズ発表「つながる」イラスト使用 ソード・シールドのジムバッジコレクション登場",
       "url": "https://news.infoseek.co.jp/article/oricon_2482506/",
       "host": "news.infoseek.co.jp",
-      "source": "Infoseek",
+      "source": "news.infoseek.co.jp",
       "summary": "",
       "publishedAt": "2026-09-25T10:25:00.000Z",
       "image": "https://media.image.infoseek.co.jp/isnews/photos/oricon/oricon_2482506_0-enlarge.jpg",
@@ -3240,7 +3231,7 @@
       "title": "ポケセンのお姉さんたちがLINEスタンプに！ LINEスタンプ「ポケモンセンターへようこそ！」が発売ー「回復させるだけでは勝てません」",
       "url": "https://news.infoseek.co.jp/article/inside_188266/",
       "host": "news.infoseek.co.jp",
-      "source": "Infoseek",
+      "source": "news.infoseek.co.jp",
       "summary": "",
       "publishedAt": "2026-09-25T10:10:03.000Z",
       "image": "https://media.image.infoseek.co.jp/isnews/photos/inside/inside_188266_0-enlarge.jpg",
@@ -3430,7 +3421,7 @@
       "title": "【炎上】ワイルドエリア仙台のチケット第3陣は結局ただの先着順 / 「だったら最初からそれでやれ」と批判が殺到中【ポケモンGO】",
       "url": "https://getnews.jp/archives/3745264",
       "host": "getnews.jp",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "summary": "",
       "publishedAt": "2026-09-25T06:30:39.000Z",
       "image": "https://rensai.jp/wp-content/uploads/2026/09/unnamed.png",
@@ -3451,7 +3442,7 @@
       "title": "『ポケモン』30周年グッズの新作が10月1日より順次発売！一つにつながる「ジムバッジコレクション ガラル」、クリアファイルやキーホルダーも",
       "url": "https://news.infoseek.co.jp/article/inside_188244/",
       "host": "news.infoseek.co.jp",
-      "source": "Infoseek",
+      "source": "news.infoseek.co.jp",
       "summary": "",
       "publishedAt": "2026-09-25T05:45:25.000Z",
       "image": "https://media.image.infoseek.co.jp/isnews/photos/inside/inside_188244_0-enlarge.jpg",
@@ -3710,7 +3701,7 @@
       "title": "『ポケモン GO』にadidasコラボの着せ替えアイテムが登場、対象店舗で専用タイムチャレンジも",
       "url": "https://news.infoseek.co.jp/article/mynavi_3230663/",
       "host": "news.infoseek.co.jp",
-      "source": "Infoseek",
+      "source": "news.infoseek.co.jp",
       "summary": "",
       "publishedAt": "2026-09-25T04:16:20.000Z",
       "image": "https://media.image.infoseek.co.jp/isnews/photos/mynavi/mynavi_3230663_0-enlarge.jpg",
@@ -3919,7 +3910,7 @@
       "title": "今すぐクリフを周回すべき理由 →メガガブリアス超えの火力を持つシャドウオノノクスを作るなら今【ポケモンGO】",
       "url": "https://getnews.jp/archives/3745150",
       "host": "getnews.jp",
-      "source": "getnews.jp",
+      "source": "ガジェット通信",
       "summary": "",
       "publishedAt": "2026-09-24T23:00:35.000Z",
       "image": "https://rensai.jp/wp-content/uploads/2026/09/062-pokemongo-2.jpeg",
