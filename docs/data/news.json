@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-09-29T22:30:16.253Z",
+  "updatedAt": "2026-09-29T23:00:16.249Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 149,
-  "todayCount": 24,
+  "total": 151,
+  "todayCount": 31,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 17
+      "count": 19
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 22
+      "count": 23
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 24
+      "count": 25
     },
     {
       "id": "media",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 7
+      "count": 9
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 18
+      "count": 20
     },
     {
       "id": "biz",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 43
+      "count": 41
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 9
+      "count": 11
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 24
+      "count": 26
     },
     {
       "id": "tcg",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 24
+      "count": 23
     },
     {
       "id": "sleep",
@@ -94,25 +94,21 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 40
+      "count": 42
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 25
+      "count": 27
     },
     {
       "name": "SNKRDUNK",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 12
-    },
-    {
-      "name": "Unisba Media",
       "count": 12
     },
     {
@@ -120,8 +116,12 @@
       "count": 12
     },
     {
+      "name": "Unisba Media",
+      "count": 11
+    },
+    {
       "name": "インサイド",
-      "count": 8
+      "count": 9
     },
     {
       "name": "ガジェット通信",
@@ -168,7 +168,7 @@
       "count": 2
     },
     {
-      "name": "dime.jp",
+      "name": "@DIME アットダイム",
       "count": 1
     },
     {
@@ -176,11 +176,11 @@
       "count": 1
     },
     {
-      "name": "GAME Watch",
+      "name": "ファミ通",
       "count": 1
     },
     {
-      "name": "ファミ通",
+      "name": "GAME Watch",
       "count": 1
     },
     {
@@ -252,10 +252,6 @@
       "count": 1
     },
     {
-      "name": "ｄメニューニュース",
-      "count": 1
-    },
-    {
       "name": "ニコニコニュース",
       "count": 1
     },
@@ -280,7 +276,7 @@
       "count": 1
     },
     {
-      "name": "jbpress.ismedia.jp",
+      "name": "JBpress",
       "count": 1
     },
     {
@@ -386,19 +382,26 @@
       "url": "https://game.watch.impress.co.jp/docs/news/2143485.html",
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2143/485/053.jpg",
       "leadSource": "GAME Watch",
-      "publishedAt": "2026-09-29T21:30:37.000Z",
+      "publishedAt": "2026-09-29T22:44:59.000Z",
       "sourceCount": 11,
-      "articleCount": 13,
+      "articleCount": 14,
       "categories": [
-        "goodscat",
-        "new"
+        "new",
+        "goodscat"
       ],
       "keywords": [
         "コラボ",
-        "グッズ",
-        "ピカチュウ"
+        "ピカチュウ",
+        "スタバ"
       ],
       "articles": [
+        {
+          "title": "【スタバ新作速報】ポケモンコラボ！「ピカチュウ ハニークリーム ラテ」がおいしくてかわいすぎる！",
+          "url": "https://news.yahoo.co.jp/expert/articles/dbd9c005d60e95237d4b2b0e12155673b4de8ee4",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-09-29T22:44:59.000Z",
+          "isPR": false
+        },
         {
           "title": "「スタバ×ポケモン」コラボ登場！ 限定ピカチュウラテにファン歓喜「朝イチで行く」（ふたまん＋）",
           "url": "https://news.yahoo.co.jp/articles/686d38b468fd981d853035a5642a8da80043d200",
@@ -447,12 +450,83 @@
           "source": "インサイド",
           "publishedAt": "2026-09-29T08:00:04.000Z",
           "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "04e4edcd96f5",
+      "title": "『ポケポケ』新パック「ハイクラスパック MEGA」実装！これまでの注目ポケモンたちを再録、一部カードは新規イラストも",
+      "summary": "注目カードを再録した期間限定パック「ハイクラスパック MEGA」が2026年9月30日10時に実装！",
+      "url": "https://www.inside-games.jp/article/2026/09/30/188487.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1784612.jpg",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-09-29T22:03:16.000Z",
+      "sourceCount": 4,
+      "articleCount": 19,
+      "categories": [
+        "tcgcat",
+        "other"
+      ],
+      "keywords": [
+        "カード",
+        "ポケポケ",
+        "ポケモンカード"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンexが必ず封入！ポケポケに拡張パック「ハイクラスパックMEGA」が登場",
+          "url": "https://dime.jp/genre/2158439/",
+          "source": "@DIME アットダイム",
+          "publishedAt": "2026-09-29T22:03:16.000Z",
+          "isPR": false
         },
         {
-          "title": "スタバとポケモンのコラボ「ピカチュウ ハニークリーム ラテ」と、全41グッズが9月30日から登場！詳細をチェック",
-          "url": "https://news.yahoo.co.jp/articles/72a04f006d16f9dd2a236591baddb3165a307ac4",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-09-29T04:44:11.000Z",
+          "title": "【ポケポケ】新パック「ハイクラスパックMEGA(メガ)」の収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
+          "source": "GameWith",
+          "publishedAt": "2026-09-29T19:10:20.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
+          "source": "GameWith",
+          "publishedAt": "2026-09-29T17:20:16.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】デュアルタイプとは？【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/574423",
+          "source": "GameWith",
+          "publishedAt": "2026-09-29T16:47:22.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
+          "url": "https://snkrdunk.com/articles/32582/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-09-29T15:41:44.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】エリートデッキ(メガルカリオex)の入手方法【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/570822",
+          "source": "GameWith",
+          "publishedAt": "2026-09-29T14:19:07.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
+          "source": "GameWith",
+          "publishedAt": "2026-09-29T14:10:07.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
+          "source": "GameWith",
+          "publishedAt": "2026-09-29T14:08:13.000Z",
           "isPR": false
         }
       ]
@@ -543,78 +617,37 @@
       ]
     },
     {
-      "id": "c6ce94867b8a",
-      "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
+      "id": "a661a4d5cf6b",
+      "title": "【無料アバター配布中⚠️】緊急！明日から受け取って！？メガエナジー配布や限定アイテムもアディダスで入手チャンス？【ポケモンGO・ADIDAS | POKÉMON・メガルカリオ・Pokemon GO 】 Venezuela (Lx2RVOX…",
       "summary": "",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
-      "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
-      "leadSource": "GameWith",
-      "publishedAt": "2026-09-29T19:56:12.000Z",
-      "sourceCount": 2,
-      "articleCount": 20,
+      "url": "https://media.unisba.ac.id/2e40cf59/3422f0fbPDNJLVV_PB0YFgE/",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578629.jpg?date=1790245814",
+      "leadSource": "Unisba Media",
+      "publishedAt": "2026-09-29T11:56:41.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
       "categories": [
-        "tcgcat"
+        "event",
+        "other"
       ],
       "keywords": [
-        "カード",
-        "ポケモンカード",
-        "ポケポケ"
+        "ポケモンGO",
+        "adidas",
+        "pok"
       ],
       "articles": [
         {
-          "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
+          "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
+          "url": "https://pokemongo.gamewith.jp/article/show/578629",
           "source": "GameWith",
-          "publishedAt": "2026-09-29T17:20:16.000Z",
+          "publishedAt": "2026-09-29T01:29:07.000Z",
           "isPR": false
         },
         {
-          "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
-          "url": "https://snkrdunk.com/articles/32582/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-09-29T15:41:44.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】パルデアワンダーの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/545635",
-          "source": "GameWith",
-          "publishedAt": "2026-09-29T15:32:10.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】エリートデッキ(メガルカリオex)の入手方法【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/570822",
-          "source": "GameWith",
-          "publishedAt": "2026-09-29T14:19:07.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
-          "source": "GameWith",
-          "publishedAt": "2026-09-29T14:10:07.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
-          "source": "GameWith",
-          "publishedAt": "2026-09-29T13:21:07.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】メガヘルガーexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/572654",
-          "source": "GameWith",
-          "publishedAt": "2026-09-29T10:34:41.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
-          "source": "GameWith",
-          "publishedAt": "2026-09-29T10:33:18.000Z",
+          "title": "メガルカリオの実質配布がアツい / adidasコラボのタイムチャレンジが無料なのに豪華【ポケモンGO】",
+          "url": "https://getnews.jp/archives/3745681",
+          "source": "ガジェット通信",
+          "publishedAt": "2026-09-28T11:00:58.000Z",
           "isPR": false
         }
       ]
@@ -628,15 +661,15 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-09-29T16:24:36.000Z",
       "sourceCount": 2,
-      "articleCount": 3,
+      "articleCount": 4,
       "categories": [
         "event",
         "tcgcat"
       ],
       "keywords": [
         "ポケモンGO",
-        "ポケモンカード",
-        "ポケモンカードゲーム"
+        "イベント",
+        "ポケモンカード"
       ],
       "articles": [
         {
@@ -647,39 +680,17 @@
           "isPR": false
         },
         {
+          "title": "【ポケモンGO】収穫祭占拠イベントの開催期間とボーナス",
+          "url": "https://pokemongo.gamewith.jp/article/show/575472",
+          "source": "GameWith",
+          "publishedAt": "2026-09-29T11:12:15.000Z",
+          "isPR": false
+        },
+        {
           "title": "マクドナルド x『ポケモンカードゲーム』30周年記念ハッピーセットが2026年11月より展開へ",
           "url": "https://hypebeast.com/jp/2026/9/pokemon-tcg-30th-anniversary-mcdonalds-us-promotion-launch-november-2026-info",
           "source": "Hypebeast",
           "publishedAt": "2026-09-28T21:54:42.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "04e4edcd96f5",
-      "title": "『ポケポケ』新パック「ハイクラスパック MEGA」実装！これまでの注目ポケモンたちを再録、一部カードは新規イラストも",
-      "summary": "注目カードを再録した期間限定パック「ハイクラスパック MEGA」が2026年9月30日10時に実装！",
-      "url": "https://www.inside-games.jp/article/2026/09/30/188487.html",
-      "image": "https://www.inside-games.jp/imgs/rss/1784612.jpg",
-      "leadSource": "インサイド",
-      "publishedAt": "2026-09-29T22:03:16.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "tcgcat",
-        "other"
-      ],
-      "keywords": [
-        "mega",
-        "ポケポケ",
-        "パック"
-      ],
-      "articles": [
-        {
-          "title": "ポケモンexが必ず封入！ポケポケに拡張パック「ハイクラスパックMEGA」が登場",
-          "url": "https://dime.jp/genre/2158439/",
-          "source": "dime.jp",
-          "publishedAt": "2026-09-29T22:03:16.000Z",
           "isPR": false
         }
       ]
@@ -742,35 +753,6 @@
       ]
     },
     {
-      "id": "a661a4d5cf6b",
-      "title": "【無料アバター配布中⚠️】緊急！明日から受け取って！？メガエナジー配布や限定アイテムもアディダスで入手チャンス？【ポケモンGO・ADIDAS | POKÉMON・メガルカリオ・Pokemon GO 】 Venezuela (Lx2RVOX…",
-      "summary": "",
-      "url": "https://media.unisba.ac.id/2e40cf59/3422f0fbPDNJLVV_PB0YFgE/",
-      "image": "https://rensai.jp/wp-content/uploads/2026/07/0701-pokemongo-6.jpeg",
-      "leadSource": "Unisba Media",
-      "publishedAt": "2026-09-29T11:56:41.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "event",
-        "goodscat"
-      ],
-      "keywords": [
-        "ポケモンGO",
-        "adidas",
-        "メガルカリオ"
-      ],
-      "articles": [
-        {
-          "title": "メガルカリオの実質配布がアツい / adidasコラボのタイムチャレンジが無料なのに豪華【ポケモンGO】",
-          "url": "https://getnews.jp/archives/3745681",
-          "source": "ガジェット通信",
-          "publishedAt": "2026-09-28T11:00:58.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "49543b0c38bb",
       "title": "『ポケカ』拡張パック「インフェルノX」「ストームエメラルダ」がポケセンオンラインで追加抽選！大半を「本人認証済みの方の当選分」として用意",
       "summary": "ポケモンセンターオンラインにて、『ポケモンカードゲーム』拡張パック「インフェルノX」「ストームエメラルダ」の追加抽選販売が10月2日12時より実施！",
@@ -821,22 +803,72 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "058b299a1b36",
+      "title": "【すぐに見て】こいつ最強です。9.9割の人がまだ気づいてない「ストリンダー」の本当の使い方を解説します【ポケモンユナイト】",
+      "summary": "",
+      "url": "https://youtu.be/FhRjOBaDGEs",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577395.png?date=1789616155",
+      "leadSource": "YouTube",
+      "publishedAt": "2026-09-28T09:32:32.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "guide"
+      ],
+      "keywords": [
+        "ポケモンユナイト",
+        "ストリンダー"
+      ],
+      "articles": [
+        {
+          "title": "【ポケモンユナイト】ストリンダーの評価と持ち物や技構成のおすすめ｜対策方法【UNITE】",
+          "url": "https://gamewith.jp/pokemon-unite/article/show/577395",
+          "source": "GameWith",
+          "publishedAt": "2026-09-28T04:38:15.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-09-29T22:00:22.615Z",
-    "previousCount": 147,
-    "newCount": 7
+    "previousAt": "2026-09-29T22:30:16.253Z",
+    "previousCount": 149,
+    "newCount": 10
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-09-29T23:00:16.253Z",
+  "nextUpdateAt": "2026-09-29T23:30:16.249Z",
   "items": [
+    {
+      "id": "2ad01430fda4",
+      "title": "【スタバ新作速報】ポケモンコラボ！「ピカチュウ ハニークリーム ラテ」がおいしくてかわいすぎる！",
+      "url": "https://news.yahoo.co.jp/expert/articles/dbd9c005d60e95237d4b2b0e12155673b4de8ee4",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-09-29T22:44:59.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/kohisomuriekazu/02731622/title-1790721883810.jpeg?exp=10800",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "bdf2b750eda7",
       "title": "ポケモンexが必ず封入！ポケポケに拡張パック「ハイクラスパックMEGA」が登場",
       "url": "https://dime.jp/genre/2158439/",
       "host": "dime.jp",
-      "source": "dime.jp",
+      "source": "@DIME アットダイム",
       "summary": "",
       "publishedAt": "2026-09-29T22:03:16.000Z",
       "image": "https://dime.jp/wp-content/uploads/2026/09/926387a6eae691b8029b28cbcd2dfadf-12-770x433.jpg",
@@ -850,7 +882,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "03025e4c1ea0",
@@ -895,6 +927,68 @@
       "isNew": false
     },
     {
+      "id": "c6ce94867b8a",
+      "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T20:48:33.000Z",
+      "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8a0df3af32aa",
+      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-5構築記事)",
+      "url": "https://gamewith.jp/pokemon-champions/560474",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T20:48:04.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
+      "categories": [
+        "community",
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "0665d07546bb",
+      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202609/88085/869484",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-09-29T20:35:59.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a3fb5ed13afe8714a7e5d13ee506003dd.jpg?x=1280",
+      "categories": [
+        "community"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "a54d539d0370",
       "title": "【ポケカ】ルギア(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
       "url": "https://snkrdunk.com/articles/33331/",
@@ -916,25 +1010,27 @@
       "isNew": false
     },
     {
-      "id": "c6ce94867b8a",
-      "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
-      "host": "gamewith.jp",
-      "source": "GameWith",
+      "id": "5c9c3e699f90",
+      "title": "【初心者におすすめ】テラスタル「ミュウツーex」の注目カード/回し方/改造方法/予約/抽選/販売店舗まとめ【ポケカ】",
+      "url": "https://snkrdunk.com/articles/19475/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-09-29T19:56:12.000Z",
-      "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
+      "publishedAt": "2026-09-29T19:44:52.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231227034531-0.jpeg",
       "categories": [
-        "tcgcat"
+        "tcgcat",
+        "guide"
       ],
       "series": [
-        "tcg"
+        "tcg",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "929547491269",
@@ -958,6 +1054,49 @@
       "isNew": false
     },
     {
+      "id": "b227e6de9a53",
+      "title": "【ポケポケ】新パック「ハイクラスパックMEGA(メガ)」の収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T19:10:20.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2da802d9dc7a",
+      "title": "【ポケポケ】ラッキーチャレンジ(フォッコ+ニャオニクス)の攻略【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/577848",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T19:10:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577848.jpg?date=1789805109",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0d62f7382f7e",
       "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携のやり方【ポケモンFRLG】",
       "url": "https://appmedia.jp/pokemon_frlg/79791953",
@@ -975,6 +1114,30 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "2d4828067ab8",
+      "title": "【ポケカ】「スカーレットex＆バイオレットex スペシャルセット」の収録アイテムリスト/予約/抽選/定価/販売店舗まとめ【1/20発売】",
+      "url": "https://snkrdunk.com/articles/15475/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-09-29T18:59:40.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231230072339-1.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "main",
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f42f0aec37ba",
@@ -1105,6 +1268,27 @@
       "isNew": false
     },
     {
+      "id": "397da41a59f2",
+      "title": "【ポケポケ】デュアルタイプとは？【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/574423",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T16:47:22.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574423.png?date=1788139354",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f816c4e5040a",
       "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/15950/",
@@ -1147,7 +1331,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ccabeed8fafd",
@@ -1259,27 +1443,6 @@
       "isNew": false
     },
     {
-      "id": "8f7626922741",
-      "title": "【ポケポケ】パルデアワンダーの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/545635",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-29T15:32:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/545635.png?date=1771511273",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "04e4edcd96f5",
       "title": "『ポケポケ』新パック「ハイクラスパック MEGA」実装！これまでの注目ポケモンたちを再録、一部カードは新規イラストも",
       "url": "https://www.inside-games.jp/article/2026/09/30/188487.html",
@@ -1343,27 +1506,6 @@
       "isNew": false
     },
     {
-      "id": "3cf4bf0ecdc1",
-      "title": "【ポケモンユナイト】スタバ＆ランク！一緒に練習してこ～ぜ！！【参加型】 Copa Do Brasil (gnEk3PkRuB)",
-      "url": "https://media.unisba.ac.id/b29963a8/3f9b606cWlFcLExeJg1bEAk/?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-09-29T14:27:24.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d95dcc960f46",
       "title": "【ポケポケ】エリートデッキ(メガルカリオex)の入手方法【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570822",
@@ -1406,25 +1548,25 @@
       "isNew": false
     },
     {
-      "id": "0665d07546bb",
-      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202609/88085/869493",
-      "host": "famitsu.com",
-      "source": "ファミ通",
+      "id": "21beed7ca646",
+      "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-09-29T13:57:10.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a62bf1edb36141f114521ec4bb4175579.jpg?x=1280",
+      "publishedAt": "2026-09-29T14:08:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/573136.png?date=1787237535",
       "categories": [
-        "community"
+        "tcgcat"
       ],
       "series": [
-        "main"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "b37a8b4b04ca",
@@ -1660,6 +1802,27 @@
       "isNew": false
     },
     {
+      "id": "ddcc0bec9a47",
+      "title": "【ポケモンGO】収穫祭占拠イベントの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/575472",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T11:12:15.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575472.jpg?date=1788824979",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9c5bf50fa91e",
       "title": "【ポケポケ】メガヘルガーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/572654",
@@ -1689,69 +1852,6 @@
       "summary": "",
       "publishedAt": "2026-09-29T10:33:18.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7761cbb1df05",
-      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-29T10:33:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "96dede30191d",
-      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-29T10:33:13.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "65229ee18342",
-      "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-29T10:33:11.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562182.png?date=1779956758",
       "categories": [
         "tcgcat"
       ],
@@ -1857,27 +1957,6 @@
       "summary": "",
       "publishedAt": "2026-09-29T10:33:06.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "fb3b696295c7",
-      "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-29T10:33:04.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570624.png?date=1785392839",
       "categories": [
         "tcgcat"
       ],
@@ -2218,25 +2297,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "141f0511d199",
-      "title": "ポケモン好き必見「30周年記念Tシャツ」が可愛い！1025種類から好きな1匹を選べる＆全13サイズ展開で自分用にもギフトにも【ZOZOTOWN】（LIMO）",
-      "url": "https://news.yahoo.co.jp/articles/c7801cce91d288e1ff0e56a803c84c83c043bce2",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-09-29T07:31:05.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260929-00139545-toushin-000-1-view.jpg?exp=10800",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -2428,6 +2488,25 @@
       "isNew": false
     },
     {
+      "id": "af73325c18a8",
+      "title": "【ポケモンチャンピオンズ】キャラメイクのやり方・後から変更できる？",
+      "url": "https://gamewith.jp/pokemon-champions/546457",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T03:19:22.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546457.png?date=1775616057",
+      "categories": [
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "dd7a634b320f",
       "title": "「ニコるんゲットだぜー」藤田ニコル、モンスターボール型ホテルに宿泊「ゲットしたい」「世界一可愛いポケモン」",
       "url": "https://www.chunichi.co.jp/article/1318015",
@@ -2531,6 +2610,27 @@
       "isNew": false
     },
     {
+      "id": "162987ed3ed1",
+      "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
+      "url": "https://pokemongo.gamewith.jp/article/show/578629",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T01:29:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578629.jpg?date=1790245814",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "797cf9298d82",
       "title": "【ポケカ】ロケット団の栄光の予約・抽選情報まとめ【4月22日更新】",
       "url": "https://snkrdunk.com/articles/27331/",
@@ -2542,29 +2642,6 @@
       "categories": [
         "tcgcat",
         "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "5c9c3e699f90",
-      "title": "【初心者におすすめ】テラスタル「ミュウツーex」の注目カード/回し方/改造方法/予約/抽選/販売店舗まとめ【ポケカ】",
-      "url": "https://snkrdunk.com/articles/19475/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-09-28T23:16:56.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20231227034531-0.jpeg",
-      "categories": [
-        "tcgcat",
-        "guide"
       ],
       "series": [
         "tcg",
@@ -3006,25 +3083,6 @@
       "isNew": false
     },
     {
-      "id": "1ae8258b2180",
-      "title": "スマホで遊べる無料のポケモンゲームアプリまとめ｜2026年最新",
-      "url": "https://gamewith.jp/gamedb/article/show/297300?from",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-28T10:13:45.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/297300.png?t=1633432345",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "5658986f43f2",
       "title": "明日、焦ると損します!! 収穫祭、前日確認!!!【ポケモンGO】",
       "url": "https://youtu.be/YfWpUxesrlI?si",
@@ -3175,19 +3233,19 @@
     {
       "id": "406d731aa08e",
       "title": "ピカチュウやゲンガーなどが可愛い！「ポケモン」より全12種の「カラビナ付き丸型ポーチ」が登場",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ1lfaThVUGxyUnVGa2RDbW52eFg2VEtKUTIteFZodHBxWDhyZWF6aTRfemdEM3d2aWU0Z1J6bjhWS1JZNjB5aUhaVmhhVlNkdmJpVHRaTEYwSGVIRWFjTmRkdDE4R3lBNWZ0ZEFZQ0NDeTlWN0JsdThZbnl2TE0tbUhma2t3bzhPanpoYXpaX2hFMFNE0gGHAUFVX3lxTE02TFhaUm5RYkJRT0duZGUzOWxJRzNIOVdxY0ZhbkpSZmFDWjZWcTM3X0JsSW13ZW9EdHQ4Wnp4TlltZE5GSUdfelhmX1VjVWhKekY2LS15NlZIVzBuS0xsXzFIWUNPTG94MVZDOVB6bkJlcWFvRllOc0Z3N1ZiZVhER2RvazN1dw?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
+      "url": "https://www.inside-games.jp/article/2026/09/28/188399.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
       "summary": "",
-      "publishedAt": "2026-09-28T08:20:00.000Z",
-      "image": "",
+      "publishedAt": "2026-09-28T08:20:02.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1786282.jpg",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3547,14 +3605,14 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2967c3c7ed01",
       "title": "ポケモンカードはなぜハッピーセットから消えた？「キダルト消費」が招く大人vs子どものおもちゃ争奪戦",
       "url": "https://jbpress.ismedia.jp/articles/-/97156",
       "host": "jbpress.ismedia.jp",
-      "source": "jbpress.ismedia.jp",
+      "source": "JBpress",
       "summary": "",
       "publishedAt": "2026-09-27T21:00:00.000Z",
       "image": "https://jbpress.ismcdn.jp/mwimgs/3/6/1200mw/img_36c7f33ffb30a1c81d85d39dd18660fe272811.jpg",
