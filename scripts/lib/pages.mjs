@@ -179,7 +179,13 @@ export async function renderPages(root, { log = () => {} } = {}) {
       ${genres.map((g) => `<a href="/news/${g.slug}/">${esc(g.title)}</a>`).join("")}
       ${E && entities.length ? `<a href="/${E.path}/">${esc(E.indexTitle)}</a>` : ""}
       <a href="/archive/">過去のニュース</a><a href="/about/">このサイトについて</a><a href="/feed.xml">RSS</a>
-    </nav>`;
+    </nav>${
+      (config.sisterSites || []).length
+        ? `<nav class="footer-nav footer-sisters" aria-label="運営サイト"><span class="footer-nav-label">運営サイト</span>${config.sisterSites
+            .map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.name)}</a>`)
+            .join("")}</nav>`
+        : ""
+    }`;
   }
   const sources = (news?.sources || []).map((s) => s.name);
   // 入れ子の div ごと 1 つの要素を取り除く（正規表現だと最初の </div> で切れてしまうため）
