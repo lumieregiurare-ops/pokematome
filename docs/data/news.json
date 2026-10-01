@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-01T22:30:17.514Z",
+  "updatedAt": "2026-10-01T23:00:17.391Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 196,
+  "total": 198,
   "todayCount": 13,
   "categories": [
     {
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 24
+      "count": 25
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 36
+      "count": 37
     },
     {
       "id": "goodscat",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 35
+      "count": 36
     },
     {
       "id": "anime",
@@ -108,11 +108,11 @@
       "count": 25
     },
     {
-      "name": "YouTube",
-      "count": 19
+      "name": "Unisba Media",
+      "count": 20
     },
     {
-      "name": "Unisba Media",
+      "name": "YouTube",
       "count": 19
     },
     {
@@ -136,15 +136,23 @@
       "count": 3
     },
     {
-      "name": "PR TIMES",
-      "count": 3
-    },
-    {
       "name": "ポケットモンスターオフィシャルサイト",
       "count": 3
     },
     {
+      "name": "prtimes.jp",
+      "count": 2
+    },
+    {
+      "name": "玩具人 TOY PEOPLE",
+      "count": 2
+    },
+    {
       "name": "人鳥日記",
+      "count": 2
+    },
+    {
+      "name": "アニメ！アニメ！",
       "count": 2
     },
     {
@@ -160,11 +168,7 @@
       "count": 2
     },
     {
-      "name": "MANTANWEB",
-      "count": 2
-    },
-    {
-      "name": "京都新聞デジタル",
+      "name": "kyoto-np.co.jp",
       "count": 1
     },
     {
@@ -185,10 +189,6 @@
     },
     {
       "name": "Real Sound｜リアルサウンド",
-      "count": 1
-    },
-    {
-      "name": "玩具人 TOY PEOPLE",
       "count": 1
     },
     {
@@ -252,6 +252,10 @@
       "count": 1
     },
     {
+      "name": "Record China",
+      "count": 1
+    },
+    {
       "name": "AdverTimes.（アドタイ） by 宣伝会議",
       "count": 1
     },
@@ -265,10 +269,6 @@
     },
     {
       "name": "AUTOMATON",
-      "count": 1
-    },
-    {
-      "name": "アニメ！アニメ！",
       "count": 1
     },
     {
@@ -297,6 +297,10 @@
     },
     {
       "name": "news.livedoor.com",
+      "count": 1
+    },
+    {
+      "name": "MANTANWEB",
       "count": 1
     },
     {
@@ -408,18 +412,18 @@
           "isPR": false
         },
         {
+          "title": "「オーマイ マカロニを食べて 集めて ゲットしよう！ポケモングッズプレゼントキャンペーン」を実施",
+          "url": "https://animeanime.jp/release/prtimes/20261001/316652.html",
+          "source": "アニメ！アニメ！",
+          "publishedAt": "2026-10-01T03:46:45.000Z",
+          "isPR": false
+        },
+        {
           "title": "ポケモンデザインの食器などが合計850名に当たる！ 「オーマイ マカロニ」キャンペーンが10月1日より開催",
           "url": "https://www.ndw.jp/pokemon-goods-261001-01/",
           "source": "Nintendo DREAM WEB",
           "publishedAt": "2026-10-01T03:28:30.000Z",
           "isPR": false
-        },
-        {
-          "title": "「オーマイ マカロニを食べて 集めて ゲットしよう！ポケモングッズプレゼントキャンペーン」を実施",
-          "url": "https://prtimes.jp/main/html/rd/p/000000054.000106413.html",
-          "source": "PR TIMES",
-          "publishedAt": "2026-10-01T01:00:03.000Z",
-          "isPR": true
         }
       ]
     },
@@ -446,9 +450,9 @@
         {
           "title": "今まで「鬼滅の刃」「ポケモン」「原神」「刀剣乱舞」等の人気のアニメ、ゲーム、漫画キャラが登場！「秋のススキと大自然のロケーション」を使う「コスプレ撮影ロケ」イベントをグランスノー奥伊吹で１０月３日開催",
           "url": "https://prtimes.jp/main/html/rd/p/000000265.000025847.html",
-          "source": "PR TIMES",
+          "source": "prtimes.jp",
           "publishedAt": "2026-10-01T05:00:24.000Z",
-          "isPR": true
+          "isPR": false
         },
         {
           "title": "トトロ、AKIRA、ポケモンなど人気作が集結。アニメ・マンガオークション第2弾が10月に開催",
@@ -801,12 +805,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-01T22:00:16.837Z",
+    "previousAt": "2026-10-01T22:30:17.514Z",
     "previousCount": 196,
-    "newCount": 7
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-01T23:00:17.514Z",
+  "nextUpdateAt": "2026-10-01T23:30:17.391Z",
   "items": [
     {
       "id": "1a447dfbc072",
@@ -850,10 +854,10 @@
     },
     {
       "id": "0253137c45b3",
-      "title": "「ポケモンカード」価格高騰 目ギラつかせる「転売ヤー」 ファンの思い踏みにじる転売への対策を",
+      "title": "「ポケモンカード」価格高騰 目ギラつかせる「転売ヤー」 ファンの思い踏みにじる転売への対策を - kyoto-np.co.jp",
       "url": "https://www.kyoto-np.co.jp/articles/-/1780275",
       "host": "kyoto-np.co.jp",
-      "source": "京都新聞デジタル",
+      "source": "kyoto-np.co.jp",
       "summary": "",
       "publishedAt": "2026-10-01T21:00:00.000Z",
       "image": "https://kyoto-np.ismcdn.jp/mwimgs/3/a/1200wm/img_3a49a536efe096feeea92a89a8be44494688137.jpg",
@@ -1615,7 +1619,7 @@
       "title": "ポケモン世界大会優勝のビエラ選手、「トレカキャンプ」「ゲームキャンプ」とスポンサー契約",
       "url": "https://prtimes.jp/main/html/rd/p/000000042.000042141.html",
       "host": "prtimes.jp",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "summary": "",
       "publishedAt": "2026-10-01T09:30:02.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/42141/42/42141-42-d756155347c91dfcb3791651164f3756-606x606.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -1625,7 +1629,7 @@
       ],
       "series": [],
       "isOfficial": false,
-      "isPR": true,
+      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -1865,7 +1869,7 @@
       "title": "今まで「鬼滅の刃」「ポケモン」「原神」「刀剣乱舞」等の人気のアニメ、ゲーム、漫画キャラが登場！「秋のススキと大自然のロケーション」を使う「コスプレ撮影ロケ」イベントをグランスノー奥伊吹で１０月３日開催",
       "url": "https://prtimes.jp/main/html/rd/p/000000265.000025847.html",
       "host": "prtimes.jp",
-      "source": "PR TIMES",
+      "source": "prtimes.jp",
       "summary": "",
       "publishedAt": "2026-10-01T05:00:24.000Z",
       "image": "https://prcdn.freetls.fastly.net/release_image/25847/265/25847-265-06c250f24b9b5c5fe6138b96a471b7c4-1024x679.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
@@ -1877,7 +1881,7 @@
         "anime"
       ],
       "isOfficial": false,
-      "isPR": true,
+      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -1959,6 +1963,28 @@
       ],
       "series": [
         "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8f52022dcbed",
+      "title": "「オーマイ マカロニを食べて 集めて ゲットしよう！ポケモングッズプレゼントキャンペーン」を実施",
+      "url": "https://animeanime.jp/release/prtimes/20261001/316652.html",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "",
+      "publishedAt": "2026-10-01T03:46:45.000Z",
+      "image": "https://animeanime.jp/release/imgs/list/558598.jpg",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2063,7 +2089,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c1620c146819",
@@ -2187,7 +2213,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b77f18576389",
@@ -2208,28 +2234,6 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8f52022dcbed",
-      "title": "「オーマイ マカロニを食べて 集めて ゲットしよう！ポケモングッズプレゼントキャンペーン」を実施",
-      "url": "https://prtimes.jp/main/html/rd/p/000000054.000106413.html",
-      "host": "prtimes.jp",
-      "source": "PR TIMES",
-      "summary": "",
-      "publishedAt": "2026-10-01T01:00:03.000Z",
-      "image": "https://prcdn.freetls.fastly.net/release_image/106413/54/106413-54-d00478d000af21b7eef121fc3f8d9d52-1192x704.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
-      "categories": [
-        "event",
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -2488,6 +2492,48 @@
       "isNew": false
     },
     {
+      "id": "a909dfada642",
+      "title": "世界にわずか100枚！「レインコートピカチュウ」が840万ドルで落札、史上2番目に高額なポケモンカードに",
+      "url": "https://www.toy-people.com/jp/?p",
+      "host": "toy-people.com",
+      "source": "玩具人 TOY PEOPLE",
+      "summary": "",
+      "publishedAt": "2026-09-30T17:43:38.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "49a245fde8bd",
+      "title": "実は激ヤバ性能だったおでかけキャッチャー！サファリ転送可能に！マスターボールも使ってみた【ポケモンGO】 Trump Iran (AJu73aiEoU)",
+      "url": "https://media.unisba.ac.id/fec4cfea/362a6561yAzq9eu2dro/?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-09-30T17:28:35.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0d9a70d4273f",
       "title": "【公式】『Pokémon Sleep』にバケッチャ・パンプジンが登場！ Raiplay (6vk6j7c3Fv)",
       "url": "https://media.unisba.ac.id/3db9000a/7d1f0a60mTg9DjgM_E?share",
@@ -2698,7 +2744,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a08b586b2a65",
@@ -2864,6 +2910,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3f93d737a824",
+      "title": "当選したのに商品なし？ポケモン30周年イベントでトラブル―中国メディア",
+      "url": "https://www.recordchina.co.jp/b993968-s25-c30-d0201.html",
+      "host": "recordchina.co.jp",
+      "source": "Record China",
+      "summary": "",
+      "publishedAt": "2026-09-30T06:00:01.000Z",
+      "image": "https://assets.recordchina.co.jp/newRc/m1200/20260930/ccf4689670c85ce895ca056c6a125c24.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "7ab8ff753748",
@@ -3610,7 +3675,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39b83a2cc340",
@@ -4141,7 +4206,7 @@
     {
       "id": "b4cb1a684781",
       "title": "【ポケモンSV】ストライクの進化と色違い・弱点【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373687",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NWEFyY3pCYmdfcXJhZEs3aGhoYmhMVGZScVhVQWVvd3pMQTJRb2hNQllMRXNkY2dDSmlVV0llUDdEczhSSDhEOFo1VF9EYmx3aS1Hd294ME9Zc09sRWJF?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4155,14 +4220,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "ffb8c0f3ad1f",
       "title": "【ポケモンSV】ラッキーの進化と色違い・努力値【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373688",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tQ0l2cmJjd3FCaHBrWWNab0Y4VGtfNXhTajRMZ2FYWUNnX2xPUk9QQ29xWVBBQVhSUk44Um5uUEg5a2RJZ3owaU9yUUdxb1pBT1JBakEzM2QzVGV2dHhr?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4176,14 +4241,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "2c6f442b1e5b",
       "title": "【ポケモンSV】ギャラドスの弱点と色違い・技【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373685",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wWUpiTW1LOTNKZXVwbGVESkpHbjExQzVXZFN4cnplRXJ1dXJLZVJiQl9PTmZzUnh6OC10cVBLUlV6XzJYMEpNV1NTQjVTay1pTTNXVGREMllwb213cXlR?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4197,7 +4262,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -4325,7 +4390,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e2249772ff52",
@@ -4514,7 +4579,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "03dd2f276b20",
@@ -4598,7 +4663,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "40a51b52531c",
@@ -4906,27 +4971,6 @@
       "series": [
         "main",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b3073916a8e4",
-      "title": "【秋のポケ活応援セール 9/28よりスタート】最大約17kmの広域アシスト×26時間ロングバッテリー｜ポケモンGO(R)対応ARサポートツール「ARmate」が特別価格｜マイペースに楽しむ秋のポケ活を",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcTNodWlWZW5pUmo3ZHdFQmU2LTB5TlNGZ1BpVmVWUU90Z29iTVB4cXhNWEh3UXgtZ09FZll2MlFETHB4Tms0WGs5M2Vwd0l4Qi1TZks2Nm1KZmU2M25vT2xlRFktX3FhOE5ZdUtDLWlSTzRvQ2s1aWZoV3JwV1MzS2RNYzdldmRF?oc=5",
-      "host": "mantan-web.jp",
-      "source": "MANTANWEB",
-      "summary": "",
-      "publishedAt": "2026-09-29T00:16:27.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
