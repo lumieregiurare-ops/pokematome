@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T02:00:15.725Z",
+  "updatedAt": "2026-10-02T02:28:18.377Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 198,
-  "todayCount": 17,
+  "todayCount": 18,
   "categories": [
     {
       "id": "new",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 54
+      "count": 53
     },
     {
       "name": "Yahoo!ニュース",
@@ -232,7 +232,7 @@
       "count": 1
     },
     {
-      "name": "AppMedia",
+      "name": "appmedia.jp",
       "count": 1
     },
     {
@@ -285,6 +285,10 @@
     },
     {
       "name": "マイベスト",
+      "count": 1
+    },
+    {
+      "name": "pokemongo.gamewith.jp",
       "count": 1
     },
     {
@@ -647,7 +651,7 @@
       "title": "『Pokémon Sleep』と「すっぴんパウダー」がコラボ！ 10月6日より4種類の限定デザインが登場",
       "summary": "",
       "url": "https://www.ndw.jp/pokemon-goods-261001-03/",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261001-03_000.jpg",
+      "image": "",
       "leadSource": "Nintendo DREAM WEB",
       "publishedAt": "2026-10-01T11:53:31.000Z",
       "sourceCount": 2,
@@ -808,12 +812,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-02T01:30:18.247Z",
-    "previousCount": 196,
-    "newCount": 8
+    "previousAt": "2026-10-02T02:00:15.725Z",
+    "previousCount": 198,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-02T02:30:15.725Z",
+  "nextUpdateAt": "2026-10-02T02:58:18.377Z",
   "items": [
     {
       "id": "220b9bbb406c",
@@ -835,7 +839,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ea13824f6767",
@@ -877,7 +881,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f6270760409f",
@@ -1019,6 +1023,27 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "3910f8a324f2",
+      "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
+      "url": "https://gamewith.jp/pokemon/546662",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-01T17:55:22.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546662.png?date=1772203051",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1314,7 +1339,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-01T12:43:31.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261001-pokemongoods-4-00.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -1352,7 +1377,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-01T11:53:31.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261001-03_000.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -1472,7 +1497,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "19bb503e8efd",
@@ -1857,7 +1882,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-01T05:36:05.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/10/ポケモンすくすくウィークvol6.png",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -1878,7 +1903,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-01T05:20:40.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2023/07/ポケモンスリープ1日目.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -1963,7 +1988,7 @@
       "source": "c-labo.jp",
       "summary": "",
       "publishedAt": "2026-10-01T04:23:21.000Z",
-      "image": "https://www.c-labo.jp/wordpress/wp-content/uploads/2026/09/4c85c234076325c638e2c305400f29d6-1.jpg",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2048,7 +2073,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-01T03:28:30.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261001_000.jpg",
+      "image": "",
       "categories": [
         "event"
       ],
@@ -2139,7 +2164,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c1620c146819",
@@ -2436,27 +2461,6 @@
       "isNew": false
     },
     {
-      "id": "3910f8a324f2",
-      "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
-      "url": "https://gamewith.jp/pokemon/546662",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-30T20:47:20.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546662.png?date=1772203051",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "1c109c81eb83",
       "title": "本日1時間限定を見逃すな！大量に無料配布決定！史上初のダブルコスピカ実装！特別技習得ボーナスも熱い！【 ポケモンGO 】【 GOバトルリーグ 】【 GBL 】【 】 Uzbekistan (koA0VtAESh)",
       "url": "https://media.unisba.ac.id/ab8f58e2/d5821cc3LxEnLCJFFBYNRVo/",
@@ -2503,7 +2507,7 @@
       "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
       "url": "https://appmedia.jp/pokemonchampions/79917667",
       "host": "appmedia.jp",
-      "source": "AppMedia",
+      "source": "appmedia.jp",
       "summary": "",
       "publishedAt": "2026-09-30T18:58:27.000Z",
       "image": "https://appmedia.jp/wp-content/uploads/2026/04/154524_gfk4e.webp",
@@ -2750,7 +2754,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a08b586b2a65",
@@ -3497,7 +3501,7 @@
       "source": "携帯総合研究所",
       "summary": "",
       "publishedAt": "2026-09-29T19:53:18.000Z",
-      "image": "https://i0.wp.com/mobilelaby.com/wp/wp-content/uploads/pokemon-go-daily-bonus-update.jpg?fit=1280%2C720&ssl=1",
+      "image": "",
       "categories": [
         "update",
         "media"
@@ -3520,7 +3524,7 @@
       "source": "携帯総合研究所",
       "summary": "",
       "publishedAt": "2026-09-29T19:50:59.000Z",
-      "image": "https://i0.wp.com/mobilelaby.com/wp/wp-content/uploads/pokemon-go-battery-saver-freeze.jpg?fit=1096%2C648&ssl=1",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -3583,7 +3587,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-09-29T15:00:00.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2143/485/053.jpg",
       "categories": [
         "goodscat"
       ],
@@ -3657,14 +3661,14 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39b83a2cc340",
       "title": "【ポケモンスリープ】フレンド募集掲示板【ポケスリ】",
       "url": "https://pokemongo.gamewith.jp/article/show/409951",
       "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
+      "source": "pokemongo.gamewith.jp",
       "summary": "",
       "publishedAt": "2026-09-29T13:05:11.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/409951.png?date=1690185783",
@@ -3742,6 +3746,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "0d9d57ebe885",
+      "title": "【ポケモンSV】ルカリオの色違いと進化・弱点と技構成【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373565",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T12:02:16.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "284bb90d9c6e",
@@ -4188,7 +4213,7 @@
     {
       "id": "6bb89bf19ac1",
       "title": "【ポケモンSV】はらだいこの効果と覚えるポケモン【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/374677",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE42WVJlcndBZ19RZjg5RjA0SC1vM1pyQ0NULVd1QWJTd3BBUmlUOTFMZUFlblN6RnZYRkJmQ1RsUUlQU2tIOUFoZnQxeXMxTlhuQkliUHBMS2U0OEMydmpB?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4202,9 +4227,30 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "567df9d53f58",
+      "title": "【ポケモンSV】レアコイルの進化と色違い・弱点【スカーレットバイオレット】",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8tVW5Ib1ZxTWhvVHFSMElsTnIwUnJmVU1ncHVSeEVmZ19XNjBEMFdFcTJQb2dmdEQ0N3U1RldoRjhoaFVlWTIwUGdueTB3MEZ4eHEwTFpaVExYV2M5LWZJ?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-09-29T03:53:19.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "b4cb1a684781",
@@ -4226,27 +4272,6 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "ffb8c0f3ad1f",
-      "title": "【ポケモンSV】ラッキーの進化と色違い・努力値【スカーレットバイオレット】",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tQ0l2cmJjd3FCaHBrWWNab0Y4VGtfNXhTajRMZ2FYWUNnX2xPUk9QQ29xWVBBQVhSUk44Um5uUEg5a2RJZ3owaU9yUUdxb1pBT1JBakEzM2QzVGV2dHhr?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-29T03:53:12.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "2c6f442b1e5b",
@@ -4499,27 +4524,6 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "0dff461e6d42",
-      "title": "【ポケモンSV】グルトンの進化と色違い・夢特性【スカーレットバイオレット】",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55MmhTRGxwR01WOEhyekkzdW51LXZaTHFVaEJFV0NzQkM4X3JGQ2ZZNnFwMmR0eEJIU0RaajdzY1lkbDVzV19GeDgwZHVoZHBHc0FjWUhhTXhIOXJSS0cw?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-09-29T03:50:05.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "b490a771a737",
