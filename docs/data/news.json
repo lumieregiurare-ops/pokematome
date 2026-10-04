@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-04T18:00:16.397Z",
+  "updatedAt": "2026-10-04T18:30:15.458Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 158,
+  "total": 161,
   "todayCount": 2,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 16
+      "count": 15
     },
     {
       "id": "update",
@@ -37,7 +37,7 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 8
+      "count": 9
     },
     {
       "id": "guide",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 12
+      "count": 13
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 60
+      "count": 62
     }
   ],
   "series": [
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 16
+      "count": 18
     },
     {
       "id": "sleep",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "youtu.be",
-      "count": 36
+      "count": 39
     },
     {
       "name": "GameWith",
@@ -132,7 +132,7 @@
       "count": 5
     },
     {
-      "name": "sanyonews.jp",
+      "name": "山陽新聞",
       "count": 4
     },
     {
@@ -224,7 +224,7 @@
       "count": 1
     },
     {
-      "name": "ニコニコニュース",
+      "name": "news.nicovideo.jp",
       "count": 1
     },
     {
@@ -529,12 +529,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-04T17:30:14.834Z",
-    "previousCount": 161,
-    "newCount": 5
+    "previousAt": "2026-10-04T18:00:16.397Z",
+    "previousCount": 158,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-04T18:30:16.397Z",
+  "nextUpdateAt": "2026-10-04T19:00:15.458Z",
   "items": [
     {
       "id": "d3b87d882a5e",
@@ -690,7 +690,7 @@
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-10-04T13:59:24.000Z",
+      "publishedAt": "2026-10-04T14:03:21.000Z",
       "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
       "categories": [
         "tcgcat",
@@ -751,6 +751,46 @@
       "isNew": false
     },
     {
+      "id": "644f8fb2e657",
+      "title": "【ぽこあポケモン】１９８日目「カビゴン上部の建物の整備完了とリフト乗り場」（今日のつぼやき 1:24:10 頃から）",
+      "url": "https://youtu.be/DJr28DcsxtM",
+      "host": "youtu.be",
+      "source": "youtu.be",
+      "summary": "",
+      "publishedAt": "2026-10-04T13:28:46.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2038c0ab5ad7",
+      "title": "【ポケモンユナイト】ゆっくり実況part264「膠着ウサギ」",
+      "url": "https://youtu.be/nqpeKI6ssns",
+      "host": "youtu.be",
+      "source": "youtu.be",
+      "summary": "",
+      "publishedAt": "2026-10-04T12:59:54.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "cd4c19dd821c",
       "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
@@ -771,6 +811,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "eeac90d7b2cc",
+      "title": "【ポケモンユナイト/切り抜き】この筋肉を見てくれ。こいつをどう思う?【虹紫狐】",
+      "url": "https://youtu.be/-M-VOmCLZ6g?si",
+      "host": "youtu.be",
+      "source": "youtu.be",
+      "summary": "",
+      "publishedAt": "2026-10-04T12:00:28.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6458f7cb9e2e",
@@ -1127,25 +1188,6 @@
       "isNew": false
     },
     {
-      "id": "f1e344fb9da2",
-      "title": "#33 【ぽこ あ ポケモン】26種類の壁画の欠片集めたらあのポケモンと友達になれました 【隼川ミユキ】",
-      "url": "https://youtu.be/8g1XFJ3IHnc",
-      "host": "youtu.be",
-      "source": "youtu.be",
-      "summary": "",
-      "publishedAt": "2026-10-04T09:00:18.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "24479492af71",
       "title": "ポケットモンスター【激エモ！ポケモンコンテストざます！！】 - tv-tokyo.co.jp",
       "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo/program/detail/202610/27491_202610110700.html",
@@ -1249,6 +1291,27 @@
       "isNew": false
     },
     {
+      "id": "434a41cff347",
+      "title": "ピカチュウex SAR [M6a 127/103](拡張パック「30th CELEBRATION」)",
+      "url": "https://snkrdunk.com/apparels/882280/used/50944317",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-04T06:37:38.000Z",
+      "image": "https://cdn.snkrdunk.com/images/ogp/og-image.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b83be0a28cb3",
       "title": "【ポケモン×3COINS】30周年記念の限定グッズ全62種が登場！“あの頃”を思い出すレトロ可愛いデザインも♪",
       "url": "https://ure.pia.co.jp/articles/-/3472849",
@@ -1332,7 +1395,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3c150c0c2ae9",
@@ -1481,7 +1544,7 @@
       "title": "ポケモン新作アニメ『カメールと、夏のつづき』公開 出演は千本木彩花・畠中祐・花澤香菜ら",
       "url": "https://www.sanyonews.jp/article/1971292?rct",
       "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-04T02:15:57.000Z",
       "image": "https://static.sanyonews.jp/image/article/size1/8/b/5/6/8b5655965a741882f0641d4ec7180ac8_1.jpg",
@@ -1497,7 +1560,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4573197821ec",
@@ -2206,6 +2269,26 @@
       "isNew": false
     },
     {
+      "id": "f1e344fb9da2",
+      "title": "#ポケモンチャンピオンズ ＃参加型 】ついに…！配信！…あれ？スイクンは？その25！🌙 ＃Pokémon Champions",
+      "url": "https://youtu.be/nvdTj_wbcek",
+      "host": "youtu.be",
+      "source": "youtu.be",
+      "summary": "",
+      "publishedAt": "2026-10-03T11:00:06.000Z",
+      "image": "",
+      "categories": [
+        "media",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "4831ce090a99",
       "title": "ポケモン商品を取り扱う「タカラトミー Pokémon 30th POP-UP in池袋」が10月8日より開催！来場特典も",
       "url": "https://www.ndw.jp/pokemon-news-261003/",
@@ -2222,7 +2305,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "93f67708af8d",
@@ -2752,7 +2835,7 @@
       "title": "“ポケモン好き”藤田ニコル、「泊まれるモンスターボール」を体験 パジャマはピカチュウデザイン",
       "url": "https://www.sanyonews.jp/article/1996443?kw",
       "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-02T16:47:18.000Z",
       "image": "https://static.sanyonews.jp/image/article/size1/6/e/a/2/6ea2d95c2728c9cbdc62d8a7a854aee5_1.jpg",
@@ -3060,28 +3143,6 @@
       "isNew": false
     },
     {
-      "id": "f91fe54d8d9f",
-      "title": "【ポケカ】30周年の熱狂を制したカードとは？9月のシングル取引数ランキングTOP30を大公開！",
-      "url": "https://snkrdunk.com/articles/33428/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-02T09:35:56.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/81e4747a-5879-4d60-9d7c-3c844409d863.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "f10b9085eb11",
       "title": "スターバックス×ポケモンがコラボ！バリスタ バトルで限定ドリンクが決定（ウォーカープラス）",
       "url": "https://news.yahoo.co.jp/articles/60ba4bd8262a7e5d640f7f331f1cecd292042bd6",
@@ -3257,7 +3318,7 @@
       "title": "『ポケモン』30周年記念の多機能リュックと相棒タオルが可愛すぎる…コースターがセットになったアイテムも発売",
       "url": "https://www.sanyonews.jp/article/1912618?kw",
       "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-02T07:00:00.000Z",
       "image": "https://static.sanyonews.jp/image/article/size1/0/8/3/8/08386c3b5f11957e415e152436ec1296_1.jpg",
@@ -3388,7 +3449,7 @@
       "title": "今まで「鬼滅の刃」「ポケモン」「原神」「刀剣乱舞」等の人気のアニメ、ゲーム、漫画キャラが登場！「秋のススキと大自然のロ",
       "url": "https://news.nicovideo.jp/watch/nw19835421?news_ref",
       "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
+      "source": "news.nicovideo.jp",
       "summary": "",
       "publishedAt": "2026-10-02T05:30:28.000Z",
       "image": "",
@@ -3593,7 +3654,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01c0eba803ee",
@@ -3727,7 +3788,7 @@
       "title": "「泊まれるモンスターボール」詳細発表 直径3メートルの球体が北海道・苫小牧に出現、好きなポケモンと就寝",
       "url": "https://www.sanyonews.jp/article/1989013?rct",
       "host": "sanyonews.jp",
-      "source": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-01T23:24:49.000Z",
       "image": "https://static.sanyonews.jp/image/article/size1/3/7/b/d/37bd244460e4c05e0c36217da8f046b3_1.jpg",
