@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T00:00:15.790Z",
+  "updatedAt": "2026-10-05T00:30:14.991Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -27,22 +27,22 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 42
+      "count": 41
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 22
+      "count": 23
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 9
+      "count": 10
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 12
+      "count": 11
     },
     {
       "id": "community",
@@ -74,12 +74,12 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 39
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 6
+      "count": 7
     },
     {
       "id": "unite",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 35
+      "count": 36
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "YouTube",
-      "count": 36
+      "count": 35
     },
     {
       "name": "SNKRDUNK",
@@ -156,6 +156,10 @@
       "count": 2
     },
     {
+      "name": "オリコンニュース",
+      "count": 2
+    },
+    {
       "name": "朝日新聞",
       "count": 1
     },
@@ -196,10 +200,6 @@
       "count": 1
     },
     {
-      "name": "福井新聞社",
-      "count": 1
-    },
-    {
       "name": "ライブドアニュース",
       "count": 1
     },
@@ -216,6 +216,10 @@
       "count": 1
     },
     {
+      "name": "電ファミニコゲーマー",
+      "count": 1
+    },
+    {
       "name": "Infoseek",
       "count": 1
     },
@@ -225,10 +229,6 @@
     },
     {
       "name": "4Gamer",
-      "count": 1
-    },
-    {
-      "name": "オリコンニュース",
       "count": 1
     },
     {
@@ -257,11 +257,11 @@
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2145/268/1.jpg",
       "leadSource": "GAME Watch",
       "publishedAt": "2026-10-02T07:59:35.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "sourceCount": 6,
+      "articleCount": 6,
       "categories": [
         "goodscat",
-        "new"
+        "media"
       ],
       "keywords": [
         "デデンネ",
@@ -269,6 +269,13 @@
         "グッズ"
       ],
       "articles": [
+        {
+          "title": "『ポケモン』デデンネとバチュルの“電気を求める日常”を描いたグッズがかわいすぎる。アニメで見覚えのある表情のデデンネも",
+          "url": "https://news.denfaminicogamer.jp/news/2610022i",
+          "source": "電ファミニコゲーマー",
+          "publishedAt": "2026-10-02T07:57:00.000Z",
+          "isPR": false
+        },
         {
           "title": "ポケモン，デデンネとバチュルの日常にフォーカスしたグッズを10月8日に発売。くっつきぬいぐるみやトートバッグなどを展開",
           "url": "https://www.4gamer.net/games/991/G999106/20261002022/",
@@ -532,39 +539,11 @@
       ]
     },
     {
-      "id": "1f2983186f52",
-      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
-      "summary": "",
-      "url": "https://www.fukuishimbun.co.jp/articles/gallery/2713409",
-      "image": "https://fki.ismcdn.jp/mwimgs/e/8/-/img_e899532029a591ef5604f3d1cc2b846045961.jpg",
-      "leadSource": "福井新聞社",
-      "publishedAt": "2026-10-04T02:35:26.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "イイネイヌ",
-        "マシマシラ",
-        "キチキギス"
-      ],
-      "articles": [
-        {
-          "title": "【画像】『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
-          "url": "https://news.livedoor.com/article/image_detail/32477572/?img_id",
-          "source": "ライブドアニュース",
-          "publishedAt": "2026-10-03T00:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "3a6ede5bbbb7",
       "title": "【公式】ポケモンとどこいく！？ 見逃し配信 10/4（日）",
       "summary": "",
       "url": "https://youtu.be/UYapQEkQnUE?si",
-      "image": "https://i.ytimg.com/vi/UYapQEkQnUE/maxresdefault.jpg",
+      "image": "",
       "leadSource": "YouTube",
       "publishedAt": "2026-10-03T23:30:30.000Z",
       "sourceCount": 2,
@@ -584,24 +563,52 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "1f2983186f52",
+      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
+      "summary": "",
+      "url": "https://www.oricon.co.jp/news/2483775/full/",
+      "image": "https://contents.oricon.co.jp/upimg/news/2484000/2483775/20261001_141346_p_o_81471233.jpg",
+      "leadSource": "オリコンニュース",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "イイネイヌ",
+        "マシマシラ",
+        "キチキギス"
+      ],
+      "articles": [
+        {
+          "title": "【画像】『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
+          "url": "https://news.livedoor.com/article/image_detail/32477572/?img_id",
+          "source": "ライブドアニュース",
+          "publishedAt": "2026-10-03T00:00:00.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-04T23:30:14.420Z",
+    "previousAt": "2026-10-05T00:00:15.790Z",
     "previousCount": 158,
-    "newCount": 4
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-05T00:30:15.790Z",
+  "nextUpdateAt": "2026-10-05T01:00:14.991Z",
   "items": [
     {
       "id": "768d9687a6f4",
       "title": "ピカチュウたちの寝顔に癒やされる！【ポケモンスリープ】あの「すっぴんパウダー」と夢のコラボ。全4種を10/6数量限定発売",
-      "url": "https://www.asahi.com/and/w/article/16931210",
+      "url": "https://www.asahi.com/and/w/article/16931210/31392844?ro",
       "host": "asahi.com",
       "source": "朝日新聞",
       "summary": "",
-      "publishedAt": "2026-10-04T22:20:04.000Z",
+      "publishedAt": "2026-10-04T23:31:49.000Z",
       "image": "",
       "categories": [
         "goodscat"
@@ -754,7 +761,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "21beed7ca646",
@@ -812,28 +819,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f816c4e5040a",
-      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/15950/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-04T18:30:19.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -958,6 +943,28 @@
       "categories": [
         "tcgcat",
         "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f816c4e5040a",
+      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/15950/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-04T15:27:36.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
+      "categories": [
+        "tcgcat"
       ],
       "series": [
         "tcg",
@@ -1252,28 +1259,6 @@
       "isNew": false
     },
     {
-      "id": "6458f7cb9e2e",
-      "title": "【ポケカ/対戦】環境トップに強すぎる!?ばけがくれが少しずつ増えている理由とは",
-      "url": "https://youtu.be/cmj2CjghfaA",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-04T11:45:27.000Z",
-      "image": "",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "2920db09cbae",
       "title": "【ポケモンGO】が、顔面が・・・！？宇宙飛行ピカチュウが初登場！！色違いを目指して連戦しながら「同時にやっておきたいこと」とは・・・！？【世界宇宙週間2026】",
       "url": "https://youtu.be/45_ZTJGN26U",
@@ -1312,6 +1297,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "585e2bfe591a",
+      "title": "【神回】君に会えてよかった…!!宇宙服ピカチュウ29戦討伐した結果!!絶好調すぎて幸っ✨【ポケモンGO】",
+      "url": "https://youtu.be/mA1Rbb5b4EI?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-04T10:51:57.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3846f9407b3d",
@@ -1702,7 +1708,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3c150c0c2ae9",
@@ -1742,25 +1748,6 @@
         "tcg",
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1f2983186f52",
-      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
-      "url": "https://www.fukuishimbun.co.jp/articles/gallery/2713409",
-      "host": "fukuishimbun.co.jp",
-      "source": "福井新聞社",
-      "summary": "",
-      "publishedAt": "2026-10-04T02:35:26.000Z",
-      "image": "https://fki.ismcdn.jp/mwimgs/e/8/-/img_e899532029a591ef5604f3d1cc2b846045961.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1964,7 +1951,7 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-10-03T23:30:30.000Z",
-      "image": "https://i.ytimg.com/vi/UYapQEkQnUE/maxresdefault.jpg",
+      "image": "",
       "categories": [
         "media"
       ],
@@ -2847,6 +2834,25 @@
       "isNew": false
     },
     {
+      "id": "1f2983186f52",
+      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
+      "url": "https://www.oricon.co.jp/news/2483775/full/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-10-03T00:00:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2484000/2483775/20261001_141346_p_o_81471233.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "151997486da2",
       "title": "【画像】『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
       "url": "https://news.livedoor.com/article/image_detail/32477572/?img_id",
@@ -2863,7 +2869,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c960d5290bfc",
@@ -3366,7 +3372,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f10b9085eb11",
@@ -3454,6 +3460,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "474e29c3cc24",
+      "title": "『ポケモン』デデンネとバチュルの“電気を求める日常”を描いたグッズがかわいすぎる。アニメで見覚えのある表情のデデンネも",
+      "url": "https://news.denfaminicogamer.jp/news/2610022i",
+      "host": "news.denfaminicogamer.jp",
+      "source": "電ファミニコゲーマー",
+      "summary": "",
+      "publishedAt": "2026-10-02T07:57:00.000Z",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/0dc3c668efdc17188753def8823f9c53e789d6d3.jpg",
+      "categories": [
+        "goodscat",
+        "media"
+      ],
+      "series": [
+        "anime",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "8eb90ea03292",
@@ -3872,27 +3901,6 @@
       ],
       "series": [
         "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "af78deec0e92",
-      "title": "ポケモンGO ローズ色冠ピカチュウ♀",
-      "url": "https://youtu.be/-YyED84-ock?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-02T00:18:11.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
