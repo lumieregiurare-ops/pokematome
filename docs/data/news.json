@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-05T16:00:18.381Z",
+  "updatedAt": "2026-10-05T16:30:19.257Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 153,
+  "total": 154,
   "todayCount": 2,
   "categories": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 13
+      "count": 15
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 19
+      "count": 18
     },
     {
       "id": "media",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 54
+      "count": 53
     }
   ],
   "series": [
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 28
+      "count": 27
     }
   ],
   "weapons": [],
   "sources": [
     {
-      "name": "gamewith.jp",
-      "count": 30
+      "name": "GameWith",
+      "count": 32
     },
     {
       "name": "YouTube",
-      "count": 29
+      "count": 30
     },
     {
       "name": "SNKRDUNK",
@@ -125,7 +125,7 @@
     },
     {
       "name": "Nintendo DREAM WEB",
-      "count": 4
+      "count": 5
     },
     {
       "name": "penguingames.hatenablog.com",
@@ -141,10 +141,6 @@
     },
     {
       "name": "電ファミニコゲーマー",
-      "count": 3
-    },
-    {
-      "name": "Storm.mg",
       "count": 3
     },
     {
@@ -200,7 +196,7 @@
       "count": 1
     },
     {
-      "name": "電撃オンライン",
+      "name": "news.dengeki.com",
       "count": 1
     },
     {
@@ -216,11 +212,11 @@
       "count": 1
     },
     {
-      "name": "朝日新聞",
+      "name": "Storm.mg",
       "count": 1
     },
     {
-      "name": "GameWith",
+      "name": "朝日新聞",
       "count": 1
     },
     {
@@ -373,7 +369,7 @@
         {
           "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
           "url": "https://gamewith.jp/pokemon-champions/546477",
-          "source": "gamewith.jp",
+          "source": "GameWith",
           "publishedAt": "2026-10-04T18:40:46.000Z",
           "isPR": false
         },
@@ -464,7 +460,7 @@
         {
           "title": "【19時開始】“N響×ポケモン”クラシックコンサートツアー東京公演がYouTubeでプレミア公開。『赤・緑』から『ウインド・ウェーブ』まで多彩な楽曲を披露",
           "url": "http://news.dengeki.com/article/202610/90063",
-          "source": "電撃オンライン",
+          "source": "news.dengeki.com",
           "publishedAt": "2026-10-05T07:40:00.000Z",
           "isPR": false
         }
@@ -528,12 +524,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-05T15:30:18.678Z",
-    "previousCount": 150,
-    "newCount": 9
+    "previousAt": "2026-10-05T16:00:18.381Z",
+    "previousCount": 153,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-05T16:30:18.381Z",
+  "nextUpdateAt": "2026-10-05T17:00:19.257Z",
   "items": [
     {
       "id": "f908640edff5",
@@ -769,7 +765,7 @@
       "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T12:29:34.000Z",
       "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
@@ -875,7 +871,7 @@
       "title": "ファイアレッド・リーフグリーンはポケモンホームと連携できる？",
       "url": "https://gamewith.jp/pokemon/545767",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T10:39:22.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/545767.png?date=1786626767",
@@ -888,6 +884,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "6990d3f900b1",
+      "title": "ポケモンGO WCS2024ピカチュウ♀",
+      "url": "https://youtu.be/rsQKeaPN3Ak?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-05T10:38:44.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9f671a8362f5",
@@ -1016,6 +1033,29 @@
       "isNew": false
     },
     {
+      "id": "f6270760409f",
+      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
+      "url": "https://snkrdunk.com/articles/32998/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-05T09:44:43.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "4ae3ba060d04",
       "title": "アジア大会ｅスポーツ、３度の開催で徐々に定着～「ポケモンユナイト」「ぷよぷよ」の金メダルでさらなる発展なるか",
       "url": "https://www.yomiuri.co.jp/sports/etc/20260929-GYT8T00090/",
@@ -1036,6 +1076,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ddcc0bec9a47",
+      "title": "【ポケモンGO】収穫祭占拠イベントの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/575472",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-05T09:26:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575472.jpg?date=1788824979",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "df31c8624653",
@@ -1125,34 +1186,11 @@
       "isNew": false
     },
     {
-      "id": "f6270760409f",
-      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
-      "url": "https://snkrdunk.com/articles/32998/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-05T08:33:03.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "8a0df3af32aa",
       "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-5構築記事)",
       "url": "https://gamewith.jp/pokemon-champions/560474",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T08:31:43.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
@@ -1207,7 +1245,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b66f414d563a",
@@ -1270,7 +1308,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d7de16989435",
@@ -1321,7 +1359,7 @@
       "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:43:05.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
@@ -1342,7 +1380,7 @@
       "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:43:03.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
@@ -1363,7 +1401,7 @@
       "title": "【ポケポケ】アーマーガアexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559117",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:43:01.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559117.png?date=1777355916",
@@ -1384,7 +1422,7 @@
       "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:43:01.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
@@ -1405,7 +1443,7 @@
       "title": "【ポケポケ】フライゴンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559119",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:59.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559119.png?date=1777356000",
@@ -1426,7 +1464,7 @@
       "title": "【ポケポケ】インテレオンデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559123",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:59.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559123.png?date=1777356037",
@@ -1447,7 +1485,7 @@
       "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:58.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
@@ -1468,7 +1506,7 @@
       "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:56.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
@@ -1489,7 +1527,7 @@
       "title": "【ポケポケ】テラパゴスexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562183",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:54.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562183.png?date=1779956790",
@@ -1510,7 +1548,7 @@
       "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:52.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
@@ -1531,7 +1569,7 @@
       "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:52.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
@@ -1552,7 +1590,7 @@
       "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:51.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
@@ -1573,7 +1611,7 @@
       "title": "【ポケポケ】ガチグマデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/566880",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:49.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566880.png?date=1783137421",
@@ -1594,7 +1632,7 @@
       "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:48.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
@@ -1615,7 +1653,7 @@
       "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:48.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
@@ -1636,7 +1674,7 @@
       "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:48.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570621.png?date=1785392758",
@@ -1659,7 +1697,7 @@
       "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T07:42:44.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
@@ -1676,11 +1714,53 @@
       "isNew": false
     },
     {
+      "id": "d86d1fbc5088",
+      "title": "【ポケポケ】ロケット団のサンダーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/574036",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-05T07:42:41.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574036.png?date=1787807927",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c319a0e7667a",
+      "title": "【ポケポケ】ロケット団のペルシアンデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/574191",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-05T07:42:39.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574191.png?date=1787828260",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d542783b308b",
       "title": "【19時開始】“N響×ポケモン”クラシックコンサートツアー東京公演がYouTubeでプレミア公開。『赤・緑』から『ウインド・ウェーブ』まで多彩な楽曲を披露",
       "url": "http://news.dengeki.com/article/202610/90063",
       "host": "news.dengeki.com",
-      "source": "電撃オンライン",
+      "source": "news.dengeki.com",
       "summary": "",
       "publishedAt": "2026-10-05T07:40:00.000Z",
       "image": "https://cimg.kgl-systems.io/camion/files/90063/ogp_hGgH.jpg?x=1280",
@@ -1801,7 +1881,7 @@
       "title": "【ポケモンユナイト】Pokémon UNITE Aeos Crown 2027｜賞品と開催日【UNITE】",
       "url": "https://gamewith.jp/pokemon-unite/article/show/579586",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T05:51:00.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579586.png?date=1791179461",
@@ -1858,48 +1938,6 @@
       "isNew": false
     },
     {
-      "id": "8574208ed37e",
-      "title": "「Pokémon GO」×「PokéXciting! in 台北」、信義区で10月10・11日開催 新光三越との限定企画も",
-      "url": "https://japan.storm.mg/articles/1166961",
-      "host": "japan.storm.mg",
-      "source": "Storm.mg",
-      "summary": "",
-      "publishedAt": "2026-10-05T04:06:04.000Z",
-      "image": "https://images.storm.mg/cloud/f7758fa4166e5eebedb3ed471bbf68c7335e2ba5.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2220106%2FkpqVx2nddoz5NDZBzFd7Tc6xjuQZNBRumoz6lFMr.jpg&g=fp&h=900&resize=fill&w=1600&x=0.5&y=0.5&format=jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "058c20510b67",
-      "title": "「Pokémon GO Tour 2027」2027年2月に台湾・高雄とロサンゼルスで開催 アローラ地方がテーマ",
-      "url": "https://japan.storm.mg/articles/1167615",
-      "host": "japan.storm.mg",
-      "source": "Storm.mg",
-      "summary": "",
-      "publishedAt": "2026-10-05T03:54:56.000Z",
-      "image": "https://images.storm.mg/cloud/f4bf5bad9863983739ea01b411f4745933338e2b.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2221373%2F8a5U8NzT3ECkKbVkfMtEhgT1luSPjRbQmOFqy0Lx.jpg&g=sm&h=900&resize=fill&w=1600&format=jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "cfe6108a2b4e",
       "title": "『ポケモン』1,025匹の30周年記念ロゴTシャツが受注販売中！子どもから大人まで選べる13サイズ（インサイド）",
       "url": "https://news.yahoo.co.jp/articles/b0501ebacb6c3f44c3c68a4e80cc2deb51c3f870",
@@ -1948,7 +1986,7 @@
       "title": "【ぽこあポケモン】バケッチャのキャンディあつめの開催期間と攻略【ぽこポケ】",
       "url": "https://gamewith.jp/pocoapokemon/579083",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-05T01:45:19.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579083.png?date=1790748043",
@@ -2109,7 +2147,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3102bb1d2fe9",
@@ -2131,27 +2169,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "3a29c3fefe74",
-      "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
-      "host": "gamewith.jp",
-      "source": "gamewith.jp",
-      "summary": "",
-      "publishedAt": "2026-10-04T20:02:52.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561436.png?date=1779369911",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "3233f892514d",
@@ -2177,7 +2194,7 @@
       "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
       "url": "https://gamewith.jp/pokemon-champions/546477",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-04T18:40:46.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546477.png?date=1774602101",
@@ -2217,7 +2234,7 @@
       "title": "【ポケモンチャンピオンズ】個体値の廃止と影響まとめ",
       "url": "https://gamewith.jp/pokemon-champions/546462",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-04T13:53:20.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546462.png?date=1775195996",
@@ -2448,7 +2465,7 @@
       "title": "【ポケモンSV】ランクマ上位構築パーティ一覧(S40構築記事)【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/385638/1000",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-04T09:53:19.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/385638.png?date=1677742033",
@@ -2463,7 +2480,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d551a4b8be59",
@@ -2818,7 +2835,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3a6ede5bbbb7",
@@ -2877,7 +2894,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7a6e6b965630",
@@ -2906,7 +2923,7 @@
       "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
       "url": "https://gamewith.jp/pokemon/546662",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-03T18:33:53.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546662.png?date=1772203051",
@@ -2927,7 +2944,7 @@
       "title": "【ポケモンチャンピオンズ】SVでしか出現しないポケモン一覧",
       "url": "https://gamewith.jp/pokemon-champions/552283",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-03T14:29:20.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/552283.png?date=1775200425",
@@ -2948,7 +2965,7 @@
       "title": "【ポケモンチャンピオンズ】レジェンズZAでしか出現しないポケモン一覧",
       "url": "https://gamewith.jp/pokemon-champions/552239",
       "host": "gamewith.jp",
-      "source": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-03T14:29:11.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/552239.png?date=1775100766",
@@ -3153,6 +3170,25 @@
       "isNew": false
     },
     {
+      "id": "4831ce090a99",
+      "title": "ポケモン商品を取り扱う「タカラトミー Pokémon 30th POP-UP in池袋」が10月8日より開催！来場特典も",
+      "url": "https://www.ndw.jp/pokemon-news-261003/",
+      "host": "ndw.jp",
+      "source": "Nintendo DREAM WEB",
+      "summary": "",
+      "publishedAt": "2026-10-03T10:26:15.000Z",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261003-pokemonnews-00.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "93f67708af8d",
       "title": "しまむら・アベイルで『ポケモン』グッズが10月10日発売！ゲンガーのプルオーバー、リザードンパーカなど合計9アイテム",
       "url": "https://news.yahoo.co.jp/articles/7c8eb574df0a2d35d6faca8d0de9ccab45935eb6/images/000",
@@ -3294,29 +3330,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "99cbefa16cb1",
-      "title": "【ポケポケ】周辺グッズの入手方法一覧｜サプライ【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466388",
-      "host": "gamewith.jp",
-      "source": "gamewith.jp",
-      "summary": "",
-      "publishedAt": "2026-10-03T07:27:26.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466388.png?date=1729502325",
-      "categories": [
-        "tcgcat",
-        "goodscat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
