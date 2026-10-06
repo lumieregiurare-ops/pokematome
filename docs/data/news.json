@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-06T22:30:18.745Z",
+  "updatedAt": "2026-10-06T23:00:32.297Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 148,
+  "total": 147,
   "todayCount": 19,
   "categories": [
     {
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 13
+      "count": 12
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 45
+      "count": 46
     },
     {
       "id": "goodscat",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 11
+      "count": 10
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 51
+      "count": 50
     }
   ],
   "series": [
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 34
+      "count": 35
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 42
+      "count": 43
     },
     {
       "id": "anime",
@@ -101,11 +101,15 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 37
+      "count": 36
     },
     {
       "name": "YouTube",
       "count": 26
+    },
+    {
+      "name": "SNKRDUNK",
+      "count": 10
     },
     {
       "name": "Yahoo!ニュース",
@@ -116,16 +120,12 @@
       "count": 9
     },
     {
-      "name": "SNKRDUNK",
-      "count": 8
-    },
-    {
       "name": "山陽新聞",
       "count": 6
     },
     {
       "name": "Unisba Media",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Nintendo DREAM WEB",
@@ -133,10 +133,6 @@
     },
     {
       "name": "Howl.Link",
-      "count": 3
-    },
-    {
-      "name": "ウォーカープラス",
       "count": 3
     },
     {
@@ -148,7 +144,15 @@
       "count": 2
     },
     {
+      "name": "ウォーカープラス",
+      "count": 2
+    },
+    {
       "name": "Pokémon GO",
+      "count": 2
+    },
+    {
+      "name": "インサイド",
       "count": 2
     },
     {
@@ -212,10 +216,6 @@
       "count": 1
     },
     {
-      "name": "Game*Spark",
-      "count": 1
-    },
-    {
       "name": "アニメ！アニメ！",
       "count": 1
     },
@@ -257,10 +257,6 @@
     },
     {
       "name": "ウレぴあ総研",
-      "count": 1
-    },
-    {
-      "name": "インサイド",
       "count": 1
     }
   ],
@@ -317,7 +313,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-10-06T19:59:10.000Z",
       "sourceCount": 3,
-      "articleCount": 29,
+      "articleCount": 28,
       "categories": [
         "tcgcat",
         "event"
@@ -698,12 +694,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-06T22:00:15.804Z",
-    "previousCount": 147,
-    "newCount": 3
+    "previousAt": "2026-10-06T22:30:18.745Z",
+    "previousCount": 148,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-06T23:00:18.745Z",
+  "nextUpdateAt": "2026-10-06T23:30:32.297Z",
   "items": [
     {
       "id": "9fe89f682436",
@@ -764,7 +760,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "386098325acb",
@@ -1204,23 +1200,26 @@
       "isNew": false
     },
     {
-      "id": "7a90d96a0655",
-      "title": "スターバックス×ポケモンで描かれる成長の物語。イラストレーター・一乗ひかるさんインタビュー",
-      "url": "https://www.walkerplus.com/article/1445123/",
-      "host": "walkerplus.com",
-      "source": "ウォーカープラス",
+      "id": "5915446d22c7",
+      "title": "【PSA10】ミュウツーV RR[s10b 030/071](強化拡張パック「Pokemon GO」) 1枚のシングルトレカ通販｜スニダン",
+      "url": "https://snkrdunk.com/apparels/137079/used/50928231?slide",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-10-06T14:18:26.000Z",
-      "image": "https://news.walkerplus.com/article/1445123/18689748_615.jpg",
+      "publishedAt": "2026-10-06T14:01:39.000Z",
+      "image": "https://cdn.snkrdunk.com/images/ogp/og-image.png",
       "categories": [
-        "other"
+        "tcgcat"
       ],
-      "series": [],
+      "series": [
+        "go",
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "21beed7ca646",
@@ -1329,27 +1328,6 @@
       "isNew": false
     },
     {
-      "id": "c6ce94867b8a",
-      "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T12:42:51.000Z",
-      "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "15d18cdc4c3c",
       "title": "ファイアレッド・リーフグリーンはポケモンホームと連携できる？",
       "url": "https://gamewith.jp/pokemon/545767",
@@ -1427,7 +1405,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a3182b45f76a",
@@ -1683,14 +1661,14 @@
       "isNew": false
     },
     {
-      "id": "6bdf0e2fef54",
-      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
+      "id": "01e6f654bf7f",
+      "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-06T09:39:30.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
+      "publishedAt": "2026-10-06T09:39:27.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
       "categories": [
         "tcgcat"
       ],
@@ -1701,7 +1679,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "07068a774ad8",
@@ -1744,6 +1722,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4152aafc81a1",
+      "title": "【ポケポケ】メガヤミラミexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565899",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-06T09:39:25.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565899.png?date=1782796950",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1909f74d0bb3",
@@ -1796,27 +1795,6 @@
       "summary": "",
       "publishedAt": "2026-10-06T09:39:21.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0e8dbe8f536d",
-      "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T09:39:21.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
       "categories": [
         "tcgcat"
       ],
@@ -1931,6 +1909,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ec56b0d2594e",
+      "title": "【ARS9】マルマイン R: 旧裏 [PMCG2 No.101](拡張パック「ポケモンジャングル」) 1枚のシングルトレカ通販｜スニダン",
+      "url": "https://snkrdunk.com/apparels/309442/used/50958384",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-06T09:01:54.000Z",
+      "image": "https://cdn.snkrdunk.com/images/ogp/og-image.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "76cfa752e183",
@@ -2701,27 +2700,6 @@
       "isNew": false
     },
     {
-      "id": "d0670e7e46d1",
-      "title": "『ポケモン』旅立ちの3匹と共に歩んだ日々が甦る！”はじまりの冒険”テーマのフィギュアに、カントー地方など全3種",
-      "url": "https://www.gamespark.jp/article/2026/10/05/173174.html",
-      "host": "gamespark.jp",
-      "source": "Game*Spark",
-      "summary": "",
-      "publishedAt": "2026-10-05T08:15:02.000Z",
-      "image": "https://www.gamespark.jp/imgs/ogp_f/1202406.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "caca4c9f91b3",
       "title": "【決別】たった3勝するだけなのに友情が崩壊しました【ポケモンユナイト 】",
       "url": "https://youtu.be/BsZiNWuR3YQ?si",
@@ -2829,6 +2807,27 @@
       "isNew": false
     },
     {
+      "id": "d0670e7e46d1",
+      "title": "『ポケモン』旅立ちの3匹と共に歩んだ日々が甦る！”はじまりの冒険”テーマのフィギュアに、カントー地方など全3種",
+      "url": "https://s.inside-games.jp/article/2026/10/05/188781.html?pickup-text-list",
+      "host": "s.inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-10-05T07:45:02.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1789947.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "88ec694ad8f4",
       "title": "見たらモチベが上がりまくるキル集 #ポケモンユナイト #キル集",
       "url": "https://t.co/5Mgq2tmBlC",
@@ -2908,7 +2907,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "807890e89ff1",
@@ -3640,26 +3639,6 @@
         "go",
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e6d159f4be85",
-      "title": "ポケモン世界大会のピカチュウかわいい💕 Premier Smith (g2MtdZiNDz)",
-      "url": "https://media.unisba.ac.id/ba6cfac1/76e9a842MlcxWipjPCEkSzs",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-04T04:03:50.000Z",
-      "image": "",
-      "categories": [
-        "community",
-        "event"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
