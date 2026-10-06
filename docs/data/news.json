@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-06T22:00:15.804Z",
+  "updatedAt": "2026-10-06T22:30:18.745Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 147,
-  "todayCount": 18,
+  "total": 148,
+  "todayCount": 19,
   "categories": [
     {
       "id": "new",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 18
+      "count": 17
     },
     {
       "id": "media",
@@ -52,12 +52,12 @@
     {
       "id": "biz",
       "label": "売上・企業",
-      "count": 0
+      "count": 1
     },
     {
       "id": "other",
       "label": "その他",
-      "count": 50
+      "count": 51
     }
   ],
   "series": [
@@ -136,15 +136,15 @@
       "count": 3
     },
     {
+      "name": "ウォーカープラス",
+      "count": 3
+    },
+    {
       "name": "AppMedia",
       "count": 3
     },
     {
       "name": "TBS NEWS DIG",
-      "count": 2
-    },
-    {
-      "name": "ウォーカープラス",
       "count": 2
     },
     {
@@ -192,10 +192,6 @@
       "count": 1
     },
     {
-      "name": "PC Watch",
-      "count": 1
-    },
-    {
       "name": "LAWSON",
       "count": 1
     },
@@ -237,6 +233,10 @@
     },
     {
       "name": "電ファミニコゲーマー",
+      "count": 1
+    },
+    {
+      "name": "WWDJAPAN",
       "count": 1
     },
     {
@@ -329,6 +329,13 @@
       ],
       "articles": [
         {
+          "title": "【ポケポケ】ハイクラスパックMEGAの所持率チェッカー【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/579047",
+          "source": "GameWith",
+          "publishedAt": "2026-10-06T18:35:33.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケポケ】波動ビートの当たりカードと収録カード一覧【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/558029",
           "source": "GameWith",
@@ -375,13 +382,6 @@
           "url": "https://snkrdunk.com/articles/33304/",
           "source": "SNKRDUNK",
           "publishedAt": "2026-10-06T15:54:57.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
-          "source": "GameWith",
-          "publishedAt": "2026-10-06T14:51:06.000Z",
           "isPR": false
         }
       ]
@@ -698,12 +698,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-06T21:30:16.772Z",
+    "previousAt": "2026-10-06T22:00:15.804Z",
     "previousCount": 147,
-    "newCount": 4
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-06T22:30:15.804Z",
+  "nextUpdateAt": "2026-10-06T23:00:18.745Z",
   "items": [
     {
       "id": "9fe89f682436",
@@ -733,6 +733,27 @@
       "summary": "",
       "publishedAt": "2026-10-06T19:59:10.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/567935.png?date=1783913204",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "9737dfb136af",
+      "title": "【ポケポケ】ハイクラスパックMEGAの所持率チェッカー【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/579047",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-06T18:35:33.000Z",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -971,7 +992,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d95dcc960f46",
@@ -1308,27 +1329,6 @@
       "isNew": false
     },
     {
-      "id": "3f4e3bd3edff",
-      "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T13:11:17.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564725.png?date=1784813440",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "c6ce94867b8a",
       "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
@@ -1409,6 +1409,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "a5b90eba29d2",
+      "title": "スターバックス×ポケモンが実現！株式会社ポケモン石原社長が語る、新たな冒険に込めた想い",
+      "url": "https://www.walkerplus.com/article/1445118/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-10-06T11:32:42.000Z",
+      "image": "https://news.walkerplus.com/article/1445118/18689712_615.jpg",
+      "categories": [
+        "biz"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a3182b45f76a",
@@ -1808,7 +1827,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fb3b696295c7",
@@ -2022,7 +2041,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-06T06:53:40.000Z",
-      "image": "",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/10/コロス-話題に.png",
       "categories": [
         "other"
       ],
@@ -2073,7 +2092,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9c380d5ca354",
@@ -2146,7 +2165,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-06T03:19:25.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-3i.jpeg",
       "categories": [
         "goodscat"
       ],
@@ -2202,27 +2221,6 @@
       "isNew": false
     },
     {
-      "id": "d8fd876fdc63",
-      "title": "「ピッカァ！」ピカチュウコラボのAnkerトラベルポーチがセール中！",
-      "url": "https://pc.watch.impress.co.jp/docs/news/todays_sales/2145933.html",
-      "host": "pc.watch.impress.co.jp",
-      "source": "PC Watch",
-      "summary": "",
-      "publishedAt": "2026-10-06T02:55:56.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "359c2a83beac",
       "title": "【ポケモン】フェアリータイプのポケモンたちが大集合！ ドミテリア・キーチェーンやアクリルマーカーチャームなどアイアップの新グッズ4商品が11月に発売",
       "url": "https://www.ndw.jp/pokemon-goods-261005/",
@@ -2230,7 +2228,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-06T02:44:25.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-i.jpeg",
       "categories": [
         "goodscat"
       ],
@@ -2356,7 +2354,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-05T18:34:22.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-2i.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -2502,7 +2500,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-05T12:59:21.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-i-1.jpeg",
       "categories": [
         "new"
       ],
@@ -2890,6 +2888,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "eed79f9b4442",
+      "title": "「ポケモン」×「ポラロイド」や「ユナイテッドアローズ」がキデイランドとタッグなど！ 今週発売のファッションアイテム8選【10/5〜10/11】",
+      "url": "https://www.wwdjapan.com/articles/2451288",
+      "host": "wwdjapan.com",
+      "source": "WWDJAPAN",
+      "summary": "",
+      "publishedAt": "2026-10-05T07:00:00.000Z",
+      "image": "https://media.wwdjapan.com/wp-content/uploads/2026/02/02112956/OG-305.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "807890e89ff1",
