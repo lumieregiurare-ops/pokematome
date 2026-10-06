@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-06T21:00:16.960Z",
+  "updatedAt": "2026-10-06T21:30:16.772Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 145,
-  "todayCount": 13,
+  "total": 147,
+  "todayCount": 15,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 15
+      "count": 14
     },
     {
       "id": "update",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 13
+      "count": 12
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 44
+      "count": 45
     },
     {
       "id": "goodscat",
@@ -52,29 +52,29 @@
     {
       "id": "biz",
       "label": "売上・企業",
-      "count": 0
+      "count": 1
     },
     {
       "id": "other",
       "label": "その他",
-      "count": 48
+      "count": 50
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 14
+      "count": 13
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 33
+      "count": 35
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 41
+      "count": 42
     },
     {
       "id": "anime",
@@ -94,22 +94,22 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 23
+      "count": 22
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 35
+      "count": 34
     },
     {
       "name": "YouTube",
-      "count": 25
+      "count": 26
     },
     {
       "name": "SNKRDUNK",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Yahoo!ニュース",
@@ -136,11 +136,15 @@
       "count": 3
     },
     {
+      "name": "ウォーカープラス",
+      "count": 3
+    },
+    {
       "name": "AppMedia",
       "count": 3
     },
     {
-      "name": "ウォーカープラス",
+      "name": "TBS NEWS DIG",
       "count": 2
     },
     {
@@ -177,14 +181,6 @@
     },
     {
       "name": "人鳥日記",
-      "count": 1
-    },
-    {
-      "name": "電撃オンライン",
-      "count": 1
-    },
-    {
-      "name": "TBS NEWS DIG",
       "count": 1
     },
     {
@@ -528,6 +524,35 @@
       ]
     },
     {
+      "id": "9fe89f682436",
+      "title": "ポケモンのトレカ1900枚盗む、バッグにカードを隠し…防犯カメラに映るも逮捕の31歳男「やってないですね」容疑否認 転売目的か、動機・余罪など捜査",
+      "summary": "",
+      "url": "https://newsdig.tbs.co.jp/articles/-/2994154?display",
+      "image": "https://images.www.kochinews.co.jp/media/article/1051107/images/main_40a405a0f03eb09b1789e80282fa34aa.jpg",
+      "leadSource": "TBS NEWS DIG",
+      "publishedAt": "2026-10-06T21:00:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other",
+        "tcgcat"
+      ],
+      "keywords": [
+        "カード",
+        "逮捕",
+        "歳男"
+      ],
+      "articles": [
+        {
+          "title": "量販店でポケモンカード盗んだ疑い ３１歳男を逮捕 南国署",
+          "url": "https://www.kochinews.co.jp/article/detail/1051107",
+          "source": "高知新聞",
+          "publishedAt": "2026-10-06T08:56:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "bdfef7f43e54",
       "title": "カニエ・ウェスト、子どもたちのためにポケモンカードに大金",
       "summary": "",
@@ -669,13 +694,32 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-06T20:30:17.351Z",
-    "previousCount": 143,
-    "newCount": 3
+    "previousAt": "2026-10-06T21:00:16.960Z",
+    "previousCount": 145,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-06T21:30:16.960Z",
+  "nextUpdateAt": "2026-10-06T22:00:16.772Z",
   "items": [
+    {
+      "id": "9fe89f682436",
+      "title": "ポケモンのトレカ1900枚盗む、バッグにカードを隠し…防犯カメラに映るも逮捕の31歳男「やってないですね」容疑否認 転売目的か、動機・余罪など捜査",
+      "url": "https://newsdig.tbs.co.jp/articles/-/2994154?display",
+      "host": "newsdig.tbs.co.jp",
+      "source": "TBS NEWS DIG",
+      "summary": "",
+      "publishedAt": "2026-10-06T21:00:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "386098325acb",
       "title": "インテレオン | 『Pokémon UNITE』公式サイト",
@@ -753,6 +797,27 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "3910f8a324f2",
+      "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
+      "url": "https://gamewith.jp/pokemon/546662",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-06T17:01:59.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546662.png?date=1772203051",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1070,6 +1135,28 @@
       "isNew": false
     },
     {
+      "id": "5915446d22c7",
+      "title": "【PSA10】ミュウツーV RR[s10b 030/071](強化拡張パック「Pokemon GO」) 1枚のシングルトレカ通販｜スニダン",
+      "url": "https://snkrdunk.com/apparels/137079/used/50928231?slide",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-06T14:01:39.000Z",
+      "image": "https://cdn.snkrdunk.com/images/ogp/og-image.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "go",
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "21beed7ca646",
       "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
@@ -1279,6 +1366,25 @@
       "isNew": false
     },
     {
+      "id": "a5b90eba29d2",
+      "title": "スターバックス×ポケモンが実現！株式会社ポケモン石原社長が語る、新たな冒険に込めた想い",
+      "url": "https://www.walkerplus.com/article/1445118/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-10-06T11:32:42.000Z",
+      "image": "https://news.walkerplus.com/article/1445118/18689712_615.jpg",
+      "categories": [
+        "biz"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a3182b45f76a",
       "title": "シャドウポケモンも大体全員“光る”って知ってた？ / ロケット団したっぱでも色違い周回が可能【ポケモンGO】",
       "url": "https://getnews.jp/archives/3747317",
@@ -1425,6 +1531,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "0788aeb55454",
+      "title": "【ポケモンGO】キョダイマックスエースバーン マックスバトルデイ｜色違い初登場の3時間 |",
+      "url": "https://youtu.be/pqMRgApDjG8",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-06T10:00:35.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ae4709b0349e",
@@ -1613,7 +1740,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "833ac77d5fe0",
@@ -1637,14 +1764,14 @@
       "isNew": false
     },
     {
-      "id": "0e8dbe8f536d",
-      "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
+      "id": "fb3b696295c7",
+      "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-06T09:39:21.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
+      "publishedAt": "2026-10-06T09:39:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570624.png?date=1785392839",
       "categories": [
         "tcgcat"
       ],
@@ -1655,7 +1782,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "b76506a0856d",
@@ -1758,7 +1885,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "76cfa752e183",
@@ -1946,69 +2073,6 @@
       "isNew": false
     },
     {
-      "id": "5d6af1f077c1",
-      "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
-      "url": "https://gamewith.jp/pokemon/574415",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T06:09:59.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3910f8a324f2",
-      "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
-      "url": "https://gamewith.jp/pokemon/546662",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T06:06:24.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546662.png?date=1772203051",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "49d0ecfb8152",
-      "title": "【Switch2】『ぽこ あ ポケモン＋エキスパンションパス』が10/29発売。店舗限定のサコッシュやメタモンコースター特典をチェック",
-      "url": "https://dengekionline.com/article/images/202610/90096/892937",
-      "host": "dengekionline.com",
-      "source": "電撃オンライン",
-      "summary": "",
-      "publishedAt": "2026-10-06T05:00:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/dengeki/90096/a92b751ed29b1a7302a32ef667c5aa76a.jpg?x=1280",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9c380d5ca354",
       "title": "【スタバ新作】珈琲の持ち運びに便利！争奪戦に！限定「ポケモンコラボ ステンレスボトル」が激かわ！",
       "url": "https://news.yahoo.co.jp/expert/articles/749ae274c90d53a941865efeae87e909455d3ca6",
@@ -2142,7 +2206,7 @@
       "source": "PC Watch",
       "summary": "",
       "publishedAt": "2026-10-06T02:55:56.000Z",
-      "image": "",
+      "image": "https://pc.watch.impress.co.jp/img/pcw/list/2145/933/04.jpg",
       "categories": [
         "goodscat"
       ],
@@ -3390,7 +3454,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5a12b1fc9f0c",
