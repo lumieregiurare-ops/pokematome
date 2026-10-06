@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-06T17:30:15.799Z",
+  "updatedAt": "2026-10-06T18:00:16.782Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 141,
-  "todayCount": 0,
+  "total": 143,
+  "todayCount": 1,
   "categories": [
     {
       "id": "new",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 44
+      "count": 45
     },
     {
       "id": "goodscat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 9
+      "count": 10
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 9
+      "count": 8
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 46
+      "count": 47
     }
   ],
   "series": [
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 32
+      "count": 33
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 41
     },
     {
       "id": "anime",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 12
+      "count": 13
     },
     {
       "id": "sleep",
@@ -101,11 +101,11 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 34
+      "count": 35
     },
     {
       "name": "YouTube",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Yahoo!ニュース",
@@ -121,7 +121,7 @@
     },
     {
       "name": "Unisba Media",
-      "count": 7
+      "count": 6
     },
     {
       "name": "山陽新聞",
@@ -132,15 +132,15 @@
       "count": 4
     },
     {
+      "name": "Howl.Link",
+      "count": 3
+    },
+    {
       "name": "AppMedia",
       "count": 3
     },
     {
       "name": "ウォーカープラス",
-      "count": 2
-    },
-    {
-      "name": "Howl.Link",
       "count": 2
     },
     {
@@ -258,7 +258,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-10-06T14:45:16.000Z",
       "sourceCount": 4,
-      "articleCount": 24,
+      "articleCount": 25,
       "categories": [
         "event",
         "tcgcat"
@@ -407,6 +407,40 @@
       ]
     },
     {
+      "id": "37a5c063a9ab",
+      "title": "変な時間に【ポケモンユナイト】",
+      "summary": "",
+      "url": "https://t.co/LIkwtMaymv",
+      "image": "",
+      "leadSource": "Howl.Link",
+      "publishedAt": "2026-10-06T15:00:43.000Z",
+      "sourceCount": 2,
+      "articleCount": 3,
+      "categories": [
+        "other",
+        "media"
+      ],
+      "keywords": [
+        "ポケモンユナイト"
+      ],
+      "articles": [
+        {
+          "title": "【参加型】セミの声が聞こえる10月【ポケモンユナイト/おりかん/実写配信】",
+          "url": "https://t.co/eym31fLNi4",
+          "source": "Howl.Link",
+          "publishedAt": "2026-10-06T10:07:35.000Z",
+          "isPR": false
+        },
+        {
+          "title": "見たらモチベが上がりまくるキル集 #ポケモンユナイト #キル集",
+          "url": "https://t.co/5Mgq2tmBlC",
+          "source": "Howl.link",
+          "publishedAt": "2026-10-05T07:35:51.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "c36517278d70",
       "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携方法｜いつから？【ポケモンFRLG】",
       "summary": "",
@@ -494,33 +528,6 @@
           "url": "https://www.sanyonews.jp/article/1969381?rct",
           "source": "山陽新聞",
           "publishedAt": "2026-10-05T19:28:03.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "6e0d8112162d",
-      "title": "【参加型】セミの声が聞こえる10月【ポケモンユナイト/おりかん/実写配信】",
-      "summary": "",
-      "url": "https://t.co/eym31fLNi4",
-      "image": "",
-      "leadSource": "Howl.Link",
-      "publishedAt": "2026-10-06T10:07:35.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "media",
-        "other"
-      ],
-      "keywords": [
-        "ポケモンユナイト"
-      ],
-      "articles": [
-        {
-          "title": "見たらモチベが上がりまくるキル集 #ポケモンユナイト #キル集",
-          "url": "https://t.co/5Mgq2tmBlC",
-          "source": "Howl.link",
-          "publishedAt": "2026-10-05T07:35:51.000Z",
           "isPR": false
         }
       ]
@@ -639,13 +646,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-06T17:00:19.762Z",
-    "previousCount": 137,
-    "newCount": 6
+    "previousAt": "2026-10-06T17:30:15.799Z",
+    "previousCount": 141,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-06T18:00:15.799Z",
+  "nextUpdateAt": "2026-10-06T18:30:16.782Z",
   "items": [
+    {
+      "id": "37a5c063a9ab",
+      "title": "変な時間に【ポケモンユナイト】",
+      "url": "https://t.co/LIkwtMaymv",
+      "host": "t.co",
+      "source": "Howl.Link",
+      "summary": "",
+      "publishedAt": "2026-10-06T15:00:43.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "b453d19d13a4",
       "title": "【スタバ新作】ホット・アイスコーヒーの持ち運びに！「ポケモンコラボ・ステンレスボトル」が激かわ！",
@@ -749,6 +777,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "686d8cdf7714",
+      "title": "【ポケモンGO】キョダイマックスより優秀！？むし最強アタッカーダイマックスヤクデレイド対策ポケモンのギガイアスでソロ攻略！ダイマックスマルヤクデの凄いメリットなども解説！",
+      "url": "https://youtu.be/3P7DEyENIY0",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-06T13:44:31.000Z",
+      "image": "",
+      "categories": [
+        "guide",
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -831,7 +881,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3b87d882a5e",
@@ -1442,6 +1492,27 @@
       "isNew": false
     },
     {
+      "id": "b76506a0856d",
+      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-06T09:39:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "184b8e77d2d9",
       "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
@@ -1481,7 +1552,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c319a0e7667a",
@@ -1844,7 +1915,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-06T03:19:25.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-3i.jpeg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -1908,7 +1979,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-06T02:44:25.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-i.jpeg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -2004,7 +2075,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d047f1bec953",
@@ -2119,7 +2190,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-05T18:34:22.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-2i.jpeg",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2243,7 +2314,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-05T12:59:21.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1005-i-1.jpeg",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -3198,7 +3269,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5a12b1fc9f0c",
@@ -3388,26 +3459,6 @@
       "isNew": false
     },
     {
-      "id": "e6d159f4be85",
-      "title": "ポケモン世界大会のピカチュウかわいい💕 Premier Smith (g2MtdZiNDz)",
-      "url": "https://media.unisba.ac.id/ba6cfac1/76e9a842MlcxWipjPCEkSzs",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-04T04:03:50.000Z",
-      "image": "",
-      "categories": [
-        "community",
-        "event"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6dd4b62a455e",
       "title": "ポケモン新作アニメ『カメールと、夏のつづき』公開 出演は千本木彩花・畠中祐・花澤香菜ら",
       "url": "https://www.sanyonews.jp/article/1971292?rct",
@@ -3575,7 +3626,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59184196fd7a",
