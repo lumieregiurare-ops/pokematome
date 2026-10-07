@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-07T15:00:23.893Z",
+  "updatedAt": "2026-10-07T15:30:18.203Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 154,
+  "total": 152,
   "todayCount": 0,
   "categories": [
     {
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 20
+      "count": 18
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 47
+      "count": 46
     },
     {
       "id": "goodscat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 14
+      "count": 12
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 8
+      "count": 6
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 50
+      "count": 53
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 43
+      "count": 42
     },
     {
       "id": "anime",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 15
+      "count": 16
     },
     {
       "id": "sleep",
@@ -101,11 +101,11 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 46
+      "count": 43
     },
     {
       "name": "YouTube",
-      "count": 19
+      "count": 20
     },
     {
       "name": "SNKRDUNK",
@@ -117,7 +117,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Unisba Media",
@@ -134,6 +134,10 @@
     {
       "name": "Nintendo DREAM WEB",
       "count": 4
+    },
+    {
+      "name": "Howl.link",
+      "count": 3
     },
     {
       "name": "電撃オンライン",
@@ -161,10 +165,6 @@
     },
     {
       "name": "ファミ通",
-      "count": 2
-    },
-    {
-      "name": "Howl.link",
       "count": 2
     },
     {
@@ -314,6 +314,41 @@
       ]
     },
     {
+      "id": "25cc14a2aa89",
+      "title": "【ポケモンユナイト】唯一ブイズが来なかったサポートの待遇改善委員会です #4 【ソロラン】 #shorts",
+      "summary": "",
+      "url": "https://t.co/EVxP3IOrVP",
+      "image": "",
+      "leadSource": "Howl.link",
+      "publishedAt": "2026-10-07T13:04:49.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "ポケモンユナイト",
+        "ユナイト",
+        "shorts"
+      ],
+      "articles": [
+        {
+          "title": "たこわふの関係性 #ポケモンユナイト #ユナイト #shorts",
+          "url": "https://youtu.be/tIcaAEhb7kU?si",
+          "source": "YouTube",
+          "publishedAt": "2026-10-07T09:00:17.000Z",
+          "isPR": false
+        },
+        {
+          "title": "変な時間に【ポケモンユナイト】",
+          "url": "https://t.co/LIkwtMaymv",
+          "source": "Howl.Link",
+          "publishedAt": "2026-10-06T15:00:43.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "b49ce7c58dea",
       "title": "ポケモンセンター公式Xがフォロワー100万人突破、「倍率ヤバい」の抽選プレゼントは10月13日まで",
       "summary": "",
@@ -417,33 +452,6 @@
           "url": "https://gamewith.jp/pokemon-champions/546477",
           "source": "GameWith",
           "publishedAt": "2026-10-06T08:07:13.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "95bc3a0e43ac",
-      "title": "たこわふの関係性 #ポケモンユナイト #ユナイト #shorts",
-      "summary": "",
-      "url": "https://youtu.be/tIcaAEhb7kU?si",
-      "image": "",
-      "leadSource": "YouTube",
-      "publishedAt": "2026-10-07T09:00:17.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "ポケモンユナイト",
-        "ユナイト"
-      ],
-      "articles": [
-        {
-          "title": "変な時間に【ポケモンユナイト】",
-          "url": "https://t.co/LIkwtMaymv",
-          "source": "Howl.Link",
-          "publishedAt": "2026-10-06T15:00:43.000Z",
           "isPR": false
         }
       ]
@@ -617,13 +625,33 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-07T14:30:18.950Z",
-    "previousCount": 151,
-    "newCount": 9
+    "previousAt": "2026-10-07T15:00:23.893Z",
+    "previousCount": 154,
+    "newCount": 6
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-07T15:30:23.893Z",
+  "nextUpdateAt": "2026-10-07T16:00:18.203Z",
   "items": [
+    {
+      "id": "9f671a8362f5",
+      "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
+      "url": "https://appmedia.jp/pokemonchampions/79917667",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-10-07T14:41:34.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/04/154524_gfk4e.webp",
+      "categories": [
+        "media",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "f6270760409f",
       "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
@@ -646,6 +674,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "25cc14a2aa89",
+      "title": "【ポケモンユナイト】唯一ブイズが来なかったサポートの待遇改善委員会です #4 【ソロラン】 #shorts",
+      "url": "https://t.co/EVxP3IOrVP",
+      "host": "t.co",
+      "source": "Howl.link",
+      "summary": "",
+      "publishedAt": "2026-10-07T13:04:49.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d3b87d882a5e",
@@ -844,46 +893,6 @@
       "isNew": false
     },
     {
-      "id": "2a3c735dda14",
-      "title": "【ポケモンチャンピオンズ】メガセグレイブの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575651",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T10:51:54.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575651.png?date=1788945660",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "c5f9230cdfd9",
-      "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575630",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T10:45:26.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575630.png?date=1788944463",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "3dea5c318613",
       "title": "【ポケモン】旅立ちの感動が蘇る！ 歴代最初の3匹をフィギュア化した『Journey with You！Anniversary』第1弾が11月2日発売",
       "url": "https://dengekionline.com/article/202610/90180",
@@ -922,6 +931,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "308e2c37d930",
+      "title": "【ポケモンGO】GOパス10月のリワード内容と挑戦期間",
+      "url": "https://pokemongo.gamewith.jp/article/show/578391",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T10:13:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578391.png?date=1790123520",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0347d41c25c5",
@@ -1125,7 +1155,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a54d539d0370",
@@ -1208,7 +1238,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b557c23fa813",
@@ -1314,27 +1344,6 @@
       "isNew": false
     },
     {
-      "id": "7761cbb1df05",
-      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T07:06:02.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "96dede30191d",
       "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
@@ -1356,14 +1365,14 @@
       "isNew": false
     },
     {
-      "id": "6bdf0e2fef54",
-      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
+      "id": "65229ee18342",
+      "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-07T07:05:55.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562182.png?date=1779956758",
       "categories": [
         "tcgcat"
       ],
@@ -1374,7 +1383,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
+    },
+    {
+      "id": "01e6f654bf7f",
+      "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:05:51.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "07068a774ad8",
@@ -1406,6 +1436,27 @@
       "summary": "",
       "publishedAt": "2026-10-07T07:05:51.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562225.png?date=1779967944",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4152aafc81a1",
+      "title": "【ポケポケ】メガヤミラミexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565899",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:05:50.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565899.png?date=1782796950",
       "categories": [
         "tcgcat"
       ],
@@ -1555,6 +1606,27 @@
       "summary": "",
       "publishedAt": "2026-10-07T07:05:44.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570622.png?date=1785392737",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "fb3b696295c7",
+      "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:05:44.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570624.png?date=1785392839",
       "categories": [
         "tcgcat"
       ],
@@ -1803,27 +1875,6 @@
       "isNew": false
     },
     {
-      "id": "0852d7f5f78d",
-      "title": "【ポケモンGO】世界宇宙週間2026イベントの開催期間と内容",
-      "url": "https://pokemongo.gamewith.jp/article/show/578085",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T05:08:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578085.jpg?date=1790040022",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "4618d9968e96",
       "title": "【ポケモンGO】選べるタイムチャレンジの最新情報と開催期間",
       "url": "https://pokemongo.gamewith.jp/article/show/560061",
@@ -1945,7 +1996,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "95e7b881c8e0",
@@ -2013,27 +2064,6 @@
       "isNew": false
     },
     {
-      "id": "6568262aed80",
-      "title": "【ポケポケ】アーマーガアexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559117",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T01:16:37.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559117.png?date=1777355916",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d008ec02fedc",
       "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
@@ -2063,27 +2093,6 @@
       "summary": "",
       "publishedAt": "2026-10-07T01:16:31.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562183.png?date=1779956790",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "fb3b696295c7",
-      "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T01:16:22.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570624.png?date=1785392839",
       "categories": [
         "tcgcat"
       ],
@@ -2171,27 +2180,6 @@
         "community"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9202ea85184a",
-      "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
-      "url": "https://pokemongo.gamewith.jp/article/show/577622",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T21:46:08.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2696,28 +2684,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "389353452d20",
-      "title": "転売目的で「ポケカ」1900枚万引きか 自称・会社員（31）逮捕「やってないですね」容疑否認【高知】（高知さんさんテレビ）",
-      "url": "https://news.yahoo.co.jp/articles/8b2fb2510ea6ff39a667acb13cd09aa2001c8e1b",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-06T06:46:02.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e0c3716c2c2d",
@@ -3026,7 +2993,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a58d128d8e01",
@@ -3170,26 +3137,6 @@
       "series": [
         "sleep"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9f671a8362f5",
-      "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
-      "url": "https://appmedia.jp/pokemonchampions/79917667",
-      "host": "appmedia.jp",
-      "source": "AppMedia",
-      "summary": "",
-      "publishedAt": "2026-10-05T10:25:43.000Z",
-      "image": "https://appmedia.jp/wp-content/uploads/2026/04/154524_gfk4e.webp",
-      "categories": [
-        "media",
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3533,6 +3480,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "2969fe0e954a",
+      "title": "【忘れさせるのを絶対忘れないで】今日しかできないことまとめて実践！【ポケモンGO】",
+      "url": "https://youtu.be/7yG8inG38qk?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-05T03:20:30.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "cfe6108a2b4e",
