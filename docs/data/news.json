@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-07T22:00:18.048Z",
+  "updatedAt": "2026-10-07T22:30:15.697Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 150,
+  "total": 147,
   "todayCount": 14,
   "categories": [
     {
@@ -22,17 +22,17 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 17
+      "count": 16
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 44
+      "count": 43
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 15
+      "count": 14
     },
     {
       "id": "media",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 54
+      "count": 52
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 12
+      "count": 13
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 34
+      "count": 32
     },
     {
       "id": "tcg",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 24
+      "count": 22
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 28
+      "count": 27
     },
     {
       "name": "YouTube",
@@ -113,7 +113,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 10
+      "count": 9
     },
     {
       "name": "ガジェット通信 GetNews",
@@ -122,10 +122,6 @@
     {
       "name": "Yahoo!ニュース",
       "count": 7
-    },
-    {
-      "name": "山陽新聞",
-      "count": 6
     },
     {
       "name": "AppMedia",
@@ -137,6 +133,10 @@
     },
     {
       "name": "インサイド",
+      "count": 4
+    },
+    {
+      "name": "山陽新聞",
       "count": 4
     },
     {
@@ -244,6 +244,10 @@
       "count": 1
     },
     {
+      "name": "カードラボ",
+      "count": 1
+    },
+    {
       "name": "AppBank",
       "count": 1
     },
@@ -338,6 +342,13 @@
       ],
       "articles": [
         {
+          "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
+          "source": "GameWith",
+          "publishedAt": "2026-10-07T17:19:05.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
           "source": "ゲームウィズ",
@@ -383,13 +394,6 @@
           "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
           "source": "ゲームウィズ",
-          "publishedAt": "2026-10-07T07:05:55.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
-          "source": "GameWith",
           "publishedAt": "2026-10-07T07:05:55.000Z",
           "isPR": false
         }
@@ -539,34 +543,6 @@
       ]
     },
     {
-      "id": "308e2c37d930",
-      "title": "【ポケモンGO】GOパス10月のリワード内容と挑戦期間",
-      "summary": "",
-      "url": "https://pokemongo.gamewith.jp/article/show/578391",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578391.png?date=1790123520",
-      "leadSource": "GameWith",
-      "publishedAt": "2026-10-07T10:13:19.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other",
-        "event"
-      ],
-      "keywords": [
-        "ポケモンGO",
-        "内容"
-      ],
-      "articles": [
-        {
-          "title": "【ポケモンGO】世界宇宙週間2026イベントの開催期間と内容",
-          "url": "https://pokemongo.gamewith.jp/article/show/578085",
-          "source": "ゲームウィズ",
-          "publishedAt": "2026-10-07T05:08:16.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "162987ed3ed1",
       "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
       "summary": "",
@@ -678,12 +654,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-07T21:30:16.611Z",
-    "previousCount": 146,
-    "newCount": 8
+    "previousAt": "2026-10-07T22:00:18.048Z",
+    "previousCount": 150,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-07T22:30:18.048Z",
+  "nextUpdateAt": "2026-10-07T23:00:15.697Z",
   "items": [
     {
       "id": "dc89519aa6b5",
@@ -702,7 +678,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fa9dfda8ce57",
@@ -713,25 +689,6 @@
       "summary": "",
       "publishedAt": "2026-10-07T21:48:42.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261008-00010003-huffpost-000-1-view.jpg?exp=10800",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "1f2983186f52",
-      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/1998928",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-07T21:21:13.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/7/7/1/7/77172319666dcdb13e27239d1887a75a_1.jpg",
       "categories": [
         "other"
       ],
@@ -759,7 +716,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6a738d13e801",
@@ -841,7 +798,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0347d41c25c5",
@@ -863,6 +820,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3a29c3fefe74",
+      "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T17:19:05.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561436.png?date=1779369911",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f6270760409f",
@@ -990,29 +968,6 @@
       "isNew": false
     },
     {
-      "id": "114719810f4b",
-      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/32425/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-07T14:48:08.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/f6fbd3a3-a36f-47a9-93ea-8c16b48ac4f3.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9f671a8362f5",
       "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
       "url": "https://appmedia.jp/pokemonchampions/79917667",
@@ -1114,7 +1069,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "25cc14a2aa89",
@@ -1345,7 +1300,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "32b478d9f243",
@@ -1499,7 +1454,7 @@
       "host": "sakhaparliament.ru",
       "source": "sakhaparliament.ru",
       "summary": "",
-      "publishedAt": "2026-10-07T08:18:37.000Z",
+      "publishedAt": "2026-10-07T08:18:45.000Z",
       "image": "",
       "categories": [
         "tcgcat"
@@ -1642,7 +1597,7 @@
       "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
       "host": "gamewith.jp",
-      "source": "GameWith",
+      "source": "ゲームウィズ",
       "summary": "",
       "publishedAt": "2026-10-07T07:05:55.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
@@ -2039,48 +1994,6 @@
       "isNew": false
     },
     {
-      "id": "0852d7f5f78d",
-      "title": "【ポケモンGO】世界宇宙週間2026イベントの開催期間と内容",
-      "url": "https://pokemongo.gamewith.jp/article/show/578085",
-      "host": "pokemongo.gamewith.jp",
-      "source": "ゲームウィズ",
-      "summary": "",
-      "publishedAt": "2026-10-07T05:08:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578085.jpg?date=1790040022",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4618d9968e96",
-      "title": "【ポケモンGO】選べるタイムチャレンジの最新情報と開催期間",
-      "url": "https://pokemongo.gamewith.jp/article/show/560061",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T03:36:05.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560061.png?date=1781135871",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "162987ed3ed1",
       "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
       "url": "https://pokemongo.gamewith.jp/article/show/578629",
@@ -2198,27 +2111,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d008ec02fedc",
-      "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T01:16:31.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562224.png?date=1779968137",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2470,25 +2362,6 @@
       "series": [
         "go"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "010ef8485ba6",
-      "title": "『ポケモン』全1025匹をTシャツ化でネット衝撃「お金が足りん…！」",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-06T13:09:30.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2808,6 +2681,27 @@
       "isNew": false
     },
     {
+      "id": "5d6af1f077c1",
+      "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
+      "url": "https://gamewith.jp/pokemon/574415",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-06T06:09:59.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e0c3716c2c2d",
       "title": "全国のイオンモールで『ポケモン GO』のハロウィンイベントを楽しもう！",
       "url": "https://pokemongolive.com/news/202610aeonmall-halloween",
@@ -2996,6 +2890,25 @@
       "isNew": false
     },
     {
+      "id": "1f2983186f52",
+      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/1998928?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-05T19:41:29.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/7/1/7/77172319666dcdb13e27239d1887a75a_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "204644a4b9b0",
       "title": "『アニポケ』異世界に連れ去る恐ろしいポケモンの正体 第145話あらすじ＆場面カット公開",
       "url": "https://www.sanyonews.jp/article/1969381?rct",
@@ -3013,6 +2926,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "7dc33f7d9b87",
+      "title": "【ポケモンカードゲーム】『30thセレブレーション』再販抽選販売のお知らせ / 小倉店の店舗ブログ",
+      "url": "https://www.c-labo.jp/blog/619432/",
+      "host": "c-labo.jp",
+      "source": "カードラボ",
+      "summary": "",
+      "publishedAt": "2026-10-05T19:18:45.000Z",
+      "image": "https://www.c-labo.jp/wordpress/wp-content/uploads/2026/10/4af795f5fc62bf29924205b8071a5403-1.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f908640edff5",
@@ -3053,28 +2987,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "5b4c35c295ac",
-      "title": "マクドナルド、ポケモンとのコラボ企画で“転売・再販売”に注意喚起 リワードプログラム参加者は「当選確率が2倍」",
-      "url": "https://www.sanyonews.jp/article/1952791?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-05T16:28:20.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/0/2/b/602ba9b9b66077d712a7dbd1dceb2c8e_1.jpg",
-      "categories": [
-        "tcgcat",
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "a58d128d8e01",
@@ -3138,7 +3050,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ab711466f40b",
