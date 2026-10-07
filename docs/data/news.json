@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T13:00:17.877Z",
+  "updatedAt": "2026-10-07T13:30:19.591Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 149,
-  "todayCount": 75,
+  "todayCount": 77,
   "categories": [
     {
       "id": "new",
@@ -32,17 +32,17 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 17
+      "count": 16
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 7
+      "count": 6
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 13
+      "count": 12
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 50
+      "count": 51
     }
   ],
   "series": [
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 4
+      "count": 3
     },
     {
       "id": "unite",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 28
+      "count": 27
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 44
+      "count": 45
     },
     {
       "name": "YouTube",
@@ -116,15 +116,15 @@
       "count": 9
     },
     {
+      "name": "Yahoo!ニュース",
+      "count": 5
+    },
+    {
       "name": "Unisba Media",
-      "count": 6
+      "count": 5
     },
     {
       "name": "AppMedia",
-      "count": 4
-    },
-    {
-      "name": "Yahoo!ニュース",
       "count": 4
     },
     {
@@ -173,10 +173,6 @@
     },
     {
       "name": "Pokémon GO",
-      "count": 2
-    },
-    {
-      "name": "ｄメニューニュース",
       "count": 2
     },
     {
@@ -249,6 +245,10 @@
     },
     {
       "name": "Storm.mg",
+      "count": 1
+    },
+    {
+      "name": "ｄメニューニュース",
       "count": 1
     },
     {
@@ -654,12 +654,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-07T12:30:20.178Z",
-    "previousCount": 150,
+    "previousAt": "2026-10-07T13:00:17.877Z",
+    "previousCount": 149,
     "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-07T13:30:17.877Z",
+  "nextUpdateAt": "2026-10-07T14:00:19.591Z",
   "items": [
     {
       "id": "ebbe85f8e6c6",
@@ -827,7 +827,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0347d41c25c5",
@@ -1367,7 +1367,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dc6d1605bf3a",
@@ -1649,6 +1649,27 @@
       "isNew": false
     },
     {
+      "id": "4618d9968e96",
+      "title": "【ポケモンGO】選べるタイムチャレンジの最新情報と開催期間",
+      "url": "https://pokemongo.gamewith.jp/article/show/560061",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T03:36:05.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560061.png?date=1781135871",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "162987ed3ed1",
       "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
       "url": "https://pokemongo.gamewith.jp/article/show/578629",
@@ -1689,6 +1710,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "239829f34064",
+      "title": "【ポケポケ】アラブルタケ(進撃パラドックス)の入手方法と収録パック【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562015",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T03:01:14.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562015.png?date=1779949591",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3f3617afa4f7",
@@ -2278,28 +2320,6 @@
       "isNew": false
     },
     {
-      "id": "96dc37cd48a2",
-      "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T13:41:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466356.png?date=1729954242",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "93e8f8a9ceb1",
       "title": "【TL80】サボりすぎましたwwwwついに私も……www【ポケモンGO】",
       "url": "https://youtu.be/j8b4x7VT-q0?si",
@@ -2617,7 +2637,7 @@
       "source": "Pokémon GO",
       "summary": "",
       "publishedAt": "2026-10-06T04:02:01.000Z",
-      "image": "",
+      "image": "https://lh3.googleusercontent.com/0zWMQdO3gvjwUdIIRijnKpqO-PR5Vn76MOYn94NohyV56I7vKscOqKwjvVKHGugW4WBYXN4ji6F0Pn8rSKTNSNaLSZYhe7CyH2s86vmP2v0",
       "categories": [
         "event"
       ],
@@ -3067,12 +3087,12 @@
     {
       "id": "fc61895faea7",
       "title": "しまむら・シャンブルで『ポケモン』グッズがオンライン販売！ピカチュウやリザードン、ヤドン＆コダックなどのタオル類がズラリ",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQmpfbi1xMmROdEFVaG9SckpPSzFXcDZPMEJ5VWx5WnIwa0pnZXhQdVFVX0ZFdjRHNUFkYllqem1VTmp3V3A0X0ZSY0ZIR3Vhd0RsaEI0LUM4ODVyODdvN293V2l6XzhuWGVrbFRqODdweHlXUTduLXg3Y0o0aW9GaU5R0gGHAUFVX3lxTE9WWTFOclBJaHBGMVlwYlNFQkkxWk9hTHllcnRBWVNrMU94NEs5VURTTG5OSXF2bmFvejhPS1RVaXBKOFBxaGJ0ZzFHQ0hZUjhDYzJnQ2Jzdk45Y1JFbXpMdEF3NnVtOWg3ZzVXSDFsQ3RnTWZ0dDlPeFNOR1E0WWZxZDBjdTJSYw?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
+      "url": "https://news.yahoo.co.jp/articles/7127bca0878c451e2a907fded4667698187a8b59",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-10-05T10:20:00.000Z",
-      "image": "",
+      "publishedAt": "2026-10-05T10:20:02.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261005-00000067-isd-000-1-view.jpg?exp=10800",
       "categories": [
         "goodscat"
       ],
@@ -3081,7 +3101,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3755,30 +3775,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "78b360f638c1",
-      "title": "【ポケモンGO】一体、何を選んだのか！？ファミマのパートナーリサーチをゲットせよ！！色背景キャプテンピカチュウを目指して冒険してみたら・・・！？【TVアニメコラボ】 Coco Gauff (R8PiVoT3IU)",
-      "url": "https://media.unisba.ac.id/f0d6e040/3a815f57K1BkLsB02xI/?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-04T13:00:42.000Z",
-      "image": "",
-      "categories": [
-        "goodscat",
-        "media"
-      ],
-      "series": [
-        "go",
-        "anime",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
