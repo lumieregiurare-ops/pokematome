@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-07T11:00:16.766Z",
+  "updatedAt": "2026-10-07T11:30:16.189Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 152,
-  "todayCount": 72,
+  "total": 153,
+  "todayCount": 75,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 15
+      "count": 16
     },
     {
       "id": "tcgcat",
@@ -42,34 +42,34 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 14
+      "count": 15
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 7
+      "count": 9
     },
     {
       "id": "biz",
       "label": "売上・企業",
-      "count": 1
+      "count": 2
     },
     {
       "id": "other",
       "label": "その他",
-      "count": 56
+      "count": 54
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 13
+      "count": 15
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 34
+      "count": 35
     },
     {
       "id": "tcg",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 27
+      "count": 26
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 44
+      "count": 43
     },
     {
       "name": "YouTube",
-      "count": 22
+      "count": 21
     },
     {
       "name": "SNKRDUNK",
@@ -118,6 +118,10 @@
     {
       "name": "Unisba Media",
       "count": 6
+    },
+    {
+      "name": "インサイド",
+      "count": 4
     },
     {
       "name": "Yahoo!ニュース",
@@ -136,7 +140,7 @@
       "count": 4
     },
     {
-      "name": "インサイド",
+      "name": "ウォーカープラス",
       "count": 3
     },
     {
@@ -156,11 +160,11 @@
       "count": 2
     },
     {
-      "name": "ポケットモンスターオフィシャルサイト",
+      "name": "ファミ通",
       "count": 2
     },
     {
-      "name": "ウォーカープラス",
+      "name": "ポケットモンスターオフィシャルサイト",
       "count": 2
     },
     {
@@ -184,11 +188,11 @@
       "count": 1
     },
     {
-      "name": "オリコンニュース",
+      "name": "産経ニュース",
       "count": 1
     },
     {
-      "name": "コラボカフェ",
+      "name": "매일경제",
       "count": 1
     },
     {
@@ -237,10 +241,6 @@
     },
     {
       "name": "読売新聞",
-      "count": 1
-    },
-    {
-      "name": "ファミ通",
       "count": 1
     },
     {
@@ -733,13 +733,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-07T10:26:52.874Z",
-    "previousCount": 154,
-    "newCount": 8
+    "previousAt": "2026-10-07T11:00:16.766Z",
+    "previousCount": 152,
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-07T11:30:16.766Z",
+  "nextUpdateAt": "2026-10-07T12:00:16.189Z",
   "items": [
+    {
+      "id": "1e7ba2e72100",
+      "title": "スイッチ版『ルビサファ』や『エメラルド』に期待！？『ポケモンホーム』アプデで追加された“GBAのとある表記”が話題に",
+      "url": "https://www.inside-games.jp/article/2026/10/07/188909.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "『ポケットモンスター ルビー・サファイア』や『ポケットモンスター エメラルド』のニンテンドースイッチ版移植を期待する声！",
+      "publishedAt": "2026-10-07T11:15:02.000Z",
+      "image": "https://www.inside-games.jp/imgs/rss/1791220.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "3dea5c318613",
       "title": "【ポケモン】旅立ちの感動が蘇る！ 歴代最初の3匹をフィギュア化した『Journey with You！Anniversary』第1弾が11月2日発売",
@@ -755,6 +776,25 @@
       "series": [
         "goods"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "a5b90eba29d2",
+      "title": "スターバックス×ポケモンが実現！株式会社ポケモン石原社長が語る、新たな冒険に込めた想い",
+      "url": "https://www.walkerplus.com/article/1445118/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-10-07T10:17:23.000Z",
+      "image": "https://news.walkerplus.com/article/1445118/18689712_615.jpg",
+      "categories": [
+        "biz"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -800,6 +840,27 @@
       "isNew": false
     },
     {
+      "id": "0665d07546bb",
+      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202609/88085/869490",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-10-07T09:35:57.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a86c3cbc8cde622a8c725d89a88bdcb96.jpg?x=1280",
+      "categories": [
+        "community"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9661e615a687",
       "title": "「ポケモンホーム」にしれっと「ゲームボーイアドバンスシリーズ」表記があってざわつく。『ファイアレッド・リーフグリーン』に続いて“GBA作品”は出るのか",
       "url": "https://automaton-media.com/articles/newsjp/20261007-472256/",
@@ -813,6 +874,27 @@
         "biz"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "0347d41c25c5",
+      "title": "ポケモン×インスタントカメラ「Polaroid（ポラロイド）」発売 ピカチュウ、ニンフィア、モンスターボールの3モデルほか【詳細】",
+      "url": "https://www.sankei.com/article/20261007-F56FJSCYZRMZPHWCZ5XNRJSDNY/",
+      "host": "sankei.com",
+      "source": "産経ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-07T09:31:14.000Z",
+      "image": "https://www.sankei.com/resizer/v2/ULROJIFP5JM7JH3QRUEVGUXPSQ.jpg?auth=03bc9935edecf2cafc185a8cf4ccda29e6fef9e8921f360abf7c67c63157a351&quality=50&smart=true&width=1200&height=675",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -864,20 +946,19 @@
       "isNew": false
     },
     {
-      "id": "0347d41c25c5",
-      "title": "ポケモン×インスタントカメラ「Polaroid(ポラロイド)」発売 ピカチュウ、ニンフィア、モンスターボールの3モデルほか【詳細】",
-      "url": "https://www.oricon.co.jp/news/2485058/full/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
+      "id": "c5f9230cdfd9",
+      "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/575630",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-07T08:54:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2486000/2485058/20260826_151113_p_o_80748183.jpg",
+      "publishedAt": "2026-10-07T08:23:38.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575630.png?date=1788944463",
       "categories": [
-        "other"
+        "guide",
+        "community"
       ],
-      "series": [
-        "goods"
-      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -885,25 +966,24 @@
       "isNew": false
     },
     {
-      "id": "e977cae87cc0",
-      "title": "ポケモン × アベイル 10月10日よりメンズパーカなど発売!",
-      "url": "https://collabo-cafe.com/events/collabo/pocket-monster-avail-2026-1010/",
-      "host": "collabo-cafe.com",
-      "source": "コラボカフェ",
+      "id": "2a3c735dda14",
+      "title": "【ポケモンチャンピオンズ】メガセグレイブの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/575651",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-07T08:46:46.000Z",
-      "image": "https://collabo-cafe.com/wp-content/uploads/pocket-monster-avail-2026-1010-eyecatch.jpg",
+      "publishedAt": "2026-10-07T08:22:41.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575651.png?date=1788945660",
       "categories": [
-        "other"
+        "guide",
+        "community"
       ],
-      "series": [
-        "goods"
-      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "c902cbc90842",
@@ -924,6 +1004,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5a32b1248f53",
+      "title": "流通業界によると、中古取引プラットフォームの稲妻市場で9月1~17日のポケモンカードの売り物登録件数は前年同期比272%増加した。 同期間、ポケモンカードを検索した利用者も3~37%急増した。注目すべ..",
+      "url": "https://www.mk.co.kr/jp/business/12170602",
+      "host": "mk.co.kr",
+      "source": "매일경제",
+      "summary": "",
+      "publishedAt": "2026-10-07T08:04:46.000Z",
+      "image": "https://pimg.mk.co.kr/news/cms/202610/07/news-p.v1.20261007.b2594aff1dff4b7884d2b22f04208e09_R.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "b557c23fa813",
@@ -1008,14 +1109,14 @@
       "isNew": false
     },
     {
-      "id": "7761cbb1df05",
-      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
+      "id": "ae4709b0349e",
+      "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-07T07:06:02.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
+      "publishedAt": "2026-10-07T07:06:03.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
       "categories": [
         "tcgcat"
       ],
@@ -1029,14 +1130,14 @@
       "isNew": false
     },
     {
-      "id": "07068a774ad8",
-      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
+      "id": "7761cbb1df05",
+      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-07T07:05:51.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
+      "publishedAt": "2026-10-07T07:06:02.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
       "categories": [
         "tcgcat"
       ],
@@ -1071,6 +1172,27 @@
       "isNew": false
     },
     {
+      "id": "07068a774ad8",
+      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:05:51.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "64209e90cd0b",
       "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
@@ -1090,6 +1212,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4592f13ac082",
+      "title": "【ポケポケ】ヒスイヌメルゴンデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/566739",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:05:48.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566739.png?date=1783054233",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "833ac77d5fe0",
@@ -1113,6 +1256,29 @@
       "isNew": false
     },
     {
+      "id": "2e6793514710",
+      "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T07:05:46.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570621.png?date=1785392758",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "go",
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "dc6d1605bf3a",
       "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
@@ -1120,7 +1286,7 @@
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-07T07:05:44.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -1131,7 +1297,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b76506a0856d",
@@ -1173,7 +1339,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d62e46ba17df",
@@ -1274,26 +1440,6 @@
       "series": [
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c5f9230cdfd9",
-      "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575630",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T06:27:25.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575630.png?date=1788944463",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1448,27 +1594,6 @@
       "isNew": false
     },
     {
-      "id": "8884549b587c",
-      "title": "【ポケポケ】テツノイサハ(進撃パラドックス)の入手方法と収録パック【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/561997",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T03:01:03.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561997.png?date=1779951009",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "2972091e2791",
       "title": "【ポケポケ】ユキメノコ(ミラクルデイズ)の入手方法と収録パック【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565856",
@@ -1510,7 +1635,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3f3617afa4f7",
@@ -1548,7 +1673,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6776d9947ded",
@@ -1637,25 +1762,6 @@
       "isNew": false
     },
     {
-      "id": "3eac62b70aa7",
-      "title": "【ぽこあポケモン】DLC追加アイテム一覧【ぽこポケ】",
-      "url": "https://gamewith.jp/pocoapokemon/571168",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T01:31:09.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/571168.png?date=1785898082",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "fb80a9f0cfc7",
       "title": "【ポケポケ】コノヨザルデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/546459",
@@ -1664,27 +1770,6 @@
       "summary": "",
       "publishedAt": "2026-10-07T01:16:46.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546459.png?date=1772099461",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ae4709b0349e",
-      "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T01:16:41.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
       "categories": [
         "tcgcat"
       ],
@@ -1717,27 +1802,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "ac569876072f",
-      "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-07T01:16:37.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "96dede30191d",
@@ -1966,7 +2030,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "38329725edcd",
@@ -2243,27 +2307,6 @@
       "isNew": false
     },
     {
-      "id": "fbb15bf5c451",
-      "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T14:51:06.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/549856.png?date=1773926468",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "5915446d22c7",
       "title": "【PSA10】ミュウツーV RR[s10b 030/071](強化拡張パック「Pokemon GO」) 1枚のシングルトレカ通販｜スニダン",
       "url": "https://snkrdunk.com/apparels/137079/used/50928231?slide",
@@ -2327,7 +2370,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "93e8f8a9ceb1",
@@ -3892,25 +3935,6 @@
       "series": [
         "unite"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "47995ff77a79",
-      "title": "【衝撃】ポケセンにあった謎のメモ、ついに正体が判明する【ぽこ あ ポケモン】",
-      "url": "https://youtu.be/weGcasSpf7o",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-04T11:04:42.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
