@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-07T08:32:31.627Z",
+  "updatedAt": "2026-10-07T09:00:21.279Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 146,
-  "todayCount": 62,
+  "total": 147,
+  "todayCount": 64,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 15
+      "count": 14
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 15
+      "count": 14
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 19
+      "count": 18
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 11
+      "count": 12
     },
     {
       "id": "community",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 50
+      "count": 51
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 9
+      "count": 8
     },
     {
       "id": "go",
@@ -89,7 +89,7 @@
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 3
+      "count": 4
     },
     {
       "id": "goods",
@@ -105,7 +105,7 @@
     },
     {
       "name": "YouTube",
-      "count": 24
+      "count": 25
     },
     {
       "name": "SNKRDUNK",
@@ -117,7 +117,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Unisba Media",
@@ -162,10 +162,6 @@
     {
       "name": "Pokémon GO",
       "count": 2
-    },
-    {
-      "name": "クランクイン！",
-      "count": 1
     },
     {
       "name": "電撃オンライン",
@@ -431,17 +427,17 @@
       ],
       "articles": [
         {
+          "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+          "url": "https://snkrdunk.com/articles/33338/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-07T06:14:17.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
           "url": "https://snkrdunk.com/articles/33322/",
           "source": "SNKRDUNK",
           "publishedAt": "2026-10-07T04:45:16.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-          "url": "https://snkrdunk.com/articles/33338/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-06T23:49:57.000Z",
           "isPR": false
         },
         {
@@ -693,13 +689,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-07T08:00:15.546Z",
-    "previousCount": 147,
-    "newCount": 8
+    "previousAt": "2026-10-07T08:32:31.627Z",
+    "previousCount": 146,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-07T09:02:31.627Z",
+  "nextUpdateAt": "2026-10-07T09:30:21.279Z",
   "items": [
+    {
+      "id": "0347d41c25c5",
+      "title": "ポケモン×インスタントカメラ「Polaroid（ポラロイド）」発売 ピカチュウ、ニンフィア、モンスターボールの3モデルほか【詳細】",
+      "url": "https://news.yahoo.co.jp/articles/233bc058f6d57561c39e40b094ea668b23ab6415",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-07T08:54:34.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00000508-oric-000-1-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "b557c23fa813",
       "title": "色違いシルシュルーの入手難易度に地域格差 / 気球の減少で12kmタマゴ集めすら困難な状況に【ポケモンGO】",
@@ -719,17 +736,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2644f1704699",
-      "title": "ポケモン公式ベビーブランド「モンポケ」に秋冬の新作！ 「petit main」コラボのウェアや雑貨も登場",
-      "url": "https://www.crank-in.net/trend/item/192166",
-      "host": "crank-in.net",
-      "source": "クランクイン！",
+      "title": "ポケモン公式ベビーブランド「モンポケ」に秋冬の新作！ 「petit main」コラボのウェアや雑貨も登場（クランクイン！）",
+      "url": "https://news.yahoo.co.jp/articles/6346f663b14c7e77d2ae161c1ae29ed56f5a22f5",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-07T08:00:00.000Z",
-      "image": "https://www.crank-in.net/img/db/261103054102249_1200.jpg",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261007-00192166-crankinn-000-1-view.jpg?exp=10800",
       "categories": [
         "new",
         "goodscat"
@@ -742,7 +759,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d62e46ba17df",
@@ -849,6 +866,27 @@
       "isNew": false
     },
     {
+      "id": "3fd25a757c03",
+      "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33338/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-07T06:14:17.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "058c25d8c2e1",
       "title": "完売したはずの「ワイルドエリア：メキシコシティ」のチケットが突然の再販 / 「仙台も再販されるのでは？」と疑心暗鬼になるトレーナーが続出中【ポケモンGO】",
       "url": "https://getnews.jp/archives/3747453",
@@ -886,7 +924,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e977cae87cc0",
@@ -895,7 +933,7 @@
       "host": "collabo-cafe.com",
       "source": "コラボカフェ",
       "summary": "",
-      "publishedAt": "2026-10-07T05:23:06.000Z",
+      "publishedAt": "2026-10-07T05:24:03.000Z",
       "image": "https://collabo-cafe.com/wp-content/uploads/pocket-monster-avail-2026-1010-eyecatch.jpg",
       "categories": [
         "other"
@@ -1052,7 +1090,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2972091e2791",
@@ -1111,7 +1149,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6776d9947ded",
@@ -1132,7 +1170,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "95e7b881c8e0",
@@ -1324,6 +1362,27 @@
       "isNew": false
     },
     {
+      "id": "ac569876072f",
+      "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T01:16:37.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "96dede30191d",
       "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
@@ -1426,7 +1485,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1909f74d0bb3",
@@ -1648,27 +1707,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3fd25a757c03",
-      "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33338/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-06T23:49:57.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1996,29 +2034,6 @@
       "isNew": false
     },
     {
-      "id": "b453d19d13a4",
-      "title": "【スタバ新作】ホット・アイスコーヒーの持ち運びに！「ポケモンコラボ・ステンレスボトル」が激かわ！",
-      "url": "https://news.yahoo.co.jp/expert/articles/d630545a46ab9c5126656bbc31a4aeedd29f3c1e",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-06T14:51:16.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/creators/kohisomuriekazu/02736710/title-1791298042957.jpeg?exp=10800",
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "fbb15bf5c451",
       "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
@@ -2028,28 +2043,6 @@
       "publishedAt": "2026-10-06T14:51:06.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/549856.png?date=1773926468",
       "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cd4c19dd821c",
-      "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-06T14:45:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579544.jpg?date=1791011513",
-      "categories": [
-        "event",
         "tcgcat"
       ],
       "series": [
@@ -2933,6 +2926,27 @@
       "isNew": false
     },
     {
+      "id": "90e2aafad57f",
+      "title": "【ポケスリ】最強キノコ要員は誰？新ポケモン「モロバレル/タマゲタケ」の性能評価と厳選優先度を徹底解説！【ポケモンスリープ】",
+      "url": "https://youtu.be/Gw28QzZQJ9c?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-05T10:02:33.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "4ae3ba060d04",
       "title": "アジア大会ｅスポーツ、３度の開催で徐々に定着～「ポケモンユナイト」「ぷよぷよ」の金メダルでさらなる発展なるか",
       "url": "https://www.yomiuri.co.jp/sports/etc/20260929-GYT8T00090/",
@@ -3092,7 +3106,7 @@
       "source": "インサイド",
       "summary": "",
       "publishedAt": "2026-10-05T07:45:02.000Z",
-      "image": "https://www.inside-games.jp/imgs/ogp_f/1789947.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -3269,7 +3283,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cfe6108a2b4e",
