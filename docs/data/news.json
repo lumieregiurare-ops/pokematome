@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-08T20:30:17.615Z",
+  "updatedAt": "2026-10-08T21:00:18.021Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 145,
-  "todayCount": 10,
+  "total": 146,
+  "todayCount": 11,
   "categories": [
     {
       "id": "new",
@@ -17,7 +17,7 @@
     {
       "id": "update",
       "label": "アップデート",
-      "count": 4
+      "count": 3
     },
     {
       "id": "event",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 10
+      "count": 11
     },
     {
       "id": "biz",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 54
+      "count": 55
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 16
+      "count": 17
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 29
+      "count": 28
     },
     {
       "id": "tcg",
@@ -105,7 +105,7 @@
     },
     {
       "name": "YouTube",
-      "count": 18
+      "count": 19
     },
     {
       "name": "SNKRDUNK",
@@ -172,11 +172,11 @@
       "count": 2
     },
     {
-      "name": "コラボカフェ",
+      "name": "ファミ通",
       "count": 1
     },
     {
-      "name": "ファミ通",
+      "name": "コラボカフェ",
       "count": 1
     },
     {
@@ -701,13 +701,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-08T20:00:22.020Z",
-    "previousCount": 131,
-    "newCount": 17
+    "previousAt": "2026-10-08T20:30:17.615Z",
+    "previousCount": 145,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-08T21:00:17.615Z",
+  "nextUpdateAt": "2026-10-08T21:30:18.021Z",
   "items": [
+    {
+      "id": "0665d07546bb",
+      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202609/88085/869489",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-10-08T19:36:50.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/ae4bde0eb46b8f32ef4b4207f5344b4d4.jpg?x=1280",
+      "categories": [
+        "community"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "59fc265a960e",
       "title": "『ポケモンセンター』デデンネとバチュルの日常を描いたグッズ新登場 大量に発表",
@@ -722,6 +743,50 @@
         "new"
       ],
       "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "9c401811673e",
+      "title": "【ポケカ】アビスアイの再販はいつ？再販入荷情報まとめ【10/8更新】",
+      "url": "https://snkrdunk.com/articles/32292/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-08T17:23:19.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/2fabe6bb-02dc-4a29-a0db-8ef4b478c06e.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f6270760409f",
+      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
+      "url": "https://snkrdunk.com/articles/32998/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-08T17:21:49.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
         "goods"
       ],
       "isOfficial": false,
@@ -773,27 +838,6 @@
       "isNew": false
     },
     {
-      "id": "a42d506a890b",
-      "title": "【ポケカ】スタートデッキ100バトルコレクションの再販はいつ？再販入荷情報まとめ【10/8更新】",
-      "url": "https://snkrdunk.com/articles/30926/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-08T16:57:37.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20251218032502-0.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "ce54ab3dcd6f",
       "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
       "url": "https://snkrdunk.com/articles/32582/",
@@ -812,7 +856,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "09a1fbb9585b",
@@ -854,6 +898,26 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8a0df3af32aa",
+      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-6構築記事)",
+      "url": "https://gamewith.jp/pokemon-champions/560474",
+      "host": "gamewith.jp",
+      "source": "ゲームウィズ",
+      "summary": "",
+      "publishedAt": "2026-10-08T16:30:34.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
+      "categories": [
+        "community",
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -870,50 +934,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0665d07546bb",
-      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202609/88085/869490",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-10-08T15:28:53.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a86c3cbc8cde622a8c725d89a88bdcb96.jpg?x=1280",
-      "categories": [
-        "community"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f6270760409f",
-      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
-      "url": "https://snkrdunk.com/articles/32998/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-08T15:20:59.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1065,27 +1085,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "66ae4dca3ef0",
-      "title": "【ポケモンチャンピオンズ】メガボーマンダの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/575012",
-      "host": "gamewith.jp",
-      "source": "ゲームウィズ",
-      "summary": "",
-      "publishedAt": "2026-10-08T11:42:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575012.png?date=1788430141",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3796b0028033",
@@ -1111,6 +1111,26 @@
       "isNew": false
     },
     {
+      "id": "c145b09d3801",
+      "title": "【ポケモンチャンピオンズ】サーフゴーの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/564100",
+      "host": "gamewith.jp",
+      "source": "ゲームウィズ",
+      "summary": "",
+      "publishedAt": "2026-10-08T11:40:12.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564100.png?date=1781682765",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3910f8a324f2",
       "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
       "url": "https://gamewith.jp/pokemon/546662",
@@ -1130,26 +1150,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "4d556e741f86",
-      "title": "【ポケモンチャンピオンズ】セグレイブの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/574625",
-      "host": "gamewith.jp",
-      "source": "ゲームウィズ",
-      "summary": "",
-      "publishedAt": "2026-10-08T11:40:09.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574625.png?date=1788429878",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "74c37e1832ec",
@@ -1172,6 +1172,27 @@
       "isNew": false
     },
     {
+      "id": "bc5bc8c84311",
+      "title": "【ポケモンチャンピオンズ】SVでしか出現しないポケモン一覧",
+      "url": "https://gamewith.jp/pokemon-champions/552283",
+      "host": "gamewith.jp",
+      "source": "ゲームウィズ",
+      "summary": "",
+      "publishedAt": "2026-10-08T11:35:41.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/552283.png?date=1775200425",
+      "categories": [
+        "community"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "c5f9230cdfd9",
       "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
       "url": "https://gamewith.jp/pokemon-champions/575630",
@@ -1189,7 +1210,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c902cbc90842",
@@ -1209,7 +1230,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cd4c19dd821c",
@@ -1813,7 +1834,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fbb15bf5c451",
@@ -1938,7 +1959,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "faf897e54718",
@@ -2001,7 +2022,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c36517278d70",
@@ -2082,7 +2103,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f88424444399",
@@ -2212,27 +2233,6 @@
       "isNew": false
     },
     {
-      "id": "733d2c4cf18b",
-      "title": "【ポケモンGO】GOバトルリーグめくるめく記憶シーズンのスケジュールと調整内容",
-      "url": "https://pokemongo.gamewith.jp/article/show/546090",
-      "host": "pokemongo.gamewith.jp",
-      "source": "ゲームウィズ",
-      "summary": "",
-      "publishedAt": "2026-10-08T03:02:21.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546090.png?date=1771993864",
-      "categories": [
-        "update"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7f00070c5922",
       "title": "大森滋氏が『雨のちハレ女』に込めた想いとは？“晴れ”へのこだわりから届けたいゲーム体験まで【インタビュー】",
       "url": "https://www.inside-games.jp/article/2026/10/08/188931.html",
@@ -2313,7 +2313,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fd3e1d3f9468",
@@ -2353,7 +2353,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d008ec02fedc",
@@ -2393,7 +2393,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "76cfa752e183",
@@ -2481,6 +2481,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "2d0ea4a270f6",
+      "title": "【緊急】今のうちに消える前にゲットを!?未実装ポケモンを今だけ実装！キョダイマックスジュラルドンも登場",
+      "url": "https://youtu.be/icDn1thmLMs?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-07T21:57:18.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1f2983186f52",
@@ -2644,7 +2663,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eaf0e73ddb03",
@@ -3329,7 +3348,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0788aeb55454",
