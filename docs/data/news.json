@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-08T15:00:18.368Z",
+  "updatedAt": "2026-10-08T15:30:19.528Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 144,
+  "total": 146,
   "todayCount": 0,
   "categories": [
     {
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 44
+      "count": 45
     },
     {
       "id": "goodscat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 10
+      "count": 13
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 10
+      "count": 12
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 49
+      "count": 48
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 42
+      "count": 43
     },
     {
       "id": "anime",
@@ -101,11 +101,11 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 29
+      "count": 35
     },
     {
       "name": "ゲームウィズ",
-      "count": 21
+      "count": 18
     },
     {
       "name": "YouTube",
@@ -204,10 +204,6 @@
       "count": 1
     },
     {
-      "name": "ポケカポケット開封日記",
-      "count": 1
-    },
-    {
       "name": "ｄメニューニュース",
       "count": 1
     },
@@ -299,7 +295,7 @@
         {
           "title": "【ポケモンGO】世界宇宙週間2026イベントの開催期間と内容",
           "url": "https://pokemongo.gamewith.jp/article/show/578085",
-          "source": "ゲームウィズ",
+          "source": "GameWith",
           "publishedAt": "2026-10-08T03:54:28.000Z",
           "isPR": false
         },
@@ -411,7 +407,7 @@
       "leadSource": "ゲームウィズ",
       "publishedAt": "2026-10-08T11:15:16.000Z",
       "sourceCount": 2,
-      "articleCount": 29,
+      "articleCount": 30,
       "categories": [
         "event",
         "tcgcat"
@@ -434,6 +430,13 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
           "source": "GameWith",
           "publishedAt": "2026-10-08T10:06:15.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
+          "source": "GameWith",
+          "publishedAt": "2026-10-08T10:06:13.000Z",
           "isPR": false
         },
         {
@@ -470,12 +473,55 @@
           "source": "GameWith",
           "publishedAt": "2026-10-08T10:05:57.000Z",
           "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "4891421959cc",
+      "title": "【ポケモンチャンピオンズ】メガグソクムシャの育成論と対策・パーティ",
+      "summary": "",
+      "url": "https://gamewith.jp/pokemon-champions/575652",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575652.png?date=1788944336",
+      "leadSource": "GameWith",
+      "publishedAt": "2026-10-08T11:42:39.000Z",
+      "sourceCount": 2,
+      "articleCount": 5,
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "keywords": [
+        "ポケモンチャンピオンズ",
+        "育成論",
+        "対策"
+      ],
+      "articles": [
+        {
+          "title": "【ポケモンチャンピオンズ】メガボーマンダの育成論と対策・パーティ",
+          "url": "https://gamewith.jp/pokemon-champions/575012",
+          "source": "ゲームウィズ",
+          "publishedAt": "2026-10-08T11:42:07.000Z",
+          "isPR": false
         },
         {
-          "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
-          "source": "ゲームウィズ",
-          "publishedAt": "2026-10-08T10:05:57.000Z",
+          "title": "【ポケモンチャンピオンズ】セグレイブの育成論と対策・パーティ",
+          "url": "https://gamewith.jp/pokemon-champions/574625",
+          "source": "GameWith",
+          "publishedAt": "2026-10-08T11:40:09.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
+          "url": "https://gamewith.jp/pokemon-champions/575630",
+          "source": "GameWith",
+          "publishedAt": "2026-10-08T11:35:29.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンチャンピオンズ】メガセグレイブの育成論と対策",
+          "url": "https://gamewith.jp/pokemon-champions/575651",
+          "source": "GameWith",
+          "publishedAt": "2026-10-08T11:18:48.000Z",
           "isPR": false
         }
       ]
@@ -691,43 +737,15 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "4d137d1eee5a",
-      "title": "【2026.10.06】抽選販売「ポケモンカードゲームMEGA 拡張パック ストームエメラルダ （再販）」",
-      "summary": "",
-      "url": "https://www.hbst.net/?p",
-      "image": "https://www.lawson.co.jp/lab/entertainment/art/__icsFiles/afieldfile/2026/10/01/20261006_toy_pokemon_g_2.jpg",
-      "leadSource": "ホビーステーション",
-      "publishedAt": "2026-10-06T03:03:53.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "tcgcat"
-      ],
-      "keywords": [
-        "ポケモンカード",
-        "mega",
-        "ポケモンカードゲーム"
-      ],
-      "articles": [
-        {
-          "title": "【ポケモンカードゲーム MEGA 「30th CELEBRATION カードセット フシギダネ・ヒトカゲ・ゼニガメ/ニャオハ・ホゲータ・クワッス」販売のご案内】",
-          "url": "https://www.lawson.co.jp/lab/entertainment/art/20261006_toypokemon.html",
-          "source": "LAWSON",
-          "publishedAt": "2026-10-06T01:37:30.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-08T14:30:17.238Z",
-    "previousCount": 145,
-    "newCount": 5
+    "previousAt": "2026-10-08T15:00:18.368Z",
+    "previousCount": 144,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-08T15:30:18.368Z",
+  "nextUpdateAt": "2026-10-08T16:00:19.528Z",
   "items": [
     {
       "id": "e977cae87cc0",
@@ -833,6 +851,26 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "66ae4dca3ef0",
+      "title": "【ポケモンチャンピオンズ】メガボーマンダの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/575012",
+      "host": "gamewith.jp",
+      "source": "ゲームウィズ",
+      "summary": "",
+      "publishedAt": "2026-10-08T11:42:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575012.png?date=1788430141",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -856,6 +894,26 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4d556e741f86",
+      "title": "【ポケモンチャンピオンズ】セグレイブの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/574625",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-08T11:40:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574625.png?date=1788429878",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -867,6 +925,26 @@
       "summary": "",
       "publishedAt": "2026-10-08T11:39:43.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546462.png?date=1775195996",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "c5f9230cdfd9",
+      "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/575630",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-08T11:35:29.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575630.png?date=1788944463",
       "categories": [
         "guide",
         "community"
@@ -1066,7 +1144,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ae4709b0349e",
@@ -1077,6 +1155,27 @@
       "summary": "",
       "publishedAt": "2026-10-08T10:06:15.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "7761cbb1df05",
+      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-08T10:06:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
       "categories": [
         "tcgcat"
       ],
@@ -1239,6 +1338,27 @@
       "isNew": false
     },
     {
+      "id": "b76506a0856d",
+      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
+      "host": "gamewith.jp",
+      "source": "ゲームウィズ",
+      "summary": "",
+      "publishedAt": "2026-10-08T10:05:53.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "6d6801b0ec0a",
       "title": "【ポケポケ】オンバーンデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570836",
@@ -1359,24 +1479,25 @@
       "isNew": false
     },
     {
-      "id": "c5f9230cdfd9",
-      "title": "【ポケモンチャンピオンズ】エースバーンの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575630",
+      "id": "21beed7ca646",
+      "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-08T08:02:50.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575630.png?date=1788944463",
+      "publishedAt": "2026-10-08T07:48:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/573136.png?date=1787237535",
       "categories": [
-        "guide",
-        "community"
+        "tcgcat"
       ],
-      "series": [],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "3f4e3bd3edff",
@@ -1676,7 +1797,7 @@
       "title": "【ポケモンGO】世界宇宙週間2026イベントの開催期間と内容",
       "url": "https://pokemongo.gamewith.jp/article/show/578085",
       "host": "pokemongo.gamewith.jp",
-      "source": "ゲームウィズ",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-08T03:54:28.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578085.jpg?date=1790040022",
@@ -1697,7 +1818,7 @@
       "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
       "url": "https://pokemongo.gamewith.jp/article/show/578629",
       "host": "pokemongo.gamewith.jp",
-      "source": "ゲームウィズ",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-08T03:44:18.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578629.jpg?date=1790245814",
@@ -1728,25 +1849,6 @@
       "series": [
         "anime"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c7ceddc04bcb",
-      "title": "【ポケモンフレンダ】エクストレジャー2弾/ワンダーピック買取価格ランキング＆相場推移【ハロウィン】",
-      "url": "https://pokeca-pocket.dbfw-days.com/ex2-halloween-wonder/",
-      "host": "pokeca-pocket.dbfw-days.com",
-      "source": "ポケカポケット開封日記",
-      "summary": "",
-      "publishedAt": "2026-10-08T03:18:41.000Z",
-      "image": "https://pokeca-pocket.dbfw-days.com/wp-content/uploads/2026/10/IMG_8683.jpeg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1898,7 +2000,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "92594aaee8a6",
@@ -2003,27 +2105,6 @@
       "isNew": false
     },
     {
-      "id": "7761cbb1df05",
-      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
-      "host": "gamewith.jp",
-      "source": "ゲームウィズ",
-      "summary": "",
-      "publishedAt": "2026-10-08T01:34:24.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6568262aed80",
       "title": "【ポケポケ】アーマーガアexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559117",
@@ -2053,27 +2134,6 @@
       "summary": "",
       "publishedAt": "2026-10-08T01:34:22.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e9947cf07e1a",
-      "title": "【ポケポケ】エンブオーデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559121",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-08T01:34:20.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559121.png?date=1777356017",
       "categories": [
         "tcgcat"
       ],
@@ -2133,7 +2193,7 @@
       "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
       "host": "gamewith.jp",
-      "source": "ゲームウィズ",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-08T01:34:15.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562224.png?date=1779968137",
@@ -2200,27 +2260,6 @@
       "summary": "",
       "publishedAt": "2026-10-08T01:34:06.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570622.png?date=1785392737",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b76506a0856d",
-      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
-      "host": "gamewith.jp",
-      "source": "ゲームウィズ",
-      "summary": "",
-      "publishedAt": "2026-10-08T01:34:04.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
       "categories": [
         "tcgcat"
       ],
@@ -2547,6 +2586,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "f7c2b24eb0f5",
+      "title": "【ポケポケ】HP回復のおすすめカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/466695",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-07T12:37:04.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466695.png?date=1743150329",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1e7ba2e72100",
@@ -3649,7 +3710,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "204644a4b9b0",
