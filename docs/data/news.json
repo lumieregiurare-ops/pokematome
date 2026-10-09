@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-09T05:00:15.264Z",
+  "updatedAt": "2026-10-09T05:30:18.762Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 138,
-  "todayCount": 42,
+  "total": 136,
+  "todayCount": 43,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 16
+      "count": 15
     },
     {
       "id": "tcgcat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 48
+      "count": 47
     }
   ],
   "series": [
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 14
+      "count": 13
     },
     {
       "id": "sleep",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 21
+      "count": 20
     }
   ],
   "weapons": [],
@@ -124,15 +124,15 @@
       "count": 4
     },
     {
+      "name": "ポケットモンスターオフィシャルサイト",
+      "count": 3
+    },
+    {
       "name": "ウォーカープラス",
       "count": 3
     },
     {
       "name": "山陽新聞",
-      "count": 3
-    },
-    {
-      "name": "Howl.link",
       "count": 3
     },
     {
@@ -148,15 +148,11 @@
       "count": 2
     },
     {
-      "name": "ポケットモンスターオフィシャルサイト",
+      "name": "Howl.link",
       "count": 2
     },
     {
       "name": "Nintendo DREAM WEB",
-      "count": 2
-    },
-    {
-      "name": "電撃オンライン",
       "count": 2
     },
     {
@@ -204,10 +200,6 @@
       "count": 1
     },
     {
-      "name": "中日新聞Web",
-      "count": 1
-    },
-    {
       "name": "https://esportsnewsjapan.jp/",
       "count": 1
     },
@@ -217,6 +209,10 @@
     },
     {
       "name": "ｄメニューニュース",
+      "count": 1
+    },
+    {
+      "name": "電撃オンライン",
       "count": 1
     },
     {
@@ -587,13 +583,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-09T04:30:15.110Z",
+    "previousAt": "2026-10-09T05:00:15.264Z",
     "previousCount": 138,
-    "newCount": 5
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-09T05:30:15.264Z",
+  "nextUpdateAt": "2026-10-09T06:00:18.762Z",
   "items": [
+    {
+      "id": "b5ce5eb70edb",
+      "title": "みんなで食べられる、アレルギー物質29品目不使用のやさしいクッキーが、ポケモンセンターに登場！",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261009_fo01.html",
+      "host": "pokemon.co.jp",
+      "source": "ポケットモンスターオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-10-09T05:02:06.000Z",
+      "image": "https://www.pokemon.co.jp/PostImages/f9031dca2b4cf46cf3493fadce28194848b05b9b.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "e977cae87cc0",
       "title": "ポケモン × アベイル 10月10日よりメンズパーカなど発売!",
@@ -680,6 +697,27 @@
       "isNew": false
     },
     {
+      "id": "bdc11ffbc2b4",
+      "title": "【ポケカ】メガシンフォニアの再販はいつ？再販入荷情報まとめ【10/8更新】",
+      "url": "https://snkrdunk.com/articles/29706/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-09T03:23:11.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20250801023015-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "5ec835547d1c",
       "title": "サーティワン、ポケモンやサンリオなど登場！クリスマスアイスクリームケーキの予約スタート（グルメ Watch）",
       "url": "https://news.yahoo.co.jp/articles/2c4c0f6c1575252cab163f88001ebb8058805bd4",
@@ -708,7 +746,7 @@
       "source": "GAME Watch",
       "summary": "B-R サーティワン アイスクリームは、「Happy ICE CREAM CHRISTMAS（ハッピー アイスクリーム クリスマス）」キャンペーンを11月1日から12月25日にかけて実施する。10月9日よりモバイルオーダー予約も開始予定。",
       "publishedAt": "2026-10-09T02:56:54.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2147/044/1.jpg",
       "categories": [
         "new",
         "event"
@@ -740,7 +778,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4891421959cc",
@@ -760,7 +798,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7e79d992de36",
@@ -889,6 +927,27 @@
       "isNew": false
     },
     {
+      "id": "c378bec763fb",
+      "title": "【ポケモンGO】ハイパーリーグメガVer.の開催期間とルール",
+      "url": "https://pokemongo.gamewith.jp/article/show/574150",
+      "host": "pokemongo.gamewith.jp",
+      "source": "ゲームウィズ",
+      "summary": "",
+      "publishedAt": "2026-10-09T01:23:16.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574150.png?date=1788419082",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9f671a8362f5",
       "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
       "url": "https://appmedia.jp/pokemonchampions/79917667",
@@ -969,7 +1028,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7837f91c4673",
@@ -1031,27 +1090,6 @@
       "series": [
         "tcg",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a22571180321",
-      "title": "【ポケモンGO】ハロウィン2026パート2の開催期間とボーナス",
-      "url": "https://pokemongo.gamewith.jp/article/show/580744",
-      "host": "pokemongo.gamewith.jp",
-      "source": "ゲームウィズ",
-      "summary": "",
-      "publishedAt": "2026-10-09T00:36:33.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/580744.png?date=1791506195",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1328,27 +1366,6 @@
       "isNew": false
     },
     {
-      "id": "9c401811673e",
-      "title": "【ポケカ】アビスアイの再販はいつ？再販入荷情報まとめ【10/8更新】",
-      "url": "https://snkrdunk.com/articles/32292/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-08T17:23:19.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/2fabe6bb-02dc-4a29-a0db-8ef4b478c06e.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "3878dfc9712c",
       "title": "宇宙は男のロマン♪ 世界宇宙週間2026♪【ポケモンGO】 Luis Arráez (kfWgFKuiSK)",
       "url": "https://media.unisba.ac.id/660799cc/aa44cab8PWsc2mcCCmQ",
@@ -1550,27 +1567,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "21b7ce5b7f9c",
-      "title": "ポケモンユナイト公式 (@poke_unite_jp) on X",
-      "url": "https://t.co/UCRqCEsmDf",
-      "host": "t.co",
-      "source": "Howl.link",
-      "summary": "",
-      "publishedAt": "2026-10-08T13:00:01.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2163,7 +2159,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cd35024adaa9",
@@ -2281,27 +2277,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "67bf8877313a",
-      "title": "ラッコポケモン「ミジュマル」三重県を応援、波に乗る ファンはメロメロ、コラボ企画の効果は抜群だ！",
-      "url": "https://www.chunichi.co.jp/article/1322393",
-      "host": "chunichi.co.jp",
-      "source": "中日新聞Web",
-      "summary": "",
-      "publishedAt": "2026-10-08T06:00:00.000Z",
-      "image": "https://static.chunichi.co.jp/image/article/size1/7/0/5/3/70534d544a44c6b1405183be57924455_1.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3445,27 +3420,6 @@
       ],
       "series": [
         "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "49d0ecfb8152",
-      "title": "【Switch2】『ぽこ あ ポケモン＋エキスパンションパス』が10/29発売。店舗限定のサコッシュやメタモンコースター特典をチェック",
-      "url": "https://dengekionline.com/article/202610/90096",
-      "host": "dengekionline.com",
-      "source": "電撃オンライン",
-      "summary": "",
-      "publishedAt": "2026-10-06T05:05:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/90096/ogp_rSsD.jpg?x=1280",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
