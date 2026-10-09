@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-09T21:00:15.912Z",
+  "updatedAt": "2026-10-09T21:30:14.116Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 150,
+  "total": 149,
   "todayCount": 14,
   "categories": [
     {
@@ -17,7 +17,7 @@
     {
       "id": "update",
       "label": "アップデート",
-      "count": 2
+      "count": 3
     },
     {
       "id": "event",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 18
+      "count": 17
     },
     {
       "id": "media",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 52
+      "count": 51
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 29
+      "count": 30
     },
     {
       "id": "tcg",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 13
+      "count": 12
     },
     {
       "id": "sleep",
@@ -94,22 +94,22 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 36
+      "count": 35
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "ゲームウィズ",
-      "count": 25
+      "count": 24
     },
     {
       "name": "GameWith",
-      "count": 20
+      "count": 22
     },
     {
       "name": "YouTube",
-      "count": 16
+      "count": 15
     },
     {
       "name": "SNKRDUNK",
@@ -201,10 +201,6 @@
     },
     {
       "name": "コラボカフェ",
-      "count": 1
-    },
-    {
-      "name": "gamebiz【ゲームビズ】",
       "count": 1
     },
     {
@@ -477,8 +473,8 @@
       "image": "https://www.inside-games.jp/imgs/rss/1792355.jpg",
       "leadSource": "インサイド",
       "publishedAt": "2026-10-09T08:20:03.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
+      "sourceCount": 3,
+      "articleCount": 3,
       "categories": [
         "biz",
         "goodscat"
@@ -489,13 +485,6 @@
         "物質"
       ],
       "articles": [
-        {
-          "title": "ポケモン、アレルギー物質29品目を使用せずに仕上げた『ライスクッキー Pokemon Yurutto いちご味』をポケモンセンターで発売",
-          "url": "https://gamebiz.jp/news/433894",
-          "source": "gamebiz【ゲームビズ】",
-          "publishedAt": "2026-10-09T07:57:00.000Z",
-          "isPR": false
-        },
         {
           "title": "【ポケモン】カナヘイ氏のイラストを使ったグルテンフリーのクッキーが10月17日発売アレルギー物質29品目を使わずに仕上げたやさしい味わい",
           "url": "https://game.watch.impress.co.jp/docs/news/2147177.html",
@@ -570,7 +559,7 @@
         {
           "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
-          "source": "ゲームウィズ",
+          "source": "GameWith",
           "publishedAt": "2026-10-09T09:58:17.000Z",
           "isPR": false
         },
@@ -860,12 +849,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-09T20:30:17.612Z",
-    "previousCount": 151,
-    "newCount": 3
+    "previousAt": "2026-10-09T21:00:15.912Z",
+    "previousCount": 150,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-09T21:30:15.912Z",
+  "nextUpdateAt": "2026-10-09T22:00:14.116Z",
   "items": [
     {
       "id": "bced5aa90687",
@@ -886,7 +875,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "55e5467c096b",
@@ -1308,7 +1297,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9c401811673e",
@@ -1652,7 +1641,7 @@
       "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
       "host": "gamewith.jp",
-      "source": "ゲームウィズ",
+      "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-09T09:58:17.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
@@ -2033,7 +2022,7 @@
       "source": "UMKテレビ宮崎",
       "summary": "",
       "publishedAt": "2026-10-09T09:20:00.000Z",
-      "image": "https://www.umk.co.jp/news/img/2026100934888.jpg?20261010060033",
+      "image": "https://www.umk.co.jp/news/img/2026100934888.jpg?20261010063032",
       "categories": [
         "other"
       ],
@@ -2224,27 +2213,6 @@
       "image": "https://collabo-cafe.com/wp-content/uploads/pokemon-fashion-donki-big-kigurumi-parka-2026-main.jpg",
       "categories": [
         "other"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "bdc9d44be9f2",
-      "title": "ポケモン、アレルギー物質29品目を使用せずに仕上げた『ライスクッキー Pokemon Yurutto いちご味』をポケモンセンターで発売",
-      "url": "https://gamebiz.jp/news/433894",
-      "host": "gamebiz.jp",
-      "source": "gamebiz【ゲームビズ】",
-      "summary": "",
-      "publishedAt": "2026-10-09T07:57:00.000Z",
-      "image": "https://i3.gamebiz.jp/media/89a504eb-25e4-407e-897c-476363aa0755.jpg",
-      "categories": [
-        "goodscat"
       ],
       "series": [
         "goods"
@@ -2699,6 +2667,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "733d2c4cf18b",
+      "title": "【ポケモンGO】GOバトルリーグめくるめく記憶シーズンのスケジュールと調整内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/546090",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-09T01:10:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546090.png?date=1771993864",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9202ea85184a",
@@ -3612,27 +3601,6 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-10-07T09:00:17.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2867b80b559e",
-      "title": "【ポケモンユナイト】ヒールサポとサポメイジはどっちが強いのか答えます",
-      "url": "https://youtu.be/Qrfi1xWkSKE?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-07T08:03:24.000Z",
       "image": "",
       "categories": [
         "other"
