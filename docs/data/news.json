@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-09T19:30:18.802Z",
+  "updatedAt": "2026-10-09T20:00:18.525Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 150,
+  "total": 151,
   "todayCount": 10,
   "categories": [
     {
@@ -17,7 +17,7 @@
     {
       "id": "update",
       "label": "アップデート",
-      "count": 2
+      "count": 3
     },
     {
       "id": "event",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 42
+      "count": 43
     },
     {
       "id": "goodscat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 52
+      "count": 51
     }
   ],
   "series": [
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 29
+      "count": 30
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 41
     },
     {
       "id": "anime",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "ゲームウィズ",
-      "count": 23
+      "count": 25
     },
     {
       "name": "GameWith",
@@ -113,7 +113,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 12
+      "count": 13
     },
     {
       "name": "インサイド",
@@ -126,10 +126,6 @@
     {
       "name": "Yahoo!ニュース",
       "count": 6
-    },
-    {
-      "name": "AppMedia",
-      "count": 5
     },
     {
       "name": "ポケットモンスターオフィシャルサイト",
@@ -145,6 +141,10 @@
     },
     {
       "name": "ウォーカープラス",
+      "count": 3
+    },
+    {
+      "name": "AppMedia",
       "count": 3
     },
     {
@@ -533,6 +533,13 @@
       ],
       "articles": [
         {
+          "title": "【ポケポケ】金フレーム(金枠)の入手方法とトレード方法【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/559877",
+          "source": "ゲームウィズ",
+          "publishedAt": "2026-10-09T13:15:08.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
           "source": "GameWith",
@@ -568,10 +575,10 @@
           "isPR": false
         },
         {
-          "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
+          "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
           "source": "ゲームウィズ",
-          "publishedAt": "2026-10-09T09:58:15.000Z",
+          "publishedAt": "2026-10-09T09:58:12.000Z",
           "isPR": false
         },
         {
@@ -580,12 +587,83 @@
           "source": "GameWith",
           "publishedAt": "2026-10-09T09:58:11.000Z",
           "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "780ca96f34b4",
+      "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
+      "summary": "",
+      "url": "https://snkrdunk.com/articles/18862/",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
+      "leadSource": "SNKRDUNK",
+      "publishedAt": "2026-10-09T16:58:19.000Z",
+      "sourceCount": 2,
+      "articleCount": 9,
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "keywords": [
+        "ポケカ",
+        "更新",
+        "再販"
+      ],
+      "articles": [
+        {
+          "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
+          "url": "https://snkrdunk.com/articles/16466/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-09T16:24:35.000Z",
+          "isPR": false
         },
         {
-          "title": "【ポケポケ】テラパゴスexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/562183",
-          "source": "ゲームウィズ",
-          "publishedAt": "2026-10-09T09:58:09.000Z",
+          "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/9更新】",
+          "url": "https://snkrdunk.com/articles/33304/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-09T16:15:12.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】MEGAドリームexの当たりランキング/買取相場/封入率/レア別相場/値段まとめ",
+          "url": "https://snkrdunk.com/articles/29152/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-09T15:40:43.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク",
+          "url": "https://snkrdunk.com/articles/32425/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-09T13:44:54.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク",
+          "url": "https://snkrdunk.com/articles/32581/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-09T13:17:19.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】アビスアイの再販はいつ？再販入荷情報まとめ【10/8更新】",
+          "url": "https://snkrdunk.com/articles/32292/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-09T13:05:21.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】メガシンフォニアの再販はいつ？再販入荷情報まとめ【10/8更新】",
+          "url": "https://snkrdunk.com/articles/29706/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-09T03:23:11.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンカードゲーム MEGA 「30th CELEBRATION カードセット」各種の抽選販売について",
+          "url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-tokyobay/news/202610/000585.html",
+          "source": "ポケットモンスターオフィシャルサイト",
+          "publishedAt": "2026-10-08T07:29:15.000Z",
           "isPR": false
         }
       ]
@@ -779,62 +857,36 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "234788c3c066",
-      "title": "「東北の魅力を楽しんでほしい」ポケモンGO大規模イベント11月開催へ前回は74億円の経済効果 宮城",
-      "summary": "",
-      "url": "https://newsdig.tbs.co.jp/articles/gallery/2933598",
-      "image": "https://newsdig.ismcdn.jp/mwimgs/2/3/1200w/img_23ccf3e7980ecf0beb2617d2cfcae283102065.jpg",
-      "leadSource": "TBS NEWS DIG",
-      "publishedAt": "2026-10-08T06:53:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "event"
-      ],
-      "keywords": [
-        "イベント",
-        "月開催",
-        "前回"
-      ],
-      "articles": [
-        {
-          "title": "『ポケモン GO』大型イベント「ワイルドエリア」仙台で11月開催 前回「Fest」は経済効果74億円で市長＆知事感謝",
-          "url": "https://www.fukuishimbun.co.jp/articles/dkan-gallery/2695189",
-          "source": "福井新聞社",
-          "publishedAt": "2026-10-07T02:34:21.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-09T19:00:18.066Z",
+    "previousAt": "2026-10-09T19:30:18.802Z",
     "previousCount": 150,
-    "newCount": 2
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-09T20:00:18.802Z",
+  "nextUpdateAt": "2026-10-09T20:30:18.525Z",
   "items": [
     {
-      "id": "cd35024adaa9",
-      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
-      "url": "https://appmedia.jp/pokemonchampions/79639586",
-      "host": "appmedia.jp",
-      "source": "AppMedia",
+      "id": "780ca96f34b4",
+      "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
+      "url": "https://snkrdunk.com/articles/18862/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-10-09T18:24:31.000Z",
-      "image": "https://appmedia.jp/wp-content/uploads/2025/06/165232_gyqu0.webp",
+      "publishedAt": "2026-10-09T16:58:19.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
       "categories": [
-        "community"
+        "tcgcat"
       ],
-      "series": [],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "f6270760409f",
@@ -1156,6 +1208,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "45de1cd80e7c",
+      "title": "【ポケポケ】金フレーム(金枠)の入手方法とトレード方法【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559877",
+      "host": "gamewith.jp",
+      "source": "ゲームウィズ",
+      "summary": "",
+      "publishedAt": "2026-10-09T13:15:08.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559877.png?date=1777621111",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9c401811673e",
@@ -1537,14 +1610,14 @@
       "isNew": false
     },
     {
-      "id": "ac569876072f",
-      "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
+      "id": "96dede30191d",
+      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
       "host": "gamewith.jp",
       "source": "ゲームウィズ",
       "summary": "",
-      "publishedAt": "2026-10-09T09:58:15.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
+      "publishedAt": "2026-10-09T09:58:12.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
       "categories": [
         "tcgcat"
       ],
@@ -1604,7 +1677,7 @@
       "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
       "host": "gamewith.jp",
-      "source": "GameWith",
+      "source": "ゲームウィズ",
       "summary": "",
       "publishedAt": "2026-10-09T09:58:07.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
@@ -1901,7 +1974,7 @@
       "source": "UMKテレビ宮崎",
       "summary": "",
       "publishedAt": "2026-10-09T09:20:00.000Z",
-      "image": "https://www.umk.co.jp/news/img/2026100934888.jpg?20261010043037",
+      "image": "https://www.umk.co.jp/news/img/2026100934888.jpg?20261010050037",
       "categories": [
         "other"
       ],
@@ -2121,7 +2194,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d052ad4d8307",
@@ -2287,27 +2360,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "96dede30191d",
-      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-09T04:04:41.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2608,7 +2660,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "29cf83a33a47",
@@ -2630,6 +2682,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "733d2c4cf18b",
+      "title": "【ポケモンGO】GOバトルリーグめくるめく記憶シーズンのスケジュールと調整内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/546090",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-09T01:10:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546090.png?date=1771993864",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9202ea85184a",
@@ -3065,6 +3138,25 @@
       "series": [
         "unite"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "cd35024adaa9",
+      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
+      "url": "https://gamewith.jp/pokemon-champions/546477",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-08T09:18:28.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546477.png?date=1774602101",
+      "categories": [
+        "community"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3941,25 +4033,6 @@
       "series": [
         "sleep"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "55e5467c096b",
-      "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
-      "url": "https://appmedia.jp/pokemon_frlg/79776995",
-      "host": "appmedia.jp",
-      "source": "AppMedia",
-      "summary": "",
-      "publishedAt": "2026-10-06T19:58:53.000Z",
-      "image": "https://appmedia.jp/wp-content/uploads/2026/02/132043_ojxaf.webp",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
