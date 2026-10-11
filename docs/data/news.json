@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-11T09:00:14.892Z",
+  "updatedAt": "2026-10-11T09:30:15.764Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 138,
-  "todayCount": 45,
+  "total": 143,
+  "todayCount": 49,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 13
+      "count": 14
     },
     {
       "id": "update",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 33
+      "count": 35
     },
     {
       "id": "goodscat",
@@ -37,7 +37,7 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 6
+      "count": 7
     },
     {
       "id": "guide",
@@ -57,29 +57,29 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 50
+      "count": 53
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 18
+      "count": 20
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 29
+      "count": 28
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 32
+      "count": 34
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 4
+      "count": 5
     },
     {
       "id": "unite",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 29
+      "count": 30
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 37
+      "count": 36
     },
     {
       "name": "SNKRDUNK",
-      "count": 26
+      "count": 29
     },
     {
       "name": "YouTube",
@@ -113,7 +113,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 9
+      "count": 8
     },
     {
       "name": "ガジェット通信",
@@ -121,7 +121,19 @@
     },
     {
       "name": "GAME Watch",
+      "count": 5
+    },
+    {
+      "name": "インサイド",
       "count": 4
+    },
+    {
+      "name": "AppMedia",
+      "count": 4
+    },
+    {
+      "name": "山陽新聞",
+      "count": 3
     },
     {
       "name": "cinemacafe.net",
@@ -136,10 +148,6 @@
       "count": 3
     },
     {
-      "name": "インサイド",
-      "count": 3
-    },
-    {
       "name": "Unisba Media",
       "count": 3
     },
@@ -149,18 +157,6 @@
     },
     {
       "name": "Gamer",
-      "count": 2
-    },
-    {
-      "name": "山陽新聞",
-      "count": 2
-    },
-    {
-      "name": "AppMedia",
-      "count": 2
-    },
-    {
-      "name": "Nintendo DREAM WEB",
       "count": 2
     },
     {
@@ -205,6 +201,10 @@
     },
     {
       "name": "Howl.link",
+      "count": 1
+    },
+    {
+      "name": "Nintendo DREAM WEB",
       "count": 1
     },
     {
@@ -276,9 +276,9 @@
           "isPR": false
         },
         {
-          "title": "3COINS、ポケモン「赤・緑」30周年記念アイテムを本日10月10日に発売（GAME Watch）",
-          "url": "https://news.yahoo.co.jp/articles/82414ee4f5f9e98310e150679ca08a8b9db0a6b7",
-          "source": "Yahoo!ニュース",
+          "title": "3COINS、ポケモン「赤・緑」30周年記念アイテムを本日10月10日に発売",
+          "url": "https://game.watch.impress.co.jp/docs/news/2145537.html",
+          "source": "GAME Watch",
           "publishedAt": "2026-10-09T15:00:00.000Z",
           "isPR": false
         },
@@ -471,14 +471,14 @@
       "leadSource": "SNKRDUNK",
       "publishedAt": "2026-10-10T22:41:23.000Z",
       "sourceCount": 2,
-      "articleCount": 16,
+      "articleCount": 19,
       "categories": [
         "tcgcat",
         "other"
       ],
       "keywords": [
-        "ポケモンカード",
         "パック",
+        "ポケモンカード",
         "シングルトレカ"
       ],
       "articles": [
@@ -501,6 +501,13 @@
           "url": "https://snkrdunk.com/apparels/128178/used/51135365",
           "source": "SNKRDUNK",
           "publishedAt": "2026-10-10T22:04:41.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ミュウツー AR[SV2a 183/165](強化拡張パック「ポケモンカード151」)",
+          "url": "https://snkrdunk.com/apparels/128099/used/51251683",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-10T21:39:18.000Z",
           "isPR": false
         },
         {
@@ -530,12 +537,41 @@
           "source": "SNKRDUNK",
           "publishedAt": "2026-10-10T15:42:52.000Z",
           "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "c36517278d70",
+      "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携方法｜いつから？【ポケモンFRLG】",
+      "summary": "",
+      "url": "https://appmedia.jp/pokemon_frlg/79791953",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/02/133609_0oyjk.webp",
+      "leadSource": "AppMedia",
+      "publishedAt": "2026-10-10T16:15:35.000Z",
+      "sourceCount": 2,
+      "articleCount": 3,
+      "categories": [
+        "other",
+        "community"
+      ],
+      "keywords": [
+        "frlg",
+        "ファイアレッドリーフグリーン",
+        "ポケモンホーム"
+      ],
+      "articles": [
+        {
+          "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
+          "url": "https://gamewith.jp/pokemon-champions/546477",
+          "source": "GameWith",
+          "publishedAt": "2026-10-10T05:15:04.000Z",
+          "isPR": false
         },
         {
-          "title": "【PSA9】ピカチュウ [CLL 008/032](ポケモンカードゲーム Classic) 1枚のシングルトレカ通販｜スニダン",
-          "url": "https://snkrdunk.com/apparels/115274/used/51154305",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-10T13:11:14.000Z",
+          "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
+          "url": "https://appmedia.jp/pokemon_frlg/79776995",
+          "source": "AppMedia",
+          "publishedAt": "2026-10-09T18:56:46.000Z",
           "isPR": false
         }
       ]
@@ -707,44 +743,39 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "cae3f7b74b4d",
-      "title": "「ポケモンスリープ」と昭和西川コラボ寝具のラインナップまとめ。イーブイが大の字で眠る枕などが新登場",
-      "summary": "昭和西川は、Android/iOS用睡眠ゲームアプリ「Pokemon Sleep（ポケモンスリープ）」とコラボレーションした2026年秋冬アイテムを10月16日より順次発売する。",
-      "url": "https://game.watch.impress.co.jp/docs/news/2147078.html",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2147/078/1.jpg",
-      "leadSource": "GAME Watch",
-      "publishedAt": "2026-10-09T03:53:38.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "goodscat"
-      ],
-      "keywords": [
-        "ポケモンスリープ",
-        "イーブイ",
-        "コラボ"
-      ],
-      "articles": [
-        {
-          "title": "【画像】「ポケモンスリープ」と昭和西川コラボ寝具のラインナップまとめ。イーブイが大の字で眠る枕などが新登場 2/22",
-          "url": "https://news.livedoor.com/article/image_detail/32527009/?img_id",
-          "source": "ライブドアニュース",
-          "publishedAt": "2026-10-09T03:53:38.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-11T08:30:14.891Z",
-    "previousCount": 137,
-    "newCount": 12
+    "previousAt": "2026-10-11T09:00:14.892Z",
+    "previousCount": 138,
+    "newCount": 9
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-11T09:30:14.892Z",
+  "nextUpdateAt": "2026-10-11T10:00:15.764Z",
   "items": [
+    {
+      "id": "4763fae8c63f",
+      "title": "『ポケモン』×「GU」新作コラボにワクワク！“森でのポケモンとの暮らし”テーマのイーブイジャケット、カイリューTシャツなど全19種",
+      "url": "https://www.inside-games.jp/article/2026/10/11/189113.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "GUと『ポケモン』の新たなコラボが決定！​自然の色合いやアウトドア由来のディテールを取り入れたコレクション。",
+      "publishedAt": "2026-10-11T09:10:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/rss/1773350.jpg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "b44683d65935",
       "title": "「全部アタリで神」『ポケモン』新作フィギュア全6種のラインナップに「超かわいい」「オトナ買い確定」（マグミクス）",
@@ -753,7 +784,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-11T08:42:49.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261011-00380180-magmix-000-5-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261011-00380180-magmix-000-6-view.jpg?exp=10800",
       "categories": [
         "new",
         "goodscat"
@@ -785,7 +816,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3b87d882a5e",
@@ -1043,6 +1074,29 @@
       "isNew": false
     },
     {
+      "id": "b5b01d4b49eb",
+      "title": "ポケモン新作アニメ、2027年配信「ネギガナイトとピチューの冒険」 ディズニープラスでグローバル配信契約",
+      "url": "https://www.sanyonews.jp/article/1980177?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-11T00:59:26.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/e/9/2/8/e928b9de77d42f7473f56c37bb60bf9d_1.jpg",
+      "categories": [
+        "media",
+        "new"
+      ],
+      "series": [
+        "main",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "910b8394ad42",
       "title": "【ポケモンGO】わくわくPokémon GO Lab.大調査の開催期間と内容",
       "url": "https://pokemongo.gamewith.jp/article/show/580836",
@@ -1185,7 +1239,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "945e0a71b33a",
@@ -1372,6 +1426,27 @@
       "isNew": false
     },
     {
+      "id": "a37fd7a6aef6",
+      "title": "ミュウツー AR[SV2a 183/165](強化拡張パック「ポケモンカード151」)",
+      "url": "https://snkrdunk.com/apparels/128099/used/51251683",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-10T21:39:18.000Z",
+      "image": "https://snkrdunk.com/apparels/128099/used/51251683/opengraph-image?c19ad04227fce4cf",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0665d07546bb",
       "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
       "url": "https://www.famitsu.com/article/images/202609/88085/869491",
@@ -1448,25 +1523,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3233f892514d",
-      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-10T18:06:47.000Z",
-      "image": "",
-      "categories": [
-        "new"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1576,6 +1632,25 @@
       "isNew": false
     },
     {
+      "id": "c36517278d70",
+      "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携方法｜いつから？【ポケモンFRLG】",
+      "url": "https://appmedia.jp/pokemon_frlg/79791953",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-10-10T16:15:35.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/02/133609_0oyjk.webp",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "8223a5bcf8ac",
       "title": "【PSA10】モンジャラ AR[SV2a 178/165](強化拡張パック「ポケモンカード151」) 1枚のシングルトレカ通販｜スニダン",
       "url": "https://snkrdunk.com/apparels/128094/used/51198105?slide",
@@ -1677,6 +1752,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "2480390e1660",
+      "title": "【PSA10】エリカの招待 SR[SV2a 196/165](強化拡張パック「ポケモンカード151」) 1枚のシングルトレカ通販｜スニダン",
+      "url": "https://snkrdunk.com/apparels/128112/used/48636832",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-10T15:12:26.000Z",
+      "image": "https://snkrdunk.com/apparels/128112/used/48636832/opengraph-image?c19ad04227fce4cf",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -1721,7 +1817,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "21c3f7e6a637",
@@ -1803,7 +1899,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e5a87b75b37",
@@ -1887,7 +1983,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7ed1b0f66964",
@@ -1953,6 +2049,25 @@
       "isNew": false
     },
     {
+      "id": "eccfe87d5fc4",
+      "title": "ピカチュウ S [SV4a 236/190](ハイクラスパック「シャイニートレジャーex」)",
+      "url": "https://snkrdunk.com/apparels/160129/used/51202883",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-10T10:30:49.000Z",
+      "image": "https://snkrdunk.com/apparels/160129/used/51202883/opengraph-image?c19ad04227fce4cf",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9f671a8362f5",
       "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
       "url": "https://appmedia.jp/pokemonchampions/79917667",
@@ -1985,6 +2100,27 @@
         "community"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "76f9cb1222dc",
+      "title": "千葉ロッテ、『マリーンズオリジナルポケモンワッペンステッカー』付チケット発売へ 12球団が5月に「ポケモン30周年スペシャル企画」実施",
+      "url": "https://www.sanyonews.jp/article/1882670",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-10T08:23:26.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/3/d/c/3/3dc3473d92f66c7fab9fdd542123ba9f_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2026,27 +2162,6 @@
       ],
       "series": [
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "006023c6e248",
-      "title": "ふわふわ手触りのぬいぐるみ「ポケモン もこもこぷち」に、コイルとみがわりが10月中旬発売",
-      "url": "https://www.ndw.jp/pokemon-goods-261010-02/",
-      "host": "ndw.jp",
-      "source": "Nintendo DREAM WEB",
-      "summary": "",
-      "publishedAt": "2026-10-10T07:12:20.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261010-pokemongoods-00.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2235,7 +2350,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7f220966c051",
@@ -2487,6 +2602,25 @@
       "isNew": false
     },
     {
+      "id": "55e5467c096b",
+      "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
+      "url": "https://appmedia.jp/pokemon_frlg/79776995",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-10-09T18:56:46.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/02/132043_ojxaf.webp",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "fd2d487ab1c6",
       "title": "【PSA8以下】サンダーex SAR[SV2a 204/165](強化拡張パック「ポケモンカード151」) 1枚のシングルトレカ通販｜スニダン",
       "url": "https://snkrdunk.com/apparels/128120/used/51166794",
@@ -2573,13 +2707,13 @@
     },
     {
       "id": "0cfeb8e27002",
-      "title": "3COINS、ポケモン「赤・緑」30周年記念アイテムを本日10月10日に発売（GAME Watch）",
-      "url": "https://news.yahoo.co.jp/articles/82414ee4f5f9e98310e150679ca08a8b9db0a6b7",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "3COINS、ポケモン「赤・緑」30周年記念アイテムを本日10月10日に発売",
+      "url": "https://game.watch.impress.co.jp/docs/news/2145537.html",
+      "host": "game.watch.impress.co.jp",
+      "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-10-09T15:00:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261010-00000003-impgmw-000-1-view.jpg?exp=10800",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2145/537/002.jpg",
       "categories": [
         "other"
       ],
@@ -2848,7 +2982,7 @@
       "source": "UMKテレビ宮崎",
       "summary": "",
       "publishedAt": "2026-10-09T09:20:00.000Z",
-      "image": "https://www.umk.co.jp/news/img/2026101134899.jpg?20261011180037",
+      "image": "https://www.umk.co.jp/news/img/2026101134898.jpg?20261011183041",
       "categories": [
         "other"
       ],
@@ -2881,6 +3015,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "36f824a1e954",
+      "title": "5年間で1番使ってる神速ルカリオを使ってみた【ポケモンユナイト】【うさかず】",
+      "url": "https://youtu.be/217mhRb_6oQ?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-09T08:30:09.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1a90bc5a6ab4",
@@ -2941,7 +3096,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8686050e43a4",
@@ -2963,27 +3118,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "c0024920a51f",
-      "title": "仲間を信じて、諦めるな！ #ポケモンユナイト #ゲーム実況 #切り抜き",
-      "url": "https://youtu.be/MNmBZ5emwAM?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-09T07:33:47.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "82afdf5c1b76",
@@ -3263,27 +3397,6 @@
       "isNew": false
     },
     {
-      "id": "a1ef2392ac17",
-      "title": "【ポケモンGO】秋の遠足相棒といっしょの開催期間とボーナス",
-      "url": "https://pokemongo.gamewith.jp/article/show/578533",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-09T00:38:30.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578533.png?date=1790202598",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "6531b019829b",
       "title": "【ポケモンSV】最強ボーマンダレイドの対策とソロ攻略【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/493720",
@@ -3554,7 +3667,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d18f042e449d",
