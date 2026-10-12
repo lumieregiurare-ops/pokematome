@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-12T20:00:20.738Z",
+  "updatedAt": "2026-10-12T20:30:16.779Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 147,
+  "total": 149,
   "todayCount": 9,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 14
+      "count": 16
     },
     {
       "id": "update",
@@ -22,17 +22,17 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 6
+      "count": 8
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 55
+      "count": 54
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 13
+      "count": 14
     },
     {
       "id": "media",
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 26
+      "count": 27
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 55
+      "count": 54
     },
     {
       "id": "anime",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 7
+      "count": 8
     },
     {
       "id": "sleep",
@@ -101,19 +101,19 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 53
+      "count": 54
     },
     {
       "name": "SNKRDUNK",
-      "count": 17
-    },
-    {
-      "name": "山陽新聞",
-      "count": 14
+      "count": 16
     },
     {
       "name": "YouTube",
-      "count": 14
+      "count": 15
+    },
+    {
+      "name": "山陽新聞",
+      "count": 15
     },
     {
       "name": "インサイド",
@@ -121,10 +121,6 @@
     },
     {
       "name": "Howl.link",
-      "count": 3
-    },
-    {
-      "name": "ファミ通",
       "count": 3
     },
     {
@@ -145,6 +141,10 @@
     },
     {
       "name": "電ファミニコゲーマー",
+      "count": 2
+    },
+    {
+      "name": "ファミ通",
       "count": 2
     },
     {
@@ -173,6 +173,10 @@
     },
     {
       "name": "アニメ！アニメ！",
+      "count": 1
+    },
+    {
+      "name": "ファミ通.com",
       "count": 1
     },
     {
@@ -328,7 +332,7 @@
       "articleCount": 31,
       "categories": [
         "tcgcat",
-        "guide"
+        "event"
       ],
       "keywords": [
         "カード",
@@ -403,14 +407,15 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-10-12T09:09:26.000Z",
       "sourceCount": 2,
-      "articleCount": 6,
+      "articleCount": 7,
       "categories": [
-        "other"
+        "other",
+        "event"
       ],
       "keywords": [
         "ポケモンGO",
         "開催期間",
-        "pok"
+        "ボーナス"
       ],
       "articles": [
         {
@@ -439,6 +444,13 @@
           "url": "https://pokemongo.gamewith.jp/article/show/580836",
           "source": "GameWith",
           "publishedAt": "2026-10-12T02:14:33.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】ゾロアコミュニティデイの開催期間とボーナス",
+          "url": "https://pokemongo.gamewith.jp/article/show/577121",
+          "source": "GameWith",
+          "publishedAt": "2026-10-11T00:12:09.000Z",
           "isPR": false
         },
         {
@@ -600,12 +612,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-12T19:30:21.438Z",
-    "previousCount": 149,
-    "newCount": 9
+    "previousAt": "2026-10-12T20:00:20.738Z",
+    "previousCount": 147,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-12T20:30:20.738Z",
+  "nextUpdateAt": "2026-10-12T21:00:16.779Z",
   "items": [
     {
       "id": "4d556e741f86",
@@ -958,27 +970,6 @@
         "community"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0665d07546bb",
-      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202609/88085/869487",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-10-12T12:29:02.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a135007e7085979a7d5b41ce54c0e54d7.jpg?x=1280",
-      "categories": [
-        "community"
-      ],
-      "series": [
-        "main"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1357,28 +1348,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "96dede30191d",
-      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T09:28:55.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6bdf0e2fef54",
@@ -1504,7 +1474,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4592f13ac082",
@@ -1696,6 +1666,27 @@
       "isNew": false
     },
     {
+      "id": "0665d07546bb",
+      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202609/88085/869489",
+      "host": "famitsu.com",
+      "source": "ファミ通.com",
+      "summary": "",
+      "publishedAt": "2026-10-12T09:19:18.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/ae4bde0eb46b8f32ef4b4207f5344b4d4.jpg?x=1280",
+      "categories": [
+        "community"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "364f691000c7",
       "title": "【ポケモンGO】ポケエキサイティング(PokéXciting!)の開催期間とボーナス",
       "url": "https://pokemongo.gamewith.jp/article/show/564334",
@@ -1798,6 +1789,27 @@
       "isNew": false
     },
     {
+      "id": "d770709a8315",
+      "title": "【ポケモンユナイト】このゲームに物申しながらアンケートに答えるだけの動画【UNITE】",
+      "url": "https://youtu.be/sA8b6I8OV9o?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-12T08:38:24.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "39bc9384e693",
       "title": "【ダークルギア】スリープの種族値・進化情報【ポケモンXD】",
       "url": "https://appmedia.jp/pokemon_xd/79854353",
@@ -1814,7 +1826,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "046e0d44f105",
@@ -1939,7 +1951,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "089c28753cc6",
@@ -2000,6 +2012,27 @@
         "main",
         "tcg",
         "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "5d6af1f077c1",
+      "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
+      "url": "https://gamewith.jp/pokemon/574415",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-12T04:00:32.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "main"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2298,6 +2331,25 @@
       "isNew": false
     },
     {
+      "id": "27f729beed14",
+      "title": "「泊まれるモンスターボール」詳細発表 直径3メートルの球体が北海道・苫小牧に出現、好きなポケモンと就寝",
+      "url": "https://www.sanyonews.jp/article/1989013?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-11T22:43:02.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/3/7/b/d/37bd244460e4c05e0c36217da8f046b3_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "280d9ab9440d",
       "title": "『ポケットモンスター X・Y』が発売された日。ポケモンたちがすべて3D化し、ゲームを新たな次元へとシフトさせた作品。フェアリータイプも新登場【今日は何の日？】（ファミ通.com）",
       "url": "https://news.yahoo.co.jp/articles/c0e2ed775154bd2cde8544db52a1e47041b5aa0f",
@@ -2367,11 +2419,11 @@
     {
       "id": "1f2983186f52",
       "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/1998928",
+      "url": "https://www.sanyonews.jp/article/1998928?rct",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-10-11T18:32:06.000Z",
+      "publishedAt": "2026-10-11T18:15:38.000Z",
       "image": "https://static.sanyonews.jp/image/article/size1/7/7/1/7/77172319666dcdb13e27239d1887a75a_1.jpg",
       "categories": [
         "other"
@@ -2402,6 +2454,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "cd4c19dd821c",
+      "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-11T16:55:16.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579544.jpg?date=1791011513",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ba10aad1679b",
@@ -2486,7 +2560,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9be9b46f3bda",
@@ -2847,6 +2921,27 @@
       "isNew": false
     },
     {
+      "id": "a7beefbb0f78",
+      "title": "【ポケモンGO】ゾロアコミュニティデイの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/577121",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-11T00:12:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577121.png?date=1789508768",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e021b995defa",
       "title": "ポケモンカードに熱狂するセレブたち。キム・カーダシアンは1枚20万円を現金一括！【ピーチズのOM(F)G！】",
       "url": "https://www.elle.com/jp/culture/celebgossip/g74073794/pokemon-card-cerebritis-2610/",
@@ -3075,27 +3170,6 @@
       "isNew": false
     },
     {
-      "id": "d009f62022d1",
-      "title": "【PSA10】イーブイ AR [SV5a 078/066](強化拡張パック「クリムゾンヘイズ」) 1枚のシングルトレカ通販｜スニダン",
-      "url": "https://snkrdunk.com/apparels/224086/used/51231610",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-10T15:25:51.000Z",
-      "image": "https://snkrdunk.com/apparels/224086/used/51231610/opengraph-image?c19ad04227fce4cf",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "14b8dd467417",
       "title": "【PSA9】ミュウツーV SR[S10b 073/071](強化拡張パック「Pokemon GO」) 1枚のシングルトレカ通販｜スニダン",
       "url": "https://snkrdunk.com/apparels/96755/used/51203058",
@@ -3151,27 +3225,6 @@
         "event"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "5d6af1f077c1",
-      "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
-      "url": "https://gamewith.jp/pokemon/574415",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-10T13:05:17.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "main"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3385,27 +3438,6 @@
       "isNew": false
     },
     {
-      "id": "76f9cb1222dc",
-      "title": "千葉ロッテ、『マリーンズオリジナルポケモンワッペンステッカー』付チケット発売へ 12球団が5月に「ポケモン30周年スペシャル企画」実施",
-      "url": "https://www.sanyonews.jp/article/1882670",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-10T07:00:00.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/3/d/c/3/3dc3473d92f66c7fab9fdd542123ba9f_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "f1e361f7f1ac",
       "title": "山本美月、“ポケモン強者”の父とNY2人旅 『Pokémon GO』イベント会場で親子2ショット披露「なんて素敵」「お父さんもスタイル良い！」：山陽新聞デジタル｜さんデジ",
       "url": "https://www.sanyonews.jp/photo/detail?article_id",
@@ -3477,6 +3509,28 @@
       "image": "https://static.sanyonews.jp/image/article/size1/2/8/2/5/282567de829b1701da416d7630903feb_1.jpg",
       "categories": [
         "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "a06f0c6b5b7a",
+      "title": "【きょうから第2弾】ポケモン、コメダ珈琲店＆おかげ庵とコラボ 「豆菓子風チャーム」ほか限定グッズ発表＆“転売禁止”呼びかけ",
+      "url": "https://www.sanyonews.jp/article/1902780",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-10T07:00:00.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/8/0/7/5807e3a2331939ce874f395109187c2c_1.jpg",
+      "categories": [
+        "goodscat",
+        "new"
       ],
       "series": [
         "goods"
