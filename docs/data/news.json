@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T08:30:18.658Z",
+  "updatedAt": "2026-10-13T09:00:19.325Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 144,
-  "todayCount": 69,
+  "todayCount": 71,
   "categories": [
     {
       "id": "new",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 12
+      "count": 11
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 20
+      "count": 21
     },
     {
       "id": "community",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 10
+      "count": 11
     },
     {
       "id": "sleep",
@@ -117,7 +117,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 7
+      "count": 8
     },
     {
       "name": "ガジェット通信",
@@ -125,7 +125,7 @@
     },
     {
       "name": "インサイド",
-      "count": 5
+      "count": 4
     },
     {
       "name": "AppMedia",
@@ -156,6 +156,10 @@
       "count": 2
     },
     {
+      "name": "スポニチ Sponichi Annex",
+      "count": 1
+    },
+    {
       "name": "玩具人 TOY PEOPLE",
       "count": 1
     },
@@ -169,10 +173,6 @@
     },
     {
       "name": "電ファミニコゲーマー",
-      "count": 1
-    },
-    {
-      "name": "スポニチ Sponichi Annex",
       "count": 1
     },
     {
@@ -212,11 +212,11 @@
       "count": 1
     },
     {
-      "name": "BigGo ファイナンス",
+      "name": "Martin Cid Magazine",
       "count": 1
     },
     {
-      "name": "Martin Cid Magazine",
+      "name": "Infoseek",
       "count": 1
     },
     {
@@ -280,9 +280,9 @@
       "url": "https://news.denfaminicogamer.jp/news/2610132w",
       "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/imgi_45_logo-auc-1024x538.png",
       "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-10-13T07:56:35.000Z",
-      "sourceCount": 9,
-      "articleCount": 10,
+      "publishedAt": "2026-10-13T08:37:07.000Z",
+      "sourceCount": 10,
+      "articleCount": 12,
       "categories": [
         "tcgcat",
         "guide"
@@ -290,9 +290,23 @@
       "keywords": [
         "フリマ",
         "空箱",
-        "出品"
+        "禁止"
       ],
       "articles": [
+        {
+          "title": "ポケモンカード",
+          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/gazo/20261013s10041000233000p.html",
+          "source": "スポニチ Sponichi Annex",
+          "publishedAt": "2026-10-13T08:37:07.000Z",
+          "isPR": false
+        },
+        {
+          "title": "LINEヤフー、「Yahoo!フリマ」「Yahoo!オークション」にてポケモンカードのカートン、空箱・空パックおよび発売後一定期間における同一商品の大量出品を禁止（HOBBY Watch）",
+          "url": "https://news.yahoo.co.jp/articles/f11a9d4224d700909b341877159bd203f5fe9981",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-13T08:31:00.000Z",
+          "isPR": false
+        },
         {
           "title": "「Yahoo!フリマ」「Yahoo!オークション」、ポケモンカードのカートン単位や空箱の出品禁止",
           "url": "https://www.tsuhannews.jp/news/detail/75997",
@@ -333,20 +347,6 @@
           "url": "https://www.famitsu.com/article/202610/90817",
           "source": "ファミ通",
           "publishedAt": "2026-10-13T06:32:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【LINEヤフー】ポケモンカードゲームの適正な取引環境の実現に向け、ポケモンと連携した取り組みを実施",
-          "url": "https://prtimes.jp/main/html/rd/p/000001821.000129774.html",
-          "source": "PR TIMES",
-          "publishedAt": "2026-10-13T06:17:39.000Z",
-          "isPR": true
-        },
-        {
-          "title": "LINEヤフー、ポケカのカートン単位の出品や空箱・空パックの出品、発売後一定期間での大量出品をフリマやオークションで禁止に",
-          "url": "https://gamebiz.jp/news/433963",
-          "source": "gamebiz【ゲームビズ】",
-          "publishedAt": "2026-10-13T06:12:00.000Z",
           "isPR": false
         }
       ]
@@ -403,7 +403,7 @@
       "leadSource": "SNKRDUNK",
       "publishedAt": "2026-10-13T00:26:52.000Z",
       "sourceCount": 3,
-      "articleCount": 16,
+      "articleCount": 15,
       "categories": [
         "tcgcat",
         "guide"
@@ -457,40 +457,48 @@
           "isPR": false
         },
         {
+          "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
+          "source": "GameWith",
+          "publishedAt": "2026-10-12T15:24:09.000Z",
+          "isPR": false
+        },
+        {
           "title": "【色違いキタ！】課金なし開封動画 ポケポケ#240 #ポケモンカード #ポケカ #shorts #pokemoncards #pokemon #ar#ex",
           "url": "https://youtu.be/BTXS3iFArwI?si",
           "source": "YouTube",
           "publishedAt": "2026-10-12T14:43:33.000Z",
           "isPR": false
-        },
-        {
-          "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
-          "source": "GameWith",
-          "publishedAt": "2026-10-12T12:53:28.000Z",
-          "isPR": false
         }
       ]
     },
     {
-      "id": "85ce70616fa7",
-      "title": "『Pokémon UNITE（ポケモンユナイト）』にサンダースとブースターが10月13日（火）より参戦！",
+      "id": "d0bb7bd11637",
+      "title": "【ポケモンユナイト】ブースターの評価と持ち物や技構成のおすすめ｜対策方法【UNITE】",
       "summary": "",
-      "url": "https://www.pokemonunite.jp/ja/topics/news/20261013/",
-      "image": "https://www.pokemonunite.jp/wp-content/themes/p-unite/ogp.png",
-      "leadSource": "ポケモンユナイト",
-      "publishedAt": "2026-10-13T07:04:23.000Z",
+      "url": "https://gamewith.jp/pokemon-unite/article/show/579347",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579347.png?date=1791878422",
+      "leadSource": "GameWith",
+      "publishedAt": "2026-10-13T08:00:21.000Z",
       "sourceCount": 3,
-      "articleCount": 3,
+      "articleCount": 4,
       "categories": [
-        "other",
-        "update"
+        "guide",
+        "other"
       ],
       "keywords": [
         "ポケモンユナイト",
-        "unite"
+        "unite",
+        "ブースター"
       ],
       "articles": [
+        {
+          "title": "『Pokémon UNITE（ポケモンユナイト）』にサンダースとブースターが10月13日（火）より参戦！",
+          "url": "https://www.pokemonunite.jp/ja/topics/news/20261013/",
+          "source": "ポケモンユナイト",
+          "publishedAt": "2026-10-13T07:04:23.000Z",
+          "isPR": false
+        },
         {
           "title": "【ポケモンユナイト】10月13日の調整内容まとめ｜アプデ詳細【UNITE】",
           "url": "https://gamewith.jp/pokemon-unite/article/show/582565",
@@ -544,14 +552,14 @@
       ]
     },
     {
-      "id": "f0f52637b6bb",
-      "title": "『ポケモンGO 』新ワザ取得の「メガライボルト」&初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ",
-      "summary": "『ポケモンGO』に「アノクサ」が初登場！",
-      "url": "https://www.inside-games.jp/article/2026/10/13/189145.html",
-      "image": "https://www.inside-games.jp/imgs/rss/1792697.jpg",
-      "leadSource": "インサイド",
+      "id": "46f87e011a8a",
+      "title": "【ポケモンGO】相棒ポケモンでレイドバトルを行う(イベント)の報酬",
+      "summary": "",
+      "url": "https://pokemongo.gamewith.jp/article/show/563151",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1792697.jpg",
+      "leadSource": "GameWith",
       "publishedAt": "2026-10-12T22:08:07.000Z",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "articleCount": 3,
       "categories": [
         "event",
@@ -564,10 +572,17 @@
       ],
       "articles": [
         {
-          "title": "【ポケモンGO】相棒ポケモンでレイドバトルを行う(イベント)の報酬",
-          "url": "https://pokemongo.gamewith.jp/article/show/563151",
-          "source": "GameWith",
-          "publishedAt": "2026-10-12T22:08:07.000Z",
+          "title": "新ワザ取得の「メガライボルト」&初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ【ポケモンGO 秋田局】",
+          "url": "https://www.inside-games.jp/article/2026/10/13/189145.html",
+          "source": "インサイド",
+          "publishedAt": "2026-10-12T15:00:03.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモンGO 』新ワザ取得の「メガライボルト」&初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ",
+          "url": "https://news.infoseek.co.jp/topics/inside_189145/",
+          "source": "Infoseek",
+          "publishedAt": "2026-10-12T15:00:00.000Z",
           "isPR": false
         }
       ]
@@ -594,33 +609,6 @@
           "url": "https://youtu.be/Tgm9-FyUH48?si",
           "source": "YouTube",
           "publishedAt": "2026-10-12T08:22:06.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "01c2f2ce0d95",
-      "title": "「ポケモンカード」リユース品を低価格で放出 京都・乙訓地域の環境衛生組合がリサイクルフェア",
-      "summary": "",
-      "url": "https://www.kyoto-np.co.jp/articles/-/1805521",
-      "image": "https://kyoto-np.ismcdn.jp/mwimgs/d/a/1200wm/img_da7d45ba5e302353cdb3662c1702239e360641.jpg",
-      "leadSource": "京都新聞デジタル",
-      "publishedAt": "2026-10-13T08:00:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "keywords": [
-        "ポケモンカード"
-      ],
-      "articles": [
-        {
-          "title": "ポケモンカード",
-          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/gazo/20261013s10041000233000p.html",
-          "source": "スポニチ Sponichi Annex",
-          "publishedAt": "2026-10-13T07:14:36.000Z",
           "isPR": false
         }
       ]
@@ -655,13 +643,56 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-13T08:00:15.737Z",
-    "previousCount": 142,
-    "newCount": 12
+    "previousAt": "2026-10-13T08:30:18.658Z",
+    "previousCount": 144,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-13T09:00:18.658Z",
+  "nextUpdateAt": "2026-10-13T09:30:19.325Z",
   "items": [
+    {
+      "id": "885f3ee5b69b",
+      "title": "ポケモンカード",
+      "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/gazo/20261013s10041000233000p.html",
+      "host": "sponichi.co.jp",
+      "source": "スポニチ Sponichi Annex",
+      "summary": "",
+      "publishedAt": "2026-10-13T08:37:07.000Z",
+      "image": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/jpeg/20261013s10041000233000p_view.webp",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "1df8f45b047a",
+      "title": "LINEヤフー、「Yahoo!フリマ」「Yahoo!オークション」にてポケモンカードのカートン、空箱・空パックおよび発売後一定期間における同一商品の大量出品を禁止（HOBBY Watch）",
+      "url": "https://news.yahoo.co.jp/articles/f11a9d4224d700909b341877159bd203f5fe9981",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-13T08:31:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261013-00000025-imphbw-000-1-view.jpg?exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "e8971bc74329",
       "title": "タカラトミーアーツ「ポケモン みんなのリザードン」がカプセルトイで登場！ピカチュウ＆ヒトカゲを背中に乗せて楽しめる",
@@ -675,6 +706,27 @@
         "other"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d0bb7bd11637",
+      "title": "【ポケモンユナイト】ブースターの評価と持ち物や技構成のおすすめ｜対策方法【UNITE】",
+      "url": "https://gamewith.jp/pokemon-unite/article/show/579347",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T08:00:21.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579347.png?date=1791878422",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "unite"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -701,7 +753,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "74ccb910cb33",
@@ -761,27 +813,6 @@
       "series": [
         "tcg",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "885f3ee5b69b",
-      "title": "ポケモンカード",
-      "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/gazo/20261013s10041000233000p.html",
-      "host": "sponichi.co.jp",
-      "source": "スポニチ Sponichi Annex",
-      "summary": "",
-      "publishedAt": "2026-10-13T07:14:36.000Z",
-      "image": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/jpeg/20261013s10041000233000p_view.webp",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -981,6 +1012,46 @@
       "isNew": false
     },
     {
+      "id": "4d556e741f86",
+      "title": "【ポケモンチャンピオンズ】セグレイブの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/574625",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:22:42.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574625.png?date=1788429878",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "ff26d002baa4",
+      "title": "【ポケモンチャンピオンズ】ゴリランダーの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/574661",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:21:58.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574661.png?date=1788429832",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "66afe3c4ce62",
       "title": "【ポケモンチャンピオンズ】メガガブリアスZの育成論と対策・パーティ",
       "url": "https://gamewith.jp/pokemon-champions/574491",
@@ -989,6 +1060,46 @@
       "summary": "",
       "publishedAt": "2026-10-13T06:20:55.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574491.png?date=1788430403",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4891421959cc",
+      "title": "【ポケモンチャンピオンズ】メガグソクムシャの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/575652",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:19:52.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575652.png?date=1788944336",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "2a3c735dda14",
+      "title": "【ポケモンチャンピオンズ】メガセグレイブの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/575651",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:19:52.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575651.png?date=1788945660",
       "categories": [
         "guide",
         "community"
@@ -1056,6 +1167,27 @@
       "categories": [
         "guide",
         "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "a1ef2392ac17",
+      "title": "【ポケモンGO】秋の遠足相棒といっしょの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/578533",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T05:40:22.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578533.png?date=1790202598",
+      "categories": [
+        "other"
       ],
       "series": [
         "go"
@@ -1151,6 +1283,26 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c902cbc90842",
+      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
+      "url": "https://gamewith.jp/pokemon-champions/546413",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T04:18:12.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3382932a4aaf",
@@ -1314,7 +1466,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "89872b13ddd3",
@@ -1369,7 +1521,7 @@
       "source": "カードラボ",
       "summary": "",
       "publishedAt": "2026-10-13T01:52:35.000Z",
-      "image": "https://www.c-labo.jp/wordpress/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6.jpg",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -1400,106 +1552,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "39b4bfaa7ca7",
-      "title": "【ポケモンチャンピオンズ】グソクムシャの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575014",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-13T01:42:50.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575014.png?date=1788429985",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2a3c735dda14",
-      "title": "【ポケモンチャンピオンズ】メガセグレイブの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575651",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-13T01:40:52.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575651.png?date=1788945660",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4fabd443105f",
-      "title": "【ポケモンチャンピオンズ】ネギガナイトの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575636",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-13T01:40:48.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575636.png?date=1788945004",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4891421959cc",
-      "title": "【ポケモンチャンピオンズ】メガグソクムシャの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/575652",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-13T01:34:43.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575652.png?date=1788944336",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4d556e741f86",
-      "title": "【ポケモンチャンピオンズ】セグレイブの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/574625",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-13T01:34:29.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574625.png?date=1788429878",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -1516,27 +1568,6 @@
         "community"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a1ef2392ac17",
-      "title": "【ポケモンGO】秋の遠足相棒といっしょの開催期間とボーナス",
-      "url": "https://pokemongo.gamewith.jp/article/show/578533",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-13T01:18:55.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578533.png?date=1790202598",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1649,7 +1680,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c378bec763fb",
@@ -1712,7 +1743,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b66f414d563a",
@@ -1857,7 +1888,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cd4c19dd821c",
@@ -1924,27 +1955,6 @@
       "isNew": false
     },
     {
-      "id": "aa569747faba",
-      "title": "Beats、ポケモンとのコラボでピカチュウデザインの「Pill」スピーカーを予告",
-      "url": "https://finance.biggo.jp/news/e76f6ea3-ea74-4c74-8500-ac72f245c993",
-      "host": "finance.biggo.jp",
-      "source": "BigGo ファイナンス",
-      "summary": "",
-      "publishedAt": "2026-10-12T18:31:00.000Z",
-      "image": "https://img.biggo.com/NAu3WpxIhmPKsfTUZm8Kj54Mu3pGImjcLD2-pr9wY64/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTEwL2U3NmY2ZWEzLWVhNzQtNGM3NC04NTAwLWFjNzJmMjQ1Yzk5M18xNzkxODMyMjU2X2RlZmF1bHQuanBn.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7b64456f31dc",
       "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
       "url": "https://www.sanyonews.jp/article/2002539",
@@ -2003,7 +2013,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5648da5d17a5",
@@ -2069,14 +2079,35 @@
       "isNew": false
     },
     {
-      "id": "f0f52637b6bb",
-      "title": "『ポケモンGO 』新ワザ取得の「メガライボルト」&初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ",
+      "id": "3f4e3bd3edff",
+      "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-12T15:24:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564725.png?date=1784813440",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "20495a8699c0",
+      "title": "新ワザ取得の「メガライボルト」&初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ【ポケモンGO 秋田局】",
       "url": "https://www.inside-games.jp/article/2026/10/13/189145.html",
       "host": "inside-games.jp",
       "source": "インサイド",
-      "summary": "『ポケモンGO』に「アノクサ」が初登場！",
+      "summary": "",
       "publishedAt": "2026-10-12T15:00:03.000Z",
-      "image": "https://www.inside-games.jp/imgs/rss/1792697.jpg",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1792697.jpg",
       "categories": [
         "other"
       ],
@@ -2090,14 +2121,14 @@
       "isNew": false
     },
     {
-      "id": "20495a8699c0",
-      "title": "新ワザ取得の「メガライボルト」&初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ【ポケモンGO 秋田局】",
-      "url": "https://www.inside-games.jp/article/2026/10/13/189145.html",
-      "host": "inside-games.jp",
-      "source": "インサイド",
+      "id": "f0f52637b6bb",
+      "title": "『ポケモンGO 』新ワザ取得の「メガライボルト」&初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ",
+      "url": "https://news.infoseek.co.jp/topics/inside_189145/",
+      "host": "news.infoseek.co.jp",
+      "source": "Infoseek",
       "summary": "",
-      "publishedAt": "2026-10-12T15:00:03.000Z",
-      "image": "https://www.inside-games.jp/imgs/ogp_f/1792697.jpg",
+      "publishedAt": "2026-10-12T15:00:00.000Z",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/inside/inside_189145_0-enlarge.jpg",
       "categories": [
         "other"
       ],
@@ -2216,27 +2247,6 @@
       "isNew": false
     },
     {
-      "id": "397da41a59f2",
-      "title": "【ポケポケ】デュアルタイプとは？【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/574423",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T11:58:04.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574423.png?date=1788139354",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b574cfe388f0",
       "title": "『ポケモンGO』新技習得で高回転&害悪！超強力技も優秀なシャドウボスゴドラ【メガスーパーリーグ】 #ポケモン #ポケモンGO #pokemon #pokemongo #ゲーム実況 #ゲーム",
       "url": "https://youtu.be/KW4yhxin8FM?si",
@@ -2299,7 +2309,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fb8d5f4a4980",
@@ -2328,7 +2338,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-12T10:12:50.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261012-pokemongoods-00.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2414,27 +2424,6 @@
       "summary": "",
       "publishedAt": "2026-10-12T09:28:49.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "07068a774ad8",
-      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T09:28:49.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
       "categories": [
         "tcgcat"
       ],
@@ -2981,7 +2970,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9be9b46f3bda",
@@ -3380,7 +3369,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4236558b06dd",
@@ -3652,7 +3641,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "de7c4eb94c5b",
