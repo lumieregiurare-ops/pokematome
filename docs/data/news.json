@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-13T03:30:17.729Z",
+  "updatedAt": "2026-10-13T04:00:16.795Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 146,
-  "todayCount": 38,
+  "total": 148,
+  "todayCount": 42,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 18
+      "count": 19
     },
     {
       "id": "update",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 54
+      "count": 55
     },
     {
       "id": "goodscat",
@@ -57,29 +57,29 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 45
+      "count": 46
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 12
+      "count": 13
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 26
+      "count": 27
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 53
+      "count": 54
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 3
+      "count": 4
     },
     {
       "id": "unite",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 47
+      "count": 46
     },
     {
       "name": "YouTube",
@@ -109,11 +109,11 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 16
+      "count": 17
     },
     {
       "name": "山陽新聞",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Yahoo!ニュース",
@@ -173,6 +173,10 @@
     },
     {
       "name": "ニコニコニュース",
+      "count": 1
+    },
+    {
+      "name": "ウォーカープラス",
       "count": 1
     },
     {
@@ -313,18 +317,18 @@
       ]
     },
     {
-      "id": "7b64456f31dc",
-      "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
+      "id": "57496fb3e454",
+      "title": "ポケモン新作映画、主人公の名前発表 映像＆場面カット解禁で史上初のポケカ題材作品",
       "summary": "",
-      "url": "https://www.sanyonews.jp/article/2002539",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
       "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
       "leadSource": "山陽新聞",
-      "publishedAt": "2026-10-12T18:25:42.000Z",
+      "publishedAt": "2026-10-12T20:39:20.000Z",
       "sourceCount": 2,
-      "articleCount": 4,
+      "articleCount": 5,
       "categories": [
-        "other",
-        "new"
+        "new",
+        "tcgcat"
       ],
       "keywords": [
         "カット",
@@ -332,6 +336,13 @@
         "解禁"
       ],
       "articles": [
+        {
+          "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
+          "url": "https://www.sanyonews.jp/article/2002539",
+          "source": "山陽新聞",
+          "publishedAt": "2026-10-12T18:25:42.000Z",
+          "isPR": false
+        },
         {
           "title": "『ポケモン』リコ、ポケモンコンテスト出場！衣装公開 衝撃の第147話あらすじ＆場面カット解禁",
           "url": "https://www.sanyonews.jp/article/1975930?rct",
@@ -449,12 +460,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-13T03:00:16.936Z",
-    "previousCount": 145,
-    "newCount": 10
+    "previousAt": "2026-10-13T03:30:17.729Z",
+    "previousCount": 146,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-13T04:00:17.729Z",
+  "nextUpdateAt": "2026-10-13T04:30:16.795Z",
   "items": [
     {
       "id": "954219e7ff90",
@@ -475,7 +486,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "75f1a37d6afb",
@@ -520,6 +531,25 @@
       "isNew": false
     },
     {
+      "id": "9a03c8812b3e",
+      "title": "“ポケモン”を御殿場プレミアム・アウトレットでゲット",
+      "url": "https://www.walkerplus.com/trend/matome/article/61280/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-10-13T02:16:30.000Z",
+      "image": "https://news.walkerplus.com/article/61280/341314_615.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "89872b13ddd3",
       "title": "『Pokémon GO』ルート完了で「ジガルデ・セル」を受け取れるように！ コンパスと天候アイコンも統合",
       "url": "https://www.appbank.net/2026/10/13/game/3129083.php",
@@ -527,7 +557,7 @@
       "source": "AppBank",
       "summary": "",
       "publishedAt": "2026-10-13T02:15:49.000Z",
-      "image": "",
+      "image": "https://www.appbank.net/wp-content/uploads/2026/10/20261012_125552_895_02.webp",
       "categories": [
         "other"
       ],
@@ -557,6 +587,67 @@
         "main",
         "sleep",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "39b4bfaa7ca7",
+      "title": "【ポケモンチャンピオンズ】グソクムシャの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/575014",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T01:42:50.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575014.png?date=1788429985",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4891421959cc",
+      "title": "【ポケモンチャンピオンズ】メガグソクムシャの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/575652",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T01:34:43.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575652.png?date=1788944336",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "a1ef2392ac17",
+      "title": "【ポケモンGO】秋の遠足相棒といっしょの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/578533",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T01:18:55.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578533.png?date=1790202598",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -604,6 +695,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "b66f414d563a",
+      "title": "【ポケカ】エーフィex SAR仕様の買取・相場価格と値段推移｜30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+      "url": "https://snkrdunk.com/articles/32484/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-13T01:07:38.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/36f42531-f6c6-4477-b822-b15cccc7a576.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -624,7 +736,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f816c4e5040a",
@@ -690,27 +802,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "a1ef2392ac17",
-      "title": "【ポケモンGO】秋の遠足相棒といっしょの開催期間とボーナス",
-      "url": "https://pokemongo.gamewith.jp/article/show/578533",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T23:31:22.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578533.png?date=1790202598",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -767,7 +858,7 @@
       "source": "AppBank",
       "summary": "",
       "publishedAt": "2026-10-12T23:15:49.000Z",
-      "image": "",
+      "image": "https://www.appbank.net/wp-content/uploads/2026/10/20261012_124850_604_18.webp",
       "categories": [
         "new"
       ],
@@ -903,6 +994,51 @@
       "isNew": false
     },
     {
+      "id": "240cef3c49bf",
+      "title": "【ポケモンGO】ワイルドエリア2026グローバルの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/575992",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-12T21:11:14.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575992.png?date=1789015513",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "57496fb3e454",
+      "title": "ポケモン新作映画、主人公の名前発表 映像＆場面カット解禁で史上初のポケカ題材作品",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-12T20:39:20.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "tcgcat"
+      ],
+      "series": [
+        "main",
+        "tcg",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "010ef8485ba6",
       "title": "『ポケモン』全1025匹をTシャツ化でネット衝撃「お金が足りん…！」",
       "url": "https://www.sanyonews.jp/photo/detail?article_id",
@@ -978,26 +1114,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "39b4bfaa7ca7",
-      "title": "【ポケモンチャンピオンズ】グソクムシャの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575014",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T18:38:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575014.png?date=1788429985",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1182,26 +1298,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4891421959cc",
-      "title": "【ポケモンチャンピオンズ】メガグソクムシャの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/575652",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T15:34:13.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575652.png?date=1788944336",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1627,7 +1723,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6bdf0e2fef54",
@@ -1714,27 +1810,6 @@
       "isNew": false
     },
     {
-      "id": "01aec2cb5691",
-      "title": "【ポケポケ】テツノブジンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562225",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T09:28:49.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562225.png?date=1779967944",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "4152aafc81a1",
       "title": "【ポケポケ】メガヤミラミexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565899",
@@ -1753,17 +1828,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
-      "id": "0c36a702358d",
-      "title": "【ポケポケ】こいぬまみれデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565901",
+      "id": "64209e90cd0b",
+      "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-12T09:28:46.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565901.png?date=1782796990",
+      "publishedAt": "2026-10-12T09:28:48.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
       "categories": [
         "tcgcat"
       ],
@@ -1774,7 +1849,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "1909f74d0bb3",
@@ -2074,32 +2149,11 @@
       "source": "AppBank",
       "summary": "",
       "publishedAt": "2026-10-12T08:00:57.000Z",
-      "image": "",
+      "image": "https://www.appbank.net/wp-content/uploads/2026/10/20261012_111933_183_02.webp",
       "categories": [
         "event"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "240cef3c49bf",
-      "title": "【ポケモンGO】ワイルドエリア2026グローバルの開催期間とボーナス",
-      "url": "https://pokemongo.gamewith.jp/article/show/575992",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T07:15:18.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575992.png?date=1789015513",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2274,7 +2328,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "637be00f9901",
@@ -2588,7 +2642,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9be9b46f3bda",
@@ -2821,25 +2875,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "c4c10b503307",
-      "title": "【ポケモン】メスガキと目が合ったトレーナーは…",
-      "url": "https://youtu.be/IArtRb0hPm8?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-11T02:15:25.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "344a6456b837",
@@ -3278,6 +3313,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "d68be1054535",
+      "title": "シンプル最高!!! 神イベでした!!【ポケモンGO】",
+      "url": "https://youtu.be/uAYJiPWp9Q4?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-10T09:55:04.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "de7c4eb94c5b",
