@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-13T10:30:18.676Z",
+  "updatedAt": "2026-10-13T11:00:16.233Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 139,
-  "todayCount": 75,
+  "total": 141,
+  "todayCount": 76,
   "categories": [
     {
       "id": "new",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 8
+      "count": 9
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 49
+      "count": 48
     },
     {
       "id": "goodscat",
@@ -57,29 +57,29 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 46
+      "count": 48
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 10
+      "count": 12
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 27
+      "count": 28
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 48
+      "count": 47
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 2
+      "count": 3
     },
     {
       "id": "unite",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 30
+      "count": 29
     }
   ],
   "weapons": [],
@@ -113,7 +113,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Yahoo!ニュース",
@@ -168,7 +168,15 @@
       "count": 2
     },
     {
+      "name": "日本経済新聞",
+      "count": 1
+    },
+    {
       "name": "KAI-YOU",
+      "count": 1
+    },
+    {
+      "name": "攻略大百科",
       "count": 1
     },
     {
@@ -224,10 +232,6 @@
       "count": 1
     },
     {
-      "name": "Martin Cid Magazine",
-      "count": 1
-    },
-    {
       "name": "TBS NEWS DIG",
       "count": 1
     },
@@ -268,24 +272,31 @@
       "url": "https://news.denfaminicogamer.jp/news/2610132w",
       "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/imgi_45_logo-auc-1024x538.png",
       "leadSource": "電ファミニコゲーマー",
-      "publishedAt": "2026-10-13T09:20:00.000Z",
-      "sourceCount": 8,
-      "articleCount": 10,
+      "publishedAt": "2026-10-13T09:11:00.000Z",
+      "sourceCount": 10,
+      "articleCount": 12,
       "categories": [
         "tcgcat",
         "guide"
       ],
       "keywords": [
+        "フリマ",
         "空箱",
-        "禁止",
-        "出品"
+        "禁止"
       ],
       "articles": [
         {
-          "title": "なぜ「空箱」まで？ LINEヤフー「ポケモンカードゲーム」一部出品を禁止 今日から（マグミクス）",
-          "url": "https://news.yahoo.co.jp/articles/b4c54b3046f5c31f6404a8cc1acc0891cdb4e454",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-13T09:20:00.000Z",
+          "title": "『ポケカ』転売をヤフオクとYahoo!フリマが規制 大量出品や空箱の販売を禁止 - KAI-YOU",
+          "url": "https://kai-you.net/article/96818",
+          "source": "KAI-YOU",
+          "publishedAt": "2026-10-13T09:11:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケカ』転売をヤフオクとYahoo!フリマが規制 大量出品や空箱の販売を禁止",
+          "url": "http://www.excite.co.jp/news/article/kaiyou_n_1482667510440624893/",
+          "source": "Excite エキサイト",
+          "publishedAt": "2026-10-13T09:11:00.000Z",
           "isPR": false
         },
         {
@@ -310,63 +321,6 @@
           "isPR": false
         },
         {
-          "title": "ポケモンカード",
-          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/gazo/20261013s10041000233000p.html",
-          "source": "スポニチ Sponichi Annex",
-          "publishedAt": "2026-10-13T07:14:36.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ポケカ』Yahoo!フリマ、ヤフオクでの規制強化！カートン単位や空箱・空パックなどを出品禁止へ",
-          "url": "https://www.inside-games.jp/article/2026/10/13/189182.html",
-          "source": "インサイド",
-          "publishedAt": "2026-10-13T06:54:52.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ポケカ』ヤフオク・Yahoo!フリマでカートン単位の出品や空箱・空パックの販売が禁止に。新商品発売後の同一商品の大量出品も規制",
-          "url": "https://www.famitsu.com/article/202610/90817",
-          "source": "ファミ通",
-          "publishedAt": "2026-10-13T06:32:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【LINEヤフー】ポケモンカードゲームの適正な取引環境の実現に向け、ポケモンと連携した取り組みを実施",
-          "url": "https://www.inside-games.jp/release/prtimes/20261013/312348.html",
-          "source": "インサイド",
-          "publishedAt": "2026-10-13T06:17:39.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "0f0c14208f6a",
-      "title": "『ポケカ』転売をヤフオクとYahoo!フリマが規制 大量出品や空箱の販売を禁止 - KAI-YOU",
-      "summary": "",
-      "url": "https://kai-you.net/article/96818",
-      "image": "https://img.kai-you.net/storage/2026/10/6c0c96d1-9a45-4c21-bac4-2d49c56c9f85/jpg/pokemon-card.jpg",
-      "leadSource": "KAI-YOU",
-      "publishedAt": "2026-10-13T09:11:00.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "keywords": [
-        "ポケカ",
-        "ヤフオク",
-        "フリマ"
-      ],
-      "articles": [
-        {
-          "title": "『ポケカ』転売をヤフオクとYahoo!フリマが規制 大量出品や空箱の販売を禁止",
-          "url": "http://www.excite.co.jp/news/article/kaiyou_n_1482667510440624893/",
-          "source": "Excite エキサイト",
-          "publishedAt": "2026-10-13T09:11:00.000Z",
-          "isPR": false
-        },
-        {
           "title": "Yahoo! トレカ空箱の出品禁止を発表 「ヤフオク」「ペイペイフリマ」 ポケカ大量出品も規制",
           "url": "https://news.infoseek.co.jp/amp/article/sponichin_20261013_0215/",
           "source": "Infoseek",
@@ -378,6 +332,13 @@
           "url": "https://news.yahoo.co.jp/articles/d0eee3f333999a6749a656c9c09ef7ed64623907",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-10-13T07:03:31.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケカ』Yahoo!フリマ、ヤフオクでの規制強化！カートン単位や空箱・空パックなどを出品禁止へ",
+          "url": "https://www.inside-games.jp/article/2026/10/13/189182.html",
+          "source": "インサイド",
+          "publishedAt": "2026-10-13T06:54:52.000Z",
           "isPR": false
         }
       ]
@@ -464,6 +425,41 @@
           "url": "https://youtu.be/sA8b6I8OV9o?si",
           "source": "YouTube",
           "publishedAt": "2026-10-12T08:38:24.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "95e376620173",
+      "title": "LINEヤフー、ポケモンカードの出品ルール厳格化 買い占めを防止",
+      "summary": "",
+      "url": "https://www.nikkei.com/article/DGXZQOUC135UE0T11C26A0000000/",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3719152013102026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=3d063502398c2e91317d9b550cff1a45",
+      "leadSource": "日本経済新聞",
+      "publishedAt": "2026-10-13T10:41:24.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケモンカード",
+        "line",
+        "ヤフー"
+      ],
+      "articles": [
+        {
+          "title": "なぜ「空箱」まで？ LINEヤフー「ポケモンカードゲーム」一部出品を禁止 今日から（マグミクス）",
+          "url": "https://news.yahoo.co.jp/articles/b4c54b3046f5c31f6404a8cc1acc0891cdb4e454",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-13T09:20:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンカード",
+          "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/13/gazo/20261013s10041000233000p.html",
+          "source": "スポニチ Sponichi Annex",
+          "publishedAt": "2026-10-13T07:14:36.000Z",
           "isPR": false
         }
       ]
@@ -651,13 +647,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-13T10:00:16.655Z",
-    "previousCount": 138,
-    "newCount": 12
+    "previousAt": "2026-10-13T10:30:18.676Z",
+    "previousCount": 139,
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-13T11:00:18.676Z",
+  "nextUpdateAt": "2026-10-13T11:30:16.233Z",
   "items": [
+    {
+      "id": "95e376620173",
+      "title": "LINEヤフー、ポケモンカードの出品ルール厳格化 買い占めを防止",
+      "url": "https://www.nikkei.com/article/DGXZQOUC135UE0T11C26A0000000/",
+      "host": "nikkei.com",
+      "source": "日本経済新聞",
+      "summary": "",
+      "publishedAt": "2026-10-13T10:41:24.000Z",
+      "image": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3719152013102026000000-2.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=3d063502398c2e91317d9b550cff1a45",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "1f8a3eccd6cc",
       "title": "ポケモンの新作ボドゲ「お前、もしかしてロケット団？」が10月17日・18日の「ゲームマーケット2026秋」で先行発売！",
@@ -678,7 +695,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e30396e7ccbb",
@@ -723,7 +740,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d5e06f7d852f",
@@ -830,7 +847,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7364f2a82ec5",
@@ -854,6 +871,28 @@
       "isNew": false
     },
     {
+      "id": "51077ce69a3b",
+      "title": "【ポケモンSV】(2026/10/09更新)期間限定テラレイドバトルイベントまとめ｜これまでに開催されたレイドも紹介【スカーレット・バイオレット】",
+      "url": "https://gamepedia.jp/pokemon-sv/archives/21779",
+      "host": "gamepedia.jp",
+      "source": "攻略大百科",
+      "summary": "",
+      "publishedAt": "2026-10-13T09:02:13.000Z",
+      "image": "https://tfi.gamepedia.jp/image/w=1200,h=630,fit=pad,f=webp/puppeteer.gamepedia.jp/gamepedia.jp/pokemon-sv/thumbnail/21779/df6edd86b6806637c371ba89f19f208e",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "main",
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f816c4e5040a",
       "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/15950/",
@@ -873,7 +912,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1df8f45b047a",
@@ -906,6 +945,27 @@
       "summary": "",
       "publishedAt": "2026-10-13T08:13:51.000Z",
       "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "3fd25a757c03",
+      "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33338/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-13T08:11:57.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
       "categories": [
         "tcgcat"
       ],
@@ -956,7 +1016,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01c2f2ce0d95",
@@ -1198,27 +1258,6 @@
       "isNew": false
     },
     {
-      "id": "0665d07546bb",
-      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202609/88085/869491",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-10-13T06:41:36.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a1058abae0dc372f4432cbea7fa123512.jpg?x=1280",
-      "categories": [
-        "community"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "c5be3efd4e55",
       "title": "『ポケカ』ヤフオク・Yahoo!フリマでカートン単位の出品や空箱・空パックの販売が禁止に。新商品発売後の同一商品の大量出品も規制",
       "url": "https://www.famitsu.com/article/202610/90817",
@@ -1359,7 +1398,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "15207be1ee47",
@@ -1369,7 +1408,7 @@
       "source": "インサイド",
       "summary": "",
       "publishedAt": "2026-10-13T06:17:39.000Z",
-      "image": "https://www.inside-games.jp/release/imgs/list/548994.png",
+      "image": "https://www.inside-games.jp/release/imgs/list/549064.png",
       "categories": [
         "tcgcat",
         "guide"
@@ -1394,29 +1433,6 @@
       "image": "https://i3.gamebiz.jp/media/2df47500-c1b1-4a0b-9c2e-aac449460251.jpg",
       "categories": [
         "tcgcat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c3572f07ab43",
-      "title": "【ポケカ30周年】30th CELEBRATION(30th セレブレーション)の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【10/13更新】",
-      "url": "https://snkrdunk.com/articles/30971/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-13T06:09:07.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/2b5245f0-2774-4480-bb7d-cd8b457f7349.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
       ],
       "series": [
         "tcg",
@@ -1704,6 +1720,27 @@
       "isNew": false
     },
     {
+      "id": "184b8e77d2d9",
+      "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T03:55:49.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570625.png?date=1785392878",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "09a1fbb9585b",
       "title": "【ポケカ】ミュウex URの買取価格と最新相場と値段推移｜ポケモンカード151",
       "url": "https://snkrdunk.com/articles/18649/",
@@ -1762,7 +1799,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "89872b13ddd3",
@@ -1935,27 +1972,6 @@
       "isNew": false
     },
     {
-      "id": "c6ce94867b8a",
-      "title": "【ポケポケ】トレード掲示板【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/card-trades?wishCards",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-12T22:36:03.000Z",
-      "image": "https://img.gamewith.jp/article_tools/pokemon-tcg-pocket/gacha/trade_ogp.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "46f87e011a8a",
       "title": "【ポケモンGO】相棒ポケモンでレイドバトルを行う(イベント)の報酬",
       "url": "https://pokemongo.gamewith.jp/article/show/563151",
@@ -1991,6 +2007,25 @@
       "series": [
         "tcg"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "27f729beed14",
+      "title": "「泊まれるモンスターボール」詳細発表 直径3メートルの球体が北海道・苫小牧に出現、好きなポケモンと就寝",
+      "url": "https://www.sanyonews.jp/article/1989013?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-12T21:56:04.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/3/7/b/d/37bd244460e4c05e0c36217da8f046b3_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2056,7 +2091,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cd4c19dd821c",
@@ -2163,27 +2198,6 @@
       "isNew": false
     },
     {
-      "id": "346c44f76800",
-      "title": "ポケモンカード「30th Celebration」ブースターバンドルがAmazonで再入荷、価格は転売相場より高く",
-      "url": "https://ja.martincid.com/bussines-ja/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%89%E3%80%8C30th/",
-      "host": "ja.martincid.com",
-      "source": "Martin Cid Magazine",
-      "summary": "",
-      "publishedAt": "2026-10-12T16:41:29.000Z",
-      "image": "https://images.martincid.com/2026/10/amazon.jpg?f=orig",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7ed1b0f66964",
       "title": "【ポケポケ】新パック「ハイクラスパックMEGA(メガ)」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
@@ -2268,19 +2282,19 @@
       "isNew": false
     },
     {
-      "id": "3a29c3fefe74",
-      "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
-      "host": "gamewith.jp",
-      "source": "GameWith",
+      "id": "0665d07546bb",
+      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202609/88085/869487",
+      "host": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
-      "publishedAt": "2026-10-12T12:53:28.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561436.png?date=1779369911",
+      "publishedAt": "2026-10-12T12:29:02.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a135007e7085979a7d5b41ce54c0e54d7.jpg?x=1280",
       "categories": [
-        "tcgcat"
+        "community"
       ],
       "series": [
-        "tcg"
+        "main"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2435,6 +2449,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "364f691000c7",
+      "title": "【ポケモンGO】ポケエキサイティング(PokéXciting!)の開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/564334",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-12T09:09:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564334.png?date=1786528957",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9d8194aa660a",
@@ -2723,6 +2758,25 @@
       "isNew": false
     },
     {
+      "id": "ea486b56e546",
+      "title": "【公式】「ポケモン動画図鑑」No.0859 ベロバー",
+      "url": "https://youtu.be/cXi8ZG99NOU?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-12T01:00:24.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "55e5467c096b",
       "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
       "url": "https://appmedia.jp/pokemon_frlg/79776995",
@@ -2777,25 +2831,6 @@
       "series": [
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "27f729beed14",
-      "title": "「泊まれるモンスターボール」詳細発表 直径3メートルの球体が北海道・苫小牧に出現、好きなポケモンと就寝",
-      "url": "https://www.sanyonews.jp/article/1989013?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-11T22:43:02.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/3/7/b/d/37bd244460e4c05e0c36217da8f046b3_1.jpg",
-      "categories": [
-        "new"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2970,7 +3005,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c29f857f66d2",
@@ -3138,7 +3173,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "155a70cc41af",
@@ -3246,6 +3281,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b5b01d4b49eb",
+      "title": "ポケモン新作アニメ、2027年配信「ネギガナイトとピチューの冒険」 ディズニープラスでグローバル配信契約",
+      "url": "https://www.sanyonews.jp/article/1980177?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-11T00:59:26.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/e/9/2/8/e928b9de77d42f7473f56c37bb60bf9d_1.jpg",
+      "categories": [
+        "media",
+        "new"
+      ],
+      "series": [
+        "main",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3ba16e47af5a",
@@ -3547,27 +3605,6 @@
       "image": "",
       "categories": [
         "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7240998f6754",
-      "title": "虚無すぎる、ポケモンgo配信者の裏側24時間密着",
-      "url": "https://youtu.be/UM-t9qOy8fM?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-10T11:00:17.000Z",
-      "image": "",
-      "categories": [
-        "media"
       ],
       "series": [
         "go"
