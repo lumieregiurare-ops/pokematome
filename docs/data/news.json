@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-13T01:00:20.128Z",
+  "updatedAt": "2026-10-13T01:30:14.603Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 146,
+  "total": 145,
   "todayCount": 23,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 16
+      "count": 17
     },
     {
       "id": "update",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 13
+      "count": 14
     },
     {
       "id": "media",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 44
+      "count": 42
     }
   ],
   "series": [
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 23
+      "count": 25
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 50
+      "count": 51
     },
     {
       "name": "YouTube",
@@ -109,19 +109,15 @@
     },
     {
       "name": "山陽新聞",
-      "count": 16
+      "count": 17
     },
     {
       "name": "SNKRDUNK",
-      "count": 15
+      "count": 14
     },
     {
       "name": "インサイド",
       "count": 4
-    },
-    {
-      "name": "Howl.link",
-      "count": 3
     },
     {
       "name": "ファミ通",
@@ -145,6 +141,10 @@
     },
     {
       "name": "AppBank",
+      "count": 2
+    },
+    {
+      "name": "Howl.link",
       "count": 2
     },
     {
@@ -205,10 +205,6 @@
     },
     {
       "name": "SHIBUYA TSUTAYA",
-      "count": 1
-    },
-    {
-      "name": "中日新聞Web",
       "count": 1
     },
     {
@@ -320,7 +316,7 @@
       "title": "Beats、ポケモンとのコラボでピカチュウデザインの「Pill」スピーカーを予告",
       "summary": "",
       "url": "https://finance.biggo.jp/news/e76f6ea3-ea74-4c74-8500-ac72f245c993",
-      "image": "",
+      "image": "https://img.biggo.com/NAu3WpxIhmPKsfTUZm8Kj54Mu3pGImjcLD2-pr9wY64/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTEwL2U3NmY2ZWEzLWVhNzQtNGM3NC04NTAwLWFjNzJmMjQ1Yzk5M18xNzkxODMyMjU2X2RlZmF1bHQuanBn.jpg",
       "leadSource": "BigGo ファイナンス",
       "publishedAt": "2026-10-12T18:31:00.000Z",
       "sourceCount": 2,
@@ -428,13 +424,35 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-13T00:30:17.078Z",
+    "previousAt": "2026-10-13T01:00:20.128Z",
     "previousCount": 146,
-    "newCount": 4
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-13T01:30:20.128Z",
+  "nextUpdateAt": "2026-10-13T02:00:14.603Z",
   "items": [
+    {
+      "id": "f816c4e5040a",
+      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/15950/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-12T23:57:01.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "a1ef2392ac17",
       "title": "【ポケモンGO】秋の遠足相棒といっしょの開催期間とボーナス",
@@ -469,6 +487,27 @@
         "new"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "ce54ab3dcd6f",
+      "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
+      "url": "https://snkrdunk.com/articles/32582/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-12T22:46:14.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/66b3ff5b-4fd7-4798-97b2-07d6c89da753.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -558,25 +597,6 @@
       "isNew": false
     },
     {
-      "id": "010ef8485ba6",
-      "title": "『ポケモン』全1025匹をTシャツ化でネット衝撃「お金が足りん…！」",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-12T20:38:45.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "cd4c19dd821c",
       "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
@@ -627,7 +647,7 @@
       "source": "BigGo ファイナンス",
       "summary": "",
       "publishedAt": "2026-10-12T18:31:00.000Z",
-      "image": "",
+      "image": "https://img.biggo.com/NAu3WpxIhmPKsfTUZm8Kj54Mu3pGImjcLD2-pr9wY64/fit/1200/0/sm/0/aHR0cHM6Ly9pbWcuYmdvLm9uZS9uZXdzLWltYWdlL2FpX2dlbmVyYXRlZC8yMDI2LTEwL2U3NmY2ZWEzLWVhNzQtNGM3NC04NTAwLWFjNzJmMjQ1Yzk5M18xNzkxODMyMjU2X2RlZmF1bHQuanBn.jpg",
       "categories": [
         "goodscat"
       ],
@@ -638,7 +658,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7b64456f31dc",
@@ -760,25 +780,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "bb849bc22f6f",
-      "title": "【ポケモンCP】ポチべくれ【ダブルバトル】",
-      "url": "https://t.co/nTARGFZty3",
-      "host": "t.co",
-      "source": "Howl.link",
-      "summary": "",
-      "publishedAt": "2026-10-12T16:09:02.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "4b4c48858902",
@@ -972,27 +973,6 @@
       "isNew": false
     },
     {
-      "id": "ce54ab3dcd6f",
-      "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
-      "url": "https://snkrdunk.com/articles/32582/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-12T14:06:27.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/66b3ff5b-4fd7-4798-97b2-07d6c89da753.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "625283d9774a",
       "title": "【参加型？】配信者の方をさらう。【ポケモンユナイト/おりかん/実写配信】",
       "url": "https://t.co/4p71NBR8mq",
@@ -1032,7 +1012,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "66ae4dca3ef0",
@@ -1388,6 +1368,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "96697715ad8f",
+      "title": "【ポケポケ】フライゴンexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559119",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-12T09:28:57.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559119.png?date=1777356000",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6bdf0e2fef54",
@@ -2624,25 +2625,6 @@
       "isNew": false
     },
     {
-      "id": "c753cc18686b",
-      "title": "大型たこ揚げだ、滑走路ツアーだ 「ポケモン空港」で11日から空の日フェスティバル",
-      "url": "https://www.chunichi.co.jp/article/1323406?rct",
-      "host": "chunichi.co.jp",
-      "source": "中日新聞Web",
-      "summary": "",
-      "publishedAt": "2026-10-11T06:35:00.000Z",
-      "image": "https://static.chunichi.co.jp/chunichi/images/logo_ogp.png",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "155a70cc41af",
       "title": "ギャロップ U: マスターボールミラー[SV2a 078/165](強化拡張パック「ポケモンカード151」)",
       "url": "https://snkrdunk.com/apparels/128196/used/51195485",
@@ -2874,27 +2856,6 @@
       "isNew": false
     },
     {
-      "id": "4236558b06dd",
-      "title": "【PSA10】サンダーex SAR[SV2a 204/165](強化拡張パック「ポケモンカード151」) 1枚のシングルトレカ通販｜スニダン",
-      "url": "https://snkrdunk.com/apparels/128120/used/51254210?slide",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-10T21:47:35.000Z",
-      "image": "https://snkrdunk.com/apparels/128120/used/51254210/opengraph-image?c19ad04227fce4cf",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "3233f892514d",
       "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
       "url": "https://www.sanyonews.jp/photo/detail?article_id",
@@ -2996,27 +2957,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "d009f62022d1",
-      "title": "【PSA10】イーブイ AR [SV5a 078/066](強化拡張パック「クリムゾンヘイズ」) 1枚のシングルトレカ通販｜スニダン",
-      "url": "https://snkrdunk.com/apparels/224086/used/51231610",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-10T15:25:51.000Z",
-      "image": "https://snkrdunk.com/apparels/224086/used/51231610/opengraph-image?c19ad04227fce4cf",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "14b8dd467417",
@@ -3308,6 +3248,25 @@
       "isNew": false
     },
     {
+      "id": "010ef8485ba6",
+      "title": "『ポケモン』全1025匹をTシャツ化でネット衝撃「お金が足りん…！」",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-10T07:00:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "a67342865ade",
       "title": "ポケモン30周年！3COINSから限定グッズ全62アイテムが10月10日発売 (cinemacafe.net)",
       "url": "https://news.yahoo.co.jp/articles/359b59ed38598160e0e635e1c0ce10a9c3639d5f/images/000",
@@ -3369,6 +3328,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "a06f0c6b5b7a",
+      "title": "【きょうから第2弾】ポケモン、コメダ珈琲店＆おかげ庵とコラボ 「豆菓子風チャーム」ほか限定グッズ発表＆“転売禁止”呼びかけ",
+      "url": "https://www.sanyonews.jp/article/1902780",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-10T07:00:00.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/8/0/7/5807e3a2331939ce874f395109187c2c_1.jpg",
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f51cdd49575f",
