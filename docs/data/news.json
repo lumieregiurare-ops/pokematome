@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-14T12:30:16.422Z",
+  "updatedAt": "2026-10-14T13:00:23.096Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 164,
-  "todayCount": 82,
+  "total": 166,
+  "todayCount": 83,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 10
+      "count": 11
     },
     {
       "id": "tcgcat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 14
+      "count": 16
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 10
+      "count": 11
     },
     {
       "id": "biz",
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 27
+      "count": 28
     },
     {
       "id": "tcg",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 38
+      "count": 39
     },
     {
       "name": "YouTube",
@@ -249,6 +249,10 @@
     },
     {
       "name": "クランクイン！",
+      "count": 1
+    },
+    {
+      "name": "京都新聞デジタル",
       "count": 1
     },
     {
@@ -550,7 +554,7 @@
       "title": "【ポケスリ】ハロウィンで絶対に損しない島選び完全ガイド！ムウマージの新スキル解説&ワカクサEXへ行く基準を徹底解説【ポケモンスリープ】",
       "summary": "",
       "url": "https://youtu.be/ZTPfxKqjS64",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/10/ポケスリハロウィン2026.jpg",
+      "image": "",
       "leadSource": "YouTube",
       "publishedAt": "2026-10-14T09:59:26.000Z",
       "sourceCount": 3,
@@ -660,9 +664,10 @@
       "leadSource": "YouTube",
       "publishedAt": "2026-10-14T06:09:57.000Z",
       "sourceCount": 2,
-      "articleCount": 3,
+      "articleCount": 4,
       "categories": [
-        "other"
+        "other",
+        "event"
       ],
       "keywords": [
         "ポケモンGO",
@@ -674,6 +679,13 @@
           "url": "https://pokemongo.gamewith.jp/article/show/560061",
           "source": "GameWith",
           "publishedAt": "2026-10-13T22:55:01.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
+          "url": "https://pokemongo.gamewith.jp/article/show/577622",
+          "source": "GameWith",
+          "publishedAt": "2026-10-13T22:12:56.000Z",
           "isPR": false
         },
         {
@@ -800,12 +812,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-14T12:00:18.886Z",
-    "previousCount": 161,
-    "newCount": 8
+    "previousAt": "2026-10-14T12:30:16.422Z",
+    "previousCount": 164,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-14T13:00:16.422Z",
+  "nextUpdateAt": "2026-10-14T13:30:23.096Z",
   "items": [
     {
       "id": "08a9104d29b6",
@@ -847,7 +859,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3fd25a757c03",
@@ -871,6 +883,26 @@
       "isNew": false
     },
     {
+      "id": "4891421959cc",
+      "title": "【ポケモンチャンピオンズ】メガグソクムシャの育成論と対策・パーティ",
+      "url": "https://gamewith.jp/pokemon-champions/575652",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-14T10:34:37.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575652.png?date=1788944336",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "66ae4dca3ef0",
       "title": "【ポケモンチャンピオンズ】メガボーマンダの育成論と対策・パーティ",
       "url": "https://gamewith.jp/pokemon-champions/575012",
@@ -888,7 +920,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f816c4e5040a",
@@ -905,6 +937,27 @@
       "series": [
         "tcg",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "a5c5154399e2",
+      "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33322/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-14T10:11:45.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -952,7 +1005,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2a3c735dda14",
@@ -1009,6 +1062,27 @@
       ],
       "series": [
         "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "09a1fbb9585b",
+      "title": "【ポケカ】ミュウex URの買取価格と最新相場と値段推移｜ポケモンカード151",
+      "url": "https://snkrdunk.com/articles/18649/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-14T09:57:06.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/61ebe393-656b-40b9-85c1-2d869ab1c900.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1150,27 +1224,6 @@
       "summary": "",
       "publishedAt": "2026-10-14T08:45:19.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565899.png?date=1782796950",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "09a1fbb9585b",
-      "title": "【ポケカ】ミュウex URの買取価格と最新相場と値段推移｜ポケモンカード151",
-      "url": "https://snkrdunk.com/articles/18649/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-14T08:40:23.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/61ebe393-656b-40b9-85c1-2d869ab1c900.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -1437,27 +1490,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a5c5154399e2",
-      "title": "【ポケカ】ミュウ R/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33322/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-14T05:28:35.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/51d27ebd-3416-44fc-ac20-0af21c182c18.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1880,7 +1912,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b884b41ed89e",
@@ -1999,7 +2031,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-14T03:26:42.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/10/ポケスリハロウィン2026.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2068,27 +2100,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "358278432ae6",
-      "title": "【ポケポケ】テラパゴスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562183",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T02:26:50.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562183.png?date=1779956790",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2342,6 +2353,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "9202ea85184a",
+      "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
+      "url": "https://pokemongo.gamewith.jp/article/show/577622",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T22:12:56.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -2512,7 +2544,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "25768a0a13ab",
@@ -2552,7 +2584,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "96dc37cd48a2",
@@ -2773,7 +2805,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-13T10:12:19.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261013_000.jpg",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -2931,6 +2963,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "01c2f2ce0d95",
+      "title": "「ポケモンカード」リユース品を低価格で放出 京都・乙訓地域の環境衛生組合がリサイクルフェア",
+      "url": "https://www.kyoto-np.co.jp/articles/-/1805521",
+      "host": "kyoto-np.co.jp",
+      "source": "京都新聞デジタル",
+      "summary": "",
+      "publishedAt": "2026-10-13T08:00:00.000Z",
+      "image": "https://kyoto-np.ismcdn.jp/mwimgs/d/a/1200wm/img_da7d45ba5e302353cdb3662c1702239e360641.jpg",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c588420bf14e",
@@ -3360,7 +3414,7 @@
       "source": "Dellows News",
       "summary": "",
       "publishedAt": "2026-10-13T04:40:42.000Z",
-      "image": "https://news.dellows.jp/wp-content/uploads/2026/10/704744_1.jpg",
+      "image": "",
       "categories": [
         "new",
         "goodscat"
@@ -3746,7 +3800,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ea7986aec564",
@@ -3821,7 +3875,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-12T10:12:50.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261012-pokemongoods-00.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -3968,7 +4022,7 @@
       "source": "カードラボ",
       "summary": "",
       "publishedAt": "2026-10-12T07:00:00.000Z",
-      "image": "https://www.c-labo.jp/wordpress/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6.jpg",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -4233,7 +4287,7 @@
     {
       "id": "c87ceb28d861",
       "title": "【ポケモンGO】泥沼の超激ハマり！悲劇の宇宙飛行をピカの色違い！【中丸雄一】",
-      "url": "https://youtu.be/PNm9FRZubUM?si",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51Yk1hSHY2Q3ROQXVfZnZwb1NpNm5Xd2ljMGxzYkZmNEVCRzQzcFpfN0duaW9ORHpmbXF2Rmh1NkI0Y21tankwcXVaWXAzWEdMb3pRNWQtZndiUmhN?oc=5",
       "host": "youtu.be",
       "source": "YouTube",
       "summary": "",
@@ -4247,7 +4301,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     }
