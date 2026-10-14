@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-14T16:00:18.234Z",
+  "updatedAt": "2026-10-14T16:30:18.292Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 164,
+  "total": 166,
   "todayCount": 0,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 22
+      "count": 20
     },
     {
       "id": "update",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 10
+      "count": 9
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 44
+      "count": 45
     },
     {
       "id": "goodscat",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 18
+      "count": 20
     },
     {
       "id": "community",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 63
+      "count": 64
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 19
+      "count": 20
     },
     {
       "id": "go",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 43
+      "count": 44
     },
     {
       "id": "anime",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 37
+      "count": 36
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 43
+      "count": 48
     },
     {
       "name": "YouTube",
@@ -109,11 +109,11 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 9
+      "count": 8
     },
     {
       "name": "ガジェット通信",
@@ -129,7 +129,7 @@
     },
     {
       "name": "Howl.link",
-      "count": 5
+      "count": 4
     },
     {
       "name": "玩具人 TOY PEOPLE",
@@ -244,6 +244,10 @@
       "count": 1
     },
     {
+      "name": "通販通信ECMO",
+      "count": 1
+    },
+    {
       "name": "VSS 鑑定",
       "count": 1
     },
@@ -297,10 +301,6 @@
     },
     {
       "name": "www.tv-tokyo.co.jp",
-      "count": 1
-    },
-    {
-      "name": "SHIBUYA TSUTAYA",
       "count": 1
     }
   ],
@@ -377,16 +377,16 @@
       "image": "https://news.mynavi.jp/article/20261014-5126761/ogp_images/ogp.jpg",
       "leadSource": "マイナビニュース",
       "publishedAt": "2026-10-14T02:35:20.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "sourceCount": 6,
+      "articleCount": 6,
       "categories": [
         "tcgcat",
         "guide"
       ],
       "keywords": [
-        "line",
-        "ヤフー",
-        "出品"
+        "出品",
+        "ポケモンカード",
+        "line"
       ],
       "articles": [
         {
@@ -408,6 +408,13 @@
           "url": "https://www.nikkei.com/article/DGXZQOUC135UE0T11C26A0000000/",
           "source": "日本経済新聞",
           "publishedAt": "2026-10-13T10:41:24.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「Yahoo!フリマ」「Yahoo!オークション」、ポケモンカードのカートン単位や空箱の出品禁止",
+          "url": "https://www.tsuhannews.jp/news/detail/75997",
+          "source": "通販通信ECMO",
+          "publishedAt": "2026-10-13T07:56:35.000Z",
           "isPR": false
         },
         {
@@ -570,7 +577,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-10-14T12:19:11.000Z",
       "sourceCount": 2,
-      "articleCount": 21,
+      "articleCount": 23,
       "categories": [
         "tcgcat",
         "guide"
@@ -617,6 +624,13 @@
           "isPR": false
         },
         {
+          "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
+          "source": "GameWith",
+          "publishedAt": "2026-10-14T04:27:09.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
           "source": "GameWith",
@@ -628,13 +642,6 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
           "source": "GameWith",
           "publishedAt": "2026-10-14T04:27:03.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
-          "source": "GameWith",
-          "publishedAt": "2026-10-14T04:27:00.000Z",
           "isPR": false
         }
       ]
@@ -690,56 +697,6 @@
       ]
     },
     {
-      "id": "d3b87d882a5e",
-      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/14更新】",
-      "summary": "",
-      "url": "https://snkrdunk.com/articles/33304/",
-      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
-      "leadSource": "SNKRDUNK",
-      "publishedAt": "2026-10-14T12:48:03.000Z",
-      "sourceCount": 2,
-      "articleCount": 5,
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "keywords": [
-        "celebration",
-        "ポケカ",
-        "セット"
-      ],
-      "articles": [
-        {
-          "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
-          "url": "https://snkrdunk.com/articles/32998/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-14T11:08:19.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-          "url": "https://snkrdunk.com/articles/33338/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-14T10:37:51.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケカ】御三家セット9種コンプリートセットの買取相場予想や発売後の高騰考察｜30th CELEBRATION",
-          "url": "https://snkrdunk.com/articles/33513/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-14T03:43:43.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンカード30th『30th CELEBRATION カードセット』（30周年 セレブレーション 御三家セット）まとめ｜商品ラインナップ・新レアリティ・当たり・価格",
-          "url": "https://vs.collectest.com/magazine/vss1000229/",
-          "source": "VSS 鑑定",
-          "publishedAt": "2026-10-13T07:04:07.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "9c9ae9fea254",
       "title": "【ポケモンGO】メガカイリューレイド対策おすすめポケモン",
       "summary": "",
@@ -775,13 +732,13 @@
       ]
     },
     {
-      "id": "4262301d3d58",
-      "title": "ブースター | 『Pokémon UNITE』公式サイト",
+      "id": "0708c0de6b19",
+      "title": "サンダース | 『Pokémon UNITE』公式サイト",
       "summary": "",
-      "url": "https://www.pokemonunite.jp/ja/pokemon/flareon/",
+      "url": "https://www.pokemonunite.jp/ja/pokemon/jolteon/",
       "image": "https://www.pokemonunite.jp/wp-content/themes/p-unite/ogp.png",
       "leadSource": "ポケモンユナイト",
-      "publishedAt": "2026-10-13T16:25:53.000Z",
+      "publishedAt": "2026-10-13T16:17:58.000Z",
       "sourceCount": 2,
       "articleCount": 3,
       "categories": [
@@ -837,15 +794,43 @@
           "isPR": true
         }
       ]
+    },
+    {
+      "id": "7f56f5d95e6d",
+      "title": "Razer、ポケモン「リザードン / ルカリオ / ニンフィア」コラボヘッドセットを発表",
+      "summary": "",
+      "url": "https://www.gdm.or.jp/pressrelease/2026/1014/656173",
+      "image": "https://www.gdm.or.jp/wp-content/uploads/2026/10/14/Charizard-BSV3-X_01.jpg",
+      "leadSource": "エルミタージュ秋葉原",
+      "publishedAt": "2026-10-14T08:00:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "keywords": [
+        "razer",
+        "リザードン"
+      ],
+      "articles": [
+        {
+          "title": "「Razer BlackShark V3 X HyperSpeed - Charizard Edition」が販売開始！ポケモン「リザードン」×「Razer」のコラボモデル",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc1FjVTdUdllTS21hMDM2TjlQTGw2M3NfTWZkWDBJam5BcDlLNFV0SDUwbXhCaFp5TnBtUmFIZzN6Q0h6Y1JGZGJhMnJRczkzMjByNzNjZ0JlMVVXUmQ4ZzhtWEJUU2hpa09TN2U2TjBZenRUU1Vhai1sd1hqYmZVeUFJdTEzSjg4Q0w3U2ZkTk1HdVQ4ZWdDRlowWdIBmwFBVV95cUxQc1FjVTdUdllTS21hMDM2TjlQTGw2M3NfTWZkWDBJam5BcDlLNFV0SDUwbXhCaFp5TnBtUmFIZzN6Q0h6Y1JGZGJhMnJRczkzMjByNzNjZ0JlMVVXUmQ4ZzhtWEJUU2hpa09TN2U2TjBZenRUU1Vhai1sd1hqYmZVeUFJdTEzSjg4Q0w3U2ZkTk1HdVQ4ZWdDRlowWQ?oc=5",
+          "source": "Saiga NAK",
+          "publishedAt": "2026-10-14T05:45:18.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-14T15:30:18.360Z",
-    "previousCount": 166,
-    "newCount": 3
+    "previousAt": "2026-10-14T16:00:18.234Z",
+    "previousCount": 164,
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-14T16:30:18.234Z",
+  "nextUpdateAt": "2026-10-14T17:00:18.292Z",
   "items": [
     {
       "id": "08a9104d29b6",
@@ -1033,7 +1018,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ea340b9873d2",
@@ -1075,7 +1060,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "51077ce69a3b",
@@ -1107,35 +1092,12 @@
       "source": "信濃毎日新聞デジタル",
       "summary": "",
       "publishedAt": "2026-10-14T11:28:00.000Z",
-      "image": "",
+      "image": "https://image.shinmai.co.jp/web-image/fixedcut/gf01d7kofj7j201uv2503od0_M.jpg",
       "categories": [
         "tcgcat"
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f6270760409f",
-      "title": "【ポケカ】御三家セットとは？買取・相場予想/予約抽選情報まとめ【30th CELEBRATION カードセット】",
-      "url": "https://snkrdunk.com/articles/32998/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-14T11:08:19.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/f66e78f7-b04b-4bcd-827e-207a1ad812b8.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1842,6 +1804,27 @@
       "isNew": false
     },
     {
+      "id": "ac569876072f",
+      "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-14T04:27:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "96dede30191d",
       "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
@@ -2052,14 +2035,14 @@
       "isNew": false
     },
     {
-      "id": "184b8e77d2d9",
-      "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
+      "id": "b76506a0856d",
+      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-14T04:26:51.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570625.png?date=1785392878",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
       "categories": [
         "tcgcat"
       ],
@@ -2073,14 +2056,14 @@
       "isNew": false
     },
     {
-      "id": "b76506a0856d",
-      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
+      "id": "184b8e77d2d9",
+      "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-14T04:26:51.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570625.png?date=1785392878",
       "categories": [
         "tcgcat"
       ],
@@ -2243,6 +2226,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "252a3e748df9",
+      "title": "【ぽこあポケモン】ジラーチのキラキラ短冊集めの開催期間と攻略【ぽこポケ】",
+      "url": "https://gamewith.jp/pocoapokemon/564340",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-14T03:36:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564340.png?date=1781761852",
+      "categories": [
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "02f975aeeefd",
@@ -2663,13 +2665,32 @@
       "isNew": false
     },
     {
-      "id": "4262301d3d58",
-      "title": "ブースター | 『Pokémon UNITE』公式サイト",
-      "url": "https://www.pokemonunite.jp/ja/pokemon/flareon/",
+      "id": "1f2983186f52",
+      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/1998928?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-13T18:06:11.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/7/1/7/77172319666dcdb13e27239d1887a75a_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "0708c0de6b19",
+      "title": "サンダース | 『Pokémon UNITE』公式サイト",
+      "url": "https://www.pokemonunite.jp/ja/pokemon/jolteon/",
       "host": "pokemonunite.jp",
       "source": "ポケモンユナイト",
       "summary": "",
-      "publishedAt": "2026-10-13T16:25:53.000Z",
+      "publishedAt": "2026-10-13T16:17:58.000Z",
       "image": "https://www.pokemonunite.jp/wp-content/themes/p-unite/ogp.png",
       "categories": [
         "other"
@@ -2681,7 +2702,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "f1e361f7f1ac",
@@ -2724,6 +2745,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "9be9b46f3bda",
+      "title": "【ポケポケ】ダメージ追加のおすすめカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/507485",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T13:22:23.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/507485.png?date=1752565923",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "780a2d900e35",
@@ -2961,7 +3004,7 @@
     {
       "id": "e30396e7ccbb",
       "title": "カビゴンとの日常から眠りを見直すきっかけを！『Pokemon Sleep』とのコラボレーションで眠りの大切さを伝える啓発動画を公開",
-      "url": "https://news.nicovideo.jp/watch/nw19873671?news_ref",
+      "url": "https://news.nicovideo.jp/watch/nw19873671",
       "host": "news.nicovideo.jp",
       "source": "ニコニコニュース",
       "summary": "",
@@ -3060,6 +3103,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "74ccb910cb33",
+      "title": "「Yahoo!フリマ」「Yahoo!オークション」、ポケモンカードのカートン単位や空箱の出品禁止",
+      "url": "https://www.tsuhannews.jp/news/detail/75997",
+      "host": "tsuhannews.jp",
+      "source": "通販通信ECMO",
+      "summary": "",
+      "publishedAt": "2026-10-13T07:56:35.000Z",
+      "image": "https://www.tsuhannews.jp/news/image/75997",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c588420bf14e",
@@ -3211,6 +3275,27 @@
       "isNew": false
     },
     {
+      "id": "ca7b8abc71a2",
+      "title": "【ポケモンSV】サーナイトの進化と弱点・技構成【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373634",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:36:51.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b83cd2a19527",
       "title": "【ポケモンSV】シビルドンの進化と弱点・色違いと種族値【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373531",
@@ -3335,6 +3420,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "f39bea95fad8",
+      "title": "【ポケモンSV】チリーンの進化と色違い・弱点と出現場所【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/417203",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:29:37.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "8cd889203d47",
@@ -3733,25 +3839,6 @@
       "isNew": false
     },
     {
-      "id": "1f2983186f52",
-      "title": "『ポケモン』イイネイヌ、マシマシラ、キチキギスと遭遇 第152話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/1998928?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-12T17:35:32.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/7/7/1/7/77172319666dcdb13e27239d1887a75a_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "f0f52637b6bb",
       "title": "『ポケモンGO 』新ワザ取得の「メガライボルト」＆初登場「アノクサ」に注目！「秋の遠足：相棒といっしょ」重要ポイントまとめ",
       "url": "https://news.yahoo.co.jp/articles/18469be9b58252708310678d445c33349ab9728e/images/000",
@@ -3771,25 +3858,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "bb849bc22f6f",
-      "title": "【ポケモンCP】ポチべくれ【ダブルバトル】",
-      "url": "https://t.co/nTARGFZty3",
-      "host": "t.co",
-      "source": "Howl.link",
-      "summary": "",
-      "publishedAt": "2026-10-12T16:09:02.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "59fc265a960e",
@@ -4134,27 +4202,6 @@
       "isNew": false
     },
     {
-      "id": "64b609d146cc",
-      "title": "【ゲームフリーク新作】『雨のちハレ女』大森滋氏インタビュー。『ポケットモンスター』シリーズ以外にも新たな可能性を。憂鬱な雨の日だって楽しみに変えちゃう現実連動ゲーム。ゲームフリークの現在と今後までを訊く（ファミ通.com）",
-      "url": "https://news.yahoo.co.jp/articles/85888298a448ea5c2e677c4d310bf7661bf00e30",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-12T04:00:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261012-00090504-famitsu-000-2-view.jpg?exp=10800",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "586a8a73a94c",
       "title": "『雨のちハレ女』大森滋インタビュー：『ポケモン』タイトルを作りながら、美少女ゲーム作ってました…ってどういうこと！？",
       "url": "https://news.denfaminicogamer.jp/interview/261012a",
@@ -4257,41 +4304,19 @@
     {
       "id": "1ce5665be005",
       "title": "ポケモンとどこいく！？【ポケモンオールスターズ1025クイズに皆でチャレンジ！】 - www.tv-tokyo.co.jp",
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/26884_202610180730.html",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcWdmdG96Qmd6RWs0VWh2dEtka1BNRko2d0JEVUJfLWhiUmRMejVqZURWWHdTOHJOemNYbkpFN0VwdkR5UDVIMXNLWUdIY09tcGVRU0d6OVZ3djdjT2RoSjZ0QmwtdnVCek44THdWVDZXYWM1TVhsMDRXXzNzVWx4NmlrcDB6bzZPTE5DWG1scw?oc=5",
       "host": "tv-tokyo.co.jp",
       "source": "www.tv-tokyo.co.jp",
       "summary": "",
       "publishedAt": "2026-10-11T17:20:59.000Z",
-      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/da/c1/bf595f65a2200b900b3085f66f08.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ba10aad1679b",
-      "title": "ポケモンカードラウンジ【10月開催】ポケモンカードチャンネル10周年記念イベント",
-      "url": "https://shibuyatsutaya.tsite.jp/article/2674.html",
-      "host": "shibuyatsutaya.tsite.jp",
-      "source": "SHIBUYA TSUTAYA",
-      "summary": "",
-      "publishedAt": "2026-10-11T16:43:31.000Z",
-      "image": "https://shibuyatsutaya.tsite.jp/menu_files/article/000/002/674/article_images/article_resize.ポケモンカードチャンネル10周年記念イベント.png",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     }
