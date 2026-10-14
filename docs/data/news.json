@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-14T14:30:16.624Z",
+  "updatedAt": "2026-10-14T15:00:19.787Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 165,
-  "todayCount": 90,
+  "total": 164,
+  "todayCount": 0,
   "categories": [
     {
       "id": "new",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 10
+      "count": 9
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 44
+      "count": 45
     },
     {
       "id": "goodscat",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 11
+      "count": 10
     },
     {
       "id": "biz",
@@ -57,24 +57,24 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 64
+      "count": 65
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 19
+      "count": 18
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 27
+      "count": 25
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 43
+      "count": 44
     },
     {
       "id": "anime",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 42
+      "count": 43
     },
     {
       "name": "YouTube",
@@ -121,7 +121,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 7
+      "count": 6
     },
     {
       "name": "インサイド",
@@ -240,10 +240,6 @@
       "count": 1
     },
     {
-      "name": "ニコニコニュース",
-      "count": 1
-    },
-    {
       "name": "クランクイン！",
       "count": 1
     },
@@ -268,11 +264,11 @@
       "count": 1
     },
     {
-      "name": "ファッションプレス",
+      "name": "産経ニュース",
       "count": 1
     },
     {
-      "name": "ファミ通",
+      "name": "ファッションプレス",
       "count": 1
     },
     {
@@ -687,36 +683,37 @@
       ]
     },
     {
-      "id": "71e8b04d375e",
-      "title": "『ポケモンGO』ひっかく強化で爆速！環境ぶっささり技を打ちまくるカメテテ【リトルカップ】 #ポケモン #ポケモンgo #pokemon #pokemongo #ゲーム実況 #ゲーム",
+      "id": "9c9ae9fea254",
+      "title": "【ポケモンGO】メガカイリューレイド対策おすすめポケモン",
       "summary": "",
-      "url": "https://youtu.be/haZBQdr3B_k?si",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
-      "leadSource": "YouTube",
-      "publishedAt": "2026-10-14T12:16:35.000Z",
+      "url": "https://pokemongo.gamewith.jp/article/show/545772",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/545772.png?date=1772248934",
+      "leadSource": "GameWith",
+      "publishedAt": "2026-10-14T12:59:23.000Z",
       "sourceCount": 2,
       "articleCount": 4,
       "categories": [
-        "guide",
-        "event"
+        "event",
+        "guide"
       ],
       "keywords": [
         "ポケモンGO",
-        "リトルカップ"
+        "対策",
+        "最新情報"
       ],
       "articles": [
         {
-          "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
-          "url": "https://pokemongo.gamewith.jp/article/show/577622",
-          "source": "GameWith",
-          "publishedAt": "2026-10-13T22:12:56.000Z",
+          "title": "【朗報】停止アカウントが自動復活へ！メガシャンデラ実装＆今日からの伝説メガ対策！最新情報まとめ【ポケモンGO】",
+          "url": "https://youtu.be/cy751MAChOk?si",
+          "source": "YouTube",
+          "publishedAt": "2026-10-14T06:09:57.000Z",
           "isPR": false
         },
         {
-          "title": "約3年ぶりの開催？！リトルカップおすすめパーティ5選【リトルカップ】【ポケモンGO】",
-          "url": "https://youtu.be/Eg29Y-zT5mg",
-          "source": "YouTube",
-          "publishedAt": "2026-10-13T11:51:34.000Z",
+          "title": "【ポケモンGO】選べるタイムチャレンジの最新情報と開催期間",
+          "url": "https://pokemongo.gamewith.jp/article/show/560061",
+          "source": "GameWith",
+          "publishedAt": "2026-10-13T22:55:01.000Z",
           "isPR": false
         },
         {
@@ -822,12 +819,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-14T14:00:21.972Z",
-    "previousCount": 158,
-    "newCount": 13
+    "previousAt": "2026-10-14T14:30:16.624Z",
+    "previousCount": 165,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-14T15:00:16.624Z",
+  "nextUpdateAt": "2026-10-14T15:30:19.787Z",
   "items": [
     {
       "id": "08a9104d29b6",
@@ -851,24 +848,26 @@
       "isNew": false
     },
     {
-      "id": "2a3c735dda14",
-      "title": "【ポケモンチャンピオンズ】メガセグレイブの育成論と対策",
-      "url": "https://gamewith.jp/pokemon-champions/575651",
-      "host": "gamewith.jp",
+      "id": "9c9ae9fea254",
+      "title": "【ポケモンGO】メガカイリューレイド対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/545772",
+      "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-14T13:17:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575651.png?date=1788945660",
+      "publishedAt": "2026-10-14T12:59:23.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/545772.png?date=1772248934",
       "categories": [
-        "guide",
-        "community"
+        "event",
+        "guide"
       ],
-      "series": [],
+      "series": [
+        "go"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "8dadaec8665a",
@@ -913,19 +912,19 @@
       "isNew": false
     },
     {
-      "id": "71e8b04d375e",
-      "title": "『ポケモンGO』ひっかく強化で爆速！環境ぶっささり技を打ちまくるカメテテ【リトルカップ】 #ポケモン #ポケモンgo #pokemon #pokemongo #ゲーム実況 #ゲーム",
-      "url": "https://youtu.be/haZBQdr3B_k?si",
-      "host": "youtu.be",
-      "source": "YouTube",
+      "id": "397da41a59f2",
+      "title": "【ポケポケ】デュアルタイプとは？【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/574423",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-14T12:16:35.000Z",
-      "image": "",
+      "publishedAt": "2026-10-14T12:19:11.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574423.png?date=1788139354",
       "categories": [
-        "guide"
+        "tcgcat"
       ],
       "series": [
-        "go"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -953,27 +952,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "7ed1b0f66964",
-      "title": "【ポケポケ】新パック「ハイクラスパックMEGA(メガ)」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T11:44:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "51077ce69a3b",
@@ -1120,7 +1098,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f816c4e5040a",
@@ -1196,6 +1174,26 @@
       "summary": "",
       "publishedAt": "2026-10-14T10:02:54.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574491.png?date=1788430403",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "2a3c735dda14",
+      "title": "【ポケモンチャンピオンズ】メガセグレイブの育成論と対策",
+      "url": "https://gamewith.jp/pokemon-champions/575651",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-14T10:02:08.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575651.png?date=1788945660",
       "categories": [
         "guide",
         "community"
@@ -1568,7 +1566,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59d212f2ae6e",
@@ -1802,6 +1800,27 @@
       "isNew": false
     },
     {
+      "id": "ac569876072f",
+      "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-14T04:27:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "96dede30191d",
       "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
@@ -1820,7 +1839,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6bdf0e2fef54",
@@ -1852,6 +1871,27 @@
       "summary": "",
       "publishedAt": "2026-10-14T04:27:00.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "07068a774ad8",
+      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-14T04:27:00.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
       "categories": [
         "tcgcat"
       ],
@@ -2268,27 +2308,6 @@
       "isNew": false
     },
     {
-      "id": "07068a774ad8",
-      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T02:26:48.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "1909f74d0bb3",
       "title": "【ポケポケ】ガチグマデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/566880",
@@ -2410,7 +2429,7 @@
       "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d762c554c477",
@@ -2524,27 +2543,6 @@
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560061.png?date=1781135871",
       "categories": [
         "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9202ea85184a",
-      "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
-      "url": "https://pokemongo.gamewith.jp/article/show/577622",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-13T22:12:56.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
-      "categories": [
-        "event"
       ],
       "series": [
         "go"
@@ -2703,27 +2701,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "f1e361f7f1ac",
-      "title": "山本美月、“ポケモン強者”の父とNY2人旅 『Pokémon GO』イベント会場で親子2ショット披露「なんて素敵」「お父さんもスタイル良い！」：山陽新聞デジタル｜さんデジ",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-13T15:54:58.000Z",
-      "image": "",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "d0bb7bd11637",
@@ -2980,29 +2957,6 @@
       "isNew": false
     },
     {
-      "id": "e30396e7ccbb",
-      "title": "カビゴンとの日常から眠りを見直すきっかけを！『Pokemon Sleep』とのコラボレーションで眠りの大切さを伝える啓発動画を公開",
-      "url": "https://news.nicovideo.jp/watch/nw19873671?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-10-13T10:00:28.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "series": [
-        "sleep",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "a8b146e4a994",
       "title": "『ポケモンスリープ』×「西川」がコラボ！ カビゴンの「抱きまくら」や「着る毛布」など登場",
       "url": "https://www.crank-in.net/trend/gallery/item/192447/2",
@@ -3041,7 +2995,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "74c37e1832ec",
@@ -3229,7 +3183,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e39c8e0bce33",
@@ -3272,6 +3226,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "12dc1aa98bf4",
+      "title": "最初に差が付く！まず新ポケモンにはコレを活用！明日はとうとう…【初日やってみた結果まとめ】",
+      "url": "https://youtu.be/cW1D2w5Y3rI?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-13T06:33:53.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "715a3cef397e",
@@ -3631,6 +3604,29 @@
       "isNew": false
     },
     {
+      "id": "e30396e7ccbb",
+      "title": "カビゴンとの日常から眠りを見直すきっかけを！『Pokemon Sleep』とのコラボレーションで眠りの大切さを伝える啓発動画を公開",
+      "url": "https://www.sankei.com/pressrelease/prtimes/LU3RWJUFTJMKJET2GU2VMVLAVE/",
+      "host": "sankei.com",
+      "source": "産経ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-13T02:41:44.000Z",
+      "image": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FHG2BPJIKSFIDZGCVXQ4RVBQ2ZA?auth=f35af5cb60c5f78915e5673d76e4a1a37ac316ba3d3e84a407edd148dbd84ac9&quality=50&smart=true&width=1200&height=675",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "sleep",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "89872b13ddd3",
       "title": "『Pokémon GO』ルート完了で「ジガルデ・セル」を受け取れるように！ コンパスと天候アイコンも統合",
       "url": "https://www.appbank.net/2026/10/13/game/3129083.php",
@@ -3690,7 +3686,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27f729beed14",
@@ -3719,7 +3715,7 @@
       "source": "ファッションプレス",
       "summary": "",
       "publishedAt": "2026-10-12T20:05:30.000Z",
-      "image": "https://www.fashion-press.net/img/news/147708/tcs.jpg?1782880199",
+      "image": "",
       "categories": [
         "event"
       ],
@@ -3837,27 +3833,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "0665d07546bb",
-      "title": "『ポケットモンスター ダイヤモンド・パール』20周年。究極の『ポケモン』を目指して作られた集大成。ワイヤレスで交換・対戦できることに驚かされた【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202609/88085/869487",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-10-12T12:29:02.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/88085/a135007e7085979a7d5b41ce54c0e54d7.jpg?x=1280",
-      "categories": [
-        "community"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "ea7986aec564",
@@ -4192,7 +4167,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f7681cc21cda",
@@ -4213,7 +4188,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d2e8ab96c470",
