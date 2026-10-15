@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-15T00:30:20.765Z",
+  "updatedAt": "2026-10-15T01:00:16.563Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 162,
-  "todayCount": 14,
+  "total": 161,
+  "todayCount": 15,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 10
+      "count": 11
     },
     {
       "id": "tcgcat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 61
+      "count": 60
     }
   ],
   "series": [
@@ -101,19 +101,19 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 43
+      "count": 44
     },
     {
       "name": "YouTube",
-      "count": 25
-    },
-    {
-      "name": "SNKRDUNK",
-      "count": 8
+      "count": 24
     },
     {
       "name": "Yahoo!ニュース",
       "count": 8
+    },
+    {
+      "name": "SNKRDUNK",
+      "count": 7
     },
     {
       "name": "ガジェット通信",
@@ -736,7 +736,7 @@
       "title": "【ポケスリ】ハロウィンで絶対に損しない島選び完全ガイド！ムウマージの新スキル解説&ワカクサEXへ行く基準を徹底解説【ポケモンスリープ】",
       "summary": "",
       "url": "https://youtu.be/ZTPfxKqjS64",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/10/ポケスリハロウィン2026.jpg",
+      "image": "",
       "leadSource": "YouTube",
       "publishedAt": "2026-10-14T09:59:26.000Z",
       "sourceCount": 2,
@@ -818,12 +818,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-15T00:00:15.597Z",
-    "previousCount": 167,
-    "newCount": 5
+    "previousAt": "2026-10-15T00:30:20.765Z",
+    "previousCount": 162,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-15T01:00:20.765Z",
+  "nextUpdateAt": "2026-10-15T01:30:16.563Z",
   "items": [
     {
       "id": "60fee37d65d7",
@@ -881,6 +881,29 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f42f0aec37ba",
+      "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/32581/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-14T20:58:25.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/2989b9e7-e8f4-4557-bee3-ff9f7db28e77.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1408,7 +1431,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fa4c49f0179e",
@@ -1640,29 +1663,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "f42f0aec37ba",
-      "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/32581/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-14T08:42:06.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/2989b9e7-e8f4-4557-bee3-ff9f7db28e77.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "005825e0d4b5",
@@ -2044,27 +2044,6 @@
       "isNew": false
     },
     {
-      "id": "01aec2cb5691",
-      "title": "【ポケポケ】テツノブジンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562225",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T04:27:00.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562225.png?date=1779967944",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "1909f74d0bb3",
       "title": "【ポケポケ】ガチグマデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/566880",
@@ -2168,6 +2147,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b76506a0856d",
+      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-14T04:26:51.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6d6801b0ec0a",
@@ -2371,7 +2371,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-14T03:26:42.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/10/ポケスリハロウィン2026.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2701,6 +2701,28 @@
       "isNew": false
     },
     {
+      "id": "cd4c19dd821c",
+      "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-13T15:29:23.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579544.jpg?date=1791011513",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d0bb7bd11637",
       "title": "【ポケモンユナイト】ブースターの評価と持ち物や技構成のおすすめ｜対策方法【UNITE】",
       "url": "https://gamewith.jp/pokemon-unite/article/show/579347",
@@ -2866,7 +2888,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0b3982f8284c",
@@ -2960,7 +2982,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-13T10:12:19.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261013_000.jpg",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -2995,27 +3017,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "0ee7907c2deb",
-      "title": "【ポケカ】30th CELEBRATIONに収録されたSARまとめ！魅力や注目ポイントを紹介",
-      "url": "https://snkrdunk.com/articles/33498/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-13T09:43:05.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/72cf02a8-34c7-4d2b-a4d5-c1409f53d999.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "010ef8485ba6",
@@ -3613,7 +3614,7 @@
       "source": "Dellows News",
       "summary": "",
       "publishedAt": "2026-10-13T04:40:42.000Z",
-      "image": "https://news.dellows.jp/wp-content/uploads/2026/10/704744_1.jpg",
+      "image": "",
       "categories": [
         "new",
         "goodscat"
@@ -3983,7 +3984,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b66f1c4ba8bb",
@@ -3993,7 +3994,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-12T10:12:50.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261012-pokemongoods-00.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -4119,7 +4120,7 @@
       "source": "カードラボ",
       "summary": "",
       "publishedAt": "2026-10-12T07:00:00.000Z",
-      "image": "https://www.c-labo.jp/wordpress/wp-content/uploads/2026/10/4c85c234076325c638e2c305400f29d6.jpg",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -4209,25 +4210,6 @@
       "series": [
         "sleep"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ea486b56e546",
-      "title": "【公式】「ポケモン動画図鑑」No.0859 ベロバー",
-      "url": "https://youtu.be/cXi8ZG99NOU?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-12T01:00:24.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
