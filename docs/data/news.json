@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-16T22:00:16.776Z",
+  "updatedAt": "2026-10-16T22:30:16.604Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 185,
-  "todayCount": 8,
+  "total": 186,
+  "todayCount": 9,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 8
+      "count": 7
     },
     {
       "id": "tcgcat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 18
+      "count": 17
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 7
+      "count": 8
     },
     {
       "id": "biz",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 77
+      "count": 78
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 38
+      "count": 39
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 28
+      "count": 27
     },
     {
       "id": "tcg",
@@ -116,12 +116,12 @@
       "count": 8
     },
     {
-      "name": "Nintendo DREAM WEB",
+      "name": "SNKRDUNK",
       "count": 6
     },
     {
-      "name": "SNKRDUNK",
-      "count": 5
+      "name": "Nintendo DREAM WEB",
+      "count": 6
     },
     {
       "name": "オリコンニュース",
@@ -516,13 +516,6 @@
           "isPR": false
         },
         {
-          "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
-          "source": "GameWith",
-          "publishedAt": "2026-10-16T14:17:07.000Z",
-          "isPR": false
-        },
-        {
           "title": "【ポケポケ】メガガブリアスexドロップイベントの攻略と周回デッキ【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/582836",
           "source": "GameWith",
@@ -560,6 +553,13 @@
         {
           "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
+          "source": "GameWith",
+          "publishedAt": "2026-10-16T10:04:49.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
           "source": "GameWith",
           "publishedAt": "2026-10-16T10:04:49.000Z",
           "isPR": false
@@ -710,6 +710,48 @@
       ]
     },
     {
+      "id": "242bac53c705",
+      "title": "【ポケカ】御三家セットとは？買取・相場価格/再販抽選情報まとめ【30th CELEBRATION カードセット】",
+      "summary": "",
+      "url": "https://snkrdunk.com/articles/32998/",
+      "image": "https://cdn.snkrdunk.com/uploads/media/13b5a832-81a9-47a4-b06a-b54f107d131d.jpeg",
+      "leadSource": "SNKRDUNK",
+      "publishedAt": "2026-10-16T20:22:09.000Z",
+      "sourceCount": 2,
+      "articleCount": 4,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケカ",
+        "celebration",
+        "セット"
+      ],
+      "articles": [
+        {
+          "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/16更新】",
+          "url": "https://snkrdunk.com/articles/33304/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-16T16:19:36.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】30th 9種カードセット『御三家プロモAR』買取価格ランキング＆相場推移",
+          "url": "https://pokeca-pocket.dbfw-days.com/30th-cardset-gosanke-ranking/",
+          "source": "ポケカポケット開封日記",
+          "publishedAt": "2026-10-16T01:56:14.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】30th CELEBRATION カードセット発売買取価格ランキング",
+          "url": "https://pokeca-pocket.dbfw-days.com/30th-celebration-cardset-ranking/",
+          "source": "ポケカポケット開封日記",
+          "publishedAt": "2026-10-15T12:42:20.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "7f0fefc155e2",
       "title": "【Amazonプライム感謝祭エントリー｜10/13～10/19】最大約17kmの広域アシスト×26時間ロングバッテリー｜ポケモンGO(R)対応ARサポートツール「ARmate」が特別価格",
       "summary": "",
@@ -803,43 +845,15 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "d93bbd553c3d",
-      "title": "池本一三さんがポケモンと風景をガラスの器に描いた「湖のほとりで」 東北歴史博物館で「ポケモン×工芸展」",
-      "summary": "",
-      "url": "https://sendai.keizai.biz/photoflash/10735/",
-      "image": "https://images.keizai.biz/sendai_keizai/photonews/1792161615_b.jpg",
-      "leadSource": "仙台経済新聞",
-      "publishedAt": "2026-10-16T14:41:16.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other",
-        "new"
-      ],
-      "keywords": [
-        "東北歴史博物館",
-        "工芸展"
-      ],
-      "articles": [
-        {
-          "title": "東北歴史博物館で「ポケモン×工芸展」 国内最終会場、新作含む100点展示（みんなの経済新聞ネットワーク）",
-          "url": "https://news.yahoo.co.jp/articles/8db98d2ca25e486a3b91327d92a563fa6dc78f05",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-16T14:15:32.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-16T21:30:17.185Z",
-    "previousCount": 184,
-    "newCount": 6
+    "previousAt": "2026-10-16T22:00:16.776Z",
+    "previousCount": 185,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-16T22:30:16.776Z",
+  "nextUpdateAt": "2026-10-16T23:00:16.604Z",
   "items": [
     {
       "id": "280d9ab9440d",
@@ -864,6 +878,27 @@
       "isNew": false
     },
     {
+      "id": "242bac53c705",
+      "title": "【ポケカ】御三家セットとは？買取・相場価格/再販抽選情報まとめ【30th CELEBRATION カードセット】",
+      "url": "https://snkrdunk.com/articles/32998/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-16T20:22:09.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/13b5a832-81a9-47a4-b06a-b54f107d131d.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d95dcc960f46",
       "title": "【ポケポケ】エリートデッキ(メガルカリオex)の入手方法【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570822",
@@ -882,7 +917,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8200126c8e43",
@@ -1064,27 +1099,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3f4e3bd3edff",
-      "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T14:17:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564725.png?date=1784813440",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1532,6 +1546,27 @@
       "isNew": false
     },
     {
+      "id": "65229ee18342",
+      "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:04:48.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562182.png?date=1779956758",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "358278432ae6",
       "title": "【ポケポケ】テラパゴスexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562183",
@@ -1822,7 +1857,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6f656c72dbcb",
@@ -2262,7 +2297,7 @@
       "source": "gamebiz【ゲームビズ】",
       "summary": "",
       "publishedAt": "2026-10-16T05:44:00.000Z",
-      "image": "",
+      "image": "https://i3.gamebiz.jp/media/caab8d04-7c73-479f-b248-7f9ef985f892.jpg",
       "categories": [
         "tcgcat"
       ],
@@ -2571,28 +2606,6 @@
       "isNew": false
     },
     {
-      "id": "ad14a4762557",
-      "title": "スメハラ案件、ポケモンカード大会でも！優勝経験者がオエッ→「カード、コントローラー、制汗剤」常備を",
-      "url": "https://news.yahoo.co.jp/articles/5444f95c757bb68194786355d0577b3160aded5f/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-16T02:50:02.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnU-3lAOq06RXepg8bvCY0DcQOX-cMMaiKqw1mFliOh75cO3YpwodfsGbucdwR0B0PJop6RHiGtKZhEP_FSgACHnU_oOZ0PyAwxCgUCX_-bxg",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "cff9180e68ad",
       "title": "【ポケカ】30th 9種カードセット『御三家プロモAR』買取価格ランキング＆相場推移",
       "url": "https://pokeca-pocket.dbfw-days.com/30th-cardset-gosanke-ranking/",
@@ -2710,7 +2723,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e42d692e2f8d",
@@ -2855,6 +2868,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b56c25ff54f8",
+      "title": "『ポケモンレジェンズ Z-A』1周年。『ポケットモンスター』シリーズ初のリアルタイムな戦闘を採用した挑戦作。ミアレシティを舞台に昼は探索、夜はＺＡロワイヤル【今日は何の日？】（ファミ通.com）",
+      "url": "https://news.yahoo.co.jp/articles/e240e26084e2792b04bb0ee6fdb75d9502a79725",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-15T15:00:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261016-00090001-famitsu-000-2-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0609663f8652",
@@ -3071,27 +3105,6 @@
       "isNew": false
     },
     {
-      "id": "8582340a4bca",
-      "title": "見ただけで降参されますwwwコイルの一貫性能やばすぎて試合時間も2分で終わる連打構築！(リトルカップ）【ポケモンGO】",
-      "url": "https://youtu.be/xOtn0L4qucU?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-15T10:00:11.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "cdd8c2f1751f",
       "title": "【初心者向け】育成すべき一般ポケモンランキングTOP10！【ポケモンGO】",
       "url": "https://youtu.be/SU3PxaqZFwk",
@@ -3155,6 +3168,25 @@
       "isNew": false
     },
     {
+      "id": "28db8ececa58",
+      "title": "やはり俺のポケモンチャピオは間違っている #8【ポケモンチャンピオンズ】【直撮り】",
+      "url": "https://youtu.be/hFYzANvwESA?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-15T08:00:05.000Z",
+      "image": "",
+      "categories": [
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "c36517278d70",
       "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携方法｜いつから？【ポケモンFRLG】",
       "url": "https://appmedia.jp/pokemon_frlg/79791953",
@@ -3171,7 +3203,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "48274c5cccd6",
@@ -3604,7 +3636,7 @@
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-14T16:31:32.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/9/3/5/6/9356e1d04bf6edaefbe6c1c6b3d20ad3_1.jpg",
+      "image": "",
       "categories": [
         "new",
         "tcgcat"
@@ -3765,7 +3797,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7b666dffb23c",
@@ -4294,7 +4326,7 @@
     {
       "id": "540664b417e0",
       "title": "【ポケモンSV】デカヌチャンの色違いと弱点・進化と技構成【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373378",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hWVphcDhnM3oyQTdBU3FWNW56QTF6NlU1dUwydGt5dDQybW1pOEJZdHM4bnRKeTJqd2p1VWU0dUNrcjVwMWExeTZ4dmxfOHRLelR6SXFsdnBJU3FRQ3Bj?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4308,7 +4340,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
