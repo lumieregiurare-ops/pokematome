@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T11:30:16.387Z",
+  "updatedAt": "2026-10-17T12:00:16.756Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 9
+      "count": 8
     },
     {
       "id": "community",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 58
+      "count": 59
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 24
+      "count": 23
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 28
+      "count": 30
     },
     {
       "id": "tcg",
@@ -101,11 +101,15 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 29
+      "count": 28
     },
     {
       "name": "YouTube",
-      "count": 23
+      "count": 24
+    },
+    {
+      "name": "Unisba Media",
+      "count": 12
     },
     {
       "name": "Yahoo!ニュース",
@@ -113,10 +117,6 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 11
-    },
-    {
-      "name": "Unisba Media",
       "count": 11
     },
     {
@@ -170,14 +170,6 @@
     {
       "name": "PR TIMES",
       "count": 2
-    },
-    {
-      "name": "ニコニコニュース",
-      "count": 2
-    },
-    {
-      "name": "サンスポ",
-      "count": 1
     },
     {
       "name": "Dtimes",
@@ -248,6 +240,10 @@
       "count": 1
     },
     {
+      "name": "リアルサウンド",
+      "count": 1
+    },
+    {
       "name": "ライブドアニュース",
       "count": 1
     },
@@ -273,6 +269,10 @@
     },
     {
       "name": "にじめん",
+      "count": 1
+    },
+    {
+      "name": "ニコニコニュース",
       "count": 1
     },
     {
@@ -764,12 +764,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-17T11:00:19.218Z",
-    "previousCount": 164,
-    "newCount": 8
+    "previousAt": "2026-10-17T11:30:16.387Z",
+    "previousCount": 162,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-17T12:00:16.387Z",
+  "nextUpdateAt": "2026-10-17T12:30:16.756Z",
   "items": [
     {
       "id": "2261ec528b9d",
@@ -779,7 +779,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-17T10:40:52.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261017-00000013-ryu-000-1-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261017-00000013-ryu-000-2-view.jpg?exp=10800",
       "categories": [
         "other"
       ],
@@ -798,7 +798,7 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-10-17T10:00:15.000Z",
-      "image": "",
+      "image": "https://i.ytimg.com/vi/D-jFbr4A8Yg/maxresdefault.jpg",
       "categories": [
         "event"
       ],
@@ -809,7 +809,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3b87d882a5e",
@@ -898,25 +898,6 @@
       "isNew": false
     },
     {
-      "id": "1d383e61e3e1",
-      "title": "鈴木愛、今季初優勝へ首位浮上「10回は初期化している」唯一の息抜きは9年前のポケモンゲーム？／国内女子ゴルフ",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjdqd3duT0VWb3o2WENUekU5VHBJNjdmXy1TSDFmbGtjbHY1endnTU0xRlU1OHo2SDhBc2tRdXNHMUJFSnhfUzQ4NDZFZ3FSUW9ieldVOFN0c0o3TGYyX1BHbHlZZjNvVGk0dkhxdlFybkpfdFpvWFQwNTVQbzZYeEF5Szcta1dPci14cU1vRHlFYVHSAYoBQVVfeXFMTkJFUGZubUtoZHBjamdmaW9Iek1Fekwtaktlakgzam02OUJjMzdVMDB1SDFJUDlrVlJRYi1maFEyb1VlRXN6VVNfOWxENk9ELWoyNlpGM1J3QmhsRzNjN1MtYmk2dXpyZV9BZTMtRmwzcy14SkY3SWFsMGFLYTJPeV9Cbkd0NUNRVU9B?oc=5",
-      "host": "sanspo.com",
-      "source": "サンスポ",
-      "summary": "",
-      "publishedAt": "2026-10-17T08:10:35.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "c3572f07ab43",
       "title": "【ポケカ30周年】30th CELEBRATION(30th セレブレーション)の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【10/16更新】",
       "url": "https://snkrdunk.com/articles/30971/",
@@ -956,7 +937,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "800d6423ae89",
@@ -1312,6 +1293,27 @@
       "isNew": false
     },
     {
+      "id": "2a385a45d71a",
+      "title": "【ポケモンGO】新宿の観光名所は『ポケモン広場』by Shinoちゃん❤横浜 ポケふた巡り #pokémongo Sean Brady (CJNd5hLpxc)",
+      "url": "https://media.unisba.ac.id/18c8546c/da0bfb5cMKgHd26g-rs/?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-16T23:12:22.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "280d9ab9440d",
       "title": "『ポケットモンスター X・Y』が発売された日。ポケモンたちがすべて3D化し、ゲームを新たな次元へとシフトさせた作品。フェアリータイプも新登場【今日は何の日？】",
       "url": "https://www.famitsu.com/article/images/202610/90244/894702",
@@ -1352,7 +1354,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1bc6a8ec1a88",
@@ -1394,7 +1396,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b37a8b4b04ca",
@@ -1583,7 +1585,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "50b8e218d671",
@@ -1834,6 +1836,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b7d148f5a0ab",
+      "title": "【42km完走】みんな・・・私ついにやったわ・・・【ポケモンGO】",
+      "url": "https://youtu.be/QLKC4x-3p34?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-16T13:40:07.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1822e37faecd",
@@ -2234,6 +2257,27 @@
       "isNew": false
     },
     {
+      "id": "a31e0fea1535",
+      "title": "【ポケモンGO】GBL激弱の男が挑む！レベル80への最後の試練！！【マンさんGBL80勝への道 #1】",
+      "url": "https://youtu.be/6F4dO-uhhVw?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:00:09.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e88095f8e61a",
       "title": "サンタクルーズ×ポケモンカードゲーム「30周年記念 限定スケートボードデッキ」が登場！金色ラメ箔仕様は各世界500枚限定",
       "url": "https://www.toy-people.com/jp/?p",
@@ -2420,7 +2464,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4aa48b1d6270",
@@ -2561,7 +2605,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、新たなグッズシリーズ「クリスマスじゅんびチュウ！」を10月24日よりポケモンセンターにて発売する。価格は「プレゼントお届けチュウぬいぐるみ クリスマスじゅんびチュウ！ ピカチュウ ドオー」が5,500円など。",
       "publishedAt": "2026-10-16T06:09:35.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/807/4.jpg",
+      "image": "",
       "categories": [
         "goodscat",
         "new"
@@ -2605,7 +2649,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、「Pokémon LEGENDS Z-A（ゼットエー）」に関連した新たなグッズを10月29日に発売する。",
       "publishedAt": "2026-10-16T05:58:35.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/801/3.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -2670,7 +2714,7 @@
       "source": "GAME Watch",
       "summary": "3COINSは、グッズ「ポケモン30周年アイテム」の受注販売を10月17日より実施することを発表した。受注期間は10月17日から10月22日23時59分まで。",
       "publishedAt": "2026-10-16T05:42:52.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/794/1.jpg",
+      "image": "",
       "categories": [
         "new",
         "goodscat"
@@ -3080,25 +3124,6 @@
       "isNew": false
     },
     {
-      "id": "e42d692e2f8d",
-      "title": "松丸亮吾が語る、尽きない“ポケモン愛” 夢の謎解き制作に「人生報われたなと思いました」",
-      "url": "https://news.nicovideo.jp/watch/nw19884811?news_ref",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
-      "summary": "",
-      "publishedAt": "2026-10-15T23:03:31.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "e2ba35fc41a1",
       "title": "ポケモンGO サマースタイルピチュー",
       "url": "https://youtu.be/SNcj7mPUmSE?si",
@@ -3152,6 +3177,25 @@
       "summary": "",
       "publishedAt": "2026-10-15T22:48:26.000Z",
       "image": "https://www.anahd.co.jp/ana_news/assets/img/news/2026/10/16/pct-20261016-2-head.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "e42d692e2f8d",
+      "title": "松丸亮吾が語る、尽きない“ポケモン愛” 夢の謎解き制作に「人生報われたなと思いました」",
+      "url": "https://realsound.jp/tech/2026/10/post-2554489.html/amp",
+      "host": "realsound.jp",
+      "source": "リアルサウンド",
+      "summary": "",
+      "publishedAt": "2026-10-15T22:00:40.000Z",
+      "image": "https://realsound.jp/wp-content/uploads/2026/10/20261016-matsumaru-ryogo-99.jpg",
       "categories": [
         "other"
       ],
@@ -3312,27 +3356,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "c148fff28578",
-      "title": "【全米が泣いた!?】台湾でピカチュウの色違いを追い続けた男の結末…【ポケモンGO】#shorts #ポケモン #ポケモンgo #pokemongo #PokéXciting",
-      "url": "https://youtu.be/bRbqCKmlQ6s?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-15T13:14:49.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "5d6af1f077c1",
@@ -4151,27 +4174,6 @@
       ],
       "series": [
         "sleep"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7b666dffb23c",
-      "title": "【藍の円盤】御三家の出現場所と入手方法｜環境整備【ポケモンSV DLC】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/430133",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T11:36:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/430133.png?date=1702737306",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "main"
       ],
       "isOfficial": false,
       "isPR": false,
