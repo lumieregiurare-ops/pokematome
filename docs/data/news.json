@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-17T07:30:17.130Z",
+  "updatedAt": "2026-10-17T08:00:17.329Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 176,
+  "total": 173,
   "todayCount": 41,
   "categories": [
     {
@@ -37,7 +37,7 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 6
+      "count": 7
     },
     {
       "id": "guide",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 8
+      "count": 9
     },
     {
       "id": "biz",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 65
+      "count": 61
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 32
+      "count": 31
     },
     {
       "id": "go",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 24
+      "count": 21
     },
     {
       "id": "sleep",
@@ -101,15 +101,15 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 42
+      "count": 38
     },
     {
       "name": "YouTube",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Unisba Media",
-      "count": 13
+      "count": 12
     },
     {
       "name": "SNKRDUNK",
@@ -156,15 +156,15 @@
       "count": 3
     },
     {
+      "name": "AppMedia",
+      "count": 3
+    },
+    {
       "name": "ポケカポケット開封日記",
       "count": 2
     },
     {
       "name": "電撃オンライン",
-      "count": 2
-    },
-    {
-      "name": "AppMedia",
       "count": 2
     },
     {
@@ -591,7 +591,7 @@
       "leadSource": "ガジェット通信",
       "publishedAt": "2026-10-17T01:00:49.000Z",
       "sourceCount": 2,
-      "articleCount": 3,
+      "articleCount": 4,
       "categories": [
         "event",
         "other"
@@ -605,6 +605,13 @@
           "url": "https://youtu.be/sJOqLW_v-Gs?si",
           "source": "YouTube",
           "publishedAt": "2026-10-16T21:54:52.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【42km完走】みんな・・・私ついにやったわ・・・【ポケモンGO】",
+          "url": "https://youtu.be/QLKC4x-3p34?si",
+          "source": "YouTube",
+          "publishedAt": "2026-10-16T13:40:07.000Z",
           "isPR": false
         },
         {
@@ -729,8 +736,8 @@
       "id": "af7786665234",
       "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
       "summary": "",
-      "url": "https://www.oricon.co.jp/news/2486402/photo/2/",
-      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486402/20261014_160557_p_o_84672937.jpg",
+      "url": "https://www.oricon.co.jp/news/2486402/photo/12/",
+      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486402/20261014_160558_p_o_16216997.jpg",
       "leadSource": "オリコンニュース",
       "publishedAt": "2026-10-16T10:25:00.000Z",
       "sourceCount": 2,
@@ -759,7 +766,7 @@
       "title": "10月29日より『ぽこ あ ポケモン』メタモンのラバーキーホルダー全8種がポケモンセンターに登場",
       "summary": "",
       "url": "https://www.ndw.jp/pokemon-goods-261016-03/",
-      "image": "https://www.pokemon.co.jp/PostImages/83feef51b4f6aa31363978add9b7a87c8f69f7f2.jpg",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261016-03_000.jpg",
       "leadSource": "Nintendo DREAM WEB",
       "publishedAt": "2026-10-16T09:42:43.000Z",
       "sourceCount": 2,
@@ -784,12 +791,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-17T07:00:16.374Z",
+    "previousAt": "2026-10-17T07:30:17.130Z",
     "previousCount": 176,
-    "newCount": 9
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-17T08:00:17.130Z",
+  "nextUpdateAt": "2026-10-17T08:30:17.329Z",
   "items": [
     {
       "id": "c3572f07ab43",
@@ -915,7 +922,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "81249cd2c088",
@@ -925,7 +932,7 @@
       "source": "ポケカポケット開封日記",
       "summary": "",
       "publishedAt": "2026-10-17T04:29:25.000Z",
-      "image": "",
+      "image": "https://pokeca-pocket.dbfw-days.com/wp-content/uploads/2026/10/IMG_0277.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -947,7 +954,7 @@
       "source": "ポケカポケット開封日記",
       "summary": "",
       "publishedAt": "2026-10-17T04:28:44.000Z",
-      "image": "",
+      "image": "https://pokeca-pocket.dbfw-days.com/wp-content/uploads/2026/10/IMG_0301.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -1177,7 +1184,7 @@
       "source": "マイナビ子育て",
       "summary": "",
       "publishedAt": "2026-10-17T00:38:00.000Z",
-      "image": "",
+      "image": "https://kosodate.mynavi.jp/uploads/article/image/46355/index2.jpg",
       "categories": [
         "new"
       ],
@@ -1247,7 +1254,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "280d9ab9440d",
@@ -1290,7 +1297,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1bc6a8ec1a88",
@@ -1489,7 +1496,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-16T17:32:44.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1010-i.jpeg",
       "categories": [
         "other"
       ],
@@ -1711,6 +1718,27 @@
       "isNew": false
     },
     {
+      "id": "b7d148f5a0ab",
+      "title": "【42km完走】みんな・・・私ついにやったわ・・・【ポケモンGO】",
+      "url": "https://youtu.be/QLKC4x-3p34?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-16T13:40:07.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "1822e37faecd",
       "title": "『ポケカ』メガオーダイルex、メガカイリューex、メガゲンガーexのデッキ3種がセットに！11月13日発売、対戦グッズ付きで5,500円",
       "url": "https://dengekionline.com/article/202610/91244",
@@ -1775,19 +1803,19 @@
       "isNew": false
     },
     {
-      "id": "8a454edabfa6",
-      "title": "【ふかの日】Jリーグフェスのポケストップが最高すぎる✨福岡と佐賀堪能してきたばい!!メラルバ確率低すぎや!!【ポケモンGO】 American Idol 2026 (N8SlHcg3tP)",
-      "url": "https://media.unisba.ac.id/a7b3401b/1be71ff27W59BAQAUpo",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
+      "id": "ee2edc96b72c",
+      "title": "画像・写真 | 先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼 2枚目",
+      "url": "https://www.oricon.co.jp/news/2487001/photo/2/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
-      "publishedAt": "2026-10-16T12:34:41.000Z",
-      "image": "",
+      "publishedAt": "2026-10-16T12:08:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210710_p_o_83504395.jpg",
       "categories": [
-        "other"
+        "media"
       ],
       "series": [
-        "go"
+        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1804,27 +1832,6 @@
       "summary": "",
       "publishedAt": "2026-10-16T12:08:00.000Z",
       "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210705_p_o_73636726.jpg",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ee2edc96b72c",
-      "title": "画像・写真 | 先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼 2枚目",
-      "url": "https://www.oricon.co.jp/news/2487001/photo/2/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-10-16T12:08:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210710_p_o_83504395.jpg",
       "categories": [
         "media"
       ],
@@ -2005,7 +2012,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d29f5cbc45df",
@@ -2031,12 +2038,12 @@
     {
       "id": "af7786665234",
       "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
-      "url": "https://www.oricon.co.jp/news/2486402/photo/2/",
+      "url": "https://www.oricon.co.jp/news/2486402/photo/12/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-16T10:25:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486402/20261014_160557_p_o_84672937.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486402/20261014_160558_p_o_16216997.jpg",
       "categories": [
         "other"
       ],
@@ -2153,14 +2160,14 @@
       "isNew": false
     },
     {
-      "id": "4592f13ac082",
-      "title": "【ポケポケ】ヒスイヌメルゴンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/566739",
+      "id": "833ac77d5fe0",
+      "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-16T10:04:42.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566739.png?date=1783054233",
+      "publishedAt": "2026-10-16T10:04:40.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
       "categories": [
         "tcgcat"
       ],
@@ -2171,7 +2178,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "1909f74d0bb3",
@@ -2216,6 +2223,26 @@
       "isNew": false
     },
     {
+      "id": "9f671a8362f5",
+      "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
+      "url": "https://appmedia.jp/pokemonchampions/79917667",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:01:32.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/04/154524_gfk4e.webp",
+      "categories": [
+        "media",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a31e0fea1535",
       "title": "【ポケモンGO】GBL激弱の男が挑む！レベル80への最後の試練！！【マンさんGBL80勝への道 #1】",
       "url": "https://youtu.be/6F4dO-uhhVw?si",
@@ -2234,7 +2261,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e88095f8e61a",
@@ -2265,7 +2292,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-16T09:47:43.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261016-pokemongoods-3-00.jpg",
       "categories": [
         "other"
       ],
@@ -2286,7 +2313,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-16T09:42:43.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261016-03_000.jpg",
       "categories": [
         "goodscat"
       ],
@@ -2307,7 +2334,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-16T09:32:43.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261016-02_000.jpg",
       "categories": [
         "goodscat"
       ],
@@ -2394,7 +2421,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-16T08:52:43.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261016-01_000.jpg",
       "categories": [
         "goodscat"
       ],
@@ -2447,7 +2474,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4aa48b1d6270",
@@ -2654,7 +2681,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-16T05:48:58.000Z",
-      "image": "",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2024/10/ポケモンスリープゴールド旧発電所.png",
       "categories": [
         "other"
       ],
@@ -2931,7 +2958,7 @@
       "source": "CUBEの部屋",
       "summary": "",
       "publishedAt": "2026-10-16T03:31:19.000Z",
-      "image": "",
+      "image": "https://cuberoomblog.com/wp-content/uploads/2026/10/20261016_1037241-1.jpg",
       "categories": [
         "tcgcat"
       ],
@@ -3021,7 +3048,7 @@
       "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "88793d087b82",
@@ -3504,7 +3531,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c36517278d70",
@@ -3929,7 +3956,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8129b8ffd8d3",
@@ -4251,7 +4278,7 @@
     {
       "id": "440a1c8f1219",
       "title": "【今使え】強化で環境TOPに⁉︎『ミライドン』が今熱い立ち回り実況解説【ポケモンユナイト】",
-      "url": "https://youtu.be/eq8nGFFegx0?si",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94a3dmN2tLX2dpTnJ1UFRwNjFRYURwVGxmOHNjSl8xTXFYb0xRd1AzeEFaOWM3TzRLVVZsdGRCdG12bjZxdU1FX3dnUS01RDlramZCMVZzU1pxSGgz?oc=5",
       "host": "youtu.be",
       "source": "YouTube",
       "summary": "",
@@ -4265,7 +4292,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -4403,90 +4430,6 @@
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-14T08:26:08.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "da8707d5e897",
-      "title": "【ポケモンユナイト】新キャラ(新ポケモン)はいつ追加？｜追加ポケモン【UNITE】",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBwbkZMeXVubHRzU0N1bWU0dzlEZUlESXBvMWpoUEpUNkkzakw0T2dndHQ0cVgwTzd1dFZhcWw3M2ZOaVpWaURlcEFnSjVOcHVLNVhnRms1Vy0wU1JTRjlwTFFMRQ?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T07:58:25.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6c448105a829",
-      "title": "【ポケモンユナイト】ステータスの見方と意味｜ステータス表【UNITE】",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5rSHhMLTFyNmE0RUVvWTF5eVFwS2g4b0ZtTi0zUXJnbGx5dnVRcUdCeS1UT0JjTzhLejZUSy01LWs4YjltY1YtdDZNVGM5Mldxbm0zcElBakN2bG9GTGxIZDhmRQ?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T07:48:48.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "99b5f1ca3a39",
-      "title": "【ポケモンユナイト】まもりの効果と付与するポケモン・わざ【UNITE】",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBQRzVReG9CTmhBREMyQmJNejZ6QUZYSmhtTm8xbFM0cFBrclhBd2RsT0pIckNFSjAxWXdPelFKSUdreUdjLVYySnVxSUljdldQamkxTHJfVlFHRzVVdEhnSFlDaw?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T07:37:25.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "55ccacd70846",
-      "title": "【ポケモンSV】ガブリアスの種族値と進化・色違いと出現場所【スカーレットバイオレット】",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VRnlmWmxrMTlHQWlfdGtOWHE5WV84WThBS3lFSlBaNzB0ek5kcC1OWWVFdWE4elByTWJRd3MtQ040VTFMeUJvT01GX0NveHFvTVZGSlg2b3J4V3FlaE5r?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-14T07:34:13.000Z",
       "image": "",
       "categories": [
         "other"
