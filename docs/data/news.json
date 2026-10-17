@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-17T04:30:15.792Z",
+  "updatedAt": "2026-10-17T04:55:45.619Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 180,
-  "todayCount": 26,
+  "total": 178,
+  "todayCount": 29,
   "categories": [
     {
       "id": "new",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 30
+      "count": 29
     },
     {
       "id": "media",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 74
+      "count": 73
     }
   ],
   "series": [
@@ -84,36 +84,36 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 23
+      "count": 22
     },
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 11
+      "count": 9
     },
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 44
+      "count": 43
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 47
+      "count": 46
     },
     {
       "name": "YouTube",
-      "count": 29
+      "count": 28
+    },
+    {
+      "name": "SNKRDUNK",
+      "count": 8
     },
     {
       "name": "Unisba Media",
       "count": 8
-    },
-    {
-      "name": "SNKRDUNK",
-      "count": 7
     },
     {
       "name": "ガジェット通信",
@@ -152,15 +152,19 @@
       "count": 3
     },
     {
-      "name": "電撃オンライン",
-      "count": 3
-    },
-    {
       "name": "PR TIMES",
       "count": 3
     },
     {
+      "name": "ポケカポケット開封日記",
+      "count": 2
+    },
+    {
       "name": "Howl.link",
+      "count": 2
+    },
+    {
+      "name": "電撃オンライン",
       "count": 2
     },
     {
@@ -168,12 +172,12 @@
       "count": 2
     },
     {
-      "name": "ポケカポケット開封日記",
+      "name": "MANTANWEB",
       "count": 2
     },
     {
-      "name": "MANTANWEB",
-      "count": 2
+      "name": "仙台経済新聞",
+      "count": 1
     },
     {
       "name": "LIMO | くらしとお金の経済メディア",
@@ -285,10 +289,6 @@
     },
     {
       "name": "Saiga NAK",
-      "count": 1
-    },
-    {
-      "name": "Excite エキサイト",
       "count": 1
     }
   ],
@@ -537,7 +537,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-10-16T19:31:21.000Z",
       "sourceCount": 2,
-      "articleCount": 24,
+      "articleCount": 23,
       "categories": [
         "tcgcat",
         "event"
@@ -602,6 +602,48 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
           "source": "GameWith",
           "publishedAt": "2026-10-16T11:27:19.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "81249cd2c088",
+      "title": "【ポケカ】30th CELEBRATION カードセット発売買取価格ランキング",
+      "summary": "",
+      "url": "https://pokeca-pocket.dbfw-days.com/30th-celebration-cardset-ranking/",
+      "image": "https://pokeca-pocket.dbfw-days.com/wp-content/uploads/2026/10/IMG_0277.jpeg",
+      "leadSource": "ポケカポケット開封日記",
+      "publishedAt": "2026-10-17T04:29:25.000Z",
+      "sourceCount": 2,
+      "articleCount": 4,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケカ",
+        "celebration",
+        "買取"
+      ],
+      "articles": [
+        {
+          "title": "【ポケカ】エーフィex SAR仕様の買取・相場価格と値段推移｜30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
+          "url": "https://snkrdunk.com/articles/32484/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-17T01:36:01.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/16更新】",
+          "url": "https://snkrdunk.com/articles/33304/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-17T00:56:12.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】30th 9種カードセット『御三家プロモAR』買取価格ランキング＆相場推移",
+          "url": "https://pokeca-pocket.dbfw-days.com/30th-cardset-gosanke-ranking/",
+          "source": "ポケカポケット開封日記",
+          "publishedAt": "2026-10-16T01:56:14.000Z",
           "isPR": false
         }
       ]
@@ -678,6 +720,34 @@
           "url": "https://youtu.be/SNcj7mPUmSE?si",
           "source": "YouTube",
           "publishedAt": "2026-10-15T22:51:30.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "d93bbd553c3d",
+      "title": "池本一三さんがポケモンと風景をガラスの器に描いた「湖のほとりで」 東北歴史博物館で「ポケモン×工芸展」",
+      "summary": "",
+      "url": "https://sendai.keizai.biz/photoflash/10737/",
+      "image": "https://images.keizai.biz/sendai_keizai/photonews/1792212122_b.jpg",
+      "leadSource": "仙台経済新聞",
+      "publishedAt": "2026-10-17T04:43:44.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other",
+        "new"
+      ],
+      "keywords": [
+        "東北歴史博物館",
+        "工芸展"
+      ],
+      "articles": [
+        {
+          "title": "東北歴史博物館で「ポケモン×工芸展」 国内最終会場、新作含む100点展示（みんなの経済新聞ネットワーク）",
+          "url": "https://news.yahoo.co.jp/articles/8db98d2ca25e486a3b91327d92a563fa6dc78f05",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-16T14:15:32.000Z",
           "isPR": false
         }
       ]
@@ -763,73 +833,57 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "af7786665234",
-      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
-      "summary": "",
-      "url": "https://www.oricon.co.jp/news/2486402/photo/2/",
-      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486402/20261014_160557_p_o_84672937.jpg",
-      "leadSource": "オリコンニュース",
-      "publishedAt": "2026-10-16T10:25:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other",
-        "new"
-      ],
-      "keywords": [
-        "カット",
-        "場面",
-        "解禁"
-      ],
-      "articles": [
-        {
-          "title": "ポケモン新作映画、主人公の名前発表 映像＆場面カット解禁で史上初のポケカ題材作品",
-          "url": "https://www.sanyonews.jp/article/1981332",
-          "source": "山陽新聞",
-          "publishedAt": "2026-10-14T16:31:32.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "b93d7d00dd88",
-      "title": "10月29日より『ぽこ あ ポケモン』メタモンのラバーキーホルダー全8種がポケモンセンターに登場",
-      "summary": "",
-      "url": "https://www.ndw.jp/pokemon-goods-261016-03/",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-goods-261016-03_000.jpg",
-      "leadSource": "Nintendo DREAM WEB",
-      "publishedAt": "2026-10-16T09:42:43.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "goodscat"
-      ],
-      "keywords": [
-        "ポケモンセンター",
-        "メタモン",
-        "ラバーキーホルダー"
-      ],
-      "articles": [
-        {
-          "title": "『ぽこ あ ポケモン』に登場するメタモンの立体ラバーキーホルダーが、ポケモンセンターに登場！",
-          "url": "https://www.pokemon.co.jp/goods/2026/10/261016_go02.html",
-          "source": "ポケットモンスターオフィシャルサイト",
-          "publishedAt": "2026-10-16T05:06:31.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-17T04:00:15.605Z",
-    "previousCount": 183,
-    "newCount": 8
+    "previousAt": "2026-10-17T04:30:15.792Z",
+    "previousCount": 180,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-17T05:00:15.792Z",
+  "nextUpdateAt": "2026-10-17T05:25:45.619Z",
   "items": [
+    {
+      "id": "d93bbd553c3d",
+      "title": "池本一三さんがポケモンと風景をガラスの器に描いた「湖のほとりで」 東北歴史博物館で「ポケモン×工芸展」",
+      "url": "https://sendai.keizai.biz/photoflash/10737/",
+      "host": "sendai.keizai.biz",
+      "source": "仙台経済新聞",
+      "summary": "",
+      "publishedAt": "2026-10-17T04:43:44.000Z",
+      "image": "https://images.keizai.biz/sendai_keizai/photonews/1792212122_b.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "81249cd2c088",
+      "title": "【ポケカ】30th CELEBRATION カードセット発売買取価格ランキング",
+      "url": "https://pokeca-pocket.dbfw-days.com/30th-celebration-cardset-ranking/",
+      "host": "pokeca-pocket.dbfw-days.com",
+      "source": "ポケカポケット開封日記",
+      "summary": "",
+      "publishedAt": "2026-10-17T04:29:25.000Z",
+      "image": "https://pokeca-pocket.dbfw-days.com/wp-content/uploads/2026/10/IMG_0277.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "b8cdf0d89b1a",
       "title": "スタバとポケモンのコラボで見つけた黒板アート 「ピカチュウ版」を思わせる粋なデザインに反響",
@@ -873,6 +927,27 @@
       "isNew": false
     },
     {
+      "id": "b5203cf67cf2",
+      "title": "【A（きれいな状態）】リザードン [M6a 137/103](拡張パック「30th CELEBRATION」) 1枚のシングルトレカ通販｜スニダン",
+      "url": "https://snkrdunk.com/apparels/882281/used/51567283?slide",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-17T01:57:14.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b66f414d563a",
       "title": "【ポケカ】エーフィex SAR仕様の買取・相場価格と値段推移｜30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
       "url": "https://snkrdunk.com/articles/32484/",
@@ -891,7 +966,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1195202eb439",
@@ -1030,7 +1105,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "280d9ab9440d",
@@ -1136,7 +1211,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "397da41a59f2",
@@ -1260,7 +1335,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8200126c8e43",
@@ -1428,7 +1503,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "de4b4c001702",
@@ -1553,7 +1628,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ee2edc96b72c",
@@ -2059,27 +2134,6 @@
       "isNew": false
     },
     {
-      "id": "fb3b696295c7",
-      "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:04:36.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570624.png?date=1785392839",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "e88095f8e61a",
       "title": "サンタクルーズ×ポケモンカードゲーム「30周年記念 限定スケートボードデッキ」が登場！金色ラメ箔仕様は各世界500枚限定",
       "url": "https://www.toy-people.com/jp/?p",
@@ -2289,7 +2343,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4aa48b1d6270",
@@ -3201,28 +3255,6 @@
       "isNew": false
     },
     {
-      "id": "81249cd2c088",
-      "title": "【ポケカ】30th CELEBRATION カードセット発売買取価格ランキング",
-      "url": "https://pokeca-pocket.dbfw-days.com/30th-celebration-cardset-ranking/",
-      "host": "pokeca-pocket.dbfw-days.com",
-      "source": "ポケカポケット開封日記",
-      "summary": "",
-      "publishedAt": "2026-10-15T12:42:20.000Z",
-      "image": "https://pokeca-pocket.dbfw-days.com/wp-content/uploads/2026/10/IMG_0277.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "5d6af1f077c1",
       "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
       "url": "https://gamewith.jp/pokemon/574415",
@@ -3345,7 +3377,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cdd8c2f1751f",
@@ -3667,7 +3699,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-15T03:14:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486581/20261015_121124_p_o_46607069.jpg",
       "categories": [
         "new"
       ],
@@ -4214,27 +4246,6 @@
       "isNew": false
     },
     {
-      "id": "b5e0692f9b3c",
-      "title": "サンダース参戦！世界王者Vitoppoの評価は？【ポケモンユナイト】",
-      "url": "https://youtu.be/POQQL1vjZ9Q?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-14T09:00:33.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "364a436484c3",
       "title": "【ポケモンSV】パーモットの進化と弱点・色違い【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373411",
@@ -4561,49 +4572,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8cc4e8614b34",
-      "title": "【ポケスリ】ハロウィン2026が10月26日開催！ ムウマ実装＆限定イーブイ新登場",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBKanpwd2o1WlVITUpsRzd5VWV6RFlQd3VtMHFkdEk4OWduUndRQUE3NzU2UzUyQzl4OHBic1laRnNJdmZwa19EU1M3MElicEVKalRFR1p4NWJtdw?oc=5",
-      "host": "dengekionline.com",
-      "source": "電撃オンライン",
-      "summary": "",
-      "publishedAt": "2026-10-14T04:48:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "sleep"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "574ab4c595b4",
-      "title": "極上の眠り、ゲットだぜ――北海道に「泊まれるモンスターボール」出現 ポケモンスリープ×NOT A HOTELの本気コラボ",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLSEhCckRYYlI4Y3p0UENqQ09sTVJYQ2xvMW9GbE5Da3NmcGtmMzNlQ3RDdXdKamZEcjVJLS1nQW9QclRfUzY3TEVDSDRPM2FfbEt5bTl3aTJiWmFZNS12UkIyZV9qOVhpM2VDU0RvOVFpXzVINTR4RA?oc=5",
-      "host": "excite.co.jp",
-      "source": "Excite エキサイト",
-      "summary": "",
-      "publishedAt": "2026-10-14T04:33:00.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "sleep",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
