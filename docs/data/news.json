@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-17T19:30:15.381Z",
+  "updatedAt": "2026-10-17T20:00:15.378Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 154,
-  "todayCount": 4,
+  "total": 156,
+  "todayCount": 5,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 20
+      "count": 19
     },
     {
       "id": "update",
@@ -27,12 +27,12 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 36
+      "count": 39
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 26
+      "count": 25
     },
     {
       "id": "media",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 55
+      "count": 56
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 19
+      "count": 20
     },
     {
       "id": "go",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 37
+      "count": 40
     },
     {
       "id": "anime",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 42
+      "count": 41
     }
   ],
   "weapons": [],
   "sources": [
     {
-      "name": "YouTube",
-      "count": 27
+      "name": "GameWith",
+      "count": 28
     },
     {
-      "name": "GameWith",
-      "count": 26
+      "name": "YouTube",
+      "count": 27
     },
     {
       "name": "Unisba Media",
@@ -148,6 +148,10 @@
       "count": 3
     },
     {
+      "name": "ファミ通.com",
+      "count": 3
+    },
+    {
       "name": "インサイド",
       "count": 3
     },
@@ -156,19 +160,11 @@
       "count": 2
     },
     {
-      "name": "ファミ通.com",
-      "count": 2
-    },
-    {
       "name": "電撃オンライン",
       "count": 2
     },
     {
       "name": "Twitch Blog",
-      "count": 1
-    },
-    {
-      "name": "山陽新聞",
       "count": 1
     },
     {
@@ -404,8 +400,8 @@
       "image": "https://www.inside-games.jp/imgs/rss/1795031.jpg",
       "leadSource": "インサイド",
       "publishedAt": "2026-10-16T09:32:43.000Z",
-      "sourceCount": 5,
-      "articleCount": 6,
+      "sourceCount": 6,
+      "articleCount": 7,
       "categories": [
         "goodscat",
         "new"
@@ -413,7 +409,7 @@
       "keywords": [
         "pok",
         "mon",
-        "legends"
+        "z-a"
       ],
       "articles": [
         {
@@ -421,6 +417,13 @@
           "url": "https://www.ndw.jp/pokemon-goods-261016-02/",
           "source": "Nintendo DREAM WEB",
           "publishedAt": "2026-10-16T09:32:43.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモンレジェンズ Z-A』“カナリィぬい（全5種）”がグッズで登場。ポケモン絵画のアートマグネットなどミアレシティの世界観をイメージしたグッズシリーズ。ポケセンで10月29日発売",
+          "url": "https://www.famitsu.com/article/202610/91192",
+          "source": "ファミ通.com",
+          "publishedAt": "2026-10-16T06:44:00.000Z",
           "isPR": false
         },
         {
@@ -565,18 +568,18 @@
       ]
     },
     {
-      "id": "f1e344fb9da2",
-      "title": "#ポケモンチャンピオンズ ＃参加型 】ついに…！配信！…あれ？スイクンは？その27！🌙 ＃Pokémon Champions",
+      "id": "8129b8ffd8d3",
+      "title": "【ポケモンユナイト参加型】ランクマやるぞ！！辛くなったらスイカゲームするんだ！！パート２#参加型 Zeynep Sonmez (r4sV0wrxae)",
       "summary": "",
-      "url": "https://youtu.be/_aKvDq2nH2Q",
+      "url": "https://media.unisba.ac.id/dd8e971a/990ff624XSQvLFBBAQcfF1o",
       "image": "",
-      "leadSource": "YouTube",
-      "publishedAt": "2026-10-17T11:49:51.000Z",
+      "leadSource": "Unisba Media",
+      "publishedAt": "2026-10-17T12:42:00.000Z",
       "sourceCount": 2,
       "articleCount": 2,
       "categories": [
-        "media",
-        "community"
+        "community",
+        "other"
       ],
       "keywords": [
         "参加型"
@@ -734,13 +737,35 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-17T19:00:16.003Z",
-    "previousCount": 158,
-    "newCount": 5
+    "previousAt": "2026-10-17T19:30:15.381Z",
+    "previousCount": 154,
+    "newCount": 6
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-17T20:00:15.381Z",
+  "nextUpdateAt": "2026-10-17T20:30:15.378Z",
   "items": [
+    {
+      "id": "7bf92aaacc22",
+      "title": "【ポケポケ】メガガブリアスexドロップイベントの攻略と周回デッキ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/582836",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-17T17:58:23.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582836.jpg?date=1792046595",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "d3b87d882a5e",
       "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/17更新】",
@@ -930,6 +955,27 @@
       "isNew": false
     },
     {
+      "id": "8129b8ffd8d3",
+      "title": "【ポケモンユナイト参加型】ランクマやるぞ！！辛くなったらスイカゲームするんだ！！パート２#参加型 Zeynep Sonmez (r4sV0wrxae)",
+      "url": "https://media.unisba.ac.id/dd8e971a/990ff624XSQvLFBBAQcfF1o",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-17T12:42:00.000Z",
+      "image": "",
+      "categories": [
+        "community"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "2beca173b1e9",
       "title": "【メグロコ】ラスト7分であた●かムーブwww私はなんのためにwwwww【ポケモンGO】",
       "url": "https://youtu.be/h7lZTNaPztk?si",
@@ -1032,6 +1078,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "7ce29a27e667",
+      "title": "【ポケカ】MEGAドリームexの当たりランキング/買取相場/封入率/レア別相場/値段まとめ",
+      "url": "https://snkrdunk.com/articles/29152/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-17T11:12:18.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251127061052-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d95dcc960f46",
@@ -1280,27 +1347,6 @@
       "isNew": false
     },
     {
-      "id": "6776d9947ded",
-      "title": "G-SHOCK × ポケモンのコラボウォッチが7/17より発売！ポケモン30周年を記念したスペシャルデザインに注目",
-      "url": "https://snkrdunk.com/articles/32652/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-17T04:59:14.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/fe228af6-7a61-42ed-b449-327d7248525c.jpeg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "81249cd2c088",
       "title": "【ポケカ】30th CELEBRATION カードセット発売買取価格ランキング",
       "url": "https://pokeca-pocket.dbfw-days.com/30th-celebration-cardset-ranking/",
@@ -1320,7 +1366,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cff9180e68ad",
@@ -1341,7 +1387,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "34e755ed8810",
@@ -1466,28 +1512,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "59fc265a960e",
-      "title": "『ポケモンセンター』デデンネとバチュルの日常を描いたグッズ新登場 大量に発表",
-      "url": "https://www.sanyonews.jp/article/1998519?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-17T00:06:39.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/0/9/8/1/098185296bbd6fe910e67817e733ac2e_1.jpg",
-      "categories": [
-        "goodscat",
-        "new"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "2a385a45d71a",
@@ -1909,6 +1933,27 @@
       "isNew": false
     },
     {
+      "id": "a9a1bf7227ca",
+      "title": "【ポケポケ】コイントスを持つポケモンの一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/512412",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-16T13:18:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/512412.png?date=1754021155",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "1822e37faecd",
       "title": "『ポケカ』メガオーダイルex、メガカイリューex、メガゲンガーexのデッキ3種がセットに！11月13日発売、対戦グッズ付きで5,500円",
       "url": "https://dengekionline.com/article/202610/91244",
@@ -1949,28 +1994,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "7bf92aaacc22",
-      "title": "【ポケポケ】メガガブリアスexドロップイベントの攻略と周回デッキ【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/582836",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T12:44:54.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582836.jpg?date=1792046595",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "8a454edabfa6",
@@ -2100,6 +2123,28 @@
       "isNew": false
     },
     {
+      "id": "f7c2b24eb0f5",
+      "title": "【ポケポケ】HP回復のおすすめカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/466695",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-16T11:18:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466695.png?date=1743150329",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9a49ff2c78af",
       "title": "1発6,000ダメージでワンパンする狙い撃ち『インテレオン』が帰ってきた立ち回り実況解説【ポケモンユナイト】",
       "url": "https://youtu.be/tBplLXGbomk?si",
@@ -2225,6 +2270,27 @@
       "isNew": false
     },
     {
+      "id": "d008ec02fedc",
+      "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:04:48.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562224.png?date=1779968137",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "07068a774ad8",
       "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
@@ -2288,27 +2354,6 @@
       "isNew": false
     },
     {
-      "id": "e6f450a4b15b",
-      "title": "【ポケポケ】メガメタグロスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570622",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:04:38.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570622.png?date=1785392737",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9f671a8362f5",
       "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
       "url": "https://appmedia.jp/pokemonchampions/79917667",
@@ -2327,6 +2372,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ebdebcec643c",
+      "title": "サザンドラでレジェンド！？超優秀タイプで一撃技も持ってるポケモンが偉過ぎた、、、(スーパーリーグ）【ポケモンGO】",
+      "url": "https://youtu.be/7qa3FpOQFzI?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:00:16.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a31e0fea1535",
@@ -2646,6 +2712,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "1ea4fda50171",
+      "title": "『ポケモンレジェンズ Z-A』“カナリィぬい（全5種）”がグッズで登場。ポケモン絵画のアートマグネットなどミアレシティの世界観をイメージしたグッズシリーズ。ポケセンで10月29日発売",
+      "url": "https://www.famitsu.com/article/202610/91192",
+      "host": "famitsu.com",
+      "source": "ファミ通.com",
+      "summary": "",
+      "publishedAt": "2026-10-16T06:44:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/91192/thumbnail_xVGh.jpg?x=1280",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "5e8bdc275a60",
@@ -3473,27 +3561,6 @@
       "isNew": false
     },
     {
-      "id": "8582340a4bca",
-      "title": "見ただけで降参されますwwwコイルの一貫性能やばすぎて試合時間も2分で終わる連打構築！(リトルカップ）【ポケモンGO】",
-      "url": "https://youtu.be/xOtn0L4qucU?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-15T10:00:11.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "a119602f45d9",
       "title": "「この中に一人、ロケット団がいる」ポケモン新作ボドゲにロケット団の声優トリオも挑戦 - KAI-YOU",
       "url": "https://kai-you.net/article/96840",
@@ -3539,14 +3606,14 @@
       "isNew": false
     },
     {
-      "id": "f6eb8596a22b",
-      "title": "【ポケカ】ミュウ B/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33324/",
+      "id": "4befb1c0638a",
+      "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33323/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-10-15T07:00:00.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/f8c38fab-0e4e-42ca-85e0-e36f5cbd8121.png",
+      "image": "https://cdn.snkrdunk.com/uploads/media/93efbc7f-92bd-4d56-bf1b-61150d19a2b2.png",
       "categories": [
         "tcgcat"
       ],
@@ -3560,14 +3627,14 @@
       "isNew": false
     },
     {
-      "id": "4befb1c0638a",
-      "title": "【ポケカ】ミュウ G/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33323/",
+      "id": "f6eb8596a22b",
+      "title": "【ポケカ】ミュウ B/RGBの買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33324/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-10-15T07:00:00.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/93efbc7f-92bd-4d56-bf1b-61150d19a2b2.png",
+      "image": "https://cdn.snkrdunk.com/uploads/media/f8c38fab-0e4e-42ca-85e0-e36f5cbd8121.png",
       "categories": [
         "tcgcat"
       ],
@@ -3838,7 +3905,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-15T03:14:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486581/20261015_121124_p_o_46607069.jpg",
       "categories": [
         "new"
       ],
@@ -3955,27 +4022,6 @@
       "series": [
         "sleep",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8129b8ffd8d3",
-      "title": "【ポケモンユナイト参加型】ランクマやるぞ！！辛くなったらスイカゲームするんだ！！パート２#参加型 Procida (ld1zwzmItm)",
-      "url": "https://media.unisba.ac.id/5ebb69fc/a6189d46IS0QOxhDIR0-NVY/?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-14T20:33:19.000Z",
-      "image": "",
-      "categories": [
-        "community"
-      ],
-      "series": [
-        "unite"
       ],
       "isOfficial": false,
       "isPR": false,
