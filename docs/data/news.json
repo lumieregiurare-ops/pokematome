@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-18T02:30:15.993Z",
+  "updatedAt": "2026-10-18T03:00:18.059Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 158,
-  "todayCount": 21,
+  "total": 157,
+  "todayCount": 23,
   "categories": [
     {
       "id": "new",
@@ -27,12 +27,12 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 37
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 22
+      "count": 21
     },
     {
       "id": "media",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 8
+      "count": 9
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 60
+      "count": 61
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 38
     },
     {
       "id": "anime",
@@ -89,22 +89,22 @@
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 7
+      "count": 6
     },
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 39
+      "count": 38
     }
   ],
   "weapons": [],
   "sources": [
     {
-      "name": "GameWith",
-      "count": 30
+      "name": "YouTube",
+      "count": 29
     },
     {
-      "name": "YouTube",
+      "name": "GameWith",
       "count": 28
     },
     {
@@ -116,11 +116,11 @@
       "count": 10
     },
     {
-      "name": "Yahoo!ニュース",
-      "count": 9
+      "name": "ガジェット通信",
+      "count": 8
     },
     {
-      "name": "ガジェット通信",
+      "name": "Yahoo!ニュース",
       "count": 8
     },
     {
@@ -166,6 +166,10 @@
     {
       "name": "電撃オンライン",
       "count": 2
+    },
+    {
+      "name": "週刊女性PRIME",
+      "count": 1
     },
     {
       "name": "TVer",
@@ -292,7 +296,7 @@
           "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/17更新】",
           "url": "https://snkrdunk.com/articles/33304/",
           "source": "SNKRDUNK",
-          "publishedAt": "2026-10-18T00:10:36.000Z",
+          "publishedAt": "2026-10-18T01:21:31.000Z",
           "isPR": false
         },
         {
@@ -768,13 +772,32 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-18T02:00:17.446Z",
-    "previousCount": 161,
-    "newCount": 28
+    "previousAt": "2026-10-18T02:30:15.993Z",
+    "previousCount": 158,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-18T03:00:15.993Z",
+  "nextUpdateAt": "2026-10-18T03:30:18.059Z",
   "items": [
+    {
+      "id": "ee7b0115daf4",
+      "title": "《スタバ×ポケモン》ピカチュウらお馴染みキャラのイラストに戸惑いの声、“独特なビジュアル”の理由と納得の裏側《2026年10月Choice》",
+      "url": "https://www.jprime.jp/articles/-/43915",
+      "host": "jprime.jp",
+      "source": "週刊女性PRIME",
+      "summary": "",
+      "publishedAt": "2026-10-18T02:45:00.000Z",
+      "image": "https://jprime.ismcdn.jp/mwimgs/6/4/-/img_64c22f59ce1d8f3deab27a37a30f0adb1072478.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "1bee3d92f217",
       "title": "【ポケカ】「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」の予約・抽選情報まとめ【10/17更新】",
@@ -791,6 +814,27 @@
       "series": [
         "tcg",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d3b87d882a5e",
+      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/17更新】",
+      "url": "https://snkrdunk.com/articles/33304/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-18T01:21:31.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -818,27 +862,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "d3b87d882a5e",
-      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/17更新】",
-      "url": "https://snkrdunk.com/articles/33304/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-18T00:10:36.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -859,6 +882,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "45c87dee9422",
+      "title": "【ポケモンチャンピオンズ】メガカメックスとオオニューラ、どちらがエース？",
+      "url": "https://youtu.be/uW-rAX-_qto?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T00:00:30.000Z",
+      "image": "",
+      "categories": [
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "40a012796569",
@@ -1248,7 +1290,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "aa1c10b0fbc4",
@@ -1368,6 +1410,27 @@
       ],
       "series": [
         "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "b37a8b4b04ca",
+      "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-17T11:53:18.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565225.png?date=1782307542",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1604,7 +1667,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "800d6423ae89",
@@ -1750,7 +1813,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d9dea0dc73f5",
@@ -1790,7 +1853,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2a385a45d71a",
@@ -1832,7 +1895,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1bc6a8ec1a88",
@@ -1853,7 +1916,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "234788c3c066",
@@ -1869,27 +1932,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b37a8b4b04ca",
-      "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T19:31:21.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565225.png?date=1782307542",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1916,7 +1958,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "49a245fde8bd",
@@ -1937,7 +1979,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "57935f7a8332",
@@ -2000,7 +2042,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c7290e39bb6",
@@ -2021,7 +2063,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7aafc827f3f0",
@@ -2042,7 +2084,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ba22010ddf31",
@@ -2063,7 +2105,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b7d148f5a0ab",
@@ -2084,7 +2126,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1822e37faecd",
@@ -2128,17 +2170,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
-      "id": "ff20f970a8a7",
-      "title": "先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼",
-      "url": "https://www.oricon.co.jp/news/2487001/full/",
+      "id": "ee2edc96b72c",
+      "title": "画像・写真 | 先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼 2枚目",
+      "url": "https://www.oricon.co.jp/news/2487001/photo/2/?anc",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-16T12:08:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210705_p_o_73636726.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210710_p_o_83504395.jpg",
       "categories": [
         "media"
       ],
@@ -2152,14 +2194,14 @@
       "isNew": false
     },
     {
-      "id": "ee2edc96b72c",
-      "title": "画像・写真 | 先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼 2枚目",
-      "url": "https://www.oricon.co.jp/news/2487001/photo/2/?anc",
+      "id": "ff20f970a8a7",
+      "title": "先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼",
+      "url": "https://www.oricon.co.jp/news/2487001/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-16T12:08:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210710_p_o_83504395.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210705_p_o_73636726.jpg",
       "categories": [
         "media"
       ],
@@ -2297,7 +2339,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4da1c2c35c4d",
@@ -2381,48 +2423,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "d008ec02fedc",
-      "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:04:48.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562224.png?date=1779968137",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "07068a774ad8",
-      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:04:46.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "01e6f654bf7f",
@@ -2802,7 +2802,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e8bdc275a60",
@@ -2867,7 +2867,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b4dc91977b1e",
@@ -3156,7 +3156,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、Android/iOS用カードゲーム「Pokémon Trading Card Game Pocket（以下：ポケポケ）」において、10月末以降のアップデート方針を発表した。",
       "publishedAt": "2026-10-16T03:34:22.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/715/1.jpg",
+      "image": "",
       "categories": [
         "new",
         "update"
@@ -3351,7 +3351,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e42d692e2f8d",
@@ -3391,7 +3391,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "46d66ceec753",
@@ -3474,7 +3474,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b56c25ff54f8",
@@ -3606,7 +3606,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c92002adc709",
@@ -3648,7 +3648,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a119602f45d9",
@@ -3796,7 +3796,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d688e8d8da43",
@@ -3985,7 +3985,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "495209d8fba9",
@@ -4006,7 +4006,29 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "688873a8c6c9",
+      "title": "カビゴンと添い寝気分【ポケモンスリープ×昭和西川】イーブイフレンズの毛布や話題の「着る毛布」など秋冬寝具が10/16発売",
+      "url": "https://www.asahi.com/and/w/article/16963483/31440373",
+      "host": "asahi.com",
+      "source": "朝日新聞",
+      "summary": "",
+      "publishedAt": "2026-10-15T03:20:48.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "sleep",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "4ba58729867b",
@@ -4044,50 +4066,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "b53b59704299",
-      "title": "「散財確定」【ポケモンスリープコラボ寝具】が10/16発売。イーブイ総柄毛布やカビゴンの抱き枕などを展開",
-      "url": "https://news.yahoo.co.jp/articles/ec3bcde7971c9e3efea1b03b49fcf928385c4f55?page",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-15T02:51:00.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "sleep",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "688873a8c6c9",
-      "title": "カビゴンと添い寝気分【ポケモンスリープ×昭和西川】イーブイフレンズの毛布や話題の「着る毛布」など秋冬寝具が10/16発売",
-      "url": "https://www.asahi.com/and/w/article/16963483",
-      "host": "asahi.com",
-      "source": "朝日新聞",
-      "summary": "",
-      "publishedAt": "2026-10-15T02:50:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "sleep",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
