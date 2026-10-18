@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-18T14:00:15.672Z",
+  "updatedAt": "2026-10-18T14:30:14.666Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 159,
-  "todayCount": 44,
+  "total": 160,
+  "todayCount": 45,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 9
+      "count": 8
     },
     {
       "id": "tcgcat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 10
+      "count": 8
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 9
+      "count": 10
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 68
+      "count": 70
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 32
+      "count": 31
     },
     {
       "id": "tcg",
@@ -101,11 +101,11 @@
   "sources": [
     {
       "name": "YouTube",
-      "count": 36
+      "count": 37
     },
     {
       "name": "GameWith",
-      "count": 33
+      "count": 34
     },
     {
       "name": "Unisba Media",
@@ -113,7 +113,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 10
+      "count": 9
     },
     {
       "name": "ガジェット通信",
@@ -168,10 +168,6 @@
       "count": 1
     },
     {
-      "name": "山陽新聞",
-      "count": 1
-    },
-    {
       "name": "週刊女性PRIME",
       "count": 1
     },
@@ -181,6 +177,10 @@
     },
     {
       "name": "tv-tokyo.co.jp",
+      "count": 1
+    },
+    {
+      "name": "山陽新聞",
       "count": 1
     },
     {
@@ -548,34 +548,6 @@
       ]
     },
     {
-      "id": "3233f892514d",
-      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
-      "summary": "",
-      "url": "https://www.sanyonews.jp/article/1963305",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/1/e/6/81e6871d6797444899c5ee901890fbbc_1.jpg",
-      "leadSource": "山陽新聞",
-      "publishedAt": "2026-10-18T07:06:21.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "new",
-        "other"
-      ],
-      "keywords": [
-        "カット",
-        "場面"
-      ],
-      "articles": [
-        {
-          "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
-          "url": "https://www.oricon.co.jp/news/2486402/photo/12/",
-          "source": "オリコンニュース",
-          "publishedAt": "2026-10-16T10:25:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "0a142f0fe570",
       "title": "ミスド公式がアチャモ風ドーナツで冬ポケモンコラボ予告 - X",
       "summary": "",
@@ -657,6 +629,34 @@
       ]
     },
     {
+      "id": "7b64456f31dc",
+      "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
+      "summary": "",
+      "url": "https://www.sanyonews.jp/article/2002539?kw",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
+      "leadSource": "山陽新聞",
+      "publishedAt": "2026-10-17T02:21:10.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "カット",
+        "場面",
+        "解禁"
+      ],
+      "articles": [
+        {
+          "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
+          "url": "https://www.oricon.co.jp/news/2486402/photo/12/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-10-16T10:25:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "b93d7d00dd88",
       "title": "10月29日より『ぽこ あ ポケモン』メタモンのラバーキーホルダー全8種がポケモンセンターに登場",
       "summary": "",
@@ -715,13 +715,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-18T13:30:17.230Z",
-    "previousCount": 158,
-    "newCount": 4
+    "previousAt": "2026-10-18T14:00:15.672Z",
+    "previousCount": 159,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-18T14:30:15.672Z",
+  "nextUpdateAt": "2026-10-18T15:00:14.666Z",
   "items": [
+    {
+      "id": "b37a8b4b04ca",
+      "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-18T12:02:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565225.png?date=1782307542",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "eb7b49ff18ef",
       "title": "【ポケカ】当たりやすいと話題沸騰！？「30th CELEBRATION カードセット」9種開封で神引き…！【ポケカ開封】",
@@ -859,7 +880,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0cbade0f236d",
@@ -1067,25 +1088,6 @@
       "isNew": false
     },
     {
-      "id": "3233f892514d",
-      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
-      "url": "https://www.sanyonews.jp/article/1963305",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-18T07:06:21.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/1/e/6/81e6871d6797444899c5ee901890fbbc_1.jpg",
-      "categories": [
-        "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "3910f8a324f2",
       "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
       "url": "https://gamewith.jp/pokemon/546662",
@@ -1105,6 +1107,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "1018ba20db5d",
+      "title": "【ポケモンカード】時代はVMAX到来!?御三家VMAXと新トレーナーズ登場！-PokémonTradingCardGame Golden Knights Vs Ducks (Z7VYLnfXMJ)",
+      "url": "https://media.unisba.ac.id/56732ee5/123d0bbbOS4UCzFPDBk_KiM/?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-18T06:45:33.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0bbd32978acf",
@@ -1291,27 +1314,6 @@
       "isNew": false
     },
     {
-      "id": "9441aa69f84e",
-      "title": "【ポケモンGO】環境はバンギで崩壊します【マスタープレミア】 Sebastian Aho (ueTFnMDKi5)",
-      "url": "https://media.unisba.ac.id/5b6d40a8/7a5ae7d52_vQDDCPwsQ/?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-18T02:03:12.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "0431260cf493",
       "title": "メガライチュウYが勝ちまくってるらしいから使う【ポケモンチャンピオンズ】【ダブルバトル】 Forever Season 2 (IlDEHMCNCr)",
       "url": "https://media.unisba.ac.id/0c19f77f/4a8a8431rxtMjYiepIk",
@@ -1449,6 +1451,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "688dbf8de490",
+      "title": "【ぽこあポケモン】かぼちゃキャンディの効率的な集め方と使い道【ぽこポケ】",
+      "url": "https://gamewith.jp/pocoapokemon/583104",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-17T19:44:11.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "cd35024adaa9",
@@ -1825,27 +1846,6 @@
       "isNew": false
     },
     {
-      "id": "b37a8b4b04ca",
-      "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-17T11:53:18.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565225.png?date=1782307542",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "f1e344fb9da2",
       "title": "#ポケモンチャンピオンズ ＃参加型 】ついに…！配信！…あれ？スイクンは？その27！🌙 ＃Pokémon Champions",
       "url": "https://youtu.be/_aKvDq2nH2Q",
@@ -1859,28 +1859,6 @@
         "community"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "96dc37cd48a2",
-      "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-17T11:46:36.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466356.png?date=1729954242",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2139,6 +2117,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "7b64456f31dc",
+      "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/2002539?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-17T02:21:10.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1195202eb439",
@@ -2521,7 +2518,7 @@
     {
       "id": "ee2edc96b72c",
       "title": "画像・写真 | 先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼 2枚目",
-      "url": "https://www.oricon.co.jp/news/2487001/photo/2/?anc",
+      "url": "https://www.oricon.co.jp/news/2487001/photo/2/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
@@ -2725,7 +2722,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "055a4ae99d9e",
@@ -2747,6 +2744,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8822bde96349",
+      "title": "【ポケポケ】メガカメックスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/536323",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:05:20.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/536323.png?date=1765960087",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ae4709b0349e",
@@ -3063,6 +3081,26 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ea049601b17a",
+      "title": "㊙️動画未公開試合㊙️いろはのランクマハイライト【ポケモンチャンピオンズ】【いろっちゃんねる切り抜き】",
+      "url": "https://youtu.be/hvgWkTY67Qw?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-16T08:00:16.000Z",
+      "image": "",
+      "categories": [
+        "community",
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6fa7f32ebfe1",
@@ -3674,28 +3712,6 @@
       ],
       "series": [
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ad14a4762557",
-      "title": "スメハラ案件、ポケモンカード大会でも！優勝経験者がオエッ→「カード、コントローラー、制汗剤」常備を",
-      "url": "https://news.yahoo.co.jp/articles/5444f95c757bb68194786355d0577b3160aded5f/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-16T02:50:02.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnU-3lAOq06RXepg8bvCY0DcQOX-cMMaiKqw1mFliOh75cO3YpwodfsGbucdwR0B0PJop6RHiGtKZhEP_FSgACHnU_oOZ0PyAwxCgUCX_-bxg",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
