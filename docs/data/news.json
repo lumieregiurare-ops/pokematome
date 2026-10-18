@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T18:58:06.081Z",
+  "updatedAt": "2026-10-18T19:30:18.031Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 161,
-  "todayCount": 4,
+  "todayCount": 7,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 11
+      "count": 12
     },
     {
       "id": "update",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 36
+      "count": 37
     },
     {
       "id": "goodscat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 73
+      "count": 72
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 37
+      "count": 38
     },
     {
       "id": "anime",
@@ -94,30 +94,30 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 29
+      "count": 31
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "YouTube",
-      "count": 39
+      "count": 38
     },
     {
       "name": "GameWith",
-      "count": 33
+      "count": 32
     },
     {
       "name": "Unisba Media",
       "count": 18
     },
     {
-      "name": "Yahoo!ニュース",
+      "name": "SNKRDUNK",
       "count": 7
     },
     {
-      "name": "SNKRDUNK",
-      "count": 5
+      "name": "Yahoo!ニュース",
+      "count": 7
     },
     {
       "name": "ガジェット通信",
@@ -252,26 +252,19 @@
       "url": "https://game.watch.impress.co.jp/docs/news/2148842.html",
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/842/1.jpg",
       "leadSource": "GAME Watch",
-      "publishedAt": "2026-10-17T07:00:00.000Z",
-      "sourceCount": 6,
-      "articleCount": 6,
+      "publishedAt": "2026-10-16T07:36:39.000Z",
+      "sourceCount": 5,
+      "articleCount": 5,
       "categories": [
         "tcgcat",
-        "new"
+        "goodscat"
       ],
       "keywords": [
         "セット",
         "mega",
-        "スペシャルデッキセット"
+        "メガゲンガー"
       ],
       "articles": [
-        {
-          "title": "【ポケカ】「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」の予約・抽選情報まとめ【10/17更新】",
-          "url": "https://snkrdunk.com/articles/33534/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-17T07:00:00.000Z",
-          "isPR": false
-        },
         {
           "title": "『ポケカ』メガオーダイル・メガカイリュー・メガゲンガーたち「3種類のデッキ」がセットに！対戦グッズも入った「スペシャルデッキセットMEGA」11月13日発売（インサイド）",
           "url": "https://news.yahoo.co.jp/articles/dd17a96cac9c3c22c2eaa21e1be18ada8493b58a",
@@ -707,13 +700,35 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-18T18:30:16.219Z",
-    "previousCount": 160,
-    "newCount": 4
+    "previousAt": "2026-10-18T18:58:06.081Z",
+    "previousCount": 161,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-18T19:28:06.081Z",
+  "nextUpdateAt": "2026-10-18T20:00:18.031Z",
   "items": [
+    {
+      "id": "f816c4e5040a",
+      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/15950/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-18T17:26:37.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "242bac53c705",
       "title": "【ポケカ】御三家セットとは？買取・相場価格/再販抽選情報まとめ【30th CELEBRATION カードセット】",
@@ -733,7 +748,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "780ca96f34b4",
@@ -790,6 +805,50 @@
       "series": [
         "main",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f42f0aec37ba",
+      "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/32581/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-18T15:29:19.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/2989b9e7-e8f4-4557-bee3-ff9f7db28e77.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7ed1b0f66964",
+      "title": "【ポケポケ】新パック「ハイクラスパックMEGA(メガ)」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-18T15:26:12.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -993,25 +1052,6 @@
         "tcg",
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d81722a3a0aa",
-      "title": "【ポケモン剣盾】有識者様、ブチのめし方教えて？【初見プレイ】#33",
-      "url": "https://youtu.be/gAhi_h8ctB4?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-18T09:00:10.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1491,7 +1531,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0431260cf493",
@@ -1611,7 +1651,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14a942212ad2",
@@ -1752,27 +1792,6 @@
       "series": [
         "main",
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7ed1b0f66964",
-      "title": "【ポケポケ】新パック「ハイクラスパックMEGA(メガ)」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-17T16:02:25.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2296,7 +2315,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1195202eb439",
@@ -2871,27 +2890,6 @@
       "summary": "",
       "publishedAt": "2026-10-16T10:05:20.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/536323.png?date=1765960087",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ae4709b0349e",
-      "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:04:56.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
       "categories": [
         "tcgcat"
       ],
@@ -3877,7 +3875,7 @@
     },
     {
       "id": "88793d087b82",
-      "title": "世界中で増殖する｢ポケモンそっくりなゲーム｣ 任天堂が守る王者の座とポケモンの意外な弱点 4ページ目 | ライフ",
+      "title": "世界中で増殖する｢ポケモンそっくりなゲーム｣ 任天堂が守る王者の座とポケモンの意外な弱点 2ページ目 | ライフ",
       "url": "https://toyokeizai.net/articles/-/960675?page",
       "host": "toyokeizai.net",
       "source": "東洋経済オンライン",
@@ -3961,7 +3959,7 @@
     {
       "id": "e42d692e2f8d",
       "title": "松丸亮吾が語る、尽きない“ポケモン愛” 夢の謎解き制作に「人生報われたなと思いました」",
-      "url": "https://news.nicovideo.jp/watch/nw19884811",
+      "url": "https://news.nicovideo.jp/watch/nw19884811?news_ref",
       "host": "news.nicovideo.jp",
       "source": "ニコニコニュース",
       "summary": "",
