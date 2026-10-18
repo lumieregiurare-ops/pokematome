@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-18T18:00:18.209Z",
+  "updatedAt": "2026-10-18T18:30:16.219Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 163,
-  "todayCount": 2,
+  "total": 160,
+  "todayCount": 3,
   "categories": [
     {
       "id": "new",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 10
+      "count": 8
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 73
+      "count": 72
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 32
+      "count": 30
     },
     {
       "id": "tcg",
@@ -84,12 +84,12 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 25
+      "count": 24
     },
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 5
+      "count": 4
     },
     {
       "id": "goods",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Unisba Media",
-      "count": 19
+      "count": 16
     },
     {
       "name": "Yahoo!ニュース",
@@ -401,7 +401,7 @@
       "leadSource": "Howl.link",
       "publishedAt": "2026-10-18T03:43:06.000Z",
       "sourceCount": 2,
-      "articleCount": 8,
+      "articleCount": 7,
       "categories": [
         "other",
         "media"
@@ -417,13 +417,6 @@
           "url": "https://media.unisba.ac.id/59e6c222/2fff5d42yevq-vlFS60/?share",
           "source": "Unisba Media",
           "publishedAt": "2026-10-18T01:36:40.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケモンユナイト】スタバ＆ランク！一緒に練習してこ～ぜ！！【参加型】 Sucic (fRd4US46sF)",
-          "url": "https://media.unisba.ac.id/27626529/f897a7c6J1ApPBhrOg8eODs",
-          "source": "Unisba Media",
-          "publishedAt": "2026-10-17T23:09:24.000Z",
           "isPR": false
         },
         {
@@ -712,12 +705,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-18T17:30:16.693Z",
-    "previousCount": 159,
-    "newCount": 5
+    "previousAt": "2026-10-18T18:00:18.209Z",
+    "previousCount": 163,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-18T18:30:18.209Z",
+  "nextUpdateAt": "2026-10-18T19:00:16.219Z",
   "items": [
     {
       "id": "780ca96f34b4",
@@ -727,13 +720,32 @@
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-10-18T16:13:01.000Z",
-      "image": "",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
       "categories": [
         "tcgcat"
       ],
       "series": [
         "tcg"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "859913d9b52f",
+      "title": "【ポケモン剣盾】英語がさっぱりピーマンのきつねが知識のみで英語版ポケモン剣をプレイする！その1",
+      "url": "https://youtu.be/tfY8E837FRk?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T16:06:33.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -756,6 +768,25 @@
         "main",
         "goods"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "a9ef5f73c3aa",
+      "title": "ばかぁ！ #ゲーム実況 #ポケモンZA #切り抜き",
+      "url": "https://youtu.be/ivpx7fwW18Q?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T14:25:17.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -866,25 +897,6 @@
       "isNew": false
     },
     {
-      "id": "5d568244f7fa",
-      "title": "【ポケモン】【金ネジキ】だいばくはつ #shorts 【#vtuber】",
-      "url": "https://youtu.be/D_7guguh7yA?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-18T11:03:34.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b73558042fdb",
       "title": "【胸熱】ポケモンたちと巨大ビル建築！ついに完成したと思ったら…【ぽこ あ ポケモン】",
       "url": "https://youtu.be/10AIc3tgmt4",
@@ -920,7 +932,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a98b1a43d896",
@@ -1480,48 +1492,6 @@
       "isNew": false
     },
     {
-      "id": "9441aa69f84e",
-      "title": "【ポケモンGO】環境はバンギで崩壊します【マスタープレミア】 Sebastian Aho (ueTFnMDKi5)",
-      "url": "https://media.unisba.ac.id/5b6d40a8/7a5ae7d52_vQDDCPwsQ/?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-18T02:03:12.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "eef3b9077fef",
-      "title": "【解説】デザートの上位料理を作るためにカイロスを育成した結果... リリース初期勢がカイロスの使用感を紹介します【ポケモンスリープ】 Freiburg Fc (wtYUVWDFte)",
-      "url": "https://media.unisba.ac.id/45a17765/7837c027OBUGUApHWCwZHDs",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-18T01:42:56.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "sleep"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "0431260cf493",
       "title": "メガライチュウYが勝ちまくってるらしいから使う【ポケモンチャンピオンズ】【ダブルバトル】 Forever Season 2 (IlDEHMCNCr)",
       "url": "https://media.unisba.ac.id/0c19f77f/4a8a8431rxtMjYiepIk",
@@ -1613,27 +1583,6 @@
       ],
       "series": [
         "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "865980e5c1e1",
-      "title": "【ポケモンユナイト】スタバ＆ランク！一緒に練習してこ～ぜ！！【参加型】 Sucic (fRd4US46sF)",
-      "url": "https://media.unisba.ac.id/27626529/f897a7c6J1ApPBhrOg8eODs",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-17T23:09:24.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2744,7 +2693,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9a49ff2c78af",
@@ -4087,27 +4036,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f7058984cdec",
-      "title": "【ポケモンGO】18時終了のはずが再登場!? 池袋GOラボの博士ピカチュウ",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pSTM0cjJjRmRYRFV2RV9BNTdjZkJMeC1zTmFSSWIyR2dBTGphYVJYeWFHX2xyTHAyWTVHem5EVUpmZUI1WGtpWXk3cDZkNVpSdk9zSno5aXRpNGNO?oc=5",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-15T18:07:15.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     }
