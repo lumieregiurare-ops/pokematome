@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-10-18T11:00:15.442Z",
+  "updatedAt": "2026-10-18T11:30:14.737Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 155,
+  "total": 156,
   "todayCount": 39,
   "categories": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 10
+      "count": 9
     },
     {
       "id": "tcgcat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 64
+      "count": 66
     }
   ],
   "series": [
@@ -100,12 +100,12 @@
   "weapons": [],
   "sources": [
     {
-      "name": "GameWith",
-      "count": 33
+      "name": "YouTube",
+      "count": 32
     },
     {
-      "name": "YouTube",
-      "count": 30
+      "name": "GameWith",
+      "count": 31
     },
     {
       "name": "Unisba Media",
@@ -177,6 +177,10 @@
     },
     {
       "name": "tv-tokyo.co.jp",
+      "count": 1
+    },
+    {
+      "name": "山陽新聞",
       "count": 1
     },
     {
@@ -506,47 +510,6 @@
       ]
     },
     {
-      "id": "162987ed3ed1",
-      "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
-      "summary": "",
-      "url": "https://pokemongo.gamewith.jp/article/show/578629",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578629.jpg?date=1790245814",
-      "leadSource": "GameWith",
-      "publishedAt": "2026-10-18T06:59:16.000Z",
-      "sourceCount": 2,
-      "articleCount": 4,
-      "categories": [
-        "other",
-        "event"
-      ],
-      "keywords": [
-        "ポケモンGO"
-      ],
-      "articles": [
-        {
-          "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
-          "url": "https://pokemongo.gamewith.jp/article/show/577622",
-          "source": "GameWith",
-          "publishedAt": "2026-10-18T02:09:07.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンGO ケロマツ",
-          "url": "https://youtu.be/sJOqLW_v-Gs?si",
-          "source": "YouTube",
-          "publishedAt": "2026-10-16T21:54:52.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【42km完走】みんな・・・私ついにやったわ・・・【ポケモンGO】",
-          "url": "https://youtu.be/QLKC4x-3p34?si",
-          "source": "YouTube",
-          "publishedAt": "2026-10-16T13:40:07.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "c36517278d70",
       "title": "【ファイアレッドリーフグリーン】ポケモンホームとの連携方法｜いつから？【ポケモンFRLG】",
       "summary": "",
@@ -692,6 +655,34 @@
       ]
     },
     {
+      "id": "7b64456f31dc",
+      "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
+      "summary": "",
+      "url": "https://www.sanyonews.jp/article/2002539?kw",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
+      "leadSource": "山陽新聞",
+      "publishedAt": "2026-10-17T02:21:10.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "カット",
+        "場面",
+        "解禁"
+      ],
+      "articles": [
+        {
+          "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
+          "url": "https://www.oricon.co.jp/news/2486402/photo/12/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-10-16T10:25:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "b93d7d00dd88",
       "title": "10月29日より『ぽこ あ ポケモン』メタモンのラバーキーホルダー全8種がポケモンセンターに登場",
       "summary": "",
@@ -721,12 +712,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-18T10:30:15.487Z",
+    "previousAt": "2026-10-18T11:00:15.442Z",
     "previousCount": 155,
-    "newCount": 5
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-18T11:30:15.442Z",
+  "nextUpdateAt": "2026-10-18T12:00:14.737Z",
   "items": [
     {
       "id": "1bee3d92f217",
@@ -750,6 +741,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "a98b1a43d896",
+      "title": "〇〇型のガチグマが強過ぎてレジェンド到達！？今はまだバレてない型でレート爆上げ！(スーパーリーグ）【ポケモンGO】",
+      "url": "https://youtu.be/KzinjhVz8YU?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T10:00:37.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f1e344fb9da2",
@@ -807,7 +819,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4264613ead10",
@@ -955,27 +967,6 @@
       "isNew": false
     },
     {
-      "id": "162987ed3ed1",
-      "title": "【ポケモンGO】ADIDAS POKÉMONのタイムチャレンジの入手方法と対象店舗",
-      "url": "https://pokemongo.gamewith.jp/article/show/578629",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-18T06:59:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578629.jpg?date=1790245814",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "1018ba20db5d",
       "title": "【ポケモンカード】時代はVMAX到来!?御三家VMAXと新トレーナーズ登場！-PokémonTradingCardGame Golden Knights Vs Ducks (Z7VYLnfXMJ)",
       "url": "https://media.unisba.ac.id/56732ee5/123d0bbbOS4UCzFPDBk_KiM/?share",
@@ -989,6 +980,27 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "0bbd32978acf",
+      "title": "ポケモンGO ゲコガシラ",
+      "url": "https://youtu.be/yLFl5RuA1yo?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T06:06:36.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1158,27 +1170,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "9202ea85184a",
-      "title": "【ポケモンGO】2026年10月のイベントスケジュールまとめ",
-      "url": "https://pokemongo.gamewith.jp/article/show/577622",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-18T02:09:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577622.png?date=1789693589",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "0431260cf493",
@@ -1732,7 +1723,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2beca173b1e9",
@@ -1817,7 +1808,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "05c306160c03",
@@ -2027,6 +2018,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "7b64456f31dc",
+      "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/2002539?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-17T02:21:10.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1195202eb439",
@@ -2616,27 +2626,6 @@
       "isNew": false
     },
     {
-      "id": "320e2aedbcd4",
-      "title": "【ポケポケ】メガチルタリスexデッキのレシピと評価・対策【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/527014",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:05:32.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/527014.png?date=1761815761",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "055a4ae99d9e",
       "title": "【ポケポケ】サザンドラデッキのレシピと評価・対策【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/527018",
@@ -2719,6 +2708,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "e238f70b4fec",
+      "title": "【ポケポケ】スイクンexデッキのレシピと評価・対策【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/515390",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-16T10:02:51.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/515390.png?date=1756369795",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ebdebcec643c",
