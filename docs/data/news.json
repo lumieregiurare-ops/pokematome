@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-19T19:30:19.412Z",
+  "updatedAt": "2026-10-19T20:00:17.710Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 148,
-  "todayCount": 9,
+  "total": 147,
+  "todayCount": 11,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 15
+      "count": 13
     },
     {
       "id": "update",
@@ -27,12 +27,12 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 37
+      "count": 38
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 18
+      "count": 16
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 10
+      "count": 9
     },
     {
       "id": "community",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 59
+      "count": 60
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 15
+      "count": 13
     },
     {
       "id": "go",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 37
+      "count": 38
     },
     {
       "id": "anime",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 27
+      "count": 25
     }
   ],
   "weapons": [],
@@ -144,10 +144,6 @@
       "count": 3
     },
     {
-      "name": "キャラグー",
-      "count": 3
-    },
-    {
       "name": "ファミ通",
       "count": 2
     },
@@ -162,6 +158,10 @@
     {
       "name": "人鳥日記",
       "count": 2
+    },
+    {
+      "name": "山陰中央新報デジタル",
+      "count": 1
     },
     {
       "name": "LIMO | くらしとお金の経済メディア",
@@ -237,6 +237,10 @@
     },
     {
       "name": "Twitch Blog",
+      "count": 1
+    },
+    {
+      "name": "キャラグー",
       "count": 1
     }
   ],
@@ -511,13 +515,56 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T19:00:20.294Z",
-    "previousCount": 146,
-    "newCount": 6
+    "previousAt": "2026-10-19T19:30:19.412Z",
+    "previousCount": 148,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T20:00:19.412Z",
+  "nextUpdateAt": "2026-10-19T20:30:17.710Z",
   "items": [
+    {
+      "id": "e3107396dfc6",
+      "title": "ポケモンカード試作品偽造し売却 島根県警、詐欺疑い男再逮捕",
+      "url": "https://www.sanin-chuo.co.jp/articles/-/1100384",
+      "host": "sanin-chuo.co.jp",
+      "source": "山陰中央新報デジタル",
+      "summary": "",
+      "publishedAt": "2026-10-19T19:00:00.000Z",
+      "image": "https://sanin-chuo.ismcdn.jp/mwimgs/4/b/1200m/img_4b3534ca626fbc3ea3a444b6afeef63f1928883.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "280d9ab9440d",
+      "title": "『ポケットモンスター X・Y』が発売された日。ポケモンたちがすべて3D化し、ゲームを新たな次元へとシフトさせた作品。フェアリータイプも新登場【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202610/90244/894711",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-10-19T17:37:03.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/90244/ab68fe08a8ff131ece4d42048e10331e3.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "55e5467c096b",
       "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
@@ -579,7 +626,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b56c25ff54f8",
@@ -643,7 +690,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d95dcc960f46",
@@ -710,26 +757,25 @@
       "isNew": false
     },
     {
-      "id": "280d9ab9440d",
-      "title": "『ポケットモンスター X・Y』が発売された日。ポケモンたちがすべて3D化し、ゲームを新たな次元へとシフトさせた作品。フェアリータイプも新登場【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202610/90244/894704",
-      "host": "famitsu.com",
-      "source": "ファミ通",
+      "id": "3f4e3bd3edff",
+      "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-19T14:51:30.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/90244/a9366457d1c5a8306bbffea94706e9d57.jpg?x=1280",
+      "publishedAt": "2026-10-19T14:43:08.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564725.png?date=1784813440",
       "categories": [
-        "other"
+        "tcgcat"
       ],
       "series": [
-        "main",
-        "goods"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "c902cbc90842",
@@ -749,7 +795,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01eef2d84448",
@@ -836,6 +882,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3a29c3fefe74",
+      "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:50:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561436.png?date=1779369911",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1c19737d4b0d",
@@ -1003,7 +1070,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4264613ead10",
@@ -1046,6 +1113,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b647eb8169df",
+      "title": "“ポケモンGO”事故から10年…ながら運転厳罰化も絶えぬ死亡事故 息子失った父親「恨むより伝えたい」講演続け約390回 Olio (UkhdHGr3rh)",
+      "url": "https://media.unisba.ac.id/ec6fd9d4/470a99cfODE3Ow8YFw8LPgE/",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:04:52.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "62c9d5f138cb",
@@ -1098,27 +1186,6 @@
       "summary": "",
       "publishedAt": "2026-10-19T10:04:52.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559117.png?date=1777355916",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ac569876072f",
-      "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T10:04:52.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
       "categories": [
         "tcgcat"
       ],
@@ -1203,48 +1270,6 @@
       "summary": "",
       "publishedAt": "2026-10-19T10:04:43.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4152aafc81a1",
-      "title": "【ポケポケ】メガヤミラミexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565899",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T10:04:41.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565899.png?date=1782796950",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "64209e90cd0b",
-      "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T10:04:41.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
       "categories": [
         "tcgcat"
       ],
@@ -1697,6 +1722,27 @@
       "isNew": false
     },
     {
+      "id": "4152aafc81a1",
+      "title": "【ポケポケ】メガヤミラミexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565899",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:00:52.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565899.png?date=1782796950",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "6bd226b9a9be",
       "title": "『ポケモン』”新たなる旅立ち”を立体化！パートナーポケモンたちとの冒険が甦るフィギュアに、「イッシュ地方」など全3種",
       "url": "https://www.inside-games.jp/article/2026/10/19/189490.html",
@@ -2050,7 +2096,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bc5bc8c84311",
@@ -2290,7 +2336,7 @@
       "source": "shiritomo",
       "summary": "",
       "publishedAt": "2026-10-18T23:07:03.000Z",
-      "image": "https://hashout.jp/wp-content/uploads/2026/10/2111834077582221533-img-1200x675.png",
+      "image": "",
       "categories": [
         "media"
       ],
@@ -2672,7 +2718,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0bbd32978acf",
@@ -2751,27 +2797,6 @@
       ],
       "series": [
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9441aa69f84e",
-      "title": "【ポケモンGO】環境はバンギで崩壊します【マスタープレミア】 Sebastian Aho (ueTFnMDKi5)",
-      "url": "https://media.unisba.ac.id/5b6d40a8/7a5ae7d52_vQDDCPwsQ/?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-18T02:03:12.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3463,29 +3488,6 @@
       "isNew": false
     },
     {
-      "id": "d7b1242613a2",
-      "title": "一番くじ Pokémon EIEVUI＆CRYSTAL DROPS｜ポケットモンスターのくじ 発売日・取扱コンビニ",
-      "url": "https://charagoo.jp/kuji/item/530c21b16ea2/",
-      "host": "charagoo.jp",
-      "source": "キャラグー",
-      "summary": "",
-      "publishedAt": "2026-10-16T23:25:16.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "bea8bf77120e",
       "title": "ポケモンわくわくゲットくじ2011｜ポケットモンスターのくじ 発売日・取扱コンビニ",
       "url": "https://charagoo.jp/kuji/item/54ec4ab56ae5/",
@@ -3496,29 +3498,6 @@
       "image": "",
       "categories": [
         "new"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f65e04530f85",
-      "title": "一番くじ Pokémon Type:Ghost｜ポケットモンスターのくじ 発売日・取扱コンビニ",
-      "url": "https://charagoo.jp/kuji/item/c0c911e48402/",
-      "host": "charagoo.jp",
-      "source": "キャラグー",
-      "summary": "",
-      "publishedAt": "2026-10-16T23:25:16.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "goodscat"
       ],
       "series": [
         "main",
