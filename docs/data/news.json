@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-19T12:00:19.746Z",
+  "updatedAt": "2026-10-19T12:30:21.204Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 141,
-  "todayCount": 77,
+  "total": 146,
+  "todayCount": 80,
   "categories": [
     {
       "id": "new",
@@ -22,27 +22,27 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 4
+      "count": 5
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 40
+      "count": 39
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 12
+      "count": 13
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 8
+      "count": 10
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 10
+      "count": 11
     },
     {
       "id": "community",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 60
+      "count": 63
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 9
+      "count": 11
     },
     {
       "id": "go",
@@ -74,17 +74,17 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 39
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 4
+      "count": 5
     },
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 18
+      "count": 19
     },
     {
       "id": "sleep",
@@ -101,11 +101,11 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 33
+      "count": 32
     },
     {
       "name": "YouTube",
-      "count": 29
+      "count": 31
     },
     {
       "name": "Unisba Media",
@@ -113,22 +113,26 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 11
+      "count": 10
     },
     {
       "name": "ガジェット通信",
       "count": 9
     },
     {
-      "name": "オリコンニュース",
-      "count": 7
-    },
-    {
       "name": "Yahoo!ニュース",
       "count": 5
     },
     {
+      "name": "オリコンニュース",
+      "count": 5
+    },
+    {
       "name": "インサイド",
+      "count": 4
+    },
+    {
+      "name": "山陽新聞",
       "count": 4
     },
     {
@@ -140,7 +144,7 @@
       "count": 3
     },
     {
-      "name": "山陽新聞",
+      "name": "www.tv-tokyo.co.jp",
       "count": 3
     },
     {
@@ -150,6 +154,14 @@
     {
       "name": "人鳥日記",
       "count": 2
+    },
+    {
+      "name": "FNNプライムオンライン",
+      "count": 1
+    },
+    {
+      "name": "電ファミニコゲーマー",
+      "count": 1
     },
     {
       "name": "PR TIMES",
@@ -177,10 +189,6 @@
     },
     {
       "name": "ポケモン・ウィズ・ユー財団",
-      "count": 1
-    },
-    {
-      "name": "ｄメニューニュース",
       "count": 1
     },
     {
@@ -214,9 +222,52 @@
     {
       "name": "Twitch Blog",
       "count": 1
+    },
+    {
+      "name": "キャラグー",
+      "count": 1
+    },
+    {
+      "name": "ABEMA",
+      "count": 1
     }
   ],
   "topics": [
+    {
+      "id": "b46347c47683",
+      "title": "「ポケモン」とミスドのコラボ再びか!? 公式Xで新商品の一部がチラ見せ",
+      "summary": "ダスキンが運営するミスタードーナツは、公式Xにて新商品と思われる画像を公開した。",
+      "url": "https://game.watch.impress.co.jp/docs/news/2149134.html",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/134/1.jpg",
+      "leadSource": "GAME Watch",
+      "publishedAt": "2026-10-19T07:56:00.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "keywords": [
+        "公式",
+        "ミスド"
+      ],
+      "articles": [
+        {
+          "title": "【ミスド×ポケモン】新作はディグダ？ 公式XでNo.50ドーナツのティザー画像が公開",
+          "url": "https://dengekionline.com/article/202610/91409",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-10-19T07:56:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【公式】ポケモンとどこいく！？ 見逃し配信 10/18（日）",
+          "url": "https://youtu.be/0hhIvC2VhFc?si",
+          "source": "YouTube",
+          "publishedAt": "2026-10-17T23:30:05.000Z",
+          "isPR": false
+        }
+      ]
+    },
     {
       "id": "3382932a4aaf",
       "title": "【ポケモンユナイト】10月13日の調整内容まとめ｜アプデ詳細【UNITE】",
@@ -387,34 +438,6 @@
       ]
     },
     {
-      "id": "b46347c47683",
-      "title": "「ポケモン」とミスドのコラボ再びか!? 公式Xで新商品の一部がチラ見せ",
-      "summary": "ダスキンが運営するミスタードーナツは、公式Xにて新商品と思われる画像を公開した。",
-      "url": "https://game.watch.impress.co.jp/docs/news/2149134.html",
-      "image": "https://cimg.kgl-systems.io/camion/files/91409/ogp_zIIt.jpg?x=1280",
-      "leadSource": "GAME Watch",
-      "publishedAt": "2026-10-19T07:56:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "keywords": [
-        "ミスド",
-        "公式"
-      ],
-      "articles": [
-        {
-          "title": "【ミスド×ポケモン】新作はディグダ？ 公式XでNo.50ドーナツのティザー画像が公開",
-          "url": "https://dengekionline.com/article/202610/91409",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-10-19T07:56:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "6bd226b9a9be",
       "title": "『ポケモン』”新たなる旅立ち”を立体化！パートナーポケモンたちとの冒険が甦るフィギュアに、「イッシュ地方」など全3種",
       "summary": "「ポケモン Journey with You！Anniversary 新たなる旅立ち」が11月16日発売！",
@@ -498,13 +521,76 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T11:30:16.548Z",
+    "previousAt": "2026-10-19T12:00:19.746Z",
     "previousCount": 141,
-    "newCount": 2
+    "newCount": 12
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T12:30:19.746Z",
+  "nextUpdateAt": "2026-10-19T13:00:21.204Z",
   "items": [
+    {
+      "id": "56fd3e9336cb",
+      "title": "希少性の高いポケモンカードと嘘をつき騙す詐欺で３０代の男性を３回目の逮捕",
+      "url": "https://www.fnn.jp/articles/-/1135822",
+      "host": "fnn.jp",
+      "source": "FNNプライムオンライン",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:20:00.000Z",
+      "image": "https://fnn.ismcdn.jp/mwimgs/7/f/600/img_7f0ed5a841e9f2e265ceedb72a299f7f17237.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "0886fe50552c",
+      "title": "『ポケモン』「マッギョ」が派手にデザインされたカーディガンが欲しすぎる。ソリを引く「ドオー」やツリーに扮した「ピカチュウ」のぬいぐるみなど、クリスマスをテーマにしたグッズが10月22日より発売",
+      "url": "https://news.denfaminicogamer.jp/news/2610192n",
+      "host": "news.denfaminicogamer.jp",
+      "source": "電ファミニコゲーマー",
+      "summary": "ソリを引く「ドオー」やツリーに扮した「ピカチュウ」のぬいぐるみなどが登場。ドオーはひと晩でプレゼントを配れるのか",
+      "publishedAt": "2026-10-19T12:11:59.000Z",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/10/e06d35afb1c21be1e0e532f76851bcb4-1024x515.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "05cbbc0f1e61",
+      "title": "【耐久参加型】レジェンド耐久！！🔍レジェンド 到達 方法【ポケモンユナイト】",
+      "url": "https://youtu.be/jKSqeUCmmfs?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:10:33.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "55e5467c096b",
       "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
@@ -588,6 +674,27 @@
       "isNew": false
     },
     {
+      "id": "b76506a0856d",
+      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:04:34.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "de4cf46d87d7",
       "title": "大人気のポケモンが今年も壁新聞に登場！ポケモンを題材とした運動遊びを壁新聞で紹介",
       "url": "https://prtimes.jp/main/html/rd/p/000000508.000042202.html",
@@ -647,6 +754,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "83cde0fba477",
+      "title": "ポケットモンスター【プニプニポケモン！プニるプニればプニる時！！】 - www.tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo4k/program/detail/202610/6849_202610250700.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "www.tv-tokyo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:01:03.000Z",
+      "image": "https://www.bs-tvtokyo.co.jp/tbcms/assets/images/alt_bs-tv-tokyo-4k.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d109827c4614",
@@ -1028,27 +1156,6 @@
       "isNew": false
     },
     {
-      "id": "b76506a0856d",
-      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T07:31:43.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "184b8e77d2d9",
       "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
@@ -1067,7 +1174,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c319a0e7667a",
@@ -1078,27 +1185,6 @@
       "summary": "",
       "publishedAt": "2026-10-19T07:31:37.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574191.png?date=1787828260",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "65229ee18342",
-      "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T07:00:58.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562182.png?date=1779956758",
       "categories": [
         "tcgcat"
       ],
@@ -1402,27 +1488,6 @@
       "isNew": false
     },
     {
-      "id": "c3d22a1d7ccf",
-      "title": "「ポケモンコラボのおまけも、優待があれば買うハードルが低く」44歳男性のアイスの株主優待",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tQXlJa2lnTktuNjZwc3BfS2Rmdk0wLXpJdDZIQ09JeDRkcXU1UFgxSWJDQXdlbWp6V2d2OTZwdlhFOV9SZHlUOFNyYlBlX3R6X3Q0UXZWS2JPUHFBeFVtOWJFckt3Z3FYRVhmb01yS1RIb1NONThGaV9QYXZUZ9IBfkFVX3lxTE8tQXlJa2lnTktuNjZwc3BfS2Rmdk0wLXpJdDZIQ09JeDRkcXU1UFgxSWJDQXdlbWp6V2d2OTZwdlhFOV9SZHlUOFNyYlBlX3R6X3Q0UXZWS2JPUHFBeFVtOWJFckt3Z3FYRVhmb01yS1RIb1NONThGaV9QYXZUZw?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
-      "summary": "",
-      "publishedAt": "2026-10-19T03:20:00.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "df5dff9c5778",
       "title": "「くそっ転売されてる」『ポケモン』コラボ限定の“スケボーデッキ”全30種が争奪戦 シークレットは200万円超えも（マグミクス）",
       "url": "https://news.yahoo.co.jp/articles/5b6b9820b965f11be63ef10b309a08c19bec2cd6",
@@ -1430,7 +1495,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-19T03:14:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381349-magmix-000-10-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381349-magmix-000-11-view.jpg?exp=10800",
       "categories": [
         "goodscat"
       ],
@@ -1598,7 +1663,7 @@
       "source": "GAME Watch",
       "summary": "ダスキンが運営するミスタードーナツは、公式Xにて新商品と思われる画像を公開した。",
       "publishedAt": "2026-10-19T01:39:19.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/134/1.jpg",
       "categories": [
         "new",
         "goodscat"
@@ -1737,6 +1802,29 @@
       "isNew": false
     },
     {
+      "id": "2e6793514710",
+      "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:05:20.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570621.png?date=1785392758",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "go",
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "fb3b696295c7",
       "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
@@ -1821,22 +1909,18 @@
       "isNew": false
     },
     {
-      "id": "ccabeed8fafd",
-      "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/16466/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "af7786665234",
+      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか？ 「宝の呪いから生まれた」第154話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-10-18T23:33:34.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/6ea1ef47-3013-4b51-9383-82543e43db12.jpeg",
+      "publishedAt": "2026-10-18T23:54:01.000Z",
+      "image": "",
       "categories": [
-        "tcgcat",
-        "new"
+        "other"
       ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1950,6 +2034,25 @@
       "isNew": false
     },
     {
+      "id": "22057975009b",
+      "title": "ポケモンオールスターズ1025クイズに皆でチャレンジ！ - www.tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/26884_202610180730.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "www.tv-tokyo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-10-18T21:20:51.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/da/c1/bf595f65a2200b900b3085f66f08.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "cd35024adaa9",
       "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
       "url": "https://gamewith.jp/pokemon-champions/546477",
@@ -1983,27 +2086,6 @@
       "series": [
         "main",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d95dcc960f46",
-      "title": "【ポケポケ】エリートデッキ(メガルカリオex)の入手方法【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570822",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-18T19:04:03.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570822.png?date=1789543017",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2138,6 +2220,27 @@
       "isNew": false
     },
     {
+      "id": "fa4363d38328",
+      "title": "【Sランドロス】ランドロスとはどうも馬が合わない…決闘じゃ！！！【ポケモンGO】",
+      "url": "https://youtu.be/e0ZKSbRCUBM?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T12:37:49.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "96dc37cd48a2",
       "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
@@ -2172,27 +2275,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b3f60fddbca0",
-      "title": "【神回】きたきたきたぁぁぁ!!!ようやくやったぞー✨マラソンピカ開封!!Sランドロス連戦じゃぁぁ!!【ポケモンGO】",
-      "url": "https://youtu.be/p2HBCfRzXSs?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-18T11:00:08.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2509,6 +2591,44 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "40a012796569",
+      "title": "ポケモンとどこいく！？【全国の学校へ転校！？ポケどこ転校生SP】(テレ東、2026/10/25 07:30 OA)の番組情報ページ - www.tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/26884_202610250730.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "www.tv-tokyo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-10-17T23:48:23.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/da/c1/bf595f65a2200b900b3085f66f08.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "bb92d2ffc176",
+      "title": "【公式】ポケモンとどこいく！？ 見逃し配信 10/18（日）",
+      "url": "https://youtu.be/0hhIvC2VhFc?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-17T23:30:05.000Z",
+      "image": "https://i.ytimg.com/vi/0hhIvC2VhFc/maxresdefault.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4a802bc252c7",
@@ -3115,6 +3235,29 @@
       "isNew": false
     },
     {
+      "id": "d7b1242613a2",
+      "title": "一番くじ Pokémon EIEVUI＆CRYSTAL DROPS｜ポケットモンスターのくじ 発売日・取扱コンビニ",
+      "url": "https://charagoo.jp/kuji/item/530c21b16ea2/",
+      "host": "charagoo.jp",
+      "source": "キャラグー",
+      "summary": "",
+      "publishedAt": "2026-10-16T23:25:16.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "2a385a45d71a",
       "title": "【ポケモンGO】新宿の観光名所は『ポケモン広場』by Shinoちゃん❤横浜 ポケふた巡り #pokémongo Sean Brady (CJNd5hLpxc)",
       "url": "https://media.unisba.ac.id/18c8546c/da0bfb5cMKgHd26g-rs/?share",
@@ -3241,25 +3384,6 @@
       "isNew": false
     },
     {
-      "id": "af7786665234",
-      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか？ 「宝の呪いから生まれた」第154話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-16T15:15:34.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "4ad78c539b04",
       "title": "北大東村に設置されるポケふたが遠すぎると話題 / 東京・大阪から行くと最短でも1泊2日コース【ポケモンGO】",
       "url": "https://getnews.jp/archives/3749380",
@@ -3279,6 +3403,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3102bb1d2fe9",
+      "title": "テレ東系にて「ポケモンとどこいく！？」が現在放送中！",
+      "url": "https://abema.tv/channels/pokemon-1/slots/9QLZ6mG3J3WrHu",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-10-16T14:47:22.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6c7290e39bb6",
@@ -3365,6 +3510,27 @@
       "isNew": false
     },
     {
+      "id": "ff20f970a8a7",
+      "title": "先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼",
+      "url": "https://www.sanyonews.jp/article/2006098?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-16T13:06:49.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/2/5/b/2/25b25a68f32e9336ab02fde1d843aaba_1.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "8a454edabfa6",
       "title": "【ふかの日】Jリーグフェスのポケストップが最高すぎる✨福岡と佐賀堪能してきたばい!!メラルバ確率低すぎや!!【ポケモンGO】 American Idol 2026 (N8SlHcg3tP)",
       "url": "https://media.unisba.ac.id/a7b3401b/1be71ff27W59BAQAUpo",
@@ -3386,67 +3552,26 @@
       "isNew": false
     },
     {
-      "id": "ee2edc96b72c",
-      "title": "画像・写真 | 先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼 2枚目",
-      "url": "https://www.oricon.co.jp/news/2487001/photo/2/?anc",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-10-16T12:08:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210710_p_o_83504395.jpg",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ff20f970a8a7",
-      "title": "先月亡くなった声優・矢口アサミさん『ポケモン』最新話に出演 新キャラ・メロコ役でファン追悼",
-      "url": "https://www.oricon.co.jp/news/2487001/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-10-16T12:08:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210705_p_o_73636726.jpg",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0a9698abce6d",
-      "title": "『ポケモンGO』技強化でゴリ押し！超優秀な技を多数持ってるビッパが意表をつく【リトルカップ】 #ポケモン #ポケモンgo #pokemon #pokemongo #ゲーム実況 #ゲーム",
-      "url": "https://youtu.be/l06C7YRbffc?si",
+      "id": "853147dc6d67",
+      "title": "【完全初見】現代では珍しいアニメもゲームも未履修の逢宙セイがポケモンチャンピオンズを攻略していく。【切り抜き/シェアドリ/逢宙セイ】",
+      "url": "https://youtu.be/K6vnZfqRj4M?si",
       "host": "youtu.be",
       "source": "YouTube",
       "summary": "",
-      "publishedAt": "2026-10-16T12:03:06.000Z",
+      "publishedAt": "2026-10-16T12:31:15.000Z",
       "image": "",
       "categories": [
-        "other"
+        "media",
+        "guide"
       ],
       "series": [
-        "go"
+        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     }
   ]
 }
