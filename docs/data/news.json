@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T11:30:16.548Z",
+  "updatedAt": "2026-10-19T12:00:19.746Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 141,
-  "todayCount": 76,
+  "todayCount": 77,
   "categories": [
     {
       "id": "new",
@@ -22,17 +22,17 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 5
+      "count": 4
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 41
+      "count": 40
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 11
+      "count": 12
     },
     {
       "id": "media",
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 32
+      "count": 31
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 41
+      "count": 40
     },
     {
       "id": "anime",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 19
+      "count": 20
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 34
+      "count": 33
     },
     {
       "name": "YouTube",
@@ -177,6 +177,10 @@
     },
     {
       "name": "ポケモン・ウィズ・ユー財団",
+      "count": 1
+    },
+    {
+      "name": "ｄメニューニュース",
       "count": 1
     },
     {
@@ -387,7 +391,7 @@
       "title": "「ポケモン」とミスドのコラボ再びか!? 公式Xで新商品の一部がチラ見せ",
       "summary": "ダスキンが運営するミスタードーナツは、公式Xにて新商品と思われる画像を公開した。",
       "url": "https://game.watch.impress.co.jp/docs/news/2149134.html",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/134/1.jpg",
+      "image": "https://cimg.kgl-systems.io/camion/files/91409/ogp_zIIt.jpg?x=1280",
       "leadSource": "GAME Watch",
       "publishedAt": "2026-10-19T07:56:00.000Z",
       "sourceCount": 2,
@@ -494,12 +498,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T11:00:17.461Z",
-    "previousCount": 143,
-    "newCount": 8
+    "previousAt": "2026-10-19T11:30:16.548Z",
+    "previousCount": 141,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T12:00:16.548Z",
+  "nextUpdateAt": "2026-10-19T12:30:19.746Z",
   "items": [
     {
       "id": "55e5467c096b",
@@ -550,6 +554,27 @@
       "summary": "",
       "publishedAt": "2026-10-19T10:06:52.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582954.png?date=1792066964",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "7761cbb1df05",
+      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:04:53.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
       "categories": [
         "tcgcat"
       ],
@@ -621,7 +646,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d109827c4614",
@@ -652,7 +677,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-19T08:45:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00402284-otonans-000-3-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00402284-otonans-000-5-view.jpg?exp=10800",
       "categories": [
         "goodscat"
       ],
@@ -790,7 +815,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dfb68e54f3ea",
@@ -853,7 +878,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "96dede30191d",
@@ -1024,14 +1049,14 @@
       "isNew": false
     },
     {
-      "id": "c319a0e7667a",
-      "title": "【ポケポケ】ロケット団のペルシアンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/574191",
+      "id": "184b8e77d2d9",
+      "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-19T07:31:37.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574191.png?date=1787828260",
+      "publishedAt": "2026-10-19T07:31:43.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570625.png?date=1785392878",
       "categories": [
         "tcgcat"
       ],
@@ -1045,14 +1070,14 @@
       "isNew": true
     },
     {
-      "id": "7761cbb1df05",
-      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
+      "id": "c319a0e7667a",
+      "title": "【ポケポケ】ロケット団のペルシアンデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/574191",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-19T07:01:05.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
+      "publishedAt": "2026-10-19T07:31:37.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574191.png?date=1787828260",
       "categories": [
         "tcgcat"
       ],
@@ -1377,6 +1402,27 @@
       "isNew": false
     },
     {
+      "id": "c3d22a1d7ccf",
+      "title": "「ポケモンコラボのおまけも、優待があれば買うハードルが低く」44歳男性のアイスの株主優待",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tQXlJa2lnTktuNjZwc3BfS2Rmdk0wLXpJdDZIQ09JeDRkcXU1UFgxSWJDQXdlbWp6V2d2OTZwdlhFOV9SZHlUOFNyYlBlX3R6X3Q0UXZWS2JPUHFBeFVtOWJFckt3Z3FYRVhmb01yS1RIb1NONThGaV9QYXZUZ9IBfkFVX3lxTE8tQXlJa2lnTktuNjZwc3BfS2Rmdk0wLXpJdDZIQ09JeDRkcXU1UFgxSWJDQXdlbWp6V2d2OTZwdlhFOV9SZHlUOFNyYlBlX3R6X3Q0UXZWS2JPUHFBeFVtOWJFckt3Z3FYRVhmb01yS1RIb1NONThGaV9QYXZUZw?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
+      "summary": "",
+      "publishedAt": "2026-10-19T03:20:00.000Z",
+      "image": "",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "df5dff9c5778",
       "title": "「くそっ転売されてる」『ポケモン』コラボ限定の“スケボーデッキ”全30種が争奪戦 シークレットは200万円超えも（マグミクス）",
       "url": "https://news.yahoo.co.jp/articles/5b6b9820b965f11be63ef10b309a08c19bec2cd6",
@@ -1552,7 +1598,7 @@
       "source": "GAME Watch",
       "summary": "ダスキンが運営するミスタードーナツは、公式Xにて新商品と思われる画像を公開した。",
       "publishedAt": "2026-10-19T01:39:19.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/134/1.jpg",
+      "image": "",
       "categories": [
         "new",
         "goodscat"
@@ -1682,29 +1728,6 @@
         "tcgcat"
       ],
       "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2e6793514710",
-      "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T01:05:20.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570621.png?date=1785392758",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "go",
         "tcg"
       ],
       "isOfficial": false,
@@ -2115,27 +2138,6 @@
       "isNew": false
     },
     {
-      "id": "a9a1bf7227ca",
-      "title": "【ポケポケ】コイントスを持つポケモンの一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/512412",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-18T12:46:05.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/512412.png?date=1754021155",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "96dc37cd48a2",
       "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
@@ -2340,7 +2342,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0bbd32978acf",
@@ -2445,7 +2447,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eef3b9077fef",
@@ -2948,7 +2950,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9be0017b9a65",
@@ -3152,7 +3154,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1bc6a8ec1a88",
@@ -3391,7 +3393,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-16T12:08:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210710_p_o_83504395.jpg",
       "categories": [
         "media"
       ],
@@ -3412,7 +3414,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-16T12:08:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487001/20261016_210705_p_o_73636726.jpg",
       "categories": [
         "media"
       ],
