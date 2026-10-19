@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-19T16:00:19.125Z",
+  "updatedAt": "2026-10-19T16:30:18.657Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 150,
-  "todayCount": 0,
+  "total": 147,
+  "todayCount": 1,
   "categories": [
     {
       "id": "new",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 37
+      "count": 36
     },
     {
       "id": "goodscat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 65
+      "count": 63
     }
   ],
   "series": [
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 30
+      "count": 29
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 37
+      "count": 36
     },
     {
       "id": "anime",
@@ -101,19 +101,19 @@
   "sources": [
     {
       "name": "YouTube",
-      "count": 33
-    },
-    {
-      "name": "GameWith",
       "count": 32
     },
     {
+      "name": "GameWith",
+      "count": 29
+    },
+    {
       "name": "Unisba Media",
-      "count": 15
+      "count": 16
     },
     {
       "name": "SNKRDUNK",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Yahoo!ニュース",
@@ -140,10 +140,6 @@
       "count": 3
     },
     {
-      "name": "www.tv-tokyo.co.jp",
-      "count": 3
-    },
-    {
       "name": "キャラグー",
       "count": 3
     },
@@ -153,6 +149,10 @@
     },
     {
       "name": "山陽新聞",
+      "count": 2
+    },
+    {
+      "name": "www.tv-tokyo.co.jp",
       "count": 2
     },
     {
@@ -497,13 +497,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T15:30:16.704Z",
+    "previousAt": "2026-10-19T16:00:19.125Z",
     "previousCount": 150,
-    "newCount": 6
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T16:30:19.125Z",
+  "nextUpdateAt": "2026-10-19T17:00:18.657Z",
   "items": [
+    {
+      "id": "3fd25a757c03",
+      "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
+      "url": "https://snkrdunk.com/articles/33338/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-19T15:19:13.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "55e5467c096b",
       "title": "【ファイアレッドリーフグリーン】第三世代の仕様と最新世代との違い【ポケモンFRLG】",
@@ -522,6 +543,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "01eef2d84448",
+      "title": "【ポケカ】30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキーの収録カード・再販抽選情報まとめ",
+      "url": "https://snkrdunk.com/articles/32464/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:24:30.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/b3ec7894-3c17-4254-b87a-9ca52ed4616f.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d3b87d882a5e",
@@ -651,27 +693,6 @@
       "isNew": false
     },
     {
-      "id": "3fd25a757c03",
-      "title": "【ポケカ】リザードン(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33338/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-19T12:16:33.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/9d415bff-8f48-458b-8756-d9ddc47412d7.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "0886fe50552c",
       "title": "『ポケモン』「マッギョ」が派手にデザインされたカーディガンが欲しすぎる。ソリを引く「ドオー」やツリーに扮した「ピカチュウ」のぬいぐるみなど、クリスマスをテーマにしたグッズが10月22日より発売",
       "url": "https://news.denfaminicogamer.jp/news/2610192n",
@@ -710,6 +731,26 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "74c37e1832ec",
+      "title": "【ポケモンチャンピオンズ】個体値の廃止と影響まとめ",
+      "url": "https://gamewith.jp/pokemon-champions/546462",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T11:57:34.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546462.png?date=1775195996",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1053,48 +1094,6 @@
       "isNew": false
     },
     {
-      "id": "8e935ef61903",
-      "title": "【ポケポケ】ロケット団のファイヤーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/574038",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T10:04:32.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574038.png?date=1787807879",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "d86d1fbc5088",
-      "title": "【ポケポケ】ロケット団のサンダーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/574036",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T10:04:31.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574036.png?date=1787807927",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "de4cf46d87d7",
       "title": "大人気のポケモンが今年も壁新聞に登場！ポケモンを題材とした運動遊びを壁新聞で紹介",
       "url": "https://prtimes.jp/main/html/rd/p/000000508.000042202.html",
@@ -1154,27 +1153,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "83cde0fba477",
-      "title": "ポケットモンスター【プニプニポケモン！プニるプニればプニる時！！】 - www.tv-tokyo.co.jp",
-      "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo4k/program/detail/202610/6849_202610250700.html",
-      "host": "tv-tokyo.co.jp",
-      "source": "www.tv-tokyo.co.jp",
-      "summary": "",
-      "publishedAt": "2026-10-19T09:01:03.000Z",
-      "image": "https://www.bs-tvtokyo.co.jp/tbcms/assets/images/alt_bs-tv-tokyo-4k.png",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "d109827c4614",
@@ -1238,6 +1216,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8f77bccb5ae0",
+      "title": "【アニポケ考察】最終章1話のラティアスがやっぱり意味深すぎる！サトシが最後にゲットするポケモンが衝撃的だった！！！！【ポケモンSV】【ポケットモンスタースカーレットバイオレット】【はるかっと】 Air India (IcpnWv4p75)",
+      "url": "https://media.unisba.ac.id/7527874c/21dcbdc4WRU0Ald4OAUfNAk/?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:26:28.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f42a09bb640c",
@@ -1748,7 +1747,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-19T03:14:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381349-magmix-000-12-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381349-magmix-000-13-view.jpg?exp=10800",
       "categories": [
         "goodscat"
       ],
@@ -1923,25 +1922,6 @@
       "series": [
         "sleep"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "688dbf8de490",
-      "title": "【ぽこあポケモン】かぼちゃキャンディの効率的な集め方と使い道【ぽこポケ】",
-      "url": "https://gamewith.jp/pocoapokemon/583104",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T01:44:31.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2132,7 +2112,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6e7894c68945",
@@ -2364,27 +2344,6 @@
       "isNew": false
     },
     {
-      "id": "fa4363d38328",
-      "title": "【Sランドロス】ランドロスとはどうも馬が合わない…決闘じゃ！！！【ポケモンGO】",
-      "url": "https://youtu.be/e0ZKSbRCUBM?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-18T12:37:49.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b73558042fdb",
       "title": "【胸熱】ポケモンたちと巨大ビル建築！ついに完成したと思ったら…【ぽこ あ ポケモン】",
       "url": "https://youtu.be/10AIc3tgmt4",
@@ -2579,7 +2538,7 @@
       "source": "ABEMA",
       "summary": "",
       "publishedAt": "2026-10-18T05:37:44.000Z",
-      "image": "",
+      "image": "https://image.p-c2-x.abema-tv.com/image/programs/111-1yyirbkzgnz_s2_p676/thumb001.png?height=720&quality=75&version=1791353888&width=1280",
       "categories": [
         "media"
       ],
@@ -2917,26 +2876,6 @@
       "series": [
         "unite"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "74c37e1832ec",
-      "title": "【ポケモンチャンピオンズ】個体値の廃止と影響まとめ",
-      "url": "https://gamewith.jp/pokemon-champions/546462",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-17T13:19:29.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546462.png?date=1775195996",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3326,7 +3265,7 @@
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-17T02:21:10.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -3441,7 +3380,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f65e04530f85",
@@ -3464,7 +3403,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2a385a45d71a",
