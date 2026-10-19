@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T10:00:16.522Z",
+  "updatedAt": "2026-10-19T10:30:21.950Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 145,
-  "todayCount": 79,
+  "todayCount": 78,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 8
+      "count": 10
     },
     {
       "id": "update",
@@ -27,27 +27,27 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 41
+      "count": 40
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 14
+      "count": 13
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 8
+      "count": 9
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 9
+      "count": 8
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 8
+      "count": 7
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 62
+      "count": 63
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 41
+      "count": 40
     },
     {
       "id": "anime",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 19
+      "count": 20
     },
     {
       "id": "sleep",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 36
+      "count": 34
     },
     {
       "name": "YouTube",
@@ -121,14 +121,18 @@
     },
     {
       "name": "オリコンニュース",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 6
+      "count": 5
     },
     {
       "name": "インサイド",
+      "count": 4
+    },
+    {
+      "name": "Howl.link",
       "count": 4
     },
     {
@@ -136,7 +140,7 @@
       "count": 3
     },
     {
-      "name": "Howl.link",
+      "name": "山陽新聞",
       "count": 3
     },
     {
@@ -146,6 +150,10 @@
     {
       "name": "人鳥日記",
       "count": 2
+    },
+    {
+      "name": "PR TIMES",
+      "count": 1
     },
     {
       "name": "コラボカフェ",
@@ -216,10 +224,6 @@
       "count": 1
     },
     {
-      "name": "山陽新聞",
-      "count": 1
-    },
-    {
       "name": "Twitch Blog",
       "count": 1
     },
@@ -273,7 +277,7 @@
       "leadSource": "SNKRDUNK",
       "publishedAt": "2026-10-18T21:51:44.000Z",
       "sourceCount": 2,
-      "articleCount": 8,
+      "articleCount": 9,
       "categories": [
         "tcgcat",
         "guide"
@@ -327,6 +331,13 @@
           "isPR": false
         },
         {
+          "title": "【ポケポケ】コイントスを持つポケモンの一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/512412",
+          "source": "GameWith",
+          "publishedAt": "2026-10-18T12:46:05.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
           "source": "GameWith",
@@ -344,14 +355,15 @@
       "leadSource": "Howl.link",
       "publishedAt": "2026-10-18T03:43:06.000Z",
       "sourceCount": 2,
-      "articleCount": 5,
+      "articleCount": 6,
       "categories": [
-        "other"
+        "other",
+        "media"
       ],
       "keywords": [
-        "参加型",
         "ポケモンユナイト",
-        "ユナイト"
+        "ユナイト",
+        "参加型"
       ],
       "articles": [
         {
@@ -380,6 +392,13 @@
           "url": "https://t.co/3oPLj8F1Qz",
           "source": "Howl.link",
           "publishedAt": "2026-10-17T05:07:07.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【押忍】昼間のユナイト楽しむ配信【ポケモンユナイト】",
+          "url": "https://t.co/YodjHCdWe3",
+          "source": "Howl.link",
+          "publishedAt": "2026-10-17T03:42:37.000Z",
           "isPR": false
         }
       ]
@@ -580,34 +599,6 @@
       ]
     },
     {
-      "id": "7b64456f31dc",
-      "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
-      "summary": "",
-      "url": "https://www.sanyonews.jp/article/2002539?kw",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
-      "leadSource": "山陽新聞",
-      "publishedAt": "2026-10-17T02:21:10.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "カット",
-        "場面",
-        "解禁"
-      ],
-      "articles": [
-        {
-          "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
-          "url": "https://www.oricon.co.jp/news/2486402/photo/12/",
-          "source": "オリコンニュース",
-          "publishedAt": "2026-10-16T10:25:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "f20230870913",
       "title": "【ポケモンGO】スリープの色違いと進化先・個体値早見表",
       "summary": "",
@@ -636,13 +627,32 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T09:30:18.240Z",
-    "previousCount": 147,
-    "newCount": 9
+    "previousAt": "2026-10-19T10:00:16.522Z",
+    "previousCount": 145,
+    "newCount": 6
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T10:30:16.522Z",
+  "nextUpdateAt": "2026-10-19T11:00:21.950Z",
   "items": [
+    {
+      "id": "de4cf46d87d7",
+      "title": "大人気のポケモンが今年も壁新聞に登場！ポケモンを題材とした運動遊びを壁新聞で紹介",
+      "url": "https://prtimes.jp/main/html/rd/p/000000508.000042202.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-10-19T10:00:02.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/42202/508/42202-508-140795995a914140e303258076ac4ccd-644x910.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "2c01f54f207b",
       "title": "【ポケカ30周年】10月20日はポケカの誕生日！おいわいカードやスペシャルアートをコレクションしてポケカを楽しもう！",
@@ -662,7 +672,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "df5dff9c5778",
+      "title": "「くそっ転売されてる」『ポケモン』コラボ限定の“スケボーデッキ”全30種が争奪戦 シークレットは200万円超えも（マグミクス）",
+      "url": "https://news.yahoo.co.jp/articles/5b6b9820b965f11be63ef10b309a08c19bec2cd6",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:23:11.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381349-magmix-000-9-view.jpg?exp=10800",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "d109827c4614",
@@ -831,48 +862,6 @@
       "isNew": false
     },
     {
-      "id": "ac569876072f",
-      "title": "【ポケポケ】ジバコイルexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559114",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T07:32:00.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559114.png?date=1777351866",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "96dede30191d",
-      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T07:31:57.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "6bdf0e2fef54",
       "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
@@ -912,7 +901,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "64209e90cd0b",
@@ -923,6 +912,27 @@
       "summary": "",
       "publishedAt": "2026-10-19T07:31:50.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "833ac77d5fe0",
+      "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:31:46.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
       "categories": [
         "tcgcat"
       ],
@@ -955,6 +965,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c3572f07ab43",
+      "title": "【ポケカ30周年】30th CELEBRATION(30th セレブレーション)の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【10/19更新】",
+      "url": "https://snkrdunk.com/articles/30971/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-19T07:20:16.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/2b5245f0-2774-4480-bb7d-cd8b457f7349.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d3b87d882a5e",
@@ -1185,7 +1218,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "07b6b69c65b1",
@@ -1209,27 +1242,6 @@
       "isNew": false
     },
     {
-      "id": "de846979e46a",
-      "title": "「騙された(笑)」ミスド、毎年恒例「ポケモン」コラボに注目「アチャモかと思いきや…」「もしやと思ってた」（マグミクス）",
-      "url": "https://news.yahoo.co.jp/articles/82b2d1e5c0dde832ce1fde3a0b7647a9c7718c42",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-19T04:06:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381373-magmix-000-5-view.jpg?exp=10800",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "c1eb4597d6d7",
       "title": "「ぎんのおうかん」が約1年ぶりに復活 / 2匹目が入手不可なポケモンを個体値マックスにできる神アイテム【ポケモンGO】",
       "url": "https://getnews.jp/archives/3749657",
@@ -1244,26 +1256,6 @@
       "series": [
         "go"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c902cbc90842",
-      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
-      "url": "https://gamewith.jp/pokemon-champions/546413",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T03:55:14.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1347,27 +1339,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "df5dff9c5778",
-      "title": "「くそっ転売されてる」『ポケモン』コラボ限定の“スケボーデッキ”全30種が争奪戦 シークレットは200万円超えも (マグミクス)",
-      "url": "https://news.yahoo.co.jp/articles/5b6b9820b965f11be63ef10b309a08c19bec2cd6/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-19T03:14:00.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnW7R8_Zsn4WaXGSncpgoMokTtiCRp37dBBczOSYgg6eszVxgrTNuAzBX3HUG4IxedTK3U--GTUq2UGhEycpUOT46NExP_KawgfD3_g9JKNJ7",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1728,27 +1699,6 @@
       "isNew": false
     },
     {
-      "id": "833ac77d5fe0",
-      "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T01:05:20.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "0e8dbe8f536d",
       "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
@@ -1870,6 +1820,25 @@
       "series": [
         "main"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "af7786665234",
+      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか？ 「宝の呪いから生まれた」第154話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-18T23:54:01.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2013,7 +1982,7 @@
       "source": "西日本新聞me",
       "summary": "",
       "publishedAt": "2026-10-18T21:00:00.000Z",
-      "image": "https://www.nishinippon.co.jp/uploads/image/1950366/sns_IP260907JAA000371000.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2319,6 +2288,48 @@
       "isNew": false
     },
     {
+      "id": "a9a1bf7227ca",
+      "title": "【ポケポケ】コイントスを持つポケモンの一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/512412",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-18T12:46:05.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/512412.png?date=1754021155",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fa4363d38328",
+      "title": "【Sランドロス】ランドロスとはどうも馬が合わない…決闘じゃ！！！【ポケモンGO】",
+      "url": "https://youtu.be/e0ZKSbRCUBM?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T12:37:49.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "96dc37cd48a2",
       "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
@@ -2338,7 +2349,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b73558042fdb",
@@ -2353,27 +2364,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b3f60fddbca0",
-      "title": "【神回】きたきたきたぁぁぁ!!!ようやくやったぞー✨マラソンピカ開封!!Sランドロス連戦じゃぁぁ!!【ポケモンGO】",
-      "url": "https://youtu.be/p2HBCfRzXSs?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-18T11:00:08.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2505,6 +2495,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3233f892514d",
+      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
+      "url": "https://www.sanyonews.jp/article/1963305",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-18T07:06:21.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/1/e/6/81e6871d6797444899c5ee901890fbbc_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0bbd32978acf",
@@ -3108,7 +3117,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "800d6423ae89",
@@ -3171,6 +3180,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "34e755ed8810",
+      "title": "【押忍】昼間のユナイト楽しむ配信【ポケモンユナイト】",
+      "url": "https://t.co/YodjHCdWe3",
+      "host": "t.co",
+      "source": "Howl.link",
+      "summary": "",
+      "publishedAt": "2026-10-17T03:42:37.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2a4e9dbe73be",
@@ -3292,7 +3322,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1bc6a8ec1a88",
@@ -3481,7 +3511,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ee2edc96b72c",
@@ -3604,46 +3634,6 @@
         "anime",
         "unite"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d29f5cbc45df",
-      "title": "【ポケカ】御三家ポケモンってどんなキャラ？地方ごとの最初のパートナーの魅力と特徴を徹底解説！【御三家】",
-      "url": "https://snkrdunk.com/articles/33508/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:30:22.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/75d20ce3-2732-4056-89ff-c4c1c0954614.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "af7786665234",
-      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか? 「宝の呪いから生まれた」第154話あらすじ&場面カット解禁",
-      "url": "https://www.oricon.co.jp/news/2486402/photo/12/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:25:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
