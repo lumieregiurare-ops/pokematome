@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-19T02:00:17.148Z",
+  "updatedAt": "2026-10-19T02:30:16.603Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 164,
-  "todayCount": 30,
+  "total": 163,
+  "todayCount": 33,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 14
+      "count": 12
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 1
+      "count": 0
     },
     {
       "id": "event",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 38
+      "count": 39
     },
     {
       "id": "goodscat",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 40
+      "count": 41
     },
     {
       "name": "YouTube",
@@ -121,7 +121,7 @@
     },
     {
       "name": "GAME Watch",
-      "count": 6
+      "count": 5
     },
     {
       "name": "オリコンニュース",
@@ -145,10 +145,6 @@
     },
     {
       "name": "AppMedia",
-      "count": 2
-    },
-    {
-      "name": "山陽新聞",
       "count": 2
     },
     {
@@ -204,6 +200,10 @@
       "count": 1
     },
     {
+      "name": "山陽新聞",
+      "count": 1
+    },
+    {
       "name": "Twitch Blog",
       "count": 1
     },
@@ -254,7 +254,7 @@
       "title": "【ポケカ】メガゲンガーexなどメガシンカexデッキ3種がセットになった「スペシャルデッキセットMEGA」が11月13日発売",
       "summary": "ポケモンは、ポケモンカードゲーム MEGA 「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」を11月13日に発売する。価格は5,500円。",
       "url": "https://game.watch.impress.co.jp/docs/news/2148842.html",
-      "image": "https://cdn.snkrdunk.com/uploads/media/54b41b6e-3681-437e-94cb-8ef5e97ac5a4.jpeg",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/842/1.jpg",
       "leadSource": "GAME Watch",
       "publishedAt": "2026-10-17T07:00:00.000Z",
       "sourceCount": 6,
@@ -610,7 +610,7 @@
       "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
       "summary": "",
       "url": "https://www.sanyonews.jp/article/2002539?kw",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486402/20261014_160558_p_o_16216997.jpg",
       "leadSource": "山陽新聞",
       "publishedAt": "2026-10-17T02:21:10.000Z",
       "sourceCount": 2,
@@ -721,12 +721,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T01:29:34.066Z",
-    "previousCount": 162,
-    "newCount": 7
+    "previousAt": "2026-10-19T02:00:17.148Z",
+    "previousCount": 164,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-19T02:30:17.148Z",
+  "nextUpdateAt": "2026-10-19T03:00:16.603Z",
   "items": [
     {
       "id": "b46347c47683",
@@ -748,7 +748,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "55e5467c096b",
@@ -786,7 +786,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eeba3ffcbd50",
@@ -840,6 +840,27 @@
       "summary": "",
       "publishedAt": "2026-10-19T01:07:29.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582954.png?date=1792066964",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "07068a774ad8",
+      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T01:05:25.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
       "categories": [
         "tcgcat"
       ],
@@ -1027,7 +1048,7 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-10-18T19:13:58.000Z",
-      "image": "https://i.ytimg.com/vi/XIWfYajNJ6E/maxresdefault.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -1123,6 +1144,27 @@
       "isNew": false
     },
     {
+      "id": "fbb15bf5c451",
+      "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-18T17:51:14.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/549856.png?date=1773926468",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "f816c4e5040a",
       "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/15950/",
@@ -1164,7 +1206,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c902cbc90842",
@@ -1187,6 +1229,27 @@
       "isNew": false
     },
     {
+      "id": "45de1cd80e7c",
+      "title": "【ポケポケ】金フレーム(金枠)の入手方法とトレード方法【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559877",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-18T16:42:18.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559877.png?date=1777621111",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "242bac53c705",
       "title": "【ポケカ】御三家セットとは？買取・相場価格/再販抽選情報まとめ【30th CELEBRATION カードセット】",
       "url": "https://snkrdunk.com/articles/32998/",
@@ -1205,7 +1268,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "780ca96f34b4",
@@ -1505,27 +1568,6 @@
       "isNew": false
     },
     {
-      "id": "fbb15bf5c451",
-      "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-18T08:24:08.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/549856.png?date=1773926468",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "301f2796ae73",
       "title": "【ポケポケ】ラッキーチャレンジ(ヒトカゲ+ジジーロン)の攻略【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/583147",
@@ -1609,26 +1651,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "3233f892514d",
-      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
-      "url": "https://www.sanyonews.jp/article/1963305",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-18T07:06:21.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/1/e/6/81e6871d6797444899c5ee901890fbbc_1.jpg",
-      "categories": [
-        "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3910f8a324f2",
@@ -1924,7 +1947,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-17T22:52:55.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2024/10/ポケモンスリープゴールド旧発電所.png",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2257,7 +2280,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-17T09:41:10.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2024/10/ポケモンスリープゴールド旧発電所.png",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2423,7 +2446,7 @@
       "source": "ポケカポケット開封日記",
       "summary": "",
       "publishedAt": "2026-10-17T04:29:25.000Z",
-      "image": "https://pokeca-pocket.dbfw-days.com/wp-content/uploads/2026/10/IMG_0277.jpeg",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2445,7 +2468,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-17T02:35:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2487000/2486940/20261016_165747_p_o_48239710.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -2466,7 +2489,7 @@
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-10-17T02:21:10.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/a/6/0/6a60792cac67de0d1621fc5be90b6335_1.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -3061,27 +3084,6 @@
       "isNew": false
     },
     {
-      "id": "8822bde96349",
-      "title": "【ポケポケ】メガカメックスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/536323",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-16T10:05:20.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/536323.png?date=1765960087",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "0c36a702358d",
       "title": "【ポケポケ】こいぬまみれデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565901",
@@ -3403,7 +3405,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、ポケモンカードゲーム MEGA 「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」を11月13日に発売する。価格は5,500円。",
       "publishedAt": "2026-10-16T07:36:39.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/842/1.jpg",
       "categories": [
         "tcgcat"
       ],
@@ -4057,28 +4059,6 @@
       "isNew": false
     },
     {
-      "id": "bcce2f60e895",
-      "title": "「ポケポケ」、拡張パックサイクルは4週間→6週間に変更へ10月末開幕の新シリーズに向け今後のアップデート方針を発表",
-      "url": "https://game.watch.impress.co.jp/docs/news/2148715.html",
-      "host": "game.watch.impress.co.jp",
-      "source": "GAME Watch",
-      "summary": "ポケモンは、Android/iOS用カードゲーム「Pokémon Trading Card Game Pocket（以下：ポケポケ）」において、10月末以降のアップデート方針を発表した。",
-      "publishedAt": "2026-10-16T03:34:22.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2148/715/1.jpg",
-      "categories": [
-        "new",
-        "update"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "c4dc077c9de2",
       "title": "ポケセンオンラインで買った「ポケモンカードゲーム30thセレブレーションカードセット」9種類を開封してみた",
       "url": "https://cuberoomblog.com/pokeca30th-celebration-cardset-opening/",
@@ -4086,7 +4066,7 @@
       "source": "CUBEの部屋",
       "summary": "",
       "publishedAt": "2026-10-16T03:31:19.000Z",
-      "image": "https://cuberoomblog.com/wp-content/uploads/2026/10/20261016_1037241-1.jpg",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -4126,7 +4106,7 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-10-16T03:00:31.000Z",
-      "image": "https://i.ytimg.com/vi/5SWkV1BXT5I/maxresdefault.jpg",
+      "image": "",
       "categories": [
         "event",
         "community"
@@ -4143,19 +4123,19 @@
     {
       "id": "88793d087b82",
       "title": "世界中で増殖する｢ポケモンそっくりなゲーム｣ 任天堂が守る王者の座とポケモンの意外な弱点｜Infoseekニュース",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxbkNhY09FeVhMNmFOaTlQZ21WQ0dCMHExS1VsUW9QWUw0MlpPbXh1d0JDVE9vVnhudnV6bF9YUnZyOVh1by1DUFBlWDhiQW1EdHg1SVBreDJuWjdiVGstWGFldlFKTHhWYzJjejNSZ2o?oc=5",
+      "url": "https://news.infoseek.co.jp/article/toyokeizai_20261016_960675/",
       "host": "news.infoseek.co.jp",
       "source": "Infoseek",
       "summary": "",
       "publishedAt": "2026-10-16T03:00:00.000Z",
-      "image": "",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/toyokeizai/toyokeizai_20261016_960675_0-enlarge.jpg",
       "categories": [
         "biz"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     }
