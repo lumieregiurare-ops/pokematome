@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-10-20T19:00:17.089Z",
+  "updatedAt": "2026-10-20T19:30:16.633Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 150,
-  "todayCount": 9,
+  "total": 152,
+  "todayCount": 10,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 20
+      "count": 21
     },
     {
       "id": "update",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 21
+      "count": 22
     },
     {
       "id": "media",
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 26
+      "count": 27
     },
     {
       "id": "tcg",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 35
+      "count": 34
     }
   ],
   "weapons": [],
@@ -109,11 +109,15 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 12
+      "count": 11
     },
     {
       "name": "オリコンニュース",
       "count": 10
+    },
+    {
+      "name": "Unisba Media",
+      "count": 9
     },
     {
       "name": "インサイド",
@@ -128,12 +132,8 @@
       "count": 8
     },
     {
-      "name": "Unisba Media",
-      "count": 8
-    },
-    {
       "name": "山陽新聞",
-      "count": 4
+      "count": 5
     },
     {
       "name": "電ファミニコゲーマー",
@@ -200,6 +200,10 @@
       "count": 1
     },
     {
+      "name": "SmartNews",
+      "count": 1
+    },
+    {
       "name": "オトナンサー",
       "count": 1
     },
@@ -244,15 +248,15 @@
       "count": 1
     },
     {
+      "name": "FNNプライムオンライン",
+      "count": 1
+    },
+    {
       "name": "ポケモン・ウィズ・ユー財団",
       "count": 1
     },
     {
       "name": "shiritomo",
-      "count": 1
-    },
-    {
-      "name": "ファミ通.com",
       "count": 1
     },
     {
@@ -351,16 +355,16 @@
       "image": "https://animeanime.jp/imgs/rss/945490.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-10-20T13:26:00.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "sourceCount": 6,
+      "articleCount": 6,
       "categories": [
         "event",
         "goodscat"
       ],
       "keywords": [
         "ミスド",
-        "キャンペーン",
-        "グッズ"
+        "グッズ",
+        "ドーナツ"
       ],
       "articles": [
         {
@@ -368,6 +372,13 @@
           "url": "https://www.mylifenews.net/drink-food/131114/",
           "source": "マイライフニュース",
           "publishedAt": "2026-10-20T13:26:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ミスド、ポケモン新作ドーナツやグッズを11月4日発売",
+          "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPMGN0SHR2UncxcGFEX0tuZjF1QzU4WGw4MUY4YUdydXVJdHVRazlXOGJTbmFPenh3X0g3Sm5MSjJYQ1ZXcjF1YkZSTlo2elhmbnJhS3Q0Y3BuNVgtRG14RHY4TVl3ZFdGMzBUYnBEMkZDZDVlc2hUYUZlcTJmV08yZTBIdlZBY2dJNXY5d2VRbmMtYlBYT05FblFwZlNkb2tmT2x3V0I4WUpfNW44a1JiZmU2aHBLNkFZQWdqUXJpbTRObzBVSzJoWnFyY2doaDFMZEoyNXlqVC1rTFdnN3dZLW04QzU4N2Zya1lNX3M0TGd4V0M2a3FDSFJRNTlIRWtlTk1CYmhVVEJyMlBtWk1LREZMbHBtTGZaQ1FOUS1LSFBtVjMzNFNQb2dKLWZQR1VSQXlXNWhwajBTbktNRGNkTDZmeXF6azFSUXF3ZGUwNkZfMGNxN1JLdnl0TVdDbnE2NEdfVnZhYld4blVCcjRhamxFN1JCLW1SY1VzRm9YcVNyUFE?oc=5",
+          "source": "SmartNews",
+          "publishedAt": "2026-10-20T06:36:00.000Z",
           "isPR": false
         },
         {
@@ -779,13 +790,32 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-20T18:30:19.314Z",
-    "previousCount": 135,
-    "newCount": 21
+    "previousAt": "2026-10-20T19:00:17.089Z",
+    "previousCount": 150,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-20T19:30:17.089Z",
+  "nextUpdateAt": "2026-10-20T20:00:16.633Z",
   "items": [
+    {
+      "id": "af7786665234",
+      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか？ 「宝の呪いから生まれた」第154話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/2006052",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-20T18:01:15.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/4/4/9/74498b8acdc549826ddab840ba4f4699_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "20e62b5bed43",
       "title": "【ポケポケ】ホゲータex(デュアルフュージョン)の効果と事前評価【ポケモンカードアプリ】",
@@ -805,7 +835,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cf57d26049d1",
@@ -829,27 +859,25 @@
       "isNew": false
     },
     {
-      "id": "c3572f07ab43",
-      "title": "【ポケカ30周年】30th CELEBRATION(30th セレブレーション)の当たりランキング/買取相場/封入率/予約抽選/値段まとめ【10/20更新】",
-      "url": "https://snkrdunk.com/articles/30971/",
+      "id": "780ca96f34b4",
+      "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
+      "url": "https://snkrdunk.com/articles/18862/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-10-20T16:17:19.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/2b5245f0-2774-4480-bb7d-cd8b457f7349.jpeg",
+      "publishedAt": "2026-10-20T16:12:13.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
       "categories": [
-        "tcgcat",
-        "new"
+        "tcgcat"
       ],
       "series": [
-        "tcg",
-        "goods"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3b87d882a5e",
@@ -931,7 +959,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1bee3d92f217",
@@ -1312,7 +1340,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6936f055e456",
@@ -1355,7 +1383,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ca61ce7d03c0",
@@ -1418,7 +1446,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dbcc8b36a8bb",
@@ -1630,6 +1658,29 @@
       "isNew": false
     },
     {
+      "id": "fb17be3497da",
+      "title": "ミスド、ポケモン新作ドーナツやグッズを11月4日発売",
+      "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxPMGN0SHR2UncxcGFEX0tuZjF1QzU4WGw4MUY4YUdydXVJdHVRazlXOGJTbmFPenh3X0g3Sm5MSjJYQ1ZXcjF1YkZSTlo2elhmbnJhS3Q0Y3BuNVgtRG14RHY4TVl3ZFdGMzBUYnBEMkZDZDVlc2hUYUZlcTJmV08yZTBIdlZBY2dJNXY5d2VRbmMtYlBYT05FblFwZlNkb2tmT2x3V0I4WUpfNW44a1JiZmU2aHBLNkFZQWdqUXJpbTRObzBVSzJoWnFyY2doaDFMZEoyNXlqVC1rTFdnN3dZLW04QzU4N2Zya1lNX3M0TGd4V0M2a3FDSFJRNTlIRWtlTk1CYmhVVEJyMlBtWk1LREZMbHBtTGZaQ1FOUS1LSFBtVjMzNFNQb2dKLWZQR1VSQXlXNWhwajBTbktNRGNkTDZmeXF6azFSUXF3ZGUwNkZfMGNxN1JLdnl0TVdDbnE2NEdfVnZhYld4blVCcjRhamxFN1JCLW1SY1VzRm9YcVNyUFE?oc=5",
+      "host": "smartnews.com",
+      "source": "SmartNews",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:36:00.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e2bc0a4d37a1",
       "title": "【ミスタードーナツ】歴代ポケモンが大集合「ディグダ（アローラのすがた）」「ヤドン」がドーナツに",
       "url": "https://otonanswer.jp/post/402624/",
@@ -1677,7 +1728,7 @@
       "source": "ふくおかナビ",
       "summary": "",
       "publishedAt": "2026-10-20T06:21:49.000Z",
-      "image": "",
+      "image": "https://www.fukuoka-navi.jp/wp-content/uploads/2026/10/main-11.jpg",
       "categories": [
         "new",
         "event"
@@ -1783,7 +1834,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-20T04:45:42.000Z",
-      "image": "",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2024/10/ポケモンスリープゴールド旧発電所.png",
       "categories": [
         "other"
       ],
@@ -1868,7 +1919,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-20T04:18:14.000Z",
-      "image": "",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/03/ポケモンスリープメンテナンスアップデート.jpg",
       "categories": [
         "update"
       ],
@@ -1954,7 +2005,7 @@
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-10-20T02:33:40.000Z",
-      "image": "",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/pokemon-1020-i.jpeg",
       "categories": [
         "new",
         "event"
@@ -2613,6 +2664,25 @@
       "isNew": false
     },
     {
+      "id": "3233f892514d",
+      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
+      "url": "https://www.sanyonews.jp/article/1963305?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-20T00:38:29.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/1/e/6/81e6871d6797444899c5ee901890fbbc_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "7b64456f31dc",
       "title": "『ポケモン』スター団が登場！災厄のパルデア…復活 第153話あらすじ＆場面カット解禁",
       "url": "https://www.sanyonews.jp/article/2002539?rct",
@@ -2625,6 +2695,27 @@
         "other"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f4ac33e0151d",
+      "title": "GBLザ・ベスト・オブ・カイロスseason1～全国６億３千万のカイロスファンに贈る至極の超大作～【ポケモンGO#66】 Seattle Mariners (VcdgXFhHhG)",
+      "url": "https://media.unisba.ac.id/8f371ded/a7f5b960BT8lLAptJDYDOBE/",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:48:45.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2681,7 +2772,7 @@
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-19T22:50:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487239/20261019_103915_p_o_99952867.jpg",
       "categories": [
         "goodscat",
         "media"
@@ -2716,7 +2807,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8e4fe940ba92",
@@ -2804,6 +2895,27 @@
       "isNew": false
     },
     {
+      "id": "c59ffd96d46a",
+      "title": "「ポケモンカード」レアな試作カードと嘘 代金をだまし取った疑いで会社役員の男を3回目の逮捕（島根）",
+      "url": "https://www.fnn.jp/articles/-/1135822",
+      "host": "fnn.jp",
+      "source": "FNNプライムオンライン",
+      "summary": "",
+      "publishedAt": "2026-10-19T12:20:00.000Z",
+      "image": "https://fnn.ismcdn.jp/mwimgs/7/f/600/img_7f0ed5a841e9f2e265ceedb72a299f7f17237.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "842448ce399b",
       "title": "【ポケモンGO】メテノについて未発表の衝撃判明！？流星群タイムでまさかの？",
       "url": "https://youtu.be/CTCRMEY8LCk?si",
@@ -2862,7 +2974,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "99447670bbc9",
@@ -2925,7 +3037,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8f77bccb5ae0",
@@ -2967,7 +3079,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "57b05771a22e",
@@ -3219,7 +3331,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eaf0e73ddb03",
@@ -3282,7 +3394,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ed17f80fbdf2",
@@ -3303,25 +3415,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "af7786665234",
-      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか？ 「宝の呪いから生まれた」第154話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-18T23:54:01.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -3338,27 +3431,6 @@
       ],
       "series": [
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "c2598baaf096",
-      "title": "【10月19日〜25日】限定4時間と1時間を見逃すな！今日の締切に注意！今日から火力NO.1アタッカー登場！メテノ実装も！今週の重要事項を整理【 ポケモンGO 】【 GOバトルリーグ 】【 GBL 】",
-      "url": "https://youtu.be/Ta-04AW6GWQ?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-18T23:04:54.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3468,50 +3540,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "780ca96f34b4",
-      "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
-      "url": "https://snkrdunk.com/articles/18862/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-18T16:13:01.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
-      "id": "280d9ab9440d",
-      "title": "『ポケットモンスター X・Y』が発売された日。ポケモンたちがすべて3D化し、ゲームを新たな次元へとシフトさせた作品。フェアリータイプも新登場【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202610/90244/894703",
-      "host": "famitsu.com",
-      "source": "ファミ通.com",
+      "id": "fa4363d38328",
+      "title": "【Sランドロス】ランドロスとはどうも馬が合わない…決闘じゃ！！！【ポケモンGO】",
+      "url": "https://youtu.be/e0ZKSbRCUBM?si",
+      "host": "youtu.be",
+      "source": "YouTube",
       "summary": "",
-      "publishedAt": "2026-10-18T15:39:50.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/90244/a6300b8f81554b903badcbffe760655c9.jpg?x=1280",
+      "publishedAt": "2026-10-18T12:37:49.000Z",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [
-        "main",
-        "goods"
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "b73558042fdb",
@@ -3572,7 +3622,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a98b1a43d896",
@@ -3635,7 +3685,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "aed2c7f78cd3",
@@ -3719,7 +3769,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "05f7b159007d",
@@ -3801,7 +3851,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "40a012796569",
@@ -3881,7 +3931,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14a942212ad2",
@@ -3891,7 +3941,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-10-17T22:52:55.000Z",
-      "image": "",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2024/10/ポケモンスリープゴールド旧発電所.png",
       "categories": [
         "other"
       ],
