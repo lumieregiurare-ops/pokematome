@@ -1,28 +1,28 @@
 {
-  "updatedAt": "2026-10-20T01:00:16.908Z",
+  "updatedAt": "2026-10-20T01:30:16.691Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 144,
-  "todayCount": 21,
+  "total": 145,
+  "todayCount": 26,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 12
+      "count": 10
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 1
+      "count": 2
     },
     {
       "id": "event",
       "label": "イベント",
-      "count": 6
+      "count": 8
     },
     {
       "id": "tcgcat",
@@ -32,12 +32,12 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 17
+      "count": 15
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 10
+      "count": 9
     },
     {
       "id": "guide",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 56
+      "count": 58
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 24
+      "count": 25
     },
     {
       "id": "tcg",
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 5
+      "count": 4
     },
     {
       "id": "unite",
@@ -105,26 +105,26 @@
     },
     {
       "name": "GameWith",
-      "count": 30
+      "count": 29
     },
     {
       "name": "Unisba Media",
-      "count": 13
+      "count": 12
     },
     {
       "name": "SNKRDUNK",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 7
-    },
-    {
-      "name": "オリコンニュース",
-      "count": 6
+      "count": 9
     },
     {
       "name": "ガジェット通信",
+      "count": 6
+    },
+    {
+      "name": "オリコンニュース",
       "count": 6
     },
     {
@@ -132,11 +132,11 @@
       "count": 5
     },
     {
-      "name": "山陽新聞",
-      "count": 4
+      "name": "AppMedia",
+      "count": 3
     },
     {
-      "name": "AppMedia",
+      "name": "www.tv-tokyo.co.jp",
       "count": 3
     },
     {
@@ -144,12 +144,20 @@
       "count": 3
     },
     {
-      "name": "www.tv-tokyo.co.jp",
+      "name": "PR TIMES",
+      "count": 2
+    },
+    {
+      "name": "山陽新聞",
       "count": 2
     },
     {
       "name": "人鳥日記",
       "count": 2
+    },
+    {
+      "name": "スポニチ Sponichi Annex",
+      "count": 1
     },
     {
       "name": "Infoseek",
@@ -177,10 +185,6 @@
     },
     {
       "name": "SmartNews",
-      "count": 1
-    },
-    {
-      "name": "PR TIMES",
       "count": 1
     },
     {
@@ -237,10 +241,6 @@
     },
     {
       "name": "tv-tokyo.co.jp",
-      "count": 1
-    },
-    {
-      "name": "ｄメニューニュース",
       "count": 1
     }
   ],
@@ -451,13 +451,117 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-20T00:30:16.444Z",
+    "previousAt": "2026-10-20T01:00:16.908Z",
     "previousCount": 144,
-    "newCount": 2
+    "newCount": 7
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-20T01:30:16.908Z",
+  "nextUpdateAt": "2026-10-20T02:00:16.691Z",
   "items": [
+    {
+      "id": "ca61ce7d03c0",
+      "title": "Pokemon GO Japan公式X(@PokemonGOAppJP）から",
+      "url": "https://www.sponichi.co.jp/entertainment/news/2026/10/20/gazo/20261020s10041000058000p.html",
+      "host": "sponichi.co.jp",
+      "source": "スポニチ Sponichi Annex",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:12:32.000Z",
+      "image": "https://www.sponichi.co.jp/entertainment/news/2026/10/20/jpeg/20261020s10041000058000p_view.webp",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f008b1907494",
+      "title": "日本橋・八重洲に“ポケモン効果” 主要施設の休日客が約1.5倍、初日は100人超が列（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/4a86b66c5e640f80b549212b503db178315f4410",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:05:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261020-00000339-oric-000-1-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "82a4dda3f635",
+      "title": "「ポケモンGO」動作に不具合 公式が謝罪 ログイン・画面読み込みに問題「解決に向けて対応」（スポニチアネックス）",
+      "url": "https://news.yahoo.co.jp/articles/4b8c2201d3f507e96f02b5e87a536e862cc7ec50",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:04:05.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261020-00000105-spnannex-000-2-view.jpg?exp=10800",
+      "categories": [
+        "update",
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "9455e6c592c0",
+      "title": "魔女帽子ピカチュウがイオンで実質配布 / ルアーモジュールの効果4倍ボーナスもアツい【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3749873",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:00:07.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/10/IMG_6335.jpeg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f328c4cacfbf",
+      "title": "【ミスタードーナツ】歴代ミスタードーナツに登場したポケモンが大集合！『みんなで集合！冬のポケモンキャンペーン』を数量・期間限定発売",
+      "url": "https://prtimes.jp/main/html/rd/p/000001167.000005720.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-10-20T01:00:02.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/5720/1167/5720-1167-2f39e73f88d004aaba5e437cc66979d2-2069x1464.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "48ae12f8a9c0",
       "title": "木更津アウトレットで「ポケモン」イベント開催! ピカチュウ登場＆イルミネーションも｜Infoseekニュース",
@@ -475,7 +579,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3fd25a757c03",
@@ -651,7 +755,7 @@
       "source": "北海道新聞デジタル",
       "summary": "",
       "publishedAt": "2026-10-19T19:00:00.000Z",
-      "image": "https://static.hokkaido-np.co.jp/image/article/size1/9/8/d/7/98d74139a3b86d74e8fa67d00063e7a0_1.webp?20261020100027",
+      "image": "https://static.hokkaido-np.co.jp/image/article/size1/9/8/d/7/98d74139a3b86d74e8fa67d00063e7a0_1.webp?20261020103031",
       "categories": [
         "tcgcat"
       ],
@@ -964,6 +1068,28 @@
       "isNew": false
     },
     {
+      "id": "84d721181de5",
+      "title": "【スニダンで購入可】4/26発売 ポケモンカードゲーム サン&ムーン 強化拡張パック スカイレジェンド 抽選/定価/販売店舗まとめ",
+      "url": "https://snkrdunk.com/articles/11665/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-19T13:08:11.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20211008043316-3.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3a29c3fefe74",
       "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
@@ -1212,27 +1338,6 @@
       "isNew": false
     },
     {
-      "id": "b647eb8169df",
-      "title": "“ポケモンGO”事故から10年…ながら運転厳罰化も絶えぬ死亡事故 息子失った父親「恨むより伝えたい」講演続け約390回 Olio (UkhdHGr3rh)",
-      "url": "https://media.unisba.ac.id/ec6fd9d4/470a99cfODE3Ow8YFw8LPgE/",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-19T11:04:52.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ae4709b0349e",
       "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
@@ -1422,27 +1527,6 @@
       "isNew": false
     },
     {
-      "id": "b76506a0856d",
-      "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T10:04:34.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "de4cf46d87d7",
       "title": "大人気のポケモンが今年も壁新聞に登場！ポケモンを題材とした運動遊びを壁新聞で紹介",
       "url": "https://prtimes.jp/main/html/rd/p/000000508.000042202.html",
@@ -1504,25 +1588,25 @@
       "isNew": false
     },
     {
-      "id": "d109827c4614",
-      "title": "ポケモン × アベイル サッチェルバッグなど10月24日より発売!",
-      "url": "https://collabo-cafe.com/events/collabo/pokemon-fashion-avail-1024-2026/",
-      "host": "collabo-cafe.com",
-      "source": "コラボカフェ",
+      "id": "83cde0fba477",
+      "title": "ポケットモンスター【プニプニポケモン！プニるプニればプニる時！！】 - www.tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo4k/program/detail/202610/6849_202610250700.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "www.tv-tokyo.co.jp",
       "summary": "",
-      "publishedAt": "2026-10-19T08:46:18.000Z",
-      "image": "https://collabo-cafe.com/wp-content/uploads/pokemon-fashion-avail-1024-2026-lineup.jpg",
+      "publishedAt": "2026-10-19T09:01:03.000Z",
+      "image": "https://www.bs-tvtokyo.co.jp/tbcms/assets/images/alt_bs-tv-tokyo-4k.png",
       "categories": [
         "other"
       ],
       "series": [
-        "goods"
+        "main"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "b6931f25a8ac",
@@ -1559,6 +1643,27 @@
       ],
       "series": [
         "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d109827c4614",
+      "title": "ポケモン × アベイル サッチェルバッグなど10月24日より発売!",
+      "url": "https://collabo-cafe.com/events/collabo/pokemon-fashion-avail-1024-2026/?amp",
+      "host": "collabo-cafe.com",
+      "source": "コラボカフェ",
+      "summary": "",
+      "publishedAt": "2026-10-19T08:31:46.000Z",
+      "image": "https://collabo-cafe.com/wp-content/uploads/pokemon-fashion-avail-1024-2026-lineup.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1928,7 +2033,7 @@
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-10-19T03:14:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381349-magmix-000-14-view.jpg?exp=10800",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261019-00381349-magmix-000-15-view.jpg?exp=10800",
       "categories": [
         "goodscat"
       ],
@@ -2018,29 +2123,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c784961cf76b",
-      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
-      "url": "https://www.sanyonews.jp/article/1982739?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-19T02:46:55.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/d/7/d/6/d7d688b062e82d38b714ff5935afb3ca_1.jpg",
-      "categories": [
-        "goodscat",
-        "media"
-      ],
-      "series": [
-        "anime",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2655,25 +2737,6 @@
       "isNew": false
     },
     {
-      "id": "3233f892514d",
-      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
-      "url": "https://www.sanyonews.jp/article/1963305",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-18T07:06:21.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/1/e/6/81e6871d6797444899c5ee901890fbbc_1.jpg",
-      "categories": [
-        "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "0bbd32978acf",
       "title": "ポケモンGO ゲコガシラ",
       "url": "https://youtu.be/yLFl5RuA1yo?si",
@@ -2797,7 +2860,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eef3b9077fef",
@@ -3298,29 +3361,6 @@
       "isNew": false
     },
     {
-      "id": "81125c35f969",
-      "title": "「マジでほしい」『ポケモン』新作フィギュア全6種ラインナップに「かわいいがすぎる」「全部あたり」",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WdDFMR3JldTQxWk1ZTDllcFhBRnF5QlZNTEsyV3JjZUg1el9aYnpkQjcwSXN3UFJpb0I4c1NmMTh6aGlwNXF6S0lOcGJ4aXdQdU1HSXAteE8xcllMaVhOenNZNWZWLXlzS3VsQ2NtWlFMNi1L0gF6QVVfeXFMUHptXzlxTWxPMElLNC1hVi1sM29neVphOU9LbnJ1MVFHYm55X3BpTFFINnRHcFZkaTdGQ3dUb3JSVjY5azFKY1ZKQWRIa1NLTzQ4aEVneXpmdUhJYTJkVTlsRjZRa1hUYlUyUEhEUFdva0t6OTNiTHRSdmc?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
-      "summary": "",
-      "publishedAt": "2026-10-17T05:21:29.000Z",
-      "image": "",
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9be0017b9a65",
       "title": "【ポケモンユナイト】第3回視聴者コーチング！イワパレス編",
       "url": "https://youtu.be/DoC8LdptnbE?si",
@@ -3436,27 +3476,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1195202eb439",
-      "title": "メガシャンデラのスーパーメガレイドは準備が大事 / メガヘルガーやメガスターミーを強化しておこう【ポケモンGO】",
-      "url": "https://getnews.jp/archives/3749382",
-      "host": "getnews.jp",
-      "source": "ガジェット通信",
-      "summary": "",
-      "publishedAt": "2026-10-17T01:00:49.000Z",
-      "image": "https://rensai.jp/wp-content/uploads/2026/10/IMG_3310.jpeg",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
