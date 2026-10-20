@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-19T23:30:17.563Z",
+  "updatedAt": "2026-10-20T00:00:17.814Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 143,
-  "todayCount": 18,
+  "total": 144,
+  "todayCount": 20,
   "categories": [
     {
       "id": "new",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 57
+      "count": 58
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 10
+      "count": 11
     },
     {
       "id": "go",
@@ -140,11 +140,11 @@
       "count": 3
     },
     {
-      "name": "山陽新聞",
-      "count": 2
+      "name": "www.tv-tokyo.co.jp",
+      "count": 3
     },
     {
-      "name": "www.tv-tokyo.co.jp",
+      "name": "山陽新聞",
       "count": 2
     },
     {
@@ -487,12 +487,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-19T23:00:17.020Z",
-    "previousCount": 147,
-    "newCount": 9
+    "previousAt": "2026-10-19T23:30:17.563Z",
+    "previousCount": 143,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-20T00:00:17.563Z",
+  "nextUpdateAt": "2026-10-20T00:30:17.814Z",
   "items": [
     {
       "id": "00adec89cbbf",
@@ -513,7 +513,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "55e5467c096b",
@@ -555,7 +555,89 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "d3b87d882a5e",
+      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/19更新】",
+      "url": "https://snkrdunk.com/articles/33304/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-19T21:55:24.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "af7786665234",
+      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか？ 「宝の呪いから生まれた」第154話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/2006052",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-19T21:39:50.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/7/4/4/9/74498b8acdc549826ddab840ba4f4699_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "c902cbc90842",
+      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
+      "url": "https://gamewith.jp/pokemon-champions/546413",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-19T21:34:28.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f816c4e5040a",
+      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/15950/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-19T19:44:34.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "0e49435ba710",
@@ -565,7 +647,7 @@
       "source": "北海道新聞デジタル",
       "summary": "",
       "publishedAt": "2026-10-19T19:00:00.000Z",
-      "image": "https://static.hokkaido-np.co.jp/image/article/size1/9/8/d/7/98d74139a3b86d74e8fa67d00063e7a0_1.webp?20261020083032",
+      "image": "https://static.hokkaido-np.co.jp/image/article/size1/9/8/d/7/98d74139a3b86d74e8fa67d00063e7a0_1.webp?20261020090030",
       "categories": [
         "tcgcat"
       ],
@@ -618,7 +700,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8a0df3af32aa",
@@ -683,27 +765,6 @@
       "isNew": false
     },
     {
-      "id": "d3b87d882a5e",
-      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【10/19更新】",
-      "url": "https://snkrdunk.com/articles/33304/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-19T16:24:31.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/1be64b43-ba7d-41a8-adea-6b26f00f1866.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "5648da5d17a5",
       "title": "【ポケポケ】HP50以下のポケモン一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/567943",
@@ -744,7 +805,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ccabeed8fafd",
@@ -758,28 +819,6 @@
       "categories": [
         "tcgcat",
         "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f816c4e5040a",
-      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/15950/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-19T15:46:39.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
-      "categories": [
-        "tcgcat"
       ],
       "series": [
         "tcg",
@@ -877,26 +916,6 @@
       "isNew": false
     },
     {
-      "id": "c902cbc90842",
-      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
-      "url": "https://gamewith.jp/pokemon-champions/546413",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T14:20:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "01eef2d84448",
       "title": "【ポケカ】30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキーの収録カード・再販抽選情報まとめ",
       "url": "https://snkrdunk.com/articles/32464/",
@@ -981,7 +1000,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3a29c3fefe74",
@@ -1461,6 +1480,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "83cde0fba477",
+      "title": "ポケットモンスター【プニプニポケモン！プニるプニればプニる時！！】 - www.tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_bstvtokyo4k/program/detail/202610/6849_202610250700.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "www.tv-tokyo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-10-19T09:01:03.000Z",
+      "image": "https://www.bs-tvtokyo.co.jp/tbcms/assets/images/alt_bs-tv-tokyo-4k.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d109827c4614",
@@ -2215,25 +2255,6 @@
       "isNew": false
     },
     {
-      "id": "af7786665234",
-      "title": "『アニポケ』さいやくポケモン、なぜ暴れるのか？ 「宝の呪いから生まれた」第154話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-18T23:54:01.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "6e7894c68945",
       "title": "ポケモンユナイト配信者向け無料ツール「UNITE OBS」、編成・戦績を自動表示",
       "url": "https://hashout.jp/game/12807/",
@@ -2316,7 +2337,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "22057975009b",
@@ -2773,7 +2794,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "eef3b9077fef",
@@ -3248,7 +3269,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9109a0886244",
