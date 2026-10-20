@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T07:30:15.650Z",
+  "updatedAt": "2026-10-20T08:00:15.542Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 163,
-  "todayCount": 81,
+  "todayCount": 82,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 21
+      "count": 22
     },
     {
       "id": "update",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 9
+      "count": 8
     },
     {
       "id": "biz",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 60
+      "count": 61
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 11
+      "count": 10
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 26
+      "count": 28
     },
     {
       "id": "tcg",
@@ -89,19 +89,19 @@
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 11
+      "count": 10
     },
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 34
+      "count": 35
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 31
+      "count": 30
     },
     {
       "name": "YouTube",
@@ -109,19 +109,19 @@
     },
     {
       "name": "Unisba Media",
-      "count": 12
+      "count": 13
     },
     {
       "name": "オリコンニュース",
       "count": 10
     },
     {
-      "name": "ガジェット通信",
+      "name": "SNKRDUNK",
       "count": 9
     },
     {
-      "name": "SNKRDUNK",
-      "count": 8
+      "name": "ガジェット通信",
+      "count": 9
     },
     {
       "name": "Yahoo!ニュース",
@@ -168,15 +168,15 @@
       "count": 2
     },
     {
-      "name": "au Webポータル",
-      "count": 1
-    },
-    {
       "name": "スポニチ Sponichi Annex",
       "count": 1
     },
     {
       "name": "K-TREND TIMES",
+      "count": 1
+    },
+    {
+      "name": "オトナンサー",
       "count": 1
     },
     {
@@ -252,10 +252,6 @@
       "count": 1
     },
     {
-      "name": "조선일보",
-      "count": 1
-    },
-    {
       "name": "北海道新聞デジタル",
       "count": 1
     },
@@ -296,7 +292,7 @@
       "url": "https://www.inside-games.jp/article/2026/10/20/189539.html",
       "image": "https://www.inside-games.jp/imgs/rss/1796006.jpg",
       "leadSource": "インサイド",
-      "publishedAt": "2026-10-20T06:45:00.000Z",
+      "publishedAt": "2026-10-20T06:31:38.000Z",
       "sourceCount": 19,
       "articleCount": 25,
       "categories": [
@@ -311,9 +307,9 @@
       "articles": [
         {
           "title": "【ミスタードーナツ】歴代ポケモンが大集合「ディグダ（アローラのすがた）」「ヤドン」がドーナツに",
-          "url": "https://article.auone.jp/67e70a9f-58ea-490d-b907-5cbe6206e813",
-          "source": "au Webポータル",
-          "publishedAt": "2026-10-20T06:45:00.000Z",
+          "url": "https://otonanswer.jp/post/402624/",
+          "source": "オトナンサー",
+          "publishedAt": "2026-10-20T06:31:38.000Z",
           "isPR": false
         },
         {
@@ -632,32 +628,13 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-20T07:00:15.293Z",
-    "previousCount": 165,
+    "previousAt": "2026-10-20T07:30:15.650Z",
+    "previousCount": 163,
     "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-20T08:00:15.650Z",
+  "nextUpdateAt": "2026-10-20T08:30:15.542Z",
   "items": [
-    {
-      "id": "e2bc0a4d37a1",
-      "title": "【ミスタードーナツ】歴代ポケモンが大集合「ディグダ（アローラのすがた）」「ヤドン」がドーナツに",
-      "url": "https://article.auone.jp/67e70a9f-58ea-490d-b907-5cbe6206e813",
-      "host": "article.auone.jp",
-      "source": "au Webポータル",
-      "summary": "",
-      "publishedAt": "2026-10-20T06:45:00.000Z",
-      "image": "https://newportal.portal.auone.jp/media/thumbnails/2026/10/20/https___otonanswer_jp_post_402624__w1200.webp",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
     {
       "id": "ca61ce7d03c0",
       "title": "Pokemon GO Japan公式X(@PokemonGOAppJP）から",
@@ -696,6 +673,25 @@
         "main",
         "goods"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "e2bc0a4d37a1",
+      "title": "【ミスタードーナツ】歴代ポケモンが大集合「ディグダ（アローラのすがた）」「ヤドン」がドーナツに",
+      "url": "https://otonanswer.jp/post/402624/",
+      "host": "otonanswer.jp",
+      "source": "オトナンサー",
+      "summary": "",
+      "publishedAt": "2026-10-20T06:31:38.000Z",
+      "image": "https://otonanswer.jp/wp-content/uploads/2027/10/20261020misdopokemon001.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1296,7 +1292,7 @@
       "source": "GAME Watch",
       "summary": "ダスキンが運営するミスタードーナツは、ポケモンとコラボレーションした「みんなで集合！冬のポケモンキャンペーン」を期間限定で展開する。",
       "publishedAt": "2026-10-20T02:06:07.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/501/1.jpg",
+      "image": "",
       "categories": [
         "goodscat",
         "event"
@@ -1720,7 +1716,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "833ac77d5fe0",
@@ -1908,17 +1904,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
-      "id": "f008b1907494",
-      "title": "日本橋・八重洲に“ポケモン効果” 主要施設の休日客が約1.5倍、初日は100人超が列",
-      "url": "https://www.oricon.co.jp/news/2487438/full/",
+      "id": "de9a768436d0",
+      "title": "画像・写真 | 日本橋・八重洲に“ポケモン効果” 主要施設の休日客が約1.5倍、初日は100人超が列 3枚目",
+      "url": "https://www.oricon.co.jp/news/2487438/photo/3/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-20T01:05:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487438/20261019_180029_p_o_42795517.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487438/20261019_180513_p_o_97181488.jpg",
       "categories": [
         "other"
       ],
@@ -1930,14 +1926,14 @@
       "isNew": false
     },
     {
-      "id": "de9a768436d0",
-      "title": "画像・写真 | 日本橋・八重洲に“ポケモン効果” 主要施設の休日客が約1.5倍、初日は100人超が列 8枚目",
-      "url": "https://www.oricon.co.jp/news/2487438/photo/8/",
+      "id": "f008b1907494",
+      "title": "日本橋・八重洲に“ポケモン効果” 主要施設の休日客が約1.5倍、初日は100人超が列",
+      "url": "https://www.oricon.co.jp/news/2487438/full/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-10-20T01:05:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487438/20261019_180518_p_o_26170579.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2488000/2487438/20261019_180029_p_o_42795517.jpg",
       "categories": [
         "other"
       ],
@@ -2055,6 +2051,27 @@
       "isNew": false
     },
     {
+      "id": "f4ac33e0151d",
+      "title": "GBLザ・ベスト・オブ・カイロスseason1～全国６億３千万のカイロスファンに贈る至極の超大作～【ポケモンGO#66】 Seattle Mariners (VcdgXFhHhG)",
+      "url": "https://media.unisba.ac.id/3e06ddc6/7eb9ef5bBT8lLAptJDYDOBE/?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-19T23:34:35.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "2a4e9dbe73be",
       "title": "『ポケモン』衝撃的なクリスマス新グッズ モジャンボ＆マッギョのセーター＆カーディガンなど",
       "url": "https://www.sanyonews.jp/article/2006252",
@@ -2068,27 +2085,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "00adec89cbbf",
-      "title": "カンナム、5000万ウォンポケカ「投資目的ではない」",
-      "url": "https://www.chosun.com/jp/culture-life-jp/2026/10/20/244ZBYMCMFAGJLYK72F3VKMJIE/",
-      "host": "chosun.com",
-      "source": "조선일보",
-      "summary": "",
-      "publishedAt": "2026-10-19T23:19:00.000Z",
-      "image": "https://www.chosun.com/resizer/v2/HA2WMMRQGNTGIYZWGZSTGNZQGY.png?auth=94dc7fa59f79be27549e9e70b857f7d91dfc220770439c8564564b11d52c5484&width=650&height=341&smart=true",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2139,6 +2135,29 @@
       "isNew": false
     },
     {
+      "id": "9a7e9575f46a",
+      "title": "【ポケカ】拡張パック「バトルリージョン」の収録・当たりカードリスト/予約/抽選/定価/販売店舗まとめ",
+      "url": "https://snkrdunk.com/articles/12268/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-19T19:52:32.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20240108091345-0.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9737dfb136af",
       "title": "【ポケポケ】ハイクラスパックMEGAの所持率チェッカー【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/579047",
@@ -2167,7 +2186,7 @@
       "source": "北海道新聞デジタル",
       "summary": "",
       "publishedAt": "2026-10-19T19:00:00.000Z",
-      "image": "https://static.hokkaido-np.co.jp/image/article/size1/8/8/9/b/889bb46c01ec26b8a6dd7fa9bdfced64_1.webp?20261020163038",
+      "image": "https://static.hokkaido-np.co.jp/image/article/size1/8/8/9/b/889bb46c01ec26b8a6dd7fa9bdfced64_1.webp?20261020170036",
       "categories": [
         "tcgcat"
       ],
@@ -2999,27 +3018,6 @@
       "isNew": false
     },
     {
-      "id": "27e3d037bde7",
-      "title": "【ポケモンチャンピオンズ】レジェンズZAでしか出現しないポケモン一覧",
-      "url": "https://gamewith.jp/pokemon-champions/552239",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-19T02:25:13.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/552239.png?date=1775100766",
-      "categories": [
-        "community"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "3910f8a324f2",
       "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
       "url": "https://gamewith.jp/pokemon/546662",
@@ -3497,7 +3495,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "90192a19f718",
@@ -3540,6 +3538,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "0bbd32978acf",
+      "title": "ポケモンGO ゲコガシラ",
+      "url": "https://youtu.be/yLFl5RuA1yo?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-18T06:06:36.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3102bb1d2fe9",
@@ -4011,27 +4030,6 @@
       ],
       "series": [
         "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2bd2e612799d",
-      "title": "【ポケスリ】完全無課金＆料理パ勢のボックス紹介 2026年版【ポケモンスリープ】",
-      "url": "https://youtu.be/thmqi0e1v3A?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-17T07:49:08.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "sleep"
       ],
       "isOfficial": false,
       "isPR": false,
