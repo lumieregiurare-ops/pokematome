@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-24T04:26:19.305Z",
+  "updatedAt": "2026-10-24T05:00:15.189Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 162,
-  "todayCount": 24,
+  "total": 164,
+  "todayCount": 29,
   "categories": [
     {
       "id": "new",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 41
+      "count": 42
     },
     {
       "id": "goodscat",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 71
+      "count": 73
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 21
+      "count": 22
     },
     {
       "id": "go",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 41
     },
     {
       "id": "anime",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 28
+      "count": 27
     }
   ],
   "weapons": [],
@@ -105,15 +105,23 @@
     },
     {
       "name": "YouTube",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
+      "count": 15
     },
     {
       "name": "SNKRDUNK",
       "count": 7
+    },
+    {
+      "name": "Infoseek",
+      "count": 3
+    },
+    {
+      "name": "ｄメニューニュース",
+      "count": 3
     },
     {
       "name": "インサイド",
@@ -140,19 +148,11 @@
       "count": 3
     },
     {
-      "name": "ｄメニューニュース",
-      "count": 2
-    },
-    {
       "name": "AppBank",
       "count": 2
     },
     {
       "name": "電撃オンライン",
-      "count": 2
-    },
-    {
-      "name": "Infoseek",
       "count": 2
     },
     {
@@ -170,6 +170,10 @@
     {
       "name": "Pop'n'Roll.tv",
       "count": 2
+    },
+    {
+      "name": "sakhaparliament.ru",
+      "count": 1
     },
     {
       "name": "週刊女性PRIME",
@@ -241,10 +245,6 @@
     },
     {
       "name": "電撃ホビーウェブ",
-      "count": 1
-    },
-    {
-      "name": "時事通信ニュース",
       "count": 1
     },
     {
@@ -407,7 +407,8 @@
       "sourceCount": 5,
       "articleCount": 25,
       "categories": [
-        "tcgcat"
+        "tcgcat",
+        "event"
       ],
       "keywords": [
         "カード",
@@ -415,6 +416,13 @@
         "ポケポケ"
       ],
       "articles": [
+        {
+          "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
+          "source": "GameWith",
+          "publishedAt": "2026-10-23T20:34:08.000Z",
+          "isPR": false
+        },
         {
           "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
@@ -458,17 +466,10 @@
           "isPR": false
         },
         {
-          "title": "【ポケポケ】ハラバリーexデッキのレシピと評価・対策【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/546331",
+          "title": "【ポケポケ】ピカピカ!ピカチュウミッションイベントの一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/583527",
           "source": "GameWith",
-          "publishedAt": "2026-10-23T11:51:39.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
-          "source": "GameWith",
-          "publishedAt": "2026-10-23T11:51:32.000Z",
+          "publishedAt": "2026-10-23T12:53:26.000Z",
           "isPR": false
         }
       ]
@@ -524,67 +525,32 @@
       ]
     },
     {
-      "id": "e8f4b320d748",
-      "title": "沖縄県に4種の“ポケモンマンホール”追加も「アクセス難ばかり」の指摘、全国制覇まであと4県となった“設置条件”",
+      "id": "7b287edf31bd",
+      "title": "ミスド×ポケモン、歴代ポケモンが大集合！ピカチュウやアローラディグダのドーナツが11月4日より登場｜Infoseekニュース",
       "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/f656af6c000fbd50e425de6244b115f506ca168b",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-00044244-jprime-000-1-view.jpg?exp=10800",
-      "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-10-24T03:00:37.000Z",
+      "url": "https://news.infoseek.co.jp/article/cinemacafenet_113562/",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/cinemacafenet/cinemacafenet_113562_0-enlarge.jpg",
+      "leadSource": "Infoseek",
+      "publishedAt": "2026-10-24T04:30:04.000Z",
       "sourceCount": 4,
       "articleCount": 4,
       "categories": [
-        "other"
+        "other",
+        "goodscat"
       ],
       "keywords": [
-        "ポケモンマンホール",
-        "アクセス",
-        "沖縄県"
+        "ミスド",
+        "ドーナツ",
+        "歴代"
       ],
       "articles": [
         {
-          "title": "《ポケモンマンホール》沖縄県に4種の『ポケふた』追加も「アクセス難ばかり」の指摘、全国制覇まであと4県となった“設置条件”",
-          "url": "https://www.jprime.jp/articles/-/44244",
-          "source": "週刊女性PRIME",
-          "publishedAt": "2026-10-24T03:00:00.000Z",
+          "title": "「ポケモン」×「ミスタードーナツ」今年もコラボ！歴代ミスドに登場したポケモンが大集合！",
+          "url": "https://charalab.com/144564/",
+          "source": "キャラクター情報サイト",
+          "publishedAt": "2026-10-23T23:03:45.000Z",
           "isPR": false
         },
-        {
-          "title": "５市町にポケモンマンホール",
-          "url": "https://sumida.keizai.biz/gpnews/1777051/",
-          "source": "すみだ経済新聞",
-          "publishedAt": "2026-10-23T13:59:12.000Z",
-          "isPR": false
-        },
-        {
-          "title": "◎５市町にポケモンマンホール",
-          "url": "https://sp.m.jiji.com/article/show/3895640",
-          "source": "時事通信ニュース",
-          "publishedAt": "2026-10-23T07:52:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "faeeb6ff41fc",
-      "title": "「ポケモン」×「ミスタードーナツ」今年もコラボ！歴代ミスドに登場したポケモンが大集合！",
-      "summary": "",
-      "url": "https://charalab.com/144564/",
-      "image": "https://charalab.com/images/2026/10/261020_pokemon_-2.jpg",
-      "leadSource": "キャラクター情報サイト",
-      "publishedAt": "2026-10-23T23:03:45.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "goodscat",
-        "new"
-      ],
-      "keywords": [
-        "ミスタードーナツ",
-        "歴代",
-        "大集合"
-      ],
-      "articles": [
         {
           "title": "【ミスド新作2026】歴代のポケモン大集合！ 「みんなで集合！冬のポケモンキャンペーン」",
           "url": "https://rurubu.jp/andmore/article/25598",
@@ -598,13 +564,6 @@
           "source": "明石じゃーなる",
           "publishedAt": "2026-10-23T09:00:00.000Z",
           "isPR": false
-        },
-        {
-          "title": "歴代ミスタードーナツに登場したポケモンが大集合！「みんなで集合！冬のポケモンキャンペーン」が数量・期間限定で発売",
-          "url": "https://news.yahoo.co.jp/articles/9abccfc6fd12f35d5a9a92af6072c3596b9844a2/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-23T08:30:00.000Z",
-          "isPR": false
         }
       ]
     },
@@ -613,7 +572,7 @@
       "title": "ポケモン福袋「ピカピカボックス2027」発表！今年はピチュー・ピカチュウ・ライチュウのぬいぐるみ必ず1つ付き抽選受付は10月27日17時から",
       "summary": "ポケモンは、オンラインストア「ポケモンセンターオンライン」にて「ピカピカボックス2027」の抽選受付を10月27日17時より開始する。価格は5,500円。",
       "url": "https://game.watch.impress.co.jp/docs/news/2150728.html",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2150/728/1.jpg",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261023-pokemongoods-00.jpg",
       "leadSource": "GAME Watch",
       "publishedAt": "2026-10-23T09:45:22.000Z",
       "sourceCount": 4,
@@ -695,6 +654,41 @@
       ]
     },
     {
+      "id": "e8f4b320d748",
+      "title": "沖縄県に4種の“ポケモンマンホール”追加も「アクセス難ばかり」の指摘、全国制覇まであと4県となった“設置条件”",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/f656af6c000fbd50e425de6244b115f506ca168b",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-00044244-jprime-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-10-24T03:00:37.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "ポケモンマンホール",
+        "アクセス",
+        "沖縄県"
+      ],
+      "articles": [
+        {
+          "title": "《ポケモンマンホール》沖縄県に4種の『ポケふた』追加も「アクセス難ばかり」の指摘、全国制覇まであと4県となった“設置条件”",
+          "url": "https://www.jprime.jp/articles/-/44244",
+          "source": "週刊女性PRIME",
+          "publishedAt": "2026-10-24T03:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "５市町にポケモンマンホール",
+          "url": "https://sumida.keizai.biz/gpnews/1777051/",
+          "source": "すみだ経済新聞",
+          "publishedAt": "2026-10-23T13:59:12.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "0d335d658919",
       "title": "『Pokémon GO ワイルドエリア』仙台・メキシコシティのスタンプラリーは10:00〜20:00！ ポケストップ7か所を発表",
       "summary": "",
@@ -739,7 +733,7 @@
       "leadSource": "Yahoo!ニュース",
       "publishedAt": "2026-10-23T15:00:17.000Z",
       "sourceCount": 2,
-      "articleCount": 5,
+      "articleCount": 4,
       "categories": [
         "other"
       ],
@@ -752,13 +746,6 @@
           "url": "https://youtu.be/6n9qNpWoo3Y?si",
           "source": "YouTube",
           "publishedAt": "2026-10-23T12:52:23.000Z",
-          "isPR": false
-        },
-        {
-          "title": "すなうまガチ1時間!!!【ポケモンGO】",
-          "url": "https://youtu.be/tRcZw6KHsOY?si",
-          "source": "YouTube",
-          "publishedAt": "2026-10-23T10:15:02.000Z",
           "isPR": false
         },
         {
@@ -874,13 +861,53 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-24T04:00:15.981Z",
+    "previousAt": "2026-10-24T04:26:19.305Z",
     "previousCount": 162,
-    "newCount": 7
+    "newCount": 9
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-24T04:56:19.305Z",
+  "nextUpdateAt": "2026-10-24T05:30:15.189Z",
   "items": [
+    {
+      "id": "2bb358b0f030",
+      "title": "SALE価格で大放出グレイシア psa 10とARリーリエおまけ付きポケモンカードゲーム｜au PAY マーケット",
+      "url": "https://www.sakhaparliament.ru/goods/fashion/f015038474",
+      "host": "sakhaparliament.ru",
+      "source": "sakhaparliament.ru",
+      "summary": "",
+      "publishedAt": "2026-10-24T04:50:56.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7b287edf31bd",
+      "title": "ミスド×ポケモン、歴代ポケモンが大集合！ピカチュウやアローラディグダのドーナツが11月4日より登場｜Infoseekニュース",
+      "url": "https://news.infoseek.co.jp/article/cinemacafenet_113562/",
+      "host": "news.infoseek.co.jp",
+      "source": "Infoseek",
+      "summary": "",
+      "publishedAt": "2026-10-24T04:30:04.000Z",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/cinemacafenet/cinemacafenet_113562_0-enlarge.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "f816c4e5040a",
       "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
@@ -901,7 +928,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "463cada31590",
@@ -1018,6 +1045,46 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "7116bc9a27ba",
+      "title": "【実況なし】ポケモンレジェンズZ-AをSwitch2でプレイしてみた。 #022",
+      "url": "https://youtu.be/1-kT7FXheqg",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-24T02:11:58.000Z",
+      "image": "https://i.ytimg.com/vi/1-kT7FXheqg/maxresdefault.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5694a242fb69",
+      "title": "ATEEZ・サン、“ポケモンオタク”ぶり全開！推しキャラ目当てにオープンランする姿に注目",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOTNaT0FDMzdzWTZId3NsN2RvS2tndF9sSnFxRG5UR3R6M1p6VWFYdjZqaE8xcHRwRWtpaU9Xdlc1M3Q0RkRDeDVBZTloOU1RYXEzX0NwSVRQRWtaZVpfT3M0eW1NUHRFT3Q0M2JGaWNPQnllZGpHa3l1OXk3RktYYW9VVXVSLVU0SWp3RU1tTU16S05O0gGaAUFVX3lxTE9VT0FhSG5xWWRnNHZGel9MRktjZFZ6aUN1TlM0YTBJSG1ybDBsWXU4MEp0N1dzUjltT29HSklGcElGZG5PblA5VXk0MzJsRkQ4dUQ2LUpBRnNIc0l3NW1wV1pIek81bWt6Z1F4cEg0UF81ZWc2aEg0ZEJPSXBqVnQwLXFkeWhHMjJxOHctd0daUWl6NHVoeXVfQ2c?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
+      "summary": "",
+      "publishedAt": "2026-10-24T01:00:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0d335d658919",
@@ -1140,6 +1207,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b37a8b4b04ca",
+      "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-23T20:34:08.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565225.png?date=1782307542",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3f4e3bd3edff",
@@ -1392,6 +1480,27 @@
       "isNew": false
     },
     {
+      "id": "fdf5d1a042df",
+      "title": "【ポケモンGO】1日で3ヶ所のポケセン回ってみた‼︎あの場所で焦げチュウ出現？？",
+      "url": "https://youtu.be/svGwhZ5r0T8?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-10-23T14:16:48.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3a29c3fefe74",
       "title": "【ポケポケ】進撃パラドックスの当たりカードと収録カード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
@@ -1451,7 +1560,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "397da41a59f2",
@@ -1494,6 +1603,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "879408ecf506",
+      "title": "【ポケポケ】ピカピカ!ピカチュウミッションイベントの一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/583527",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-23T12:53:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583527.jpg?date=1792638077",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "87ba18314e4e",
@@ -1578,14 +1709,14 @@
       "isNew": false
     },
     {
-      "id": "2f75ac0c2c28",
-      "title": "【ポケポケ】ハラバリーexデッキのレシピと評価・対策【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/546331",
+      "id": "62c9d5f138cb",
+      "title": "【ポケポケ】メガガブリアスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/582954",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-23T11:51:39.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546331.png?date=1772081484",
+      "publishedAt": "2026-10-23T11:53:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582954.png?date=1792066964",
       "categories": [
         "tcgcat"
       ],
@@ -1596,7 +1727,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "ae4709b0349e",
@@ -1662,14 +1793,14 @@
       "isNew": false
     },
     {
-      "id": "65229ee18342",
-      "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
+      "id": "d008ec02fedc",
+      "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-23T11:51:24.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562182.png?date=1779956758",
+      "publishedAt": "2026-10-23T11:51:22.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562224.png?date=1779968137",
       "categories": [
         "tcgcat"
       ],
@@ -1680,7 +1811,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "01e6f654bf7f",
@@ -1725,14 +1856,14 @@
       "isNew": false
     },
     {
-      "id": "64209e90cd0b",
-      "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
+      "id": "4592f13ac082",
+      "title": "【ポケポケ】ヒスイヌメルゴンデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/566739",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-23T11:51:19.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
+      "publishedAt": "2026-10-23T11:51:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566739.png?date=1783054233",
       "categories": [
         "tcgcat"
       ],
@@ -1765,48 +1896,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "4592f13ac082",
-      "title": "【ポケポケ】ヒスイヌメルゴンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/566739",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-23T11:51:17.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566739.png?date=1783054233",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "833ac77d5fe0",
-      "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-23T11:51:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "b76506a0856d",
@@ -2015,27 +2104,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "008e0aea96a4",
-      "title": "すなうまガチ1時間!!!【ポケモンGO】",
-      "url": "https://youtu.be/tRcZw6KHsOY?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-23T10:15:02.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "9f671a8362f5",
@@ -2361,27 +2429,6 @@
       "isNew": false
     },
     {
-      "id": "302331aa1a39",
-      "title": "歴代ミスタードーナツに登場したポケモンが大集合！「みんなで集合！冬のポケモンキャンペーン」が数量・期間限定で発売",
-      "url": "https://news.yahoo.co.jp/articles/9abccfc6fd12f35d5a9a92af6072c3596b9844a2/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-23T08:30:00.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnV1l0ZRK8HaHFo5IMzeMuWYQKdreZnBRy5TSCkO0S5__tUmD6YZSopBxUdNkKvTxQUH3U_PxoTIpF4wsA4_lBw44Ydpa1KkJ_pI3gPcifufl",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "73226c326150",
       "title": "「ポケふた」，群馬県初設置となる5枚をお披露目。サンダーやパルスワン，ネギガナイトなどのデザイン",
       "url": "https://www.4gamer.net/games/999/G999905/20261023029/",
@@ -2438,25 +2485,6 @@
         "tcg",
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6b6f588369a9",
-      "title": "◎５市町にポケモンマンホール",
-      "url": "https://sp.m.jiji.com/article/show/3895640",
-      "host": "sp.m.jiji.com",
-      "source": "時事通信ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-23T07:52:00.000Z",
-      "image": "https://img.sp.m.jiji.com/image/out/m0093785417.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2635,7 +2663,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、オンラインストア「ポケモンセンターオンライン」にて「ピカピカボックス2027」の抽選受付を10月27日17時より開始する。価格は5,500円。",
       "publishedAt": "2026-10-23T05:11:15.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2150/728/1.jpg",
+      "image": "",
       "categories": [
         "goodscat",
         "new"
@@ -3048,7 +3076,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-10-22T15:00:00.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/083/023.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -3620,7 +3648,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6d67970d4dbb",
@@ -3725,7 +3753,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5fb8acb93373",
@@ -4172,7 +4200,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-10-21T06:03:08.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2150/011/1.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -4209,12 +4237,12 @@
     {
       "id": "04783ec37f49",
       "title": "【ポケモンSV】伝説・準伝説ポケモンの入手方法一覧【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/365621",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XWlczU2dQTmVhQmZ6ZjMydWRTNFl1Z1FiekxEc20yb0tXX3hlcGNpQ25OeGl1X1NIdFFqVUNPTVlLSTZjbWJOTkZFOHNWVU81eHJYZjZzdE1uLXFqS3pn?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-10-21T05:11:16.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/365621.png?date=1668778348",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -4223,7 +4251,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     }
