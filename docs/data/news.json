@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T18:00:17.773Z",
+  "updatedAt": "2026-10-24T18:30:18.039Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -32,12 +32,12 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 16
+      "count": 17
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 7
+      "count": 8
     },
     {
       "id": "guide",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 57
+      "count": 56
     }
   ],
   "series": [
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 7
+      "count": 6
     },
     {
       "id": "sleep",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 27
+      "count": 28
     }
   ],
   "weapons": [],
@@ -132,8 +132,8 @@
       "count": 3
     },
     {
-      "name": "Unisba Media",
-      "count": 2
+      "name": "AppMedia",
+      "count": 3
     },
     {
       "name": "読売新聞",
@@ -145,10 +145,6 @@
     },
     {
       "name": "インサイド",
-      "count": 2
-    },
-    {
-      "name": "AppMedia",
       "count": 2
     },
     {
@@ -181,10 +177,6 @@
     },
     {
       "name": "www.event-marketing.co.jp",
-      "count": 1
-    },
-    {
-      "name": "山陽新聞",
       "count": 1
     },
     {
@@ -304,7 +296,15 @@
       "count": 1
     },
     {
+      "name": "ファミ通",
+      "count": 1
+    },
+    {
       "name": "Pokémon GO",
+      "count": 1
+    },
+    {
+      "name": "Unisba Media",
       "count": 1
     },
     {
@@ -430,16 +430,16 @@
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261024-10061364-bfj-000-1-view.jpg?exp=10800",
       "leadSource": "Yahoo!ニュース",
       "publishedAt": "2026-10-24T10:35:02.000Z",
-      "sourceCount": 7,
-      "articleCount": 7,
+      "sourceCount": 8,
+      "articleCount": 8,
       "categories": [
         "goodscat",
         "other"
       ],
       "keywords": [
+        "ドーナツ",
         "ミスド",
-        "歴代",
-        "大集合"
+        "歴代"
       ],
       "articles": [
         {
@@ -482,6 +482,13 @@
           "url": "https://mamari.jp/86371",
           "source": "ママリ",
           "publishedAt": "2026-10-23T02:36:58.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ミスタードーナツ】ポケモンコラボ商品が11月4日より発売。ピカチュウ、アローラディグダほか、11月下旬からヤドンドーナツ登場",
+          "url": "https://www.famitsu.com/article/images/202610/91468/906351",
+          "source": "ファミ通",
+          "publishedAt": "2026-10-23T01:10:00.000Z",
           "isPR": false
         }
       ]
@@ -821,33 +828,6 @@
       ]
     },
     {
-      "id": "649b704173f6",
-      "title": "【#朝活 / 参加型ランクマ】朝から米だし巻き卵味噌汁納豆食べて元気がいい【#ポケモンユナイト】 Weather Warning (NcJcw27KTR)",
-      "summary": "",
-      "url": "https://media.unisba.ac.id/b58ebdb8/bd225ac2IjMyLS5WBVwAByc//",
-      "image": "",
-      "leadSource": "Unisba Media",
-      "publishedAt": "2026-10-24T06:51:24.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "community",
-        "other"
-      ],
-      "keywords": [
-        "ポケモンユナイト"
-      ],
-      "articles": [
-        {
-          "title": "【ポケモンユナイト】ちょこっとソロラン【ソロラン】",
-          "url": "https://youtu.be/l1xK-BiZvU8?si",
-          "source": "YouTube",
-          "publishedAt": "2026-10-23T13:31:14.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "d4e15a4d4d7e",
       "title": "「iPhone Duo」はLINEもポケモンGOも“黒い”余白だらけ？ 日本の定番アプリは未対応が多く（ITmedia Mobile）",
       "summary": "",
@@ -900,15 +880,44 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "f26e3fe02382",
+      "title": "香川県高松市：2220万円相当のポケモンカード63枚を店舗から盗んだ疑い、男2人を逮捕…2人に面識なくトクリュウ関与か",
+      "summary": "",
+      "url": "https://www.yomiuri.co.jp/local/kansai/news/20261022-GYO1T00175/",
+      "image": "https://www.yomiuri.co.jp/media/2026/10/20261022-GYO1I00176-1.jpg?type=ogp",
+      "leadSource": "読売新聞",
+      "publishedAt": "2026-10-22T21:15:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "tcgcat",
+        "other"
+      ],
+      "keywords": [
+        "トクリュウ",
+        "万円相当",
+        "逮捕"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンのトレーデングカード63点 約2,200万円相当を盗んだ疑いで男2人を逮捕 トクリュウ事件として捜査【香川】",
+          "url": "https://news.yahoo.co.jp/articles/796f07b4f299ad68cf5cfdf0bf58202fda50bb2c",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-22T07:03:16.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-24T17:30:15.095Z",
-    "previousCount": 159,
-    "newCount": 17
+    "previousAt": "2026-10-24T18:00:17.773Z",
+    "previousCount": 141,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-24T18:30:17.773Z",
+  "nextUpdateAt": "2026-10-24T19:00:18.039Z",
   "items": [
     {
       "id": "1bee3d92f217",
@@ -957,6 +966,29 @@
       "isNew": false
     },
     {
+      "id": "c774ac346a44",
+      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
+      "url": "https://snkrdunk.com/articles/31684/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-24T14:51:47.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "b66f414d563a",
       "title": "【ポケカ】エーフィex SAR仕様の買取・相場価格と値段推移｜30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキー",
       "url": "https://snkrdunk.com/articles/32484/",
@@ -975,7 +1007,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3b87d882a5e",
@@ -1165,25 +1197,6 @@
       "isNew": false
     },
     {
-      "id": "efc1813cdc6a",
-      "title": "能登に「ポケモン空港」 愛称変更、装飾や商品販売",
-      "url": "https://www.sanyonews.jp/article/1920782",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-24T09:57:05.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/3/3/a/0/33a0f6b51dec486ae2406477e84bfe1c_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7cfa439fdc42",
       "title": "【ポケモン】女の子に踏まれただけで赤くなっちゃうなんて！",
       "url": "https://youtu.be/9YZBpM3pqY4?si",
@@ -1216,29 +1229,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c774ac346a44",
-      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
-      "url": "https://snkrdunk.com/articles/31684/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-24T07:32:50.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1308,27 +1298,6 @@
       "isNew": false
     },
     {
-      "id": "649b704173f6",
-      "title": "【#朝活 / 参加型ランクマ】朝から米だし巻き卵味噌汁納豆食べて元気がいい【#ポケモンユナイト】 Weather Warning (NcJcw27KTR)",
-      "url": "https://media.unisba.ac.id/b58ebdb8/bd225ac2IjMyLS5WBVwAByc//",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-24T06:51:24.000Z",
-      "image": "",
-      "categories": [
-        "community"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "3910f8a324f2",
       "title": "ポケモンウインド・ウェーブの発売日と最新情報まとめ｜ポケモン風波",
       "url": "https://gamewith.jp/pokemon/546662",
@@ -1347,7 +1316,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7b287edf31bd",
@@ -1427,7 +1396,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cf23a6aa9a9e",
@@ -1606,7 +1575,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b37a8b4b04ca",
@@ -1689,7 +1658,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "44f4f43622f8",
@@ -1857,7 +1826,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59a427b2c839",
@@ -2294,6 +2263,26 @@
       "series": [
         "go"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "9f671a8362f5",
+      "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
+      "url": "https://appmedia.jp/pokemonchampions/79917667",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-10-23T10:08:55.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/04/154524_gfk4e.webp",
+      "categories": [
+        "media",
+        "community"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2768,7 +2757,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0b6c643f3998",
@@ -2808,7 +2797,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d9ec5c8a3585",
@@ -2996,6 +2985,27 @@
       "isNew": false
     },
     {
+      "id": "5ff90d890782",
+      "title": "【ミスタードーナツ】ポケモンコラボ商品が11月4日より発売。ピカチュウ、アローラディグダほか、11月下旬からヤドンドーナツ登場",
+      "url": "https://www.famitsu.com/article/images/202610/91468/906351",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-10-23T01:10:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/91468/ad58b73bfb1fab191a42cacc78209410e.jpg?x=1280",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "746451a74822",
       "title": "「Pokémon GO ワイルドエリア」の「イベント GO スタンプラリー」についてのアップデート",
       "url": "https://pokemongo.com/ja/news/go-wild-area-stamp-rally-details-2026",
@@ -3179,7 +3189,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c4fdbbf2ea8",
@@ -3260,7 +3270,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59f49eea944a",
@@ -3281,7 +3291,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "41a1cfed4730",
@@ -3303,7 +3313,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f3dd7fac1fd7",
@@ -3324,7 +3334,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "da207b94d4c1",
@@ -3408,7 +3418,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a33605aeebf7",
@@ -3804,7 +3814,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "33470e49d4d6",
@@ -3825,7 +3835,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
