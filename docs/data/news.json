@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T15:30:18.727Z",
+  "updatedAt": "2026-10-24T16:00:15.432Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 140,
-  "todayCount": 0,
+  "todayCount": 1,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 21
+      "count": 22
     },
     {
       "id": "update",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 16
+      "count": 17
     },
     {
       "id": "media",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 58
+      "count": 57
     }
   ],
   "series": [
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 26
+      "count": 27
     }
   ],
   "weapons": [],
@@ -116,6 +116,10 @@
       "count": 11
     },
     {
+      "name": "山陽新聞デジタル｜さんデジ",
+      "count": 4
+    },
+    {
       "name": "ガジェット通信",
       "count": 3
     },
@@ -129,10 +133,6 @@
     },
     {
       "name": "AppMedia",
-      "count": 3
-    },
-    {
-      "name": "山陽新聞デジタル｜さんデジ",
       "count": 3
     },
     {
@@ -177,10 +177,6 @@
     },
     {
       "name": "www.event-marketing.co.jp",
-      "count": 1
-    },
-    {
-      "name": "山陽新聞",
       "count": 1
     },
     {
@@ -264,6 +260,10 @@
       "count": 1
     },
     {
+      "name": "テレビ東京",
+      "count": 1
+    },
+    {
       "name": "群馬県",
       "count": 1
     },
@@ -289,10 +289,6 @@
     },
     {
       "name": "Pokémon GO",
-      "count": 1
-    },
-    {
-      "name": "テレビ東京",
       "count": 1
     },
     {
@@ -904,13 +900,56 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-24T15:00:15.438Z",
-    "previousCount": 138,
-    "newCount": 6
+    "previousAt": "2026-10-24T15:30:18.727Z",
+    "previousCount": 140,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-24T16:00:18.727Z",
+  "nextUpdateAt": "2026-10-24T16:30:15.432Z",
   "items": [
+    {
+      "id": "c58315036353",
+      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【10/24更新】",
+      "url": "https://snkrdunk.com/articles/33599/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-24T15:47:46.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/0d519b94-9561-4ffa-9b32-d01f0552beb9.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8a0df3af32aa",
+      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-6構築記事)",
+      "url": "https://gamewith.jp/pokemon-champions/560474",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-24T13:19:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
+      "categories": [
+        "community",
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "01eef2d84448",
       "title": "【ポケカ】30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキーの収録カード・再販抽選情報まとめ",
@@ -925,29 +964,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c58315036353",
-      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【10/24更新】",
-      "url": "https://snkrdunk.com/articles/33599/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-10-24T12:57:14.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/0d519b94-9561-4ffa-9b32-d01f0552beb9.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1095,45 +1111,6 @@
         "tcg",
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "efc1813cdc6a",
-      "title": "能登に「ポケモン空港」 愛称変更、装飾や商品販売",
-      "url": "https://www.sanyonews.jp/article/1920782",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-24T09:57:05.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/3/3/a/0/33a0f6b51dec486ae2406477e84bfe1c_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "8a0df3af32aa",
-      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-6構築記事)",
-      "url": "https://gamewith.jp/pokemon-champions/560474",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-24T09:32:11.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
-      "categories": [
-        "community",
-        "guide"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1712,6 +1689,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "59fc265a960e",
+      "title": "『ポケモンセンター』デデンネとバチュルの日常を描いたグッズ新登場 大量に発表",
+      "url": "https://www.sanyonews.jp/article/1998519?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞デジタル｜さんデジ",
+      "summary": "",
+      "publishedAt": "2026-10-23T16:58:34.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/0/9/8/1/098185296bbd6fe910e67817e733ac2e_1.jpg",
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f0189ffba4d2",
@@ -2623,7 +2622,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cb5c5d90f758",
@@ -2665,6 +2664,25 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "6754a309a1ba",
+      "title": "ポケモン最新情報を調査！ポケスタ団！＆ハナコのアニポケルーム",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/14189_202610230705.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "テレビ東京",
+      "summary": "",
+      "publishedAt": "2026-10-23T07:00:00.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "e0a57cb6a5d2",
@@ -2969,25 +2987,6 @@
       "series": [
         "go"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3ecd6548d137",
-      "title": "おはスタ【ポケモン最新情報を調査！ポケスタ団！＆ハナコのアニポケルーム】",
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202610/14189_202610230705.html",
-      "host": "tv-tokyo.co.jp",
-      "source": "テレビ東京",
-      "summary": "",
-      "publishedAt": "2026-10-23T00:57:43.000Z",
-      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3322,7 +3321,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f431f2976eb9",
@@ -3511,7 +3510,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b60a3fb1ee80",
@@ -3637,7 +3636,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "634195b60cba",
@@ -3656,7 +3655,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "830d813545e9",
