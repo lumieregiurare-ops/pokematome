@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-25T11:00:16.177Z",
+  "updatedAt": "2026-10-25T11:30:15.868Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 150,
-  "todayCount": 51,
+  "total": 145,
+  "todayCount": 49,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 25
+      "count": 26
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 2
+      "count": 1
     },
     {
       "id": "event",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 41
     },
     {
       "id": "goodscat",
@@ -37,17 +37,17 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 6
+      "count": 7
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 12
+      "count": 11
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 6
+      "count": 5
     },
     {
       "id": "biz",
@@ -57,29 +57,29 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 60
+      "count": 55
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 14
+      "count": 13
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 31
+      "count": 30
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 38
+      "count": 40
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 3
+      "count": 5
     },
     {
       "id": "unite",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 26
+      "count": 27
     }
   ],
   "weapons": [],
@@ -109,19 +109,23 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Unisba Media",
-      "count": 11
+      "count": 10
     },
     {
       "name": "SNKRDUNK",
-      "count": 10
+      "count": 9
     },
     {
       "name": "山陽新聞",
       "count": 5
+    },
+    {
+      "name": "ｄメニューニュース",
+      "count": 3
     },
     {
       "name": "ウォーカープラス",
@@ -129,10 +133,6 @@
     },
     {
       "name": "AppMedia",
-      "count": 3
-    },
-    {
-      "name": "Nintendo DREAM WEB",
       "count": 3
     },
     {
@@ -148,6 +148,10 @@
       "count": 2
     },
     {
+      "name": "日刊スポーツ",
+      "count": 2
+    },
+    {
       "name": "テレビ東京",
       "count": 2
     },
@@ -156,16 +160,16 @@
       "count": 2
     },
     {
-      "name": "GAME Watch",
+      "name": "インサイド",
+      "count": 2
+    },
+    {
+      "name": "Nintendo DREAM WEB",
       "count": 2
     },
     {
       "name": "ポケットモンスターオフィシャルサイト",
       "count": 2
-    },
-    {
-      "name": "みんかぶ（マガジン）",
-      "count": 1
     },
     {
       "name": "サンスポ",
@@ -177,10 +181,6 @@
     },
     {
       "name": "ツーリズムメディアサービス",
-      "count": 1
-    },
-    {
-      "name": "日刊スポーツ",
       "count": 1
     },
     {
@@ -212,19 +212,11 @@
       "count": 1
     },
     {
-      "name": "インサイド",
-      "count": 1
-    },
-    {
       "name": "ARTnews JAPAN",
       "count": 1
     },
     {
       "name": "オリコンニュース",
-      "count": 1
-    },
-    {
-      "name": "アニメ！アニメ！",
       "count": 1
     },
     {
@@ -268,15 +260,7 @@
       "count": 1
     },
     {
-      "name": "上毛新聞電子版",
-      "count": 1
-    },
-    {
       "name": "GIGAZINE",
-      "count": 1
-    },
-    {
-      "name": "ｄメニューニュース",
       "count": 1
     },
     {
@@ -292,7 +276,7 @@
       "count": 1
     },
     {
-      "name": "Howl.link",
+      "name": "GAME Watch",
       "count": 1
     },
     {
@@ -301,69 +285,6 @@
     }
   ],
   "topics": [
-    {
-      "id": "fa3037bb3f7a",
-      "title": "５市町にポケモンマンホール",
-      "summary": "",
-      "url": "https://munakata.keizai.biz/gpnews/1777051/",
-      "image": "https://images.keizai.biz/munakata_keizai/globalphoto/",
-      "leadSource": "宗像経済新聞",
-      "publishedAt": "2026-10-23T13:55:35.000Z",
-      "sourceCount": 6,
-      "articleCount": 7,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "マンホール",
-        "ポケモンマンホール",
-        "市町"
-      ],
-      "articles": [
-        {
-          "title": "ポケモンマンホール「ポケふた」群馬県に初設置へ 5市町に限定デザイン 11月下旬までに設置（ABEMA TIMES）",
-          "url": "https://news.yahoo.co.jp/articles/cf7cfdbc8e1e7a691cc1faa5028c84983638439f",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-23T10:06:16.000Z",
-          "isPR": false
-        },
-        {
-          "title": "群馬にもポケモンマンホール「ポケふた」 渋川など5市町に設置",
-          "url": "https://www.nikkei.com/article/DGXZQOCC22C9N0S6A021C2000000/",
-          "source": "日本経済新聞",
-          "publishedAt": "2026-10-23T08:30:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "5市町にポケモンマンホール 群馬県〔地域〕（時事通信）",
-          "url": "https://news.yahoo.co.jp/articles/419557a7baf130d68e838996515b89daa0fbe7fe",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-23T07:15:54.000Z",
-          "isPR": false
-        },
-        {
-          "title": "群馬県にポケモンマンホール「ポケふた」が設置されます！",
-          "url": "https://www.pref.gunma.jp/page/774447.html",
-          "source": "群馬県",
-          "publishedAt": "2026-10-23T06:42:17.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンマンホール「ポケふた」の設置について",
-          "url": "https://www.city.shibukawa.lg.jp/shisei/000259/000263/p015857.html",
-          "source": "渋川市",
-          "publishedAt": "2026-10-23T06:03:04.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【速報・動画】群馬にも「ポケふた」設置へ ポケモン柄のマンホール、11月下旬までに5市町",
-          "url": "https://www.jomo-news.co.jp/articles/-/1049363",
-          "source": "上毛新聞電子版",
-          "publishedAt": "2026-10-23T04:51:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
     {
       "id": "96647f787283",
       "title": "【ミスド】歴代コラボポケモンたちが大集合のブランケット発売「両方ほしい」「好きなポケモン全部詰まってる」SNS反響",
@@ -422,172 +343,57 @@
       ]
     },
     {
-      "id": "7e87f5c76ec6",
-      "title": "「ポケミク」，ryo（supercell）氏による楽曲「1996」を公開。“大人になった僕たちの話”を描く",
-      "summary": "ポケモンとクリプトン・フューチャー・メディアによるコラボプロジェクト「ポケモンfeat.初音ミクProjectVOLTAGEHigh↑」は本日（2026年10月23日），ryo（supercell）氏による楽曲「1996」とMVを公開した。",
-      "url": "https://www.4gamer.net/games/991/G999109/20261023040/",
-      "image": "https://www.4gamer.net/games/991/G999109/20261023040/SS/001.png",
-      "leadSource": "4Gamer",
-      "publishedAt": "2026-10-23T10:40:05.000Z",
-      "sourceCount": 4,
-      "articleCount": 5,
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "keywords": [
-        "ryo",
-        "supercell",
-        "新曲"
-      ],
-      "articles": [
-        {
-          "title": "株式会社BLUE RIGHTS、「ポケモン feat. 初音ミク Project VOLTAGE」ryo (supercell)による新曲「1996」MVをプロデュース！",
-          "url": "https://animeanime.jp/release/prtimes/20261023/322099.html",
-          "source": "アニメ！アニメ！",
-          "publishedAt": "2026-10-23T09:45:18.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ポケモン feat. 初音ミク」ryo（supercell）の新曲MV公開 ミュウを探す子どもたちの物語 - KAI-YOU",
-          "url": "https://kai-you.net/article/96929",
-          "source": "KAI-YOU",
-          "publishedAt": "2026-10-23T09:45:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケモン×初音ミク』ryo（supercell）作詞・作曲の新曲『1996』MV公開。ミュウを探す子どもたちの冒険を描く",
-          "url": "https://dengekionline.com/article/202610/91888",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-10-23T09:45:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ポケミク」，ryo（supercell）氏による新曲「LEGENDS」を公開。10月23日18：39にもう1つの楽曲「1996」をプレミア公開",
-          "url": "https://www.4gamer.net/games/991/G999109/20261022047/",
-          "source": "4Gamer",
-          "publishedAt": "2026-10-22T11:24:38.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "d9ec5c8a3585",
-      "title": "ポケモン福袋「ピカピカボックス2027」発表！今年はピチュー・ピカチュウ・ライチュウのぬいぐるみ必ず1つ付き抽選受付は10月27日17時から",
-      "summary": "ポケモンは、オンラインストア「ポケモンセンターオンライン」にて「ピカピカボックス2027」の抽選受付を10月27日17時より開始する。価格は5,500円。",
-      "url": "https://game.watch.impress.co.jp/docs/news/2150728.html",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2150/728/1.jpg",
-      "leadSource": "GAME Watch",
-      "publishedAt": "2026-10-23T09:45:22.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "goodscat",
-        "tcgcat"
-      ],
-      "keywords": [
-        "ボックス",
-        "ピカピカボックス",
-        "ポケモンセンター"
-      ],
-      "articles": [
-        {
-          "title": "ぬいぐるみも入ったお楽しみボックス「ピカピカボックス2027」がポケモンセンターオンラインで販売",
-          "url": "https://www.ndw.jp/pokemon-goods-261023/",
-          "source": "Nintendo DREAM WEB",
-          "publishedAt": "2026-10-23T09:45:22.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン福袋「ピカピカボックス2027」がポケモンセンターオンラインに登場！10月27日から期間限定で抽選販売",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xMF9fb3lUb2U2OGZ5TnZDQ1h5ZUFEdVFzVVpHaGVpbWtQa1pLWFpUWldjWE5icUhxQnZpcm1hS05fYjRTS3dkWktST0ZEam01ci1KOC1MMF8zd2lJR2RfRzZpTl9ZS3g0a0NQVlJlS051S29IM2doU25rNHlud9IBfkFVX3lxTE1xMF9fb3lUb2U2OGZ5TnZDQ1h5ZUFEdVFzVVpHaGVpbWtQa1pLWFpUWldjWE5icUhxQnZpcm1hS05fYjRTS3dkWktST0ZEam01ci1KOC1MMF8zd2lJR2RfRzZpTl9ZS3g0a0NQVlJlS051S29IM2doU25rNHludw?oc=5",
-          "source": "Saiga NAK",
-          "publishedAt": "2026-10-23T07:13:04.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ピカピカボックス2027」が、ポケモンセンターオンラインに登場！｜ポケットモンスターオフィシャルサイト",
-          "url": "https://www.pokemon.co.jp/goods/2026/10/261023_to01.html",
-          "source": "ポケットモンスターオフィシャルサイト",
-          "publishedAt": "2026-10-23T05:06:38.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "c774ac346a44",
-      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
+      "id": "fa3037bb3f7a",
+      "title": "５市町にポケモンマンホール",
       "summary": "",
-      "url": "https://snkrdunk.com/articles/31684/",
-      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
-      "leadSource": "SNKRDUNK",
-      "publishedAt": "2026-10-25T04:35:14.000Z",
-      "sourceCount": 3,
-      "articleCount": 21,
+      "url": "https://munakata.keizai.biz/gpnews/1777051/",
+      "image": "https://images.keizai.biz/munakata_keizai/globalphoto/",
+      "leadSource": "宗像経済新聞",
+      "publishedAt": "2026-10-23T13:55:35.000Z",
+      "sourceCount": 5,
+      "articleCount": 6,
       "categories": [
-        "tcgcat",
-        "new"
+        "other"
       ],
       "keywords": [
-        "カード",
-        "ポケモンカード",
-        "ポケポケ"
+        "ポケモンマンホール",
+        "市町",
+        "設置"
       ],
       "articles": [
         {
-          "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
-          "url": "https://snkrdunk.com/articles/16466/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-25T03:16:07.000Z",
+          "title": "ポケモンマンホール「ポケふた」群馬県に初設置へ 5市町に限定デザイン 11月下旬までに設置（ABEMA TIMES）",
+          "url": "https://news.yahoo.co.jp/articles/cf7cfdbc8e1e7a691cc1faa5028c84983638439f",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-23T10:06:16.000Z",
           "isPR": false
         },
         {
-          "title": "【ポケカ】メガブレイブの収録カードリスト一覧/最新情報【2025年8月1日発売】",
-          "url": "https://snkrdunk.com/articles/28956/",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-10-24T19:39:15.000Z",
+          "title": "群馬にもポケモンマンホール「ポケふた」 渋川など5市町に設置",
+          "url": "https://www.nikkei.com/article/DGXZQOCC22C9N0S6A021C2000000/",
+          "source": "日本経済新聞",
+          "publishedAt": "2026-10-23T08:30:00.000Z",
           "isPR": false
         },
         {
-          "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
-          "source": "GameWith",
-          "publishedAt": "2026-10-24T18:30:14.000Z",
+          "title": "5市町にポケモンマンホール 群馬県〔地域〕（時事通信）",
+          "url": "https://news.yahoo.co.jp/articles/419557a7baf130d68e838996515b89daa0fbe7fe",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-23T07:15:54.000Z",
           "isPR": false
         },
         {
-          "title": "【ポケポケ】HP50以下のポケモン一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/567943",
-          "source": "GameWith",
-          "publishedAt": "2026-10-24T18:26:20.000Z",
+          "title": "群馬県にポケモンマンホール「ポケふた」が設置されます！",
+          "url": "https://www.pref.gunma.jp/page/774447.html",
+          "source": "群馬県",
+          "publishedAt": "2026-10-23T06:42:17.000Z",
           "isPR": false
         },
         {
-          "title": "【ポケポケ】パルデアワンダーの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/545635",
-          "source": "GameWith",
-          "publishedAt": "2026-10-24T17:32:34.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
-          "source": "GameWith",
-          "publishedAt": "2026-10-24T17:20:11.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
-          "source": "GameWith",
-          "publishedAt": "2026-10-24T17:07:39.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】デュアルタイプとは？【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/574423",
-          "source": "GameWith",
-          "publishedAt": "2026-10-24T16:56:58.000Z",
+          "title": "ポケモンマンホール「ポケふた」の設置について",
+          "url": "https://www.city.shibukawa.lg.jp/shisei/000259/000263/p015857.html",
+          "source": "渋川市",
+          "publishedAt": "2026-10-23T06:03:04.000Z",
           "isPR": false
         }
       ]
@@ -627,10 +433,53 @@
           "isPR": false
         },
         {
-          "title": "WS第１戦の力投から一夜明けたミジオロウスキー「ほっこり」ポケモンカードで少年と交流（日刊スポーツ）",
-          "url": "https://news.yahoo.co.jp/articles/3c66db5f4ec804e9a875231a72a02aad8a0f092c",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-10-25T00:23:34.000Z",
+          "title": "WS第１戦の力投から一夜明けたミジオロウスキー「ほっこり」ポケモンカードで少年と交流",
+          "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQa3FyYlpzOFhscmRvUFJYWHVvM2kxVDNCakRfaFNVSmRQNTI2UllQM0UyMF9rSXZwMHA4bXFHSVI3MmoybmpLdU5QRjdJb1ljblg4ZmhGQWdjT3ZvRVY2UmdBLWdZZkc3Rmk1TmVHRHlfOTdIZnVFMnczZFAxWGFDdFFJd0lsZW1xYmtlZGxtNEVlbDV0SGl0OU5sdzFvTkhXNnpVY0d6WmI1QVAtdzRDdjlUZUtRT3M1aXFkYnFxOU1YbTlSZlBmQ0xmNWkyb0ViMlZQUzR2bXdQVVBlU2hxRG5zWXVIZklleWVBM1NpZWlBOFh4TFhzd2I3cUt5R2w2eFNtQnhyeW14M2RZaTEtUXJZYmhnTkV0amJ2d2NQeWtxVE9YYk81N2tR?oc=5",
+          "source": "日刊スポーツ",
+          "publishedAt": "2026-10-25T00:23:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "7e87f5c76ec6",
+      "title": "「ポケミク」，ryo（supercell）氏による楽曲「1996」を公開。“大人になった僕たちの話”を描く",
+      "summary": "ポケモンとクリプトン・フューチャー・メディアによるコラボプロジェクト「ポケモンfeat.初音ミクProjectVOLTAGEHigh↑」は本日（2026年10月23日），ryo（supercell）氏による楽曲「1996」とMVを公開した。",
+      "url": "https://www.4gamer.net/games/991/G999109/20261023040/",
+      "image": "https://www.4gamer.net/games/991/G999109/20261023040/SS/001.png",
+      "leadSource": "4Gamer",
+      "publishedAt": "2026-10-23T10:40:05.000Z",
+      "sourceCount": 3,
+      "articleCount": 4,
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "keywords": [
+        "ryo",
+        "supercell",
+        "新曲"
+      ],
+      "articles": [
+        {
+          "title": "「ポケモン feat. 初音ミク」ryo（supercell）の新曲MV公開 ミュウを探す子どもたちの物語 - KAI-YOU",
+          "url": "https://kai-you.net/article/96929",
+          "source": "KAI-YOU",
+          "publishedAt": "2026-10-23T09:45:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモン×初音ミク』ryo（supercell）作詞・作曲の新曲『1996』MV公開。ミュウを探す子どもたちの冒険を描く",
+          "url": "https://dengekionline.com/article/202610/91888",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-10-23T09:45:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ポケミク」，ryo（supercell）氏による新曲「LEGENDS」を公開。10月23日18：39にもう1つの楽曲「1996」をプレミア公開",
+          "url": "https://www.4gamer.net/games/991/G999109/20261022047/",
+          "source": "4Gamer",
+          "publishedAt": "2026-10-22T11:24:38.000Z",
           "isPR": false
         }
       ]
@@ -708,16 +557,131 @@
       ]
     },
     {
-      "id": "b7ff2d2f677d",
-      "title": "【解禁】ぶっ壊れ性能の新技”ほうでん＋”を習得した『メガライボルト』が誰も警戒できない一撃必殺も持っていてヤバすぎるwwwwww【メガスーパーリーグ】【ポケモンGO】 England 55 Man Squad (XvpVirXFWK)",
+      "id": "5e3c6e7253fa",
+      "title": "ぬいぐるみも入ったお楽しみボックス「ピカピカボックス2027」がポケモンセンターオンラインで販売",
       "summary": "",
-      "url": "https://media.unisba.ac.id/1760691c/4d9440b6CiYqHAYXExwvISM",
+      "url": "https://www.ndw.jp/pokemon-goods-261023/",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261023-pokemongoods-00.jpg",
+      "leadSource": "Nintendo DREAM WEB",
+      "publishedAt": "2026-10-23T09:45:22.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "goodscat",
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケモンセンター",
+        "ボックス",
+        "ピカピカボックス"
+      ],
+      "articles": [
+        {
+          "title": "ポケモン福袋「ピカピカボックス2027」がポケモンセンターオンラインに登場！10月27日から期間限定で抽選販売",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1xMF9fb3lUb2U2OGZ5TnZDQ1h5ZUFEdVFzVVpHaGVpbWtQa1pLWFpUWldjWE5icUhxQnZpcm1hS05fYjRTS3dkWktST0ZEam01ci1KOC1MMF8zd2lJR2RfRzZpTl9ZS3g0a0NQVlJlS051S29IM2doU25rNHlud9IBfkFVX3lxTE1xMF9fb3lUb2U2OGZ5TnZDQ1h5ZUFEdVFzVVpHaGVpbWtQa1pLWFpUWldjWE5icUhxQnZpcm1hS05fYjRTS3dkWktST0ZEam01ci1KOC1MMF8zd2lJR2RfRzZpTl9ZS3g0a0NQVlJlS051S29IM2doU25rNHludw?oc=5",
+          "source": "Saiga NAK",
+          "publishedAt": "2026-10-23T07:13:04.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ピカピカボックス2027」が、ポケモンセンターオンラインに登場！｜ポケットモンスターオフィシャルサイト",
+          "url": "https://www.pokemon.co.jp/goods/2026/10/261023_to01.html",
+          "source": "ポケットモンスターオフィシャルサイト",
+          "publishedAt": "2026-10-23T05:06:38.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "c774ac346a44",
+      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
+      "summary": "",
+      "url": "https://snkrdunk.com/articles/31684/",
+      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
+      "leadSource": "SNKRDUNK",
+      "publishedAt": "2026-10-25T04:35:14.000Z",
+      "sourceCount": 2,
+      "articleCount": 20,
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "keywords": [
+        "カード",
+        "ポケモンカード",
+        "ポケポケ"
+      ],
+      "articles": [
+        {
+          "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
+          "url": "https://snkrdunk.com/articles/16466/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-25T03:16:07.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】メガブレイブの収録カードリスト一覧/最新情報【2025年8月1日発売】",
+          "url": "https://snkrdunk.com/articles/28956/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-10-24T19:39:15.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
+          "source": "GameWith",
+          "publishedAt": "2026-10-24T18:30:14.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】HP50以下のポケモン一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/567943",
+          "source": "GameWith",
+          "publishedAt": "2026-10-24T18:26:20.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】パルデアワンダーの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/545635",
+          "source": "GameWith",
+          "publishedAt": "2026-10-24T17:32:34.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
+          "source": "GameWith",
+          "publishedAt": "2026-10-24T17:20:11.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
+          "source": "GameWith",
+          "publishedAt": "2026-10-24T17:07:39.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】デュアルタイプとは？【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/574423",
+          "source": "GameWith",
+          "publishedAt": "2026-10-24T16:56:58.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "a749837dea1a",
+      "title": "【要確認】メガシンカ厳選「危険な罠」に注意してください ※厳選ライン徹底網羅【ポケモンGO】【GOバトルリーグ】【マスターリーグ】【メガフィナーレ土曜版】 Dan Rather (CICSzO6G0s)",
+      "summary": "",
+      "url": "https://media.unisba.ac.id/6a8d2012/db9e0a77IgIJExJFOj4nBVI",
       "image": "",
       "leadSource": "Unisba Media",
-      "publishedAt": "2026-10-25T03:18:00.000Z",
+      "publishedAt": "2026-10-25T04:38:16.000Z",
       "sourceCount": 2,
       "articleCount": 3,
       "categories": [
+        "guide",
         "other"
       ],
       "keywords": [
@@ -741,40 +705,13 @@
       ]
     },
     {
-      "id": "cb97b9f907dd",
-      "title": "【🔴ソロランク】質問歓迎ちゃんねる【ポケモンユナイト】【INSOMNIA】 Cadenasso (wrUNcht0zY)",
+      "id": "46edc35954df",
+      "title": "齋藤明里＆「ポケモン」脚本家が離婚「時間をかけて話し合いを重ね…」",
       "summary": "",
-      "url": "https://media.unisba.ac.id/1e34d1df/ca5b4771Iz8XMDZxAgobJlo",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTkhVN1ViRktWMGNOeFIxYXBTdVpJSEZWUjFpSEY0Y3NqWmZnaU5tMUdrd2J1SFVwcDBpa1ozZ0xsM2d3QV9QNlV4alpvYWt6eGUwWElXbTk5bENGTy15MFF1bWhmMkpkZjU0UENWbC1qVUZmZUJqRjFXaWZtTE1UUWloY0szSWtyZm10ZUZLeGbSAZYBQVVfeXFMTy02UjVlcGZGYkRqa3NHRFNFb3MtdEVqVHNEWlhURkZzUXQ2UldlX0Y1Y1Z3dkEzdm5mOW1WMnRSUExBRWV5bmJVbjJEdDdCX0RyNEpFdWpwU3NRcUlDZ05yeUIzMkJvUVhWcEZ4ZExtR3k0QXliVUxLcHF4SXZhYVNnaVU0d3ZDMFg3TnUwZmFXXzRhZUpR?oc=5",
       "image": "",
-      "leadSource": "Unisba Media",
-      "publishedAt": "2026-10-25T08:07:42.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "ポケモンユナイト",
-        "ソロラン"
-      ],
-      "articles": [
-        {
-          "title": "【ポケモンユナイト】ちょこっとソロラン【ソロラン】",
-          "url": "https://youtu.be/l1xK-BiZvU8?si",
-          "source": "YouTube",
-          "publishedAt": "2026-10-23T13:31:14.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "a1af5602fd7d",
-      "title": "齋藤明里＆「ポケモン」脚本家が離婚「時間をかけて話し合いを重ね…」（テレビ朝日系（ANN））",
-      "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/04da48e2389d50339062471992ed571f3355f109",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-90202732-ann-000-2-view.jpg?exp=10800",
-      "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-10-25T06:54:16.000Z",
+      "leadSource": "ｄメニューニュース",
+      "publishedAt": "2026-10-25T06:52:00.000Z",
       "sourceCount": 2,
       "articleCount": 2,
       "categories": [
@@ -819,35 +756,42 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "3ba82b8ff5a9",
+      "title": "関東で唯一ポケふたが無かった群馬県に5枚が設置へ / スタンプラリーのコンプ難易度が更にアップ【ポケモンGO】",
+      "summary": "",
+      "url": "https://getnews.jp/archives/3750883",
+      "image": "https://rensai.jp/wp-content/uploads/2026/10/FEABDB8E-DC06-4E10-BD6A-0EDA598BA31C.jpeg",
+      "leadSource": "ガジェット通信",
+      "publishedAt": "2026-10-24T23:00:40.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "ポケモンGO"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンGO ニョロトノ",
+          "url": "https://youtu.be/WpdZHpPhd1A?si",
+          "source": "YouTube",
+          "publishedAt": "2026-10-22T23:31:45.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-10-25T10:30:16.543Z",
-    "previousCount": 154,
-    "newCount": 26
+    "previousAt": "2026-10-25T11:00:16.177Z",
+    "previousCount": 150,
+    "newCount": 11
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-25T11:30:16.177Z",
+  "nextUpdateAt": "2026-10-25T12:00:15.868Z",
   "items": [
-    {
-      "id": "4df7c884ab39",
-      "title": "【ポケモンチャンピオンズ】最終使用率150位統一！？ギリッギリ圏内入り寄せ集め軍団でもやれます(⁠^⁠^⁠)",
-      "url": "https://youtu.be/dan9YLMvdf8",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-25T10:00:40.000Z",
-      "image": "",
-      "categories": [
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
     {
       "id": "5e27205b6a6a",
       "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【10/25更新】 | スニーカーダンク",
@@ -893,13 +837,13 @@
       "isNew": false
     },
     {
-      "id": "cb97b9f907dd",
-      "title": "【🔴ソロランク】質問歓迎ちゃんねる【ポケモンユナイト】【INSOMNIA】 Cadenasso (wrUNcht0zY)",
-      "url": "https://media.unisba.ac.id/1e34d1df/ca5b4771Iz8XMDZxAgobJlo",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
+      "id": "179efce89cdc",
+      "title": "【第279回:ブラッキー&グレイシア】中国うさぎちゃんの巫女みこユナイトネットワーク5th【ポケモンユナイト実況】",
+      "url": "https://youtu.be/MmYmtpbOn88",
+      "host": "youtu.be",
+      "source": "YouTube",
       "summary": "",
-      "publishedAt": "2026-10-25T08:07:42.000Z",
+      "publishedAt": "2026-10-25T08:00:11.000Z",
       "image": "",
       "categories": [
         "other"
@@ -914,21 +858,21 @@
       "isNew": true
     },
     {
-      "id": "a1af5602fd7d",
-      "title": "齋藤明里＆「ポケモン」脚本家が離婚「時間をかけて話し合いを重ね…」（テレビ朝日系（ANN））",
-      "url": "https://news.yahoo.co.jp/articles/04da48e2389d50339062471992ed571f3355f109",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "46edc35954df",
+      "title": "齋藤明里＆「ポケモン」脚本家が離婚「時間をかけて話し合いを重ね…」",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTkhVN1ViRktWMGNOeFIxYXBTdVpJSEZWUjFpSEY0Y3NqWmZnaU5tMUdrd2J1SFVwcDBpa1ozZ0xsM2d3QV9QNlV4alpvYWt6eGUwWElXbTk5bENGTy15MFF1bWhmMkpkZjU0UENWbC1qVUZmZUJqRjFXaWZtTE1UUWloY0szSWtyZm10ZUZLeGbSAZYBQVVfeXFMTy02UjVlcGZGYkRqa3NHRFNFb3MtdEVqVHNEWlhURkZzUXQ2UldlX0Y1Y1Z3dkEzdm5mOW1WMnRSUExBRWV5bmJVbjJEdDdCX0RyNEpFdWpwU3NRcUlDZ05yeUIzMkJvUVhWcEZ4ZExtR3k0QXliVUxLcHF4SXZhYVNnaVU0d3ZDMFg3TnUwZmFXXzRhZUpR?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
       "summary": "",
-      "publishedAt": "2026-10-25T06:54:16.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-90202732-ann-000-2-view.jpg?exp=10800",
+      "publishedAt": "2026-10-25T06:52:00.000Z",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": true
     },
@@ -949,7 +893,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c47740b0d0a2",
@@ -971,6 +915,47 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8a0df3af32aa",
+      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-6構築記事)",
+      "url": "https://gamewith.jp/pokemon-champions/560474",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-25T05:08:10.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
+      "categories": [
+        "community",
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a749837dea1a",
+      "title": "【要確認】メガシンカ厳選「危険な罠」に注意してください ※厳選ライン徹底網羅【ポケモンGO】【GOバトルリーグ】【マスターリーグ】【メガフィナーレ土曜版】 Dan Rather (CICSzO6G0s)",
+      "url": "https://media.unisba.ac.id/6a8d2012/db9e0a77IgIJExJFOj4nBVI",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-25T04:38:16.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "859913d9b52f",
@@ -1016,20 +1001,20 @@
     },
     {
       "id": "257afb727e03",
-      "title": "齋藤明里、９歳上「ポケモン」シナリオコーディネーターとの離婚発表（日刊スポーツ）",
-      "url": "https://news.yahoo.co.jp/articles/627b54b7a628baebed45ef81f2d63bb34bd9992e",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "齋藤明里、９歳上「ポケモン」シナリオコーディネーターとの離婚発表",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRjB2RVB3MVlsVGVIQl9oR3ZrR0lVa3NRQWU3ODQyTjRsbF9xNGV5LVNreE91dGZwYzFVWThfTFkwdXotMGRKOUVIbWVHUmo1T29yLUxmU2pHbTlIYUNZSjBSaXhRdFZzQzJUb1VkZ2NLZ1R4TFBzeVBfaE5hOFNpTTZlMWtybERwQXZuNjhhMzVMOEtWYlh5WkVrVTZHM03SAaQBQVVfeXFMTjVnOFpmQXRfUFpiYVVhNGd5VGt5bjFteTJxSnE0akVDUWh3S2NISGJWVHBkTFZKTU11NEgxSEp2U0JuODE5N0xDRkJvWWNVRUhqWGxYdnBGMzczdU0zTGFXMVlvbFF1Tk1FbEtrc0Q5QWNFbkhLcERPU1BvMzR0SFBOUTc4a0lsNExGYWtZUEVZTFdGZFB1Ym1CdllTVlNmZGdaQjQ?oc=5",
+      "host": "topics.smt.docomo.ne.jp",
+      "source": "ｄメニューニュース",
       "summary": "",
-      "publishedAt": "2026-10-25T04:34:17.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-40250446-nksports-000-4-view.jpg?exp=10800",
+      "publishedAt": "2026-10-25T04:34:00.000Z",
+      "image": "",
       "categories": [
         "new"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1097,27 +1082,6 @@
       "isNew": false
     },
     {
-      "id": "b7ff2d2f677d",
-      "title": "【解禁】ぶっ壊れ性能の新技”ほうでん＋”を習得した『メガライボルト』が誰も警戒できない一撃必殺も持っていてヤバすぎるwwwwww【メガスーパーリーグ】【ポケモンGO】 England 55 Man Squad (XvpVirXFWK)",
-      "url": "https://media.unisba.ac.id/1760691c/4d9440b6CiYqHAYXExwvISM",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-25T03:18:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "ccabeed8fafd",
       "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/16466/",
@@ -1143,12 +1107,12 @@
     {
       "id": "cb767d8f665b",
       "title": "なぜ、生成AI時代ほど『マリオ』『ポケモン』の価値が高まるのか･･･億り人ゲーム投資家が語る“勝ち組ゲーム会社”の条件",
-      "url": "https://mag.minkabu.jp/money/44156/",
-      "host": "mag.minkabu.jp",
-      "source": "みんかぶ（マガジン）",
+      "url": "https://news.yahoo.co.jp/articles/ea9da6889ccf336b12f0da71aaf001b78aaae93a/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-10-25T03:00:00.000Z",
-      "image": "https://mag.minkabu.jp/wp-content/uploads/2026/09/yuzu2.jpeg",
+      "publishedAt": "2026-10-25T03:10:02.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnaJ4LINGxjjmKxHEp1oe6nCNR-IoqvmZR-U6pRrPW0gLdEe9LfGTtjn4vB_XZY-YvB67xeb26TpuRXnE-cJiOUaKRi9IumpyszM-v_WemAQe6N7pRo89SZG6a0S6LPW8vg==",
       "categories": [
         "other"
       ],
@@ -1181,27 +1145,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "8b781386a223",
-      "title": "最強のポケモン、シャドウミュウツーの個体値100%が出た、だと…!?【ポケモンGO】 Brandon Clarke (0HjOCz4l4S)",
-      "url": "https://media.unisba.ac.id/e8d9d0c5/d28676d2D10hPyhlOSIzORE",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-25T02:38:54.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "303b7bbfd8ad",
@@ -1243,7 +1186,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "82bffa94348f",
@@ -1263,25 +1206,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1fd4be7f73f9",
-      "title": "あの×三木眞一郎が語る“声”への思い 過去の葛藤や『ポケモン』アフレコ秘話も＜ビストロボイス＞（WEBザテレビジョン）",
-      "url": "https://news.yahoo.co.jp/articles/1b543fdd8f00be79163c1cdfe2534cc3558aeef9",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-10-25T02:00:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-01451586-the_tv-000-1-view.jpg?exp=10800",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1390,27 +1314,6 @@
       "isNew": false
     },
     {
-      "id": "7539cfa2ea97",
-      "title": "史上最強のポケモンが完成しちゃいました…!!!個体値100%シャドウミュウツーPL50達成!!【ポケモンGO】 Aviva Share Price (r2oZ37joSs)",
-      "url": "https://media.unisba.ac.id/34ed68f9/da2c02e1OSsQEwh-Ox0uBjc",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-25T00:34:25.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "114719810f4b",
       "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/32425/",
@@ -1456,13 +1359,13 @@
     },
     {
       "id": "89e837427ff2",
-      "title": "WS第１戦の力投から一夜明けたミジオロウスキー「ほっこり」ポケモンカードで少年と交流（日刊スポーツ）",
-      "url": "https://news.yahoo.co.jp/articles/3c66db5f4ec804e9a875231a72a02aad8a0f092c",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "WS第１戦の力投から一夜明けたミジオロウスキー「ほっこり」ポケモンカードで少年と交流",
+      "url": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQa3FyYlpzOFhscmRvUFJYWHVvM2kxVDNCakRfaFNVSmRQNTI2UllQM0UyMF9rSXZwMHA4bXFHSVI3MmoybmpLdU5QRjdJb1ljblg4ZmhGQWdjT3ZvRVY2UmdBLWdZZkc3Rmk1TmVHRHlfOTdIZnVFMnczZFAxWGFDdFFJd0lsZW1xYmtlZGxtNEVlbDV0SGl0OU5sdzFvTkhXNnpVY0d6WmI1QVAtdzRDdjlUZUtRT3M1aXFkYnFxOU1YbTlSZlBmQ0xmNWkyb0ViMlZQUzR2bXdQVVBlU2hxRG5zWXVIZklleWVBM1NpZWlBOFh4TFhzd2I3cUt5R2w2eFNtQnhyeW14M2RZaTEtUXJZYmhnTkV0amJ2d2NQeWtxVE9YYk81N2tR?oc=5",
+      "host": "nikkansports.com",
+      "source": "日刊スポーツ",
       "summary": "",
-      "publishedAt": "2026-10-25T00:23:34.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-40250122-nksports-000-4-view.jpg?exp=10800",
+      "publishedAt": "2026-10-25T00:23:00.000Z",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -1471,7 +1374,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1516,6 +1419,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "06146948cab3",
+      "title": "「ポケカ」30周年商品、買取・転売で“中身すり替え”不正続出…実店舗やネットで規制強化 シュリンクなしを悪用（オタク総研）",
+      "url": "https://news.yahoo.co.jp/articles/ff025723d55166a0be2a68168dfdaa119ef0c28b",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-24T22:23:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-00072300-otakulab-000-4778-view.jpg?exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "e3737aeb3441",
@@ -1604,6 +1528,48 @@
       "isNew": false
     },
     {
+      "id": "5d0582cf4a50",
+      "title": "(ガチ案件)知らないと損 メガミュウツーX、Yメガマスターで使える個体を徹底解説 ポケモンGO GBL メガマスター Brest Vs Strasbourg (grJUp9HZKR)",
+      "url": "https://media.unisba.ac.id/5f6b5094/233ad425DB8QAREYExYGJwE//?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-24T20:54:19.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "41b2b46ed44d",
+      "title": "17,なんだかんだと聞かれたら...【ポケモンアニメ ロケット団のテーマ】 Autoroute 73 (nS4ynYwLNL)",
+      "url": "https://media.unisba.ac.id/dd3f9d2c/8504233fbN2ig3YFq7M",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-24T20:17:44.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a511d76bf2ea",
       "title": "ポケモンGO ダイマックスアグノム ソロ撃破 (Pokemon GO Dynamax Azelf Solo)",
       "url": "https://youtu.be/hxvmMBvCIxE?si",
@@ -1623,27 +1589,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "82c15d447573",
-      "title": "謎の飛行物体「メテノ」を使ってみたらめちゃくちゃ強かったんだが...【ポケモンSV実況】 Braden Shattuck 2026 Pga (NnNWuOOFZR)",
-      "url": "https://media.unisba.ac.id/e5a427a6/d06017caKCMMEwljBlpQBAk",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-10-24T19:59:34.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "27f729beed14",
@@ -1687,25 +1632,28 @@
       "isNew": false
     },
     {
-      "id": "01eef2d84448",
-      "title": "【ポケカ】30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキーの収録カード・再販抽選情報まとめ",
-      "url": "https://snkrdunk.com/articles/32464/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "7d48497941f1",
+      "title": "『ポケモン』新作映画も主人公交代！サトシ出ずファン嘆き ポケカ題材の作品で2027年公開",
+      "url": "https://www.sanyonews.jp/article/1981106?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-10-24T18:43:05.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/b3ec7894-3c17-4254-b87a-9ca52ed4616f.jpeg",
+      "publishedAt": "2026-10-24T19:00:08.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/a/9/d/ca9d61bb8616f2e0f17c26dc7e60723c_1.jpg",
       "categories": [
+        "new",
         "tcgcat"
       ],
       "series": [
-        "tcg"
+        "main",
+        "tcg",
+        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "cf57d26049d1",
@@ -1827,25 +1775,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b642bc7e7f64",
-      "title": "『ポケモン』新キャラのナヴィ役は芹澤優！選考に受かり「大号泣」 シロー役は浦和希",
-      "url": "https://www.sanyonews.jp/article/1945192?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-24T16:52:30.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/d/1/b/4/d1b407ff7fbebb0a1af232150394e201_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1979,7 +1908,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9497db792923",
@@ -2025,27 +1954,6 @@
       "isNew": false
     },
     {
-      "id": "bbcf89b56499",
-      "title": "【ダイマクッスユクシー】君が光るんかーい!!!不具合と戦いながら24戦討伐した結果…まさかの展開に!!!【ポケモンGO】",
-      "url": "https://youtu.be/_mgyzTUI6zs?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-10-24T13:00:39.000Z",
-      "image": "",
-      "categories": [
-        "update"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "c61a00f94490",
       "title": "毒と電気の２種類の音楽をかき鳴らせ【ポケモンユナイト】 #123",
       "url": "https://youtu.be/EHGhKEW1Rk8",
@@ -2064,7 +1972,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "82903bebe2e4",
@@ -2081,25 +1989,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cd35024adaa9",
-      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
-      "url": "https://gamewith.jp/pokemon-champions/546477",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-24T12:21:05.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546477.png?date=1774602101",
-      "categories": [
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2234,18 +2123,20 @@
       "isNew": false
     },
     {
-      "id": "367501709d04",
-      "title": "11月4日（水）より、新宿髙島屋にてポケモン公式ベビーブランド「monpoké（モンポケ）」のPOPUP SHOPが開催",
-      "url": "https://www.ndw.jp/pokemon-news-261024/",
-      "host": "ndw.jp",
-      "source": "Nintendo DREAM WEB",
+      "id": "a1e946b9c811",
+      "title": "はじめてのポケモンGO!!10年やってるやまだからまっちゃんが聞いてプレイします#タクマのコント",
+      "url": "https://youtu.be/frLdNpgV7_8?si",
+      "host": "youtu.be",
+      "source": "YouTube",
       "summary": "",
-      "publishedAt": "2026-10-24T10:19:58.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/10/261024-pokemonnews-00.jpg",
+      "publishedAt": "2026-10-24T10:00:37.000Z",
+      "image": "",
       "categories": [
         "other"
       ],
-      "series": [],
+      "series": [
+        "go"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2290,7 +2181,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7cfa439fdc42",
@@ -2330,7 +2221,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "649b704173f6",
@@ -2392,6 +2283,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "da91a371ec2b",
+      "title": "【ポケモンGO】プテラの岩落とし、エルレイドのねんりきがエグい！あいつの出番だ！ Napoli Vs Bologna (ItzDT1pYQn)",
+      "url": "https://media.unisba.ac.id/4e52f80a/4678639dWVM0WiVrLQEbQyM/?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-24T04:14:33.000Z",
+      "image": "",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1f2983186f52",
@@ -2491,7 +2403,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59fc265a960e",
@@ -2743,7 +2655,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "23a4d6cd73e6",
@@ -2849,7 +2761,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39bc9384e693",
@@ -2908,7 +2820,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01f5f58f21a6",
@@ -2949,25 +2861,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "ed130622bae4",
-      "title": "株式会社BLUE RIGHTS、「ポケモン feat. 初音ミク Project VOLTAGE」ryo (supercell)による新曲「1996」MVをプロデュース！",
-      "url": "https://animeanime.jp/release/prtimes/20261023/322099.html",
-      "host": "animeanime.jp",
-      "source": "アニメ！アニメ！",
-      "summary": "",
-      "publishedAt": "2026-10-23T09:45:18.000Z",
-      "image": "https://animeanime.jp/release/imgs/list/566517.png",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "a25e803843e9",
@@ -3294,6 +3187,28 @@
       "isNew": false
     },
     {
+      "id": "f1b24369383e",
+      "title": "『ポケカ』新拡張パック「ハドウシーカー」11月27日発売決定！「メガルカリオZex」「コルニの本気」など、Zと名のつくメガシンカに注目",
+      "url": "https://www.inside-games.jp/article/2026/10/23/189696.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-10-23T06:15:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1797870.webp",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0b6c643f3998",
       "title": "ポケモンマンホール「ポケふた」の設置について",
       "url": "https://www.city.shibukawa.lg.jp/shisei/000259/000263/p015857.html",
@@ -3335,16 +3250,16 @@
     },
     {
       "id": "d9ec5c8a3585",
-      "title": "ポケモン福袋「ピカピカボックス2027」発表！今年はピチュー・ピカチュウ・ライチュウのぬいぐるみ必ず1つ付き抽選受付は10月27日17時から",
-      "url": "https://game.watch.impress.co.jp/docs/news/2150728.html",
-      "host": "game.watch.impress.co.jp",
-      "source": "GAME Watch",
-      "summary": "ポケモンは、オンラインストア「ポケモンセンターオンライン」にて「ピカピカボックス2027」の抽選受付を10月27日17時より開始する。価格は5,500円。",
-      "publishedAt": "2026-10-23T05:11:15.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2150/728/1.jpg",
+      "title": "ポケモン福袋「ピカピカボックス2027」発表！今年はピチュー・ピカチュウ・ライチュウのぬいぐるみ必ず1つ付き（GAME Watch）",
+      "url": "https://news.yahoo.co.jp/articles/d1e6cae7c23e7a54647a67732ded7ecd3f0bedc5",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-23T05:11:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261023-00000020-impgmw-000-1-view.jpg?exp=10800",
       "categories": [
-        "goodscat",
-        "new"
+        "new",
+        "goodscat"
       ],
       "series": [
         "goods"
@@ -3371,25 +3286,6 @@
         "main",
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b7ad758b20c6",
-      "title": "【速報・動画】群馬にも「ポケふた」設置へ ポケモン柄のマンホール、11月下旬までに5市町",
-      "url": "https://www.jomo-news.co.jp/articles/-/1049363",
-      "host": "jomo-news.co.jp",
-      "source": "上毛新聞電子版",
-      "summary": "",
-      "publishedAt": "2026-10-23T04:51:00.000Z",
-      "image": "https://jomo.ismcdn.jp/mwimgs/a/8/675h/img_a84192774c4ceffe72cebeae4e76261c216375.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3707,7 +3603,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6c4fdbbf2ea8",
@@ -3739,7 +3635,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-10-22T15:00:00.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/083/023.jpg",
       "categories": [
         "other"
       ],
@@ -3788,7 +3684,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "defe26e05698",
@@ -3807,7 +3703,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "59f49eea944a",
@@ -3828,7 +3724,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "41a1cfed4730",
@@ -3850,7 +3746,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f3dd7fac1fd7",
@@ -3865,29 +3761,6 @@
         "other"
       ],
       "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "da207b94d4c1",
-      "title": "【最強メタグロス攻略shorts】今からでも間に合う！『てんねんラウドボーン』の育成例を紹介‼︎ #shorts #ポケモンsv #最強メタグロス #ゲーム実況 #ポケモン #テラレイドバトル - YouTube",
-      "url": "https://t.co/x4K7DtdJNl",
-      "host": "t.co",
-      "source": "Howl.link",
-      "summary": "",
-      "publishedAt": "2026-10-22T11:31:06.000Z",
-      "image": "",
-      "categories": [
-        "guide",
-        "event"
-      ],
-      "series": [
-        "main",
         "go"
       ],
       "isOfficial": false,
