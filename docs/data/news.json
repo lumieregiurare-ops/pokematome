@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T18:30:20.761Z",
+  "updatedAt": "2026-10-26T19:00:20.496Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 166,
-  "todayCount": 7,
+  "todayCount": 8,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 23
+      "count": 25
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 21
+      "count": 20
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 23
+      "count": 24
     },
     {
       "id": "media",
@@ -42,22 +42,22 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 11
+      "count": 12
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 6
+      "count": 5
     },
     {
       "id": "biz",
       "label": "売上・企業",
-      "count": 0
+      "count": 1
     },
     {
       "id": "other",
       "label": "その他",
-      "count": 56
+      "count": 57
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 32
+      "count": 31
     },
     {
       "id": "tcg",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 36
+      "count": 38
     }
   ],
   "weapons": [],
   "sources": [
     {
-      "name": "GameWith",
-      "count": 32
-    },
-    {
       "name": "YouTube",
       "count": 26
+    },
+    {
+      "name": "GameWith",
+      "count": 25
     },
     {
       "name": "Unisba Media",
@@ -113,15 +113,19 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 10
+      "count": 12
     },
     {
       "name": "SNKRDUNK",
-      "count": 8
+      "count": 9
     },
     {
       "name": "ガジェット通信",
       "count": 8
+    },
+    {
+      "name": "山陽新聞",
+      "count": 5
     },
     {
       "name": "GAME Watch",
@@ -130,14 +134,6 @@
     {
       "name": "インサイド",
       "count": 4
-    },
-    {
-      "name": "山陽新聞",
-      "count": 4
-    },
-    {
-      "name": "ciiblog.in",
-      "count": 3
     },
     {
       "name": "ウォーカープラス",
@@ -149,6 +145,10 @@
     },
     {
       "name": "AppMedia",
+      "count": 2
+    },
+    {
+      "name": "ciiblog.in",
       "count": 2
     },
     {
@@ -168,6 +168,10 @@
       "count": 2
     },
     {
+      "name": "Dtimes",
+      "count": 2
+    },
+    {
       "name": "電撃オンライン",
       "count": 2
     },
@@ -176,11 +180,19 @@
       "count": 2
     },
     {
-      "name": "AUTOMATON",
+      "name": "テレ東BIZ",
+      "count": 2
+    },
+    {
+      "name": "日刊スポーツ",
+      "count": 2
+    },
+    {
+      "name": "アニメージュプラス",
       "count": 1
     },
     {
-      "name": "Gamer",
+      "name": "AUTOMATON",
       "count": 1
     },
     {
@@ -196,7 +208,7 @@
       "count": 1
     },
     {
-      "name": "アニメージュプラス",
+      "name": "Gamer",
       "count": 1
     },
     {
@@ -221,10 +233,6 @@
     },
     {
       "name": "Infoseek",
-      "count": 1
-    },
-    {
-      "name": "Dtimes",
       "count": 1
     },
     {
@@ -264,10 +272,6 @@
       "count": 1
     },
     {
-      "name": "テレ東BIZ",
-      "count": 1
-    },
-    {
       "name": "徳島新聞デジタル",
       "count": 1
     },
@@ -276,11 +280,11 @@
       "count": 1
     },
     {
-      "name": "sakhaparliament.ru",
+      "name": "サンスポ",
       "count": 1
     },
     {
-      "name": "日刊スポーツ",
+      "name": "sakhaparliament.ru",
       "count": 1
     },
     {
@@ -316,19 +320,33 @@
       "url": "https://www.inside-games.jp/article/2026/10/26/189870.html",
       "image": "https://www.inside-games.jp/imgs/rss/1797315.jpg",
       "leadSource": "インサイド",
-      "publishedAt": "2026-10-26T10:31:34.000Z",
-      "sourceCount": 13,
-      "articleCount": 14,
+      "publishedAt": "2026-10-26T16:53:20.000Z",
+      "sourceCount": 17,
+      "articleCount": 19,
       "categories": [
-        "event",
-        "new"
+        "goodscat",
+        "event"
       ],
       "keywords": [
         "ピルクル",
         "パッケージ",
-        "カントー"
+        "特製"
       ],
       "articles": [
+        {
+          "title": "【ポケモン】「ピルクル400」で特製グッズをゲット！ パッケージにもポケモンが登場！",
+          "url": "https://animageplus.jp/articles/gallery/68081/1",
+          "source": "アニメージュプラス",
+          "publishedAt": "2026-10-26T16:53:20.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ピルクル400」シリーズとポケモンのコラボキャンペーンが11月1日よりスタート！特製グッズが当たるキャンペーンの開催や全22種類のコラボパッケージが登場",
+          "url": "https://www.gamer.ne.jp/news/202610260007/image/22/",
+          "source": "Gamer",
+          "publishedAt": "2026-10-26T10:41:15.000Z",
+          "isPR": false
+        },
         {
           "title": "ピルクル400にカントー地方のポケモン51匹が登場！ 全22種類のパッケージとプレゼントキャンペーンが11月1日から",
           "url": "https://www.appbank.net/2026/10/26/iphone-news/3144367.php",
@@ -337,17 +355,17 @@
           "isPR": false
         },
         {
-          "title": "【ポケモン】「ピルクル400」で特製グッズをゲット！ パッケージにもポケモンが登場！",
-          "url": "https://animageplus.jp/articles/detail/68081",
-          "source": "アニメージュプラス",
-          "publishedAt": "2026-10-26T10:01:28.000Z",
-          "isPR": false
-        },
-        {
           "title": "「ポケモン×ピルクル400」特製ブランケットや保冷バッグが当たるキャンペーン開催！カントー地方のポケモン51匹が登場する全22種類の新パッケージも",
           "url": "https://nijimen.kusuguru.co.jp/topics/644208",
           "source": "にじめん",
           "publishedAt": "2026-10-26T07:42:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ポケモンと始めよう! ピルクル習慣! プレゼントキャンペーン」(11月1日からスタート)",
+          "url": "https://www.nissin.com/jp/news/13965/",
+          "source": "日清食品グループ",
+          "publishedAt": "2026-10-26T06:35:40.000Z",
           "isPR": false
         },
         {
@@ -370,20 +388,6 @@
           "source": "アニメ！アニメ！",
           "publishedAt": "2026-10-26T05:46:44.000Z",
           "isPR": false
-        },
-        {
-          "title": "ポケモン30周年ロゴ入りでカントー地方の51匹が登場！日清ヨーク「ピルクル400 ポケモンパッケージ」",
-          "url": "https://dtimes.jp/post-1430355/",
-          "source": "Dtimes",
-          "publishedAt": "2026-10-26T05:42:35.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン：「ピルクル400」とコラボ カントー地方のポケモン51匹がパッケージに 特製グッズも",
-          "url": "https://mantan-web.jp/article/20261022dog00m200050000a.html",
-          "source": "Mantan Web",
-          "publishedAt": "2026-10-26T05:31:39.000Z",
-          "isPR": false
         }
       ]
     },
@@ -394,19 +398,26 @@
       "url": "https://game.watch.impress.co.jp/docs/news/2149782.html",
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/782/012.jpg",
       "leadSource": "GAME Watch",
-      "publishedAt": "2026-10-26T15:00:00.000Z",
-      "sourceCount": 5,
-      "articleCount": 8,
+      "publishedAt": "2026-10-26T15:16:53.000Z",
+      "sourceCount": 6,
+      "articleCount": 9,
       "categories": [
-        "goodscat",
-        "new"
+        "new",
+        "goodscat"
       ],
       "keywords": [
-        "ミスド",
         "コラボ",
-        "予約"
+        "予約",
+        "ミスド"
       ],
       "articles": [
+        {
+          "title": "ミスタードーナツ『ポケモン』コラボ、“歴代”大集合 「ヤドン ドーナツ」ほか、東日本＆西日本で予約受付",
+          "url": "https://www.sanyonews.jp/article/2007460?rct",
+          "source": "山陽新聞",
+          "publishedAt": "2026-10-26T15:16:53.000Z",
+          "isPR": false
+        },
         {
           "title": "歴代ミスタードーナツに登場したポケモンが大集合！「みんなで集合！冬のポケモンキャンペーン」が数量・期間限定で発売",
           "url": "https://www.walkerplus.com/article/1450376/",
@@ -452,51 +463,44 @@
       ]
     },
     {
-      "id": "663375308b18",
-      "title": "「ピルクル400」シリーズとポケモンのコラボキャンペーンが11月1日よりスタート！特製グッズが当たるキャンペーンの開催や全22種類のコラボパッケージが登場",
+      "id": "82bffa94348f",
+      "title": "【MLB】ブルワーズ・ミジオロウスキーが子供ファンとポケモンカード開封「おっ、これが出たのか！やったな！」",
       "summary": "",
-      "url": "https://www.gamer.ne.jp/news/202610260007/image/1/",
-      "image": "https://cdn.nissin.com/gr-documents/attachments/news_posts/13965/a4ef386bce209147/original/20261026-5_1.png?1792664801",
-      "leadSource": "Gamer",
-      "publishedAt": "2026-10-26T14:01:19.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV0h3QllfbkV4YlR3RDc1NWc0Z0NGUlhKOE5xM3FwcjM0VEV2T1k5NVBJTVVOR08wTHl3TXZ3ZGlscV9yQ19qdzdNbHp4ZFZsNFJXYWhpbWVMOHd5LXNrMmM5VkY3MkRWTnBXV1FQQ0FCbnd2OE1naU1CWDdVejRhVVRoQkZ0d3pJbjBSMGlVbmVEZ9IBigFBVV95cUxQWDJqeXpNdExuVTNfcnFKdW1OdkNNYWpzeHJud1RCN0JkVy1KTGd6LW9qMDRTekhvNzBMa3hoR0YzeFlTZF9qVHNHVUdRN1dCUEZOeDQzQlZhSFY0cUt4VEVKcFdCWFhtcldhUjFyMDZGWm44bVFYOVhWOEpKaXFveG9wQ2J2eHVHRnc?oc=5",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnQvCuagVwUh8rhcKEHobuIrXLhegAb8hzyETM_h7t3HTE6X3jTwiQ3xbWvTc_m3dnrzS5volOlpdswM6sQsvEmGtMrhzPYeOwnNfD3b53SZg",
+      "leadSource": "サンスポ",
+      "publishedAt": "2026-10-25T02:17:25.000Z",
+      "sourceCount": 3,
+      "articleCount": 4,
       "categories": [
-        "goodscat",
-        "event"
+        "tcgcat",
+        "biz"
       ],
       "keywords": [
-        "ピルクル",
-        "キャンペーン",
-        "グッズ"
+        "ポケモンカード",
+        "ミジオロウスキー",
+        "少年"
       ],
       "articles": [
         {
-          "title": "「ポケモンと始めよう! ピルクル習慣! プレゼントキャンペーン」(11月1日からスタート)",
-          "url": "https://www.nissin.com/jp/news/13965/",
-          "source": "日清食品グループ",
-          "publishedAt": "2026-10-26T06:35:40.000Z",
+          "title": "怪物ミジオロウスキー、少年ファンとポケモンカード開封 第２戦の前にリラックス…前日には“ＷＳ史上最速”を記録 (スポーツ報知)",
+          "url": "https://news.yahoo.co.jp/articles/40ca195c46b8d04c4a044044834e99990d139a47/images/000",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-10-25T01:46:29.000Z",
           "isPR": false
         },
         {
-          "title": "『ポケモン』ピカチュウやイーブイたちが『ピルクル 400』のパッケージに登場！ 特製グッズも当たる「ポケモンと始めよう！ ピルクル習慣！ プレゼントキャンペーン」が開催",
-          "url": "http://www.excite.co.jp/news/article/pashplus_EXCITE_500312/",
-          "source": "Excite エキサイト",
-          "publishedAt": "2026-10-26T05:38:12.000Z",
+          "title": "【動画】ミジオロウスキー、世界一争う場所で少年とポケモンカード談義",
+          "url": "https://www.nikkansports.com/baseball/mlb/news/202610250000130.html",
+          "source": "日刊スポーツ",
+          "publishedAt": "2026-10-25T00:28:31.000Z",
           "isPR": false
         },
         {
-          "title": "『ピルクル400』のパッケージにポケモンたちが登場 400にちなんだ“あのポケモン”も登場",
-          "url": "https://realsound.jp/tech/2026/10/post-2562736.html",
-          "source": "リアルサウンド",
-          "publishedAt": "2026-10-26T05:30:11.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ピルクル、ポケモンの特製グッズが当たるコラボキャンペーンを11月1日から実施",
-          "url": "https://game.watch.impress.co.jp/docs/news/2150918.html",
-          "source": "GAME Watch",
-          "publishedAt": "2026-10-26T05:30:00.000Z",
+          "title": "WS第１戦の力投から一夜明けたミジオロウスキー「ほっこり」ポケモンカードで少年と交流",
+          "url": "https://www.nikkansports.com/baseball/mlb/news/202610250000122.html",
+          "source": "日刊スポーツ",
+          "publishedAt": "2026-10-25T00:23:00.000Z",
           "isPR": false
         }
       ]
@@ -772,33 +776,33 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-26T18:00:19.496Z",
+    "previousAt": "2026-10-26T18:30:20.761Z",
     "previousCount": 166,
-    "newCount": 4
+    "newCount": 16
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-26T19:00:20.761Z",
+  "nextUpdateAt": "2026-10-26T19:30:20.496Z",
   "items": [
     {
-      "id": "111f18a8db57",
-      "title": "は*影様 ポケモンカード メガゲンガーex SAR センタリング良好 ✨ メガゲンガーex sar ポケモンカード センタリング良好",
-      "url": "https://www.ciiblog.in/detail/70011979379",
-      "host": "ciiblog.in",
-      "source": "ciiblog.in",
+      "id": "e2cb9afda7dd",
+      "title": "【ポケモン】「ピルクル400」で特製グッズをゲット！ パッケージにもポケモンが登場！",
+      "url": "https://animageplus.jp/articles/gallery/68081/1",
+      "host": "animageplus.jp",
+      "source": "アニメージュプラス",
       "summary": "",
-      "publishedAt": "2026-10-26T16:42:51.000Z",
+      "publishedAt": "2026-10-26T16:53:20.000Z",
       "image": "",
       "categories": [
-        "tcgcat"
+        "goodscat"
       ],
       "series": [
-        "tcg"
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fb3d26e500f6",
@@ -844,6 +848,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "baa826caa05d",
+      "title": "ミスタードーナツ『ポケモン』コラボ、“歴代”大集合 「ヤドン ドーナツ」ほか、東日本＆西日本で予約受付",
+      "url": "https://www.sanyonews.jp/article/2007460?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-10-26T15:16:53.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/3/f/c/e/3fce63e8c9233650279aa12138ae868d_1.jpg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4c31c56617b1",
@@ -1005,28 +1031,6 @@
         "new"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "663375308b18",
-      "title": "「ピルクル400」シリーズとポケモンのコラボキャンペーンが11月1日よりスタート！特製グッズが当たるキャンペーンの開催や全22種類のコラボパッケージが登場",
-      "url": "https://www.gamer.ne.jp/news/202610260007/image/1/",
-      "host": "gamer.ne.jp",
-      "source": "Gamer",
-      "summary": "",
-      "publishedAt": "2026-10-26T14:01:19.000Z",
-      "image": "",
-      "categories": [
-        "goodscat",
-        "event"
-      ],
-      "series": [
-        "goods"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1327,6 +1331,28 @@
       "isNew": false
     },
     {
+      "id": "663375308b18",
+      "title": "「ピルクル400」シリーズとポケモンのコラボキャンペーンが11月1日よりスタート！特製グッズが当たるキャンペーンの開催や全22種類のコラボパッケージが登場",
+      "url": "https://www.gamer.ne.jp/news/202610260007/image/22/",
+      "host": "gamer.ne.jp",
+      "source": "Gamer",
+      "summary": "",
+      "publishedAt": "2026-10-26T10:41:15.000Z",
+      "image": "",
+      "categories": [
+        "goodscat",
+        "event"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "e35d7d54b601",
       "title": "ピルクル400にカントー地方のポケモン51匹が登場！ 全22種類のパッケージとプレゼントキャンペーンが11月1日から",
       "url": "https://www.appbank.net/2026/10/26/iphone-news/3144367.php",
@@ -1410,27 +1436,6 @@
       "isNew": false
     },
     {
-      "id": "e2cb9afda7dd",
-      "title": "【ポケモン】「ピルクル400」で特製グッズをゲット！ パッケージにもポケモンが登場！",
-      "url": "https://animageplus.jp/articles/detail/68081",
-      "host": "animageplus.jp",
-      "source": "アニメージュプラス",
-      "summary": "",
-      "publishedAt": "2026-10-26T10:01:28.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b73e817e847c",
       "title": "息子が遊んでいたポケモンカードコレクションを屋根裏部屋に保管しておいた英国のある男性が持っていたコレクションが競売で156万ポンド(約28億ウォン)で売られ、関心が集まっている。 彼はポケモンカードが..",
       "url": "https://www.mk.co.kr/jp/world/12186172",
@@ -1494,111 +1499,6 @@
       "isNew": false
     },
     {
-      "id": "62c9d5f138cb",
-      "title": "【ポケポケ】メガガブリアスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/582954",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:30:04.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582954.png?date=1792066964",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d3ef0e0c9f7c",
-      "title": "【ポケポケ】メガリザードンXexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/551306",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:28:14.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551306.png?date=1774496509",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "96697715ad8f",
-      "title": "【ポケポケ】フライゴンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559119",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:28:06.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559119.png?date=1777356000",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "96dede30191d",
-      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:28:04.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "65229ee18342",
-      "title": "【ポケポケ】ハバタクカミexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562182",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:28:03.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562182.png?date=1779956758",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6bdf0e2fef54",
       "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
@@ -1618,48 +1518,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "d008ec02fedc",
-      "title": "【ポケポケ】ドドゲザンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562224",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:28:01.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562224.png?date=1779968137",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "358278432ae6",
-      "title": "【ポケポケ】テラパゴスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562183",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:28:01.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562183.png?date=1779956790",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "01e6f654bf7f",
@@ -1788,29 +1646,6 @@
       "isNew": false
     },
     {
-      "id": "2e6793514710",
-      "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:27:54.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570621.png?date=1785392758",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "go",
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "dc6d1605bf3a",
       "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
@@ -1819,27 +1654,6 @@
       "summary": "",
       "publishedAt": "2026-10-26T09:27:53.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "fb3b696295c7",
-      "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:27:53.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570624.png?date=1785392839",
       "categories": [
         "tcgcat"
       ],
@@ -1872,69 +1686,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "184b8e77d2d9",
-      "title": "【ポケポケ】ロトムexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570625",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:27:51.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570625.png?date=1785392878",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6d6801b0ec0a",
-      "title": "【ポケポケ】オンバーンデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570836",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:27:49.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570836.png?date=1785485284",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "385a63a76737",
-      "title": "【ポケポケ】ロケット団のヤドキングexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/574035",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T09:27:47.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574035.png?date=1787807945",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "1e6db1c0593a",
@@ -2331,7 +2082,7 @@
       "source": "GAME Watch",
       "summary": "日清ヨークは、「ポケモンと始めよう! ピルクル習慣! プレゼントキャンペーン」を11月1日より実施する。",
       "publishedAt": "2026-10-26T05:30:00.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2150/918/041.jpg",
+      "image": "",
       "categories": [
         "goodscat",
         "event"
@@ -2374,7 +2125,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-10-26T05:30:00.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2150/918/041.jpg",
+      "image": "",
       "categories": [
         "goodscat",
         "event"
@@ -2572,7 +2323,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5eb5d78190a0",
@@ -2582,7 +2333,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、「ポケモンローカルActs物産展」を長崎スタジアムシティにて12月25日から2027年1月17日まで開催する。",
       "publishedAt": "2026-10-26T02:31:15.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2151/064/0.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2678,6 +2429,29 @@
       "isNew": false
     },
     {
+      "id": "c774ac346a44",
+      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
+      "url": "https://snkrdunk.com/articles/31684/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-10-26T01:40:29.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "fb4bcc4502a6",
       "title": "メガリザードンXはソロ撃破も可能 / メガレベル4解放で超絶強化される可能性も【ポケモンGO】",
       "url": "https://getnews.jp/archives/3750986",
@@ -2749,27 +2523,6 @@
       "summary": "",
       "publishedAt": "2026-10-26T01:16:08.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566739.png?date=1783054233",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9c5bf50fa91e",
-      "title": "【ポケポケ】メガヘルガーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/572654",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-10-26T01:14:43.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/572654.png?date=1786676147",
       "categories": [
         "tcgcat"
       ],
@@ -2865,6 +2618,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "5e2db9cec8c7",
+      "title": "【ポケモンGO】合体?!ネクロズマ出現！色違いも大量！海外限定ポケモンもGET！幻のポケモンも?!【GOFest仙台】 Iplayer (jg4COZneM6)",
+      "url": "https://media.unisba.ac.id/c2539484/a05a68bbBzUhDgR5E1Y_XlY",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-25T22:12:58.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d09194776c4d",
@@ -2971,6 +2745,27 @@
       "isNew": false
     },
     {
+      "id": "fbb15bf5c451",
+      "title": "【ポケポケ】シャイニングメガの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/549856",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-25T18:00:20.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/549856.png?date=1773926468",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "780ca96f34b4",
       "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
       "url": "https://snkrdunk.com/articles/18862/",
@@ -3032,25 +2827,68 @@
       "isNew": false
     },
     {
-      "id": "f9ef9e73a259",
-      "title": "今まで登場したほぼ全てのポケモンが出現する神イベントがやば過ぎるwww【ポケモンGO】 Saguenéens Chicoutimi (p2UeJHgN0z)",
-      "url": "https://media.unisba.ac.id/9b15cd68/44f86546PgRUUS97IShbOjs",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
+      "id": "b37a8b4b04ca",
+      "title": "【ポケポケ】ミラクルデイズの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565225",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-25T16:39:54.000Z",
-      "image": "",
+      "publishedAt": "2026-10-25T15:42:12.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565225.png?date=1782307542",
       "categories": [
-        "event"
+        "tcgcat"
       ],
       "series": [
-        "go"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
+    },
+    {
+      "id": "2cf4169b2b2b",
+      "title": "【ポケポケ】カード一覧(カードリスト)【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/462535",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-25T14:44:41.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/462535.png?date=1726646200",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "674151d6870b",
+      "title": "【ポケポケ】メモリーライト・セレビィのおすすめ組み合わせ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/516409",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-25T14:44:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/516409.png?date=1756455697",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "cd35024adaa9",
@@ -3137,6 +2975,28 @@
       "isNew": false
     },
     {
+      "id": "474be720e281",
+      "title": "【ポケポケ】最強カードランキング｜Tier表【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/470479",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-25T13:24:06.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/470479.png?date=1764144386",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "580ad683adc5",
       "title": "【感動】最後にニンゲンを救った「意外すぎる救世主」とは…【ぽこ あ ポケモン】",
       "url": "https://youtu.be/yfUXdwdL8IQ",
@@ -3156,24 +3016,25 @@
       "isNew": false
     },
     {
-      "id": "74c37e1832ec",
-      "title": "【ポケモンチャンピオンズ】個体値の廃止と影響まとめ",
-      "url": "https://gamewith.jp/pokemon-champions/546462",
+      "id": "ac0f1935f9f6",
+      "title": "【ポケポケ】プロモカードの入手方法一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/462569",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-10-25T12:30:09.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546462.png?date=1775195996",
+      "publishedAt": "2026-10-25T12:32:12.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/462569.png?date=1730618408",
       "categories": [
-        "guide",
-        "community"
+        "tcgcat"
       ],
-      "series": [],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "20dc2d2de92b",
@@ -3196,6 +3057,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "fd2cc03ffbb0",
+      "title": "【ポケポケ】ポケポケとは？遊び方とできることまとめ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/464401",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-10-25T12:26:04.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/464401.png?date=1726817729",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "9f09a7afb0da",
@@ -3367,6 +3249,28 @@
       "isNew": false
     },
     {
+      "id": "b9a4027f9092",
+      "title": "ポケカ30周年記念イベント開催 ゲーム対戦や記念撮影などで盛り上がる",
+      "url": "https://txbiz.tv-tokyo.co.jp/txn/news_txn/post_351211",
+      "host": "txbiz.tv-tokyo.co.jp",
+      "source": "テレ東BIZ",
+      "summary": "",
+      "publishedAt": "2026-10-25T08:20:00.000Z",
+      "image": "https://txbiz.tv-tokyo.co.jp/images/thumbnail/txn/20261025_tn_ns105_6664663aa54ba826_9.jpg",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "cb97b9f907dd",
       "title": "【🔴ソロランク】質問歓迎ちゃんねる【ポケモンユナイト】【INSOMNIA】 Cadenasso (wrUNcht0zY)",
       "url": "https://media.unisba.ac.id/1e34d1df/ca5b4771Iz8XMDZxAgobJlo",
@@ -3510,6 +3414,70 @@
       "isNew": false
     },
     {
+      "id": "82bffa94348f",
+      "title": "【MLB】ブルワーズ・ミジオロウスキーが子供ファンとポケモンカード開封「おっ、これが出たのか！やったな！」",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV0h3QllfbkV4YlR3RDc1NWc0Z0NGUlhKOE5xM3FwcjM0VEV2T1k5NVBJTVVOR08wTHl3TXZ3ZGlscV9yQ19qdzdNbHp4ZFZsNFJXYWhpbWVMOHd5LXNrMmM5VkY3MkRWTnBXV1FQQ0FCbnd2OE1naU1CWDdVejRhVVRoQkZ0d3pJbjBSMGlVbmVEZ9IBigFBVV95cUxQWDJqeXpNdExuVTNfcnFKdW1OdkNNYWpzeHJud1RCN0JkVy1KTGd6LW9qMDRTekhvNzBMa3hoR0YzeFlTZF9qVHNHVUdRN1dCUEZOeDQzQlZhSFY0cUt4VEVKcFdCWFhtcldhUjFyMDZGWm44bVFYOVhWOEpKaXFveG9wQ2J2eHVHRnc?oc=5",
+      "host": "sanspo.com",
+      "source": "サンスポ",
+      "summary": "",
+      "publishedAt": "2026-10-25T02:17:25.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "97bc103fd8e7",
+      "title": "怪物ミジオロウスキー、少年ファンとポケモンカード開封 第２戦の前にリラックス…前日には“ＷＳ史上最速”を記録 (スポーツ報知)",
+      "url": "https://news.yahoo.co.jp/articles/40ca195c46b8d04c4a044044834e99990d139a47/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-25T01:46:29.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3xudcUclfbXjZqAvGT8NJnQvCuagVwUh8rhcKEHobuIrXLhegAb8hzyETM_h7t3HTE6X3jTwiQ3xbWvTc_m3dnrzS5volOlpdswM6sQsvEmGtMrhzPYeOwnNfD3b53SZg",
+      "categories": [
+        "tcgcat",
+        "biz"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a5c556788925",
+      "title": "バトルもライブも体験も！ポケモンカードゲーム「30th CELEBRATION EVENT」",
+      "url": "https://dtimes.jp/post-1428479/",
+      "host": "dtimes.jp",
+      "source": "Dtimes",
+      "summary": "",
+      "publishedAt": "2026-10-25T01:32:27.000Z",
+      "image": "https://dtimes.jp/wp-content/uploads/2026/10/DSC_5424-20261025-e2fb3a.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a58890f754b5",
       "title": "【ポケモン風波】ポムケンのモチーフと進化予想【ポケモンウインド・ウェーブ】",
       "url": "https://gamewith.jp/pokemon/546699",
@@ -3571,6 +3539,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "89e837427ff2",
+      "title": "WS第１戦の力投から一夜明けたミジオロウスキー「ほっこり」ポケモンカードで少年と交流",
+      "url": "https://www.nikkansports.com/baseball/mlb/news/202610250000122.html",
+      "host": "nikkansports.com",
+      "source": "日刊スポーツ",
+      "summary": "",
+      "publishedAt": "2026-10-25T00:23:00.000Z",
+      "image": "https://www.nikkansports.com/baseball/mlb/news/img/202610250000122-w500_0.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4db6b399b386",
@@ -3674,6 +3663,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "06146948cab3",
+      "title": "「ポケカ」30周年商品、買取・転売で“中身すり替え”不正続出…実店舗やネットで規制強化 シュリンクなしを悪用（オタク総研）",
+      "url": "https://news.yahoo.co.jp/articles/ff025723d55166a0be2a68168dfdaa119ef0c28b",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-10-24T22:23:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261025-00072300-otakulab-000-4778-view.jpg?exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "5ef400f9f49a",
