@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T19:57:33.061Z",
+  "updatedAt": "2026-10-26T20:30:16.986Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 164,
-  "todayCount": 12,
+  "todayCount": 11,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 24
+      "count": 23
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 19
+      "count": 20
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 24
+      "count": 23
     },
     {
       "id": "media",
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 31
+      "count": 32
     },
     {
       "id": "tcg",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 37
+      "count": 36
     }
   ],
   "weapons": [],
@@ -109,7 +109,7 @@
     },
     {
       "name": "Unisba Media",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Yahoo!ニュース",
@@ -124,15 +124,15 @@
       "count": 8
     },
     {
-      "name": "山陽新聞",
-      "count": 5
-    },
-    {
       "name": "GAME Watch",
       "count": 5
     },
     {
       "name": "インサイド",
+      "count": 4
+    },
+    {
+      "name": "山陽新聞",
       "count": 4
     },
     {
@@ -248,10 +248,6 @@
       "count": 1
     },
     {
-      "name": "ABEMA",
-      "count": 1
-    },
-    {
       "name": "館林市",
       "count": 1
     },
@@ -285,6 +281,10 @@
     },
     {
       "name": "ライブドアニュース",
+      "count": 1
+    },
+    {
+      "name": "ABEMA",
       "count": 1
     },
     {
@@ -386,26 +386,19 @@
       "url": "https://game.watch.impress.co.jp/docs/news/2149782.html",
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2149/782/012.jpg",
       "leadSource": "GAME Watch",
-      "publishedAt": "2026-10-26T15:16:53.000Z",
-      "sourceCount": 6,
-      "articleCount": 9,
+      "publishedAt": "2026-10-26T15:00:00.000Z",
+      "sourceCount": 5,
+      "articleCount": 8,
       "categories": [
-        "new",
-        "goodscat"
+        "goodscat",
+        "new"
       ],
       "keywords": [
+        "ミスド",
         "コラボ",
-        "予約",
-        "ミスド"
+        "予約"
       ],
       "articles": [
-        {
-          "title": "ミスタードーナツ『ポケモン』コラボ、“歴代”大集合 「ヤドン ドーナツ」ほか、東日本＆西日本で予約受付",
-          "url": "https://www.sanyonews.jp/article/2007460?rct",
-          "source": "山陽新聞",
-          "publishedAt": "2026-10-26T15:16:53.000Z",
-          "isPR": false
-        },
         {
           "title": "歴代ミスタードーナツに登場したポケモンが大集合！「みんなで集合！冬のポケモンキャンペーン」が数量・期間限定で発売",
           "url": "https://www.walkerplus.com/article/1450376/",
@@ -720,12 +713,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-10-26T19:30:19.797Z",
-    "previousCount": 166,
-    "newCount": 4
+    "previousAt": "2026-10-26T19:57:33.061Z",
+    "previousCount": 164,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-10-26T20:27:33.061Z",
+  "nextUpdateAt": "2026-10-26T21:00:16.986Z",
   "items": [
     {
       "id": "3a29c3fefe74",
@@ -746,7 +739,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3f4e3bd3edff",
@@ -767,7 +760,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b37a8b4b04ca",
@@ -788,7 +781,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e2cb9afda7dd",
@@ -875,28 +868,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "baa826caa05d",
-      "title": "ミスタードーナツ『ポケモン』コラボ、“歴代”大集合 「ヤドン ドーナツ」ほか、東日本＆西日本で予約受付",
-      "url": "https://www.sanyonews.jp/article/2007460?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-10-26T15:16:53.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/3/f/c/e/3fce63e8c9233650279aa12138ae868d_1.jpg",
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "4c31c56617b1",
@@ -2729,27 +2700,6 @@
       "isNew": false
     },
     {
-      "id": "3102bb1d2fe9",
-      "title": "テレ東系にて「ポケモンとどこいく！？」が現在放送中！",
-      "url": "https://abema.tv/channels/pokemon-1/slots/9QLZ6mG3J3WrHu",
-      "host": "abema.tv",
-      "source": "ABEMA",
-      "summary": "",
-      "publishedAt": "2026-10-26T01:20:13.000Z",
-      "image": "",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "f78820ffe4d0",
       "title": "メガリザードンYはソロでもサクサク周回可能 / メガレベル4解放でほのおタイプ最強クラスになる可能性大【ポケモンGO】",
       "url": "https://getnews.jp/archives/3750982",
@@ -3145,6 +3095,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "9f09a7afb0da",
+      "title": "シャドウミュウツー…だと!?レイドパス消費の仕様変更がめっちゃ良いアプデやん!!【ポケモンGO】 Zionist (k6vU6gKyZQ)",
+      "url": "https://media.unisba.ac.id/20177644/1d2f3955ihLx5OLgEbw",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-10-25T12:05:33.000Z",
+      "image": "",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1639611deceb",
@@ -3807,6 +3778,27 @@
       ],
       "series": [
         "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "3102bb1d2fe9",
+      "title": "テレ東系にて「ポケモンとどこいく！？」が現在放送中！",
+      "url": "https://abema.tv/channels/pokemon-2/slots/Cr68iAm34g84jh",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-10-24T15:21:41.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
