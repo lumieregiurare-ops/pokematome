@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-04T21:30:18.988Z",
+  "updatedAt": "2026-11-04T22:00:19.128Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 147,
-  "todayCount": 11,
+  "total": 144,
+  "todayCount": 12,
   "categories": [
     {
       "id": "new",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 24
+      "count": 25
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 37
+      "count": 36
     },
     {
       "id": "goodscat",
@@ -37,7 +37,7 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 13
+      "count": 12
     },
     {
       "id": "guide",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 2
+      "count": 1
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 58
+      "count": 56
     }
   ],
   "series": [
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 28
+      "count": 29
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 34
+      "count": 33
     },
     {
       "id": "anime",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 7
+      "count": 6
     },
     {
       "id": "sleep",
@@ -105,14 +105,14 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
-    },
-    {
-      "name": "Nintendo DREAM WEB",
-      "count": 7
+      "count": 15
     },
     {
       "name": "ガジェット通信",
+      "count": 8
+    },
+    {
+      "name": "Nintendo DREAM WEB",
       "count": 7
     },
     {
@@ -120,7 +120,7 @@
       "count": 6
     },
     {
-      "name": "YouTube",
+      "name": "SNKRDUNK",
       "count": 5
     },
     {
@@ -132,11 +132,7 @@
       "count": 4
     },
     {
-      "name": "SNKRDUNK",
-      "count": 4
-    },
-    {
-      "name": "電撃オンライン",
+      "name": "YouTube",
       "count": 4
     },
     {
@@ -145,6 +141,10 @@
     },
     {
       "name": "にじめん",
+      "count": 3
+    },
+    {
+      "name": "電撃オンライン",
       "count": 3
     },
     {
@@ -165,10 +165,6 @@
     },
     {
       "name": "玩具人 TOY PEOPLE",
-      "count": 2
-    },
-    {
-      "name": "いこーよニュース",
       "count": 2
     },
     {
@@ -252,6 +248,10 @@
       "count": 1
     },
     {
+      "name": "いこーよニュース",
+      "count": 1
+    },
+    {
       "name": "TBS NEWS DIG",
       "count": 1
     },
@@ -297,10 +297,6 @@
     },
     {
       "name": "エンタメTIMES",
-      "count": 1
-    },
-    {
-      "name": "モデルプレス",
       "count": 1
     }
   ],
@@ -872,13 +868,32 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-04T21:00:17.545Z",
-    "previousCount": 148,
+    "previousAt": "2026-11-04T21:30:18.988Z",
+    "previousCount": 147,
     "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-04T22:00:18.988Z",
+  "nextUpdateAt": "2026-11-04T22:30:19.128Z",
   "items": [
+    {
+      "id": "d860bf047612",
+      "title": "カスミのコダックLV.15 : 旧裏 [PMCG-GYM1 No.054](ポケモンジム第1弾「ハナダシティジム カスミ」)",
+      "url": "https://snkrdunk.com/apparels/457694/used/52489438",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-04T21:34:18.000Z",
+      "image": "https://snkrdunk.com/apparels/457694/used/52489438/opengraph-image?c19ad04227fce4cf",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "59b4566287dd",
       "title": "『ポケモン』自分だけの「てもち」が作れるカスタマイズグッズが楽しい！ 一緒に飾れるもちもの、歴代モンスターボールのチャームも見逃せない",
@@ -898,7 +913,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f5dc0281955b",
@@ -1120,25 +1135,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "447d199ec79d",
-      "title": "【ぽこポケ】エキスパンションパス第2弾が12/9配信決定。アクセサリーに家具、ポケモンと新要素盛りだくさん",
-      "url": "https://dengekionline.com/article/202611/93080",
-      "host": "dengekionline.com",
-      "source": "電撃オンライン",
-      "summary": "",
-      "publishedAt": "2026-11-04T14:55:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/93080/ogp_gdJM.jpg?x=1280",
-      "categories": [
-        "media"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1483,28 +1479,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6a297675fe33",
-      "title": "【ポケカ/対戦】解説・談義かなり多め注意。カブ、シティリーグで使用のドラパでミラー対戦！",
-      "url": "https://youtu.be/H0PWeDLgwJs?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-11-04T11:00:31.000Z",
-      "image": "",
-      "categories": [
-        "tcgcat",
-        "community"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2158,7 +2132,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a639c05b93f9",
@@ -2234,25 +2208,6 @@
       "image": "",
       "categories": [
         "event"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c0c5a8e40ec3",
-      "title": "アイナ・ジ・エンド、『ポケモン GO』10周年記念CMで姉妹共演「一緒に出られて嬉しかった」 (クランクイン！)",
-      "url": "https://news.yahoo.co.jp/articles/355f5b2b93f24c3272bb0e80e24e0d30dc6e806c/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-04T08:00:24.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3j2Xc-_ypRo_MbDt6ekL9RPRZcwsPwkIgG9uMXzyK5XkCLt4Qqt5QyBAmZArlaXHgjMrGkLQsZ3dAugFPJeDiQQmr6-JG7jGZ71rHrEyct0f8T9xOaavNpbtEcaCX7SMe",
-      "categories": [
-        "other"
       ],
       "series": [],
       "isOfficial": false,
@@ -2401,25 +2356,6 @@
       "series": [
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e1309a1d8987",
-      "title": "ポケモンの箱を積むと82cmのタワーに！1.5歳から遊べる「はこあそび」で知育体験",
-      "url": "https://report.iko-yo.net/articles/35407",
-      "host": "report.iko-yo.net",
-      "source": "いこーよニュース",
-      "summary": "",
-      "publishedAt": "2026-11-04T06:23:30.000Z",
-      "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35563/normal.png?1793772617",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3449,6 +3385,27 @@
       "isNew": false
     },
     {
+      "id": "8a72b01216d3",
+      "title": "【ワイルドエリア仙台】「タマゴ名人」ボーナスは必要なのか？ →“ポケ活”のスタイル次第では不要、レイドパスに全力課金の方が良い場合も【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3752729",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-02T23:30:36.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1102_pokemon-8.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "2f512e5ff9ca",
       "title": "『初代ポケモン』約40万円のコラボギターに「超カッコイイ」と反響 11月19日より抽選販売の応募受付スタート",
       "url": "https://magmix.jp/post/383769",
@@ -3722,7 +3679,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "58f10e63ab13",
@@ -3809,8 +3766,8 @@
       "isNew": false
     },
     {
-      "id": "97c25a675aa8",
-      "title": "おはスタ【ポケモン最新情報を調査！ポケスタ団！＆ハナコのアニポケルーム】(テレ東、2026/11/2 07:05 OA)の番組情報ページ",
+      "id": "6754a309a1ba",
+      "title": "ポケモン最新情報を調査！ポケスタ団！＆ハナコのアニポケルーム",
       "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611020705.html",
       "host": "tv-tokyo.co.jp",
       "source": "テレビ東京",
@@ -3825,7 +3782,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "73c4c67c173d",
@@ -3903,27 +3860,6 @@
         "event"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "281e8c9bab87",
-      "title": "(画像1/1) ゲーム「ポケモンユナイト」サービス終了へ 2027年3月23日をもって約5年の歴史に幕【サービス終了までのスケジュール一覧】",
-      "url": "https://mdpr.jp/photo/detail/20634715",
-      "host": "mdpr.jp",
-      "source": "モデルプレス",
-      "summary": "",
-      "publishedAt": "2026-11-01T21:46:23.000Z",
-      "image": "https://img-mdpr.freetls.fastly.net/article/qrop/nm/qropXPXi-FfbMRPWOr2SL7qPadfssIoApJ5KyXnWUh0.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
