@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T22:30:17.395Z",
+  "updatedAt": "2026-11-05T23:00:18.786Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -12,7 +12,7 @@
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 14
+      "count": 15
     },
     {
       "id": "update",
@@ -64,7 +64,7 @@
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 44
+      "count": 45
     },
     {
       "id": "go",
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 5
+      "count": 6
     },
     {
       "id": "unite",
@@ -124,15 +124,15 @@
       "count": 4
     },
     {
+      "name": "山陽新聞",
+      "count": 4
+    },
+    {
       "name": "Nintendo DREAM WEB",
       "count": 3
     },
     {
       "name": "ファミ通",
-      "count": 3
-    },
-    {
-      "name": "山陽新聞",
       "count": 3
     },
     {
@@ -189,10 +189,6 @@
     },
     {
       "name": "ポケットモンスターオフィシャルサイト",
-      "count": 1
-    },
-    {
-      "name": "電撃ホビーウェブ",
       "count": 1
     },
     {
@@ -777,12 +773,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-05T22:00:19.293Z",
-    "previousCount": 175,
+    "previousAt": "2026-11-05T22:30:17.395Z",
+    "previousCount": 170,
     "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-05T23:00:17.395Z",
+  "nextUpdateAt": "2026-11-05T23:30:18.786Z",
   "items": [
     {
       "id": "466e157610f0",
@@ -801,7 +797,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bdf61175c76b",
@@ -962,27 +958,6 @@
       "summary": "",
       "publishedAt": "2026-11-05T14:40:46.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4264613ead10",
-      "title": "【ポケポケ】波動ビートの当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/558029",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-05T14:20:11.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/558029.png?date=1776951553",
       "categories": [
         "tcgcat"
       ],
@@ -1216,27 +1191,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "97f318c62daf",
-      "title": "バンダイ「ムービーモンスターシリーズ ゴジラ(2026)」など：Amazonおもちゃ売れ筋ランキングBEST10",
-      "url": "https://hobby.dengeki.com/news/3219646/",
-      "host": "hobby.dengeki.com",
-      "source": "電撃ホビーウェブ",
-      "summary": "「ムービーモンスターシリーズ ゴジラ(2026)」やポケカ、Tamagotchi Paradiseなどが人気！Amazonおもちゃ売れ筋ランキングBEST10！ #ゴジラ #たまごっち",
-      "publishedAt": "2026-11-05T10:00:00.000Z",
-      "image": "https://images-fe.ssl-images-amazon.com/images/I/711dPI8FndL._AC_SL1500_.jpg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2155,6 +2109,30 @@
       "isNew": false
     },
     {
+      "id": "57496fb3e454",
+      "title": "ポケモン新作映画、主人公の名前発表 映像＆場面カット解禁で史上初のポケカ題材作品",
+      "url": "https://www.sanyonews.jp/article/1981332?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-05T01:10:24.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/3/5/6/9356e1d04bf6edaefbe6c1c6b3d20ad3_1.jpg",
+      "categories": [
+        "new",
+        "tcgcat"
+      ],
+      "series": [
+        "main",
+        "tcg",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "4152aafc81a1",
       "title": "【ポケポケ】メガヤミラミexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565899",
@@ -2312,6 +2290,27 @@
         "new"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4264613ead10",
+      "title": "【ポケポケ】波動ビートの当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/558029",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-04T17:59:14.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/558029.png?date=1776951553",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3449,7 +3448,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-11-03T07:05:51.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2153/284/0.jpg",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -3524,6 +3523,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "519223cc6737",
+      "title": "【ポケモンSV】ひかるおまもりの入手場所と効果・使い方【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/375491",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-03T06:41:49.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375491.png?date=1668910805",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "47c25ede6f8a",
@@ -3774,27 +3794,6 @@
       "isNew": false
     },
     {
-      "id": "cfc9d04f9583",
-      "title": "【ポケモンSV】コノヨザルの進化と色違い・弱点と出現場所【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373400",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-03T06:28:10.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6bcf3b65181b",
       "title": "【ポケモンSV】ソウブレイズの色違いと進化・入手場所【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/367025",
@@ -3960,7 +3959,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "16041bf5bde3",
@@ -4175,12 +4174,12 @@
     {
       "id": "15ecfa689864",
       "title": "【11月3日更新】ポケモンカード抽選情報まとめ2026｜最新の予約・再販・倍率・当選の注意点まとめ",
-      "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/pokemon-card-lottery-information-2026/blt9aa2212834fd35bf",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPczI1RFc2bFRpVVBZMkNEal9oRnZGY3FxTVgwNmZ2QzhVRHcyMjlnS2RCdEMzU2RfSkQ4cm5NTTNlN1JVYkVpU21SNl9uQUFhUzhPSTh0Z1RUdXQ5UWxDWmtkMUZUeF9QZDNjNnpKOVVSWkRaa0VObkJRR0lVQzJxTTEtb3dIWTd4Q1ROUGFBVEVRNUNHZ29GVWpubHVHZXZoYWhVMElCRFhldHROWGRkQlpUa2JCZlhhV0E?oc=5",
       "host": "goal.com",
       "source": "Goal.com",
       "summary": "",
       "publishedAt": "2026-11-03T04:14:08.000Z",
-      "image": "https://assets.goal.com/images/v3/blt19c9c61a7f596910/pokemon-card-20261127.jpg",
+      "image": "",
       "categories": [
         "tcgcat",
         "new"
@@ -4191,7 +4190,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
