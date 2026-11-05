@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-05T05:00:16.690Z",
+  "updatedAt": "2026-11-05T05:30:21.306Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 142,
+  "total": 144,
   "todayCount": 43,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 15
+      "count": 16
     },
     {
       "id": "update",
@@ -22,17 +22,17 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 21
+      "count": 20
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 30
+      "count": 31
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 17
+      "count": 18
     },
     {
       "id": "media",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 54
+      "count": 55
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 22
+      "count": 23
     },
     {
       "id": "go",
@@ -94,26 +94,26 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 28
+      "count": 30
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 40
+      "count": 39
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 17
+      "count": 16
     },
     {
       "name": "ガジェット通信",
-      "count": 10
+      "count": 11
     },
     {
       "name": "インサイド",
-      "count": 6
+      "count": 7
     },
     {
       "name": "山陽新聞",
@@ -124,15 +124,15 @@
       "count": 5
     },
     {
+      "name": "SNKRDUNK",
+      "count": 4
+    },
+    {
       "name": "4Gamer",
       "count": 3
     },
     {
       "name": "GAME Watch",
-      "count": 3
-    },
-    {
-      "name": "SNKRDUNK",
       "count": 3
     },
     {
@@ -184,10 +184,6 @@
       "count": 1
     },
     {
-      "name": "ABEMA TIMES",
-      "count": 1
-    },
-    {
       "name": "ｄメニューニュース",
       "count": 1
     },
@@ -220,11 +216,11 @@
       "count": 1
     },
     {
-      "name": "日刊スポーツ",
+      "name": "コラボカフェ",
       "count": 1
     },
     {
-      "name": "コラボカフェ",
+      "name": "日刊スポーツ",
       "count": 1
     },
     {
@@ -276,6 +272,10 @@
       "count": 1
     },
     {
+      "name": "マグミクス",
+      "count": 1
+    },
+    {
       "name": "千葉テレビ放送",
       "count": 1
     },
@@ -290,6 +290,10 @@
     {
       "name": "eeo",
       "count": 1
+    },
+    {
+      "name": "エンタメTIMES",
+      "count": 1
     }
   ],
   "topics": [
@@ -300,7 +304,7 @@
       "url": "https://www.4gamer.net/games/945/G094534/20261105007/",
       "image": "https://www.4gamer.net/games/945/G094534/20261105007/SS/002.jpg",
       "leadSource": "4Gamer",
-      "publishedAt": "2026-11-05T04:27:35.000Z",
+      "publishedAt": "2026-11-05T05:05:53.000Z",
       "sourceCount": 10,
       "articleCount": 10,
       "categories": [
@@ -314,6 +318,13 @@
       ],
       "articles": [
         {
+          "title": "アクセサリーの装着や新しい家具＆ポケモンが登場！『ぽこ あ ポケモン』有料追加コンテンツ『ぽこ あ ポケモン エキスパンションパス』第2弾「どきどきデコレーション」12月9日(水)に配信決定！",
+          "url": "https://gamewith.jp/gamedb/14410/articles/65354",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T05:05:53.000Z",
+          "isPR": false
+        },
+        {
           "title": "『ぽこ あ ポケモン』にアクセサリー要素が追加 有料追加コンテンツ第2弾が12月9日配信決定（リアルサウンド）",
           "url": "https://news.yahoo.co.jp/articles/31dd1f586baf30ee9e23a34dbecc1bbfb1c79152",
           "source": "Yahoo!ニュース",
@@ -325,13 +336,6 @@
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZmY3ZXdNRC12Q3Y2UVBoN0ZOcXNjMXFUOHFjTlIxVUNGdTdXZ3ZMMk5KQnlULVhYeWdTcEhTampMdk1LdFJnZW0xOXdhNUJXdVNqNHY1bWdQTE5zeDl3QWRvMk91aDhlX3M4cHdodGFtakYzN2djNC1EeHZ5T2lrQV9NWdIBiAFBVV95cUxQRl9XcUxmd29wUUliYzVMTUNJRUtPTVNENjVraTFTUWZlYUNuNnowMlRYMmZlRlZjSmtJV0w0RUlEajV3OVd6LUp3QWw1ZDA3c0tBaGF6ZXBKMVZEdzhxYVF3RzQza1RreFMyNlNOeWFpM3dzWkdXRk1JUDhfZFdHNF9SU1JOUERP?oc=5",
           "source": "Saiga NAK",
           "publishedAt": "2026-11-05T02:27:30.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ぽこあポケモン】追加コンテンツ(DLC)第2弾の配信日はいつ？最新情報まとめ【ぽこポケ】",
-          "url": "https://gamewith.jp/pocoapokemon/575797",
-          "source": "GameWith",
-          "publishedAt": "2026-11-04T18:21:04.000Z",
           "isPR": false
         },
         {
@@ -356,7 +360,7 @@
           "isPR": false
         },
         {
-          "title": "【ぽこポケ】「ぽこ あ ポケモン」有料DLC第2弾「どきどきデコレーション」が12月9日配信決定！11月にはゲーム内イベント「カジッチュのみついりりんごあつめ」も開催",
+          "title": "【ぽこポケ】「ぽこ あ ポケモン」有料DLC第2弾「どきどきデコレーション」が12月9日配信決定！",
           "url": "https://game.watch.impress.co.jp/docs/news/2153744.html",
           "source": "GAME Watch",
           "publishedAt": "2026-11-04T14:16:55.000Z",
@@ -372,18 +376,18 @@
       ]
     },
     {
-      "id": "d28f4e2c309a",
-      "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
+      "id": "0d890b6b4e77",
+      "title": "「Pokémon GO ワイルドエリア：仙台・東北」いよいよ開催！プレイエリアは宮城県全域、地域の魅力を再発見する特別な冒険",
       "summary": "",
-      "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
-      "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
-      "leadSource": "宮城県",
-      "publishedAt": "2026-11-05T04:24:01.000Z",
-      "sourceCount": 7,
-      "articleCount": 7,
+      "url": "https://getnews.jp/archives/3753243",
+      "image": "https://straightpress.jp/wp-content/uploads/2026/11/6d55eaf46a06846f23d84b3dd4859c47.jpg",
+      "leadSource": "ガジェット通信",
+      "publishedAt": "2026-11-05T05:00:09.000Z",
+      "sourceCount": 8,
+      "articleCount": 8,
       "categories": [
-        "event",
-        "other"
+        "other",
+        "event"
       ],
       "keywords": [
         "仙台",
@@ -391,6 +395,13 @@
         "mon"
       ],
       "articles": [
+        {
+          "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
+          "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
+          "source": "宮城県",
+          "publishedAt": "2026-11-05T04:24:01.000Z",
+          "isPR": false
+        },
         {
           "title": "『ポケモン GO』が宮城県全域を舞台に！ 「Pokémon GO ワイルドエリア：仙台・東北」11月6日から",
           "url": "https://www.appbank.net/2026/11/04/game/3153633.php",
@@ -528,6 +539,49 @@
       ]
     },
     {
+      "id": "2156d976f9e7",
+      "title": "ミスド×ポケモンの店頭販売が本日スタート 新商品「ヤドン ドーナツ」の予約は11月18日から",
+      "summary": "",
+      "url": "https://realsound.jp/tech/2026/11/post-2573840.html",
+      "image": "https://realsound.jp/wp-content/uploads/2026/11/20261104-misudopokemon-99.jpg",
+      "leadSource": "リアルサウンド",
+      "publishedAt": "2026-11-04T04:08:27.000Z",
+      "sourceCount": 3,
+      "articleCount": 4,
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "keywords": [
+        "ミスド",
+        "ヤドン",
+        "ドーナツ"
+      ],
+      "articles": [
+        {
+          "title": "【ミスド×ポケモン】今年でコラボ30周年！ 初登場「ヤドン」や歴代のポケモンたちがドーナツになって大集合♪（ぴあ）",
+          "url": "https://news.yahoo.co.jp/articles/864036727c59ff1cbd63fe66ccbcf33636eabf99",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-03T12:00:30.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ミスド」×『ポケモン』2026年はアローラディグダ！ヤドンのドーナツが初登場",
+          "url": "https://www.inside-games.jp/article/2026/11/03/190316.html",
+          "source": "インサイド",
+          "publishedAt": "2026-11-03T08:40:02.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ミスド」×『ポケモン』2026年はアローラディグダ！ヤドンのドーナツが初登場 2枚目の写真・画像",
+          "url": "https://s.inside-games.jp/article/img/2026/11/03/190316/1796007.html",
+          "source": "インサイド",
+          "publishedAt": "2026-11-03T08:40:02.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "6b987912841c",
       "title": "【ぽこポケ】「カジッチュ」と“ともだち”になれる！11月16日よりイベントが開催決定",
       "summary": "ポケモンは、Nintendo Switch 2用スローライフ・サンドボックス「ぽこ あ ポケモン」において、イベント「カジッチュのみついりりんごあつめ」を11月16日より開催する。期間は12月1日4時59分まで。",
@@ -599,42 +653,6 @@
       ]
     },
     {
-      "id": "2156d976f9e7",
-      "title": "ミスド×ポケモンの店頭販売が本日スタート 新商品「ヤドン ドーナツ」の予約は11月18日から",
-      "summary": "",
-      "url": "https://realsound.jp/tech/2026/11/post-2573840.html",
-      "image": "https://realsound.jp/wp-content/uploads/2026/11/20261104-misudopokemon-99.jpg",
-      "leadSource": "リアルサウンド",
-      "publishedAt": "2026-11-04T04:08:27.000Z",
-      "sourceCount": 3,
-      "articleCount": 3,
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "keywords": [
-        "ミスド",
-        "ヤドン",
-        "ドーナツ"
-      ],
-      "articles": [
-        {
-          "title": "【ミスド×ポケモン】今年でコラボ30周年！ 初登場「ヤドン」や歴代のポケモンたちがドーナツになって大集合♪（ぴあ）",
-          "url": "https://news.yahoo.co.jp/articles/864036727c59ff1cbd63fe66ccbcf33636eabf99",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-03T12:00:30.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ミスド」×『ポケモン』2026年はアローラディグダ！ヤドンのドーナツが初登場",
-          "url": "https://www.inside-games.jp/article/2026/11/03/190316.html",
-          "source": "インサイド",
-          "publishedAt": "2026-11-03T08:40:02.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "fac512499116",
       "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【11/4更新】",
       "summary": "",
@@ -643,15 +661,15 @@
       "leadSource": "SNKRDUNK",
       "publishedAt": "2026-11-04T23:47:13.000Z",
       "sourceCount": 2,
-      "articleCount": 3,
+      "articleCount": 4,
       "categories": [
         "tcgcat",
         "new"
       ],
       "keywords": [
         "更新",
-        "celebration",
-        "ポケカ"
+        "ポケカ",
+        "予約"
       ],
       "articles": [
         {
@@ -662,38 +680,17 @@
           "isPR": false
         },
         {
+          "title": "【ポケカ】「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」の予約・抽選情報まとめ【11/3更新】",
+          "url": "https://snkrdunk.com/articles/33534/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-03T08:00:00.000Z",
+          "isPR": false
+        },
+        {
           "title": "【11月3日更新】ポケモンカード抽選情報まとめ2026｜最新の予約・再販・倍率・当選の注意点まとめ",
           "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/pokemon-card-lottery-information-2026/blt9aa2212834fd35bf",
           "source": "Goal.com",
           "publishedAt": "2026-11-03T04:14:08.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "5cce1dd3f34d",
-      "title": "仙台市長の海外出張費6600万円高すぎる 「ポケモンGO」イベント誘致を強調",
-      "summary": "",
-      "url": "https://times.abema.tv/articles/-/10286387",
-      "image": "https://times-abema.ismcdn.jp/mwimgs/f/6/1200w/img_f63fa620f21d9b6a11592a842cd4f0de137845.jpg",
-      "leadSource": "ABEMA TIMES",
-      "publishedAt": "2026-11-05T03:15:35.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "event"
-      ],
-      "keywords": [
-        "ポケモンGO",
-        "イベント",
-        "仙台市長"
-      ],
-      "articles": [
-        {
-          "title": "仙台市長の海外出張費6600万円高すぎる 「ポケモンGO」イベント誘致を強調（テレビ朝日系（ANN））",
-          "url": "https://news.yahoo.co.jp/articles/bd27c2649986d057fa3f4a122257f8a9cc37c340",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-05T03:03:15.000Z",
           "isPR": false
         }
       ]
@@ -780,16 +777,84 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "2ba0b0a68ba3",
+      "title": "仙台で「ラプラスカフェ」 3県応援ポケモンコラボメニュー提供、商品販売も",
+      "summary": "",
+      "url": "https://sendai.keizai.biz/headline/4516/",
+      "image": "https://images.keizai.biz/sendai_keizai/headline/1793713930_photo.jpg",
+      "leadSource": "仙台経済新聞",
+      "publishedAt": "2026-11-03T14:08:24.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "goodscat"
+      ],
+      "keywords": [
+        "ラプラスカフェ",
+        "ポケモンコラボメニュー",
+        "仙台"
+      ],
+      "articles": [
+        {
+          "title": "仙台で「ラプラスカフェ」 3県応援ポケモンコラボメニュー提供、商品販売も（みんなの経済新聞ネットワーク）",
+          "url": "https://news.yahoo.co.jp/articles/7cf11222e443c0264672222bec4f65a5fb52c457",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-03T14:02:39.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-05T04:30:16.650Z",
+    "previousAt": "2026-11-05T05:00:16.690Z",
     "previousCount": 142,
-    "newCount": 3
+    "newCount": 6
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-05T05:30:16.690Z",
+  "nextUpdateAt": "2026-11-05T06:00:21.306Z",
   "items": [
+    {
+      "id": "a9ca69552568",
+      "title": "アクセサリーの装着や新しい家具＆ポケモンが登場！『ぽこ あ ポケモン』有料追加コンテンツ『ぽこ あ ポケモン エキスパンションパス』第2弾「どきどきデコレーション」12月9日(水)に配信決定！",
+      "url": "https://gamewith.jp/gamedb/14410/articles/65354",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-05T05:05:53.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/gamearticle/14410/rectangle/65354.png?t=1793855178",
+      "categories": [
+        "media"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "0d890b6b4e77",
+      "title": "「Pokémon GO ワイルドエリア：仙台・東北」いよいよ開催！プレイエリアは宮城県全域、地域の魅力を再発見する特別な冒険",
+      "url": "https://getnews.jp/archives/3753243",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-05T05:00:09.000Z",
+      "image": "https://straightpress.jp/wp-content/uploads/2026/11/6d55eaf46a06846f23d84b3dd4859c47.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "7a2ad6f2e6c6",
       "title": "『ぽこ あ ポケモン』にアクセサリー要素が追加 有料追加コンテンツ第2弾が12月9日配信決定（リアルサウンド）",
@@ -849,7 +914,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "84497f239fb5",
@@ -967,27 +1032,6 @@
       "image": "https://images.storm.mg/cloud/fb9da6aca2af8f41eddc60249760c273cf40a556.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2245711%2FbzA3gRWijM3rO4JjEUX7rao0Dzdxs6rPfQqTAZye.jpg&g=sm&h=900&resize=fill&w=1600&format=jpg",
       "categories": [
         "new"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "5cce1dd3f34d",
-      "title": "仙台市長の海外出張費6600万円高すぎる 「ポケモンGO」イベント誘致を強調",
-      "url": "https://times.abema.tv/articles/-/10286387",
-      "host": "times.abema.tv",
-      "source": "ABEMA TIMES",
-      "summary": "",
-      "publishedAt": "2026-11-05T03:15:35.000Z",
-      "image": "https://times-abema.ismcdn.jp/mwimgs/f/6/1200w/img_f63fa620f21d9b6a11592a842cd4f0de137845.jpg",
-      "categories": [
-        "event"
       ],
       "series": [
         "go"
@@ -1181,6 +1225,27 @@
       "isNew": false
     },
     {
+      "id": "0e8dbe8f536d",
+      "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-05T01:07:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "2e6793514710",
       "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
@@ -1254,27 +1319,6 @@
       "summary": "",
       "publishedAt": "2026-11-05T01:06:58.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586074.png?date=1793283652",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "0051ca37f286",
-      "title": "【ポケポケ】メガカイリューexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/586071",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-05T01:06:56.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586071.png?date=1793283564",
       "categories": [
         "tcgcat"
       ],
@@ -1513,25 +1557,6 @@
       "isNew": false
     },
     {
-      "id": "7fe53d279208",
-      "title": "【ぽこあポケモン】追加コンテンツ(DLC)第2弾の配信日はいつ？最新情報まとめ【ぽこポケ】",
-      "url": "https://gamewith.jp/pocoapokemon/575797",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-04T18:21:04.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575797.png?date=1788963293",
-      "categories": [
-        "media"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "bc7ca01af719",
       "title": "「指先まで美しい…」髙橋ひかる、ポケモン愛あふれる私服ショット公開 レザージャケットを羽織った大人可愛い姿にファン悶絶",
       "url": "https://news.nicovideo.jp/watch/nw19956486?news_ref",
@@ -1756,15 +1781,14 @@
     },
     {
       "id": "ae0934810bed",
-      "title": "【ぽこポケ】「ぽこ あ ポケモン」有料DLC第2弾「どきどきデコレーション」が12月9日配信決定！11月にはゲーム内イベント「カジッチュのみついりりんごあつめ」も開催",
+      "title": "【ぽこポケ】「ぽこ あ ポケモン」有料DLC第2弾「どきどきデコレーション」が12月9日配信決定！",
       "url": "https://game.watch.impress.co.jp/docs/news/2153744.html",
       "host": "game.watch.impress.co.jp",
       "source": "GAME Watch",
-      "summary": "ポケモンは、Nintendo Switch 2用スローライフ・サンドボックスゲーム「ぽこ あ ポケモン（ぽこポケ）」の有料追加コンテンツ第2弾「どきどきデコレーション」を12月9日に配信する。本DLCは有料追加コンテンツ「ぽこ あ ポケモン エキスパンションパス」に含まれており、エキスパンションパスの価格は4,400…",
+      "summary": "",
       "publishedAt": "2026-11-04T14:16:55.000Z",
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2153/744/po_01.jpg",
       "categories": [
-        "event",
         "media"
       ],
       "series": [],
@@ -2085,27 +2109,6 @@
       "isNew": false
     },
     {
-      "id": "0e8dbe8f536d",
-      "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-04T10:54:41.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "833ac77d5fe0",
       "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
@@ -2140,6 +2143,27 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "62875a0c0938",
+      "title": "ポケモン × しまむら パジャマや寝具 11月7日より発売!",
+      "url": "https://collabo-cafe.com/events/collabo/pocket-monster-fashion-shimamura-2026/",
+      "host": "collabo-cafe.com",
+      "source": "コラボカフェ",
+      "summary": "",
+      "publishedAt": "2026-11-04T10:44:50.000Z",
+      "image": "https://collabo-cafe.com/wp-content/uploads/pocket-monster-fashion-shimamura-2026-eyecatch.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2207,27 +2231,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "62875a0c0938",
-      "title": "ポケモン × しまむら パジャマや寝具 11月7日より発売!",
-      "url": "https://collabo-cafe.com/events/collabo/pocket-monster-fashion-shimamura-2026/?amp",
-      "host": "collabo-cafe.com",
-      "source": "コラボカフェ",
-      "summary": "",
-      "publishedAt": "2026-11-04T09:55:45.000Z",
-      "image": "https://collabo-cafe.com/wp-content/uploads/pocket-monster-fashion-shimamura-2026-eyecatch.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2462,25 +2465,6 @@
       "isNew": false
     },
     {
-      "id": "c0c5a8e40ec3",
-      "title": "アイナ・ジ・エンド、『ポケモン GO』10周年記念CMで姉妹共演「一緒に出られて嬉しかった」 (クランクイン！)",
-      "url": "https://news.yahoo.co.jp/articles/355f5b2b93f24c3272bb0e80e24e0d30dc6e806c/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-04T08:00:24.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y3j2Xc-_ypRo_MbDt6ekL9RPRZcwsPwkIgG9uMXzyK5XkCLt4Qqt5QyBAmZArlaXHgjMrGkLQsZ3dAugFPJeDiQQmr6-JG7jGZ71rHrEyct0f8T9xOaavNpbtEcaCX7SMe",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "9c9e3be12277",
       "title": "1泊4万円…「ポケモンGO」で仙台のホテル代高騰、東北大受験生に打撃 満室で県外宿泊も",
       "url": "https://www.niigata-nippo.co.jp/articles/-/936652",
@@ -2649,7 +2633,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6a15051a05fb",
@@ -3064,6 +3048,48 @@
       "isNew": false
     },
     {
+      "id": "69e5552bc4cf",
+      "title": "「ミスド」×『ポケモン』2026年はアローラディグダ！ヤドンのドーナツが初登場 2枚目の写真・画像",
+      "url": "https://s.inside-games.jp/article/img/2026/11/03/190316/1796007.html",
+      "host": "s.inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-11-03T08:40:02.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1796007.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "1bee3d92f217",
+      "title": "【ポケカ】「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」の予約・抽選情報まとめ【11/3更新】",
+      "url": "https://snkrdunk.com/articles/33534/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/54b41b6e-3681-437e-94cb-8ef5e97ac5a4.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "917be56c061f",
       "title": "ニューエラ（NEW ERA）×「ポケモン」30周年商品の発売日が11月20日に決定！ キャップやTシャツ、バッグやポーチなど",
       "url": "https://game.watch.impress.co.jp/docs/news/2153284.html",
@@ -3071,7 +3097,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-11-03T07:05:51.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2153/284/0.jpg",
       "categories": [
         "new"
       ],
@@ -3462,6 +3488,28 @@
       "isNew": false
     },
     {
+      "id": "2f512e5ff9ca",
+      "title": "『初代ポケモン』約40万円のコラボギターに「超カッコイイ」と反響 11月19日より抽選販売の応募受付スタート",
+      "url": "https://magmix.jp/post/383769",
+      "host": "magmix.jp",
+      "source": "マグミクス",
+      "summary": "",
+      "publishedAt": "2026-11-02T23:20:00.000Z",
+      "image": "https://magmix.jp/wp-content/uploads/2027/11/261102-poke-00.jpg",
+      "categories": [
+        "tcgcat",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0babc4f343c8",
       "title": "【ポケモンユナイト】2027年3月23日にサービス終了へ！ WCS制覇とアジア大会金の直後に発表、最後の公式大会は終了2日前に東京で",
       "url": "https://www.chiba-tv.com/plus/detail/2026112186158",
@@ -3735,6 +3783,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "630e529108aa",
+      "title": "「楽天ブックス」、Nintendo Switchソフト『Pokemon LEGENDS Z-A』とNintendo Switch 2ソフト『ぽこ あ ポケモン』をテーマとしたキャンペーンを本日開始",
+      "url": "https://news.books.rakuten.net/20261102/pokemon.html",
+      "host": "news.books.rakuten.net",
+      "source": "エンタメTIMES",
+      "summary": "",
+      "publishedAt": "2026-11-02T07:50:18.000Z",
+      "image": "",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     }
   ]
 }
