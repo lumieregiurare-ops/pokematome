@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-05T14:31:02.303Z",
+  "updatedAt": "2026-11-05T15:00:18.089Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 171,
-  "todayCount": 84,
+  "total": 172,
+  "todayCount": 0,
   "categories": [
     {
       "id": "new",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 38
+      "count": 39
     },
     {
       "id": "goodscat",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 14
+      "count": 15
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 70
+      "count": 69
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 37
+      "count": 38
     },
     {
       "id": "anime",
@@ -89,7 +89,7 @@
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 2
+      "count": 3
     },
     {
       "id": "goods",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 62
+      "count": 63
     },
     {
       "name": "Yahoo!ニュース",
@@ -113,7 +113,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 7
+      "count": 6
     },
     {
       "name": "インサイド",
@@ -301,6 +301,10 @@
     },
     {
       "name": "千葉テレビ放送株式会社",
+      "count": 1
+    },
+    {
+      "name": "Gamerch",
       "count": 1
     }
   ],
@@ -770,12 +774,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-05T14:00:20.983Z",
-    "previousCount": 170,
-    "newCount": 9
+    "previousAt": "2026-11-05T14:31:02.303Z",
+    "previousCount": 171,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-05T15:01:02.303Z",
+  "nextUpdateAt": "2026-11-05T15:30:18.089Z",
   "items": [
     {
       "id": "b5203cf67cf2",
@@ -796,7 +800,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d28f4e2c309a",
@@ -838,7 +842,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "14ea5564523b",
@@ -1065,7 +1069,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2139945ba934",
@@ -1128,7 +1132,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6bdf0e2fef54",
@@ -1202,6 +1206,27 @@
       "summary": "",
       "publishedAt": "2026-11-05T09:30:33.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "dc6d1605bf3a",
+      "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-05T09:30:31.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
       "categories": [
         "tcgcat"
       ],
@@ -1562,27 +1587,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "fac512499116",
-      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【11/4更新】",
-      "url": "https://snkrdunk.com/articles/33304/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-05T07:29:43.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/9e96f1c2-b6a6-4392-882d-c6596faff947.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2084,7 +2088,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6b987912841c",
@@ -2213,27 +2217,6 @@
       "isNew": false
     },
     {
-      "id": "dc6d1605bf3a",
-      "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-05T01:07:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "8e0b7f5c3a19",
       "title": "【ポケポケ】カンナデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/586239",
@@ -2332,25 +2315,6 @@
         "anime",
         "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d860bf047612",
-      "title": "カスミのコダックLV.15 : 旧裏 [PMCG-GYM1 No.054](ポケモンジム第1弾「ハナダシティジム カスミ」)",
-      "url": "https://snkrdunk.com/apparels/457694/used/52489438",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-04T21:34:18.000Z",
-      "image": "https://snkrdunk.com/apparels/457694/used/52489438/opengraph-image?c19ad04227fce4cf",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2683,7 +2647,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3ca365bc2aff",
@@ -2933,6 +2897,27 @@
       "isNew": false
     },
     {
+      "id": "fac512499116",
+      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【11/4更新】",
+      "url": "https://snkrdunk.com/articles/33304/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/9e96f1c2-b6a6-4392-882d-c6596faff947.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "9c9e3be12277",
       "title": "1泊4万円…「ポケモンGO」で仙台のホテル代高騰、東北大受験生に打撃 満室で県外宿泊も",
       "url": "https://www.niigata-nippo.co.jp/articles/-/936652",
@@ -3139,6 +3124,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "e03d038b60c1",
+      "title": "【ポケポケ】古代・未来を持つカードの一覧｜パラドックスポケモン【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/561501",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-04T02:10:02.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561501.png?date=1779426694",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2907b658538c",
@@ -3779,7 +3785,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cfc9d04f9583",
@@ -3800,7 +3806,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7b1d4022eea1",
@@ -4096,7 +4102,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1e55a8173720",
@@ -4226,6 +4232,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b70847ab7e7b",
+      "title": "「Pokémon Sleep」のアプリ紹介とポイ活・攻略Wikiの情報（iOS/Android）",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKSmZmUWVINWhzcjkxa3ZWaElfNHEtR3hUYnBSVzcxUkdBc0s4RW8yN1FxLWFHY0J1QmotZndKOEQ5WVdmVENqNzRyYw?oc=5",
+      "host": "gamerch.com",
+      "source": "Gamerch",
+      "summary": "",
+      "publishedAt": "2026-11-02T21:26:13.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "fb6741c56207",
