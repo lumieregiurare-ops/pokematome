@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-05T17:57:58.431Z",
+  "updatedAt": "2026-11-05T18:30:18.256Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 173,
-  "todayCount": 2,
+  "total": 174,
+  "todayCount": 3,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 28
+      "count": 27
     },
     {
       "id": "tcgcat",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 14
+      "count": 13
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 73
+      "count": 75
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 31
+      "count": 30
     },
     {
       "id": "tcg",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 24
+      "count": 23
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 64
+      "count": 65
     },
     {
       "name": "Yahoo!ニュース",
@@ -140,10 +140,6 @@
       "count": 3
     },
     {
-      "name": "Excite エキサイト",
-      "count": 2
-    },
-    {
       "name": "電ファミニコゲーマー",
       "count": 2
     },
@@ -166,6 +162,10 @@
     {
       "name": "Pokémon GO",
       "count": 2
+    },
+    {
+      "name": "www.tv-tokyo.co.jp",
+      "count": 1
     },
     {
       "name": "宮城県",
@@ -200,6 +200,10 @@
       "count": 1
     },
     {
+      "name": "Excite エキサイト",
+      "count": 1
+    },
+    {
       "name": "khb東日本放送",
       "count": 1
     },
@@ -213,10 +217,6 @@
     },
     {
       "name": "福井新聞社",
-      "count": 1
-    },
-    {
-      "name": "ｄメニューニュース",
       "count": 1
     },
     {
@@ -284,6 +284,10 @@
       "count": 1
     },
     {
+      "name": "電撃オンライン",
+      "count": 1
+    },
+    {
       "name": "オトナンサー",
       "count": 1
     },
@@ -317,16 +321,16 @@
       "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
       "leadSource": "宮城県",
       "publishedAt": "2026-11-05T16:32:31.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "sourceCount": 7,
+      "articleCount": 7,
       "categories": [
         "event",
         "other"
       ],
       "keywords": [
+        "開催",
         "pok",
-        "mon",
-        "ワイルドエリア"
+        "mon"
       ],
       "articles": [
         {
@@ -356,6 +360,20 @@
           "source": "西都市",
           "publishedAt": "2026-11-04T08:03:47.000Z",
           "isPR": false
+        },
+        {
+          "title": "『ポケモンGO』ワイルドエリア仙台・東北が開催！ 新登場ジュラルドンや宮城全域スタンプラリーも",
+          "url": "https://dengekionline.com/article/202611/93001",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-11-04T05:24:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモンGO』リアルイベントが仙台市で11月6日より3日間開催。ピカチュウの“すずめ踊り”やイベントGOスタンプラリーなどを展開",
+          "url": "https://www.famitsu.com/article/202611/92993",
+          "source": "ファミ通",
+          "publishedAt": "2026-11-04T02:52:00.000Z",
+          "isPR": false
         }
       ]
     },
@@ -367,8 +385,8 @@
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00010036-realsound-000-1-view.jpg?exp=10800",
       "leadSource": "Yahoo!ニュース",
       "publishedAt": "2026-11-05T09:01:19.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "sourceCount": 4,
+      "articleCount": 4,
       "categories": [
         "other"
       ],
@@ -390,13 +408,6 @@
           "url": "https://www.ndw.jp/pokemon-goods-261104/",
           "source": "Nintendo DREAM WEB",
           "publishedAt": "2026-11-04T15:02:42.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ぽこ あ ポケモン』初のブランドムックが12月9日発売！耳がぱたぱた動くピカチュウのポーチ2種とメタモン柄メッセンジャーバッグ",
-          "url": "http://www.excite.co.jp/news/article/Nijimen_0000000000648981/",
-          "source": "Excite エキサイト",
-          "publishedAt": "2026-11-04T09:44:16.000Z",
           "isPR": false
         },
         {
@@ -580,6 +591,84 @@
       ]
     },
     {
+      "id": "879408ecf506",
+      "title": "【ポケポケ】ピカピカ!ピカチュウミッションイベントの一覧【ポケモンカードアプリ】",
+      "summary": "",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/583527",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583527.jpg?date=1792638077",
+      "leadSource": "GameWith",
+      "publishedAt": "2026-11-05T14:55:19.000Z",
+      "sourceCount": 2,
+      "articleCount": 23,
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケモンカード",
+        "カード",
+        "ポケポケ"
+      ],
+      "articles": [
+        {
+          "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T14:40:46.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T09:30:44.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T09:30:38.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T09:30:38.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T09:30:34.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T09:30:33.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T09:30:31.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
+          "source": "GameWith",
+          "publishedAt": "2026-11-05T09:30:29.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "14ea5564523b",
       "title": "初心者の子どもも遊べるポケカ体験！マルチプル「JA共済連秋田プレゼンツ わくわく！！スポーツパーク」ポケモンカード体験ブース",
       "summary": "",
@@ -719,44 +808,35 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "1e6b997e3e1f",
-      "title": "【ミスド×ポケモン】11/4から店頭販売開始！ 「冬のポケモンキャンペーン」もふもふピカチュウや限定ブランケット付きグッズセットも登場｜グルメとフード",
-      "summary": "",
-      "url": "https://tetsudo-ch.com/13043538.html",
-      "image": "https://otonanswer.jp/wp-content/uploads/2027/11/20261102misdopokemon003.jpg",
-      "leadSource": "旅とおでかけ 鉄道チャンネル",
-      "publishedAt": "2026-11-04T05:35:05.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "event",
-        "goodscat"
-      ],
-      "keywords": [
-        "ミスド",
-        "店頭販売開始"
-      ],
-      "articles": [
-        {
-          "title": "【今日から】ミスド×ポケモン、店頭販売開始 SNS「忙しくなっちゃう」「争奪戦に勝てれば…」",
-          "url": "https://otonanswer.jp/post/406069/",
-          "source": "オトナンサー",
-          "publishedAt": "2026-11-03T23:33:26.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-05T17:30:21.523Z",
-    "previousCount": 171,
-    "newCount": 7
+    "previousAt": "2026-11-05T17:57:58.431Z",
+    "previousCount": 173,
+    "newCount": 6
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-05T18:27:58.431Z",
+  "nextUpdateAt": "2026-11-05T19:00:18.256Z",
   "items": [
+    {
+      "id": "5aeea08b7177",
+      "title": "おはスタ【ポケモン最新情報を調査！ポケスタ団！＆ハナコのアニポケルーム】 - www.tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611060705.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "www.tv-tokyo.co.jp",
+      "summary": "",
+      "publishedAt": "2026-11-05T18:27:24.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "d28f4e2c309a",
       "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
@@ -925,7 +1005,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "713c9a63c39b",
@@ -1388,6 +1468,27 @@
       "isNew": false
     },
     {
+      "id": "8e0b7f5c3a19",
+      "title": "【ポケポケ】カンナデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586239",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-05T09:30:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586239.png?date=1793420411",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "15f6154eea38",
       "title": "【A（きれいな状態）】ピカチュウex SAR [M6a 127/103](拡張パック「30th CELEBRATION」) 1枚のシングルトレカ通販｜スニダン",
       "url": "https://snkrdunk.com/apparels/882280/used/52507996?slide",
@@ -1672,27 +1773,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d6b07f4dee8d",
-      "title": "好きな「ポケモンシリーズ」のソフトランキング！ 2位『ポケットモンスター 金・銀』を抑えた1位は？【2026年調査】",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUmhMSU9HczFsRFZlVVdyanRzUUdGdnNjV3FqZDhoSWxtaWtPNnJLTHdkYzZOR1VDREFXUUh5RUxNSllZTmFZLVlXblJ4Ty1pVVY4MEc3QmdSQkk3WjZtXzRmOF9tVURFVFRPbG45ekpQdWZNUDVLbV9kMWtNX0ZneVVpNGd1VXliM1ZWVGJMOTRwbXUwOEtGQnNEQUxyOHZjYUHSAZQBQVVfeXFMTnREZ3BRdUdpY2hqenRpTTZsRHpHV3RFWWMwQU5FLXJZUm1pOWFWTm56RVREbnpISmdLbS1CQXR4cFVUNjM5NlhROFExRjNVTEhxdUktMm9ZUG9IZ1I5Sl9rSmNkYzlQVFJSSG5RWEFjT0FyQy1WZHhDT0FHUDV6OXZKS0N6SXRIajF3Y2NJSlNZWVJDMQ?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
-      "summary": "",
-      "publishedAt": "2026-11-05T06:40:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2195,50 +2275,6 @@
       "isNew": false
     },
     {
-      "id": "2e6793514710",
-      "title": "【ポケポケ】メガエルレイドexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570621",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-05T01:07:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570621.png?date=1785392758",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "go",
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8e0b7f5c3a19",
-      "title": "【ポケポケ】カンナデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/586239",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-05T01:06:55.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586239.png?date=1793420411",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "e23e33bdac6f",
       "title": "ポケモンマンホール「ポケふた」について",
       "url": "https://www.city.shibukawa.lg.jp/shisei/000259/000262/p015857.html",
@@ -2528,6 +2564,28 @@
       "isNew": false
     },
     {
+      "id": "4e36acf398d9",
+      "title": "【ポケポケ】2周年記念キャンペーンまとめ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586175",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-04T13:08:10.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586175.jpg?date=1793344472",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b1f3e21a3812",
       "title": "【ポケモンユナイト/切り抜き】レジエレキ押し込み力No1!!【虹紫狐】",
       "url": "https://youtu.be/gPYJ1WmUrSY?si",
@@ -2586,7 +2644,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3ca365bc2aff",
@@ -2684,27 +2742,6 @@
       "image": "https://www.inside-games.jp/imgs/ogp_f/1803330.jpg",
       "categories": [
         "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f6dfb796689f",
-      "title": "『ぽこ あ ポケモン』初のブランドムックが12月9日発売！耳がぱたぱた動くピカチュウのポーチ2種とメタモン柄メッセンジャーバッグ",
-      "url": "http://www.excite.co.jp/news/article/Nijimen_0000000000648981/",
-      "host": "excite.co.jp",
-      "source": "Excite エキサイト",
-      "summary": "",
-      "publishedAt": "2026-11-04T09:44:16.000Z",
-      "image": "",
-      "categories": [
-        "other"
       ],
       "series": [
         "goods"
@@ -2919,6 +2956,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "f4d7c54d07d8",
+      "title": "『ポケモンGO』ワイルドエリア仙台・東北が開催！ 新登場ジュラルドンや宮城全域スタンプラリーも",
+      "url": "https://dengekionline.com/article/202611/93001",
+      "host": "dengekionline.com",
+      "source": "電撃オンライン",
+      "summary": "",
+      "publishedAt": "2026-11-04T05:24:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/93001/ogp_VcIR.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2156d976f9e7",
@@ -3432,7 +3490,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1bee3d92f217",
@@ -3455,7 +3513,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4a0adce5ada0",
@@ -3582,6 +3640,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "aca8f931287b",
+      "title": "【ポケモンSV】セルクルタウンでやることと入手アイテム【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/378064",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-03T06:41:32.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/378064.png?date=1669955952",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3817abfdf95d",
@@ -3766,7 +3845,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e18c2ecda8a1",
@@ -3937,6 +4016,27 @@
       "isNew": false
     },
     {
+      "id": "d8245eee4098",
+      "title": "【ポケモンSV】イワイノヨロイの入手方法と進化ポケモン【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/375334",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-03T06:21:49.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375334.png?date=1668791193",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "774cd8dc8775",
       "title": "【ポケモンSV】ムーンボールの入手方法と効果【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/375483",
@@ -3976,7 +4076,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "18df6fa0dbad",
@@ -4063,6 +4163,27 @@
       "isNew": false
     },
     {
+      "id": "d13cf4d85cea",
+      "title": "【ポケモン】ポケモンデー2025最新情報まとめ｜ポケモンプレゼンツ【ポケットモンスター】",
+      "url": "https://gamewith.jp/pokemon/486202",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-03T04:15:37.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/486202.png?date=1740631687",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "15ecfa689864",
       "title": "【11月3日更新】ポケモンカード抽選情報まとめ2026｜最新の予約・再販・倍率・当選の注意点まとめ",
       "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/pokemon-card-lottery-information-2026/blt9aa2212834fd35bf",
@@ -4131,12 +4252,12 @@
     {
       "id": "c16e85512376",
       "title": "【ポケモンSV】色違い厳選と確率を上げる方法【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/375231",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EV05CalR3b3R0N0doVW5vVThjVUpUNjB3NUFjVF9rV0UwdG1MY2VmR1ZBeEw2LXNhTl9KQ1daVl8taWtCWm52VkVoWTJvOEs3LWwyemVqV093dlB2Vml3?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-03T02:00:32.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375231.png?date=1668761576",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -4145,19 +4266,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "03f718ece9fe",
       "title": "ウッウに食べられるピカチュウ！？ 『ポケモン』モンスターボールに入った食玩ミニフィギュアに、メガスターミーやラティアスなど全10種",
-      "url": "https://www.inside-games.jp/article/2026/11/03/190301.html",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5wYmFVLU9sLTFmdkE0Q1VfWmdIRndUV085TUJ5cmgxbW5DOWdBTk9OOGtwOGk0MmtNV1I2Mk5DeExuTFRvUzN1SmtibERWbFc1Vkh0emhBOS1iZ3hsVHMxekVmd1hZcFo3NGc?oc=5",
       "host": "inside-games.jp",
       "source": "インサイド",
       "summary": "",
       "publishedAt": "2026-11-03T02:00:03.000Z",
-      "image": "https://www.inside-games.jp/imgs/ogp_f/1788724.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -4166,19 +4287,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "6dfa999ae49b",
       "title": "「トレーナープロフィール」の各種背景や新しい着せ替えアイテムなど、「Pokémon GO ワイルドエリア2026」の最新情報をお届けします",
-      "url": "https://pokemongo.com/ja/news/get-ready-for-gowildarea-2026",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1vTnY5T084enM0WE0yT3d5Rk9XbnpCMC1TZHBJazUyenNOYkJaWWs3ZnRlYmJWT3hWOENPSWZyNG85MGw4R2FpQkdmN192WVJ4VUZyNWQyRDhWdGZKalVCNnZSN2Z5ME9tdS1N?oc=5",
       "host": "pokemongo.com",
       "source": "Pokémon GO",
       "summary": "",
       "publishedAt": "2026-11-03T00:03:12.000Z",
-      "image": "https://lh3.googleusercontent.com/U-aJxlmtiVe7UDPLAEoyI8LKHgyuRe9RpQB9nxZzRj-sCkzCPo9RlTdZ9XXtMSwR1sI80g6EEtGyA9bLRWGnALsEnz5EHR9z6bOWA2frRw",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -4187,7 +4308,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -4275,7 +4396,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "fb6741c56207",
@@ -4306,50 +4427,6 @@
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-02T19:04:13.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2136458d2001",
-      "title": "【ポケモンSV】レイド用ポケモンのおすすめタイプ｜レイドバトル周回【スカーレットバイオレット】",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aX3dRNFFIaHJVR0pJN3ZKZmhhcmdualdxMk5XNnhScG5tZVJYRmJyeDlyeHhjUGR1TV9hRVlRTkEtTVJWQWZxY3VkcnpiTnlVS056MkR2X0tBMThHM1BV?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-02T18:04:30.000Z",
-      "image": "",
-      "categories": [
-        "event",
-        "guide"
-      ],
-      "series": [
-        "main",
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c10e3eb6bf69",
-      "title": "【ポケモンSV】スカーレットとバイオレットの違い｜どっちを買うべき？",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56YzNwM3U1Qk9BQlJpNHVHMFB6VVNwLUF2SWlseVhOa3k3LS1tZUNtemtpY0R2VVN2RU5vcHZqUU5GSjFNb3daNGpKNDdxZDVUaldQQmFxQlVBY084VWFZ?oc=5",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-02T18:03:30.000Z",
       "image": "",
       "categories": [
         "other"
