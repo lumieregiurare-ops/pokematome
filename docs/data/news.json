@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-04T23:30:17.770Z",
+  "updatedAt": "2026-11-05T00:00:17.214Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 143,
+  "total": 144,
   "todayCount": 15,
   "categories": [
     {
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 25
+      "count": 26
     },
     {
       "id": "tcgcat",
@@ -64,7 +64,7 @@
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 18
+      "count": 19
     },
     {
       "id": "go",
@@ -101,18 +101,18 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 36
+      "count": 37
     },
     {
       "name": "Yahoo!ニュース",
       "count": 14
     },
     {
-      "name": "Nintendo DREAM WEB",
-      "count": 7
+      "name": "ガジェット通信",
+      "count": 8
     },
     {
-      "name": "ガジェット通信",
+      "name": "Nintendo DREAM WEB",
       "count": 7
     },
     {
@@ -132,11 +132,11 @@
       "count": 4
     },
     {
-      "name": "YouTube",
-      "count": 4
+      "name": "GAME Watch",
+      "count": 3
     },
     {
-      "name": "GAME Watch",
+      "name": "YouTube",
       "count": 3
     },
     {
@@ -859,12 +859,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-04T23:00:16.589Z",
+    "previousAt": "2026-11-04T23:30:17.770Z",
     "previousCount": 143,
-    "newCount": 3
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-05T00:00:17.770Z",
+  "nextUpdateAt": "2026-11-05T00:30:17.214Z",
   "items": [
     {
       "id": "b705ded041f8",
@@ -885,7 +885,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8f877bb78273",
@@ -1068,7 +1068,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8d38c36cb10c",
@@ -2263,7 +2263,7 @@
       "source": "西スポWEB OTTO!",
       "summary": "",
       "publishedAt": "2026-11-04T07:40:00.000Z",
-      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/0/7/4/e/074ee74783101049d8c476b2b7c9b3cc_1.jpg?20261105080034",
+      "image": "https://nishispo-static.nishinippon.co.jp/image/article/size1/0/7/4/e/074ee74783101049d8c476b2b7c9b3cc_1.jpg?20261105090036",
       "categories": [
         "other"
       ],
@@ -2346,7 +2346,7 @@
       "source": "GAME Watch",
       "summary": "宝島社は、「ぽこ あ ポケモン」のブランドムック3種を12月9日に発売する。価格は3,289円より。",
       "publishedAt": "2026-11-04T07:04:22.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2153/580/1.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2796,27 +2796,6 @@
       "isNew": false
     },
     {
-      "id": "9b44ee9e7967",
-      "title": "ポケモンGO ハロウィン飾りロコン",
-      "url": "https://youtu.be/G-IIPnM_o9k?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-11-03T23:31:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "d37d77bd7a60",
       "title": "大量に捨てられたポケモンカード ゴミ袋が山積みになり、30周年記念セットまで…「お金を払って買っている人もいるというのに」",
       "url": "https://news.yahoo.co.jp/articles/5d1879f42fc5d5c84b7ab68e5377ef84e00a3642",
@@ -3151,6 +3130,27 @@
       "isNew": false
     },
     {
+      "id": "3817abfdf95d",
+      "title": "【ポケモンSV】ロースト砂漠の行き方とトレーナーの場所【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/377324",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-03T06:41:05.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "66b680e1b2f7",
       "title": "多彩なポケモンイベント ８月、岡山城 キャラ看板設置やパネル展",
       "url": "https://www.sanyonews.jp/article/1960832?kw",
@@ -3188,7 +3188,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "78afee5e1505",
@@ -3402,6 +3402,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8a72b01216d3",
+      "title": "【ワイルドエリア仙台】「タマゴ名人」ボーナスは必要なのか？ →“ポケ活”のスタイル次第では不要、レイドパスに全力課金の方が良い場合も【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3752729",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-02T23:30:36.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1102_pokemon-8.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2f512e5ff9ca",
