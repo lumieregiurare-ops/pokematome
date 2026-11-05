@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-05T21:00:20.345Z",
+  "updatedAt": "2026-11-05T21:30:19.923Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 175,
-  "todayCount": 6,
+  "total": 176,
+  "todayCount": 8,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 15
+      "count": 16
     },
     {
       "id": "update",
@@ -22,17 +22,17 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 25
+      "count": 26
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 38
+      "count": 39
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 16
+      "count": 17
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 14
+      "count": 15
     },
     {
       "id": "community",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 37
+      "count": 38
     },
     {
       "id": "anime",
@@ -89,19 +89,19 @@
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 3
+      "count": 2
     },
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 26
+      "count": 27
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 66
+      "count": 68
     },
     {
       "name": "Yahoo!ニュース",
@@ -113,7 +113,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 7
+      "count": 6
     },
     {
       "name": "インサイド",
@@ -173,6 +173,10 @@
     },
     {
       "name": "Sortir à Paris",
+      "count": 1
+    },
+    {
+      "name": "NNAアジア",
       "count": 1
     },
     {
@@ -309,10 +313,6 @@
     },
     {
       "name": "千葉テレビ放送株式会社",
-      "count": 1
-    },
-    {
-      "name": "Gamerch",
       "count": 1
     }
   ],
@@ -779,12 +779,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-05T20:30:20.639Z",
+    "previousAt": "2026-11-05T21:00:20.345Z",
     "previousCount": 175,
-    "newCount": 5
+    "newCount": 6
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-05T21:30:20.345Z",
+  "nextUpdateAt": "2026-11-05T22:00:19.923Z",
   "items": [
     {
       "id": "bdf61175c76b",
@@ -803,7 +803,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3ecd6548d137",
@@ -823,6 +823,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "749319f22179",
+      "title": "【ポケポケ】復刻プロモドロップイベント2026の攻略【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586200",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-05T17:45:31.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586200.jpg?date=1793356006",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "13d897ffaed4",
@@ -910,6 +932,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "564221b0e4d7",
+      "title": "〔寄り道〕中華郵政、ポケモンコラボ商品が人気",
+      "url": "https://www.nna.jp/news/2984585",
+      "host": "nna.jp",
+      "source": "NNAアジア",
+      "summary": "",
+      "publishedAt": "2026-11-05T15:00:00.000Z",
+      "image": "https://www.nna.jp/uploads/article_image/image_with_caption/14991149/large_20261105_twd_pokemon_w.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "879408ecf506",
@@ -1394,27 +1437,6 @@
       "isNew": false
     },
     {
-      "id": "e6f450a4b15b",
-      "title": "【ポケポケ】メガメタグロスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570622",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-05T09:30:33.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570622.png?date=1785392737",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "833ac77d5fe0",
       "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
@@ -1496,7 +1518,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3d32415add9d",
@@ -1549,27 +1571,6 @@
       "summary": "",
       "publishedAt": "2026-11-05T09:30:17.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586239.png?date=1793420411",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "15f6154eea38",
-      "title": "【A（きれいな状態）】ピカチュウex SAR [M6a 127/103](拡張パック「30th CELEBRATION」) 1枚のシングルトレカ通販｜スニダン",
-      "url": "https://snkrdunk.com/apparels/882280/used/52507996?slide",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-05T09:22:11.000Z",
-      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -1677,28 +1678,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f816c4e5040a",
-      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/15950/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-05T08:03:43.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2188,7 +2167,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、Nintendo Switch 2用スローライフ・サンドボックス「ぽこ あ ポケモン」において、イベント「カジッチュのみついりりんごあつめ」を11月16日より開催する。期間は12月1日4時59分まで。",
       "publishedAt": "2026-11-05T01:26:34.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2153/788/1.png",
       "categories": [
         "event"
       ],
@@ -2492,6 +2471,28 @@
       "isNew": false
     },
     {
+      "id": "a21f3e03ae2a",
+      "title": "【ポケポケ】初心者・無課金おすすめデッキまとめ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/466355",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-04T14:00:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466355.png?date=1790237583",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "96dc37cd48a2",
       "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
@@ -2574,6 +2575,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "33d9d08c164a",
+      "title": "【ポケポケ】超タイプのみデッキと超デッキの最強・おすすめカード【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/472616",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-04T10:59:27.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/472616.png?date=1791866945",
+      "categories": [
+        "guide",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "0caf746743a4",
@@ -3485,6 +3508,29 @@
       "isNew": false
     },
     {
+      "id": "1bee3d92f217",
+      "title": "【ポケカ】「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」の予約・抽選情報まとめ【11/3更新】",
+      "url": "https://snkrdunk.com/articles/33534/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/54b41b6e-3681-437e-94cb-8ef5e97ac5a4.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "4a0adce5ada0",
       "title": "【ポケモンSV】BP稼ぎの効率的なやり方・貯め方【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/429778",
@@ -3611,27 +3657,6 @@
       "isNew": false
     },
     {
-      "id": "becd0ada5b04",
-      "title": "【ポケモンSV】アップグレードの入手方法と進化ポケモン【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/430126",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-03T06:41:33.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "aca8f931287b",
       "title": "【ポケモンSV】セルクルタウンでやることと入手アイテム【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/378064",
@@ -3732,7 +3757,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "99c7ce8d8e51",
@@ -4027,6 +4052,27 @@
       "isNew": false
     },
     {
+      "id": "dd0be7703439",
+      "title": "【ポケモンSV】めざめいしの入手方法と進化ポケモン【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/375315",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-03T06:21:56.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375315.png?date=1668787178",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "16041bf5bde3",
       "title": "【ポケモンSV】メタルコートの入手方法と進化ポケモン【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/375393",
@@ -4155,12 +4201,12 @@
     {
       "id": "61e68247b462",
       "title": "【ポケモンSV】秘伝(ひでん)スパイスの入手方法と集め方【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/378173",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1nWS1WejNjYUJZSkt2Zll4YlJvbVJMbXM1S2laTG9zdWIxU3BXME5zRU5jVTNRU0xaOF83RkZpbEhLT1NXV2RSSG5CeldnckdvU3hUd3hOLUphN1gyd0V3?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-03T05:39:06.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/378173.png?date=1670049091",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -4169,19 +4215,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "5d6af1f077c1",
       "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
-      "url": "https://gamewith.jp/pokemon/574415",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kSTB3LTYyY1JwSHIzcnhaOGE3YVRyX0xoSVVwTlFXbXBVVlhTYndSNXZaNFBSR0FNektxXy1rQU5PT3B3SVZIMmlR?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-03T04:15:39.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -4190,7 +4236,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -4402,27 +4448,6 @@
       ],
       "series": [
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b70847ab7e7b",
-      "title": "「Pokémon Sleep」のアプリ紹介とポイ活・攻略Wikiの情報（iOS/Android）",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKSmZmUWVINWhzcjkxa3ZWaElfNHEtR3hUYnBSVzcxUkdBc0s4RW8yN1FxLWFHY0J1QmotZndKOEQ5WVdmVENqNzRyYw?oc=5",
-      "host": "gamerch.com",
-      "source": "Gamerch",
-      "summary": "",
-      "publishedAt": "2026-11-02T21:26:13.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "sleep"
       ],
       "isOfficial": false,
       "isPR": false,
