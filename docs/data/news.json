@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-06T21:00:21.854Z",
+  "updatedAt": "2026-11-06T21:30:15.941Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 126,
+  "total": 127,
   "todayCount": 5,
   "categories": [
     {
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 23
+      "count": 24
     },
     {
       "id": "tcg",
@@ -105,7 +105,7 @@
     },
     {
       "name": "GameWith",
-      "count": 16
+      "count": 15
     },
     {
       "name": "インサイド",
@@ -121,6 +121,10 @@
     },
     {
       "name": "FNNプライムオンライン",
+      "count": 4
+    },
+    {
+      "name": "オリコンニュース",
       "count": 4
     },
     {
@@ -145,10 +149,6 @@
     },
     {
       "name": "YouTube",
-      "count": 3
-    },
-    {
-      "name": "オリコンニュース",
       "count": 3
     },
     {
@@ -245,6 +245,10 @@
     },
     {
       "name": "NHKニュース",
+      "count": 1
+    },
+    {
+      "name": "TBS NEWS DIG",
       "count": 1
     },
     {
@@ -388,7 +392,7 @@
       "leadSource": "4Gamer",
       "publishedAt": "2026-11-06T18:47:02.000Z",
       "sourceCount": 7,
-      "articleCount": 21,
+      "articleCount": 20,
       "categories": [
         "tcgcat",
         "new"
@@ -465,16 +469,16 @@
       "image": "https://www.yomiuri.co.jp/media/2026/11/20261106-GYTNI00281-1.jpg?type=ogp",
       "leadSource": "読売新聞",
       "publishedAt": "2026-11-06T20:00:00.000Z",
-      "sourceCount": 6,
-      "articleCount": 7,
+      "sourceCount": 7,
+      "articleCount": 8,
       "categories": [
         "event",
         "other"
       ],
       "keywords": [
         "イベント",
-        "仙台",
-        "ポケモンGO"
+        "ポケモンGO",
+        "仙台"
       ],
       "articles": [
         {
@@ -503,6 +507,13 @@
           "url": "https://news.web.nhk/newsweb/na/nd-20261106de71446",
           "source": "NHKニュース",
           "publishedAt": "2026-11-06T02:58:43.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【台風・雪・風情報】台風31号（インファ）は温帯低気圧に 北日本は冬型の気圧配置の影響で7日は暴風に警戒・ふぶく地域も ポケモンGO大型イベント開催の宮城も暴風のおそれ",
+          "url": "https://newsdig.tbs.co.jp/articles/tbc/3065919?display",
+          "source": "TBS NEWS DIG",
+          "publishedAt": "2026-11-06T01:15:00.000Z",
           "isPR": false
         },
         {
@@ -736,6 +747,41 @@
       ]
     },
     {
+      "id": "5847916b54a9",
+      "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 | ORICON NEWS | 国内海外のニュース",
+      "summary": "",
+      "url": "https://373news.com/news/national/oricon/detail/2491223",
+      "image": "https://373news.com/_news/oricon/photo/main/20260130_151506_size640wh_44208017.jpg",
+      "leadSource": "南日本新聞",
+      "publishedAt": "2026-11-06T06:21:05.000Z",
+      "sourceCount": 2,
+      "articleCount": 3,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケモンカード",
+        "パック",
+        "来年"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
+          "url": "https://www.oricon.co.jp/news/2491223/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-06T06:21:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "画像・写真 | ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 1枚目",
+          "url": "https://www.oricon.co.jp/news/2491223/photo/1/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-06T06:21:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "b6bfeaa0ccd0",
       "title": "「ポケモンボドゲくらぶキャラバン with フレンダ」がイオンモールで開催！｜ポケットモンスターオフィシャルサイト",
       "summary": "",
@@ -819,43 +865,15 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "5847916b54a9",
-      "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 | ORICON NEWS | 国内海外のニュース",
-      "summary": "",
-      "url": "https://373news.com/news/national/oricon/detail/2491223",
-      "image": "https://373news.com/_news/oricon/photo/main/20260130_151506_size640wh_44208017.jpg",
-      "leadSource": "南日本新聞",
-      "publishedAt": "2026-11-06T06:21:05.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "tcgcat"
-      ],
-      "keywords": [
-        "ポケモンカード",
-        "パック",
-        "来年"
-      ],
-      "articles": [
-        {
-          "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
-          "url": "https://www.oricon.co.jp/news/2491223/",
-          "source": "オリコンニュース",
-          "publishedAt": "2026-11-06T06:21:00.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-06T20:30:17.630Z",
-    "previousCount": 129,
-    "newCount": 1
+    "previousAt": "2026-11-06T21:00:21.854Z",
+    "previousCount": 126,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-06T21:30:21.854Z",
+  "nextUpdateAt": "2026-11-06T22:00:15.941Z",
   "items": [
     {
       "id": "80cf00238f8b",
@@ -1440,7 +1458,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b3e678bffb45",
@@ -1696,7 +1714,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-06T09:13:32.000Z",
-      "image": "https://kahoku.news/images/2026/11/06/JY72CYM4HDKHN/001_size7.jpg?timestamp=20261107060034",
+      "image": "https://kahoku.news/images/2026/11/06/JY72CYM4HDKHN/001_size7.jpg?timestamp=20261107063034",
       "categories": [
         "goodscat"
       ],
@@ -1983,6 +2001,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3390f6e406f6",
+      "title": "画像・写真 | ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 1枚目",
+      "url": "https://www.oricon.co.jp/news/2491223/photo/1/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-06T06:21:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491223/20260130_151512_p_o_86432843.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "488b8f73add0",
@@ -2336,7 +2375,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-06T03:25:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/06/JY72CYM4GLKHN/001_size7.jpg?timestamp=20261107060037",
+      "image": "https://kahoku.news/images/2026/11/06/JY72CYM4GLKHN/001_size7.jpg?timestamp=20261107062907",
       "categories": [
         "event"
       ],
@@ -2454,6 +2493,27 @@
       "isNew": false
     },
     {
+      "id": "8a358c72da95",
+      "title": "【台風・雪・風情報】台風31号（インファ）は温帯低気圧に 北日本は冬型の気圧配置の影響で7日は暴風に警戒・ふぶく地域も ポケモンGO大型イベント開催の宮城も暴風のおそれ",
+      "url": "https://newsdig.tbs.co.jp/articles/tbc/3065919?display",
+      "host": "newsdig.tbs.co.jp",
+      "source": "TBS NEWS DIG",
+      "summary": "",
+      "publishedAt": "2026-11-06T01:15:00.000Z",
+      "image": "",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "02a1d91ca2b3",
       "title": "『Pokémon LEGENDS Z-A』ピュールとメガズルズキン、ギルガルドのセットが「ポケモンスケールワールド」に登場！「メガバンギラス」セットも",
       "url": "https://www.inside-games.jp/article/2026/11/06/190432.html",
@@ -2467,28 +2527,6 @@
       ],
       "series": [
         "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "879408ecf506",
-      "title": "【ポケポケ】ピカピカ!ピカチュウミッションイベントの一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/583527",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-05T14:55:19.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583527.jpg?date=1792638077",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2856,12 +2894,12 @@
     {
       "id": "55c73940de64",
       "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」",
-      "url": "https://www.oricon.co.jp/news/2490765/",
+      "url": "https://www.oricon.co.jp/news/2490765/photo/17/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-05T02:50:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2491000/2490765/20261104_173344_p_o_34583189.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2491000/2490765/20261104_173351_p_o_27071946.jpg",
       "categories": [
         "goodscat"
       ],
