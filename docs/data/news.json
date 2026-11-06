@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-06T00:30:17.470Z",
+  "updatedAt": "2026-11-06T01:00:16.271Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 171,
-  "todayCount": 9,
+  "total": 174,
+  "todayCount": 10,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 26
+      "count": 27
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 14
+      "count": 15
     },
     {
       "id": "media",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 75
+      "count": 76
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 29
+      "count": 30
     },
     {
       "id": "tcg",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 26
+      "count": 27
     }
   ],
   "weapons": [],
@@ -109,7 +109,7 @@
     },
     {
       "name": "ガジェット通信",
-      "count": 9
+      "count": 10
     },
     {
       "name": "インサイド",
@@ -156,15 +156,15 @@
       "count": 2
     },
     {
+      "name": "宮城県",
+      "count": 1
+    },
+    {
       "name": "テレビ東京",
       "count": 1
     },
     {
       "name": "AppBank",
-      "count": 1
-    },
-    {
-      "name": "宮城県",
       "count": 1
     },
     {
@@ -272,6 +272,10 @@
       "count": 1
     },
     {
+      "name": "日テレNEWS NNN",
+      "count": 1
+    },
+    {
       "name": "西都市",
       "count": 1
     },
@@ -285,6 +289,10 @@
     },
     {
       "name": "電撃オンライン",
+      "count": 1
+    },
+    {
+      "name": "ほんみや宮崎",
       "count": 1
     },
     {
@@ -316,17 +324,17 @@
       "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
       "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
       "leadSource": "宮城県",
-      "publishedAt": "2026-11-05T16:32:31.000Z",
-      "sourceCount": 8,
-      "articleCount": 8,
+      "publishedAt": "2026-11-06T00:49:10.000Z",
+      "sourceCount": 9,
+      "articleCount": 9,
       "categories": [
         "event",
         "other"
       ],
       "keywords": [
-        "ワイルドエリア",
-        "仙台",
-        "pok"
+        "pok",
+        "mon",
+        "ワイルドエリア"
       ],
       "articles": [
         {
@@ -348,6 +356,13 @@
           "url": "https://news.yahoo.co.jp/articles/28b3a6cf93dea56d8371ade45129cda65f5b93dc",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-04T08:47:15.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『 Pokémon GO （ポケモン GO）』に西都市公式ルートが登場!!",
+          "url": "https://www.city.saito.lg.jp/kanko_bunka/sightseeing/_pokemon_go_go_1",
+          "source": "西都市",
+          "publishedAt": "2026-11-04T08:03:47.000Z",
           "isPR": false
         },
         {
@@ -430,6 +445,63 @@
       ]
     },
     {
+      "id": "2139945ba934",
+      "title": "ポケモンGOイベント 6日から宮城県内で開催に向け準備進む 東北大入試と日程重複もホテルでは",
+      "summary": "",
+      "url": "https://newsdig.tbs.co.jp/articles/tbc/3064816?display",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-05395697-mmt-000-2-thumb.jpg?exp=10800",
+      "leadSource": "TBS NEWS DIG",
+      "publishedAt": "2026-11-05T09:32:00.000Z",
+      "sourceCount": 4,
+      "articleCount": 6,
+      "categories": [
+        "event",
+        "media"
+      ],
+      "keywords": [
+        "イベント",
+        "ポケモンGO",
+        "東北大入試"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンGO大型イベント 仙台で開催へ ホテルの宿泊は？＜宮城・仙台＞（ミヤギテレビ）",
+          "url": "https://news.yahoo.co.jp/articles/24d84670c7b2a1b3d56edd9b1c2b08051ee9e0e2",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-05T09:31:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンGOイベントが東北大入試と日程重複 郡和子仙台市長「宿泊に空き、一定の確保」でも1泊2万円前後（tbc東北放送）",
+          "url": "https://news.yahoo.co.jp/articles/430b790cfd2b36691a8d211e0440b4c01ac922ba",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-05T08:29:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "仙台の「ポケモンGO」イベント、東北大入試と日程重複 受験生の宿泊先確保が難航",
+          "url": "https://www.sankei.com/article/20261105-VWYKJJBTQVOWPLEB5EV36YCQ7Y/",
+          "source": "産経ニュース",
+          "publishedAt": "2026-11-05T06:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンGOイベントと東北大入試が重複 郡市長「受験生の宿泊先は一定確保」＜仙台＞",
+          "url": "https://news.ntv.co.jp/n/mmt/category/society/mm5d08e65444ab470599ab0b72c7438666",
+          "source": "日テレNEWS NNN",
+          "publishedAt": "2026-11-04T08:51:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンＧＯイベントと東北大入試が日程重複し宿泊先不足懸念 仙台市長「一定の確保はなされている」（仙台放送）",
+          "url": "https://news.yahoo.co.jp/articles/9b837ba3a7b14c8aeed9bfcf08a00eede06e0360",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-04T02:57:01.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "99e4668ed804",
       "title": "「ぽこ あ ポケモン」，有料DLC第2弾「どきどきデコレーション」を12月9日に配信。メタモンも街のポケモンたちもアクセサリーでおしゃれに",
       "summary": "ポケモンは2026年11月4日，Switch2用ソフト「ぽこあポケモン」の有料追加コンテンツ第2弾「どきどきデコレーション」を12月9日に配信すると発表した。主人公のメタモンや街のポケモンたちが身に着けられるアクセサリーをはじめ，新たなポケモンや家具などが追加される。",
@@ -468,63 +540,6 @@
           "url": "https://automaton-media.com/articles/newsjp/20261104-477511/",
           "source": "AUTOMATON",
           "publishedAt": "2026-11-04T14:06:31.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "2139945ba934",
-      "title": "ポケモンGOイベント 6日から宮城県内で開催に向け準備進む 東北大入試と日程重複もホテルでは",
-      "summary": "",
-      "url": "https://newsdig.tbs.co.jp/articles/tbc/3064816?display",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-05395697-mmt-000-2-thumb.jpg?exp=10800",
-      "leadSource": "TBS NEWS DIG",
-      "publishedAt": "2026-11-05T09:32:00.000Z",
-      "sourceCount": 3,
-      "articleCount": 6,
-      "categories": [
-        "event",
-        "media"
-      ],
-      "keywords": [
-        "イベント",
-        "ポケモンGO",
-        "東北大入試"
-      ],
-      "articles": [
-        {
-          "title": "ポケモンGO大型イベント 仙台で開催へ ホテルの宿泊は？＜宮城・仙台＞（ミヤギテレビ）",
-          "url": "https://news.yahoo.co.jp/articles/24d84670c7b2a1b3d56edd9b1c2b08051ee9e0e2",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-05T09:31:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンGOイベントが東北大入試と日程重複 郡和子仙台市長「宿泊に空き、一定の確保」でも1泊2万円前後（tbc東北放送）",
-          "url": "https://news.yahoo.co.jp/articles/430b790cfd2b36691a8d211e0440b4c01ac922ba",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-05T08:29:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "仙台の「ポケモンGO」イベント、東北大入試と日程重複 受験生の宿泊先確保が難航",
-          "url": "https://www.sankei.com/article/20261105-VWYKJJBTQVOWPLEB5EV36YCQ7Y/",
-          "source": "産経ニュース",
-          "publishedAt": "2026-11-05T06:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンGOイベントと東北大入試が重複 郡市長「受験生の宿泊先は一定確保」＜仙台＞（ミヤギテレビ）",
-          "url": "https://news.yahoo.co.jp/articles/e46b6cb7408a4ba701de0956a28db15e7b9e39b5",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-04T08:51:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンＧＯイベントと東北大入試が日程重複し宿泊先不足懸念 仙台市長「一定の確保はなされている」（仙台放送）",
-          "url": "https://news.yahoo.co.jp/articles/9b837ba3a7b14c8aeed9bfcf08a00eede06e0360",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-04T02:57:01.000Z",
           "isPR": false
         }
       ]
@@ -603,34 +618,6 @@
           "url": "https://realsound.jp/tech/2026/11/post-2572044.html",
           "source": "リアルサウンド",
           "publishedAt": "2026-11-03T09:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "02a1d91ca2b3",
-      "title": "『Pokémon LEGENDS Z-A』ピュールとメガズルズキン、ギルガルドのセットが「ポケモンスケールワールド」に登場！「メガバンギラス」セットも",
-      "summary": "「ポケモンスケールワールド」2商品が本日11月6日13時より予約受付開始！",
-      "url": "https://www.inside-games.jp/article/2026/11/06/190432.html",
-      "image": "https://www.inside-games.jp/imgs/rss/1803935.jpg",
-      "leadSource": "インサイド",
-      "publishedAt": "2026-11-06T00:30:03.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "new",
-        "other"
-      ],
-      "keywords": [
-        "pok",
-        "mon"
-      ],
-      "articles": [
-        {
-          "title": "『 Pokémon GO （ポケモン GO）』に西都市公式ルートが登場!!",
-          "url": "https://www.city.saito.lg.jp/kanko_bunka/sightseeing/_pokemon_go_go_1",
-          "source": "西都市",
-          "publishedAt": "2026-11-04T08:03:47.000Z",
           "isPR": false
         }
       ]
@@ -772,16 +759,86 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "2e20c9e5a741",
+      "title": "ポケモンカード3枚、社員寮の郵便受けから盗んだ疑い 25歳の男を逮捕 加古川署 (神戸新聞NEXT)",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/c21ffce9ad1fbd331dfda5aa32929ca0bbba66ad/images/000",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26vobIdrpmaewj-ZJDoRLDnPV0MO1-QEpsRyOa4BUp1PXSy2PvoymD2mUYnQzsn-y46V8O8drzGwejkIUs8RwQH0MVCotiSDmeTi3DyH2nce0QFPBcGA0B960AxL4tu_49g==",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-11-04T10:26:12.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケモンカード",
+        "社員寮",
+        "郵便受"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンカード3枚、社員寮の郵便受けから盗んだ疑い 25歳の男を逮捕 加古川署|事件・事故",
+          "url": "http://www.kobe-np.co.jp/news/jiken/202611/0021000567.shtml",
+          "source": "神戸新聞",
+          "publishedAt": "2026-11-04T09:53:42.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-06T00:00:17.044Z",
-    "previousCount": 169,
-    "newCount": 6
+    "previousAt": "2026-11-06T00:30:17.470Z",
+    "previousCount": 171,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-06T01:00:17.470Z",
+  "nextUpdateAt": "2026-11-06T01:30:16.271Z",
   "items": [
+    {
+      "id": "d28f4e2c309a",
+      "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
+      "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
+      "host": "pref.miyagi.jp",
+      "source": "宮城県",
+      "summary": "",
+      "publishedAt": "2026-11-06T00:49:10.000Z",
+      "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "8a65326cdcdf",
+      "title": "【ワイルドエリア仙台】レイドバトルの優先順位で悩むあなたへ →ディアパルは高速周回が難しい、色違い背景を狙うならとりあえずザシザマ【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3753474",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-06T00:30:21.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7042-1.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "02a1d91ca2b3",
       "title": "『Pokémon LEGENDS Z-A』ピュールとメガズルズキン、ギルガルドのセットが「ポケモンスケールワールド」に登場！「メガバンギラス」セットも",
@@ -802,7 +859,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3ecd6548d137",
@@ -821,7 +878,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0d90f8cd6a26",
@@ -896,27 +953,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d28f4e2c309a",
-      "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
-      "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
-      "host": "pref.miyagi.jp",
-      "source": "宮城県",
-      "summary": "",
-      "publishedAt": "2026-11-05T16:32:31.000Z",
-      "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2400,7 +2436,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2e633316e8ab",
@@ -2488,6 +2524,25 @@
       "isNew": false
     },
     {
+      "id": "23270eaa1293",
+      "title": "マクドナルド×ポケモンが再び!? ピカチュウやイーブイの「ミニボックス」がかわいすぎる！ おもちゃ15種が登場【米】",
+      "url": "https://news.yahoo.co.jp/articles/5c7fc435489c64f37786978e81d671a0e057aaf3",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-04T12:31:06.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00010000-womensh-000-1-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3ca365bc2aff",
       "title": "【ポケポケ】炎タイプのみデッキと炎デッキの最強・おすすめカード【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/472613",
@@ -2529,7 +2584,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0caf746743a4",
@@ -2681,13 +2736,13 @@
     },
     {
       "id": "26c991b2c4e0",
-      "title": "ポケモンGOイベントと東北大入試が重複 郡市長「受験生の宿泊先は一定確保」＜仙台＞（ミヤギテレビ）",
-      "url": "https://news.yahoo.co.jp/articles/e46b6cb7408a4ba701de0956a28db15e7b9e39b5",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "ポケモンGOイベントと東北大入試が重複 郡市長「受験生の宿泊先は一定確保」＜仙台＞",
+      "url": "https://news.ntv.co.jp/n/mmt/category/society/mm5d08e65444ab470599ab0b72c7438666",
+      "host": "news.ntv.co.jp",
+      "source": "日テレNEWS NNN",
       "summary": "",
       "publishedAt": "2026-11-04T08:51:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-01484276-mmt-000-2-thumb.jpg?exp=10800",
+      "image": "https://image.gallery.play.jp/mmt-news/articles/a9462e7fcdf54238a621b6defb94672f/4b7e3644-72f8-4b23-95f8-722aa20cd25d.jpg?w=1200",
       "categories": [
         "event"
       ],
@@ -2927,6 +2982,27 @@
       "isNew": false
     },
     {
+      "id": "231e7296403d",
+      "title": "【11月4日発売】ミスドにピカチュウが登場！ポケモンドーナツ345円から・限定グッズも｜ほんみや宮崎",
+      "url": "https://www.miyazakihonto.com/2026/11/04/misterdonut-pokemon-pikachu-donut-20261104/",
+      "host": "miyazakihonto.com",
+      "source": "ほんみや宮崎",
+      "summary": "",
+      "publishedAt": "2026-11-04T03:05:52.000Z",
+      "image": "https://www.miyazakihonto.com/wp-content/uploads/2026/11/misudo-pkachyu.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d530ee755710",
       "title": "『ポケモン』30周年記念アートブックのサンプルページが初公開！ポケモンやキャラ設定画、NPCトレーナーの一覧まで大ボリューム（インサイド）",
       "url": "https://news.yahoo.co.jp/articles/5141649214d6a3a7cbd392caa7c76bf3bc0f92cc",
@@ -3026,7 +3102,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e03d038b60c1",
@@ -3089,7 +3165,7 @@
       "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3233f892514d",
@@ -3756,27 +3832,6 @@
       "isNew": false
     },
     {
-      "id": "9e0c9ad72aad",
-      "title": "【ポケモンSV】バンギラスの進化と技構成・色違い【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373639",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-03T06:31:37.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ca7b8abc71a2",
       "title": "【ポケモンSV】サーナイトの進化と弱点・技構成【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373634",
@@ -4153,9 +4208,30 @@
       "isNew": false
     },
     {
+      "id": "3321721a3b7b",
+      "title": "【ポケモンSV】クリアチャームの入手方法と効果【スカーレットバイオレット】",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CQ3hIVVdsZGdNbzFjNWJPdC13VF9yMl94TjJWcHllY3ctWEVRazVMdjB6a2c5N1Q3eUtwalNwVWJCZ2l1cE9TX0dDY0lNRGN0S0djd3I4Q1JDbzcweG1z?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-03T06:18:32.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "703a11b371a2",
       "title": "【ポケモンSV】ちょすいの効果とポケモン【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/375036",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0wU1JuSDkwNjFUa3lXcmN5RzlldXVPbzQwaWVRakttTDdpZkZNZXY3dm9CNGxCaEZDYWZsMk00a2d1ZTNHeE1JQXlFSVJOVE9va19Wbmg0WEFXWkhtaHZR?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -4169,19 +4245,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "61e68247b462",
       "title": "【ポケモンSV】秘伝(ひでん)スパイスの入手方法と集め方【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/378173",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1nWS1WejNjYUJZSkt2Zll4YlJvbVJMbXM1S2laTG9zdWIxU3BXME5zRU5jVTNRU0xaOF83RkZpbEhLT1NXV2RSSG5CeldnckdvU3hUd3hOLUphN1gyd0V3?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-03T05:39:06.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/378173.png?date=1670049091",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -4190,7 +4266,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
