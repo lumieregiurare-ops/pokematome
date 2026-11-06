@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-06T07:30:17.195Z",
+  "updatedAt": "2026-11-06T08:00:15.997Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 134,
-  "todayCount": 55,
+  "total": 136,
+  "todayCount": 58,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 18
+      "count": 19
     },
     {
       "id": "update",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 40
     },
     {
       "id": "goodscat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 34
+      "count": 35
     }
   ],
   "series": [
@@ -69,12 +69,12 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 25
+      "count": 26
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 39
+      "count": 40
     },
     {
       "id": "anime",
@@ -94,29 +94,33 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 38
+      "count": 39
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 32
+      "count": 30
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 20
+      "count": 21
     },
     {
       "name": "インサイド",
       "count": 8
     },
     {
-      "name": "GAME Watch",
+      "name": "SNKRDUNK",
       "count": 5
     },
     {
-      "name": "SNKRDUNK",
+      "name": "ポケットモンスターオフィシャルサイト",
+      "count": 4
+    },
+    {
+      "name": "GAME Watch",
       "count": 4
     },
     {
@@ -126,10 +130,6 @@
     {
       "name": "山陽新聞",
       "count": 4
-    },
-    {
-      "name": "ポケットモンスターオフィシャルサイト",
-      "count": 3
     },
     {
       "name": "オリコンニュース",
@@ -180,7 +180,15 @@
       "count": 2
     },
     {
+      "name": "宮城県",
+      "count": 1
+    },
+    {
       "name": "Hypebeast",
+      "count": 1
+    },
+    {
+      "name": "毎日新聞",
       "count": 1
     },
     {
@@ -197,10 +205,6 @@
     },
     {
       "name": "realestatemarket.com.mx",
-      "count": 1
-    },
-    {
-      "name": "宮城県",
       "count": 1
     },
     {
@@ -249,6 +253,10 @@
     },
     {
       "name": "渋川市",
+      "count": 1
+    },
+    {
+      "name": "shiritomo",
       "count": 1
     },
     {
@@ -440,6 +448,56 @@
       ]
     },
     {
+      "id": "d28f4e2c309a",
+      "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
+      "summary": "",
+      "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
+      "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
+      "leadSource": "宮城県",
+      "publishedAt": "2026-11-06T06:51:42.000Z",
+      "sourceCount": 5,
+      "articleCount": 5,
+      "categories": [
+        "event",
+        "other"
+      ],
+      "keywords": [
+        "pok",
+        "mon",
+        "ワイルドエリア"
+      ],
+      "articles": [
+        {
+          "title": "「Pokémon GO ワイルドエリア：グローバル」 シールプレゼントキャンペーンを開催！",
+          "url": "https://shop.pokemon.co.jp/ja/shop/common/events/202611/000640.html",
+          "source": "ポケットモンスターオフィシャルサイト",
+          "publishedAt": "2026-11-05T10:23:23.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「Pokémon GO ワイルドエリア：仙台・東北」いよいよ開催！プレイエリアは宮城県全域、地域の魅力を再発見する特別な冒険",
+          "url": "https://straightpress.jp/20261105/1757402",
+          "source": "STRAIGHT PRESS",
+          "publishedAt": "2026-11-05T05:55:58.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモン GO』リアルイベント、仙台・東北で開催 11月6日から3日間、宮城県全域が舞台に（リアルサウンド）",
+          "url": "https://news.yahoo.co.jp/articles/28b3a6cf93dea56d8371ade45129cda65f5b93dc",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-04T08:47:15.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『 Pokémon GO （ポケモン GO）』に西都市公式ルートが登場!!",
+          "url": "https://www.city.saito.lg.jp/kanko_bunka/sightseeing/_pokemon_go_go_1",
+          "source": "西都市",
+          "publishedAt": "2026-11-04T08:03:47.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "3c3914c4dfd1",
       "title": "杜の都、「ポケGO勢」に染まる 仙台で世界的イベント始まる",
       "summary": "",
@@ -526,85 +584,6 @@
           "url": "https://www.pokemon.co.jp/goods/2026/11/261106_to01.html",
           "source": "ポケットモンスターオフィシャルサイト",
           "publishedAt": "2026-11-06T05:06:46.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "d28f4e2c309a",
-      "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
-      "summary": "",
-      "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
-      "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
-      "leadSource": "宮城県",
-      "publishedAt": "2026-11-06T03:52:03.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "event",
-        "other"
-      ],
-      "keywords": [
-        "pok",
-        "mon",
-        "ワイルドエリア"
-      ],
-      "articles": [
-        {
-          "title": "「Pokémon GO ワイルドエリア：グローバル」 シールプレゼントキャンペーンを開催！",
-          "url": "https://shop.pokemon.co.jp/ja/shop/common/events/202611/000640.html",
-          "source": "ポケットモンスターオフィシャルサイト",
-          "publishedAt": "2026-11-05T10:23:23.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「Pokémon GO ワイルドエリア：仙台・東北」いよいよ開催！プレイエリアは宮城県全域、地域の魅力を再発見する特別な冒険",
-          "url": "https://straightpress.jp/20261105/1757402",
-          "source": "STRAIGHT PRESS",
-          "publishedAt": "2026-11-05T05:55:58.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ポケモン GO』リアルイベント、仙台・東北で開催 11月6日から3日間、宮城県全域が舞台に（リアルサウンド）",
-          "url": "https://news.yahoo.co.jp/articles/28b3a6cf93dea56d8371ade45129cda65f5b93dc",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-04T08:47:15.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "c81bd74a30c9",
-      "title": "「ポケモン」×マンハッタンポーテージの新作アイテムが11月7日に発売。ピカチュウをあしらった可愛らしいデザインリザードンやミミッキュたちが仲間入り",
-      "summary": "Manhattan Portage（マンハッタンポーテージ）は、「Pokemon Collection (ポケモン コレクション)」を11月7日に発売する。価格は4,400円より。",
-      "url": "https://game.watch.impress.co.jp/docs/news/2154322.html",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/322/1.jpg",
-      "leadSource": "GAME Watch",
-      "publishedAt": "2026-11-06T04:31:14.000Z",
-      "sourceCount": 3,
-      "articleCount": 3,
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "keywords": [
-        "マンハッタンポーテージ",
-        "アイテム",
-        "仲間入"
-      ],
-      "articles": [
-        {
-          "title": "『ポケモン』×「マンハッタンポーテージ」コラボにリザードンたち4匹が仲間入り！バック全12アイテムがラインナップ、オンライン販売は本日11月6日12時から",
-          "url": "https://www.inside-games.jp/article/2026/11/06/190439.html",
-          "source": "インサイド",
-          "publishedAt": "2026-11-06T02:10:02.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『 Pokémon GO （ポケモン GO）』に西都市公式ルートが登場!!",
-          "url": "https://www.city.saito.lg.jp/kanko_bunka/sightseeing/_pokemon_go_go_1",
-          "source": "西都市",
-          "publishedAt": "2026-11-04T08:03:47.000Z",
           "isPR": false
         }
       ]
@@ -752,6 +731,70 @@
       ]
     },
     {
+      "id": "f84bc75d13f1",
+      "title": "ミスド、「ポケモン」とコラボした「ミスド ポケモン ドーナツ」とグッズコレクションを本日より店頭販売開始（GAME Watch）",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/5a91240c42cb8feabd32c0328ceb3431f9b92949",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00000004-impgmw-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-11-03T15:00:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 3,
+      "categories": [
+        "goodscat",
+        "other"
+      ],
+      "keywords": [
+        "ミスド",
+        "ドーナツ",
+        "コラボ"
+      ],
+      "articles": [
+        {
+          "title": "【ミスド×ポケモン】今年でコラボ30周年！ 初登場「ヤドン」や歴代のポケモンたちがドーナツになって大集合♪（ぴあ）",
+          "url": "https://news.yahoo.co.jp/articles/864036727c59ff1cbd63fe66ccbcf33636eabf99",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-03T12:00:30.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ミスド」×『ポケモン』2026年はアローラディグダ！ヤドンのドーナツが初登場",
+          "url": "https://www.inside-games.jp/article/2026/11/03/190316.html",
+          "source": "インサイド",
+          "publishedAt": "2026-11-03T08:40:02.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "7c6650ba63d7",
+      "title": "オリコンニュース：ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
+      "summary": "",
+      "url": "https://mainichi.jp/articles/20261106/orc/00m/200/134000c",
+      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491223/20260130_151512_p_o_86432843.jpg",
+      "leadSource": "毎日新聞",
+      "publishedAt": "2026-11-06T06:21:05.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケモンカード",
+        "パック",
+        "来年"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
+          "url": "https://www.oricon.co.jp/news/2491223/full/?anc",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-06T06:21:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "501e8c61afc2",
       "title": "仙台で「ポケモンGO」、東北大学の入試直撃 受験生が宿予約困難に",
       "summary": "",
@@ -779,44 +822,15 @@
           "isPR": false
         }
       ]
-    },
-    {
-      "id": "907e84e0d07f",
-      "title": "仙台市内が多くのトレーナーでにぎわう「ポケモンGOワイルドエリア」レアなポケモンも出現！",
-      "summary": "",
-      "url": "https://newsdig.tbs.co.jp/articles/-/3066194?display",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7042-1.png",
-      "leadSource": "TBS NEWS DIG",
-      "publishedAt": "2026-11-06T03:11:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other",
-        "event"
-      ],
-      "keywords": [
-        "ポケモンGO",
-        "ワイルドエリア",
-        "仙台"
-      ],
-      "articles": [
-        {
-          "title": "【ワイルドエリア仙台】レイドバトルの優先順位で悩むあなたへ →ディアパルは高速周回が難しい、色違い背景を狙うならとりあえずザシザマ【ポケモンGO】",
-          "url": "https://getnews.jp/archives/3753474",
-          "source": "ガジェット通信",
-          "publishedAt": "2026-11-06T00:30:21.000Z",
-          "isPR": false
-        }
-      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-06T07:00:17.497Z",
-    "previousCount": 137,
-    "newCount": 3
+    "previousAt": "2026-11-06T07:30:17.195Z",
+    "previousCount": 134,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-06T08:00:17.195Z",
+  "nextUpdateAt": "2026-11-06T08:30:15.997Z",
   "items": [
     {
       "id": "30390e182b5a",
@@ -837,7 +851,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "d28f4e2c309a",
+      "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
+      "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
+      "host": "pref.miyagi.jp",
+      "source": "宮城県",
+      "summary": "",
+      "publishedAt": "2026-11-06T06:51:42.000Z",
+      "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "b0b7d144024b",
@@ -880,7 +915,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "014c71cba59f",
@@ -903,6 +938,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "7c6650ba63d7",
+      "title": "オリコンニュース：ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
+      "url": "https://mainichi.jp/articles/20261106/orc/00m/200/134000c",
+      "host": "mainichi.jp",
+      "source": "毎日新聞",
+      "summary": "",
+      "publishedAt": "2026-11-06T06:21:05.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "33089ed9707b",
@@ -1034,6 +1090,48 @@
       "isNew": false
     },
     {
+      "id": "6bdf0e2fef54",
+      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-06T05:37:54.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "b6bfeaa0ccd0",
+      "title": "「ポケモンボドゲくらぶキャラバン with フレンダ」がイオンモールで開催！｜ポケットモンスターオフィシャルサイト",
+      "url": "https://www.pokemon.co.jp/info/2026/10/261030_e01.html",
+      "host": "pokemon.co.jp",
+      "source": "ポケットモンスターオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-11-06T05:28:46.000Z",
+      "image": "https://www.pokemon.co.jp/PostImages/39ec3fe48deb7b7600c9569f02c2916ccc95106d.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0e5535636760",
       "title": "『ポケットモンスター』シリーズの変遷にフォーカスしたグッズが、ポケモンセンターオンラインに登場！",
       "url": "https://www.pokemon.co.jp/goods/2026/11/261106_to01.html",
@@ -1094,6 +1192,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c774ac346a44",
+      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
+      "url": "https://snkrdunk.com/articles/31684/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-06T05:00:25.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "501e8c61afc2",
@@ -1311,27 +1432,6 @@
       "isNew": false
     },
     {
-      "id": "d28f4e2c309a",
-      "title": "11月6日〜8日は宮城の魅力も楽しもう！ 「Pokémon GO ワイルドエリア」期間中に県内で楽しめる各種イベントについて",
-      "url": "https://www.pref.miyagi.jp/soshiki/kankou/pokemon/pokemongo2.html",
-      "host": "pref.miyagi.jp",
-      "source": "宮城県",
-      "summary": "",
-      "publishedAt": "2026-11-06T03:52:03.000Z",
-      "image": "https://www.pref.miyagi.jp/shared/images/sns/logo.jpg",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "2fdf367ff62c",
       "title": "ポケモンＧＯのリアルイベントが仙台市で開幕 メイン会場の榴岡公園には国内外から多くの人が集結する（仙台放送）",
       "url": "https://news.yahoo.co.jp/articles/be928d0f40cf740befae76d36df89278fe6d5ca7",
@@ -1515,27 +1615,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6bdf0e2fef54",
-      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-06T01:50:18.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2100,7 +2179,7 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-11-05T12:13:26.000Z",
-      "image": "",
+      "image": "https://i.ytimg.com/vi/86O_5IrBgxY/maxresdefault.jpg",
       "categories": [
         "other"
       ],
@@ -2600,6 +2679,27 @@
       "isNew": false
     },
     {
+      "id": "b705ded041f8",
+      "title": "iPhone Duoのマルチタスク、はじめしゃちょーがポケモンGOとポケポケ同時プレイ",
+      "url": "https://hashout.jp/gadget/13811/",
+      "host": "hashout.jp",
+      "source": "shiritomo",
+      "summary": "",
+      "publishedAt": "2026-11-04T22:56:50.000Z",
+      "image": "https://hashout.jp/wp-content/uploads/2026/11/2117467702465880100-img-1200x675.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "8f877bb78273",
       "title": "「かっしーのポケモンえほん」最新刊『ポケモンはこあそび』12月10日発売！ポケモンが描かれた10個の箱で積んで並べて入れ子で収納",
       "url": "https://nijimen.kusuguru.co.jp/topics/649311",
@@ -2776,7 +2876,7 @@
       "source": "YouTube",
       "summary": "",
       "publishedAt": "2026-11-04T13:00:22.000Z",
-      "image": "",
+      "image": "https://i.ytimg.com/vi/gPYJ1WmUrSY/maxresdefault.jpg",
       "categories": [
         "other"
       ],
@@ -3149,7 +3249,7 @@
       "source": "人鳥日記",
       "summary": "",
       "publishedAt": "2026-11-04T06:22:53.000Z",
-      "image": "",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/11/なんでもペロリごちそうウィーク.png",
       "categories": [
         "other"
       ],
@@ -3247,27 +3347,6 @@
       "isNew": false
     },
     {
-      "id": "e03d038b60c1",
-      "title": "【ポケポケ】古代・未来を持つカードの一覧｜パラドックスポケモン【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/561501",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-04T02:10:02.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561501.png?date=1779426694",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "2907b658538c",
       "title": "11/6～8 仙台「ポケモンGOワイルドエリア」に合わせ 地下鉄24時間700円・36時間券1,000円で乘り放題、Web限定販売･購入法･改札ルール",
       "url": "https://tetsudo-ch.com/13041402.html",
@@ -3330,13 +3409,13 @@
     },
     {
       "id": "f84bc75d13f1",
-      "title": "ミスド、「ポケモン」とコラボした「ミスド ポケモン ドーナツ」とグッズコレクションを本日より店頭販売開始",
-      "url": "https://game.watch.impress.co.jp/docs/news/2152431.html",
-      "host": "game.watch.impress.co.jp",
-      "source": "GAME Watch",
+      "title": "ミスド、「ポケモン」とコラボした「ミスド ポケモン ドーナツ」とグッズコレクションを本日より店頭販売開始（GAME Watch）",
+      "url": "https://news.yahoo.co.jp/articles/5a91240c42cb8feabd32c0328ceb3431f9b92949",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-03T15:00:00.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2152/431/012.jpg",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261104-00000004-impgmw-000-1-view.jpg?exp=10800",
       "categories": [
         "goodscat"
       ],
@@ -3612,27 +3691,6 @@
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375986.png?date=1669053071",
       "categories": [
         "guide"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4a0adce5ada0",
-      "title": "【ポケモンSV】BP稼ぎの効率的なやり方・貯め方【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/429778",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-03T07:45:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/429778.png?date=1702525159",
-      "categories": [
-        "other"
       ],
       "series": [
         "main"
