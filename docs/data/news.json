@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T10:30:15.840Z",
+  "updatedAt": "2026-11-07T11:00:15.791Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 29
+      "count": 30
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 26
+      "count": 25
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 4
+      "count": 1
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 32
+      "count": 33
     }
   ],
   "series": [
@@ -100,12 +100,12 @@
   "weapons": [],
   "sources": [
     {
-      "name": "GameWith",
+      "name": "Yahoo!ニュース",
       "count": 20
     },
     {
-      "name": "Yahoo!ニュース",
-      "count": 18
+      "name": "GameWith",
+      "count": 20
     },
     {
       "name": "SNKRDUNK",
@@ -240,10 +240,6 @@
       "count": 1
     },
     {
-      "name": "柏つうしん",
-      "count": 1
-    },
-    {
       "name": "Goal.com",
       "count": 1
     },
@@ -261,10 +257,6 @@
     },
     {
       "name": "Saiga NAK",
-      "count": 1
-    },
-    {
-      "name": "南日本新聞",
       "count": 1
     },
     {
@@ -318,7 +310,7 @@
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-11-06T23:00:00.000Z",
       "sourceCount": 10,
-      "articleCount": 10,
+      "articleCount": 11,
       "categories": [
         "goodscat",
         "other"
@@ -383,6 +375,77 @@
           "url": "https://www.famitsu.com/article/202611/93270",
           "source": "ファミ通",
           "publishedAt": "2026-11-06T05:28:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "b0be4735872a",
+      "title": "「北斗の拳」の原哲夫氏が描く「マキシの熱血」SARが公開。「ポケカ」新パック「ハドウシーカー」の収録カード情報が明らかに",
+      "summary": "ポケモンは本日（2026年11月6日），11月27日に発売を予定している「ポケモンカードゲームMEGA」拡張パック「ハドウシーカー」の収録カード情報を公開した。「北斗の拳」の原哲夫氏による「マキシの熱血」SARが登場し，11月30日からは原画とカードの展示も行われる。",
+      "url": "https://www.4gamer.net/games/256/G025620/20261106055/",
+      "image": "https://www.4gamer.net/games/256/G025620/20261106055/SS/002.jpg",
+      "leadSource": "4Gamer",
+      "publishedAt": "2026-11-06T18:47:02.000Z",
+      "sourceCount": 7,
+      "articleCount": 8,
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "keywords": [
+        "パック",
+        "sar",
+        "拡張"
+      ],
+      "articles": [
+        {
+          "title": "ミュウツーex SAR [M6a 128/103](拡張パック「30th CELEBRATION」)",
+          "url": "https://snkrdunk.com/apparels/896990/used/52560960",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-06T18:47:02.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】新拡張パック『ハドウシーカー』11月27日発売。原哲夫描き下ろしの大迫力SAR“マキシの熱血”収録！",
+          "url": "https://dengekionline.com/article/202611/93312",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-11-06T12:39:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「北斗の拳」原哲夫先生が『ポケカ』のマキシを描く！新パック収録の「千手の残像拳！」なSARイラストが迫力満点",
+          "url": "https://www.inside-games.jp/article/2026/11/06/190458.html",
+          "source": "インサイド",
+          "publishedAt": "2026-11-06T07:15:03.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
+          "url": "https://www.oricon.co.jp/news/2491223/full/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-06T06:21:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "画像・写真 | ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 1枚目",
+          "url": "https://www.oricon.co.jp/news/2491223/photo/1/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-06T06:21:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】「北斗の拳」原哲夫氏の描き下ろし！ 新パック「ハドウシーカー」収録の「マキシの熱血」イラストが公開",
+          "url": "https://game.watch.impress.co.jp/docs/news/2154372.html",
+          "source": "GAME Watch",
+          "publishedAt": "2026-11-06T06:20:07.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ポケモンカードゲーム MEGA」拡張パック「ハドウシーカー」に「北斗の拳」の原哲夫先生描き下ろしによる「マキシの熱血」SARが登場！",
+          "url": "https://www.gamer.ne.jp/news/202611060021/",
+          "source": "Gamer",
+          "publishedAt": "2026-11-06T06:03:00.000Z",
           "isPR": false
         }
       ]
@@ -466,72 +529,15 @@
       ]
     },
     {
-      "id": "b0be4735872a",
-      "title": "「北斗の拳」の原哲夫氏が描く「マキシの熱血」SARが公開。「ポケカ」新パック「ハドウシーカー」の収録カード情報が明らかに",
-      "summary": "ポケモンは本日（2026年11月6日），11月27日に発売を予定している「ポケモンカードゲームMEGA」拡張パック「ハドウシーカー」の収録カード情報を公開した。「北斗の拳」の原哲夫氏による「マキシの熱血」SARが登場し，11月30日からは原画とカードの展示も行われる。",
-      "url": "https://www.4gamer.net/games/256/G025620/20261106055/",
-      "image": "https://www.4gamer.net/games/256/G025620/20261106055/SS/002.jpg",
-      "leadSource": "4Gamer",
-      "publishedAt": "2026-11-06T18:47:02.000Z",
-      "sourceCount": 6,
-      "articleCount": 6,
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "keywords": [
-        "パック",
-        "sar",
-        "マキシ"
-      ],
-      "articles": [
-        {
-          "title": "ミュウツーex SAR [M6a 128/103](拡張パック「30th CELEBRATION」)",
-          "url": "https://snkrdunk.com/apparels/896990/used/52560960",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-11-06T18:47:02.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケカ】新拡張パック『ハドウシーカー』11月27日発売。原哲夫描き下ろしの大迫力SAR“マキシの熱血”収録！",
-          "url": "https://dengekionline.com/article/202611/93312",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-11-06T12:39:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「北斗の拳」原哲夫先生が『ポケカ』のマキシを描く！新パック収録の「千手の残像拳！」なSARイラストが迫力満点",
-          "url": "https://www.inside-games.jp/article/2026/11/06/190458.html",
-          "source": "インサイド",
-          "publishedAt": "2026-11-06T07:15:03.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケカ】「北斗の拳」原哲夫氏の描き下ろし！ 新パック「ハドウシーカー」収録の「マキシの熱血」イラストが公開",
-          "url": "https://game.watch.impress.co.jp/docs/news/2154372.html",
-          "source": "GAME Watch",
-          "publishedAt": "2026-11-06T06:20:07.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ポケモンカードゲーム MEGA」拡張パック「ハドウシーカー」に「北斗の拳」の原哲夫先生描き下ろしによる「マキシの熱血」SARが登場！",
-          "url": "https://www.gamer.ne.jp/news/202611060021/",
-          "source": "Gamer",
-          "publishedAt": "2026-11-06T06:03:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "762d1339b450",
       "title": "ニューエラ（NEW ERA）×「ポケモン」コラボの商品ラインナップ公開！ピカチュウやメタモンのキャップなど各種アパレルが新発売",
       "summary": "ニューエラ（NEW ERA）は、「ポケモン」30周年を記念したアイテムを11月20日に発売する。価格は4,400円より。販売店舗はニューエラストア各店・ニューエラ公式オンラインストア・全国のニューエラ取扱店。",
       "url": "https://game.watch.impress.co.jp/docs/news/2154304.html",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/304/1.jpg",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/pokemon-goods-261106-03_000.jpg",
       "leadSource": "GAME Watch",
       "publishedAt": "2026-11-07T05:04:00.000Z",
-      "sourceCount": 5,
-      "articleCount": 6,
+      "sourceCount": 6,
+      "articleCount": 7,
       "categories": [
         "other",
         "goodscat"
@@ -554,6 +560,13 @@
           "url": "https://www.ndw.jp/pokemon-goods-261106-03/",
           "source": "Nintendo DREAM WEB",
           "publishedAt": "2026-11-06T11:12:19.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ニューエラが「ポケモン」30周年記念アイテムを発売 ピカチュウらの繊細な刺繍デザインがかわいい（リアルサウンド）",
+          "url": "https://news.yahoo.co.jp/articles/f35ce539e87a1fddec7103d0b9cb7caa74776f51",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-06T10:12:39.000Z",
           "isPR": false
         },
         {
@@ -648,16 +661,16 @@
       ],
       "articles": [
         {
-          "title": "池袋ポケモンセンター店員刺殺事件 死亡の元交際相手を不起訴処分 東京地検",
-          "url": "https://news.tv-asahi.co.jp/news_society/articles/000545894.html",
-          "source": "テレ朝NEWS",
+          "title": "池袋ポケモンセンター店員刺殺事件 死亡の元交際相手を不起訴処分 東京地検（テレビ朝日系（ANN））",
+          "url": "https://news.yahoo.co.jp/articles/e4e9fee7c135c1e16f8fd2f635c1516acfcf903f",
+          "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-06T09:50:54.000Z",
           "isPR": false
         },
         {
-          "title": "池袋ポケモンセンター店員刺殺事件 死亡の元交際相手を不起訴処分 東京地検（テレビ朝日系（ANN））",
-          "url": "https://news.yahoo.co.jp/articles/e4e9fee7c135c1e16f8fd2f635c1516acfcf903f",
-          "source": "Yahoo!ニュース",
+          "title": "池袋ポケモンセンター店員刺殺事件 死亡の元交際相手を不起訴処分 東京地検",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/000545894.html",
+          "source": "テレ朝NEWS",
           "publishedAt": "2026-11-06T09:50:54.000Z",
           "isPR": false
         }
@@ -702,34 +715,6 @@
           "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/pokemon-card-lottery-information-2026/blt9aa2212834fd35bf",
           "source": "Goal.com",
           "publishedAt": "2026-11-06T10:04:08.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "a9ef7795e818",
-      "title": "【11月7・8日】イオンモール宮崎にピカチュウ登場！1日5回・ポケモングッズのプレゼントも",
-      "summary": "",
-      "url": "https://www.miyazakihonto.com/2026/11/07/miyazaki-aeon-pikachu-softbank-event-20261107/",
-      "image": "https://www.miyazakihonto.com/wp-content/uploads/2026/11/ion-pikachyu.jpg",
-      "leadSource": "ほんみや宮崎",
-      "publishedAt": "2026-11-07T04:02:19.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "goodscat"
-      ],
-      "keywords": [
-        "ピカチュウ",
-        "ポケモングッズ",
-        "プレゼント"
-      ],
-      "articles": [
-        {
-          "title": "11/7（土）8（日）セブンパークアリオ柏にて「ピカチュウ写真撮影会」が開催！参加無料でポケモングッズのプレゼントも",
-          "url": "https://kashiwa-tsushin.com/28127.html",
-          "source": "柏つうしん",
-          "publishedAt": "2026-11-06T10:50:25.000Z",
           "isPR": false
         }
       ]
@@ -821,41 +806,41 @@
       ]
     },
     {
-      "id": "5847916b54a9",
-      "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 | ORICON NEWS | 国内海外のニュース",
-      "summary": "",
-      "url": "https://373news.com/news/national/oricon/detail/2491223",
-      "image": "https://373news.com/_news/oricon/photo/main/20260130_151506_size640wh_44208017.jpg",
-      "leadSource": "南日本新聞",
-      "publishedAt": "2026-11-06T06:21:05.000Z",
+      "id": "99050a9c0858",
+      "title": "サービス終了近づく『ポケモンユナイト』の「長年のフレンド」を捜索する人あらわる。ゲーム内でしか知らない友達",
+      "summary": "『ポケモンユナイト』でしかやり取りをしていないフレンドについて、同作以外でも連絡を取りたいユーザーの投稿が注目を集めている。「人探し」にはある種の抜け道のようなアドバイスも寄せられている。",
+      "url": "https://automaton-media.com/articles/newsjp/20261104-477455/",
+      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261104-477455-header.jpg",
+      "leadSource": "AUTOMATON",
+      "publishedAt": "2026-11-05T07:05:48.000Z",
       "sourceCount": 2,
       "articleCount": 2,
       "categories": [
-        "tcgcat"
+        "other"
       ],
       "keywords": [
-        "ポケモンカード",
-        "パック",
-        "来年"
+        "ポケモンユナイト",
+        "サービス",
+        "終了"
       ],
       "articles": [
         {
-          "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
-          "url": "https://www.oricon.co.jp/news/2491223/full/",
-          "source": "オリコンニュース",
-          "publishedAt": "2026-11-06T06:21:00.000Z",
+          "title": "ゲーム『ポケモンユナイト』2027年3月23日にサービス終了 6年の歴史に幕",
+          "url": "https://www.fukuishimbun.co.jp/articles/gallery/2732399?ph",
+          "source": "福井新聞社",
+          "publishedAt": "2026-11-05T07:05:48.000Z",
           "isPR": false
         }
       ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-07T10:00:16.453Z",
-    "previousCount": 111,
-    "newCount": 22
+    "previousAt": "2026-11-07T10:30:15.840Z",
+    "previousCount": 128,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-07T11:00:15.840Z",
+  "nextUpdateAt": "2026-11-07T11:30:15.791Z",
   "items": [
     {
       "id": "c9ed49750add",
@@ -908,7 +893,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-07T09:10:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GYLKHN/001_size7.jpg?timestamp=20261107191621",
+      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GYLKHN/001_size7.jpg?timestamp=20261107195126",
       "categories": [
         "event"
       ],
@@ -917,7 +902,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f5a96e554f06",
@@ -936,7 +921,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d28f4e2c309a",
@@ -1001,7 +986,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d2e8d820abd3",
@@ -1020,7 +1005,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "27c4bf34f103",
@@ -1039,7 +1024,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e8058f46aa3a",
@@ -1060,7 +1045,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "884dec96daab",
@@ -1079,7 +1064,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c774ac346a44",
@@ -1204,7 +1189,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c784961cf76b",
@@ -1334,7 +1319,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b7bcf96bfb4d",
@@ -1353,7 +1338,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3a2192d13b3",
@@ -1419,7 +1404,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7ce29a27e667",
@@ -1520,7 +1505,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "80cf00238f8b",
@@ -1668,7 +1653,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b0be4735872a",
@@ -1733,7 +1718,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "856091532fd3",
@@ -1903,27 +1888,6 @@
       "isNew": false
     },
     {
-      "id": "fd3c8462d6dc",
-      "title": "11/7（土）8（日）セブンパークアリオ柏にて「ピカチュウ写真撮影会」が開催！参加無料でポケモングッズのプレゼントも",
-      "url": "https://kashiwa-tsushin.com/28127.html",
-      "host": "kashiwa-tsushin.com",
-      "source": "柏つうしん",
-      "summary": "",
-      "publishedAt": "2026-11-06T10:50:25.000Z",
-      "image": "https://kashiwa-tsushin.com/wp-content/uploads/2023/04/IMG_9307.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "e259b5fc2c1f",
       "title": "東北大学がポケモンＧＯ参加者に「地下鉄利用控えて」 ＡＯ入試重複で異例の呼びかけ〈仙台市〉（仙台放送）",
       "url": "https://news.yahoo.co.jp/articles/0f59141a18dc8d8dc335bbdd86ba46cea50fd9ea",
@@ -1962,6 +1926,27 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3f0745239ab2",
+      "title": "ニューエラが「ポケモン」30周年記念アイテムを発売 ピカチュウらの繊細な刺繍デザインがかわいい（リアルサウンド）",
+      "url": "https://news.yahoo.co.jp/articles/f35ce539e87a1fddec7103d0b9cb7caa74776f51",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-06T10:12:39.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00010062-realsound-000-1-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ce85295aa853",
@@ -2052,6 +2037,27 @@
       "isNew": false
     },
     {
+      "id": "4d4767204620",
+      "title": "池袋ポケモンセンター店員刺殺事件 死亡の元交際相手を不起訴処分 東京地検（テレビ朝日系（ANN））",
+      "url": "https://news.yahoo.co.jp/articles/e4e9fee7c135c1e16f8fd2f635c1516acfcf903f",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-06T09:50:54.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000082-ann-000-8-view.jpg?exp=10800",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "9d06fa1347e6",
       "title": "池袋ポケモンセンター店員刺殺事件 死亡の元交際相手を不起訴処分 東京地検",
       "url": "https://news.tv-asahi.co.jp/news_society/articles/000545894.html",
@@ -2070,22 +2076,43 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4e622f8b1a0a",
+      "title": "【ポケポケ】メガヘラクロスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/560534",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-06T09:38:47.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560534.png?date=1778587271",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
-      "id": "4d4767204620",
-      "title": "池袋ポケモンセンター店員刺殺事件 死亡の元交際相手を不起訴処分 東京地検（テレビ朝日系（ANN））",
-      "url": "https://news.yahoo.co.jp/articles/e4e9fee7c135c1e16f8fd2f635c1516acfcf903f",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "e5345bc0d117",
+      "title": "【ポケポケ】メガライボルトexデッキのレシピと評価・対策【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/551307",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-06T09:50:54.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261106-00000082-ann-000-8-view.jpg?exp=10800",
+      "publishedAt": "2026-11-06T09:36:57.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551307.png?date=1774496570",
       "categories": [
-        "goodscat"
+        "tcgcat"
       ],
       "series": [
-        "goods"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2133,7 +2160,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6bdf0e2fef54",
@@ -2445,7 +2472,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "903396e1c45b",
@@ -2533,27 +2560,6 @@
       "isNew": false
     },
     {
-      "id": "5847916b54a9",
-      "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 | ORICON NEWS | 国内海外のニュース",
-      "url": "https://373news.com/news/national/oricon/detail/2491223",
-      "host": "373news.com",
-      "source": "南日本新聞",
-      "summary": "",
-      "publishedAt": "2026-11-06T06:21:05.000Z",
-      "image": "https://373news.com/_news/oricon/photo/main/20260130_151506_size640wh_44208017.jpg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "33089ed9707b",
       "title": "ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更",
       "url": "https://www.oricon.co.jp/news/2491223/full/",
@@ -2575,6 +2581,27 @@
       "isNew": false
     },
     {
+      "id": "3390f6e406f6",
+      "title": "画像・写真 | ポケモンカード来年5月から再び値上げ 「拡張パック」200円→230円に変更 1枚目",
+      "url": "https://www.oricon.co.jp/news/2491223/photo/1/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-06T06:21:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2492000/2491223/20260130_151512_p_o_86432843.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "488b8f73add0",
       "title": "【ポケカ】「北斗の拳」原哲夫氏の描き下ろし！ 新パック「ハドウシーカー」収録の「マキシの熱血」イラストが公開",
       "url": "https://game.watch.impress.co.jp/docs/news/2154372.html",
@@ -2582,7 +2609,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは11月27日に発売を予定している「ポケモンカードゲーム MEGA 拡張パック ハドウシーカー」に収録されるカードのイラストを公開した。",
       "publishedAt": "2026-11-06T06:20:07.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/372/1.jpg",
+      "image": "",
       "categories": [
         "tcgcat",
         "new"
@@ -2723,7 +2750,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "501e8c61afc2",
@@ -2777,7 +2804,7 @@
       "source": "GAME Watch",
       "summary": "ニューエラ（NEW ERA）は、「ポケモン」30周年を記念したアイテムを11月20日に発売する。価格は4,400円より。販売店舗はニューエラストア各店・ニューエラ公式オンラインストア・全国のニューエラ取扱店。",
       "publishedAt": "2026-11-06T04:15:12.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/304/1.jpg",
+      "image": "",
       "categories": [
         "goodscat",
         "new"
@@ -3019,7 +3046,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "792ad83d8e53",
@@ -3294,6 +3321,28 @@
       "isNew": false
     },
     {
+      "id": "cd4c19dd821c",
+      "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-05T03:48:00.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579544.jpg?date=1791011513",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b17f0104186f",
       "title": "【ワイルドエリア仙台】レイドパスは開催前に買い溜めておこう / 99枚入りのセールボックスは見つけたら即購入すべし【ポケモンGO】",
       "url": "https://getnews.jp/archives/3753208",
@@ -3316,13 +3365,13 @@
     },
     {
       "id": "55c73940de64",
-      "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」",
-      "url": "https://www.oricon.co.jp/news/2490765/photo/17/",
-      "host": "oricon.co.jp",
-      "source": "オリコンニュース",
+      "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/d186d184aec087196afb3e6d9ed2293ce96b86f0",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-05T02:50:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2491000/2490765/20261104_173351_p_o_27071946.jpg",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00000322-oric-000-2-view.jpg?exp=10800",
       "categories": [
         "goodscat"
       ],
@@ -3464,72 +3513,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "90d86eae0d7c",
-      "title": "【ポケポケ】雷タイプのみデッキと雷デッキの最強・おすすめカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/472615",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-04T10:59:39.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/472615.png?date=1791866805",
-      "categories": [
-        "guide",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "f8b1bbc8a7d1",
-      "title": "【ポケポケ】水タイプのみデッキと水デッキの最強・おすすめカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/472614",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-04T10:59:25.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/472614.png?date=1758611555",
-      "categories": [
-        "guide",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0caf746743a4",
-      "title": "【ポケポケ】草タイプのみデッキと草デッキの最強・おすすめカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/472612",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-04T10:59:23.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/472612.png?date=1791866625",
-      "categories": [
-        "guide",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "99050a9c0858",
