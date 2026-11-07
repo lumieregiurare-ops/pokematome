@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T15:30:16.767Z",
+  "updatedAt": "2026-11-07T16:00:18.706Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 27
+      "count": 28
     },
     {
       "id": "tcgcat",
@@ -105,7 +105,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 18
+      "count": 17
     },
     {
       "name": "SNKRDUNK",
@@ -117,6 +117,10 @@
     },
     {
       "name": "YouTube",
+      "count": 4
+    },
+    {
+      "name": "オリコンニュース",
       "count": 4
     },
     {
@@ -145,10 +149,6 @@
     },
     {
       "name": "Nintendo DREAM WEB",
-      "count": 3
-    },
-    {
-      "name": "オリコンニュース",
       "count": 3
     },
     {
@@ -852,12 +852,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-07T15:00:14.770Z",
+    "previousAt": "2026-11-07T15:30:16.767Z",
     "previousCount": 125,
-    "newCount": 4
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-07T16:00:16.767Z",
+  "nextUpdateAt": "2026-11-07T16:30:18.706Z",
   "items": [
     {
       "id": "12b751765e9a",
@@ -878,7 +878,30 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "c774ac346a44",
+      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
+      "url": "https://snkrdunk.com/articles/31684/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-07T13:58:17.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "9aac01269ad6",
@@ -1222,29 +1245,6 @@
         "other"
       ],
       "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c774ac346a44",
-      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
-      "url": "https://snkrdunk.com/articles/31684/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-07T04:40:12.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
         "goods"
       ],
       "isOfficial": false,
@@ -2368,7 +2368,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "833ac77d5fe0",
@@ -2421,27 +2421,6 @@
       "summary": "",
       "publishedAt": "2026-11-06T09:36:32.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570627.png?date=1785392914",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "5ebbbec1eed8",
-      "title": "【ポケポケ】ギラティナexデッキ(デュアルフュージョン)のレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/586070",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-06T09:36:21.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586070.png?date=1793283607",
       "categories": [
         "tcgcat"
       ],
@@ -2659,7 +2638,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "33089ed9707b",
@@ -2711,7 +2690,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは11月27日に発売を予定している「ポケモンカードゲーム MEGA 拡張パック ハドウシーカー」に収録されるカードのイラストを公開した。",
       "publishedAt": "2026-11-06T06:20:07.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/372/1.jpg",
+      "image": "",
       "categories": [
         "tcgcat",
         "new"
@@ -3313,7 +3292,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "082bf9a9cfcd",
@@ -3379,6 +3358,28 @@
       "isNew": false
     },
     {
+      "id": "cd4c19dd821c",
+      "title": "【ポケポケ】ハイクラスパックMEGAエンブレムイベントの攻略【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/579544",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-05T03:48:00.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579544.jpg?date=1791011513",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b17f0104186f",
       "title": "【ワイルドエリア仙台】レイドパスは開催前に買い溜めておこう / 99枚入りのセールボックスは見つけたら即購入すべし【ポケモンGO】",
       "url": "https://getnews.jp/archives/3753208",
@@ -3401,13 +3402,13 @@
     },
     {
       "id": "55c73940de64",
-      "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」（オリコン）",
-      "url": "https://news.yahoo.co.jp/articles/d186d184aec087196afb3e6d9ed2293ce96b86f0",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」",
+      "url": "https://www.oricon.co.jp/news/2490765/photo/2/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-05T02:50:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00000322-oric-000-2-view.jpg?exp=10800",
+      "image": "https://contents.oricon.co.jp/upimg/news/2491000/2490765/20261104_173345_p_o_48208158.jpg",
       "categories": [
         "goodscat"
       ],
