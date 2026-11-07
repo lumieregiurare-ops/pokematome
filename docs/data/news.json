@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-07T22:30:15.556Z",
+  "updatedAt": "2026-11-07T23:00:16.409Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 126,
+  "total": 127,
   "todayCount": 7,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 13
+      "count": 14
     },
     {
       "id": "update",
@@ -32,17 +32,17 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 23
+      "count": 24
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 10
+      "count": 11
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 3
+      "count": 2
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 32
+      "count": 31
     }
   ],
   "series": [
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 9
+      "count": 10
     },
     {
       "id": "unite",
@@ -94,22 +94,22 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 38
+      "count": 40
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 19
+      "count": 18
     },
     {
       "name": "SNKRDUNK",
-      "count": 7
+      "count": 8
     },
     {
       "name": "ガジェット通信",
@@ -144,8 +144,8 @@
       "count": 3
     },
     {
-      "name": "Unisba Media",
-      "count": 2
+      "name": "オリコンニュース",
+      "count": 3
     },
     {
       "name": "Gamer",
@@ -157,10 +157,6 @@
     },
     {
       "name": "4Gamer",
-      "count": 2
-    },
-    {
-      "name": "オリコンニュース",
       "count": 2
     },
     {
@@ -181,6 +177,14 @@
     },
     {
       "name": "サンスポ",
+      "count": 1
+    },
+    {
+      "name": "Unisba Media",
+      "count": 1
+    },
+    {
+      "name": "ABEMA",
       "count": 1
     },
     {
@@ -264,6 +268,10 @@
       "count": 1
     },
     {
+      "name": "au Webポータル",
+      "count": 1
+    },
+    {
       "name": "AGARA 紀伊民報",
       "count": 1
     },
@@ -321,8 +329,8 @@
       "image": "https://animeanime.jp/imgs/rss/953161.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-11-06T23:00:00.000Z",
-      "sourceCount": 10,
-      "articleCount": 10,
+      "sourceCount": 11,
+      "articleCount": 11,
       "categories": [
         "goodscat",
         "other"
@@ -376,17 +384,17 @@
           "isPR": false
         },
         {
+          "title": "「ポケットモンスター」シリーズ歴代マップや各地方のどうろ、名所の変遷にフォーカスしたグッズが11月12日にポケモンセンターオンラインで発売！",
+          "url": "https://article.auone.jp/ca12e5a8-26e2-4601-93bc-2756056d9468",
+          "source": "au Webポータル",
+          "publishedAt": "2026-11-06T05:54:57.000Z",
+          "isPR": false
+        },
+        {
           "title": "『ポケモン』歴代「どうろ」などがグッズ化「場所選びのセンスが良すぎる」「ヤバいグッズきた」",
           "url": "https://www.agara.co.jp/article/709292?top",
           "source": "AGARA 紀伊民報",
           "publishedAt": "2026-11-06T05:46:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケモン】『ダイパ』209ばんどうろ、『赤・緑』1ばんどうろなどがジオラマ化。BGMをオルゴールの音色で楽しめる。11月12日発売",
-          "url": "https://www.famitsu.com/article/202611/93270",
-          "source": "ファミ通",
-          "publishedAt": "2026-11-06T05:28:00.000Z",
           "isPR": false
         }
       ]
@@ -846,12 +854,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-07T22:00:16.001Z",
+    "previousAt": "2026-11-07T22:30:15.556Z",
     "previousCount": 126,
     "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-07T23:00:15.556Z",
+  "nextUpdateAt": "2026-11-07T23:30:16.409Z",
   "items": [
     {
       "id": "93bc948f5051",
@@ -872,7 +880,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "86d98d39eb78",
@@ -1024,6 +1032,27 @@
       "isNew": false
     },
     {
+      "id": "3102bb1d2fe9",
+      "title": "テレ東系にて「ポケモンとどこいく！？」が現在放送中！",
+      "url": "https://abema.tv/channels/pokemon-1/slots/AvKSDGn8mEcyK5",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-11-07T14:08:53.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "c774ac346a44",
       "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
       "url": "https://snkrdunk.com/articles/31684/",
@@ -1152,27 +1181,6 @@
       "isNew": false
     },
     {
-      "id": "b8e313d18f8f",
-      "title": "メテノ使うならこれ。実は今この使い方が激熱なんです #レギュレーションF【ポケモンSV】【スカーレット/バイオレット】 Uofa (SJSdb9sLQN)",
-      "url": "https://media.unisba.ac.id/7370e8d7/c885f665BjcLRABoLCscJSs/",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-11-07T10:14:42.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "c9ed49750add",
       "title": "ポケモンＧＯリアルイベントと仙台市の東北大入試重なり受験生から様々な声「福島のホテル取った人も」（仙台放送）",
       "url": "https://news.yahoo.co.jp/articles/98c95a7dcbe6e32014df2212869522cb900166be",
@@ -1202,7 +1210,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-07T09:10:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GYLKHN/001_size7.jpg?timestamp=20261108070030",
+      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GYLKHN/001_size7.jpg?timestamp=20261108080028",
       "categories": [
         "event"
       ],
@@ -1565,6 +1573,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "e50bccbe0761",
+      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【11/6更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/33599/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-06T21:59:56.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/b82bd0a8-5400-450a-9b78-af65dc6f5e0c.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "80cf00238f8b",
@@ -2162,28 +2193,6 @@
       "isNew": false
     },
     {
-      "id": "04e2c61267cb",
-      "title": "【ポケポケ】毒デッキのレシピとおすすめカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/478183",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-06T09:38:41.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/478183.png?date=1733814567",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "ae4709b0349e",
       "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
@@ -2701,7 +2710,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "33089ed9707b",
@@ -2788,6 +2797,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "faf5b8c4fde1",
+      "title": "「ポケットモンスター」シリーズ歴代マップや各地方のどうろ、名所の変遷にフォーカスしたグッズが11月12日にポケモンセンターオンラインで発売！",
+      "url": "https://article.auone.jp/ca12e5a8-26e2-4601-93bc-2756056d9468",
+      "host": "article.auone.jp",
+      "source": "au Webポータル",
+      "summary": "",
+      "publishedAt": "2026-11-06T05:54:57.000Z",
+      "image": "https://portal.auone.jp/media/thumbnails/2026/11/06/https___news_jp_i_1491315399457063481_w600.webp",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a130f838d052",
@@ -3400,13 +3431,13 @@
     },
     {
       "id": "55c73940de64",
-      "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」（オリコン）",
-      "url": "https://news.yahoo.co.jp/articles/d186d184aec087196afb3e6d9ed2293ce96b86f0",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」",
+      "url": "https://www.oricon.co.jp/news/2490765/photo/2/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-05T02:50:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261105-00000322-oric-000-2-view.jpg?exp=10800",
+      "image": "https://contents.oricon.co.jp/upimg/news/2491000/2490765/20261104_173345_p_o_48208158.jpg",
       "categories": [
         "goodscat"
       ],
