@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-08T21:00:17.822Z",
+  "updatedAt": "2026-11-08T21:30:17.375Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 133,
-  "todayCount": 6,
+  "total": 135,
+  "todayCount": 8,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 24
+      "count": 25
     },
     {
       "id": "tcgcat",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 1
+      "count": 2
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 40
+      "count": 41
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 26
+      "count": 27
     },
     {
       "id": "tcg",
@@ -136,6 +136,10 @@
       "count": 4
     },
     {
+      "name": "インサイド",
+      "count": 3
+    },
+    {
       "name": "玩具人 TOY PEOPLE",
       "count": 3
     },
@@ -144,7 +148,7 @@
       "count": 3
     },
     {
-      "name": "インサイド",
+      "name": "河北新報オンライン",
       "count": 2
     },
     {
@@ -192,11 +196,11 @@
       "count": 1
     },
     {
-      "name": "電撃ホビーウェブ",
+      "name": "ファッションプレス",
       "count": 1
     },
     {
-      "name": "河北新報オンライン",
+      "name": "電撃ホビーウェブ",
       "count": 1
     },
     {
@@ -233,10 +237,6 @@
     },
     {
       "name": "サンスポ",
-      "count": 1
-    },
-    {
-      "name": "ファッションプレス",
       "count": 1
     },
     {
@@ -842,13 +842,33 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-08T20:30:16.323Z",
-    "previousCount": 130,
-    "newCount": 5
+    "previousAt": "2026-11-08T21:00:17.822Z",
+    "previousCount": 133,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-08T21:30:17.822Z",
+  "nextUpdateAt": "2026-11-08T22:00:17.375Z",
   "items": [
+    {
+      "id": "b947d2abb090",
+      "title": "宮城・亘理の小6 ポケモン世界大会に出場 予選敗退も「さまざまな国の友達できた」",
+      "url": "https://kahoku.news/articles/JY72G9OTFUKHN.html",
+      "host": "kahoku.news",
+      "source": "河北新報オンライン",
+      "summary": "",
+      "publishedAt": "2026-11-08T21:00:00.000Z",
+      "image": "https://kahoku.news/images/2026/11/08/JY72G9OTFUKHN/001_size7.jpg?timestamp=20261109060043",
+      "categories": [
+        "community",
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "c4a1e7373508",
       "title": "『ポケモン』新章開幕でタロちゃん初登場！豪華な追加キャスト3人発表 第115話あらすじ＆場面カット",
@@ -950,7 +970,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5e84c912f117",
@@ -972,6 +992,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "1eb41311baab",
+      "title": "“激レア”な色違いとスペシャル背景が出現！「ワイルドウィーク2026」重要ポイントまとめ【ポケモンGO 秋田局】",
+      "url": "https://www.inside-games.jp/article/2026/11/09/190565.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-11-08T15:00:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1804653.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4264613ead10",
@@ -1251,6 +1292,27 @@
       "isNew": false
     },
     {
+      "id": "5bb85f19f7c1",
+      "title": "写真8/28｜「ポケモンスリープ」のイベントが横浜みなとみらいで、広場に巨大カビゴン＆寝顔探しスタンプラリー",
+      "url": "https://www.fashion-press.net/news/gallery/147708/2496089",
+      "host": "fashion-press.net",
+      "source": "ファッションプレス",
+      "summary": "",
+      "publishedAt": "2026-11-08T08:06:54.000Z",
+      "image": "https://www.fashion-press.net/img/news/147708/Uek.jpg?1782879353",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d3ad0b1e2f7c",
       "title": "お月さまの上でミミッキュやクスネがひとやすみ♪大きなお月さまが光る『ポケモン』ライトマスコットシリーズ第3弾がガシャポンに登場！",
       "url": "https://hobby.dengeki.com/news/3218677/",
@@ -1280,7 +1342,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-08T05:45:55.000Z",
-      "image": "https://kahoku.news/images/2026/11/08/JY72G9OTFVKHN/001_size7.jpg?timestamp=20261109054015",
+      "image": "https://kahoku.news/images/2026/11/08/JY72G9OTFVKHN/001_size7.jpg?timestamp=20261109063028",
       "categories": [
         "event",
         "media"
@@ -1516,7 +1578,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7bee558a8476",
@@ -1687,27 +1749,6 @@
       "isNew": false
     },
     {
-      "id": "61bcbee62440",
-      "title": "写真15/28｜「ポケモンスリープ」のイベントが横浜みなとみらいで、広場に巨大カビゴン＆寝顔探しスタンプラリー",
-      "url": "https://www.fashion-press.net/news/gallery/147708/2496106",
-      "host": "fashion-press.net",
-      "source": "ファッションプレス",
-      "summary": "",
-      "publishedAt": "2026-11-07T16:47:55.000Z",
-      "image": "https://www.fashion-press.net/img/news/147708/QFY.jpg?1782879343",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "sleep"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "bcb60f8ac0f1",
       "title": "【ポケモンユナイト】スタバでふざけ倒したい【参加型】 Frederic Massara (3u0SsYQCyd)",
       "url": "https://media.unisba.ac.id/528f5756/2e563632W9lZ6R2D6-A/?share",
@@ -1768,7 +1809,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "730b4d72b30b",
@@ -2981,7 +3022,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "80c2bcb4f404",
