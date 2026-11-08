@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-08T13:30:14.867Z",
+  "updatedAt": "2026-11-08T14:00:15.358Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 129,
-  "todayCount": 36,
+  "total": 128,
+  "todayCount": 37,
   "categories": [
     {
       "id": "new",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 25
+      "count": 24
     },
     {
       "id": "media",
@@ -109,7 +109,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 7
+      "count": 8
     },
     {
       "name": "FNNプライムオンライン",
@@ -124,15 +124,7 @@
       "count": 4
     },
     {
-      "name": "玩具人 TOY PEOPLE",
-      "count": 3
-    },
-    {
       "name": "河北新報オンライン",
-      "count": 3
-    },
-    {
-      "name": "山陽新聞",
       "count": 3
     },
     {
@@ -144,11 +136,19 @@
       "count": 3
     },
     {
+      "name": "玩具人 TOY PEOPLE",
+      "count": 2
+    },
+    {
       "name": "khb東日本放送",
       "count": 2
     },
     {
       "name": "アニメ！アニメ！",
+      "count": 2
+    },
+    {
+      "name": "山陽新聞",
       "count": 2
     },
     {
@@ -477,16 +477,16 @@
       "image": "https://animeanime.jp/imgs/rss/952876.jpg",
       "leadSource": "アニメ！アニメ！",
       "publishedAt": "2026-11-08T02:52:00.000Z",
-      "sourceCount": 7,
-      "articleCount": 7,
+      "sourceCount": 6,
+      "articleCount": 6,
       "categories": [
         "other",
         "goodscat"
       ],
       "keywords": [
+        "ニューエラ",
         "周年",
-        "記念",
-        "ニューエラ"
+        "記念"
       ],
       "articles": [
         {
@@ -508,13 +508,6 @@
           "url": "https://news.yahoo.co.jp/articles/f35ce539e87a1fddec7103d0b9cb7caa74776f51",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-06T10:12:39.000Z",
-          "isPR": false
-        },
-        {
-          "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
-          "url": "https://www.sanyonews.jp/article/1988529",
-          "source": "山陽新聞",
-          "publishedAt": "2026-11-06T08:00:00.000Z",
           "isPR": false
         },
         {
@@ -836,13 +829,36 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-08T13:00:17.338Z",
-    "previousCount": 128,
-    "newCount": 4
+    "previousAt": "2026-11-08T13:30:14.867Z",
+    "previousCount": 129,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-08T14:00:14.867Z",
+  "nextUpdateAt": "2026-11-08T14:30:15.358Z",
   "items": [
+    {
+      "id": "ccabeed8fafd",
+      "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/16466/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-08T11:53:26.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/aead94d8-945e-4e30-8efa-0eebe321a959.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "bdb0357d4d26",
       "title": "「ポケモンスケールワールド ミアレシティ ピュール＆メガズルズキン＆ギルガルド（シールドフォルム）」が登場！MZ団の仲間を約1/20スケールで立体化",
@@ -990,7 +1006,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "259823c2e377",
@@ -1128,7 +1144,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-08T05:45:55.000Z",
-      "image": "https://kahoku.news/images/2026/11/08/JY72G9OTFVKHN/001_size7.jpg?timestamp=20261108220730",
+      "image": "https://kahoku.news/images/2026/11/08/JY72G9OTFVKHN/001_size7.jpg?timestamp=20261108223149",
       "categories": [
         "event",
         "media"
@@ -1522,7 +1538,7 @@
       "source": "ファッションプレス",
       "summary": "",
       "publishedAt": "2026-11-07T16:47:55.000Z",
-      "image": "https://www.fashion-press.net/img/news/147708/QFY.jpg?1782879343",
+      "image": "",
       "categories": [
         "event"
       ],
@@ -1533,7 +1549,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4264613ead10",
@@ -1669,7 +1685,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-07T11:30:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GZ1KHN/001_size7.jpg?timestamp=20261108214051",
+      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GZ1KHN/001_size7.jpg?timestamp=20261108230032",
       "categories": [
         "other"
       ],
@@ -1775,6 +1791,29 @@
         "event"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "c784961cf76b",
+      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-07T02:27:40.000Z",
+      "image": "",
+      "categories": [
+        "goodscat",
+        "media"
+      ],
+      "series": [
+        "anime",
+        "goods"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2134,28 +2173,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "53096f1d272b",
-      "title": "『ポケモンカードゲーム』が30周年に殿堂入り！ 2026年「ナショナル・玩具の殿堂」発表、まさかの遊具も選出",
-      "url": "https://www.toy-people.com/jp/?p",
-      "host": "toy-people.com",
-      "source": "玩具人 TOY PEOPLE",
-      "summary": "",
-      "publishedAt": "2026-11-06T13:25:12.000Z",
-      "image": "https://www.toy-people.com/img/90_90_logo.gif",
-      "categories": [
-        "new",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2852,50 +2869,6 @@
       "isNew": false
     },
     {
-      "id": "c784961cf76b",
-      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "image": "",
-      "categories": [
-        "goodscat",
-        "media"
-      ],
-      "series": [
-        "anime",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b78a06ec5039",
-      "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
-      "url": "https://www.sanyonews.jp/article/1988529",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/6/7/c/7/67c74ed3e23db15450e319590946508b_1.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "903396e1c45b",
       "title": "「ポケモンセンター いっしょにホリデー！」イベントカレンダー | イベント・キャンペーン | ポケモンセンタースカイツリータウン",
       "url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-skytreetown/events/202611/000686.html",
@@ -3031,7 +3004,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは11月27日に発売を予定している「ポケモンカードゲーム MEGA 拡張パック ハドウシーカー」に収録されるカードのイラストを公開した。",
       "publishedAt": "2026-11-06T06:20:07.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/372/1.jpg",
+      "image": "",
       "categories": [
         "tcgcat",
         "new"
@@ -3054,7 +3027,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、通販サイトのポケモンセンターオンラインにて新商品を11月12日10時に発売する。価格は2,750円より。",
       "publishedAt": "2026-11-06T06:03:24.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2154/363/2.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -3291,7 +3264,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-06T03:25:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/06/JY72CYM4GLKHN/001_size7.jpg?timestamp=20261108223037",
+      "image": "https://kahoku.news/images/2026/11/06/JY72CYM4GLKHN/001_size7.jpg?timestamp=20261108225925",
       "categories": [
         "event"
       ],
@@ -3302,7 +3275,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bc5bc8c84311",
@@ -3554,7 +3527,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
