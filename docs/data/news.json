@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T06:00:16.594Z",
+  "updatedAt": "2026-11-08T06:30:15.164Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 127,
-  "todayCount": 24,
+  "todayCount": 25,
   "categories": [
     {
       "id": "new",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 27
+      "count": 28
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 36
+      "count": 34
     },
     {
       "id": "goodscat",
@@ -37,12 +37,12 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 11
+      "count": 12
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 5
+      "count": 4
     },
     {
       "id": "community",
@@ -57,39 +57,39 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 31
+      "count": 32
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 13
+      "count": 14
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 21
+      "count": 22
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 36
+      "count": 34
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 10
+      "count": 11
     },
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 4
+      "count": 5
     },
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 3
+      "count": 2
     },
     {
       "id": "goods",
@@ -101,15 +101,11 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 25
+      "count": 23
     },
     {
       "name": "Yahoo!ニュース",
       "count": 17
-    },
-    {
-      "name": "山陽新聞",
-      "count": 4
     },
     {
       "name": "仙台経済新聞",
@@ -124,7 +120,15 @@
       "count": 4
     },
     {
+      "name": "河北新報オンライン",
+      "count": 3
+    },
+    {
       "name": "電撃オンライン",
+      "count": 3
+    },
+    {
+      "name": "山陽新聞",
       "count": 3
     },
     {
@@ -168,7 +172,7 @@
       "count": 2
     },
     {
-      "name": "河北新報オンライン",
+      "name": "Unisba Media",
       "count": 2
     },
     {
@@ -213,14 +217,6 @@
     },
     {
       "name": "サンスポ",
-      "count": 1
-    },
-    {
-      "name": "ファッションプレス",
-      "count": 1
-    },
-    {
-      "name": "Unisba Media",
       "count": 1
     },
     {
@@ -296,7 +292,15 @@
       "count": 1
     },
     {
+      "name": "風傳媒",
+      "count": 1
+    },
+    {
       "name": "NHKニュース",
+      "count": 1
+    },
+    {
+      "name": "攻略大百科",
       "count": 1
     },
     {
@@ -601,8 +605,8 @@
       "image": "https://images.keizai.biz/sendai_keizai/photonews/1793972293_b.jpg",
       "leadSource": "サンスポ",
       "publishedAt": "2026-11-07T20:00:01.000Z",
-      "sourceCount": 4,
-      "articleCount": 8,
+      "sourceCount": 5,
+      "articleCount": 9,
       "categories": [
         "other",
         "event"
@@ -610,7 +614,7 @@
       "keywords": [
         "仙台",
         "ワイルドエリア",
-        "pok"
+        "東北"
       ],
       "articles": [
         {
@@ -653,6 +657,13 @@
           "url": "https://news.yahoo.co.jp/articles/be928d0f40cf740befae76d36df89278fe6d5ca7",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-06T03:35:02.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンGO大型リアルイベント「ワイルドエリア：仙台・東北」開幕 宮城県全域に対象拡大、 地域活性化にも期待",
+          "url": "https://japan.storm.mg/articles/1178969",
+          "source": "風傳媒",
+          "publishedAt": "2026-11-06T03:10:00.000Z",
           "isPR": false
         },
         {
@@ -812,12 +823,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-08T05:30:18.470Z",
-    "previousCount": 128,
+    "previousAt": "2026-11-08T06:00:16.594Z",
+    "previousCount": 127,
     "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-08T06:30:16.594Z",
+  "nextUpdateAt": "2026-11-08T07:00:15.164Z",
   "items": [
     {
       "id": "d3ad0b1e2f7c",
@@ -834,6 +845,28 @@
       "series": [
         "main",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f47430700a81",
+      "title": "ポケモンのカードゲームで熱戦 宮城・気仙沼で大会開催 サトシ役の声優・松本梨香さんのミニライブも",
+      "url": "https://kahoku.news/articles/JY72G9OTFVKHN.html",
+      "host": "kahoku.news",
+      "source": "河北新報オンライン",
+      "summary": "",
+      "publishedAt": "2026-11-08T05:45:55.000Z",
+      "image": "https://kahoku.news/images/2026/11/08/JY72G9OTFVKHN/001_size7.jpg?timestamp=20261108144701",
+      "categories": [
+        "event",
+        "media"
+      ],
+      "series": [
+        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -858,7 +891,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "02f8c61257a2",
@@ -1214,6 +1247,27 @@
       "isNew": false
     },
     {
+      "id": "44f4f43622f8",
+      "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-07T18:47:32.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "014c71cba59f",
       "title": "【ポケポケ】デュアルフュージョンエンブレムイベントの攻略【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/587011",
@@ -1228,27 +1282,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "61bcbee62440",
-      "title": "写真15/28｜「ポケモンスリープ」のイベントが横浜みなとみらいで、広場に巨大カビゴン＆寝顔探しスタンプラリー",
-      "url": "https://www.fashion-press.net/news/gallery/147708/2496106",
-      "host": "fashion-press.net",
-      "source": "ファッションプレス",
-      "summary": "",
-      "publishedAt": "2026-11-07T16:47:55.000Z",
-      "image": "https://www.fashion-press.net/img/news/147708/QFY.jpg?1782879343",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "sleep"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1360,7 +1393,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7bb774404438",
@@ -1370,7 +1403,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-07T11:30:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GZ1KHN/001_size7.jpg?timestamp=20261108145149",
+      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GZ1KHN/001_size7.jpg?timestamp=20261108151001",
       "categories": [
         "other"
       ],
@@ -1382,6 +1415,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b8e313d18f8f",
+      "title": "メテノ使うならこれ。実は今この使い方が激熱なんです #レギュレーションF【ポケモンSV】【スカーレット/バイオレット】 Uofa (SJSdb9sLQN)",
+      "url": "https://media.unisba.ac.id/7370e8d7/c885f665BjcLRABoLCscJSs/",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-11-07T10:14:42.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c9ed49750add",
@@ -1413,7 +1467,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-07T09:10:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GYLKHN/001_size7.jpg?timestamp=20261108150033",
+      "image": "https://kahoku.news/images/2026/11/07/JY72EM5GYLKHN/001_size7.jpg?timestamp=20261108143033",
       "categories": [
         "event"
       ],
@@ -1700,28 +1754,6 @@
       "isNew": false
     },
     {
-      "id": "e4d7dc04464f",
-      "title": "【ポケポケ】ドロー効果のおすすめカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466689",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-06T14:33:17.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466689.png?date=1743150224",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b0be4735872a",
       "title": "「北斗の拳」の原哲夫氏が描く「マキシの熱血」SARが公開。「ポケカ」新パック「ハドウシーカー」の収録カード情報が明らかに",
       "url": "https://www.4gamer.net/games/256/G025620/20261106055/",
@@ -1860,27 +1892,6 @@
       "image": "https://www.toy-people.com/img/90_90_logo.gif",
       "categories": [
         "new",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "44f4f43622f8",
-      "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-06T13:06:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
-      "categories": [
         "tcgcat"
       ],
       "series": [
@@ -2294,27 +2305,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "6bdf0e2fef54",
-      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-06T09:36:46.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "07068a774ad8",
@@ -3141,6 +3131,27 @@
       "isNew": false
     },
     {
+      "id": "bb4c232dda02",
+      "title": "ポケモンGO大型リアルイベント「ワイルドエリア：仙台・東北」開幕 宮城県全域に対象拡大、 地域活性化にも期待",
+      "url": "https://japan.storm.mg/articles/1178969",
+      "host": "japan.storm.mg",
+      "source": "風傳媒",
+      "summary": "",
+      "publishedAt": "2026-11-06T03:10:00.000Z",
+      "image": "https://images.storm.mg/cloud/138c54fb31fb3ff20134c45ddc0df515dd5c3f32.jpg?url=s3%3A%2F%2Fnew-storm-public-resource%2Fgallery%2F2247474%2FJZree5FU4jMg5z9vxQvFWI9qVWPIegRuBRqnAXru.png&g=sm&h=900&resize=fill&w=1600&format=jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "88be1ed2a40c",
       "title": "「ポケモンGO」大規模イベント 仙台で開催",
       "url": "https://news.web.nhk/newsweb/na/nd-20261106de71446",
@@ -3264,6 +3275,27 @@
       "isNew": false
     },
     {
+      "id": "59cf37247870",
+      "title": "ポケモンユナイトはおもしろい？レビュー評価まとめ",
+      "url": "https://gamepedia.jp/apps/62432/reviews",
+      "host": "gamepedia.jp",
+      "source": "攻略大百科",
+      "summary": "",
+      "publishedAt": "2026-11-05T18:25:45.000Z",
+      "image": "https://images.gamepedia.jp/common/default_ogp.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3fd167df2896",
       "title": "ポケモンスリープ調査で宮崎県が「睡眠の質」全国1位に 日本一短い通勤時間が良質な睡眠を生む背景か",
       "url": "https://tver.jp/episodes/epsqvqelg2",
@@ -3381,25 +3413,6 @@
         "go",
         "anime"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e19980136d85",
-      "title": "ポケモンアプリで睡眠分析 要注意タイプ、ＡＩ解明 仕事の効率との関係探る",
-      "url": "https://www.sanyonews.jp/article/1875238",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-05T08:00:00.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/d/d/a/9/dda9ca61b99a152a9652bdf180264082_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
