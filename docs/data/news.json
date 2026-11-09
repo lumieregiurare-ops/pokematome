@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-09T22:00:17.368Z",
+  "updatedAt": "2026-11-09T22:30:18.019Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 124,
-  "todayCount": 13,
+  "total": 126,
+  "todayCount": 14,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 13
+      "count": 12
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 24
+      "count": 28
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 11
+      "count": 12
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 6
+      "count": 7
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 40
+      "count": 37
     }
   ],
   "series": [
@@ -69,7 +69,7 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 25
+      "count": 27
     },
     {
       "id": "tcg",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 5
+      "count": 4
     },
     {
       "id": "sleep",
@@ -101,42 +101,38 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 29
+      "count": 35
     },
     {
       "name": "SNKRDUNK",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 11
+      "count": 10
     },
     {
       "name": "山陽新聞",
-      "count": 8
-    },
-    {
-      "name": "ガジェット通信",
-      "count": 6
+      "count": 9
     },
     {
       "name": "FNNプライムオンライン",
       "count": 5
     },
     {
-      "name": "YouTube",
-      "count": 4
+      "name": "khb東日本放送",
+      "count": 3
     },
     {
-      "name": "Unisba Media",
+      "name": "ガジェット通信",
+      "count": 3
+    },
+    {
+      "name": "YouTube",
       "count": 3
     },
     {
       "name": "TBS NEWS DIG",
-      "count": 2
-    },
-    {
-      "name": "khb東日本放送",
       "count": 2
     },
     {
@@ -153,6 +149,10 @@
     },
     {
       "name": "Howl.Link",
+      "count": 2
+    },
+    {
+      "name": "Unisba Media",
       "count": 2
     },
     {
@@ -209,6 +209,10 @@
     },
     {
       "name": "いこーよニュース",
+      "count": 1
+    },
+    {
+      "name": "Dellows News",
       "count": 1
     },
     {
@@ -293,8 +297,8 @@
       "image": "https://newsdig.ismcdn.jp/mwimgs/4/2/1200w/img_42e6ea5231daa1a9ccf6a1f3fe0f1c8d425966.jpg",
       "leadSource": "TBS NEWS DIG",
       "publishedAt": "2026-11-09T13:33:36.000Z",
-      "sourceCount": 6,
-      "articleCount": 9,
+      "sourceCount": 8,
+      "articleCount": 11,
       "categories": [
         "event",
         "other"
@@ -313,6 +317,13 @@
           "isPR": false
         },
         {
+          "title": "【ポケモンGO】2026年11月のイベントスケジュールまとめ",
+          "url": "https://pokemongo.gamewith.jp/article/show/583244",
+          "source": "GameWith",
+          "publishedAt": "2026-11-09T11:48:16.000Z",
+          "isPR": false
+        },
+        {
           "title": "ポケモンGO大型イベントに85万人、大きな経済効果に期待＜宮城・仙台＞（ミヤギテレビ）",
           "url": "https://news.yahoo.co.jp/articles/20b1c1cb3eef3c5e1303e32a5e41455f0b07f3fd",
           "source": "Yahoo!ニュース",
@@ -324,6 +335,13 @@
           "url": "https://news.yahoo.co.jp/articles/7d5e8df341bdb7d5e754fe7243e0ceee05286c41",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-09T03:40:03.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンGO宮城イベントに約85万人参加 捕獲数は4900万匹超に",
+          "url": "https://news.dellows.jp/1087935/",
+          "source": "Dellows News",
+          "publishedAt": "2026-11-09T03:18:36.000Z",
           "isPR": false
         },
         {
@@ -345,20 +363,6 @@
           "url": "https://www.fnn.jp/articles/-/1148587",
           "source": "FNNプライムオンライン",
           "publishedAt": "2026-11-09T01:30:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ポケモンGO」の大型イベント 最終日も多くのファンでにぎわう＜宮城＞（ミヤギテレビ）",
-          "url": "https://news.yahoo.co.jp/articles/d110f85c92693b9cec28a99adeb0eca0de69c654",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-08T10:04:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【閉幕】仙台市中心に開催のポケモンＧＯ大型イベント 運営側「大きな事故なく終えられた」〈宮城〉",
-          "url": "https://www.fnn.jp/articles/-/1148434",
-          "source": "FNNプライムオンライン",
-          "publishedAt": "2026-11-08T09:01:00.000Z",
           "isPR": false
         }
       ]
@@ -486,37 +490,57 @@
       ]
     },
     {
-      "id": "a54770a419b5",
-      "title": "【超速報！ワイルドウィーク初日！】限定背景の最強伝説を狙え！GOワイルドエリア仙台の結果も全て見せます！【ポケモンGO】",
+      "id": "01eef2d84448",
+      "title": "【ポケカ】30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキーの収録カード・再販抽選情報まとめ",
       "summary": "",
-      "url": "https://youtu.be/bEU6wnXY11c?si",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7210.jpeg",
-      "leadSource": "YouTube",
-      "publishedAt": "2026-11-09T00:27:00.000Z",
+      "url": "https://snkrdunk.com/articles/32464/",
+      "image": "https://cdn.snkrdunk.com/uploads/media/74dca055-76b7-4943-9d3f-553ef93c2140.jpeg",
+      "leadSource": "SNKRDUNK",
+      "publishedAt": "2026-11-09T15:55:24.000Z",
       "sourceCount": 2,
-      "articleCount": 3,
+      "articleCount": 6,
       "categories": [
-        "guide",
-        "other"
+        "tcgcat"
       ],
       "keywords": [
-        "ポケモンGO",
-        "結果",
-        "ワイルドエリア"
+        "ポケカ",
+        "カード",
+        "収録"
       ],
       "articles": [
         {
-          "title": "【Pokexiting】好きなようにGOした結果がコレwwwwww【シンガポール】【ポケモンGO】",
-          "url": "https://youtu.be/CJogR-p8kdc?is",
-          "source": "YouTube",
-          "publishedAt": "2026-11-08T17:15:11.000Z",
+          "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【11/9更新】",
+          "url": "https://snkrdunk.com/articles/33304/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-09T15:16:04.000Z",
           "isPR": false
         },
         {
-          "title": "「ワイルドエリア：仙台・東北」初日に1111匹の野生ポケモンをゲットした結果 →サファリボールは正義である【ポケモンGO】",
-          "url": "https://getnews.jp/archives/3753705",
-          "source": "ガジェット通信",
-          "publishedAt": "2026-11-07T01:30:09.000Z",
+          "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
+          "url": "https://snkrdunk.com/articles/32582/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-09T13:44:15.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
+          "url": "https://snkrdunk.com/articles/18862/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-09T11:10:34.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】メガシンフォニアの収録カードリスト一覧/最新情報【2025年8月1日発売】",
+          "url": "https://snkrdunk.com/articles/28959/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-08T14:08:30.000Z",
+          "isPR": false
+        },
+        {
+          "title": "休日の朝、ポケモンカード開封して幸せ #ポケモンカード #ポケカ #ストームエメラルダ #ポケカ開封",
+          "url": "https://youtu.be/X-XdKbhVSjg?si",
+          "source": "YouTube",
+          "publishedAt": "2026-11-07T23:48:00.000Z",
           "isPR": false
         }
       ]
@@ -643,35 +667,6 @@
       ]
     },
     {
-      "id": "11a3d2fd46b1",
-      "title": "東北大学ＡＯ入試 大きなトラブルなく終了 ポケモンＧＯイベントと日程重なる（khb東日本放送）",
-      "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/b3e6a070fb8942131f0c673f92c508aa69647bd3",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-11805936-khbv-000-1-thumb.jpg?exp=10800",
-      "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-11-08T03:48:41.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "event",
-        "media"
-      ],
-      "keywords": [
-        "トラブル",
-        "イベント",
-        "入試"
-      ],
-      "articles": [
-        {
-          "title": "「ポケモンＧＯ」大型イベント2日目 東北大ＡＯ入試 大きなトラブルなし（午前11時時点）＜仙台市＞",
-          "url": "https://news.ntv.co.jp/n/mmt/category/society/mm6003ec35448c46a9b9a63324e912ad41",
-          "source": "日テレNEWS NNN",
-          "publishedAt": "2026-11-07T02:46:01.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "10d94eed7350",
       "title": "ピカチュウ、イーブイ超えの1位とは？ 《相棒にしたいポケモンランキング》1万超の投票で選ばれたTOP10（マグミクス）",
       "summary": "",
@@ -696,6 +691,34 @@
           "url": "https://magmix.jp/post/384341",
           "source": "マグミクス",
           "publishedAt": "2026-11-08T03:40:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "11a3d2fd46b1",
+      "title": "東北大学ＡＯ入試 大きなトラブルなく終了 ポケモンＧＯイベントと日程重なる",
+      "summary": "",
+      "url": "https://www.khb-tv.co.jp/news/17033256",
+      "image": "https://p.potaufeu.asahi.com/f6e6-p/picture/31540444/76746fdcb6e28d5120c7496ca35687ad.jpg",
+      "leadSource": "khb東日本放送",
+      "publishedAt": "2026-11-08T02:56:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "event"
+      ],
+      "keywords": [
+        "トラブル",
+        "イベント",
+        "入試"
+      ],
+      "articles": [
+        {
+          "title": "「ポケモンＧＯ」大型イベント2日目 東北大ＡＯ入試 大きなトラブルなし（午前11時時点）＜仙台市＞",
+          "url": "https://news.ntv.co.jp/n/mmt/category/society/mm6003ec35448c46a9b9a63324e912ad41",
+          "source": "日テレNEWS NNN",
+          "publishedAt": "2026-11-07T02:46:01.000Z",
           "isPR": false
         }
       ]
@@ -730,12 +753,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-09T21:30:16.751Z",
+    "previousAt": "2026-11-09T22:00:17.368Z",
     "previousCount": 124,
-    "newCount": 3
+    "newCount": 10
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-09T22:30:17.368Z",
+  "nextUpdateAt": "2026-11-09T23:00:18.019Z",
   "items": [
     {
       "id": "8725e6262153",
@@ -795,6 +818,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "014c71cba59f",
+      "title": "【ポケポケ】デュアルフュージョンエンブレムイベントの攻略【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/587011",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T18:45:06.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/587011.jpg?date=1793946411",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "55c73940de64",
@@ -916,29 +961,6 @@
       "isNew": false
     },
     {
-      "id": "c774ac346a44",
-      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【2026年11月27日発売】",
-      "url": "https://snkrdunk.com/articles/31684/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-09T16:35:31.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/7f277c58-b2ec-4b03-908c-804cbb735fee.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "01eef2d84448",
       "title": "【ポケカ】30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキーの収録カード・再販抽選情報まとめ",
       "url": "https://snkrdunk.com/articles/32464/",
@@ -1000,6 +1022,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c784961cf76b",
+      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
+      "url": "https://www.sanyonews.jp/article/1982739?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-09T15:09:20.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/d/7/d/6/d7d688b062e82d38b714ff5935afb3ca_1.jpg",
+      "categories": [
+        "goodscat",
+        "media"
+      ],
+      "series": [
+        "anime",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2579fb478e5b",
@@ -1234,7 +1279,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6904769826f4",
@@ -1254,6 +1299,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "92447634ac1f",
+      "title": "【ポケモンGO】2026年11月のイベントスケジュールまとめ",
+      "url": "https://pokemongo.gamewith.jp/article/show/583244",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T11:48:16.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583244.png?date=1792461275",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6bdf0e2fef54",
@@ -1671,6 +1737,27 @@
       "isNew": false
     },
     {
+      "id": "3f45b0ecf77f",
+      "title": "【ポケモンGO】GOパスワイルドウィーク(2026年)のリワード内容と挑戦期間",
+      "url": "https://pokemongo.gamewith.jp/article/show/582767",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T09:50:12.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582767.png?date=1792030559",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "a0dc6c7ee593",
       "title": "ポケモンカードの列に眠る6歳娘を置き去り 父親逮捕、枕と毛布渡し帰宅",
       "url": "https://newsphere.jp/national/20261109-3/",
@@ -1770,6 +1857,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "fbadd01ecf11",
+      "title": "【ポケモンGO】ダイマックスレジスチル対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/560203",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T08:45:24.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560203.png?date=1779063180",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "64b8eee3b513",
@@ -1875,6 +1983,27 @@
       "isNew": false
     },
     {
+      "id": "61a12fc1b078",
+      "title": "【ポケモンGO】ダイマックスディアルガ対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/579273",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T05:17:08.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579273.png?date=1793923666",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "87b11c30703b",
       "title": "【ポケモンGO】大きな足跡イベントの開催期間とボーナス",
       "url": "https://pokemongo.gamewith.jp/article/show/585781",
@@ -1894,6 +2023,49 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "2d69d9df912b",
+      "title": "【ポケモンGO】メガシャンデラレイド対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/582649",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T04:22:42.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582649.png?date=1791931467",
+      "categories": [
+        "event",
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "38739a09c501",
+      "title": "【ポケモンGO】GOパス大きな足跡のリワード内容と挑戦期間",
+      "url": "https://pokemongo.gamewith.jp/article/show/585785",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T04:12:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585785.png?date=1793238889",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "8270efabb75d",
@@ -1998,6 +2170,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "dcecc579fe31",
+      "title": "ポケモンGO宮城イベントに約85万人参加 捕獲数は4900万匹超に",
+      "url": "https://news.dellows.jp/1087935/",
+      "host": "news.dellows.jp",
+      "source": "Dellows News",
+      "summary": "",
+      "publishedAt": "2026-11-09T03:18:36.000Z",
+      "image": "https://news.dellows.jp/wp-content/uploads/2026/11/1087935_1.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f144685bc59d",
@@ -2221,27 +2414,6 @@
       "isNew": false
     },
     {
-      "id": "a54770a419b5",
-      "title": "【超速報！ワイルドウィーク初日！】限定背景の最強伝説を狙え！GOワイルドエリア仙台の結果も全て見せます！【ポケモンGO】",
-      "url": "https://youtu.be/bEU6wnXY11c?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-11-09T00:27:00.000Z",
-      "image": "",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7497a93d8307",
       "title": "『ポケモン』オーガポン登場！キタカミの里のお祭り物語 第151話あらすじ＆場面カット公開",
       "url": "https://www.sanyonews.jp/photo/detail?article_id",
@@ -2295,27 +2467,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b58e0c13f754",
-      "title": "【Pokexiting】好きなようにGOした結果がコレwwwwww【シンガポール】【ポケモンGO】",
-      "url": "https://youtu.be/CJogR-p8kdc?is",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-11-08T17:15:11.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2515,28 +2666,6 @@
       "isNew": false
     },
     {
-      "id": "3f068e19c179",
-      "title": "【ポケポケ】手札干渉のおすすめカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/490823",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-08T11:39:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/490823.png?date=1742957898",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "7a35698b49bd",
       "title": "「ポケモンGO」の大型イベント 最終日も多くのファンでにぎわう＜宮城＞（ミヤギテレビ）",
       "url": "https://news.yahoo.co.jp/articles/d110f85c92693b9cec28a99adeb0eca0de69c654",
@@ -2634,28 +2763,6 @@
       ],
       "series": [
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "11a3d2fd46b1",
-      "title": "東北大学ＡＯ入試 大きなトラブルなく終了 ポケモンＧＯイベントと日程重なる（khb東日本放送）",
-      "url": "https://news.yahoo.co.jp/articles/b3e6a070fb8942131f0c673f92c508aa69647bd3",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-08T03:48:41.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261108-11805936-khbv-000-1-thumb.jpg?exp=10800",
-      "categories": [
-        "event",
-        "media"
-      ],
-      "series": [
-        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2768,6 +2875,25 @@
       "isNew": false
     },
     {
+      "id": "11a3d2fd46b1",
+      "title": "東北大学ＡＯ入試 大きなトラブルなく終了 ポケモンＧＯイベントと日程重なる",
+      "url": "https://www.khb-tv.co.jp/news/17033256",
+      "host": "khb-tv.co.jp",
+      "source": "khb東日本放送",
+      "summary": "",
+      "publishedAt": "2026-11-08T02:56:00.000Z",
+      "image": "https://p.potaufeu.asahi.com/f6e6-p/picture/31540444/76746fdcb6e28d5120c7496ca35687ad.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "abb720fea260",
       "title": "『ポケモン』30周年記念のニューエラキャップ・Tシャツが11月20日発売！ピカチュウら12匹を刺繍で表現、キッズ含む全25種類",
       "url": "http://www.excite.co.jp/news/article/Nijimen_0000000000651240/",
@@ -2850,6 +2976,27 @@
       "isNew": false
     },
     {
+      "id": "852fc335c8b6",
+      "title": "休日の朝、ポケモンカード開封して幸せ #ポケモンカード #ポケカ #ストームエメラルダ #ポケカ開封",
+      "url": "https://youtu.be/X-XdKbhVSjg?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-11-07T23:48:00.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "819ca75de9be",
       "title": "【公式】ポケモンとどこいく！？ 見逃し配信 11/8（日）",
       "url": "https://youtu.be/3i1G6xBgjUk?si",
@@ -2909,27 +3056,6 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "bcb60f8ac0f1",
-      "title": "【ポケモンユナイト】スタバでふざけ倒したい【参加型】 Frederic Massara (3u0SsYQCyd)",
-      "url": "https://media.unisba.ac.id/528f5756/2e563632W9lZ6R2D6-A/?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-11-07T15:42:27.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "3102bb1d2fe9",
@@ -3115,27 +3241,6 @@
       "isNew": false
     },
     {
-      "id": "7efaff63f58f",
-      "title": "【勝てない】パルキア＆ディアルガのマックスバトルが阿鼻叫喚 / “キョダイマックスのノリ”で突撃するべからず【ポケモンGO】",
-      "url": "https://getnews.jp/archives/3753710",
-      "host": "getnews.jp",
-      "source": "ガジェット通信",
-      "summary": "",
-      "publishedAt": "2026-11-07T02:00:08.000Z",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7111.jpeg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "50ee92b8644a",
       "title": "【雑談】 そうだおえかきしよう 【ポケモンユナイト】",
       "url": "https://youtu.be/2G1S5nNWTQ4?si",
@@ -3149,48 +3254,6 @@
       ],
       "series": [
         "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "58ad65ec00ae",
-      "title": "ワイルドエリア仙台のスタンプラリーが過酷すぎると話題 / 西公園〜イオンモール間を歩くのは地元民もビビるレベル【ポケモンGO】",
-      "url": "https://getnews.jp/archives/3753707",
-      "host": "getnews.jp",
-      "source": "ガジェット通信",
-      "summary": "",
-      "publishedAt": "2026-11-07T01:45:33.000Z",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7259.jpeg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "baeb7775e29a",
-      "title": "「ワイルドエリア：仙台・東北」初日に1111匹の野生ポケモンをゲットした結果 →サファリボールは正義である【ポケモンGO】",
-      "url": "https://getnews.jp/archives/3753705",
-      "host": "getnews.jp",
-      "source": "ガジェット通信",
-      "summary": "",
-      "publishedAt": "2026-11-07T01:30:09.000Z",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7210.jpeg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
