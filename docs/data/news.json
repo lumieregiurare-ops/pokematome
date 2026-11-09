@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-09T23:00:20.467Z",
+  "updatedAt": "2026-11-09T23:30:16.915Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 124,
-  "todayCount": 13,
+  "total": 126,
+  "todayCount": 16,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 12
+      "count": 11
     },
     {
       "id": "update",
@@ -22,27 +22,27 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 25
+      "count": 26
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 40
+      "count": 39
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 10
+      "count": 13
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 7
+      "count": 8
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 6
+      "count": 5
     },
     {
       "id": "community",
@@ -74,12 +74,12 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 39
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 5
+      "count": 6
     },
     {
       "id": "unite",
@@ -89,31 +89,31 @@
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 4
+      "count": 5
     },
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 19
+      "count": 21
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 31
-    },
-    {
-      "name": "SNKRDUNK",
-      "count": 12
+      "count": 30
     },
     {
       "name": "Yahoo!ニュース",
+      "count": 12
+    },
+    {
+      "name": "SNKRDUNK",
       "count": 11
     },
     {
       "name": "山陽新聞",
-      "count": 8
+      "count": 9
     },
     {
       "name": "ガジェット通信",
@@ -244,6 +244,10 @@
       "count": 1
     },
     {
+      "name": "wowKorea",
+      "count": 1
+    },
+    {
       "name": "マグミクス",
       "count": 1
     },
@@ -277,6 +281,10 @@
     },
     {
       "name": "ほんみや宮崎",
+      "count": 1
+    },
+    {
+      "name": "Dtimes",
       "count": 1
     },
     {
@@ -702,13 +710,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-09T22:30:18.019Z",
-    "previousCount": 126,
-    "newCount": 8
+    "previousAt": "2026-11-09T23:00:20.467Z",
+    "previousCount": 124,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-09T23:30:20.467Z",
+  "nextUpdateAt": "2026-11-10T00:00:16.915Z",
   "items": [
+    {
+      "id": "540c55c1bf80",
+      "title": "「裏社会でいま一番の人気商材」池袋で2690万円相当が強奪…ポケモンカードが狙われる「理由」（FRIDAY）",
+      "url": "https://news.yahoo.co.jp/articles/2cd22b4b407808e0b915f5f8665d490ac78a4907",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-09T23:05:31.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261110-00000004-friday-000-1-view.jpg?exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "8725e6262153",
       "title": "「ポケモン天文台」豊橋会場が観覧者7万人を達成！12月6日まで、土日祝は21時まで開館・豊橋会場限定の来館証も",
@@ -741,6 +770,27 @@
         "other"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "22218f279261",
+      "title": "【ポケカ】30周年記念ピカチュウをまるごとチェック！買取・相場価格/注目カードまとめ",
+      "url": "https://snkrdunk.com/articles/33255/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-09T20:52:55.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/a283fd47-f236-4427-b317-4486e4e559c7.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -973,6 +1023,29 @@
       "isNew": false
     },
     {
+      "id": "c784961cf76b",
+      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
+      "url": "https://www.sanyonews.jp/article/1982739?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-09T15:09:20.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/d/7/d/6/d7d688b062e82d38b714ff5935afb3ca_1.jpg",
+      "categories": [
+        "goodscat",
+        "media"
+      ],
+      "series": [
+        "anime",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "2579fb478e5b",
       "title": "【ポケカ】ロケット団の栄光の当たりランキング/買取相場/封入率/予約抽選/値段まとめ",
       "url": "https://snkrdunk.com/articles/27332/",
@@ -1122,27 +1195,6 @@
       "isNew": false
     },
     {
-      "id": "22218f279261",
-      "title": "【ポケカ】30周年記念ピカチュウをまるごとチェック！買取・相場価格/注目カードまとめ",
-      "url": "https://snkrdunk.com/articles/33255/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-09T13:15:06.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/a283fd47-f236-4427-b317-4486e4e559c7.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "13d897ffaed4",
       "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
@@ -1156,29 +1208,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ccabeed8fafd",
-      "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/16466/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-09T12:45:34.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/aead94d8-945e-4e30-8efa-0eebe321a959.png",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1350,7 +1379,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0e8dbe8f536d",
@@ -2231,7 +2260,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7497a93d8307",
@@ -2313,7 +2342,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9a03c8812b3e",
@@ -2507,28 +2536,6 @@
       "isNew": false
     },
     {
-      "id": "3f068e19c179",
-      "title": "【ポケポケ】手札干渉のおすすめカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/490823",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-08T11:39:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/490823.png?date=1742957898",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "7a35698b49bd",
       "title": "「ポケモンGO」の大型イベント 最終日も多くのファンでにぎわう＜宮城＞（ミヤギテレビ）",
       "url": "https://news.yahoo.co.jp/articles/d110f85c92693b9cec28a99adeb0eca0de69c654",
@@ -2611,6 +2618,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "792ad83d8e53",
+      "title": "すっぴんパウダーがPokémon Sleepとコラボ！限定デザイン全4種が登場",
+      "url": "https://www.wowkorea.jp/woman/read/160109.html",
+      "host": "wowkorea.jp",
+      "source": "wowKorea",
+      "summary": "",
+      "publishedAt": "2026-11-08T05:10:35.000Z",
+      "image": "https://www.wowkorea.jp/img/topic/32/160109/318145_1280W.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "sleep",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "8c5090ce194f",
@@ -2921,7 +2950,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3102bb1d2fe9",
@@ -3125,6 +3154,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "e30fbbe8e7c2",
+      "title": "歴代の旅立ちのパートナーと過ごすホリデー！ポケモンセンター「ポケモンセンター いっしょにホリデー！」キャンペーン",
+      "url": "https://dtimes.jp/post-1455163/",
+      "host": "dtimes.jp",
+      "source": "Dtimes",
+      "summary": "",
+      "publishedAt": "2026-11-07T01:52:16.000Z",
+      "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-68d8d24dfc05ba4e97f809402c06d72e-20261107-fc9879.jpg",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -3167,7 +3218,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "baeb7775e29a",
@@ -3188,7 +3239,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d3a2192d13b3",
