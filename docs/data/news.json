@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-09T19:00:19.708Z",
+  "updatedAt": "2026-11-09T19:30:21.070Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 123,
+  "total": 122,
   "todayCount": 5,
   "categories": [
     {
@@ -27,12 +27,12 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 40
+      "count": 39
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 11
+      "count": 12
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 6
+      "count": 5
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 38
+      "count": 37
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 39
     },
     {
       "id": "anime",
@@ -84,7 +84,7 @@
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 6
+      "count": 5
     },
     {
       "id": "sleep",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 20
+      "count": 21
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 29
+      "count": 28
     },
     {
       "name": "SNKRDUNK",
@@ -125,7 +125,7 @@
     },
     {
       "name": "YouTube",
-      "count": 5
+      "count": 4
     },
     {
       "name": "khb東日本放送",
@@ -153,6 +153,10 @@
     },
     {
       "name": "Howl.Link",
+      "count": 2
+    },
+    {
+      "name": "Excite エキサイト",
       "count": 2
     },
     {
@@ -233,10 +237,6 @@
     },
     {
       "name": "マグミクス",
-      "count": 1
-    },
-    {
-      "name": "Excite エキサイト",
       "count": 1
     },
     {
@@ -486,7 +486,7 @@
       "leadSource": "SNKRDUNK",
       "publishedAt": "2026-11-09T15:55:24.000Z",
       "sourceCount": 2,
-      "articleCount": 26,
+      "articleCount": 25,
       "categories": [
         "tcgcat",
         "event"
@@ -762,12 +762,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-09T18:30:16.678Z",
+    "previousAt": "2026-11-09T19:00:19.708Z",
     "previousCount": 123,
-    "newCount": 2
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-09T19:30:19.708Z",
+  "nextUpdateAt": "2026-11-09T20:00:21.070Z",
   "items": [
     {
       "id": "f3dd2763a966",
@@ -1800,7 +1800,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8270efabb75d",
@@ -2430,28 +2430,6 @@
       "summary": "",
       "publishedAt": "2026-11-08T13:10:17.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/490662.png?date=1742806099",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "96dc37cd48a2",
-      "title": "【ポケポケ】パックのおすすめ一覧と当たりカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466356",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-08T13:09:13.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466356.png?date=1729954242",
       "categories": [
         "tcgcat",
         "guide"
@@ -3167,6 +3145,27 @@
       "isNew": false
     },
     {
+      "id": "59b4566287dd",
+      "title": "『ポケモン』自分だけの「てもち」が作れるカスタマイズグッズが楽しい！ 一緒に飾れるもちもの、歴代モンスターボールのチャームも見逃せない",
+      "url": "http://www.excite.co.jp/news/article/Inside_190375/",
+      "host": "excite.co.jp",
+      "source": "Excite エキサイト",
+      "summary": "",
+      "publishedAt": "2026-11-07T01:20:43.000Z",
+      "image": "",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d3a2192d13b3",
       "title": "しまむらで「ポケモン」グッズが発売！総柄が可愛いプルオーバーや、初代御三家たちの寝具類も",
       "url": "https://www.gamespark.jp/article/2026/11/07/174602.html",
@@ -3249,27 +3248,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "1bf1b8ba6f5d",
-      "title": "【ソロ】ストリンダー強すぎユナイト【ポケモンユナイト】",
-      "url": "https://youtu.be/kItyCVaGVQU?si",
-      "host": "youtu.be",
-      "source": "YouTube",
-      "summary": "",
-      "publishedAt": "2026-11-06T19:41:12.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "unite"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "b0be4735872a",
