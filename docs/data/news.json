@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-10T11:00:20.134Z",
+  "updatedAt": "2026-11-10T11:30:18.212Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 121,
+  "total": 119,
   "todayCount": 59,
   "categories": [
     {
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 36
+      "count": 35
     },
     {
       "id": "goodscat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 48
+      "count": 47
     }
   ],
   "series": [
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 36
+      "count": 35
     },
     {
       "id": "anime",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Yahoo!ニュース",
@@ -109,7 +109,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 10
+      "count": 11
     },
     {
       "name": "山陽新聞",
@@ -269,14 +269,6 @@
     },
     {
       "name": "サンスポ",
-      "count": 1
-    },
-    {
-      "name": "Unisba Media",
-      "count": 1
-    },
-    {
-      "name": "4Gamer",
       "count": 1
     }
   ],
@@ -581,7 +573,7 @@
       "title": "AO入試の受験生対策「やれることはやった」 ポケGOイベント巡り仙台市長が総括",
       "summary": "",
       "url": "https://kahoku.news/articles/JY72JKRIGKKHN.html",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261110193151",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261110203031",
       "leadSource": "河北新報オンライン",
       "publishedAt": "2026-11-10T07:21:39.000Z",
       "sourceCount": 2,
@@ -748,12 +740,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-10T10:30:18.168Z",
-    "previousCount": 119,
-    "newCount": 10
+    "previousAt": "2026-11-10T11:00:20.134Z",
+    "previousCount": 121,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-10T11:30:20.134Z",
+  "nextUpdateAt": "2026-11-10T12:00:18.212Z",
   "items": [
     {
       "id": "af05ae0623bd",
@@ -774,7 +766,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4ac6da7cf186",
@@ -854,7 +846,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "22218f279261",
+      "title": "【ポケカ】30周年記念ピカチュウをまるごとチェック！買取・相場価格/注目カードまとめ",
+      "url": "https://snkrdunk.com/articles/33255/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-10T08:52:23.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/a283fd47-f236-4427-b317-4486e4e559c7.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "4befb1c0638a",
@@ -1010,7 +1023,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-10T07:21:39.000Z",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261110193151",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261110203031",
       "categories": [
         "event"
       ],
@@ -1162,7 +1175,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6252425618db",
@@ -1309,7 +1322,7 @@
     },
     {
       "id": "0cc4abba1fe5",
-      "title": "ポケモンＧＯ仙台イベントに８５万人 郡市長「地域経済に大きな波及効果」宿泊施設の混乱なしと明言（仙台放送）",
+      "title": "ポケモンＧＯ仙台イベントに８５万人 郡市長「地域経済に大きな波及効果」宿泊施設の混乱なしと報告（仙台放送）",
       "url": "https://news.yahoo.co.jp/articles/93b38c7a0b0940590ab96e13334dbd815bfe5601",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
@@ -1343,27 +1356,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "22218f279261",
-      "title": "【ポケカ】30周年記念ピカチュウをまるごとチェック！買取・相場価格/注目カードまとめ",
-      "url": "https://snkrdunk.com/articles/33255/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-10T04:07:00.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/a283fd47-f236-4427-b317-4486e4e559c7.png",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1409,7 +1401,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01a430369c70",
@@ -1959,7 +1951,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b58e124b81ac",
@@ -1981,7 +1973,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ca99e1020a60",
@@ -2088,14 +2080,14 @@
       "isNew": false
     },
     {
-      "id": "c1fe0a2f9496",
-      "title": "【ポケポケ】ダークライデッキ(Sメガ)のレシピと評価・対策【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/551442",
+      "id": "ae4709b0349e",
+      "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-09T11:44:44.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551442.png?date=1774526836",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
       "categories": [
         "tcgcat"
       ],
@@ -2106,17 +2098,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
-      "id": "96dede30191d",
-      "title": "【ポケポケ】コライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562112",
+      "id": "7761cbb1df05",
+      "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-09T11:44:38.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562112.png?date=1779946649",
+      "publishedAt": "2026-11-09T11:44:43.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559109.png?date=1777351053",
       "categories": [
         "tcgcat"
       ],
@@ -2190,7 +2182,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4592f13ac082",
@@ -2201,27 +2193,6 @@
       "summary": "",
       "publishedAt": "2026-11-09T11:44:29.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566739.png?date=1783054233",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0e8dbe8f536d",
-      "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-09T11:44:29.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
       "categories": [
         "tcgcat"
       ],
@@ -2476,7 +2447,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3b673f9169f6",
@@ -2498,6 +2469,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "65d5e780b157",
+      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【11/10更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/33599/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-09T04:35:09.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/b82bd0a8-5400-450a-9b78-af65dc6f5e0c.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "f3d576a0a5b5",
@@ -3074,7 +3068,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "070152256123",
@@ -3197,48 +3191,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "11fc1444d665",
-      "title": "ぺこぱ・松陰寺、好きなポケモンに青春を重ね懐古「あの時の孤独ってすごい」 甘酸っぱい思い出 Google Fitbit Air (i35soB2Msw)",
-      "url": "https://media.unisba.ac.id/43125197/c702813bXFcBHyZ0HB0vNCs/",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-11-07T11:03:47.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b0be4735872a",
-      "title": "「北斗の拳」の原哲夫氏が描く「マキシの熱血」SARが公開。「ポケカ」新パック「ハドウシーカー」の収録カード情報が明らかに",
-      "url": "https://www.4gamer.net/games/256/G025620/20261106055/",
-      "host": "4gamer.net",
-      "source": "4Gamer",
-      "summary": "ポケモンは本日（2026年11月6日），11月27日に発売を予定している「ポケモンカードゲームMEGA」拡張パック「ハドウシーカー」の収録カード情報を公開した。「北斗の拳」の原哲夫氏による「マキシの熱血」SARが登場し，11月30日からは原画とカードの展示も行われる。",
-      "publishedAt": "2026-11-06T14:19:10.000Z",
-      "image": "https://www.4gamer.net/games/256/G025620/20261106055/SS/002.jpg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     }
