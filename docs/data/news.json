@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-10T19:00:18.460Z",
+  "updatedAt": "2026-11-10T19:30:21.321Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 122,
+  "total": 120,
   "todayCount": 5,
   "categories": [
     {
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 10
+      "count": 8
     },
     {
       "id": "media",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 8
+      "count": 7
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 3
+      "count": 2
     },
     {
       "id": "biz",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 25
+      "count": 23
     }
   ],
   "weapons": [],
@@ -105,11 +105,11 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
+      "count": 15
     },
     {
       "name": "SNKRDUNK",
-      "count": 14
+      "count": 13
     },
     {
       "name": "山陽新聞",
@@ -520,7 +520,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-11-10T17:01:21.000Z",
       "sourceCount": 2,
-      "articleCount": 15,
+      "articleCount": 16,
       "categories": [
         "tcgcat",
         "guide"
@@ -567,6 +567,13 @@
           "isPR": false
         },
         {
+          "title": "【ポケポケ】毒デッキのレシピとおすすめカード【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/478183",
+          "source": "GameWith",
+          "publishedAt": "2026-11-09T11:46:36.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
           "source": "GameWith",
@@ -578,13 +585,6 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
           "source": "GameWith",
           "publishedAt": "2026-11-09T11:44:43.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
-          "source": "GameWith",
-          "publishedAt": "2026-11-09T11:44:32.000Z",
           "isPR": false
         }
       ]
@@ -598,15 +598,15 @@
       "leadSource": "SNKRDUNK",
       "publishedAt": "2026-11-10T15:38:31.000Z",
       "sourceCount": 2,
-      "articleCount": 6,
+      "articleCount": 5,
       "categories": [
         "tcgcat",
         "new"
       ],
       "keywords": [
-        "買取",
-        "相場",
-        "ポケカ"
+        "ポケカ",
+        "ランキング",
+        "買取相場"
       ],
       "articles": [
         {
@@ -636,13 +636,6 @@
           "source": "ホビーステーション",
           "publishedAt": "2026-11-10T03:00:43.000Z",
           "isPR": false
-        },
-        {
-          "title": "ポケモンカードゲームMEGA(英語版) フィギュアコレクション「30th CELEBRATION ミュウツー」通販・買取・相場｜スニダン",
-          "url": "https://snkrdunk.com/apparels/916477",
-          "source": "SNKRDUNK",
-          "publishedAt": "2026-11-08T18:09:36.000Z",
-          "isPR": false
         }
       ]
     },
@@ -651,7 +644,7 @@
       "title": "AO入試の受験生対策「やれることはやった」 ポケGOイベント巡り仙台市長が総括",
       "summary": "",
       "url": "https://kahoku.news/articles/JY72JKRIGKKHN.html",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111031627",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111043034",
       "leadSource": "河北新報オンライン",
       "publishedAt": "2026-11-10T07:21:39.000Z",
       "sourceCount": 2,
@@ -761,12 +754,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-10T18:30:20.077Z",
-    "previousCount": 121,
-    "newCount": 3
+    "previousAt": "2026-11-10T19:00:18.460Z",
+    "previousCount": 122,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-10T19:30:18.460Z",
+  "nextUpdateAt": "2026-11-10T20:00:21.321Z",
   "items": [
     {
       "id": "4264613ead10",
@@ -787,7 +780,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4891421959cc",
@@ -807,7 +800,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ccabeed8fafd",
@@ -1446,7 +1439,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-10T07:21:39.000Z",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111031627",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111043034",
       "categories": [
         "event"
       ],
@@ -1741,26 +1734,6 @@
       "isNew": false
     },
     {
-      "id": "8a0df3af32aa",
-      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-7構築記事)",
-      "url": "https://gamewith.jp/pokemon-champions/560474",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-10T02:48:11.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
-      "categories": [
-        "community",
-        "guide"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "204644a4b9b0",
       "title": "『アニポケ』異世界に連れ去る恐ろしいポケモンの正体 第145話あらすじ＆場面カット公開",
       "url": "https://www.sanyonews.jp/article/1969381?rct",
@@ -1921,12 +1894,12 @@
     {
       "id": "86d98d39eb78",
       "title": "『ポケモンスリープ』で判明！ 睡眠学者・柳沢正史が明かす「年間13万6000円分の生産性」を失う人の共通点",
-      "url": "https://news.yahoo.co.jp/articles/677a41ebb6e5814d283c9908420d7456375cbd67/images/000",
+      "url": "https://news.yahoo.co.jp/articles/677a41ebb6e5814d283c9908420d7456375cbd67",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-11-09T22:12:04.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26gjufCuRIgWNh2esO77P-_9pLF8ptfGKnLpYG003WQenxgAlJQJuTNzZKTGbxLzzJm577pxgc0jxUolImvyC885eOV9ojx8yQQ7ydU6GI-Sd",
+      "publishedAt": "2026-11-09T21:21:18.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261110-00402052-diamond-000-1-view.jpg?exp=10800",
       "categories": [
         "other"
       ],
@@ -2209,6 +2182,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "04e2c61267cb",
+      "title": "【ポケポケ】毒デッキのレシピとおすすめカード【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/478183",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T11:46:36.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/478183.png?date=1733814567",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ae4709b0349e",
@@ -2868,29 +2863,6 @@
       "isNew": false
     },
     {
-      "id": "0dc71d7af727",
-      "title": "ポケモンカードゲームMEGA(英語版) フィギュアコレクション「30th CELEBRATION ミュウツー」通販・買取・相場｜スニダン",
-      "url": "https://snkrdunk.com/apparels/916477",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-08T18:09:36.000Z",
-      "image": "https://snkrdunk.com/apparels/916477/opengraph-image?1ac4f6c638b53964",
-      "categories": [
-        "tcgcat",
-        "goodscat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "c4a1e7373508",
       "title": "『ポケモン』新章開幕でタロちゃん初登場！豪華な追加キャスト3人発表 第115話あらすじ＆場面カット",
       "url": "https://www.sanyonews.jp/article/1815541?rct",
@@ -3065,7 +3037,7 @@
       "source": "wowKorea",
       "summary": "",
       "publishedAt": "2026-11-08T05:10:35.000Z",
-      "image": "",
+      "image": "https://www.wowkorea.jp/img/topic/32/160109/318145_1280W.jpg",
       "categories": [
         "goodscat"
       ],
@@ -3134,28 +3106,6 @@
       ],
       "series": [
         "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "02f8c61257a2",
-      "title": "ミスドは謝り、客は「厳選」した ── ポケモンコラボから見る、不揃いな商品がバズる理由（明坂真太郎） - エキスパート",
-      "url": "https://news.yahoo.co.jp/expert/articles/c6838fdbc92f033b7cde8a2c62730c3266ba4ee0",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-08T03:01:17.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/akesakashintaro/02761181/title-1794082207287.jpeg?exp=10800",
-      "categories": [
-        "goodscat",
-        "guide"
-      ],
-      "series": [
         "goods"
       ],
       "isOfficial": false,
