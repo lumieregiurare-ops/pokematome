@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-11T19:00:18.923Z",
+  "updatedAt": "2026-11-11T19:30:17.389Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 142,
-  "todayCount": 1,
+  "total": 141,
+  "todayCount": 2,
   "categories": [
     {
       "id": "new",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 13
+      "count": 10
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 5
+      "count": 4
     },
     {
       "id": "biz",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 60
+      "count": 62
     }
   ],
   "series": [
@@ -101,18 +101,18 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 41
+      "count": 39
     },
     {
       "name": "Yahoo!ニュース",
       "count": 17
     },
     {
-      "name": "SNKRDUNK",
-      "count": 10
+      "name": "YouTube",
+      "count": 11
     },
     {
-      "name": "YouTube",
+      "name": "SNKRDUNK",
       "count": 10
     },
     {
@@ -121,7 +121,7 @@
     },
     {
       "name": "ガジェット通信",
-      "count": 5
+      "count": 6
     },
     {
       "name": "インサイド",
@@ -145,10 +145,6 @@
     },
     {
       "name": "アニメ！アニメ！",
-      "count": 2
-    },
-    {
-      "name": "ウォーカープラス",
       "count": 2
     },
     {
@@ -197,6 +193,10 @@
     },
     {
       "name": "リアルサウンド",
+      "count": 1
+    },
+    {
+      "name": "ウォーカープラス",
       "count": 1
     },
     {
@@ -725,12 +725,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-11T18:30:18.183Z",
-    "previousCount": 141,
-    "newCount": 5
+    "previousAt": "2026-11-11T19:00:18.923Z",
+    "previousCount": 142,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-11T19:30:18.923Z",
+  "nextUpdateAt": "2026-11-11T20:00:17.389Z",
   "items": [
     {
       "id": "1e13af1e7e98",
@@ -746,6 +746,29 @@
       ],
       "series": [
         "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "114719810f4b",
+      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/32425/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-11T16:53:49.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/46a73677-ea67-4984-9997-d9fd7a063eae.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -793,7 +816,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "601d28928443",
@@ -828,29 +851,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "114719810f4b",
-      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/32425/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-11T13:26:48.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/46a73677-ea67-4984-9997-d9fd7a063eae.jpeg",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1090,8 +1090,8 @@
     },
     {
       "id": "028b9952b8b1",
-      "title": "【写真・画像】ルミネ各館で『ぽこ あ ポケモン』とのクリスマスキャンペーンを11月19日より開催 2枚目",
-      "url": "https://times.abema.tv/articles/photo/10288219?pn",
+      "title": "【写真・画像】ルミネ各館で『ぽこ あ ポケモン』とのクリスマスキャンペーンを11月19日より開催 1枚目",
+      "url": "https://times.abema.tv/articles/photo/10288219",
       "host": "times.abema.tv",
       "source": "ABEMA TIMES",
       "summary": "",
@@ -1314,27 +1314,6 @@
       "isNew": false
     },
     {
-      "id": "fbadd01ecf11",
-      "title": "【ポケモンGO】ダイマックスレジスチル対策おすすめポケモン",
-      "url": "https://pokemongo.gamewith.jp/article/show/560203",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-11T09:46:08.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560203.png?date=1779063180",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "2c481fb8a468",
       "title": "【11月11日更新】ポケモンカード抽選情報まとめ2026｜最新の予約・再販・倍率・当選の注意点まとめ",
       "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/pokemon-card-lottery-information-2026/blt9aa2212834fd35bf",
@@ -1350,27 +1329,6 @@
       "series": [
         "tcg",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "61a12fc1b078",
-      "title": "【ポケモンGO】ダイマックスディアルガ対策おすすめポケモン",
-      "url": "https://pokemongo.gamewith.jp/article/show/579273",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-11T09:22:06.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579273.png?date=1793923666",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1444,6 +1402,27 @@
       "isNew": false
     },
     {
+      "id": "b3726e17b789",
+      "title": "【ポケモンGO】ワイルドウィーク(2026年)のコレクションチャレンジの内容と報酬",
+      "url": "https://pokemongo.gamewith.jp/article/show/587170",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-11T08:17:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/587170.png?date=1794177924",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "846ab47bc990",
       "title": "「ポケモンＧＯ」仙台イベントに延べ８５万人、参加者の総歩行距離は地球１８８周分に",
       "url": "https://www.yomiuri.co.jp/culture/subcul/20261111-GYT1T00104/",
@@ -1482,6 +1461,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "fc43ae1a8ceb",
+      "title": "カイオーガに目隠しするためのツノだった。【ポケモン不思議のダンジョン 青の救助隊】#19",
+      "url": "https://youtu.be/1lDRmbZoFmY?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-11-11T08:00:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "8b923216165b",
@@ -1881,7 +1879,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1e3867c0e1c8",
@@ -1913,26 +1911,6 @@
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/563234.png?date=1785982727",
       "categories": [
         "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8a0df3af32aa",
-      "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-7構築記事)",
-      "url": "https://gamewith.jp/pokemon-champions/560474",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-11T02:31:11.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560474.png?date=1778642442",
-      "categories": [
-        "community",
-        "guide"
       ],
       "series": [],
       "isOfficial": false,
@@ -2062,6 +2040,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "13d897ffaed4",
+      "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-10T19:15:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583349.png?date=1792503111",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4264613ead10",
@@ -2211,6 +2210,27 @@
       "isNew": false
     },
     {
+      "id": "3d83ba3f63de",
+      "title": "ふしぎなはこはスマホ単体で入手可能 / ダイマックスメルメタルの作成に超必須【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3754270",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-10T11:40:00.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/10/1017_pokemon1-4-1.jpeg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "26ef848e25fe",
       "title": "【ポケモンSV】ジムリーダーの攻略順番とポケモン一覧【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373925",
@@ -2282,25 +2302,6 @@
       "summary": "",
       "publishedAt": "2026-11-10T08:58:00.000Z",
       "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/3a8e535cf56e4122a24e9fccf3b49cf5.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "9a03c8812b3e",
-      "title": "“ポケモン”を御殿場プレミアム・アウトレットでゲット",
-      "url": "https://www.walkerplus.com/trend/matome/article/61280/",
-      "host": "walkerplus.com",
-      "source": "ウォーカープラス",
-      "summary": "",
-      "publishedAt": "2026-11-10T08:42:16.000Z",
-      "image": "https://news.walkerplus.com/article/61280/341314_615.jpg",
       "categories": [
         "other"
       ],
@@ -2966,7 +2967,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "55c73940de64",
@@ -3135,27 +3136,6 @@
       "isNew": false
     },
     {
-      "id": "e6f450a4b15b",
-      "title": "【ポケポケ】メガメタグロスexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570622",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-09T11:44:27.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570622.png?date=1785392737",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "90d86eae0d7c",
       "title": "【ポケポケ】雷タイプのみデッキと雷デッキの最強・おすすめカード【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/472615",
@@ -3219,7 +3199,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b672871309e3",
