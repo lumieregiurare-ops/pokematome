@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-11T05:30:14.676Z",
+  "updatedAt": "2026-11-11T06:00:19.304Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 126,
-  "todayCount": 35,
+  "total": 127,
+  "todayCount": 37,
   "categories": [
     {
       "id": "new",
@@ -17,7 +17,7 @@
     {
       "id": "update",
       "label": "アップデート",
-      "count": 1
+      "count": 2
     },
     {
       "id": "event",
@@ -27,12 +27,12 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 38
+      "count": 37
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 12
+      "count": 13
     },
     {
       "id": "media",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 38
+      "count": 37
     },
     {
       "id": "anime",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 27
+      "count": 28
     }
   ],
   "weapons": [],
@@ -113,7 +113,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 9
+      "count": 10
     },
     {
       "name": "ガジェット通信",
@@ -132,15 +132,15 @@
       "count": 3
     },
     {
+      "name": "YouTube",
+      "count": 3
+    },
+    {
       "name": "ふねぽ",
       "count": 2
     },
     {
       "name": "NHKニュース",
-      "count": 2
-    },
-    {
-      "name": "YouTube",
       "count": 2
     },
     {
@@ -152,11 +152,11 @@
       "count": 2
     },
     {
-      "name": "アニメ！アニメ！",
+      "name": "ウォーカープラス",
       "count": 2
     },
     {
-      "name": "AUTOMATON",
+      "name": "アニメ！アニメ！",
       "count": 2
     },
     {
@@ -165,10 +165,6 @@
     },
     {
       "name": "khb東日本放送",
-      "count": 2
-    },
-    {
-      "name": "ウォーカープラス",
       "count": 2
     },
     {
@@ -217,6 +213,10 @@
     },
     {
       "name": "ホビーステーション",
+      "count": 1
+    },
+    {
+      "name": "AUTOMATON",
       "count": 1
     },
     {
@@ -687,7 +687,7 @@
       "title": "AO入試の受験生対策「やれることはやった」 ポケGOイベント巡り仙台市長が総括",
       "summary": "",
       "url": "https://kahoku.news/articles/JY72JKRIGKKHN.html",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111140951",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111150038",
       "leadSource": "河北新報オンライン",
       "publishedAt": "2026-11-10T07:21:39.000Z",
       "sourceCount": 2,
@@ -740,12 +740,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-11T05:00:18.034Z",
-    "previousCount": 131,
-    "newCount": 3
+    "previousAt": "2026-11-11T05:30:14.676Z",
+    "previousCount": 126,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-11T06:00:14.676Z",
+  "nextUpdateAt": "2026-11-11T06:30:19.304Z",
   "items": [
     {
       "id": "1dd2c1c613e8",
@@ -870,6 +870,46 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "92c8cdc36e70",
+      "title": "【ポケモンGO】GOバトルリーグ新たな歩みシーズンのスケジュールと調整内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/561792",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-11T02:41:57.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/561792.png?date=1779826799",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "27c4bf34f103",
+      "title": "【ぽこあポケモン】DLC追加ポケモン一覧(全52種)｜うみぞこ図鑑【ぽこポケ】",
+      "url": "https://gamewith.jp/pocoapokemon/563234",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-11T02:38:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/563234.png?date=1785982727",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -891,7 +931,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "114719810f4b",
@@ -961,27 +1001,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "3f45b0ecf77f",
-      "title": "【ポケモンGO】GOパスワイルドウィーク(2026年)のリワード内容と挑戦期間",
-      "url": "https://pokemongo.gamewith.jp/article/show/582767",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-11T01:40:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/582767.png?date=1792030559",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "c774ac346a44",
@@ -1437,6 +1456,27 @@
       "isNew": false
     },
     {
+      "id": "68f9679a8466",
+      "title": "ハドウシーカー先取り販売極秘情報！！ &30th査定出した結果は！？ #ポケモン #カード #ポケカ #オリパ #トレカ #ピチュー #ゲンガー #買取 #詐欺 #ミュウツー",
+      "url": "https://youtu.be/gYa0PniVo8k?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-11-10T15:34:52.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "ca829476d20f",
       "title": "全国各地に出没！ポケモンデザインのマンホール【ポケふた】集めをしてきました。",
       "url": "https://lee.hpplus.jp/100nintai/3790943/area04/",
@@ -1705,6 +1745,25 @@
       "isNew": false
     },
     {
+      "id": "9a03c8812b3e",
+      "title": "“ポケモン”を御殿場プレミアム・アウトレットでゲット",
+      "url": "https://www.walkerplus.com/trend/matome/article/61280/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-11-10T08:42:16.000Z",
+      "image": "https://news.walkerplus.com/article/61280/341314_615.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "4ac6da7cf186",
       "title": "ワンピース日本人形にポケモン羽子板 久月が鎌倉に海外客向け新店舗 [神奈川県]",
       "url": "https://www.asahi.com/articles/ASVCB26L2VCBULOB00RM.html",
@@ -1795,7 +1854,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-10T07:21:39.000Z",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111140951",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111150038",
       "categories": [
         "event"
       ],
@@ -2191,6 +2250,27 @@
       "isNew": false
     },
     {
+      "id": "55c73940de64",
+      "title": "『ポケモン』カスタマイズ新グッズ登場でネットざわつく「なんやこれ最高やんけ」",
+      "url": "https://www.sanyonews.jp/article/2016037?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-09T20:40:51.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/0/4/7/c/047cdda5a224dea3a27ae6f7ef43a34e_1.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "1e13af1e7e98",
       "title": "“1児の母”松村沙友理、愛娘の夜泣き対応「大変だった」 『ポケモンスリープ』で“幸せな時間”に",
       "url": "https://www.sanyonews.jp/article/1981674?kw",
@@ -2408,27 +2488,6 @@
       "summary": "",
       "publishedAt": "2026-11-09T11:44:44.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c1fe0a2f9496",
-      "title": "【ポケポケ】ダークライデッキ(Sメガ)のレシピと評価・対策【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/551442",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-09T11:44:44.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551442.png?date=1774526836",
       "categories": [
         "tcgcat"
       ],
@@ -3121,25 +3180,6 @@
       "isNew": false
     },
     {
-      "id": "9a03c8812b3e",
-      "title": "“ポケモン”を御殿場プレミアム・アウトレットでゲット",
-      "url": "https://www.walkerplus.com/trend/matome/article/61280/",
-      "host": "walkerplus.com",
-      "source": "ウォーカープラス",
-      "summary": "",
-      "publishedAt": "2026-11-08T16:37:19.000Z",
-      "image": "https://news.walkerplus.com/article/61280/341314_615.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "c4a1e7373508",
       "title": "『ポケモン』新章開幕でタロちゃん初登場！豪華な追加キャスト3人発表 第115話あらすじ＆場面カット",
       "url": "https://www.sanyonews.jp/article/1815541?rct",
@@ -3320,27 +3360,6 @@
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e6f52df49789",
-      "title": "ポケモンカードを「換金用の景品」にしていた違法賭博場が摘発される。ゲットしたカードで“ポケモン三店方式”",
-      "url": "https://automaton-media.com/articles/newsjp/20261108-478078/",
-      "host": "automaton-media.com",
-      "source": "AUTOMATON",
-      "summary": "テキサス州当局は11月4日、賭博行為の疑いで地元の複数のゲームセンターを摘発した。摘発された店舗では、『ポケモンカードゲーム』のカードが景品として用いられていたという。",
-      "publishedAt": "2026-11-08T01:45:33.000Z",
-      "image": "https://automaton-media.com/wp-content/uploads/2026/11/20261108-478078-header.jpg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
