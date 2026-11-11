@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T23:30:14.880Z",
+  "updatedAt": "2026-11-11T00:00:18.452Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -94,22 +94,22 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 28
+      "count": 27
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
+      "count": 17
     },
     {
       "name": "SNKRDUNK",
-      "count": 13
+      "count": 12
     },
     {
       "name": "山陽新聞",
@@ -221,10 +221,6 @@
     },
     {
       "name": "ホビーステーション",
-      "count": 1
-    },
-    {
-      "name": "香港BS",
       "count": 1
     },
     {
@@ -667,7 +663,7 @@
       "title": "AO入試の受験生対策「やれることはやった」 ポケGOイベント巡り仙台市長が総括",
       "summary": "",
       "url": "https://kahoku.news/articles/JY72JKRIGKKHN.html",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111073147",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111090037",
       "leadSource": "河北新報オンライン",
       "publishedAt": "2026-11-10T07:21:39.000Z",
       "sourceCount": 2,
@@ -749,12 +745,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-10T23:00:17.551Z",
-    "previousCount": 129,
+    "previousAt": "2026-11-10T23:30:14.880Z",
+    "previousCount": 130,
     "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-11T00:00:14.880Z",
+  "nextUpdateAt": "2026-11-11T00:30:18.452Z",
   "items": [
     {
       "id": "47709216d4af",
@@ -773,7 +769,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2db6ae123708",
@@ -1461,28 +1457,6 @@
       "isNew": false
     },
     {
-      "id": "dffa414ee5a2",
-      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ",
-      "url": "https://snkrdunk.com/articles/15950/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-10T09:03:43.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "c23564057171",
       "title": "漆器 山田平安堂「ポケモン 干支小椀」にライコウ・ワンパチの新絵柄が11月10日登場！職人が蒔絵で描く天然木・漆塗りの器が全8柄に",
       "url": "https://nijimen.kusuguru.co.jp/topics/653039",
@@ -1630,7 +1604,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-10T07:21:39.000Z",
-      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111073147",
+      "image": "https://kahoku.news/images/2026/11/10/JY72JKRIGKKHN/001_size7.jpg?timestamp=20261111090037",
       "categories": [
         "event"
       ],
@@ -1881,27 +1855,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "e54fec3469db",
-      "title": "香港初のポケモンセンター・ポップアップストアがオープン",
-      "url": "https://hongkong-bs.com/topics/20261110/",
-      "host": "hongkong-bs.com",
-      "source": "香港BS",
-      "summary": "",
-      "publishedAt": "2026-11-10T02:36:34.000Z",
-      "image": "https://hongkong-bs.com/wp-content/uploads/2026/11/20261110.png",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "097bb2966f9c",
@@ -2357,6 +2310,27 @@
       "isNew": false
     },
     {
+      "id": "c1fe0a2f9496",
+      "title": "【ポケポケ】ダークライデッキ(Sメガ)のレシピと評価・対策【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/551442",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T11:44:44.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551442.png?date=1774526836",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "7761cbb1df05",
       "title": "【ポケポケ】メガルカリオexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/559109",
@@ -2376,6 +2350,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "6bdf0e2fef54",
+      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-09T11:44:38.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "01e6f654bf7f",
@@ -2546,28 +2541,6 @@
       "isNew": false
     },
     {
-      "id": "90d86eae0d7c",
-      "title": "【ポケポケ】雷タイプのみデッキと雷デッキの最強・おすすめカード【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/472615",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-09T11:11:01.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/472615.png?date=1791866805",
-      "categories": [
-        "guide",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "1a8c8a11bcd8",
       "title": "８５万人が参加したポケモンＧＯ大型イベント 専門家と見る経済効果と地域経済の課題 ポイントは夜の需要",
       "url": "https://www.fnn.jp/articles/-/1149102",
@@ -2685,7 +2658,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ba920e85406c",
@@ -3331,6 +3304,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "02f8c61257a2",
+      "title": "ミスドは謝り、客は「厳選」した ── ポケモンコラボから見る、不揃いな商品がバズる理由（明坂真太郎） - エキスパート",
+      "url": "https://news.yahoo.co.jp/expert/articles/c6838fdbc92f033b7cde8a2c62730c3266ba4ee0",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-08T03:01:17.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/iwiz-yn/rpr/akesakashintaro/02761181/title-1794082207287.jpeg?exp=10800",
+      "categories": [
+        "goodscat",
+        "guide"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "070152256123",
