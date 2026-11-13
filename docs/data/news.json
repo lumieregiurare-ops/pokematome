@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T20:00:21.661Z",
+  "updatedAt": "2026-11-13T20:30:19.075Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,7 +7,7 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 141,
-  "todayCount": 4,
+  "todayCount": 5,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 20
+      "count": 21
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 14
+      "count": 15
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 7
+      "count": 6
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 53
+      "count": 52
     }
   ],
   "series": [
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 28
+      "count": 29
     }
   ],
   "weapons": [],
@@ -105,7 +105,7 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 14
+      "count": 15
     },
     {
       "name": "SNKRDUNK",
@@ -113,11 +113,11 @@
     },
     {
       "name": "山陽新聞",
-      "count": 10
+      "count": 9
     },
     {
       "name": "ガジェット通信",
-      "count": 7
+      "count": 6
     },
     {
       "name": "YouTube",
@@ -134,6 +134,10 @@
     {
       "name": "GAME Watch",
       "count": 4
+    },
+    {
+      "name": "PR TIMES",
+      "count": 3
     },
     {
       "name": "ファミ通",
@@ -161,10 +165,6 @@
     },
     {
       "name": "玩具人 TOY PEOPLE",
-      "count": 2
-    },
-    {
-      "name": "PR TIMES",
       "count": 2
     },
     {
@@ -928,12 +928,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-13T19:30:25.299Z",
-    "previousCount": 140,
+    "previousAt": "2026-11-13T20:00:21.661Z",
+    "previousCount": 141,
     "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-13T20:30:21.661Z",
+  "nextUpdateAt": "2026-11-13T21:00:19.075Z",
   "items": [
     {
       "id": "58cdd4dc00b9",
@@ -948,6 +948,29 @@
         "goodscat"
       ],
       "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "c784961cf76b",
+      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
+      "url": "https://www.sanyonews.jp/article/1982739?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-13T18:11:52.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/d/7/d/6/d7d688b062e82d38b714ff5935afb3ca_1.jpg",
+      "categories": [
+        "goodscat",
+        "media"
+      ],
+      "series": [
+        "anime",
         "goods"
       ],
       "isOfficial": false,
@@ -1273,7 +1296,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "87b11c30703b",
@@ -1439,7 +1462,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01eef2d84448",
@@ -2553,7 +2576,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、Nintendo Switch 2用スローライフ・サンドボックスゲーム「ぽこ あ ポケモン（ぽこポケ）」において「もようがえ家具セット」を受け取れるあいことばを公開した。",
       "publishedAt": "2026-11-13T01:45:24.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/135/0.jpg",
+      "image": "",
       "categories": [
         "new",
         "event"
@@ -2640,27 +2663,6 @@
       "image": "https://rensai.jp/wp-content/uploads/2026/10/IMG_6341.jpeg",
       "categories": [
         "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ebb83b885345",
-      "title": "27匹に1匹が個体値マックス / “つよいポケモン”を最優先でタップすることが“ワイルドエリア”で完勝するコツ【ポケモンGO】",
-      "url": "https://getnews.jp/archives/3754810",
-      "host": "getnews.jp",
-      "source": "ガジェット通信",
-      "summary": "",
-      "publishedAt": "2026-11-12T23:00:34.000Z",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7210.jpeg",
-      "categories": [
-        "guide"
       ],
       "series": [
         "go"
@@ -2802,29 +2804,6 @@
       "isNew": false
     },
     {
-      "id": "c784961cf76b",
-      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
-      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNMF9pMk1iVFA4V3RCMWYtVzJlZXlwZ09TYkdrRG1lTDRpcmpTeEZpNXZvZXVjM2F5Q1RrcFRxY3BYMExmTnBiSGJBX2xod0FlNy1NYjRyLVdOZzFHd1REMXpBZnUxcXlaSjZfaDdTNFc4blBjVXBqZ00zWlVwc2x6SXlxanJ0Y1VFNEw4LXVhajFPS05DVWxGRDROR3JROG5mTzVTX1F4N2RfcjItLXQ1ajlZcGNZZXNsbFhLNUZ6UDM1UVBzLUpIbDEwQktyaktHTWFmWXI0QWxoRVBhbFhsSG40RmFYc0NGSEpNRnlUaURvblVWanFCX19aV2wwN0gtTXF4YWtoRkpXYk5jWFk0bnFsNTN2QVFZbzRlTVl2U2xhMV8zaC1wSVM5TUZ1V1pZVG1JTHhXTUFnWDRSSmtDSVJXUlBrNGRoZGdWZW96SFBjZHRNcXNoVg?oc=5",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-12T17:33:43.000Z",
-      "image": "",
-      "categories": [
-        "goodscat",
-        "media"
-      ],
-      "series": [
-        "anime",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b1a756b20c4b",
       "title": "『ポケモン』リコ、ポケモンコンテスト出場！衣装公開 衝撃の第147話あらすじ＆場面カット解禁",
       "url": "https://www.sanyonews.jp/article/1975930?kw",
@@ -2835,25 +2814,6 @@
       "image": "https://static.sanyonews.jp/image/article/size1/c/4/e/3/c4e36908c402eadbfcabcc7ef4365be5_1.jpg",
       "categories": [
         "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6f7eed442233",
-      "title": "『ポケモン』フリードとリザードンの出会いとは？ ヒトカゲ時代の過去…第150話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/1987623?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-12T16:50:50.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/9/f/7/c/9f7cf405b5f51661f0efa2908c60274b_1.jpg",
-      "categories": [
-        "other"
       ],
       "series": [],
       "isOfficial": false,
@@ -3468,6 +3428,27 @@
       "isNew": false
     },
     {
+      "id": "ac54718e2d6f",
+      "title": "【AmazonスマイルSALE駆け込み＆イベントシーズン応援セール】ポケモンGO®対応・挿すだけオートキャッチ「Pocket Hunter」が特別価格｜歩きスマホゼロで、秋のポケ活をもっと快適に！ | ONO貿易株式会社のプレスリリース",
+      "url": "https://prtimes.jp/main/html/rd/p/000000222.000084333.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-12T00:30:01.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/84333/222/84333-222-ec3a1a5466674869aa99bfdeb197b959-1000x1000.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "15fcb815bb37",
       "title": "アニメ声優のライブも気仙沼市長杯ポケモンカード大会",
       "url": "https://sanrikushimpo.co.jp/2026/11/12/20204/",
@@ -3754,6 +3735,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "8b923216165b",
+      "title": "『ポケモン』×「ニューエラ」がコラボ！ 30周年ロゴのキャップやトートバッグなど全25種類展開（クランクイン！）",
+      "url": "https://news.yahoo.co.jp/articles/a3a966e3754349cafe3eba1543e7682eec00f062",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-11T07:54:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261110-00193900-crankinn-000-10-view.jpg?exp=10800",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "08a3a911929e",
