@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T09:00:21.681Z",
+  "updatedAt": "2026-11-13T09:30:20.249Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 150,
-  "todayCount": 81,
+  "todayCount": 80,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 22
+      "count": 20
     },
     {
       "id": "update",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 57
+      "count": 59
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 25
+      "count": 24
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 30
+      "count": 31
     },
     {
       "id": "tcg",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 29
+      "count": 31
     }
   ],
   "weapons": [],
@@ -105,23 +105,23 @@
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 12
+      "count": 13
     },
     {
       "name": "SNKRDUNK",
       "count": 11
     },
     {
-      "name": "山陽新聞",
-      "count": 9
-    },
-    {
       "name": "ガジェット通信",
       "count": 8
     },
     {
+      "name": "山陽新聞",
+      "count": 8
+    },
+    {
       "name": "YouTube",
-      "count": 6
+      "count": 7
     },
     {
       "name": "GAME Watch",
@@ -133,6 +133,10 @@
     },
     {
       "name": "ファミ通",
+      "count": 3
+    },
+    {
+      "name": "Infoseek",
       "count": 3
     },
     {
@@ -164,15 +168,7 @@
       "count": 2
     },
     {
-      "name": "Gamer",
-      "count": 2
-    },
-    {
-      "name": "Infoseek",
-      "count": 2
-    },
-    {
-      "name": "ASCII.jp",
+      "name": "インサイド",
       "count": 2
     },
     {
@@ -192,11 +188,11 @@
       "count": 2
     },
     {
-      "name": "いこーよニュース",
+      "name": "電撃ホビーウェブ",
       "count": 1
     },
     {
-      "name": "KOREA WAVE",
+      "name": "いこーよニュース",
       "count": 1
     },
     {
@@ -228,7 +224,15 @@
       "count": 1
     },
     {
+      "name": "Gamer",
+      "count": 1
+    },
+    {
       "name": "shiritomo",
+      "count": 1
+    },
+    {
+      "name": "ASCII.jp",
       "count": 1
     },
     {
@@ -260,10 +264,6 @@
       "count": 1
     },
     {
-      "name": "インサイド",
-      "count": 1
-    },
-    {
       "name": "Game*Spark",
       "count": 1
     },
@@ -289,10 +289,6 @@
     },
     {
       "name": "株式会社 三陸新報社",
-      "count": 1
-    },
-    {
-      "name": "LALALA USA",
       "count": 1
     },
     {
@@ -414,26 +410,19 @@
       "url": "https://game.watch.impress.co.jp/docs/news/2156205.html",
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/205/0.jpg",
       "leadSource": "GAME Watch",
-      "publishedAt": "2026-11-13T07:33:34.000Z",
-      "sourceCount": 10,
-      "articleCount": 11,
+      "publishedAt": "2026-11-13T06:29:00.000Z",
+      "sourceCount": 8,
+      "articleCount": 9,
       "categories": [
-        "new",
-        "event"
+        "event",
+        "new"
       ],
       "keywords": [
         "ゼルネアス",
         "色違",
-        "z-a"
+        "イベルタル"
       ],
       "articles": [
-        {
-          "title": "『Pokémon LEGENDS Z-A』にて「色違いのゼルネアス」を受け取れるあいことばが公開！",
-          "url": "https://gamewith.jp/gamedb/10784/articles/65763",
-          "source": "GameWith",
-          "publishedAt": "2026-11-13T07:33:34.000Z",
-          "isPR": false
-        },
         {
           "title": "『ポケモンレジェンズ Z-A』色違いゼルネアス＆イベルタル配布決定！ 同じあいことばで『ぽこポケ』のアイテムももらえる",
           "url": "http://news.dengeki.com/article/202611/93930",
@@ -446,13 +435,6 @@
           "url": "https://ascii.jp/elem/000/004/451/4451315/",
           "source": "ASCII.jp",
           "publishedAt": "2026-11-13T03:20:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「Pokémon LEGENDS Z-A」色違いのゼルネアスを受け取れるあいことばが公開！「ぽこ あ ポケモン」内でもプレゼントを受け取れる",
-          "url": "https://www.gamer.ne.jp/news/202611130007/",
-          "source": "Gamer",
-          "publishedAt": "2026-11-13T02:24:00.000Z",
           "isPR": false
         },
         {
@@ -481,6 +463,20 @@
           "url": "https://news.denfaminicogamer.jp/news/2611123s",
           "source": "電ファミニコゲーマー",
           "publishedAt": "2026-11-12T14:28:31.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモンレジェンズ Z-A』色違いのゼルネアス・イベルタルを配布へ",
+          "url": "https://news.denfaminicogamer.jp/news/2611123s",
+          "source": "電ファミニコゲーマー",
+          "publishedAt": "2026-11-12T14:28:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモンレジェンズ Z-A』色違いゼルネアスがもらえるあいことばが公開。12月10日からは色違いのイベルタルも。『ぽこ あ ポケモン』では家具セットがもらえる",
+          "url": "https://www.famitsu.com/article/202611/93907",
+          "source": "ファミ通",
+          "publishedAt": "2026-11-12T14:24:00.000Z",
           "isPR": false
         }
       ]
@@ -550,6 +546,55 @@
       ]
     },
     {
+      "id": "87bd78af7336",
+      "title": "ポケモン1025匹が光る！選んだポケモンとツリー撮影 横浜赤レンガ倉庫で入場無料",
+      "summary": "",
+      "url": "https://report.iko-yo.net/articles/35707",
+      "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35892/normal.png?1794558414",
+      "leadSource": "いこーよニュース",
+      "publishedAt": "2026-11-13T09:00:56.000Z",
+      "sourceCount": 5,
+      "articleCount": 5,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "レンガ",
+        "横浜赤",
+        "倉庫"
+      ],
+      "articles": [
+        {
+          "title": "横浜赤レンガ倉庫でポケモン1025匹の無料イルミ開催 | スマートニュース",
+          "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQT3luMU1lcjFUNnBTMk1rR1pTb2p3eUphRExnSmw5V241T0VTNVNodGFXaks2Vlg1SGs2XzdudVN5clRNVFFIazFBZ3FWcDhHNlVDNXhROHlMLWZYMzRHTFRrS1gyV0lqb2N1THNkYl9pUk8wamRjZDRsUVZ2aHcwWkR5dTFfU1ZnM0IyLXEzVGZLclZiZW1ZcnZpdHhYOEFKalpPckhjNzhRSTBOTzFTVkZ4cUlJR2ZyQmRGZXplYVo0S3RpVGFxOHFZZmxUX2pjRGRKdWIybUptdmFFaTc3YnZNY1RkNVpIeEpYcDZDU2Z1dk5IQ2xlTVhNLXE4WUZjc196M281OEJyeWJ1a1l3ei1QTVdRbVNwVzFYZzZYeWNPS2hBSzdhUnJXY19CTENjSUl1SFM5Y2hsa2p4eG9wWkZCdEwyaXFRVHRuajlRRmYyc3djUVlpejIyLWktLUJzMm9nMFNlMzJreGtpTlBuamZvZDR1R1NZ?oc=5",
+          "source": "SmartNews",
+          "publishedAt": "2026-11-13T07:55:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモン1025匹が横浜赤レンガ倉庫に集結 30周年記念イルミネーション開催",
+          "url": "https://www.oricon.co.jp/news/2491911/full/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-13T06:05:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモン1025匹が横浜赤レンガ倉庫のクリスマスマーケットに登場 自分で“選んだ”ポケモンがツリーを彩る",
+          "url": "https://travel.mdpr.jp/travel/detail/4875483",
+          "source": "女子旅プレス",
+          "publishedAt": "2026-11-13T05:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモン』1025匹のイルミネーション登場！ 11月25日より横浜赤レンガ倉庫で開催【入場無料】",
+          "url": "https://dengekionline.com/article/202611/93941",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-11-13T05:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
       "id": "4a139bcd67d8",
       "title": "『ポケカ』新商品「スペシャルデッキセットMEGA」発売！メガオーダイル・メガカイリュー・メガゲンガーたち「3種類のデッキ」がセットに",
       "summary": "『ポケモンカードゲーム MEGA』の新商品「スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー」が2026年11月13日に発売！",
@@ -557,8 +602,8 @@
       "image": "https://www.inside-games.jp/imgs/rss/1794994.jpg",
       "leadSource": "インサイド",
       "publishedAt": "2026-11-13T05:06:56.000Z",
-      "sourceCount": 5,
-      "articleCount": 12,
+      "sourceCount": 4,
+      "articleCount": 11,
       "categories": [
         "tcgcat",
         "other"
@@ -623,55 +668,6 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/561436",
           "source": "GameWith",
           "publishedAt": "2026-11-12T12:40:17.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "87bd78af7336",
-      "title": "ポケモン1025匹が光る！選んだポケモンとツリー撮影 横浜赤レンガ倉庫で入場無料",
-      "summary": "",
-      "url": "https://report.iko-yo.net/articles/35707/digest",
-      "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35892/normal.png?1794558414",
-      "leadSource": "いこーよニュース",
-      "publishedAt": "2026-11-13T08:57:59.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "レンガ",
-        "横浜赤",
-        "倉庫"
-      ],
-      "articles": [
-        {
-          "title": "横浜赤レンガ倉庫でポケモン1025匹の無料イルミ開催 | スマートニュース",
-          "url": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQT3luMU1lcjFUNnBTMk1rR1pTb2p3eUphRExnSmw5V241T0VTNVNodGFXaks2Vlg1SGs2XzdudVN5clRNVFFIazFBZ3FWcDhHNlVDNXhROHlMLWZYMzRHTFRrS1gyV0lqb2N1THNkYl9pUk8wamRjZDRsUVZ2aHcwWkR5dTFfU1ZnM0IyLXEzVGZLclZiZW1ZcnZpdHhYOEFKalpPckhjNzhRSTBOTzFTVkZ4cUlJR2ZyQmRGZXplYVo0S3RpVGFxOHFZZmxUX2pjRGRKdWIybUptdmFFaTc3YnZNY1RkNVpIeEpYcDZDU2Z1dk5IQ2xlTVhNLXE4WUZjc196M281OEJyeWJ1a1l3ei1QTVdRbVNwVzFYZzZYeWNPS2hBSzdhUnJXY19CTENjSUl1SFM5Y2hsa2p4eG9wWkZCdEwyaXFRVHRuajlRRmYyc3djUVlpejIyLWktLUJzMm9nMFNlMzJreGtpTlBuamZvZDR1R1NZ?oc=5",
-          "source": "SmartNews",
-          "publishedAt": "2026-11-13T07:55:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン1025匹が横浜赤レンガ倉庫に集結 30周年記念イルミネーション開催",
-          "url": "https://www.oricon.co.jp/news/2491911/full/",
-          "source": "オリコンニュース",
-          "publishedAt": "2026-11-13T06:05:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン1025匹が横浜赤レンガ倉庫のクリスマスマーケットに登場 自分で“選んだ”ポケモンがツリーを彩る",
-          "url": "https://travel.mdpr.jp/travel/detail/4875483",
-          "source": "女子旅プレス",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ポケモン』1025匹のイルミネーション登場！ 11月25日より横浜赤レンガ倉庫で開催【入場無料】",
-          "url": "https://dengekionline.com/article/202611/93941",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-11-13T05:00:00.000Z",
           "isPR": false
         }
       ]
@@ -910,22 +906,82 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-13T08:30:22.526Z",
-    "previousCount": 149,
-    "newCount": 9
+    "previousAt": "2026-11-13T09:00:21.681Z",
+    "previousCount": 150,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-13T09:30:21.681Z",
+  "nextUpdateAt": "2026-11-13T10:00:20.249Z",
   "items": [
+    {
+      "id": "430cdbb803d1",
+      "title": "運と戦略のサイコロポケモンバトル！「プラコロ」の遊びを広げる「たんけんボックス02」がBANDAI SPIRITSより発売!!",
+      "url": "https://hobby.dengeki.com/news/3221101/",
+      "host": "hobby.dengeki.com",
+      "source": "電撃ホビーウェブ",
+      "summary": "『ポケットモンスター』を題材とした運と戦略のサイコロポケモンバトル「プラコロ」に、「たんけんボックス02」が登場！ #プラコロ #ポケモン",
+      "publishedAt": "2026-11-13T09:30:00.000Z",
+      "image": "https://hobby.dengeki.com/ss/hobby/2026/11/01_joKhu5ASvRx8v_0ppai8ZsmMy9iZvmGs_GmsyLKnLaU4xmdsaMGW0-k5aCRBsE8KF-440x440.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "87bd78af7336",
       "title": "ポケモン1025匹が光る！選んだポケモンとツリー撮影 横浜赤レンガ倉庫で入場無料",
-      "url": "https://report.iko-yo.net/articles/35707/digest",
+      "url": "https://report.iko-yo.net/articles/35707",
       "host": "report.iko-yo.net",
       "source": "いこーよニュース",
       "summary": "",
-      "publishedAt": "2026-11-13T08:57:59.000Z",
+      "publishedAt": "2026-11-13T09:00:56.000Z",
       "image": "https://d28w2qw7dtr435.cloudfront.net/uploaded/cover_images/images/35892/normal.png?1794558414",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4489b127dec8",
+      "title": "【ルビサファ】リーグ周回おすすめポケモン【ポケモンルビー・サファイア】",
+      "url": "https://gamewith.jp/pokemon-rs/579353",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-13T09:00:25.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579353.png?date=1794491483",
+      "categories": [
+        "guide"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5a8426b92862",
+      "title": "【ルビサファ】600族一覧【ポケモンルビー・サファイア】",
+      "url": "https://gamewith.jp/pokemon-rs/579300",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-13T08:58:48.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579300.png?date=1794291844",
       "categories": [
         "other"
       ],
@@ -938,13 +994,13 @@
     },
     {
       "id": "7b58513074ba",
-      "title": "韓国限定のポケモンカードに海外需要…イーベイで韓国出品者のカード販売が3倍超に",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOajkwcTBGZG5SeWlINy1uaF9ub3EyOU96aVhhWENVN1Y0N1pIbjR1M0hva2tjT0FkRjRFeW9YOUEzZHhzRTFZNXdNMjYxYTBuNTNOYk8wSjJibDZ3NkxNclZUNFMtbmhZd0ZFQ2VuT21IT0pNRThiM0FObkZxTUZNaUpUVnppRHRNSjh1bG1VdTlienFLTmQ4RUM5UEtZbU1ieHdicTNweG9iOUVxUVFOZFFXMThxOUhTdnlTNG1mZE9KYUk5TGlKYXJXRm5ON0Y0TzhKZWY0ZHVXSGIwbUZHbDF4dGctM0FjelVuck9pNDdNSThvY1pQcThhQVhyMEpxNERQT2F0Rlc3aTdjekJ5STFvYTA4OHFLN0U4MG5aWVh3NnY5MnBEd1ZjbnVMVjQ1VnE5amhn?oc=5",
-      "host": "koreawave.jp",
-      "source": "KOREA WAVE",
+      "title": "韓国限定のポケモンカードに海外需要…イーベイで韓国出品者のカード販売が3倍超に（KOREA WAVE）",
+      "url": "https://news.yahoo.co.jp/articles/f11a4932a73a944ad54a67dd23accb8f58fd38fd",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-11-13T08:40:07.000Z",
-      "image": "",
+      "publishedAt": "2026-11-13T08:51:16.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-03662333-clc_korea-000-1-view.jpg?exp=10800",
       "categories": [
         "tcgcat"
       ],
@@ -953,9 +1009,9 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c01d0d76abc0",
@@ -1031,7 +1087,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c0d8fbb7d9a5",
@@ -1073,7 +1129,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "dc6d1605bf3a",
@@ -1090,46 +1146,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1558b90aec31",
-      "title": "『Pokémon LEGENDS Z-A』にて「色違いのゼルネアス」を受け取れるあいことばが公開！",
-      "url": "https://gamewith.jp/gamedb/10784/articles/65763",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-13T07:33:34.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/gamearticle/10784/rectangle/65763.png?t=1794555222",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "5f134aa16732",
-      "title": "【ルビサファ】捕獲率の上げ方とおすすめ捕獲要員【ポケモンルビーサファイア】",
-      "url": "https://gamewith.jp/pokemon-rs/577040",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-13T07:25:03.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/577040.png?date=1793671414",
-      "categories": [
-        "guide"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1154,6 +1170,29 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "08aaf4d02a1a",
+      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【11/12更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/33599/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-13T07:03:03.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/b82bd0a8-5400-450a-9b78-af65dc6f5e0c.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1277,7 +1316,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cacbf56a0f7d",
@@ -1537,29 +1576,6 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "08aaf4d02a1a",
-      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【11/12更新】 | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/33599/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-13T04:02:12.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/b82bd0a8-5400-450a-9b78-af65dc6f5e0c.png",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
@@ -1793,38 +1809,17 @@
     },
     {
       "id": "4b8977eed2b7",
-      "title": "「ピカチュウ可愛すぎる」だけで買いな「Google Fitbit Air 限定モデル」でポケモンと一緒にぐっすり睡眠！ (1/5)",
-      "url": "https://ascii.jp/elem/000/004/451/4451183/",
-      "host": "ascii.jp",
-      "source": "ASCII.jp",
+      "title": "「ピカチュウ可愛すぎる」だけで買いな「Google Fitbit Air 限定モデル」でポケモンと一緒にぐっすり睡眠！",
+      "url": "https://news.infoseek.co.jp/article/asciijp_4451183/",
+      "host": "news.infoseek.co.jp",
+      "source": "Infoseek",
       "summary": "",
       "publishedAt": "2026-11-13T02:30:00.000Z",
-      "image": "https://ascii.jp/img/2026/10/21/4541766/xl/fddc1189cf7c153f.jpg?20200122",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/asciijp/asciijp_4451183_0-enlarge.jpg",
       "categories": [
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cff5d7e5a6c1",
-      "title": "「Pokémon LEGENDS Z-A」色違いのゼルネアスを受け取れるあいことばが公開！「ぽこ あ ポケモン」内でもプレゼントを受け取れる",
-      "url": "https://www.gamer.ne.jp/news/202611130007/",
-      "host": "gamer.ne.jp",
-      "source": "Gamer",
-      "summary": "",
-      "publishedAt": "2026-11-13T02:24:00.000Z",
-      "image": "",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "main"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1973,7 +1968,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7d4b09ea063a",
@@ -2275,7 +2270,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "57496fb3e454",
@@ -2419,25 +2414,6 @@
       "image": "https://static.sanyonews.jp/image/article/size1/c/4/e/3/c4e36908c402eadbfcabcc7ef4365be5_1.jpg",
       "categories": [
         "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6f7eed442233",
-      "title": "『ポケモン』フリードとリザードンの出会いとは？ ヒトカゲ時代の過去…第150話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/1987623?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-12T16:50:50.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/9/f/7/c/9f7cf405b5f51661f0efa2908c60274b_1.jpg",
-      "categories": [
-        "other"
       ],
       "series": [],
       "isOfficial": false,
@@ -3160,6 +3136,27 @@
       "isNew": false
     },
     {
+      "id": "f622b3cafaca",
+      "title": "ポケモンGO アチゲータ 色違い",
+      "url": "https://youtu.be/ZB4t-3swaBo?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-11-12T03:43:52.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e9d31f982ff5",
       "title": "”ポケピース”のポケモンたちと、ごろごろしよう。新作アイウエア「ポケピース meets JINS HOME(R)」11月19日（木）発売",
       "url": "https://animeanime.jp/release/prtimes/20261112/326312.html",
@@ -3262,6 +3259,27 @@
       "isNew": false
     },
     {
+      "id": "6662355d85b4",
+      "title": "「ポケモン」3way使い分けできるルームポンチョが11月14日全国ドン・キホーテ/アピタにて発売！イーブイやミミッキュなど総柄全10種",
+      "url": "https://www.inside-games.jp/article/2026/11/12/190792.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-11-12T01:30:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1806428.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "cecfe3f568bd",
       "title": "マクドナルドから「ポケモン」ハッピーセットがついに発売、限定おもちゃ15種にカード2枚も",
       "url": "https://www.dailysunny.com/2026/11/11/nynews261111/",
@@ -3341,25 +3359,6 @@
         "tcg",
         "anime"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d7f673cd987e",
-      "title": "米マクドナルドにポケモンのハッピーミール おもちゃ1個とカード2枚付き（11/11）",
-      "url": "https://lalalausa.com/archives/84499",
-      "host": "lalalausa.com",
-      "source": "LALALA USA",
-      "summary": "",
-      "publishedAt": "2026-11-11T23:37:49.000Z",
-      "image": "https://lalalausa.com/wp-content/uploads/2026/11/LALALA-20261111-02.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
