@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T18:00:17.623Z",
+  "updatedAt": "2026-11-13T18:30:17.220Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 140,
-  "todayCount": 2,
+  "todayCount": 3,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 19
+      "count": 18
     },
     {
       "id": "update",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 13
+      "count": 14
     },
     {
       "id": "media",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 52
+      "count": 53
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 17
+      "count": 16
     },
     {
       "id": "go",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Yahoo!ニュース",
@@ -113,7 +113,7 @@
     },
     {
       "name": "山陽新聞",
-      "count": 8
+      "count": 9
     },
     {
       "name": "ガジェット通信",
@@ -124,16 +124,20 @@
       "count": 6
     },
     {
-      "name": "Nintendo DREAM WEB",
-      "count": 5
+      "name": "オリコンニュース",
+      "count": 4
     },
     {
-      "name": "オリコンニュース",
+      "name": "Nintendo DREAM WEB",
       "count": 4
     },
     {
       "name": "GAME Watch",
       "count": 4
+    },
+    {
+      "name": "ウォーカープラス",
+      "count": 3
     },
     {
       "name": "ファミ通",
@@ -176,8 +180,8 @@
       "count": 2
     },
     {
-      "name": "ウォーカープラス",
-      "count": 2
+      "name": "AppMedia",
+      "count": 1
     },
     {
       "name": "Sortir à Paris",
@@ -277,10 +281,6 @@
     },
     {
       "name": "AUTOMATON",
-      "count": 1
-    },
-    {
-      "name": "AppMedia",
       "count": 1
     },
     {
@@ -953,12 +953,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-13T17:30:20.310Z",
-    "previousCount": 139,
-    "newCount": 3
+    "previousAt": "2026-11-13T18:00:17.623Z",
+    "previousCount": 140,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-13T18:30:17.623Z",
+  "nextUpdateAt": "2026-11-13T19:00:17.220Z",
   "items": [
     {
       "id": "af7786665234",
@@ -977,7 +977,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e43ffb76806e",
@@ -996,7 +996,26 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
+    },
+    {
+      "id": "cd35024adaa9",
+      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
+      "url": "https://appmedia.jp/pokemonchampions/79639586",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-11-13T16:27:45.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2025/06/165232_gyqu0.webp",
+      "categories": [
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
     },
     {
       "id": "114719810f4b",
@@ -1587,6 +1606,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "73f87360f5d1",
+      "title": "「ナカノ スタイリング タント」が「ポケモンカードゲーム」と初コラボ！特別なプロモカードが付くオリジナルデザインボトルを8月1日より発売",
+      "url": "https://www.walkerplus.com/article/1147143/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-11-13T09:58:24.000Z",
+      "image": "https://news.walkerplus.com/article/1147143/11970583_615.jpg",
+      "categories": [
+        "tcgcat",
+        "goodscat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "c758b53136f2",
@@ -2804,6 +2846,25 @@
       "isNew": false
     },
     {
+      "id": "6f7eed442233",
+      "title": "『ポケモン』フリードとリザードンの出会いとは？ ヒトカゲ時代の過去…第150話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/1987623?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-12T16:50:50.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/f/7/c/9f7cf405b5f51661f0efa2908c60274b_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "c7d98b15873d",
       "title": "「Pokémon LEGENDS Z-A」，色違いのゼルネアスが手に入る“あいことば”を公開。色違いのイベルタルは12月10日から配布スタート",
       "url": "https://www.4gamer.net/games/897/G089789/20261113001/",
@@ -2858,27 +2919,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "21beed7ca646",
-      "title": "【ポケポケ】ロケット団の野望の当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/573136",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-12T15:19:06.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/573136.png?date=1787237535",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3115,25 +3155,6 @@
       "isNew": false
     },
     {
-      "id": "cd35024adaa9",
-      "title": "【ポケモンチャンピオンズ】ポケモンホームの連携方法と遠征のやり方",
-      "url": "https://appmedia.jp/pokemonchampions/79639586",
-      "host": "appmedia.jp",
-      "source": "AppMedia",
-      "summary": "",
-      "publishedAt": "2026-11-12T07:45:44.000Z",
-      "image": "https://appmedia.jp/wp-content/uploads/2025/06/165232_gyqu0.webp",
-      "categories": [
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "2852e40a0545",
       "title": "【開催レポート】いっしょにみると楽しいよ！シネコンへのポケモン遠足！ in 門真市",
       "url": "https://musubie.org/news/activity-report/35287",
@@ -3257,28 +3278,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1aaf5f9eb34f",
-      "title": "ポケモンたちとおうちでゴロゴロ！ 新作アイウエア「ポケピース meets JINS HOME(R)」が11月19日より発売",
-      "url": "https://www.ndw.jp/pokemon-goods-261112/",
-      "host": "ndw.jp",
-      "source": "Nintendo DREAM WEB",
-      "summary": "",
-      "publishedAt": "2026-11-12T04:34:03.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/pokemon261112a-i.jpeg",
-      "categories": [
-        "new"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
