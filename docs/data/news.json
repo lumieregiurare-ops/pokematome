@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T12:30:18.737Z",
+  "updatedAt": "2026-11-13T13:00:16.524Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 20
+      "count": 19
     },
     {
       "id": "tcgcat",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 53
+      "count": 54
     }
   ],
   "series": [
@@ -108,12 +108,12 @@
       "count": 16
     },
     {
-      "name": "SNKRDUNK",
+      "name": "ガジェット通信",
       "count": 9
     },
     {
-      "name": "ガジェット通信",
-      "count": 8
+      "name": "SNKRDUNK",
+      "count": 9
     },
     {
       "name": "山陽新聞",
@@ -185,10 +185,6 @@
     },
     {
       "name": "ライブドアニュース",
-      "count": 1
-    },
-    {
-      "name": "TBS NEWS DIG",
       "count": 1
     },
     {
@@ -884,13 +880,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-13T12:00:16.014Z",
-    "previousCount": 145,
-    "newCount": 2
+    "previousAt": "2026-11-13T12:30:18.737Z",
+    "previousCount": 142,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-13T13:00:18.737Z",
+  "nextUpdateAt": "2026-11-13T13:30:16.524Z",
   "items": [
+    {
+      "id": "a26f051f7fab",
+      "title": "ワイルドエリア：グローバルで後悔しないために / スペシャルリサーチを即クリアすると超快適に【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3755138",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-13T12:30:15.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7486.jpeg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "9f0058379e63",
       "title": "【ポケモン30周年】ニューエラ限定コラボ全25種が激アツ！ミュウやイーブイの繊細刺繍＆限定ロゴ仕様",
@@ -970,27 +987,6 @@
       "isNew": false
     },
     {
-      "id": "49003e87c5e5",
-      "title": "ポケモンGOイベントが東北大入試と日程重複 郡和子仙台市長「宿泊に空き、一定の確保」でも1泊2万円前後",
-      "url": "https://newsdig.tbs.co.jp/articles/gallery/3059473",
-      "host": "newsdig.tbs.co.jp",
-      "source": "TBS NEWS DIG",
-      "summary": "",
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "image": "https://newsdig.ismcdn.jp/mwimgs/2/c/1200w/img_2cd11b4e8990be88dad88969ac1c603a35611.jpg",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "64209e90cd0b",
       "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
@@ -999,6 +995,27 @@
       "summary": "",
       "publishedAt": "2026-11-13T09:59:46.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "dc6d1605bf3a",
+      "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-13T09:59:39.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
       "categories": [
         "tcgcat"
       ],
@@ -1292,7 +1309,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01e6f654bf7f",
@@ -1345,27 +1362,6 @@
       "summary": "",
       "publishedAt": "2026-11-13T07:39:52.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "dc6d1605bf3a",
-      "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-13T07:39:50.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
       "categories": [
         "tcgcat"
       ],
