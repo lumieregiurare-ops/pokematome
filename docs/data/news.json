@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-14T05:00:15.620Z",
+  "updatedAt": "2026-11-14T05:30:15.514Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 153,
+  "total": 152,
   "todayCount": 42,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 15
+      "count": 16
     },
     {
       "id": "update",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 60
+      "count": 58
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 18
+      "count": 19
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 30
+      "count": 29
     },
     {
       "id": "tcg",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 30
+      "count": 31
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 33
+      "count": 32
     },
     {
       "name": "Yahoo!ニュース",
@@ -141,10 +141,6 @@
     },
     {
       "name": "Howl.Link",
-      "count": 3
-    },
-    {
-      "name": "Nintendo DREAM WEB",
       "count": 3
     },
     {
@@ -188,8 +184,20 @@
       "count": 2
     },
     {
+      "name": "Nintendo DREAM WEB",
+      "count": 2
+    },
+    {
       "name": "にじめん",
       "count": 2
+    },
+    {
+      "name": "@DIME アットダイム",
+      "count": 1
+    },
+    {
+      "name": "リアルサウンド",
+      "count": 1
     },
     {
       "name": "香港経済新聞",
@@ -201,10 +209,6 @@
     },
     {
       "name": "47NEWS",
-      "count": 1
-    },
-    {
-      "name": "HugKum",
       "count": 1
     },
     {
@@ -314,7 +318,7 @@
       "title": "「ポケモンZA」で色違いのゼルネアスとイベルタルを仲間にできる！ 「ふしぎなおくりもの」のあいことばが公開",
       "summary": "ポケモンは、Nintendo Switch 2/Nintendo Switch用アクションRPG「Pokemon LEGENDS Z-A」において色違いのゼルネアス・イベルタルのプレゼントを実施する。",
       "url": "https://game.watch.impress.co.jp/docs/news/2156205.html",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261113-00010052-realsound-000-1-view.jpg?exp=10800",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/205/0.jpg",
       "leadSource": "GAME Watch",
       "publishedAt": "2026-11-13T09:54:00.000Z",
       "sourceCount": 8,
@@ -456,7 +460,7 @@
       "title": "【ポケモン】横浜赤レンガ倉庫のクリスマスマーケットで「えらぶ！ポケモンイルミネーション1025」開催決定！",
       "summary": "ポケモンは、「Christmas Market in 横浜赤レンガ倉庫」の「Christmas Village」にて、イベント「えらぶ！ポケモンイルミネーション1025」を開催する。期間は11月25日から12月25日まで。",
       "url": "https://game.watch.impress.co.jp/docs/news/2156253.html",
-      "image": "https://www.animatetimes.com/img/ogimage.png",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/253/0.jpg",
       "leadSource": "GAME Watch",
       "publishedAt": "2026-11-13T06:50:00.000Z",
       "sourceCount": 7,
@@ -524,7 +528,7 @@
       "leadSource": "ガジェット通信",
       "publishedAt": "2026-11-14T04:00:43.000Z",
       "sourceCount": 3,
-      "articleCount": 9,
+      "articleCount": 7,
       "categories": [
         "event",
         "other"
@@ -554,20 +558,6 @@
           "url": "https://pokemongo.gamewith.jp/article/show/587769",
           "source": "GameWith",
           "publishedAt": "2026-11-14T00:00:11.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケモンGO】メテノシャワーの開催期間と内容",
-          "url": "https://pokemongo.gamewith.jp/article/show/579397",
-          "source": "GameWith",
-          "publishedAt": "2026-11-13T23:07:19.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケモンGO】選べるタイムチャレンジの最新情報と開催期間",
-          "url": "https://pokemongo.gamewith.jp/article/show/560061",
-          "source": "GameWith",
-          "publishedAt": "2026-11-13T22:54:58.000Z",
           "isPR": false
         },
         {
@@ -916,13 +906,55 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-14T04:29:20.797Z",
-    "previousCount": 150,
-    "newCount": 9
+    "previousAt": "2026-11-14T05:00:15.620Z",
+    "previousCount": 153,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-14T05:30:15.620Z",
+  "nextUpdateAt": "2026-11-14T06:00:15.514Z",
   "items": [
+    {
+      "id": "b844b36d15be",
+      "title": "新作ゲームに初の屋外常設施設もオープン！「ポケモン」30周年イヤーが盛り上がったワケ",
+      "url": "https://dime.jp/genre/2166487/",
+      "host": "dime.jp",
+      "source": "@DIME アットダイム",
+      "summary": "",
+      "publishedAt": "2026-11-14T05:05:10.000Z",
+      "image": "https://dime.jp/wp-content/uploads/2026/10/NGK-00a_pkmnc_visual-1-770x433.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "9949896c6a1a",
+      "title": "「ポケモン東京ばな奈」6周年記念セット登場 ピカチュウ＆イーブイ描いたトートバッグとセットで発売",
+      "url": "https://realsound.jp/tech/2026/11/post-2583346.html",
+      "host": "realsound.jp",
+      "source": "リアルサウンド",
+      "summary": "",
+      "publishedAt": "2026-11-14T05:00:45.000Z",
+      "image": "https://realsound.jp/wp-content/uploads/2026/11/20261113-banana_pokemonl-99.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "b4ba88cd7c32",
       "title": "ポッチャマやモクローたちが家でゴロゴロ♪「ポケピース」×JINSの新作アイウエアがパステル可愛い！",
@@ -1051,7 +1083,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "97a3848edb2c",
@@ -1339,7 +1371,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4053385cd091",
@@ -1350,46 +1382,6 @@
       "summary": "",
       "publishedAt": "2026-11-13T23:38:25.000Z",
       "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261114-00000007-minkei-000-1-view.jpg?exp=10800",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "4e3b8b8e66dd",
-      "title": "【ポケモンGO】メテノシャワーの開催期間と内容",
-      "url": "https://pokemongo.gamewith.jp/article/show/579397",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-13T23:07:19.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/579397.png?date=1790878986",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "7679000bae87",
-      "title": "ポケモンと宇宙を大冒険できる「くるくる たいようけいキット」。遊びながら星に詳しくなろう【『小学一年生』12月号】",
-      "url": "https://hugkum.sho.jp/824918",
-      "host": "hugkum.sho.jp",
-      "source": "HugKum",
-      "summary": "",
-      "publishedAt": "2026-11-13T23:01:17.000Z",
-      "image": "https://hugkum.sho.jp/wp-content/uploads/2026/11/c1e8b51fe13349dff12e237292e9af23.jpg",
       "categories": [
         "other"
       ],
@@ -1649,7 +1641,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01eef2d84448",
@@ -2062,25 +2054,6 @@
       "series": [
         "anime"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "d825161d9115",
-      "title": "全国のトイザらスに「サンタポスト」が11月20日より設置。投函で『ぽこ あ ポケモン』オリジナルステッカーがもらえる",
-      "url": "https://www.ndw.jp/pokemon-news-261113/",
-      "host": "ndw.jp",
-      "source": "Nintendo DREAM WEB",
-      "summary": "",
-      "publishedAt": "2026-11-13T10:00:57.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/261113-pokemonnews-00.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2679,7 +2652,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、「Christmas Market in 横浜赤レンガ倉庫」の「Christmas Village」にて、イベント「えらぶ！ポケモンイルミネーション1025」を開催する。期間は11月25日から12月25日まで。",
       "publishedAt": "2026-11-13T05:00:00.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/253/0.jpg",
       "categories": [
         "event"
       ],
@@ -2759,7 +2732,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンは、Nintendo Switch 2/Nintendo Switch用アクションRPG「Pokemon LEGENDS Z-A」において色違いのゼルネアス・イベルタルのプレゼントを実施する。",
       "publishedAt": "2026-11-13T03:28:44.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/205/0.jpg",
       "categories": [
         "new"
       ],
@@ -3503,7 +3476,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e074ec9590dd",
@@ -3650,7 +3623,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8519c3dfaf1f",
@@ -3669,7 +3642,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6662355d85b4",
@@ -3690,7 +3663,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "cecfe3f568bd",
@@ -3816,7 +3789,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "20eb3eef7d81",
@@ -3917,7 +3890,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e3dba3a9d8c9",
