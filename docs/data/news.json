@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-17T19:00:18.129Z",
+  "updatedAt": "2026-11-17T19:30:22.553Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 137,
+  "total": 139,
   "todayCount": 0,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 17
+      "count": 18
     },
     {
       "id": "update",
@@ -22,17 +22,17 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 19
+      "count": 18
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 40
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 30
+      "count": 31
     },
     {
       "id": "media",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 47
+      "count": 48
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 8
+      "count": 9
     },
     {
       "id": "go",
@@ -74,12 +74,12 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 39
+      "count": 40
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 5
+      "count": 6
     },
     {
       "id": "unite",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 47
+      "count": 48
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 27
+      "count": 28
     },
     {
       "name": "山陽新聞",
-      "count": 13
+      "count": 15
     },
     {
       "name": "SNKRDUNK",
@@ -184,10 +184,6 @@
       "count": 2
     },
     {
-      "name": "ガジェット通信",
-      "count": 2
-    },
-    {
       "name": "朝日新聞",
       "count": 2
     },
@@ -253,6 +249,10 @@
     },
     {
       "name": "PR TIMES",
+      "count": 1
+    },
+    {
+      "name": "ガジェット通信",
       "count": 1
     },
     {
@@ -765,13 +765,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-17T18:30:18.575Z",
-    "previousCount": 140,
-    "newCount": 0
+    "previousAt": "2026-11-17T19:00:18.129Z",
+    "previousCount": 137,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-17T19:30:18.129Z",
+  "nextUpdateAt": "2026-11-17T20:00:22.553Z",
   "items": [
+    {
+      "id": "6bdf0e2fef54",
+      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-17T14:32:22.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "5247927e6be1",
       "title": "ピカチュウがいっぱい！約3,000種の女性コレクター記録がギネス認定",
@@ -951,6 +972,29 @@
       ],
       "series": [
         "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "1f85a043a562",
+      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【11/17更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/33599/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-17T11:29:10.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/b82bd0a8-5400-450a-9b78-af65dc6f5e0c.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1271,6 +1315,30 @@
       "isNew": false
     },
     {
+      "id": "f7a60137c134",
+      "title": "『ポケモン』7年ぶり新作アニメ映画制作決定 ポケカ題材で『ポケモン：ワイルドカード』2027年公開！制作はCloverWorks",
+      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-17T09:04:11.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "media"
+      ],
+      "series": [
+        "main",
+        "tcg",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "f42f0aec37ba",
       "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/32581/",
@@ -1345,29 +1413,6 @@
       ],
       "series": [
         "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1f85a043a562",
-      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【11/17更新】 | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/33599/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-17T08:15:01.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/b82bd0a8-5400-450a-9b78-af65dc6f5e0c.png",
-      "categories": [
-        "tcgcat",
-        "new"
-      ],
-      "series": [
-        "tcg",
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1818,6 +1863,28 @@
       "isNew": false
     },
     {
+      "id": "10e3a0056245",
+      "title": "【ポケモンGO】デュオリンゴコラボタイムチャレンジの入手方法と報酬",
+      "url": "https://pokemongo.gamewith.jp/article/show/587963",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:26:14.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/587963.png?date=1794885975",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "09e9857c9cb9",
       "title": "「ポケモンスリープ」モンメン・エルフーン実装で活気 「これは偉い子」「厳選せねば」",
       "url": "https://ascii.jp/elem/000/004/452/4452090/",
@@ -2152,27 +2219,6 @@
       "isNew": false
     },
     {
-      "id": "6bdf0e2fef54",
-      "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-17T01:14:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/562111.png?date=1779946633",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "07068a774ad8",
       "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
@@ -2384,27 +2430,6 @@
       "isNew": false
     },
     {
-      "id": "22b43ce75a03",
-      "title": "レイドバトルにレベル1のトレーナーが大量発生 / 人数が揃っても勝てない“bot軍団”に界隈が混乱【ポケモンGO】",
-      "url": "https://getnews.jp/archives/3755605",
-      "host": "getnews.jp",
-      "source": "ガジェット通信",
-      "summary": "",
-      "publishedAt": "2026-11-17T00:00:25.000Z",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/1116_pokemon1-1-1.png",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "fa86f9e67c70",
       "title": "【約4年ぶり復活】チャージスポットで全国のポケストップが最大2万箇所爆増 / 駅や商業施設に新たな“聖地”が誕生しそう【ポケモンGO】",
       "url": "https://getnews.jp/archives/3755603",
@@ -2506,27 +2531,6 @@
       "isNew": false
     },
     {
-      "id": "1e13af1e7e98",
-      "title": "“1児の母”松村沙友理、愛娘の夜泣き対応「大変だった」 『ポケモンスリープ』で“幸せな時間”に",
-      "url": "https://www.sanyonews.jp/article/1981674?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-16T20:56:36.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/0/5/6/9/05699e305eb382a4f94ab133a55f7240_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "sleep"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "7d48497941f1",
       "title": "『ポケモン』新作映画も主人公交代！サトシ出ずファン嘆き ポケカ題材の作品で2027年公開",
       "url": "https://www.sanyonews.jp/article/1981106?kw",
@@ -2591,6 +2595,27 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "1e13af1e7e98",
+      "title": "“1児の母”松村沙友理、愛娘の夜泣き対応「大変だった」 『ポケモンスリープ』で“幸せな時間”に",
+      "url": "https://news.google.com/rss/articles/CBMi4wtBVV95cUxQeThfUTU0SWlCRVpwandvdW1KNXNNX0p5VkI3LTMxRnZRZjhpRjJqbXZkdFZpZElLMHZnel81MjZUV2xyaXpfNmVsd2lYNGpQc0lwaU1MWjJ0WlRESEVpUFA2WHd4TDAwUmROc3ZMaDlvbFdvR05nWG1sRDVtTjZVQkY1ZHJnT1RlRmR3REo2dDB0SjQ5ZGFNRnhndlZ2WTNFc0p2UXpnNXdkM1B5YTNNeGlZbGp1Q0pOLVQ5ZnNXRzNqYTA0dlhpNDVGWXRtMHROanU3SGRqU25VbHMyRVpMWXV6dmRZM2MzTUtPMjlFTmRXVjdfbFJRTExNVjBRWjhrLTg5Njd1Nm5UMkpQbHE3OHRPVGNrVmNGZHNVZjhfS1piM1A0dEVMT0pjOHFuSjJ3NlFyRHhwLTNFbTktX21FeFlSeEZrUDNWUGd1bDJJLVBXcmtfTlMwMGFyRDRqTXp4Qkh2cTFFMGZIVTYtY2dxa21keVkzMTJvTXdjMzA2alMtQm54V3Q5UnoyOVJibGt5QVRZb04xUHAwSE9hcHI0aUhWS2o5cE5DdEV6TURqLUVfbEtPX3ltMk9OYUFqakJBTlp4UzRveF9JY0xXeTloelNhdFdqNkRoSjdIejhvMldmdnBjSVZjMm1UY2E2d1l1ZHBZUTJIdXY4cUNTaWpsdUczMjVZdUdoc0VqS3pvZ1lKVlpob1VpczlQNnVWXzktR3ZzY3BZSkd0Sk5pZ3ZsdmxoNlkxeTE5aWFnVFFnd0RQc3pjLXdwYU1NOUpFVnVoWkw2ZTRRSEJTYTNoMDhSTnVoVk0zTWw0Wm1rVVpsRnZ6ekh5b1ZaQkhrQXNzUTU1SHNsVC1YeklOeWtJY2Uzc2Q2M1k1eFlhMWx0MlF3Sk1uM1JJb2x6WkYzMmg4Q1h3Ry1EQVFpM0l6cEVob0NHUHczMzRNci02V0pjR2s5ZExxRVJ0UnlzSHMyeTR6bjFiVDlkM245enFJQkVRcl9XM0pzMWxWRmg2cVpPR2U2MmpWUXZhRjR5enFEN1I1aVlKdV92NkxQdGZobVp0YWNTbkNDbUgwNHJvWExVMm1oYnoxM3JobmROYVdZNjQ1c2RLa2N6U09TX1lqSGVQSzFqVlltWVJscWdTUE9Ealdib1hZSlQ0LTJEYUpwdllCcUszUkt3bGNHRVhyTWVuN1RxMDJ0bzRaRjlRMUU3N2R1V0lDaGtPSWJwUk1waVlnTjNYWnhzRGZKdWdhVTdYSVlxRG9yRDRiaE93V3VQS3ZIRFdmN19uX0xxVE1kT1YtNjJTM291UW45TjA3bVV4RTZzRXhXOUUxZU5mSUxLMWwyZFp6b3htZGNueURkb0Q3Zk12R296cDUxTldaeEp5S1g0Tk1wcFBFbF85clA1MlJ2cTVNdjZ3V2tLd0ZHOHZaOHd1cGFXaDRFWE1VTkZETmo1RFJZa3kwUDFqXzN0QXItMkN6X3ZXMW5fWlpWVlRaUXNENmt2SFFjdjhWZTlDUzF0S0ZaTExxQUxQZGY2dWFxZXhoWm1BUE1mRWEzZmNtOWRtaVhKclIwMWd1RXM2XzdZaGlqWlF4b3pHTWZVM25Kc2QyV2w2QXdHaVh2QlpxQUxXVnpjVmgxYzFpV2ZqTU5xVGlZUnJaM2x2VlVnTmZMa3dYVEFJTjdvNnJaOEYtZkZ2ck9YdURhWEhVcG1DU3FZREd5MW9HLVRuOGpmN3FRSnhyUzVhSGpMQ3RWd05FdUt0TnN6RVJUYjd1SVcwVHBwcUdNc2E3Yk83dVRWUlE2UXlzWmdDaDVUWXFnMmR6dVVOejdSUThJSnVOaG1FUXktb1VqbVJ0RUgxbGVJb0xkZEVjTTNkcmNwOFpzOFFoUEc5b2xxSTkxUzRNRnpUVkh6SXVSUjRKNkdUMENxYTJBeGN1VG9IdlZWN3g3RVN6UFVBZ01EbzNkXzdvU2tmbkhYV1NYaksxSl9fQlloX1ZNZkg5Qnk5ZjRNZkp4MURuS01xSzc4?oc=5",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-16T16:31:32.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3231,14 +3256,14 @@
       "isNew": false
     },
     {
-      "id": "ac1167e2e3f9",
-      "title": "『ポケモン』見たことない異変！スピネル、ある行動で急展開 第135話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/1907706",
+      "id": "b37ec4e23abb",
+      "title": "『ポケモン』メタモン登場で船内は大パニック！ たくさん変身の第139話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/1929178?kw",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-11-15T10:43:07.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/1/4/f/1/14f108c327e4d3e1de3eb96873444fb9_1.jpg",
+      "publishedAt": "2026-11-15T10:15:49.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/8/4/f/a/84fa241ddd66f1273e155698c299df25_1.jpg",
       "categories": [
         "other"
       ],
@@ -3247,7 +3272,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "475b59a620cf",
@@ -3264,6 +3289,25 @@
       "series": [
         "goods"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "ac1167e2e3f9",
+      "title": "『ポケモン』見たことない異変！スピネル、ある行動で急展開 第135話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/1907706?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-15T10:06:01.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/1/4/f/1/14f108c327e4d3e1de3eb96873444fb9_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3353,17 +3397,17 @@
       "isNew": false
     },
     {
-      "id": "f7a60137c134",
-      "title": "『ポケモン』7年ぶり新作アニメ映画制作決定 ポケカ題材で『ポケモン：ワイルドカード』2027年公開！制作はCloverWorks",
-      "url": "https://www.sanyonews.jp/photo/detail?article_id",
+      "id": "57496fb3e454",
+      "title": "ポケモン新作映画、主人公の名前発表 映像＆場面カット解禁で史上初のポケカ題材作品",
+      "url": "https://www.sanyonews.jp/article/1981332?kw",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
-      "publishedAt": "2026-11-15T07:56:30.000Z",
-      "image": "",
+      "publishedAt": "2026-11-15T07:54:35.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/3/5/6/9356e1d04bf6edaefbe6c1c6b3d20ad3_1.jpg",
       "categories": [
         "new",
-        "media"
+        "tcgcat"
       ],
       "series": [
         "main",
@@ -3374,7 +3418,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "c784961cf76b",
