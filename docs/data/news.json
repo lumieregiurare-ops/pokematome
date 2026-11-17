@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-17T03:00:17.048Z",
+  "updatedAt": "2026-11-17T03:30:16.537Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 134,
-  "todayCount": 40,
+  "total": 147,
+  "todayCount": 52,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 19
+      "count": 15
     },
     {
       "id": "update",
@@ -22,17 +22,17 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 12
+      "count": 20
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 43
+      "count": 42
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 31
+      "count": 26
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 4
+      "count": 12
     },
     {
       "id": "community",
@@ -57,29 +57,29 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 44
+      "count": 49
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 16
+      "count": 14
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 4
+      "count": 27
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 43
+      "count": 42
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 7
+      "count": 6
     },
     {
       "id": "unite",
@@ -94,22 +94,22 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 42
+      "count": 37
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 25
-    },
-    {
-      "name": "山陽新聞",
-      "count": 19
+      "count": 35
     },
     {
       "name": "SNKRDUNK",
-      "count": 13
+      "count": 12
+    },
+    {
+      "name": "山陽新聞",
+      "count": 12
     },
     {
       "name": "Unisba Media",
@@ -117,11 +117,11 @@
     },
     {
       "name": "インサイド",
-      "count": 8
+      "count": 6
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 8
+      "count": 6
     },
     {
       "name": "オリコンニュース",
@@ -132,15 +132,35 @@
       "count": 4
     },
     {
-      "name": "にじめん",
-      "count": 3
+      "name": "ガジェット通信",
+      "count": 4
     },
     {
-      "name": "リアルサウンド",
+      "name": "電撃オンライン",
+      "count": 2
+    },
+    {
+      "name": "フロントロウ",
+      "count": 2
+    },
+    {
+      "name": "AppBank",
+      "count": 2
+    },
+    {
+      "name": "gamebiz【ゲームビズ】",
       "count": 2
     },
     {
       "name": "Pokémon GO",
+      "count": 2
+    },
+    {
+      "name": "PR TIMES",
+      "count": 2
+    },
+    {
+      "name": "アニメ！アニメ！",
       "count": 2
     },
     {
@@ -152,7 +172,7 @@
       "count": 2
     },
     {
-      "name": "Game*Spark",
+      "name": "Gizmodo",
       "count": 2
     },
     {
@@ -160,11 +180,23 @@
       "count": 2
     },
     {
+      "name": "YouTube",
+      "count": 2
+    },
+    {
       "name": "AppMedia",
       "count": 2
     },
     {
-      "name": "AppBank",
+      "name": "ASCII.jp",
+      "count": 1
+    },
+    {
+      "name": "ライブドアニュース",
+      "count": 1
+    },
+    {
+      "name": "リアルサウンド",
       "count": 1
     },
     {
@@ -188,19 +220,11 @@
       "count": 1
     },
     {
-      "name": "gamebiz【ゲームビズ】",
-      "count": 1
-    },
-    {
       "name": "LAWSON",
       "count": 1
     },
     {
-      "name": "PR TIMES",
-      "count": 1
-    },
-    {
-      "name": "フロントロウ",
+      "name": "携帯総合研究所",
       "count": 1
     },
     {
@@ -208,11 +232,19 @@
       "count": 1
     },
     {
+      "name": "Mezha.net",
+      "count": 1
+    },
+    {
       "name": "Nintendo DREAM WEB",
       "count": 1
     },
     {
-      "name": "4Gamer",
+      "name": "https://dreamseed.blog/",
+      "count": 1
+    },
+    {
+      "name": "Howl.Link",
       "count": 1
     },
     {
@@ -220,19 +252,11 @@
       "count": 1
     },
     {
-      "name": "玩具人 TOY PEOPLE",
+      "name": "4Gamer",
       "count": 1
     },
     {
-      "name": "Gizmodo",
-      "count": 1
-    },
-    {
-      "name": "コラボカフェ",
-      "count": 1
-    },
-    {
-      "name": "アニメ！アニメ！",
+      "name": "Game*Spark",
       "count": 1
     },
     {
@@ -240,11 +264,11 @@
       "count": 1
     },
     {
-      "name": "電撃オンライン",
+      "name": "ゴリミー",
       "count": 1
     },
     {
-      "name": "ｄメニューニュース",
+      "name": "ポケットモンスターオフィシャルサイト",
       "count": 1
     },
     {
@@ -252,7 +276,15 @@
       "count": 1
     },
     {
-      "name": "YouTube",
+      "name": "ファミ通",
+      "count": 1
+    },
+    {
+      "name": "セレクトラ",
+      "count": 1
+    },
+    {
+      "name": "MMOEXP",
       "count": 1
     },
     {
@@ -268,11 +300,89 @@
       "count": 1
     },
     {
-      "name": "wowKorea",
+      "name": "TBS NEWS DIG",
       "count": 1
     }
   ],
   "topics": [
+    {
+      "id": "d273115386f9",
+      "title": "デュオリンゴとポケモンがコラボ開始！「Duolingo」「ポケモンGO」両方で特別イベント開催「ポケGO」には“言語”テーマの「タイムチャレンジ」登場",
+      "summary": "Duolingoは、ポケモン、Scopely Exploreとのグローバルコラボレーションを11月17日より開始する。",
+      "url": "https://game.watch.impress.co.jp/docs/news/2156544.html",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/544/004.jpg",
+      "leadSource": "GAME Watch",
+      "publishedAt": "2026-11-17T03:09:10.000Z",
+      "sourceCount": 9,
+      "articleCount": 15,
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "keywords": [
+        "ポケモンGO",
+        "duolingo",
+        "duo"
+      ],
+      "articles": [
+        {
+          "title": "『ポケモンGO』×『Duolingo』グローバルコラボイベント開催！",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZSUNzOTRpcnE4SEsxMWZna0hDVG9HbDNTWXlTQ2liMnAxWWh4VmYyUHFkbzl2Z1UxbjQzYjhTR0xSY0xTTHJBSjQ4WTFWcDZsM1lxa3FDNzA?oc=5",
+          "source": "GameWith",
+          "publishedAt": "2026-11-17T03:09:10.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモン GO』とDuolingoがコラボ 各アプリで言語とポケモンをテーマにした期間限定イベントを開催",
+          "url": "https://news.livedoor.com/article/detail/32836029/",
+          "source": "ライブドアニュース",
+          "publishedAt": "2026-11-17T02:51:05.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「Duolingo」、ポケモンとコラボ 『ポケモン GO』で“言語”楽しむ「タイムチャレンジ」ほか",
+          "url": "https://www.oricon.co.jp/news/2493350/",
+          "source": "オリコンニュース",
+          "publishedAt": "2026-11-17T01:45:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "Duolingo × ポケモン、グローバルコラボを開始…Duolingoと『ポケモン GO』でそれぞれリワードがもらえる期間限定イベント",
+          "url": "https://gamebiz.jp/news/435606",
+          "source": "gamebiz【ゲームビズ】",
+          "publishedAt": "2026-11-17T01:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『Pokémon GO』と『Duolingo』で新しい言語の冒険へ！",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBreWtiM3kyUGR1c2IzZUQ1V2Z3dGQxd1U0QnNUVFBjNVpCdm40TjVRdjJWT2JxMkNYczRnTkF3Rm1CVXNKeTNuZHIyLWlRSnR1QUU5M3p3?oc=5",
+          "source": "Pokémon GO",
+          "publishedAt": "2026-11-17T01:08:25.000Z",
+          "isPR": false
+        },
+        {
+          "title": "Duolingo × ポケモン、グローバルコラボレーションを開始！Duolingoと『ポケモン GO』でそれぞれリワードがもらえる期間限定イベントを開催 | Duolingo, Inc.のプレスリリース",
+          "url": "https://prtimes.jp/main/html/rd/p/000000100.000069537.html",
+          "source": "PR TIMES",
+          "publishedAt": "2026-11-17T01:00:02.000Z",
+          "isPR": true
+        },
+        {
+          "title": "Duolingoのフクロウ、Duoが新たなコラボでPokémon GOに登場",
+          "url": "https://mezha.net/jp/news/mezha-e52f1dad4d828217d7fc8500_duolingo-s-duo-owl-is-heading/",
+          "source": "Mezha.net",
+          "publishedAt": "2026-11-16T19:02:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "Crocsによる新しいポケモンコレクションから、着せ替えアイテムが『Pokémon GO』に登場！",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uUUhJNkJKdnh2QXVtaUtwWFluWlMtOWNFTDBjRzhhUEN0MU1VRVpKUkI1akFLMVltbVRUVnM4N2ZsMWR6M054VmlrYngwRmFjWkZBM2xrN3Z1Nl93?oc=5",
+          "source": "Pokémon GO",
+          "publishedAt": "2026-11-16T16:02:08.000Z",
+          "isPR": false
+        }
+      ]
+    },
     {
       "id": "fe0be00762f4",
       "title": "ポケモンが宇宙人ジョーンズの調査対象に。「BOSS」と「ポケモン30周年」のタイアップ第3弾として広告を掲出",
@@ -281,8 +391,8 @@
       "image": "https://www.4gamer.net/games/991/G999105/20261116027/SS/001.jpg",
       "leadSource": "4Gamer",
       "publishedAt": "2026-11-16T10:53:13.000Z",
-      "sourceCount": 7,
-      "articleCount": 8,
+      "sourceCount": 6,
+      "articleCount": 7,
       "categories": [
         "new",
         "event"
@@ -293,13 +403,6 @@
         "ピカチュウ"
       ],
       "articles": [
-        {
-          "title": "ピカチュウ姿の宇宙人ジョーンズが上野駅・バス停に登場！「BOSS×ポケモン30周年」第3弾でポケモン調査動画4本公開、選べるボスジャン応募も受付中",
-          "url": "https://nijimen.kusuguru.co.jp/topics/659234",
-          "source": "にじめん",
-          "publishedAt": "2026-11-16T10:19:00.000Z",
-          "isPR": false
-        },
         {
           "title": "こんなトミー・リー・ジョーンズ見たことない！ 「ポケモン」ピカチュウに扮する宇宙人ジョーンズが公開ー「君に決めた！ボスジャン」キャンペーンなど開催",
           "url": "https://www.inside-games.jp/article/2026/11/16/191056.html",
@@ -330,7 +433,7 @@
         },
         {
           "title": "宇宙人ジョーンズがポケモンを調査？",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHMGpicV9FS016eU84REszVWltMC1WSzg1ZG9XUnhXQ3NBUFp5ZThVMTNsOEZIeU9odGNwc3J1S1d3U1VlYlFFZWVsZWVrTTlGbWhoa3NIcXJleTI2aGdEamQtWVVHTUV0?oc=5",
+          "url": "https://mobile.suntory.co.jp/cpn/softdrink/boss/20261116/",
           "source": "サントリーホールディングス",
           "publishedAt": "2026-11-16T00:11:12.000Z",
           "isPR": false
@@ -345,63 +448,6 @@
       ]
     },
     {
-      "id": "d273115386f9",
-      "title": "デュオリンゴとポケモンがコラボ開始！「Duolingo」「ポケモンGO」両方で特別イベント開催「ポケGO」には“言語”テーマの「タイムチャレンジ」登場",
-      "summary": "Duolingoは、ポケモン、Scopely Exploreとのグローバルコラボレーションを11月17日より開始する。",
-      "url": "https://game.watch.impress.co.jp/docs/news/2156544.html",
-      "image": "https://realsound.jp/wp-content/uploads/2026/11/20261117-duolingo-99.jpg",
-      "leadSource": "GAME Watch",
-      "publishedAt": "2026-11-17T02:51:05.000Z",
-      "sourceCount": 5,
-      "articleCount": 6,
-      "categories": [
-        "event",
-        "goodscat"
-      ],
-      "keywords": [
-        "duolingo",
-        "コラボ",
-        "言語"
-      ],
-      "articles": [
-        {
-          "title": "『ポケモン GO』とDuolingoがコラボ 各アプリで言語とポケモンをテーマにした期間限定イベントを開催",
-          "url": "https://realsound.jp/tech/2026/11/post-2586323.html",
-          "source": "リアルサウンド",
-          "publishedAt": "2026-11-17T02:51:05.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「Duolingo」、ポケモンとコラボ 『ポケモン GO』で“言語”楽しむ「タイムチャレンジ」ほか",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wQWVfMUdBeUlhX2xGLW5TQ0VQVVl0U01lWGJjdTE1cEtOZjlubW1VWlVNY0FXU3EwaWRWdFFpTV9WR2FtYWg5S1dHWEhwUDg?oc=5",
-          "source": "オリコンニュース",
-          "publishedAt": "2026-11-17T01:45:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "Duolingo × ポケモン、グローバルコラボを開始…Duolingoと『ポケモン GO』でそれぞれリワードがもらえる期間限定イベント",
-          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE42cGZseHltX0ppdDMyUEo5MVVGeDVaN0U0NVZESXVQWWZwVUdMX3FOaGlBWngwQ1VWdHBzZWNlSmc2Q3Fm?oc=5",
-          "source": "gamebiz【ゲームビズ】",
-          "publishedAt": "2026-11-17T01:30:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『Pokémon GO』と『Duolingo』で新しい言語の冒険へ！",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBreWtiM3kyUGR1c2IzZUQ1V2Z3dGQxd1U0QnNUVFBjNVpCdm40TjVRdjJWT2JxMkNYczRnTkF3Rm1CVXNKeTNuZHIyLWlRSnR1QUU5M3p3?oc=5",
-          "source": "Pokémon GO",
-          "publishedAt": "2026-11-17T01:08:25.000Z",
-          "isPR": false
-        },
-        {
-          "title": "Crocsによる新しいポケモンコレクションから、着せ替えアイテムが『Pokémon GO』に登場！",
-          "url": "https://pokemongo.com/ja/news/pokemon-crocs-2026",
-          "source": "Pokémon GO",
-          "publishedAt": "2026-11-16T16:02:08.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
       "id": "5b13b1dec331",
       "title": "クロックス×『ポケモン』30周年コレクション第2弾が素敵！ピカチュウ、ゲンガー、プリンの個性を表現",
       "summary": "「Crocs ポケモン 30周年コレクション」の第2弾が2026年11月17日に発売！",
@@ -409,8 +455,8 @@
       "image": "https://www.inside-games.jp/imgs/rss/1806581.jpg",
       "leadSource": "インサイド",
       "publishedAt": "2026-11-17T02:42:49.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
+      "sourceCount": 5,
+      "articleCount": 5,
       "categories": [
         "goodscat",
         "new"
@@ -430,16 +476,23 @@
         },
         {
           "title": "ピカチュウ、ゲンガー、プリンが足元に！ 「クロックス」×「ポケモン」の新作クロッグが登場",
-          "url": "https://www.wwdjapan.com/articles/2552973",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQVHdyWmVaa2FGVENSUm9JNy1tQjRtaUlqdi10MEJrak9SY2JoLTdYNU1CaEt6NllrSURhLXU0VHdmM2VmNzdTcVhfMExGNUJ4Y1hF?oc=5",
           "source": "WWDJAPAN",
           "publishedAt": "2026-11-17T01:44:16.000Z",
           "isPR": false
         },
         {
           "title": "クロックス×ポケモンのスペシャルコラボ！ ピカチュウなどのかわいいフットウェアが11/17発売",
-          "url": "https://www.asahi.com/and/w/article/17054075",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LQW1wRjhsdUwydnRWYUpEZzNmRkpQQ3lXVmhwdGEyLTFwYnhGTzY0ZHdfWG40WVBCaEliWld5cG91ZXdRdVBqa1Z4OWl2dEI3SGFFQ3oyaw?oc=5",
           "source": "朝日新聞",
           "publishedAt": "2026-11-16T22:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモン版Apple Gift Card発売。店内はコラボ装飾、ピカチュウも登場",
+          "url": "https://gori.me/apple/apple-news/172577",
+          "source": "ゴリミー",
+          "publishedAt": "2026-11-16T03:48:50.000Z",
           "isPR": false
         }
       ]
@@ -460,7 +513,7 @@
       "keywords": [
         "メリープ",
         "木目込人形",
-        "日発売"
+        "新登場"
       ],
       "articles": [
         {
@@ -471,18 +524,61 @@
           "isPR": false
         },
         {
-          "title": "眠るメリープが江戸木目込人形に！『ポケモン』真多呂「江戸木目込人形 メリープ」が11月17日発売 屏風・台付きでお正月飾りにも",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RLXQ2Sy1pcmpta21PN0Nhb3JqV1NIYVllUVlmTHRKemp1OWJDOXNtWnUyVTRDSUZEaHFvZDFXb3VxM21hQWtveThZUVUyMzRXcTYxX0x2QQ?oc=5",
-          "source": "にじめん",
-          "publishedAt": "2026-11-17T02:06:00.000Z",
-          "isPR": false
-        },
-        {
           "title": "ポケモンの木目込人形「メリープ」新登場 | 株式会社真多呂のプレスリリース",
           "url": "https://prtimes.jp/main/html/rd/p/000000011.000031202.html",
           "source": "PR TIMES",
           "publishedAt": "2026-11-17T01:00:02.000Z",
           "isPR": true
+        },
+        {
+          "title": "ポケモンの木目込人形「メリープ」新登場",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PaVBOanN1Z0dWYTg4QV9DZXBiQUNRZlBRQXVMSlZPUE1xbjA2bUxXMGdmS0MwVVBkTDJ1NjExQWpwR2RHRVB4MkhvUVV1cjhScV81Y2NLTUItQUpkNVBKLVdiRTF2Z1pZRWc?oc=5",
+          "source": "アニメ！アニメ！",
+          "publishedAt": "2026-11-17T01:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "9b601311a6d8",
+      "title": "ポケモン30周年、Apple限定ギフトカードを買ってきた。記念壁紙もかわいい",
+      "summary": "",
+      "url": "https://mobilelaby.com/blog-entry-apple-gift-card-special-edition.html",
+      "image": "https://i0.wp.com/mobilelaby.com/wp/wp-content/uploads/agc-3.webp?fit=1280%2C960&ssl=1",
+      "leadSource": "携帯総合研究所",
+      "publishedAt": "2026-11-17T00:17:41.000Z",
+      "sourceCount": 4,
+      "articleCount": 4,
+      "categories": [
+        "other",
+        "goodscat"
+      ],
+      "keywords": [
+        "apple",
+        "ギフトカード",
+        "コラボ"
+      ],
+      "articles": [
+        {
+          "title": "【Appleコラボ】今ポケモンとアップルのコラボがヤバい！AppleStoreがまさかのポケストップに！？限定ギフトカードは数量限定！？【ポケモンGO】",
+          "url": "https://t.co/t40TntVAFU",
+          "source": "Howl.Link",
+          "publishedAt": "2026-11-16T11:09:56.000Z",
+          "isPR": false
+        },
+        {
+          "title": "Appleだけにカジッチュ。ポケモンとコラボしたギフトカードが生まれました",
+          "url": "https://www.gizmodo.jp/article/2611-apple-pokemon-applestore-giftcard-kajicchu/",
+          "source": "Gizmodo",
+          "publishedAt": "2026-11-16T09:15:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "Apple Storeで今日からポケモン30周年コラボ、カジッチュのギフトカードは全国11店舗だけで11月30日まで",
+          "url": "https://selectra.jp/telecom/news/apple-gift-card-pokemon-kajicchu-november-2026",
+          "source": "セレクトラ",
+          "publishedAt": "2026-11-15T21:01:00.000Z",
+          "isPR": false
         }
       ]
     },
@@ -495,7 +591,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-11-17T01:13:53.000Z",
       "sourceCount": 3,
-      "articleCount": 26,
+      "articleCount": 25,
       "categories": [
         "tcgcat",
         "event"
@@ -508,7 +604,7 @@
       "articles": [
         {
           "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fMzhvSWZpZHlYYlFvTnMwT0NDS2V1ckVEN2pRQ2laVVZrWUNDYVlHMk5LS19nX1B1azlmVlN2TEc0ZVR1Q1Njalp3cHI5Q2s5ZEpfanlWRV8?oc=5",
           "source": "GameWith",
           "publishedAt": "2026-11-16T17:12:09.000Z",
           "isPR": false
@@ -522,7 +618,7 @@
         },
         {
           "title": "【ポケポケ】復刻プロモゲットチャレンジイベント2026の攻略【ポケモンカードアプリ】",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3bDdIV2l6SmhKaE0wU25hUmJVVE9xenpwbkRfSV9KQUJnVDRScXprZV9IcHV1NVVXWU5MYnczbDhtYk1fU1N4VFpqRWdVWGVvYkJZN1J3OVQ?oc=5",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/586189",
           "source": "GameWith",
           "publishedAt": "2026-11-16T15:29:25.000Z",
           "isPR": false
@@ -532,13 +628,6 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
           "source": "GameWith",
           "publishedAt": "2026-11-16T14:46:11.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】ダークライデッキ(Sメガ)のレシピと評価・対策【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/551442",
-          "source": "GameWith",
-          "publishedAt": "2026-11-16T09:55:22.000Z",
           "isPR": false
         },
         {
@@ -557,9 +646,51 @@
         },
         {
           "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4LXNuSFktQkdfTXZXTFdkTFRvVjFiY0haR1U4Ujg2d0s5U1lBcm9vd3JEcXhxZFpsWEFYMlJHZGRscGl3SERIZ29JZklQbWNFd180SHNpRm4?oc=5",
           "source": "GameWith",
           "publishedAt": "2026-11-16T09:55:10.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
+          "source": "GameWith",
+          "publishedAt": "2026-11-16T09:55:10.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "2ab47e9d03b3",
+      "title": "【ポケモン】来年の干支“未”にちなんだ“江戸木目込人形 メリープ”が販売開始。すやすや眠るもこもこフォルムを伝統工芸の技で表現",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pbzM3SFMxb0lGY2F1V09EMW03QVhNSkQ2R2NsNGpGWno1M0hIQTJWVElrcFQ4M01Dd2tsNGNWTGF0bFA0Z2VDLVhSb1Q4RGZyeW1rS3ljZw?oc=5",
+      "image": "",
+      "leadSource": "電撃オンライン",
+      "publishedAt": "2026-11-17T03:22:00.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "メリープ",
+        "江戸木目込人形",
+        "伝統工芸"
+      ],
+      "articles": [
+        {
+          "title": "「ポケモン」のメリープが伝統工芸の真多呂人形で立体化！「江戸木目込人形 メリープ」本日発売",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmbUNJd0RoU19abnluVW16Z0ZzSUJqZ3oxbEhqVDVEVmtnSnFDcl94SmllUmhLMzhWVUlBMDFOSS1DdHpBZ1dIcGxwcTRoWGpBWmNVSkVtQWdrTHNJZjctNHhrQnM1dnc?oc=5",
+          "source": "hobby Watch",
+          "publishedAt": "2026-11-17T02:21:26.000Z",
+          "isPR": false
+        },
+        {
+          "title": "眠るメリープが江戸木目込人形に！『ポケモン』真多呂「江戸木目込人形",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YZlp4Y0pxSnNkRWRhSkk3QUk4OWtJQTNnTHM4MWUwUG8xVEkwVDJnMmp6WVcyUzFmVWlhTWZaWDlWUmhKWVlza2tkNW11enBqaEVnT3FQRWVIcDNtMXpnSEZRcldEQmJaZGZCaDJCRGlkOFk?oc=5",
+          "source": "ニコニコニュース",
+          "publishedAt": "2026-11-17T02:06:18.000Z",
           "isPR": false
         }
       ]
@@ -586,99 +717,16 @@
       "articles": [
         {
           "title": "【きょうから】しまむら『ポケモン』新作グッズ、中身は? 御三家やラティ兄弟のデザインに「良すぎないか…?」「開店凸します!」",
-          "url": "https://www.oricon.co.jp/news/2493336/full/",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10UGdManNIOGR4NEc3QkhIckJpSGEyT3pNREFtVEJYUGQzSS1XTzRxRXBZTDJaclAwTEpzaHRzZmhYaGZSVkk4dVh5V0hDQmlPZDRoTHln?oc=5",
           "source": "オリコンニュース",
           "publishedAt": "2026-11-17T00:15:00.000Z",
           "isPR": false
         },
         {
           "title": "しまむらで『ポケモン』グッズが11月17日発売！レックウザのプルオーバー、御三家デザインの寝具類やインテリアも",
-          "url": "https://www.inside-games.jp/article/2026/11/16/191033.html",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JUDYweXBGNFk5MjAxZUpZWWRWeVJCRlo0UlRvWTlVNWp5VDlwNXFiSm1BMnF2Mm1YMEZLOEJEMGstT1B4ZVpjN3V6V2ctVFhUMy05TE5LVl81ZU1PNWlVZmE5RlJKRHJzVXc?oc=5",
           "source": "インサイド",
           "publishedAt": "2026-11-16T05:00:02.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "9d6c9bdcfaf4",
-      "title": "「ポケモン」のメリープが伝統工芸の真多呂人形で立体化！「江戸木目込人形 メリープ」本日発売",
-      "summary": "",
-      "url": "https://hobby.watch.impress.co.jp/docs/news/2156951.html",
-      "image": "https://hobby.watch.impress.co.jp/img/hbw/list/2156/951/011.jpg",
-      "leadSource": "hobby Watch",
-      "publishedAt": "2026-11-17T02:21:26.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "メリープ",
-        "江戸木目込人形",
-        "真多呂"
-      ],
-      "articles": [
-        {
-          "title": "眠るメリープが江戸木目込人形に！『ポケモン』真多呂「江戸木目込人形",
-          "url": "https://news.nicovideo.jp/watch/nw19999479?news_ref",
-          "source": "ニコニコニュース",
-          "publishedAt": "2026-11-17T02:06:18.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "e07402416916",
-      "title": "【あさってから】ミスドのポケモンコラボ、いよいよ「ヤドン ドーナツ」の予約スタート「可愛すぎる〜」「待ってました！」",
-      "summary": "",
-      "url": "https://www.lmaga.jp/news/2026/11/1120274/",
-      "image": "https://www.lmaga.jp/wp-content/uploads/2026/11/misudo_yadon_1.jpg",
-      "leadSource": "Lmaga.jp",
-      "publishedAt": "2026-11-16T10:51:15.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "keywords": [
-        "ミスド",
-        "ポケモンコラボ",
-        "ドーナツ"
-      ],
-      "articles": [
-        {
-          "title": "＜NEW＞今年もやってきた！【ミスド】ドーナツもグッズも可愛い『注目ポケモンコラボ』",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHRGaDJ6eVFKZG1kXzZWMVI1TVQ1QlpVQmhGV0RFRUJ4bnZqendCTDVVYXFPekJod2cxU05SYk41VlNwU1VXRTQ5eXVRSWVLWVdiRW9WRXAxQkZ5UHdabnY5N3BldEw4VC14bzU3RFFnLV9KUFFVWm5vR0ZOSlQtY0I1UUxUbmlrYUwtdzY2bEN2V2dZWi1BLWxKZE5keTA3eFHSAacBQVVfeXFMUHlma3drSVZXcDFxVWFmMlcyQ0JFeUpoV3BUN0VjOVFRZkx5Ykl3RnpRRnJvempaMTl6NXVqeXYzY1FfQzBtMEVFMUtNQzlxcmpkNVJvLW1ud1E1T2hCUm1BZU1pZ3N0N1pxaXVEeVlNUy1FaVhFdzF4QzZUTUhIMURyS2szbEJBTGxJYk9PR2MxTTAtMV9YUmtLMElVdjE2Mm9vNldnN3M?oc=5",
-          "source": "ｄメニューニュース",
-          "publishedAt": "2026-11-16T06:05:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "31420d1a09d4",
-      "title": "ポケモン × しまむら 11月17日より敷きパッドなどが登場!",
-      "summary": "",
-      "url": "https://collabo-cafe.com/events/collabo/pokemon-goods-shimamura-1117-2026/",
-      "image": "https://collabo-cafe.com/wp-content/uploads/pokemon-goods-shimamura-1117-2026-eyecatch.jpg",
-      "leadSource": "コラボカフェ",
-      "publishedAt": "2026-11-16T10:09:56.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "パッド"
-      ],
-      "articles": [
-        {
-          "title": "しまむらに『ポケモン』御三家の寝具・インテリアが11月17日登場！敷きパッドや枕など全3柄、レックウザ柄のメンズプルオーバーも",
-          "url": "https://nijimen.kusuguru.co.jp/topics/659032",
-          "source": "にじめん",
-          "publishedAt": "2026-11-16T05:23:00.000Z",
           "isPR": false
         }
       ]
@@ -705,7 +753,7 @@
       "articles": [
         {
           "title": "『ポケモン』の「旅するカイリュールーム」が『あわら温泉グランディア芳泉』に2室限定で登場（リアルサウンド）",
-          "url": "https://news.yahoo.co.jp/articles/640e73e6cb51cd140d800229c6cbbdab5372b79b",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUeTBiMUhkZXBqd0FOV3lmRTZaWk4yZUFicVl4SFR5Q1ZibE1KN2Y1YTFFMkRpMEdYUlUzaFMzdXkzU0xLN2w4bEhMTDZOdjlaaVpPVkt2cFZBVFNvVGNfbUVCZWhpS3hjbGxTNnM5LXZNSVU0czdSZ3dmRzA1V0k?oc=5",
           "source": "Yahoo!ニュース",
           "publishedAt": "2026-11-16T08:13:47.000Z",
           "isPR": false
@@ -713,78 +761,135 @@
       ]
     },
     {
-      "id": "6eecb59b91a2",
-      "title": "「ポケモン」30周年記念グッズ！ 『ポケカ』の「30th CELEBRATION」デザイン収納グッズがTOMで販売中",
-      "summary": "ポケモン30周年記念グッズがTokyo Otaku Modeで発売中。カードホルダー、デッキケース、デッキシールド、ロングカードボックスなど手頃価格。",
-      "url": "https://www.inside-games.jp/article/2026/11/16/191041.html",
-      "image": "https://www.inside-games.jp/imgs/rss/1803335.jpg",
-      "leadSource": "インサイド",
-      "publishedAt": "2026-11-16T07:15:02.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "tcgcat",
-        "goodscat"
-      ],
-      "keywords": [
-        "グッズ",
-        "周年記念"
-      ],
-      "articles": [
-        {
-          "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SVnFZM0EwWkJhS3lfUlZLeTg4d0UyRGdQcEJQZXlQb21MMDd2V01tajZoa2gyTk1aTjNOZ1l4S0dRRjYtb2lJS2otT1VWN1hRMGc?oc=5",
-          "source": "山陽新聞",
-          "publishedAt": "2026-11-14T08:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "a130f838d052",
-      "title": "『ポケモン』歴代「どうろ」などがグッズ化「場所選びのセンスが良すぎる」「ヤバいグッズきた」",
+      "id": "1d5fe67e59f0",
+      "title": "【最新速報】DLCと映画情報はくる…？８月８日に公式が本気で動き出す件が衝撃的だった！！！！【ポケモンSV】【アニポケ考察】【ポケットモンスタースカーレットバイオレット】【はるかっと】 Jannik Sinner (U3qoyGPBda)",
       "summary": "",
-      "url": "https://www.sanyonews.jp/article/2016812",
-      "image": "https://static.sanyonews.jp/image/article/size1/a/4/4/6/a446950b614e094fd93530fd27fd2b64_1.jpg",
-      "leadSource": "山陽新聞",
-      "publishedAt": "2026-11-15T23:37:49.000Z",
+      "url": "https://media.unisba.ac.id/62b7199c/79108b04eLbj9yxdYsY/?share",
+      "image": "https://cdn.pokemon-france.com/wp-content/uploads/2026/11/pokemon-ecarlate-violet-le-disque-indigo.jpg",
+      "leadSource": "Unisba Media",
+      "publishedAt": "2026-11-14T18:14:10.000Z",
       "sourceCount": 2,
       "articleCount": 2,
       "categories": [
-        "goodscat"
+        "media",
+        "guide"
       ],
       "keywords": [
-        "グッズ",
-        "歴代"
+        "スカーレット",
+        "バイオレット"
       ],
       "articles": [
         {
-          "title": "「魅惑的すぎる」歴代『ポケモン』30周年の“思い出グッズ”に「どう考えてもほしい」「刺さりすぎる」 (マグミクス)",
-          "url": "https://news.yahoo.co.jp/articles/46a842e5dc1b84f5e938b595eccca5bbbf5c1be5/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-15T03:22:58.000Z",
+          "title": "最強のヌメルゴン、11月13日まで｜スカーレット・バイオレット - Pokemon-France.com",
+          "url": "https://www.pokemon-france.com/ja/news/pokemon-scarlet-and-violet-last-chance-to-catch-mighty-goodra-before-13-november/",
+          "source": "Pokemon-France.com",
+          "publishedAt": "2026-11-14T11:03:39.000Z",
           "isPR": false
         }
       ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-17T02:30:16.723Z",
-    "previousCount": 142,
-    "newCount": 26
+    "previousAt": "2026-11-17T03:00:17.048Z",
+    "previousCount": 134,
+    "newCount": 36
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-17T03:30:17.048Z",
+  "nextUpdateAt": "2026-11-17T04:00:16.537Z",
   "items": [
+    {
+      "id": "2ab47e9d03b3",
+      "title": "【ポケモン】来年の干支“未”にちなんだ“江戸木目込人形 メリープ”が販売開始。すやすや眠るもこもこフォルムを伝統工芸の技で表現",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pbzM3SFMxb0lGY2F1V09EMW03QVhNSkQ2R2NsNGpGWno1M0hIQTJWVElrcFQ4M01Dd2tsNGNWTGF0bFA0Z2VDLVhSb1Q4RGZyeW1rS3ljZw?oc=5",
+      "host": "news.dengeki.com",
+      "source": "電撃オンライン",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:22:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "09e9857c9cb9",
+      "title": "「ポケモンスリープ」モンメン・エルフーン実装で活気 「これは偉い子」「厳選せねば」",
+      "url": "https://ascii.jp/elem/000/004/452/4452090/",
+      "host": "ascii.jp",
+      "source": "ASCII.jp",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:10:00.000Z",
+      "image": "https://ascii.jp/img/2026/11/17/4552908/xl/ccc8da28e5505a05.jpg?20200122",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "008fb282071f",
+      "title": "『ポケモンGO』×『Duolingo』グローバルコラボイベント開催！",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZSUNzOTRpcnE4SEsxMWZna0hDVG9HbDNTWXlTQ2liMnAxWWh4VmYyUHFkbzl2Z1UxbjQzYjhTR0xSY0xTTHJBSjQ4WTFWcDZsM1lxa3FDNzA?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:09:10.000Z",
+      "image": "",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "398e8ea6f2da",
+      "title": "ポケモンカード約2,350万円相当が強奪される、犯行時間はわずか1分",
+      "url": "https://front-row.jp/_ct/135017/",
+      "host": "front-row.jp",
+      "source": "フロントロウ",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:00:00.000Z",
+      "image": "https://front-row.jp/wp-content/uploads/2021/11/47132d893add509d0f74b82fcfcc4695e9f1018c_xlarge.jpg?type=original",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "d21d502bafd0",
       "title": "『ポケモン GO』とDuolingoがコラボ 各アプリで言語とポケモンをテーマにした期間限定イベントを開催",
-      "url": "https://realsound.jp/tech/2026/11/post-2586323.html",
-      "host": "realsound.jp",
-      "source": "リアルサウンド",
+      "url": "https://news.livedoor.com/article/detail/32836029/",
+      "host": "news.livedoor.com",
+      "source": "ライブドアニュース",
       "summary": "",
       "publishedAt": "2026-11-17T02:51:05.000Z",
-      "image": "https://realsound.jp/wp-content/uploads/2026/11/20261117-duolingo-99.jpg",
+      "image": "https://image.news.livedoor.com/newsimage/stf/2/f/2f234_1830_9205c5f7_42248bee.jpg",
       "categories": [
         "event",
         "goodscat"
@@ -796,7 +901,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2f4a97d73267",
@@ -817,7 +922,7 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "170ce977acf0",
@@ -838,17 +943,17 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e0f94d8c7aa5",
       "title": "レッスンと冒険で限定リワードを獲得！Duolingo × ポケモン“グローバルコラボレーション”",
-      "url": "https://dtimes.jp/post-1471889/",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE53TXpjQjVKb3BBNVJVOEx5bE1GR0w0NXdTa01PZDl2QU50dVRVSWRaVFRYcnZYSktlN3dTSDRaaHN2MFJCcWc?oc=5",
       "host": "dtimes.jp",
       "source": "Dtimes",
       "summary": "",
       "publishedAt": "2026-11-17T02:21:58.000Z",
-      "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-38993e2e7579ffb81b562ea558c20c53-20261117-3e979a.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -857,19 +962,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "9d6c9bdcfaf4",
       "title": "「ポケモン」のメリープが伝統工芸の真多呂人形で立体化！「江戸木目込人形 メリープ」本日発売",
-      "url": "https://hobby.watch.impress.co.jp/docs/news/2156951.html",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmbUNJd0RoU19abnluVW16Z0ZzSUJqZ3oxbEhqVDVEVmtnSnFDcl94SmllUmhLMzhWVUlBMDFOSS1DdHpBZ1dIcGxwcTRoWGpBWmNVSkVtQWdrTHNJZjctNHhrQnM1dnc?oc=5",
       "host": "hobby.watch.impress.co.jp",
       "source": "hobby Watch",
       "summary": "",
       "publishedAt": "2026-11-17T02:21:26.000Z",
-      "image": "https://hobby.watch.impress.co.jp/img/hbw/list/2156/951/011.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -878,9 +983,28 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4cfd0969ed30",
+      "title": "【ぽこあポケモン】カジッチュの生息地と得意なこと【ぽこポケ】",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBYc0xCVjRkanRvOXdNOHBvUDB3UW45cDVJeVpfWXJZWkFqX3hnMlpuNHE2MUdudlV2bnZLNllzR3JIcnVrVXRuR2pSTXEyUUJa?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-17T02:12:21.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "323c34f8a321",
@@ -907,7 +1031,7 @@
     {
       "id": "0bdebe1331ec",
       "title": "眠るメリープが江戸木目込人形に！『ポケモン』真多呂「江戸木目込人形",
-      "url": "https://news.nicovideo.jp/watch/nw19999479?news_ref",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YZlp4Y0pxSnNkRWRhSkk3QUk4OWtJQTNnTHM4MWUwUG8xVEkwVDJnMmp6WVcyUzFmVWlhTWZaWDlWUmhKWVlza2tkNW11enBqaEVnT3FQRWVIcDNtMXpnSEZRcldEQmJaZGZCaDJCRGlkOFk?oc=5",
       "host": "news.nicovideo.jp",
       "source": "ニコニコニュース",
       "summary": "",
@@ -919,40 +1043,19 @@
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
-      "id": "63601606e26b",
-      "title": "眠るメリープが江戸木目込人形に！『ポケモン』真多呂「江戸木目込人形 メリープ」が11月17日発売 屏風・台付きでお正月飾りにも",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1RLXQ2Sy1pcmpta21PN0Nhb3JqV1NIYVllUVlmTHRKemp1OWJDOXNtWnUyVTRDSUZEaHFvZDFXb3VxM21hQWtveThZUVUyMzRXcTYxX0x2QQ?oc=5",
-      "host": "nijimen.kusuguru.co.jp",
-      "source": "にじめん",
-      "summary": "",
-      "publishedAt": "2026-11-17T02:06:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "14e6e01d33e5",
       "title": "「Duolingo」、ポケモンとコラボ 『ポケモン GO』で“言語”楽しむ「タイムチャレンジ」ほか",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0wQWVfMUdBeUlhX2xGLW5TQ0VQVVl0U01lWGJjdTE1cEtOZjlubW1VWlVNY0FXU3EwaWRWdFFpTV9WR2FtYWg5S1dHWEhwUDg?oc=5",
+      "url": "https://www.oricon.co.jp/news/2493350/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-17T01:45:00.000Z",
-      "image": "",
+      "image": "https://contents.oricon.co.jp/upimg/news/2494000/2493350/20261117_103525_p_o_93588146.jpg",
       "categories": [
         "goodscat"
       ],
@@ -961,19 +1064,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "64962c3fe1e2",
       "title": "ピカチュウ、ゲンガー、プリンが足元に！ 「クロックス」×「ポケモン」の新作クロッグが登場",
-      "url": "https://www.wwdjapan.com/articles/2552973",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQVHdyWmVaa2FGVENSUm9JNy1tQjRtaUlqdi10MEJrak9SY2JoLTdYNU1CaEt6NllrSURhLXU0VHdmM2VmNzdTcVhfMExGNUJ4Y1hF?oc=5",
       "host": "wwdjapan.com",
       "source": "WWDJAPAN",
       "summary": "",
       "publishedAt": "2026-11-17T01:44:16.000Z",
-      "image": "https://media.wwdjapan.com/wp-content/uploads/2026/11/14020843/OG%E4%BD%9C%E6%88%90-3.png",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -982,19 +1085,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "b713ff06df21",
       "title": "Duolingo × ポケモン、グローバルコラボを開始…Duolingoと『ポケモン GO』でそれぞれリワードがもらえる期間限定イベント",
-      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE42cGZseHltX0ppdDMyUEo5MVVGeDVaN0U0NVZESXVQWWZwVUdMX3FOaGlBWngwQ1VWdHBzZWNlSmc2Q3Fm?oc=5",
+      "url": "https://gamebiz.jp/news/435606",
       "host": "gamebiz.jp",
       "source": "gamebiz【ゲームビズ】",
       "summary": "",
       "publishedAt": "2026-11-17T01:30:00.000Z",
-      "image": "",
+      "image": "https://i3.gamebiz.jp/media/ce8df020-aabf-40d5-80e6-842e8eff865c.png",
       "categories": [
         "event",
         "goodscat"
@@ -1004,7 +1107,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1128,6 +1231,28 @@
       "isPR": true,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "252893da91f7",
+      "title": "Duolingo × ポケモン、グローバルコラボレーションを開始！Duolingoと『ポケモン GO』でそれぞれリワードがもらえる期間限定イベントを開催 | Duolingo, Inc.のプレスリリース",
+      "url": "https://prtimes.jp/main/html/rd/p/000000100.000069537.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-17T01:00:02.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/69537/100/69537-100-3d0a39f6898d1e93ba8bb5a690d6d419-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -1138,7 +1263,7 @@
       "source": "GAME Watch",
       "summary": "Duolingoは、ポケモン、Scopely Exploreとのグローバルコラボレーションを11月17日より開始する。",
       "publishedAt": "2026-11-17T01:00:00.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2156/544/004.jpg",
       "categories": [
         "event",
         "goodscat"
@@ -1174,14 +1299,52 @@
       "isNew": false
     },
     {
+      "id": "727738bfd7fa",
+      "title": "ポケモンの木目込人形「メリープ」新登場",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1PaVBOanN1Z0dWYTg4QV9DZXBiQUNRZlBRQXVMSlZPUE1xbjA2bUxXMGdmS0MwVVBkTDJ1NjExQWpwR2RHRVB4MkhvUVV1cjhScV81Y2NLTUItQUpkNVBKLVdiRTF2Z1pZRWc?oc=5",
+      "host": "animeanime.jp",
+      "source": "アニメ！アニメ！",
+      "summary": "",
+      "publishedAt": "2026-11-17T01:00:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "9b601311a6d8",
+      "title": "ポケモン30周年、Apple限定ギフトカードを買ってきた。記念壁紙もかわいい",
+      "url": "https://mobilelaby.com/blog-entry-apple-gift-card-special-edition.html",
+      "host": "mobilelaby.com",
+      "source": "携帯総合研究所",
+      "summary": "",
+      "publishedAt": "2026-11-17T00:17:41.000Z",
+      "image": "https://i0.wp.com/mobilelaby.com/wp/wp-content/uploads/agc-3.webp?fit=1280%2C960&ssl=1",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "4ea701f3e265",
       "title": "【きょうから】しまむら『ポケモン』新作グッズ、中身は? 御三家やラティ兄弟のデザインに「良すぎないか…?」「開店凸します!」",
-      "url": "https://www.oricon.co.jp/news/2493336/full/",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10UGdManNIOGR4NEc3QkhIckJpSGEyT3pNREFtVEJYUGQzSS1XTzRxRXBZTDJaclAwTEpzaHRzZmhYaGZSVkk4dVh5V0hDQmlPZDRoTHln?oc=5",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-17T00:15:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2494000/2493336/20251227_123146_p_o_82779454.jpg",
+      "image": "",
       "categories": [
         "new",
         "goodscat"
@@ -1192,38 +1355,80 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
+      "id": "22b43ce75a03",
+      "title": "レイドバトルにレベル1のトレーナーが大量発生 / 人数が揃っても勝てない“bot軍団”に界隈が混乱【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3755605",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-17T00:00:25.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1116_pokemon1-1-1.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "fb73b157c1ac",
       "title": "小1息子「ポケモン！」と遠足弁当リクエスト→ママが作ったお弁当に「めちゃくちゃすごい！」「きっと喜びますね」（ねとらぼ）",
-      "url": "https://news.yahoo.co.jp/articles/2b48cfe124417af1438538ed686da54221367124",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhU19zWHpCM3RWUVJHYmFscEZrZ2hhVHVaZ01nZklGWVlQSG9oZVhRVGh2ZVBPTlhNSUNpN3l1Vmd2TjM1NHdhRVA2RUZYMVRoWEp0QzY3ampxeW82TEd3V0xYY01TU08yUDlHVDR0dVlOT1hNbEM3YktqTkprODg?oc=5",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-16T23:49:53.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261117-10176760-it_nlab-000-1-view.jpg?exp=10800",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
+      "id": "fa86f9e67c70",
+      "title": "【約4年ぶり復活】チャージスポットで全国のポケストップが最大2万箇所爆増 / 駅や商業施設に新たな“聖地”が誕生しそう【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3755603",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-16T23:30:47.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1116_pokemon-10.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "fac512499116",
       "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【11/16更新】",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1SWnFNcTVjUjg5WmlqZ29zcTVDZWNVa2dRTzZJRlh0NFFjN0U2RWFkVi1WV2pGSFIwV2ZqUkFzUE95Y19udnViaW1kNV8?oc=5",
+      "url": "https://snkrdunk.com/articles/33304/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-11-16T23:17:04.000Z",
-      "image": "",
+      "image": "https://cdn.snkrdunk.com/uploads/media/9e96f1c2-b6a6-4392-882d-c6596faff947.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -1232,9 +1437,30 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b226e42cb3c5",
+      "title": "「大きな足跡」の背景集めが地獄すぎる / 狂気の130種類同時追加にコンプ勢が阿鼻叫喚【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3755601",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-16T23:00:10.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1116_pokemon-6.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "58e7cdaad2d3",
@@ -1258,7 +1484,7 @@
     {
       "id": "c60f57cac6f5",
       "title": "クロックス×ポケモンのスペシャルコラボ！ ピカチュウなどのかわいいフットウェアが11/17発売",
-      "url": "https://www.asahi.com/and/w/article/17054075",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LQW1wRjhsdUwydnRWYUpEZzNmRkpQQ3lXVmhwdGEyLTFwYnhGTzY0ZHdfWG40WVBCaEliWld5cG91ZXdRdVBqa1Z4OWl2dEI3SGFFQ3oyaw?oc=5",
       "host": "asahi.com",
       "source": "朝日新聞",
       "summary": "",
@@ -1272,7 +1498,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1314,17 +1540,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1e13af1e7e98",
       "title": "“1児の母”松村沙友理、愛娘の夜泣き対応「大変だった」 『ポケモンスリープ』で“幸せな時間”に",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54TXZEWGxZS3ROMW5TY1ctaWFva2ZTYUdhYmEtdWZCalZNRTYydHJqajJMYjB6MXEzcEtQVmZjWFZUNkU4MlZzbXAyUmZiNEhBNjdMWC1QYU96VFBYNHc?oc=5",
+      "url": "https://www.sanyonews.jp/article/1981674?kw",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-16T20:56:36.000Z",
-      "image": "",
+      "image": "https://static.sanyonews.jp/image/article/size1/0/5/6/9/05699e305eb382a4f94ab133a55f7240_1.jpg",
       "categories": [
         "other"
       ],
@@ -1333,19 +1559,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7d48497941f1",
       "title": "『ポケモン』新作映画も主人公交代！サトシ出ずファン嘆き ポケカ題材の作品で2027年公開",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYjRRVlhCMjBLMVprcE55ZkZYTUo1Y3ZxSnRsQXVzSTdvd1BXTnBQaVBKWWpiaXI3Q1ZhVHV2OHFUOHhId1hENVEzOXlMZnFLMXZSSVZZT19vVnVhTGRkbkxYeXJUZ2E5aDNjWlJoVmtLb2Q3S2lGRHhMQ1hNU2UzWEY5OTE?oc=5",
+      "url": "https://www.sanyonews.jp/article/1981106?kw",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-16T20:45:03.000Z",
-      "image": "",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/a/9/d/ca9d61bb8616f2e0f17c26dc7e60723c_1.jpg",
       "categories": [
         "new",
         "tcgcat"
@@ -1357,9 +1583,9 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "787d4ff0cf1f",
@@ -1404,39 +1630,21 @@
       "isNew": false
     },
     {
-      "id": "ce54ab3dcd6f",
-      "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
-      "url": "https://snkrdunk.com/articles/32582/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "ecf790d27bf1",
+      "title": "Duolingoのフクロウ、Duoが新たなコラボでPokémon GOに登場",
+      "url": "https://mezha.net/jp/news/mezha-e52f1dad4d828217d7fc8500_duolingo-s-duo-owl-is-heading/",
+      "host": "mezha.net",
+      "source": "Mezha.net",
       "summary": "",
-      "publishedAt": "2026-11-16T17:35:56.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/149c15fe-2b5d-43fd-bff1-8e608ddb6f53.jpeg",
+      "publishedAt": "2026-11-16T19:02:00.000Z",
+      "image": "",
       "categories": [
-        "tcgcat"
+        "goodscat"
       ],
       "series": [
-        "tcg"
+        "go",
+        "goods"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2469f86be70a",
-      "title": "『ポケモン』ドンメルたちを救え！ 第158話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/2020710?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-16T17:22:10.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/0/f/a/8/0fa80b931a2f64b6059bd3b4fe7be16b_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1444,14 +1652,14 @@
       "isNew": true
     },
     {
-      "id": "13d897ffaed4",
-      "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
-      "host": "gamewith.jp",
-      "source": "GameWith",
+      "id": "ce54ab3dcd6f",
+      "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE02ZjcyVHdWeHdPWElUaFl5S1BvQWlHS2lRQXNtejRTbGFteG5WR2JzcVA0WF91SzRsWVhLYmdWUGdwREpEbFNWVTJZUmM?oc=5",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
       "summary": "",
-      "publishedAt": "2026-11-16T17:12:09.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583349.png?date=1792503111",
+      "publishedAt": "2026-11-16T17:35:56.000Z",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -1460,7 +1668,28 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "13d897ffaed4",
+      "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fMzhvSWZpZHlYYlFvTnMwT0NDS2V1ckVEN2pRQ2laVVZrWUNDYVlHMk5LS19nX1B1azlmVlN2TEc0ZVR1Q1Njalp3cHI5Q2s5ZEpfanlWRV8?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T17:12:09.000Z",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1509,12 +1738,33 @@
     {
       "id": "b4ef8283f835",
       "title": "Crocsによる新しいポケモンコレクションから、着せ替えアイテムが『Pokémon GO』に登場！",
-      "url": "https://pokemongo.com/ja/news/pokemon-crocs-2026",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uUUhJNkJKdnh2QXVtaUtwWFluWlMtOWNFTDBjRzhhUEN0MU1VRVpKUkI1akFLMVltbVRUVnM4N2ZsMWR6M054VmlrYngwRmFjWkZBM2xrN3Z1Nl93?oc=5",
       "host": "pokemongo.com",
       "source": "Pokémon GO",
       "summary": "",
       "publishedAt": "2026-11-16T16:02:08.000Z",
-      "image": "https://lh3.googleusercontent.com/cdL5HXqViMGyaNj155vak3FYc0ZTJbOcMz7UFY4sqBbJ26g1PUpP1eKVoAhR3D6gazZTgBj05lVgXLiAKs1RSixLUiDeE1tgnlMnzh8Yl7k",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "38739a09c501",
+      "title": "【ポケモンGO】GOパス大きな足跡のリワード内容と挑戦期間",
+      "url": "https://pokemongo.gamewith.jp/article/show/585785",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T15:46:18.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585785.png?date=1793238889",
       "categories": [
         "other"
       ],
@@ -1525,17 +1775,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "9dce866417ef",
       "title": "【ポケポケ】復刻プロモゲットチャレンジイベント2026の攻略【ポケモンカードアプリ】",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3bDdIV2l6SmhKaE0wU25hUmJVVE9xenpwbkRfSV9KQUJnVDRScXprZV9IcHV1NVVXWU5MYnczbDhtYk1fU1N4VFpqRWdVWGVvYkJZN1J3OVQ?oc=5",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586189",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T15:29:25.000Z",
-      "image": "",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586189.jpg?date=1793350698",
       "categories": [
         "event",
         "tcgcat"
@@ -1545,7 +1795,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1596,12 +1846,12 @@
     {
       "id": "f816c4e5040a",
       "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TMlp3bURLTXJiZ0dDYUhJeHJKQXpWbFlCc0RVZ2lHeFV0QlI5MUctNmtmSW5zeDJBOVZzT09ydzNCeFlnTVdId01hWHY?oc=5",
+      "url": "https://snkrdunk.com/articles/15950/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-11-16T15:03:53.000Z",
-      "image": "",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -1611,30 +1861,30 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
     {
-      "id": "01eef2d84448",
-      "title": "【ポケカ】30th CELEBRATION プレミアムデッキセット エーフィ・ブラッキーの収録カード・再販抽選情報まとめ",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5hMW53cGE2X2J5UDNaLWRXTkIwaGV0UzZNaC1wYUVSZVNtTWZqenpFMWUyYUpuZDZsZFlkXzFNOXpnMnd3VXB2RElJQU0?oc=5",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "dd8b9ca10ee1",
+      "title": "ダイキノコx10が異例の無料配布 / ムゲンダイナ戦に備えて必ず回収すべし【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3755599",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
       "summary": "",
-      "publishedAt": "2026-11-16T14:56:25.000Z",
-      "image": "",
+      "publishedAt": "2026-11-16T15:00:38.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1116_pokemon1-2.png",
       "categories": [
-        "tcgcat"
+        "event"
       ],
       "series": [
-        "tcg"
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "44f4f43622f8",
@@ -1717,23 +1967,47 @@
       "isNew": false
     },
     {
-      "id": "fe0be00762f4",
-      "title": "ポケモンが宇宙人ジョーンズの調査対象に。「BOSS」と「ポケモン30周年」のタイアップ第3弾として広告を掲出",
-      "url": "https://www.4gamer.net/games/991/G999105/20261116027/",
-      "host": "4gamer.net",
-      "source": "4Gamer",
-      "summary": "サントリービバレッジ＆フードは，同社の飲料ブランド「BOSS」と「ポケモン30周年」とのタイアップ第3弾として，「BOSS」のCMキャラクターである宇宙人ジョーンズと「ポケモン」の広告を展開すると発表した。",
-      "publishedAt": "2026-11-16T10:53:13.000Z",
-      "image": "https://www.4gamer.net/games/991/G999105/20261116027/SS/001.jpg",
+      "id": "a5eeff4f10cb",
+      "title": "CHARGESPOT、MBO後の「第二創業期」へ。PC充電やポケモンGO連携、店舗化構想を発表",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NbVFmVjhVN0hGY2c4VFNrWl9NWXNMZ1lJSWlCN09xbjdoQnZKbHNqTUFGMFZuZHRPQzJsNTBWVDVHMmNZbW1aOXZ4TQ?oc=5",
+      "host": "dreamseed.blog",
+      "source": "https://dreamseed.blog/",
+      "summary": "",
+      "publishedAt": "2026-11-16T11:36:31.000Z",
+      "image": "",
       "categories": [
         "new"
       ],
-      "series": [],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "1ada4c250331",
+      "title": "【Appleコラボ】今ポケモンとアップルのコラボがヤバい！AppleStoreがまさかのポケストップに！？限定ギフトカードは数量限定！？【ポケモンGO】",
+      "url": "https://t.co/t40TntVAFU",
+      "host": "t.co",
+      "source": "Howl.Link",
+      "summary": "",
+      "publishedAt": "2026-11-16T11:09:56.000Z",
+      "image": "",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "e07402416916",
@@ -1742,7 +2016,7 @@
       "host": "lmaga.jp",
       "source": "Lmaga.jp",
       "summary": "",
-      "publishedAt": "2026-11-16T10:51:15.000Z",
+      "publishedAt": "2026-11-16T11:09:42.000Z",
       "image": "https://www.lmaga.jp/wp-content/uploads/2026/11/misudo_yadon_1.jpg",
       "categories": [
         "new",
@@ -1758,22 +2032,18 @@
       "isNew": false
     },
     {
-      "id": "d91cf4a8cdbe",
-      "title": "Duolingo×『ポケットモンスター』の謎予告がついに判明！ ピカチュウのしっぽがヒント、渋谷の巨大広告でコラボ先行公開",
-      "url": "https://www.toy-people.com/jp/?p",
-      "host": "toy-people.com",
-      "source": "玩具人 TOY PEOPLE",
-      "summary": "",
-      "publishedAt": "2026-11-16T10:37:04.000Z",
-      "image": "",
+      "id": "fe0be00762f4",
+      "title": "ポケモンが宇宙人ジョーンズの調査対象に。「BOSS」と「ポケモン30周年」のタイアップ第3弾として広告を掲出",
+      "url": "https://www.4gamer.net/games/991/G999105/20261116027/",
+      "host": "4gamer.net",
+      "source": "4Gamer",
+      "summary": "サントリービバレッジ＆フードは，同社の飲料ブランド「BOSS」と「ポケモン30周年」とのタイアップ第3弾として，「BOSS」のCMキャラクターである宇宙人ジョーンズと「ポケモン」の広告を展開すると発表した。",
+      "publishedAt": "2026-11-16T10:53:13.000Z",
+      "image": "https://www.4gamer.net/games/991/G999105/20261116027/SS/001.jpg",
       "categories": [
-        "new",
-        "goodscat"
+        "new"
       ],
-      "series": [
-        "main",
-        "goods"
-      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1803,98 +2073,18 @@
       "isNew": false
     },
     {
-      "id": "0868ae371bdf",
-      "title": "ピカチュウ姿の宇宙人ジョーンズが上野駅・バス停に登場！「BOSS×ポケモン30周年」第3弾でポケモン調査動画4本公開、選べるボスジャン応募も受付中",
-      "url": "https://nijimen.kusuguru.co.jp/topics/659234",
-      "host": "nijimen.kusuguru.co.jp",
-      "source": "にじめん",
-      "summary": "",
-      "publishedAt": "2026-11-16T10:19:00.000Z",
-      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/3ed2dd8437774f08a75a42b146e5a6b0.png",
-      "categories": [
-        "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "558b9c279e94",
       "title": "AIのかしこさとは。『ポケモン』で同じ崖から3回落ちる→メモを整理してミスに気づく",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZR3FJN0s5ZGhUcWw1NVg2ajEzVEoxUFFIc1NfZERzWE5SelZ6MVBxMjNnT0VhRmF2RTlCM0ZVQzgyUzAxT1VYdXlzdGVncG1oY3BtZkh0YzhEa0xLS3laN3dRT2o3ZFV4RjRQUVVWbmtTSmZDM21LRFpn?oc=5",
+      "url": "https://www.gizmodo.jp/article/2611-claude-pokemon-gameplay-ai-memory/",
       "host": "gizmodo.jp",
       "source": "Gizmodo",
       "summary": "",
       "publishedAt": "2026-11-16T10:15:00.000Z",
-      "image": "",
+      "image": "https://media.loom-app.com/loom/2026/11/10/ccbacf65-35f4-47bf-b7c2-9175dfdbf59a/original.png?w=1200&h=630",
       "categories": [
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "31420d1a09d4",
-      "title": "ポケモン × しまむら 11月17日より敷きパッドなどが登場!",
-      "url": "https://collabo-cafe.com/events/collabo/pokemon-goods-shimamura-1117-2026/",
-      "host": "collabo-cafe.com",
-      "source": "コラボカフェ",
-      "summary": "",
-      "publishedAt": "2026-11-16T10:09:56.000Z",
-      "image": "https://collabo-cafe.com/wp-content/uploads/pokemon-goods-shimamura-1117-2026-eyecatch.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1537f91df416",
-      "title": "Appleだけにカジッチュ。ポケモンとコラボしたギフトカードが生まれました（ギズモード・ジャパン）",
-      "url": "https://news.yahoo.co.jp/articles/45ae30075b436d0202dd8e3f4ddd5bf59093dac4",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-16T10:00:01.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00000012-giz-000-1-view.jpg?exp=10800",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c1fe0a2f9496",
-      "title": "【ポケポケ】ダークライデッキ(Sメガ)のレシピと評価・対策【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/551442",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-16T09:55:22.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551442.png?date=1774526836",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1946,12 +2136,12 @@
     {
       "id": "01e6f654bf7f",
       "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4LXNuSFktQkdfTXZXTFdkTFRvVjFiY0haR1U4Ujg2d0s5U1lBcm9vd3JEcXhxZFpsWEFYMlJHZGRscGl3SERIZ29JZklQbWNFd180SHNpRm4?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T09:55:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -1960,7 +2150,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -1983,17 +2173,38 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "64209e90cd0b",
       "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNbzhhVkJDb0RpaUZpUUhSVlFlYUZqbkxDd3NFeC1XSUxWRnMxWlJJMzMwcVd6NnVhcnNMS0FDTGF5Mll5MzQtODlvM2pILVd1elpRTjFYenM?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T09:55:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
+      "image": "",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "4592f13ac082",
+      "title": "【ポケポケ】ヒスイヌメルゴンデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/566739",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T09:55:06.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566739.png?date=1783054233",
       "categories": [
         "tcgcat"
       ],
@@ -2004,17 +2215,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "0e8dbe8f536d",
       "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA1Q2tPWXlFQ3hQSlcySFY2WUJ4b0w2ejdfcm9YVTM3Q21YTFR5RGRfa0Jzakd3elQ3RmlaMnF5ZUlMWEgwcjJDX09DaHR1OW1QRk9LQnRiNGE?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T09:55:06.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2023,19 +2234,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "833ac77d5fe0",
       "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VZndkZ091YXlEdExxNTJ5aV9RbTY1dlptVXhBR3kxM3lzR3Bjc08zOUVzbXcxWFViZHBZUU5yakR0eE9TaF91NnduaHlENzB6dF9RUC0zR2I?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T09:55:05.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2044,7 +2255,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2072,12 +2283,12 @@
     {
       "id": "f0f41f4a19db",
       "title": "【ポケポケ】ルガルガンexデッキ(デュアルフュージョン)のレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/586074",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE85N2IwbjFDdWljZ0ZzOFEtQmd6dHNKa0lVNV9tWTlJSDdXVzNCRGtGN2JCdUN1V2NwSlhycmJGZ0Uxc25lZ1BWSjFLYm9Gc0Z3a1hmbzQwVUk?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T09:54:51.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586074.png?date=1793283652",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2086,7 +2297,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2114,12 +2325,12 @@
     {
       "id": "0051ca37f286",
       "title": "【ポケポケ】メガカイリューexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/586071",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MbzhfbkhIYmVPMVFHSG44YnhrQ2lFZ1RkY3VWaW8tTXQ0R1NBS1hKTjBEZ2pENUlWZlRiSzd3N0JNQnR6Xy1xbGUydEloRXQ1TkUycjIxbE0?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T09:54:50.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586071.png?date=1793283564",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2128,7 +2339,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2215,6 +2426,27 @@
       "isNew": false
     },
     {
+      "id": "1537f91df416",
+      "title": "Appleだけにカジッチュ。ポケモンとコラボしたギフトカードが生まれました",
+      "url": "https://www.gizmodo.jp/article/2611-apple-pokemon-applestore-giftcard-kajicchu/",
+      "host": "gizmodo.jp",
+      "source": "Gizmodo",
+      "summary": "",
+      "publishedAt": "2026-11-16T09:15:00.000Z",
+      "image": "https://media.loom-app.com/loom/2026/11/16/1bc066f7-8ae1-456b-af53-491d9b49fa8b/original.png?w=1200&h=630",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "ba219716d639",
       "title": "【ポケモン】福井、グランディア芳泉に「カイリュールーム」が11月29日より登場カイリューのデザインを随所に取り入れた特別部屋。福井の大地を空から眺める景色も",
       "url": "https://game.watch.impress.co.jp/docs/news/2156826.html",
@@ -2236,21 +2468,63 @@
       "isNew": false
     },
     {
+      "id": "68934eaa40bc",
+      "title": "【ポケモンGO】キョダイマックスジュラルドン対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/585630",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T08:33:11.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585630.png?date=1793923374",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "61a12fc1b078",
+      "title": "【ポケモンGO】ダイマックスディアルガ対策おすすめポケモン",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0VUJCaHlQTzNRLWFybUgzd0JaLUNsN005QTdnOEZWSXFUX0hzREJVLWdNUTZGcTRYV2ZLbDhjXzZLU1NEWWoyazdMNy1aQXUtQXNnd0hCbWdra2cyVWc?oc=5",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T08:31:35.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "8845adf0c85c",
       "title": "『ポケモン』の「旅するカイリュールーム」が『あわら温泉グランディア芳泉』に2室限定で登場（リアルサウンド）",
-      "url": "https://news.yahoo.co.jp/articles/640e73e6cb51cd140d800229c6cbbdab5372b79b",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUeTBiMUhkZXBqd0FOV3lmRTZaWk4yZUFicVl4SFR5Q1ZibE1KN2Y1YTFFMkRpMEdYUlUzaFMzdXkzU0xLN2w4bEhMTDZOdjlaaVpPVkt2cFZBVFNvVGNfbUVCZWhpS3hjbGxTNnM5LXZNSVU0czdSZ3dmRzA1V0k?oc=5",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-16T08:13:47.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261116-00010027-realsound-000-1-view.jpg?exp=10800",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2276,12 +2550,12 @@
     {
       "id": "0c4dccec4ff2",
       "title": "【ポケモン】ミニフィギュア『テラリウムコレクション10 ポケモン30周年記念ver.』が50％オフのセール中！",
-      "url": "https://dengekionline.com/article/202611/94158",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fQ3NrWjVUQm9JOWdXUklWUzlvYVdBN19NQ09CUm1xc3FvU0VQcTlyanBRbmlSQWpsM2VBQ0RMQjQ1bTJ2Vm16Q2FsdGxCTldxcjhkUHBLcHA3Zw?oc=5",
       "host": "dengekionline.com",
       "source": "電撃オンライン",
       "summary": "",
       "publishedAt": "2026-11-16T07:41:00.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/94158/ogp_cWSW.jpg?x=1280",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -2290,7 +2564,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2339,27 +2613,6 @@
       "isNew": false
     },
     {
-      "id": "06355a68a19a",
-      "title": "＜NEW＞今年もやってきた！【ミスド】ドーナツもグッズも可愛い『注目ポケモンコラボ』",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHRGaDJ6eVFKZG1kXzZWMVI1TVQ1QlpVQmhGV0RFRUJ4bnZqendCTDVVYXFPekJod2cxU05SYk41VlNwU1VXRTQ5eXVRSWVLWVdiRW9WRXAxQkZ5UHdabnY5N3BldEw4VC14bzU3RFFnLV9KUFFVWm5vR0ZOSlQtY0I1UUxUbmlrYUwtdzY2bEN2V2dZWi1BLWxKZE5keTA3eFHSAacBQVVfeXFMUHlma3drSVZXcDFxVWFmMlcyQ0JFeUpoV3BUN0VjOVFRZkx5Ykl3RnpRRnJvempaMTl6NXVqeXYzY1FfQzBtMEVFMUtNQzlxcmpkNVJvLW1ud1E1T2hCUm1BZU1pZ3N0N1pxaXVEeVlNUy1FaVhFdzF4QzZUTUhIMURyS2szbEJBTGxJYk9PR2MxTTAtMV9YUmtLMElVdjE2Mm9vNldnN3M?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
-      "summary": "",
-      "publishedAt": "2026-11-16T06:05:00.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "f3dd2763a966",
       "title": "ルミネ各館で「ぽこ あ ポケモン」クリスマス企画開催 スタンプラリー、特別なピカチュウとの撮影チャンスも",
       "url": "https://mdpr.jp/travel/4873556",
@@ -2379,33 +2632,140 @@
       "isNew": false
     },
     {
-      "id": "a4b1b33df00f",
-      "title": "しまむらに『ポケモン』御三家の寝具・インテリアが11月17日登場！敷きパッドや枕など全3柄、レックウザ柄のメンズプルオーバーも",
-      "url": "https://nijimen.kusuguru.co.jp/topics/659032",
-      "host": "nijimen.kusuguru.co.jp",
-      "source": "にじめん",
+      "id": "5b69d3551803",
+      "title": "【ポケモンGO】ポケモンナイトアウトの開催期間と内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/583322",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-16T05:23:00.000Z",
-      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/7ec5869ee2554e2cb5485db0b904f575.png",
+      "publishedAt": "2026-11-16T05:06:24.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583322.png?date=1794805585",
       "categories": [
         "other"
       ],
-      "series": [],
+      "series": [
+        "go"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "686aca23866e",
       "title": "しまむらで『ポケモン』グッズが11月17日発売！レックウザのプルオーバー、御三家デザインの寝具類やインテリアも",
-      "url": "https://www.inside-games.jp/article/2026/11/16/191033.html",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JUDYweXBGNFk5MjAxZUpZWWRWeVJCRlo0UlRvWTlVNWp5VDlwNXFiSm1BMnF2Mm1YMEZLOEJEMGstT1B4ZVpjN3V6V2ctVFhUMy05TE5LVl81ZU1PNWlVZmE5RlJKRHJzVXc?oc=5",
       "host": "inside-games.jp",
       "source": "インサイド",
       "summary": "",
       "publishedAt": "2026-11-16T05:00:02.000Z",
-      "image": "https://www.inside-games.jp/imgs/ogp_f/1808029.jpg",
+      "image": "",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "c6e74c0748d1",
+      "title": "これがポケモンGOの環境トップの実力だ！【スーパーリーグ】 Jenn Fessler (jNOl3qVNpS)",
+      "url": "https://media.unisba.ac.id/34095947/5bbd1e2ae8mz4xjIffY//?share",
+      "host": "media.unisba.ac.id",
+      "source": "Unisba Media",
+      "summary": "",
+      "publishedAt": "2026-11-16T04:51:31.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5acc20ff60d1",
+      "title": "【ポケモンGO】ダイマックスレジドラゴ対策おすすめポケモン",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1QZENZU0NxZHR4RmloT2FJUC1EVHUzUlJodlozeU5uWV9mQ3E3cnh3eXRzdExrb09KYVJTMk5xb2JCd0Y3UkgzcWEySzFJcmZlVmc4c0Jscll0NjFzUUE?oc=5",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T04:29:17.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fbadd01ecf11",
+      "title": "【ポケモンGO】ダイマックスレジスチル対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/560203",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T04:28:00.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/560203.png?date=1779063180",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "92447634ac1f",
+      "title": "【ポケモンGO】2026年11月のイベントスケジュールまとめ",
+      "url": "https://pokemongo.gamewith.jp/article/show/583244",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-16T04:06:02.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583244.png?date=1792461275",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6e332d0ef720",
+      "title": "ポケモン版Apple Gift Card発売。店内はコラボ装飾、ピカチュウも登場",
+      "url": "https://gori.me/apple/apple-news/172577",
+      "host": "gori.me",
+      "source": "ゴリミー",
+      "summary": "",
+      "publishedAt": "2026-11-16T03:48:50.000Z",
+      "image": "https://gori.me/uploads/2026/11/1794799359001-Apple-Gift-Card-Pokemon-Special-Edition-with-Pikachu-at-Ginza-Store-34.jpg",
       "categories": [
         "goodscat"
       ],
@@ -2416,26 +2776,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "6a87c313cc3b",
-      "title": "すやすやなモクロー、ミミッキュが可愛い！『ポケモン』お月さまライトマスコット第3弾に癒される",
-      "url": "https://www.inside-games.jp/article/2026/11/16/191031.html",
-      "host": "inside-games.jp",
-      "source": "インサイド",
-      "summary": "",
-      "publishedAt": "2026-11-16T04:30:03.000Z",
-      "image": "https://www.inside-games.jp/imgs/ogp_f/1802167.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "95ac8230a335",
@@ -2474,6 +2815,27 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "50e2936c95b5",
+      "title": "『ポケモン GO』11月コミュニティ・デイ シールプレゼントキャンペーンを開催！",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1JVmxXWlctQUh1ZmpwaDlYcWlDdW1QWGxHdTV6Mnl2VEZrZi14R0RkT29ZTlMwZXRrZ3RWNUhSb0NsVEYxOXdQcDAwNlpqVE1fa2FOQWd4M3l0aEpZWFZNcGlkMUwtMjB2ZWNYNzNyVGpNOUU0RXc?oc=5",
+      "host": "shop.pokemon.co.jp",
+      "source": "ポケットモンスターオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-11-16T03:00:00.000Z",
+      "image": "",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": true
     },
@@ -2521,19 +2883,20 @@
       "isNew": false
     },
     {
-      "id": "1909f74d0bb3",
-      "title": "【ポケポケ】ガチグマデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/566880",
-      "host": "gamewith.jp",
-      "source": "GameWith",
+      "id": "a1e8ee3cb765",
+      "title": "【App Store(11/16)】首位は『ポケモンGO』 「無職転生」との初コラボで『モンスト』がトップ3入り",
+      "url": "https://gamebiz.jp/news/435547",
+      "host": "gamebiz.jp",
+      "source": "gamebiz【ゲームビズ】",
       "summary": "",
-      "publishedAt": "2026-11-16T01:10:47.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/566880.png?date=1783137421",
+      "publishedAt": "2026-11-16T00:12:00.000Z",
+      "image": "https://i3.gamebiz.jp/media/33ecae56-453f-4823-8b40-1924aca379c9.png",
       "categories": [
-        "tcgcat"
+        "goodscat"
       ],
       "series": [
-        "tcg"
+        "go",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2544,7 +2907,7 @@
     {
       "id": "359967b9126b",
       "title": "宇宙人ジョーンズがポケモンを調査？",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBHMGpicV9FS016eU84REszVWltMC1WSzg1ZG9XUnhXQ3NBUFp5ZThVMTNsOEZIeU9odGNwc3J1S1d3U1VlYlFFZWVsZWVrTTlGbWhoa3NIcXJleTI2aGdEamQtWVVHTUV0?oc=5",
+      "url": "https://mobile.suntory.co.jp/cpn/softdrink/boss/20261116/",
       "host": "mobile.suntory.co.jp",
       "source": "サントリーホールディングス",
       "summary": "",
@@ -2556,7 +2919,7 @@
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2580,35 +2943,35 @@
       "isNew": false
     },
     {
-      "id": "a130f838d052",
-      "title": "『ポケモン』歴代「どうろ」などがグッズ化「場所選びのセンスが良すぎる」「ヤバいグッズきた」",
-      "url": "https://www.sanyonews.jp/article/2016812",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
+      "id": "1e01888ab1c5",
+      "title": "【ポケモンGO】ワイルドエリア2026グローバルスペシャルリサーチの内容と報酬",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE40akppV01LRm5heWsyZ1JqQnhCNlZYMHlkT2J3Wmg4Zk1lX3pRZmd1Rm5Jc1B0eUJsR1M1ZjM1dG05TFIwcW84WlFDMWF1TDJHbWdqUUNhMFVZZXhCSWc?oc=5",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-15T23:37:49.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/a/4/4/6/a446950b614e094fd93530fd27fd2b64_1.jpg",
+      "publishedAt": "2026-11-15T23:23:08.000Z",
+      "image": "",
       "categories": [
-        "goodscat"
+        "other"
       ],
       "series": [
-        "goods"
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "4502ffcfdf01",
       "title": "2億DLの『ポケモンユナイト』、来年3月にサービス終了――最後の世界大会は予定通り開催",
-      "url": "https://hashout.jp/game/14420/",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5hVklIYXI4QjFYTVdTckp2emNDMU05RklVWkpmMWpWNnk1OGtrQzJpOWF6MWZWekE3UlNQQkF4RWc1TVlX?oc=5",
       "host": "hashout.jp",
       "source": "shiritomo",
       "summary": "",
       "publishedAt": "2026-11-15T23:13:20.000Z",
-      "image": "https://hashout.jp/wp-content/uploads/2026/11/2121635624923123817-img-1200x675.png",
+      "image": "",
       "categories": [
         "community",
         "event"
@@ -2618,19 +2981,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "780ca96f34b4",
       "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBFUTlYVXlteGR1RGlwVy1QY1gwMVA2d3FpbFQ4ekxWTU9LSGZHaVhZcThqLWNGcTlXb2tuNmR6cWpHdXZ6bkJhTmJ5ajc?oc=5",
+      "url": "https://snkrdunk.com/articles/18862/",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-11-15T22:58:34.000Z",
-      "image": "",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
       "categories": [
         "tcgcat"
       ],
@@ -2639,14 +3002,35 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
     {
+      "id": "325b3a27b059",
+      "title": "【ポケモンGO】はがねタイプのポケモンを10匹捕まえる(イベント)の報酬",
+      "url": "https://pokemongo.gamewith.jp/article/show/587766",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-15T22:14:58.000Z",
+      "image": "",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "191b2544f2fa",
       "title": "ポケポケ #220 #ポケカ #ポケモンカード #pokemon #ポケモン #pokemoncards",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LZktraU1iNF9mUWpyZmNGbHNqb1lMdEdFbTB3TFVMYnFXWlNETWVDUkpDVnV1blVMQ25JenZCWWhSLVFSUElWbnh5dDZGcDJlbTduZ3NqakxnVmlh?oc=5",
+      "url": "https://youtu.be/NDzLkHgD7uA?si",
       "host": "youtu.be",
       "source": "YouTube",
       "summary": "",
@@ -2660,9 +3044,31 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "1e935a47623d",
+      "title": "『ポケットモンスター Let’s Go！ ピカチュウ・Let’s Go！ イーブイ』が発売された日。『ポケモン ピカチュウ』を再構築した作品は、相棒のかわいさが反則級！【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/202611/93678",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/93678/thumbnail_RAmI.png?x=1280",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "de7c5fb1f8d6",
@@ -2707,40 +3113,16 @@
       "isNew": false
     },
     {
-      "id": "08614009e9a5",
-      "title": "ポケモン新グッズ発表「つながる」イラスト使用 ソード・シールドのジムバッジコレクション登場",
-      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxQaWxpcGJ2SFBzMXRwNm9PTDI1X0VVbnJhdTk5UHBONDJGNEZPbmhlbkFBeDlTNGs4cVcyOXFUNmFUdldnUVk2X3gzMzFzbDFHSGdqNnNpemk5VXVkVk9ZRE5Rbl8xaUpwTzBKMUNvQlI3TFFEM0lRRUlfV082d3FIaHhKVDJ0dHltT296TkFFZzFqSU5jdWlQZmJYNl9xNjA5Y0w2M3F5ZDlQLWtzUGhvSE1aalNIa0gycWhIMmptRWQwdjhJR2Q1SU13MGxGaExSTV9IQ19VRWhzZnhNaGpuaDd2ZmdwX3JSTi1yTU9sQzV2ejB6b1RQOEotbVJqenZqWDZDellVM29tVGpHSXQyZ0lPcmlQaElhZnVZamdTTXBpSElLOG1HOTEyQ3ZLaWJXUGpBNXJWTEdaN2lWRW51U01XbDJkQzdCbmVORGVCWTZQTVNFMDczNw?oc=5",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
+      "id": "ba5a6e212315",
+      "title": "Apple Storeで今日からポケモン30周年コラボ、カジッチュのギフトカードは全国11店舗だけで11月30日まで",
+      "url": "https://selectra.jp/telecom/news/apple-gift-card-pokemon-kajicchu-november-2026",
+      "host": "selectra.jp",
+      "source": "セレクトラ",
       "summary": "",
-      "publishedAt": "2026-11-15T20:16:02.000Z",
-      "image": "",
+      "publishedAt": "2026-11-15T21:01:00.000Z",
+      "image": "https://images.selectra.jp/selectra.jp/news/v2/apple-gift-card-pokemon-kajicchu-november-2026.webp",
       "categories": [
-        "new",
         "goodscat"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "59fc265a960e",
-      "title": "『ポケモンセンター』デデンネとバチュルの日常を描いたグッズ新登場 大量に発表",
-      "url": "https://www.sanyonews.jp/article/1998519?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-15T20:07:59.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/0/9/8/1/098185296bbd6fe910e67817e733ac2e_1.jpg",
-      "categories": [
-        "goodscat",
-        "new"
       ],
       "series": [
         "goods"
@@ -2749,7 +3131,28 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
+    },
+    {
+      "id": "8af282e36d38",
+      "title": "ポケモンGO ブリムオン",
+      "url": "https://youtu.be/A10xSJ8AJZg?si",
+      "host": "youtu.be",
+      "source": "YouTube",
+      "summary": "",
+      "publishedAt": "2026-11-15T20:20:50.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "5648da5d17a5",
@@ -2876,7 +3279,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ac1167e2e3f9",
@@ -2895,68 +3298,26 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "475b59a620cf",
-      "title": "【購入品紹介】#しまむら#しなこ コラボグッズ＆ポケモングッズ Oswestry (2auKmmW696)",
-      "url": "https://media.unisba.ac.id/c5d1be47/0371b8cd1YEeEKBcIB4///?share",
-      "host": "media.unisba.ac.id",
-      "source": "Unisba Media",
-      "summary": "",
-      "publishedAt": "2026-11-15T10:06:14.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2a4e9dbe73be",
-      "title": "『ポケモン』衝撃的なクリスマス新グッズ モジャンボ＆マッギョのセーター＆カーディガンなど",
-      "url": "https://www.sanyonews.jp/article/2006252?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-15T09:35:30.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/9/3/9/5/93957f16d3606e300efae2dd59603736_1.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "b0d87cf18cda",
       "title": "『アニポケ』さいやくポケモン4匹集結！リコたち奮闘 第155話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/2009761?kw",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0xSmF2R3ExRVI2MVg1N1lZRFdmYUJaazZUQnpWRFg5VDExRjJHcjh4OUduMFRlMVJkWWFfbVJNeW5xaThSZmw3YkxZem54cTRHaUVMQzRpcGowS1ZDdFFCeVMybXFpZS1JbFVqMFZxdw?oc=5",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-15T09:23:45.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/1/2/7/4/1274d68f6f2a8dc784963aaa9b990da7_1.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f6765e1b2125",
@@ -2982,12 +3343,12 @@
     {
       "id": "a54d539d0370",
       "title": "【ポケカ】ルギア(30th再録)の買取・相場価格と値段推移｜30th CELEBRATION(30th セレブレーション)",
-      "url": "https://snkrdunk.com/articles/33331/",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5vb05xVldISkVJLWoyTWNtNm5nRTd4b0hLWHdsczMtRHdqWmV1dWItV1FkZ2ptUUIzOXdFMktIdmxoVmo5aG5CWVI3cTA?oc=5",
       "host": "snkrdunk.com",
       "source": "SNKRDUNK",
       "summary": "",
       "publishedAt": "2026-11-15T08:00:00.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/ae0dc9c1-0da8-46bf-90cb-413081856201.png",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2996,7 +3357,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3022,31 +3383,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "57496fb3e454",
-      "title": "ポケモン新作映画、主人公の名前発表 映像＆場面カット解禁で史上初のポケカ題材作品",
-      "url": "https://www.sanyonews.jp/article/1981332?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-15T07:54:35.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/9/3/5/6/9356e1d04bf6edaefbe6c1c6b3d20ad3_1.jpg",
-      "categories": [
-        "new",
-        "tcgcat"
-      ],
-      "series": [
-        "main",
-        "tcg",
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c784961cf76b",
@@ -3069,28 +3406,28 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
-      "id": "e88fe692407f",
-      "title": "「魅惑的すぎる」歴代『ポケモン』30周年の“思い出グッズ”に「どう考えてもほしい」「刺さりすぎる」 (マグミクス)",
-      "url": "https://news.yahoo.co.jp/articles/46a842e5dc1b84f5e938b595eccca5bbbf5c1be5/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "324683ce73e4",
+      "title": "【ポケモンGO最新情報】ワイルドエリア最終日攻略！ダイマックスパルキア・ブラックキュレム・無料キノコ10個の入手方法を徹底解説",
+      "url": "https://www.mmoexp.com/News/pokemon-go-latest-news-wild-area-final-day-guide-how-to-get-dynamax-palkia-black-kyurem-and-10-free-mushrooms.html",
+      "host": "mmoexp.com",
+      "source": "MMOEXP",
       "summary": "",
-      "publishedAt": "2026-11-15T03:22:58.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26kw6gNVffA3dlUfWrOwWTjA9w3hxfpQmrHGuJNl1SrbyaRwHYlIpFYKOG1cj0ef3DKXvyDSElDR3jqRuBmURcxoqmqNZG32OiBYF1H55IASk",
+      "publishedAt": "2026-11-15T05:47:03.000Z",
+      "image": "https://www.mmoexp.com/mmoexp-v250528/images/mmoexp_logo.png",
       "categories": [
-        "goodscat"
+        "guide"
       ],
       "series": [
-        "goods"
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "911e8764ba39",
@@ -3152,7 +3489,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4570f6089f01",
@@ -3173,7 +3510,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e43ffb76806e",
@@ -3192,17 +3529,17 @@
       "isPR": false,
       "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f577c2c6dd5a",
       "title": "『ポケモン』歴代の「どうろ」がジオラマオルゴールに 11月12日発売で「全部ほしい」",
-      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE8yQVh1bkhfS2NPNDE1NWpfVGZrdjJqanQxSHY1Yy04c3FnQ01RMGJKM1Y0Nk5CcW9lNFl0d29LR2J5T1k?oc=5",
+      "url": "https://magmix.jp/post/385192",
       "host": "magmix.jp",
       "source": "マグミクス",
       "summary": "",
       "publishedAt": "2026-11-15T00:40:00.000Z",
-      "image": "",
+      "image": "https://magmix.jp/wp-content/uploads/2027/11/261112-poke-00.jpg",
       "categories": [
         "other"
       ],
@@ -3211,38 +3548,38 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "7497a93d8307",
       "title": "『ポケモン』オーガポン登場！キタカミの里のお祭り物語 第151話あらすじ＆場面カット公開",
-      "url": "https://www.sanyonews.jp/article/1991533?rct",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVmJsaTJteXdIbEdSX19PSkplVHVIWFB4VzhWUFpMbUtUaGV0MUtMcjhMajZEc0dTci1weklobEF3bjItdDNwMkc5S0RMdDN4RWNNMGtmY2hDZktKZG5XQ2pJUm5KM1h0N3BaTmZBVlRkV1BGYnpjYkZfR2Fsck1iUFYzWUpTcHpwNGc?oc=5",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-15T00:05:33.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/a/2/f/7/a2f72bc69ab508a5e6bbaf453e86fa92_1.jpg",
+      "image": "",
       "categories": [
         "new"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c1f56c7bf989",
       "title": "「酷い」「ゴミくらい片付けて」豊洲公園に“大量のポケカ袋”が散乱 目撃した異様な光景に怒りの声（ENCOUNT）",
-      "url": "https://news.yahoo.co.jp/articles/7940902a3e463d61a84db734a2a8666e523f4a74",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPakJ5TzVtcGhVTGtFLTdhSzJ6dHNmemlWQjJYTjI5S3plaVJWeDhtSVdFX0RSSm5EczJZWThWUXZ5OF9QZnZzN0RyLWl1LWI0LXlycWFZYWhqS0pDb2daM0tvZHhFX2JRWEtkSC1VWmdZNEUtSnNJMW5PUk92U28?oc=5",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-14T23:40:00.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261115-01097756-encount-000-15-view.jpg?exp=10800",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -3251,38 +3588,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "f69a41abb862",
-      "title": "人気のみずポケモンがズラリ！「スイングコレクション」にポッチャマやシャワーズなど全5種",
-      "url": "https://www.inside-games.jp/article/2026/11/15/190966.html",
-      "host": "inside-games.jp",
-      "source": "インサイド",
-      "summary": "",
-      "publishedAt": "2026-11-14T21:30:03.000Z",
-      "image": "https://www.inside-games.jp/imgs/ogp_f/1804214.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "6dd4b62a455e",
       "title": "ポケモン新作アニメ『カメールと、夏のつづき』公開 出演は千本木彩花・畠中祐・花澤香菜ら",
-      "url": "https://www.sanyonews.jp/article/1971292?rct",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80MUtTRTg5UFl2b3JoQzBSVXhoT1QxSXdvN3hrcUFOMlBqOV9ydFZMYmlFSkU0cGhmRkRJZXpwak16ZEtvamJLcUE0NjhNakFRT0dRWGVHYWtIdVJNR1NlNVNUemVMcU1USFJtR2pfQmp3LTlIZmc?oc=5",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-14T21:09:31.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/b/5/6/8b5655965a741882f0641d4ec7180ac8_1.jpg",
+      "image": "",
       "categories": [
         "new",
         "media"
@@ -3293,9 +3611,9 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1d5fe67e59f0",
@@ -3355,12 +3673,12 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e401b62aa89c",
       "title": "みんなで挑戦！色違いメテノ捕獲大作戦！チャレンジだあああああ【ポケモンSV スカーレット バイオレット】 Sootoday.com (59Jy82ai5K)",
-      "url": "https://media.unisba.ac.id/5e104b4c/6586a9c7qULqW_QJ6vU/?share",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdXJPYVFyWjhhZURPeDVXWFNFODh0d3BXS3hUVWRZejFNUmRJdHdtMUE5OUJLcEM0ZHY2U2xaSlZwLVdEN1pDY3d0TXlQQ1g5RzFHUF9hTmlIeGxLWjc5bzJOLVctZ2pWVlMtZHJ2aFRYUEtSLWFHcVRTTXBfcHVjemNR?oc=5",
       "host": "media.unisba.ac.id",
       "source": "Unisba Media",
       "summary": "",
@@ -3374,14 +3692,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "5a68d375f475",
       "title": "【ポケモンsv】メテノを全色集めたい！！！！※クリスマス動画です【ゆっくり実況】【ポケットモンスタースカーレット】 Autoroute 73 (tY6pZpHmN4)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLWtvNGl0VldPZXgxb0xBMk1wZDZFcHdhWXNuQjZTZ2k1SmgyZFN5UHFPa1ZfbEtYOXdJTWozWkt0N0VLWXQ3VWZwcFBXLXYwMUc1elhINmJ5Uk9KVkJPbXNGWVFzMEtVWnFhR3R3Q2szbkhJYlI3WVR5d3AwRTBUZngwWXozZG8?oc=5",
+      "url": "https://media.unisba.ac.id/5b0b5229/51245506NT8qIwAbMAEeQAk/?share",
       "host": "media.unisba.ac.id",
       "source": "Unisba Media",
       "summary": "",
@@ -3395,7 +3713,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3421,14 +3739,33 @@
       "isNew": false
     },
     {
+      "id": "7d03f43c4e5c",
+      "title": "『ポケモン GO』とCHARGESPOTがパートナーシップ締結！ 世界9カ国・3万箇所がポケストップとジムに、11月14日から登場",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1qQ1hiMTFxMC1uandFOWlJOXIyX0pVcGpfWnFWUGthU1V1MTMwSThXMmVaS0J3eEFacWxMNzFLcDdaM0lQcXNUNEFiMDRUdjJCR0FCMkRVUVN5RGttQXowag?oc=5",
+      "host": "appbank.net",
+      "source": "AppBank",
+      "summary": "",
+      "publishedAt": "2026-11-14T12:14:03.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9098f3df37cf",
       "title": "最強のヌメルゴン、11月13日まで｜スカーレット・バイオレット - Pokemon-France.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNX29oWUExamZVZjQ5STlmRkdYMi16a19uUHg5b0NmUFhUQVQwUC1JQzU4TW80STVvaTZNRVhrZWZqUDNiaFBCM2E3RmZHdUtWREFZMU5JdkJiM3dKcnAtNmd2LW5raUs3M05JalhCT21YYWM1bEJtLWNSSWtRVHB3cVJGNzFnU3lad1lUNmRvSXZHRjcwZFMwQWN5SmQyOWx4eVowU2xjUk5TUlg1SFBORHRBRjZ6M21ybjdKdw?oc=5",
+      "url": "https://www.pokemon-france.com/ja/news/pokemon-scarlet-and-violet-last-chance-to-catch-mighty-goodra-before-13-november/",
       "host": "pokemon-france.com",
       "source": "Pokemon-France.com",
       "summary": "",
       "publishedAt": "2026-11-14T11:03:39.000Z",
-      "image": "",
+      "image": "https://cdn.pokemon-france.com/wp-content/uploads/2026/11/pokemon-ecarlate-violet-le-disque-indigo.jpg",
       "categories": [
         "guide"
       ],
@@ -3437,82 +3774,61 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
     },
     {
-      "id": "f160b03232bb",
-      "title": "『ポケモン』”新たなる旅立ち”を立体化！冒険が甦るフィギュアに、「イッシュ地方」など全3種が展開",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5nbk5OdzNfSmFMYlJiNUZKMXpFSzJVeVZGcFVRVS1hLU9sUnJzS2VCOUJTcjgxUTUycTZRanJqeE5HVEt1V2ZiYU0yZzlSVTczVE1WNkhkWWE4cXEtSlhQb2lYT2RKdw?oc=5",
-      "host": "gamespark.jp",
-      "source": "Game*Spark",
+      "id": "49003e87c5e5",
+      "title": "ポケモンGOイベントが東北大入試と日程重複 郡和子仙台市長「宿泊に空き、一定の確保」でも1泊2万円前後",
+      "url": "https://newsdig.tbs.co.jp/articles/gallery/3059473",
+      "host": "newsdig.tbs.co.jp",
+      "source": "TBS NEWS DIG",
       "summary": "",
-      "publishedAt": "2026-11-14T10:30:03.000Z",
-      "image": "",
+      "publishedAt": "2026-11-14T10:11:00.000Z",
+      "image": "https://newsdig.ismcdn.jp/mwimgs/2/c/1200w/img_2cd11b4e8990be88dad88969ac1c603a35611.jpg",
       "categories": [
-        "goodscat"
+        "event"
       ],
       "series": [
-        "goods"
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
-      "id": "58cdd4dc00b9",
-      "title": "ヤクルト、ポケモンとのコラボグッズ巡りお詫び「多大なるご迷惑とお不便をおかけしますことを深くお詫び申し上げます」商品発送に時間要する",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YTzBZVHRRQ3AwZ2xWTWRGMXRjV01wX25fOEU4U2NrX0RmVDFoa0VKdWJZanExUzN2R0trN21iYWlVU1A4OUdHcWE2R05vZEFlRnd5bDd4ZDhTb0R3RHhfb0dYckRneDdsTGtfUEhXLXhCR0w5SHBxWQ?oc=5",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-14T09:52:01.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "b78a06ec5039",
-      "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SVnFZM0EwWkJhS3lfUlZLeTg4d0UyRGdQcEJQZXlQb21MMDd2V01tajZoa2gyTk1aTjNOZ1l4S0dRRjYtb2lJS2otT1VWN1hRMGc?oc=5",
+      "id": "8d251878b18e",
+      "title": "『渋谷区立加計塚小学校』にてポケモンカードを活用した体験型ブースを出展！ミニゲームなどを実施",
+      "url": "https://www.sanyonews.jp/article/1920078?rct",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-14T08:00:00.000Z",
-      "image": "",
+      "image": "https://static.sanyonews.jp/image/article/size1https://prtimes.jp/img/177148/9/resize/d177148-9-881b59a29d9db113fa30-0.jpg",
       "categories": [
-        "goodscat"
+        "tcgcat"
       ],
       "series": [
-        "goods"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "5d6af1f077c1",
       "title": "【ポケモン】WCS2026・ポケモンXPの新情報･発表内容まとめ【ポケットモンスター】",
-      "url": "https://gamewith.jp/pokemon/574415",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kSTB3LTYyY1JwSHIzcnhaOGE3YVRyX0xoSVVwTlFXbXBVVlhTYndSNXZaNFBSR0FNektxXy1rQU5PT3B3SVZIMmlR?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-14T04:55:33.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574415.png?date=1788112559",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -3521,7 +3837,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3542,29 +3858,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "792ad83d8e53",
-      "title": "すっぴんパウダーがPokémon Sleepとコラボ！限定デザイン全4種が登場",
-      "url": "https://www.wowkorea.jp/woman/read/160109.html",
-      "host": "wowkorea.jp",
-      "source": "wowKorea",
-      "summary": "",
-      "publishedAt": "2026-11-14T03:32:36.000Z",
-      "image": "https://www.wowkorea.jp/img/topic/32/160109/318145_1280W.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "sleep",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     }
   ]
 }
