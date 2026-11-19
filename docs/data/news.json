@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-19T16:30:21.559Z",
+  "updatedAt": "2026-11-19T17:00:31.780Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 167,
-  "todayCount": 3,
+  "total": 166,
+  "todayCount": 2,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 17
+      "count": 16
     },
     {
       "id": "tcgcat",
@@ -32,12 +32,12 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 25
+      "count": 26
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 3
+      "count": 4
     },
     {
       "id": "guide",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 74
+      "count": 73
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 42
+      "count": 43
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 24
+      "count": 23
     },
     {
       "id": "tcg",
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 4
+      "count": 5
     },
     {
       "id": "unite",
@@ -94,22 +94,22 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 41
+      "count": 42
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 57
+      "count": 56
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
+      "count": 15
     },
     {
       "name": "山陽新聞",
-      "count": 11
+      "count": 12
     },
     {
       "name": "SNKRDUNK",
@@ -128,12 +128,12 @@
       "count": 3
     },
     {
-      "name": "インサイド",
+      "name": "日テレNEWS NNN",
       "count": 3
     },
     {
-      "name": "日テレNEWS NNN",
-      "count": 2
+      "name": "インサイド",
+      "count": 3
     },
     {
       "name": "ポケットモンスターオフィシャルサイト",
@@ -156,10 +156,6 @@
       "count": 2
     },
     {
-      "name": "モデルプレス",
-      "count": 2
-    },
-    {
       "name": "Pokemon-France.com",
       "count": 2
     },
@@ -174,10 +170,6 @@
     {
       "name": "オリコンニュース",
       "count": 2
-    },
-    {
-      "name": "www.tv-tokyo.co.jp",
-      "count": 1
     },
     {
       "name": "GAME Watch",
@@ -236,7 +228,15 @@
       "count": 1
     },
     {
+      "name": "モデルプレス",
+      "count": 1
+    },
+    {
       "name": "TRILL",
+      "count": 1
+    },
+    {
+      "name": "www.tv-tokyo.co.jp",
       "count": 1
     },
     {
@@ -768,32 +768,13 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-19T16:00:25.846Z",
+    "previousAt": "2026-11-19T16:30:21.559Z",
     "previousCount": 167,
-    "newCount": 12
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-19T17:00:21.559Z",
+  "nextUpdateAt": "2026-11-19T17:30:31.780Z",
   "items": [
-    {
-      "id": "8e8856a259ac",
-      "title": "おはスタ【ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！】 - www.tv-tokyo.co.jp",
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611200705.html",
-      "host": "tv-tokyo.co.jp",
-      "source": "www.tv-tokyo.co.jp",
-      "summary": "",
-      "publishedAt": "2026-11-19T15:11:22.000Z",
-      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
     {
       "id": "50cdf048abff",
       "title": "ニューエラ、ピカチュウたちをフィーチャーした「ポケモン」30周年記念スペシャルアイテムを本日発売",
@@ -846,6 +827,28 @@
       "publishedAt": "2026-11-19T14:24:43.000Z",
       "image": "",
       "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "116193a7541f",
+      "title": "【ポケポケ】デュアルフュージョン限定バトルの攻略とおすすめデッキ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/588256",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T14:19:10.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/588256.png?date=1794984918",
+      "categories": [
+        "guide",
         "tcgcat"
       ],
       "series": [
@@ -1024,7 +1027,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ac7975d0d07b",
@@ -1211,6 +1214,27 @@
       "isNew": false
     },
     {
+      "id": "833ac77d5fe0",
+      "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T10:28:08.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "dcdde852906d",
       "title": "ポケモンカードなど１００万円相当盗んだか ブラジル国籍の１８歳男逮捕 盗んだバイクで移動 広島（テレビ新広島）",
       "url": "https://news.yahoo.co.jp/articles/577827204d54dddef8014a54256ecf48c98209e4",
@@ -1270,27 +1294,6 @@
       "isNew": false
     },
     {
-      "id": "ae4709b0349e",
-      "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-19T09:59:11.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "6bdf0e2fef54",
       "title": "【ポケポケ】ミライドンexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/562111",
@@ -1309,7 +1312,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01e6f654bf7f",
@@ -1455,28 +1458,6 @@
       "isNew": false
     },
     {
-      "id": "116193a7541f",
-      "title": "【ポケポケ】デュアルフュージョン限定バトルの攻略とおすすめデッキ【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/588256",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-19T08:00:21.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/588256.png?date=1794984918",
-      "categories": [
-        "guide",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "0de64f6323fc",
       "title": "フェンダー『ポケモン赤・緑』仕様のギターが本日より抽選受付を開始 8ビットの音を鳴らせる“スペシャルモデル”",
       "url": "https://realsound.jp/tech/2026/11/post-2588929.html",
@@ -1579,7 +1560,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a3c6e44073d1",
@@ -1646,7 +1627,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f187fca8a488",
@@ -1752,28 +1733,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "833ac77d5fe0",
-      "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-19T04:38:29.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570620.png?date=1785392781",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "29cf83a33a47",
@@ -1835,7 +1795,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9dce866417ef",
@@ -1962,6 +1922,29 @@
       "isNew": false
     },
     {
+      "id": "c784961cf76b",
+      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNMF9pMk1iVFA4V3RCMWYtVzJlZXlwZ09TYkdrRG1lTDRpcmpTeEZpNXZvZXVjM2F5Q1RrcFRxY3BYMExmTnBiSGJBX2xod0FlNy1NYjRyLVdOZzFHd1REMXpBZnUxcXlaSjZfaDdTNFc4blBjVXBqZ00zWlVwc2x6SXlxanJ0Y1VFNEw4LXVhajFPS05DVWxGRDROR3JROG5mTzVTX1F4N2RfcjItLXQ1ajlZcGNZZXNsbFhLNUZ6UDM1UVBzLUpIbDEwQktyaktHTWFmWXI0QWxoRVBhbFhsSG40RmFYc0NGSEpNRnlUaURvblVWanFCX19aV2wwN0gtTXF4YWtoRkpXYk5jWFk0bnFsNTN2QVFZbzRlTVl2U2xhMV8zaC1wSVM5TUZ1V1pZVG1JTHhXTUFnWDRSSmtDSVJXUlBrNGRoZGdWZW96SFBjZHRNcXNoVg?oc=5",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-19T01:18:06.000Z",
+      "image": "",
+      "categories": [
+        "goodscat",
+        "media"
+      ],
+      "series": [
+        "anime",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "7efa33e6bdcc",
       "title": "盗んだ原付バイクで移動しカードショップからポケカ10箱盗んだか 埼玉県の18歳の男を逮捕（HOME広島ホームテレビ）",
       "url": "https://news.yahoo.co.jp/articles/71c68ec76c3e55d1f277ef920789439f15a6334b",
@@ -2082,25 +2065,6 @@
       "isNew": false
     },
     {
-      "id": "3f8398d48bdd",
-      "title": "ポケモン1025匹が横浜赤レンガ倉庫のクリスマスマーケットに登場 自分で“選んだ”ポケモンがツリーを彩る",
-      "url": "https://mdpr.jp/travel/4875483",
-      "host": "mdpr.jp",
-      "source": "モデルプレス",
-      "summary": "",
-      "publishedAt": "2026-11-19T00:01:44.000Z",
-      "image": "https://img-mdpr.freetls.fastly.net/article/_ZE0/nm/_ZE0XxvoUPd7Y6_m8VDtwjFvYOiAR-bz9ZxOoECwTBk.jpg?width=700&disable=upscale&auto=webp&quality=80",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b62c84c97122",
       "title": "2位『Pokémon GO』3位『モンスターストライク』300名が選ぶ【今、毎日欠かさずプレイしているスマホゲーム】1位に「毎日ついついやってしまう」",
       "url": "https://trilltrill.jp/articles/5159868",
@@ -2122,14 +2086,14 @@
       "isNew": false
     },
     {
-      "id": "dde36870a2f6",
-      "title": "JR関西線、初のミジュマル列車 亀山―加茂駅間で運行へ みえ応援ポケモン 三重（伊勢新聞）",
-      "url": "https://news.yahoo.co.jp/articles/d6146bc98c0c4a9cd8fb37a1428f6cc099f23ca4",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
+      "id": "8e8856a259ac",
+      "title": "おはスタ【ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！】 - www.tv-tokyo.co.jp",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611200705.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "www.tv-tokyo.co.jp",
       "summary": "",
-      "publishedAt": "2026-11-18T23:02:46.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010007-isenp-000-1-view.jpg?exp=10800",
+      "publishedAt": "2026-11-18T23:15:37.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
       "categories": [
         "other"
       ],
@@ -2244,7 +2208,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "08614009e9a5",
@@ -2305,27 +2269,6 @@
       "series": [
         "go",
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "87b11c30703b",
-      "title": "【ポケモンGO】大きな足跡イベントの開催期間とボーナス",
-      "url": "https://pokemongo.gamewith.jp/article/show/585781",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-18T17:03:32.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585781.png?date=1793340673",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2417,6 +2360,27 @@
       "isNew": false
     },
     {
+      "id": "0f755b9a9d66",
+      "title": "「ポケモンカード」63点で時価2200万円 香川の店から盗んだ疑い 福岡の男を逮捕（2026年11月18日掲載）｜FBS NEWS NNN",
+      "url": "https://news.ntv.co.jp/n/fbs/category/society/fs689d817f74814780b08623af9ef339f5",
+      "host": "news.ntv.co.jp",
+      "source": "日テレNEWS NNN",
+      "summary": "",
+      "publishedAt": "2026-11-18T09:46:00.000Z",
+      "image": "https://image.gallery.play.jp/fbs-news/articles/6f413a0627204835a42e5acf437f6ac0/5d8bc170-b3de-43ce-b163-826d615fc45a.jpg?w=1200",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "41d7a1d66ebe",
       "title": "『Pokémon GO』伝説・UB53匹の“世界スポット”が判明？ 日月潭にユクシー、タイムズスクエアにミュウツー",
       "url": "https://www.toy-people.com/jp/?p",
@@ -2456,7 +2420,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2085ef7d868a",
@@ -2643,7 +2607,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6192bce38142",
@@ -3124,12 +3088,12 @@
     {
       "id": "45a293dd475a",
       "title": "ポケモン公式「『デ』から始まって『ネ』で終わるの、デデンネ以外ない説」に総ツッコミ 「デスパイネ」「デトルネ通り」",
-      "url": "https://news.yahoo.co.jp/articles/54fe9df46e937c77cbe9a5d243a5b1ef33994a4d/images/000",
+      "url": "https://news.yahoo.co.jp/articles/54fe9df46e937c77cbe9a5d243a5b1ef33994a4d",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-17T05:21:51.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26pyzBio0JGLyrLApX2NkrnK-WlPmxfKn2z1chs2O-ndOvxtmKsw8F8K-yH_ScSJ3nHUc41ip0w0z1MK6Dubk8hiYs-cuODr5C9ctteZ92yC7",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261117-01458245-the_tv-000-1-view.jpg?exp=10800",
       "categories": [
         "other"
       ],
@@ -3497,7 +3461,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6bcf3b65181b",
@@ -3540,6 +3504,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "59da2ee1a039",
+      "title": "【ポケモンSV】テツノブジンの出現場所と色違い・弱点タイプ【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373340",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:14:43.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "09e9857c9cb9",
@@ -4199,12 +4184,12 @@
     {
       "id": "c16e85512376",
       "title": "【ポケモンSV】色違い厳選と確率を上げる方法【スカーレットバイオレット】",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EV05CalR3b3R0N0doVW5vVThjVUpUNjB3NUFjVF9rV0UwdG1MY2VmR1ZBeEw2LXNhTl9KQ1daVl8taWtCWm52VkVoWTJvOEs3LWwyemVqV093dlB2Vml3?oc=5",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/375231",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T19:20:20.000Z",
-      "image": "",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375231.png?date=1668761576",
       "categories": [
         "guide"
       ],
@@ -4213,9 +4198,9 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ecf790d27bf1",
