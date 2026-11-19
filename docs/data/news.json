@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-19T17:30:19.725Z",
+  "updatedAt": "2026-11-19T18:00:24.752Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 164,
+  "total": 166,
   "todayCount": 5,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 14
+      "count": 13
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 16
+      "count": 17
     },
     {
       "id": "tcgcat",
@@ -32,12 +32,12 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 26
+      "count": 27
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 3
+      "count": 4
     },
     {
       "id": "guide",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 72
+      "count": 73
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 42
+      "count": 43
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 24
+      "count": 25
     },
     {
       "id": "tcg",
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 4
+      "count": 5
     },
     {
       "id": "unite",
@@ -94,18 +94,18 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 42
+      "count": 43
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 55
+      "count": 57
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
+      "count": 15
     },
     {
       "name": "山陽新聞",
@@ -177,6 +177,10 @@
     },
     {
       "name": "Game*Spark",
+      "count": 1
+    },
+    {
+      "name": "au Webポータル",
       "count": 1
     },
     {
@@ -425,7 +429,7 @@
         },
         {
           "title": "Duolingoのフクロウ、Duoが新たなコラボでPokémon GOに登場",
-          "url": "https://mezha.net/jp/news/mezha-e52f1dad4d828217d7fc8500_duolingo-s-duo-owl-is-heading/",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS2RoaGdONlZ5bnh0bHhIanNzOXlFTktiaTd3c3VrS3lGQlFzNmU1S0RSWE9DSFh6TUUwcExINVFWQkJ2SFNKSnlTWjkxNXdPZFZFaXJnbmFwMWhSMXRpcHNpWmNibXE0dkJmUVNTTGNBdFZDZXBab2tqZzNtODF3Zl9yQXVKZzlDNkJ0TWhINEk?oc=5",
           "source": "Mezha.net",
           "publishedAt": "2026-11-16T19:02:00.000Z",
           "isPR": false
@@ -774,12 +778,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-19T17:00:31.780Z",
-    "previousCount": 166,
-    "newCount": 2
+    "previousAt": "2026-11-19T17:30:19.725Z",
+    "previousCount": 164,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-19T18:00:19.725Z",
+  "nextUpdateAt": "2026-11-19T18:30:24.752Z",
   "items": [
     {
       "id": "10e3a0056245",
@@ -1092,6 +1096,27 @@
       "series": [
         "tcg",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "ac7975d0d07b",
+      "title": "【事件】広島市中区でポケモンカードなど盗んだ疑い 埼玉の18歳男逮捕 総額109万円相当",
+      "url": "https://article.auone.jp/07a93f0d-32c3-4132-b7d8-7040cc33fbe8",
+      "host": "article.auone.jp",
+      "source": "au Webポータル",
+      "summary": "",
+      "publishedAt": "2026-11-19T11:42:00.000Z",
+      "image": "https://portal.auone.jp/media/thumbnails/2026/11/19/https___news_jp_i_1495933225885237568_w1280.webp",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1614,6 +1639,27 @@
       "isNew": false
     },
     {
+      "id": "833446ce824a",
+      "title": "【ポケモンGO】ピクシーのスーパーメガレイドデイの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/586872",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T06:07:28.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586872.png?date=1793921307",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "73f87360f5d1",
       "title": "「ナカノ スタイリング タント」が「ポケモンカードゲーム」と初コラボ！特別なプロモカードが付くオリジナルデザインボトルを8月1日より発売",
       "url": "https://www.walkerplus.com/article/1147143/",
@@ -1929,6 +1975,29 @@
       "isNew": false
     },
     {
+      "id": "c784961cf76b",
+      "title": "『アニポケ』×『ポケモン GO』コラボエピソード放送決定 幼いフリード＆ヒトカゲ登場、2人の出会い明らかに",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxNMF9pMk1iVFA4V3RCMWYtVzJlZXlwZ09TYkdrRG1lTDRpcmpTeEZpNXZvZXVjM2F5Q1RrcFRxY3BYMExmTnBiSGJBX2xod0FlNy1NYjRyLVdOZzFHd1REMXpBZnUxcXlaSjZfaDdTNFc4blBjVXBqZ00zWlVwc2x6SXlxanJ0Y1VFNEw4LXVhajFPS05DVWxGRDROR3JROG5mTzVTX1F4N2RfcjItLXQ1ajlZcGNZZXNsbFhLNUZ6UDM1UVBzLUpIbDEwQktyaktHTWFmWXI0QWxoRVBhbFhsSG40RmFYc0NGSEpNRnlUaURvblVWanFCX19aV2wwN0gtTXF4YWtoRkpXYk5jWFk0bnFsNTN2QVFZbzRlTVl2U2xhMV8zaC1wSVM5TUZ1V1pZVG1JTHhXTUFnWDRSSmtDSVJXUlBrNGRoZGdWZW96SFBjZHRNcXNoVg?oc=5",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-19T01:18:06.000Z",
+      "image": "",
+      "categories": [
+        "goodscat",
+        "media"
+      ],
+      "series": [
+        "anime",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "7efa33e6bdcc",
       "title": "盗んだ原付バイクで移動しカードショップからポケカ10箱盗んだか 埼玉県の18歳の男を逮捕（HOME広島ホームテレビ）",
       "url": "https://news.yahoo.co.jp/articles/71c68ec76c3e55d1f277ef920789439f15a6334b",
@@ -1960,25 +2029,6 @@
       "image": "https://static.sanyonews.jp/image/article/size1/0/f/a/8/0fa80b931a2f64b6059bd3b4fe7be16b_1.jpg",
       "categories": [
         "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3233f892514d",
-      "title": "『ポケモン』メタモンをゲット！ナヴィの小さな大冒険 第144話あらすじ＆場面カット公開",
-      "url": "https://www.sanyonews.jp/article/1963305?kw",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-19T00:12:53.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/1/e/6/81e6871d6797444899c5ee901890fbbc_1.jpg",
-      "categories": [
-        "new"
       ],
       "series": [],
       "isOfficial": false,
@@ -2062,27 +2112,6 @@
       ],
       "series": [
         "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "ac7975d0d07b",
-      "title": "【事件】広島市中区でポケモンカードなど盗んだ疑い 埼玉の18歳男逮捕 総額109万円相当（中国新聞デジタル）",
-      "url": "https://news.yahoo.co.jp/articles/7cc0b01f1bb4a345ba8a0fca5f715b98e942a1a6",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-18T22:31:45.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261119-00010001-chugoku-000-1-view.jpg?exp=10800",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2781,7 +2810,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "94b2c295e3bc",
@@ -3489,7 +3518,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "8f53e9c1a0a5",
@@ -3723,6 +3752,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "934ef5f92f17",
+      "title": "【ポケモンSV】クォークチャージの効果とポケモン【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/375103",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:02:51.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "5944c6d41a3d",
@@ -3976,7 +4026,7 @@
     {
       "id": "4ea701f3e265",
       "title": "【きょうから】しまむら『ポケモン』新作グッズ、中身は? 御三家やラティ兄弟のデザインに「良すぎないか…?」「開店凸します!」",
-      "url": "https://www.oricon.co.jp/news/2493336/full/",
+      "url": "https://www.oricon.co.jp/news/2493336/embed/photo/?anc",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
@@ -4170,12 +4220,12 @@
     {
       "id": "c16e85512376",
       "title": "【ポケモンSV】色違い厳選と確率を上げる方法【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/375231",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EV05CalR3b3R0N0doVW5vVThjVUpUNjB3NUFjVF9rV0UwdG1MY2VmR1ZBeEw2LXNhTl9KQ1daVl8taWtCWm52VkVoWTJvOEs3LWwyemVqV093dlB2Vml3?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-16T19:20:20.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/375231.png?date=1668761576",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -4184,14 +4234,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "ecf790d27bf1",
       "title": "Duolingoのフクロウ、Duoが新たなコラボでPokémon GOに登場",
-      "url": "https://mezha.net/jp/news/mezha-e52f1dad4d828217d7fc8500_duolingo-s-duo-owl-is-heading/",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS2RoaGdONlZ5bnh0bHhIanNzOXlFTktiaTd3c3VrS3lGQlFzNmU1S0RSWE9DSFh6TUUwcExINVFWQkJ2SFNKSnlTWjkxNXdPZFZFaXJnbmFwMWhSMXRpcHNpWmNibXE0dkJmUVNTTGNBdFZDZXBab2tqZzNtODF3Zl9yQXVKZzlDNkJ0TWhINEk?oc=5",
       "host": "mezha.net",
       "source": "Mezha.net",
       "summary": "",
@@ -4206,7 +4256,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     }
