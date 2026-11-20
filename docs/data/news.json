@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-19T23:30:18.404Z",
+  "updatedAt": "2026-11-20T00:00:18.054Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 164,
-  "todayCount": 14,
+  "total": 165,
+  "todayCount": 16,
   "categories": [
     {
       "id": "new",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 17
+      "count": 18
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 28
+      "count": 27
     },
     {
       "id": "media",
@@ -57,19 +57,19 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 77
+      "count": 78
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 42
+      "count": 43
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 23
+      "count": 24
     },
     {
       "id": "tcg",
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 40
+      "count": 38
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 58
+      "count": 60
     },
     {
       "name": "Yahoo!ニュース",
@@ -112,24 +112,28 @@
       "count": 11
     },
     {
-      "name": "SNKRDUNK",
+      "name": "YouTube",
       "count": 5
     },
     {
-      "name": "YouTube",
-      "count": 5
+      "name": "SNKRDUNK",
+      "count": 4
     },
     {
       "name": "Nintendo DREAM WEB",
       "count": 4
     },
     {
-      "name": "朝日新聞",
+      "name": "日テレNEWS NNN",
       "count": 3
     },
     {
-      "name": "日テレNEWS NNN",
-      "count": 3
+      "name": "ガジェット通信",
+      "count": 2
+    },
+    {
+      "name": "朝日新聞",
+      "count": 2
     },
     {
       "name": "ポケットモンスターオフィシャルサイト",
@@ -168,7 +172,7 @@
       "count": 2
     },
     {
-      "name": "ガジェット通信",
+      "name": "モデルプレス",
       "count": 1
     },
     {
@@ -237,10 +241,6 @@
     },
     {
       "name": "マイナビ子育て",
-      "count": 1
-    },
-    {
-      "name": "モデルプレス",
       "count": 1
     },
     {
@@ -814,13 +814,53 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-19T23:00:18.396Z",
+    "previousAt": "2026-11-19T23:30:18.404Z",
     "previousCount": 164,
-    "newCount": 4
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-20T00:00:18.404Z",
+  "nextUpdateAt": "2026-11-20T00:30:18.054Z",
   "items": [
+    {
+      "id": "ea9daf5f48f6",
+      "title": "地域限定のペラップが実質無料で配布中 / ゲットの過程で英語力まで上がってしまうというボーナスタイム【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3756544",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-19T23:30:30.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1118_pokemon-5.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f3dd2763a966",
+      "title": "ルミネ各館で「ぽこ あ ポケモン」クリスマス企画開催 スタンプラリー、特別なピカチュウとの撮影チャンスも",
+      "url": "https://mdpr.jp/travel/4873556",
+      "host": "mdpr.jp",
+      "source": "モデルプレス",
+      "summary": "",
+      "publishedAt": "2026-11-19T23:09:30.000Z",
+      "image": "https://img-mdpr.freetls.fastly.net/article/NOBP/nm/NOBPlUGZKutjnHjr4qPvA75pDE9yY6-KaSL-fP04CTs.jpg?width=700&disable=upscale&auto=webp&quality=80",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
     {
       "id": "781aebb2bb25",
       "title": "【悲報】ムゲンダイナを0からフル強化するのは不可能 / アメ＆アメXLが8900個ずつ必要という現実【ポケモンGO】",
@@ -840,7 +880,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "770ada1d98b2",
@@ -922,26 +962,25 @@
       "isNew": false
     },
     {
-      "id": "f816c4e5040a",
-      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ | スニーカーダンク",
-      "url": "https://snkrdunk.com/articles/15950/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "44f4f43622f8",
+      "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-19T17:36:57.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
+      "publishedAt": "2026-11-19T18:23:06.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578648.png?date=1790261909",
       "categories": [
         "tcgcat"
       ],
       "series": [
-        "tcg",
-        "goods"
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "2a4e9dbe73be",
@@ -2148,25 +2187,6 @@
       "isNew": false
     },
     {
-      "id": "f3dd2763a966",
-      "title": "ルミネ各館で「ぽこ あ ポケモン」クリスマス企画開催 スタンプラリー、特別なピカチュウとの撮影チャンスも",
-      "url": "https://mdpr.jp/travel/4873556",
-      "host": "mdpr.jp",
-      "source": "モデルプレス",
-      "summary": "",
-      "publishedAt": "2026-11-19T00:05:16.000Z",
-      "image": "https://img-mdpr.freetls.fastly.net/article/NOBP/nm/NOBPlUGZKutjnHjr4qPvA75pDE9yY6-KaSL-fP04CTs.jpg?width=700&disable=upscale&auto=webp&quality=80",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "b62c84c97122",
       "title": "2位『Pokémon GO』3位『モンスターストライク』300名が選ぶ【今、毎日欠かさずプレイしているスマホゲーム】1位に「毎日ついついやってしまう」",
       "url": "https://trilltrill.jp/articles/5159868",
@@ -2630,7 +2650,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6192bce38142",
@@ -3112,27 +3132,6 @@
       "isNew": false
     },
     {
-      "id": "c60f57cac6f5",
-      "title": "クロックス×ポケモンのスペシャルコラボ！ ピカチュウなどのかわいいフットウェアが11/17発売",
-      "url": "https://www.asahi.com/and/w/article/17054075/31570419",
-      "host": "asahi.com",
-      "source": "朝日新聞",
-      "summary": "",
-      "publishedAt": "2026-11-17T05:54:39.000Z",
-      "image": "",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "45a293dd475a",
       "title": "ポケモン公式「『デ』から始まって『ネ』で終わるの、デデンネ以外ない説」に総ツッコミ 「デスパイネ」「デトルネ通り」",
       "url": "https://news.yahoo.co.jp/articles/54fe9df46e937c77cbe9a5d243a5b1ef33994a4d",
@@ -3402,7 +3401,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "47c25ede6f8a",
@@ -3423,7 +3422,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "251aeb55dfdc",
@@ -3761,6 +3760,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "16041bf5bde3",
+      "title": "【ポケモンSV】メタルコートの入手方法と進化ポケモン【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/375393",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-17T03:09:20.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "def3de1f1d82",
@@ -4226,12 +4246,12 @@
     {
       "id": "4ea701f3e265",
       "title": "【きょうから】しまむら『ポケモン』新作グッズ、中身は? 御三家やラティ兄弟のデザインに「良すぎないか…?」「開店凸します!」",
-      "url": "https://www.oricon.co.jp/news/2493336/embed/photo/?anc",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yTnR2eGpfTlprWjJ4Z0hWMzk4czVSSUNZdW54eVRqOHgzY3VJVERKcnAzeGR5WFdoZFJCNVJVa1dhWTJ5V3FIT1hoOW8tbGVtcjRtbTFpem5qWkVGbGJ5WjA2b1IyaFVFcmc?oc=5",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-17T00:15:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2494000/2493336/20251227_123146_p_o_82779454.jpg",
+      "image": "",
       "categories": [
         "new",
         "goodscat"
@@ -4242,7 +4262,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     }
