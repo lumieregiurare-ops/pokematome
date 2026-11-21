@@ -1,48 +1,48 @@
 {
-  "updatedAt": "2026-11-21T20:30:17.331Z",
+  "updatedAt": "2026-11-21T20:57:58.597Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 120,
-  "todayCount": 5,
+  "total": 156,
+  "todayCount": 6,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 18
+      "count": 20
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 1
+      "count": 2
     },
     {
       "id": "event",
       "label": "イベント",
-      "count": 9
+      "count": 20
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 40
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 17
+      "count": 19
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 18
+      "count": 20
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 5
+      "count": 17
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 35
+      "count": 45
     }
   ],
   "series": [
@@ -69,17 +69,17 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 4
+      "count": 34
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 39
+      "count": 40
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 17
+      "count": 20
     },
     {
       "id": "unite",
@@ -94,30 +94,34 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 43
+      "count": 45
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 23
+      "count": 42
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 17
+      "count": 18
     },
     {
       "name": "ファミ通",
-      "count": 14
+      "count": 13
     },
     {
       "name": "SNKRDUNK",
-      "count": 8
+      "count": 9
     },
     {
       "name": "ポケットモンスターオフィシャルサイト",
       "count": 6
+    },
+    {
+      "name": "ガジェット通信",
+      "count": 5
     },
     {
       "name": "インサイド",
@@ -125,6 +129,10 @@
     },
     {
       "name": "YouTube",
+      "count": 3
+    },
+    {
+      "name": "オリコンニュース",
       "count": 3
     },
     {
@@ -140,7 +148,7 @@
       "count": 2
     },
     {
-      "name": "オリコンニュース",
+      "name": "MMOEXP",
       "count": 2
     },
     {
@@ -148,7 +156,15 @@
       "count": 2
     },
     {
+      "name": "山陽新聞",
+      "count": 2
+    },
+    {
       "name": "Pokémon GO",
+      "count": 2
+    },
+    {
+      "name": "クランクイン！",
       "count": 2
     },
     {
@@ -164,7 +180,19 @@
       "count": 1
     },
     {
-      "name": "山陽新聞",
+      "name": "読売新聞",
+      "count": 1
+    },
+    {
+      "name": "河北新報オンライン",
+      "count": 1
+    },
+    {
+      "name": "ライブドアニュース",
+      "count": 1
+    },
+    {
+      "name": "ニコニコニュース",
       "count": 1
     },
     {
@@ -176,15 +204,15 @@
       "count": 1
     },
     {
+      "name": "Infoseek",
+      "count": 1
+    },
+    {
       "name": "ABEMA TIMES",
       "count": 1
     },
     {
       "name": "Goal.com",
-      "count": 1
-    },
-    {
-      "name": "Excite エキサイト",
       "count": 1
     },
     {
@@ -205,6 +233,10 @@
     },
     {
       "name": "玩具人 TOY PEOPLE",
+      "count": 1
+    },
+    {
+      "name": "テレビ東京",
       "count": 1
     },
     {
@@ -232,19 +264,15 @@
       "count": 1
     },
     {
+      "name": "RBB TODAY",
+      "count": 1
+    },
+    {
       "name": "Dtimes",
       "count": 1
     },
     {
       "name": "シネマトゥデイ",
-      "count": 1
-    },
-    {
-      "name": "クランクイン！",
-      "count": 1
-    },
-    {
-      "name": "ｄメニューニュース",
       "count": 1
     },
     {
@@ -256,11 +284,11 @@
       "count": 1
     },
     {
-      "name": "FNNプライムオンライン",
+      "name": "shiritomo",
       "count": 1
     },
     {
-      "name": "shiritomo",
+      "name": "@DIME アットダイム",
       "count": 1
     },
     {
@@ -272,113 +300,47 @@
       "count": 1
     },
     {
+      "name": "anan",
+      "count": 1
+    },
+    {
       "name": "AUTOMATON",
       "count": 1
     }
   ],
   "topics": [
     {
-      "id": "ca529a64fcca",
-      "title": "ポケモンの短編アニメーション作品が12月18日に「Disney+」に登場。「ポケモン動画図鑑」「放課後のブレス」など18作品をラインナップ",
-      "summary": "ウォルト・ディズニー・ジャパンは本日（2026年11月20日），ポケモンの短編アニメーション作品をディズニー公式動画配信サービス「Disney+」で12月18日より配信すると発表した。今回は，「ポケモン動画図鑑」「放課後のブレス」など，18作品がラインナップされる。",
-      "url": "https://www.4gamer.net/games/991/G999103/20261119041/",
-      "image": "https://www.4gamer.net/games/991/G999103/20261119041/SS/001.jpg",
-      "leadSource": "4Gamer",
-      "publishedAt": "2026-11-20T01:14:02.000Z",
-      "sourceCount": 9,
-      "articleCount": 10,
+      "id": "fa40acc013ca",
+      "title": "11月21日（土）は「イーブイの日」！劇場版短編作品『ピカチュウとイーブイ☆フレンズ』をABEMAで当日午後1時より無",
+      "summary": "",
+      "url": "https://news.nicovideo.jp/watch/nw20016969?news_ref",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/abematimes/abematimes_10291001_0-enlarge.jpg",
+      "leadSource": "ニコニコニュース",
+      "publishedAt": "2026-11-20T16:30:21.000Z",
+      "sourceCount": 12,
+      "articleCount": 15,
       "categories": [
         "media",
         "new"
       ],
       "keywords": [
         "短編",
-        "作品",
-        "アニメ"
+        "アニメ",
+        "作品"
       ],
       "articles": [
         {
-          "title": "ポケモンたちの日常や冒険を家族で楽しめる！ディズニープラス「ポケモン短編アニメーション18作品」",
-          "url": "https://dtimes.jp/post-1474799/",
-          "source": "Dtimes",
-          "publishedAt": "2026-11-20T01:14:02.000Z",
+          "title": "11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送",
+          "url": "https://news.infoseek.co.jp/amp/article/abematimes_10291001/",
+          "source": "Infoseek",
+          "publishedAt": "2026-11-20T13:10:00.000Z",
           "isPR": false
         },
         {
-          "title": "ポケモン短編アニメーション18作品、12月18日から一挙見放題配信決定！（映画.com）",
-          "url": "https://news.yahoo.co.jp/articles/b104733c7babc191e6926040d3cbf126b4bda7b6",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-20T01:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ポケモン』短編アニメ18作品がディズニープラスで12月18日より見放題開始。『ポケモンテイルズ』、『ポケモンアニメ 放課後のブレス』などが対象。年末年始はポケモンを見よう",
-          "url": "https://www.famitsu.com/article/202611/94511",
-          "source": "ファミ通",
-          "publishedAt": "2026-11-20T01:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンアニメシリーズ【POKETOON】をはじめ短編アニメーション18作品がディズニープラスで見放題配信決定",
-          "url": "https://news.yahoo.co.jp/articles/f801aad036328e7e0e5d900d44fadf6c6ce36123",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-20T01:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ポケモン』短編アニメ18作品がディズニープラスで12月18日より配信",
-          "url": "https://dengekionline.com/article/202611/94535",
-          "source": "電撃オンライン",
-          "publishedAt": "2026-11-20T01:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン短編アニメ18作品がディズニープラスで一挙見放題配信決定",
-          "url": "https://www.cinematoday.jp/news/N0158065",
-          "source": "シネマトゥデイ",
-          "publishedAt": "2026-11-20T01:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン短編アニメ18作品がディズニープラスに登場！ 12.18から一挙見放題配信 - ゲーム･アニメ - ニュース",
-          "url": "https://www.crank-in.net/news/194607/1",
-          "source": "クランクイン！",
-          "publishedAt": "2026-11-20T01:00:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモン短編アニメ18作品、12月18日から配信 ディズニープラスで新作『ネギガナイトとピチューの冒険』来年配信",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTkpSUXVFUHJpZmpLYlZIRWE4TVNkSFlJelRjdVBiWWEtZ2dXcUptX3JQQVhHMzhaYmxONWJMU3BBNWVSX0NiS1E2MHYyWHlYVjhGdmxUNlJDbFVaT0dOaGV2UXUtM2VtY1NCLWQ1RkZadnBZYW9NVC1jZDhJU0xyVjRkM1BCUdIBhgFBVV95cUxPTkpSUXVFUHJpZmpLYlZIRWE4TVNkSFlJelRjdVBiWWEtZ2dXcUptX3JQQVhHMzhaYmxONWJMU3BBNWVSX0NiS1E2MHYyWHlYVjhGdmxUNlJDbFVaT0dOaGV2UXUtM2VtY1NCLWQ1RkZadnBZYW9NVC1jZDhJU0xyVjRkM1BCUQ?oc=5",
-          "source": "ｄメニューニュース",
-          "publishedAt": "2026-11-20T01:00:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "d25b7aacbd0c",
-      "title": "11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送 | アニメニュース | アニメフリークス",
-      "summary": "",
-      "url": "https://times.abema.tv/articles/-/10291001",
-      "image": "https://times-abema.ismcdn.jp/mwimgs/e/b/1200w/img_ebd51caaedb38614b04068152286aa78462429.jpg",
-      "leadSource": "ABEMA TIMES",
-      "publishedAt": "2026-11-20T13:10:00.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
-      "categories": [
-        "media"
-      ],
-      "keywords": [
-        "ピカチュウ",
-        "イーブイ",
-        "フレンズ"
-      ],
-      "articles": [
-        {
-          "title": "『ポケモン』11月21日は「イーブイの日」！ 劇場版短編作品『ピカチュウとイーブイ☆フレンズ』がABEMAで無料放送決定",
-          "url": "http://www.excite.co.jp/news/article/pashplus_EXCITE_503901/",
-          "source": "Excite エキサイト",
-          "publishedAt": "2026-11-20T11:00:00.000Z",
+          "title": "【写真・画像】11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送 1枚目",
+          "url": "https://times.abema.tv/articles/photo/10291001?utm_campaign",
+          "source": "ABEMA TIMES",
+          "publishedAt": "2026-11-20T13:10:00.000Z",
           "isPR": false
         },
         {
@@ -400,6 +362,27 @@
           "url": "https://game.watch.impress.co.jp/docs/news/2158083.html",
           "source": "GAME Watch",
           "publishedAt": "2026-11-20T01:55:24.000Z",
+          "isPR": false
+        },
+        {
+          "title": "（写真）ポケモン短編アニメ18作品がディズニープラスに登場！ 12.18から一挙見放題配信 - アニメ･ゲーム - ニュース",
+          "url": "https://www.crank-in.net/gallery/news/194607/2?utm_source",
+          "source": "クランクイン！",
+          "publishedAt": "2026-11-20T01:21:46.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモンたちの日常や冒険を家族で楽しめる！ディズニープラス「ポケモン短編アニメーション18作品」",
+          "url": "https://dtimes.jp/post-1474799/",
+          "source": "Dtimes",
+          "publishedAt": "2026-11-20T01:14:02.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモン短編アニメーション18作品、12月18日から一挙見放題配信決定！（映画.com）",
+          "url": "https://news.yahoo.co.jp/articles/b104733c7babc191e6926040d3cbf126b4bda7b6",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-20T01:00:00.000Z",
           "isPR": false
         }
       ]
@@ -456,7 +439,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-11-21T16:58:23.000Z",
       "sourceCount": 2,
-      "articleCount": 20,
+      "articleCount": 19,
       "categories": [
         "tcgcat",
         "guide"
@@ -526,44 +509,44 @@
       ]
     },
     {
-      "id": "08976403ef66",
-      "title": "【ポケモンカード盗難】ブラジル国籍の１８歳男逮捕 １００万円相当 盗んだバイクで移動か 広島 (テレビ新広島)",
+      "id": "114719810f4b",
+      "title": "【ポケカ】30th CELEBRATION(30th セレブレーション)の予約・抽選情報まとめ【9/15更新】 | スニーカーダンク",
       "summary": "",
-      "url": "https://news.yahoo.co.jp/articles/04b037dded552e710ceeec2f6e0c646226b9d92f/images/000",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26r1wit7I1W9re6oeJkt_sYMtTNhMxzjt__Dg5VWzuXLVICXziaMRstI2E8JQW776SqWQSx6T9z3_BNhAwYgH6V7klDfIcYAh8cBZXUpp3qzH",
-      "leadSource": "Yahoo!ニュース",
-      "publishedAt": "2026-11-19T23:54:14.000Z",
+      "url": "https://snkrdunk.com/articles/32425/",
+      "image": "https://cdn.snkrdunk.com/uploads/media/46a73677-ea67-4984-9997-d9fd7a063eae.jpeg",
+      "leadSource": "SNKRDUNK",
+      "publishedAt": "2026-11-21T12:06:48.000Z",
       "sourceCount": 2,
       "articleCount": 4,
       "categories": [
         "tcgcat",
-        "media"
+        "new"
       ],
       "keywords": [
-        "バイク",
-        "移動",
-        "広島"
+        "更新",
+        "ポケカ",
+        "予約"
       ],
       "articles": [
         {
-          "title": "ポケモンカードなど１００万円相当盗んだか ブラジル国籍の１８歳男逮捕 盗んだバイクで移動 広島",
-          "url": "https://www.fnn.jp/articles/-/1155837",
-          "source": "FNNプライムオンライン",
-          "publishedAt": "2026-11-19T10:27:00.000Z",
+          "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク",
+          "url": "https://snkrdunk.com/articles/32581/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-21T10:02:42.000Z",
           "isPR": false
         },
         {
-          "title": "閉店後のカードショップに侵入…ポケカなど10箱（総額約110万円相当）窃盗か 埼玉県川口市のブラジル国籍男（18）を逮捕 直前に盗んだバイクで移動か 広島（RCC中国放送）",
-          "url": "https://news.yahoo.co.jp/articles/1679c136cb0f35e8c14259f29dbbafebdd77498f",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-19T02:16:13.000Z",
+          "title": "【ポケカ】ストームエメラルダの再販はいつ？再販入荷情報まとめ【11/20更新】",
+          "url": "https://snkrdunk.com/articles/32892/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-21T06:27:26.000Z",
           "isPR": false
         },
         {
-          "title": "盗んだ原付バイクで移動しカードショップからポケカ10箱盗んだか 埼玉県の18歳の男を逮捕（HOME広島ホームテレビ）",
-          "url": "https://news.yahoo.co.jp/articles/71c68ec76c3e55d1f277ef920789439f15a6334b",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-19T00:28:29.000Z",
+          "title": "【11月20日更新】ポケモンカード抽選情報まとめ2026｜最新の予約・再販・倍率・当選の注意点まとめ",
+          "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/pokemon-card-lottery-information-2026/blt9aa2212834fd35bf",
+          "source": "Goal.com",
+          "publishedAt": "2026-11-20T12:55:08.000Z",
           "isPR": false
         }
       ]
@@ -618,6 +601,34 @@
           "url": "https://youtu.be/b5PjPsEPiD8",
           "source": "YouTube",
           "publishedAt": "2026-11-21T09:00:09.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "4f6435cc8285",
+      "title": "「ええええ」「会いたかった」大人気女優が「ポケモンＧＯ」リアルイベントに参加していた…山本美月が“推し”明かす",
+      "summary": "",
+      "url": "https://www.yomiuri.co.jp/culture/hochi/20261120064-OHT1T51200/",
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261120-064-OHT1I91200-L.jpg?type=ogp",
+      "leadSource": "読売新聞",
+      "publishedAt": "2026-11-21T03:22:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "event"
+      ],
+      "keywords": [
+        "リアルイベント",
+        "参加",
+        "山本美月"
+      ],
+      "articles": [
+        {
+          "title": "山本美月が「ポケモンGO」リアルイベントに参加していた (2026年11月21日掲載)",
+          "url": "https://news.livedoor.com/topics/detail/32866971/",
+          "source": "ライブドアニュース",
+          "publishedAt": "2026-11-20T21:50:00.000Z",
           "isPR": false
         }
       ]
@@ -765,12 +776,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-21T20:00:14.900Z",
-    "previousCount": 155,
-    "newCount": 11
+    "previousAt": "2026-11-21T20:30:17.331Z",
+    "previousCount": 120,
+    "newCount": 40
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-21T21:00:17.331Z",
+  "nextUpdateAt": "2026-11-21T21:27:58.597Z",
   "items": [
     {
       "id": "ccabeed8fafd",
@@ -853,6 +864,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "38739a09c501",
+      "title": "【ポケモンGO】GOパス大きな足跡のリワード内容と挑戦期間",
+      "url": "https://pokemongo.gamewith.jp/article/show/585785",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T15:20:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585785.png?date=1793238889",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "529d40a05e57",
@@ -1159,6 +1191,28 @@
       "isNew": false
     },
     {
+      "id": "3d03911badb2",
+      "title": "画像ページ (9/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930449",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-21T09:38:13.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/a6999a02e2d596f06f4255cafeebe8d04.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "6257a847e1ee",
       "title": "画像ページ (2/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
       "url": "https://www.famitsu.com/article/images/202611/93917/930438",
@@ -1239,7 +1293,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7d8766d3d5cc",
@@ -1307,50 +1361,6 @@
       "isNew": false
     },
     {
-      "id": "44bc941e83ba",
-      "title": "画像ページ (15/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202611/93917/930455",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-11-21T07:56:48.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/a6ae21722b4127e0c1d90009be7462968.jpg?x=1280",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "a95770967863",
-      "title": "画像ページ (16/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202611/93917/930456",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-11-21T07:25:10.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/a548fa4a6af73a5440543590b43ac5e5c.jpg?x=1280",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "5f728ed9670c",
       "title": "【ポケモンチャンピオンズ】TwitchDropsの報酬の受け取り方と連携手順",
       "url": "https://gamewith.jp/pokemon-champions/563170",
@@ -1368,6 +1378,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "fbc23e231af7",
+      "title": "【ポケカ】ストームエメラルダの再販はいつ？再販入荷情報まとめ【11/20更新】",
+      "url": "https://snkrdunk.com/articles/32892/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:27:26.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/10e1ca9a-9e21-4991-95ad-50ebdfedf621.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a1f4810513e5",
@@ -1414,6 +1445,28 @@
       "isNew": false
     },
     {
+      "id": "f85716662f82",
+      "title": "【ポケモンGO攻略】無限ダイナ復刻イベント速報！マックスバトルの攻略法・マックス粒子の効率的な集め方・強化するべき？",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNNW84R3N4QjBoRlZLWFZuZ3EwYkN0NWxLQWhQci1PV3hoMzN0RWhiNXFTQ3FXTjZHMUFmc2xzeDJhdmo1XzR0QXVJU29QbHRxZ0VGLVdzOG5sYURucW00SWxUaldpQ3ZIdWRZaW9KQ2NpQkFIRG82Sl8wSThSbFdLRlA3LS1IdU14Sm9ZWEtBcEhoVmhjR0VuN1hmazZ2bFNzVUJVbUtlZ3ZrT0wwUWxmOExTM2RLb2FKVC1ZMkllc2prSHN6emhXWWxtODFQbXBqejdMVkphek1VS3BDeUhKZDc0cTk3QnNBRUUycg?oc=5",
+      "host": "mmoexp.com",
+      "source": "MMOEXP",
+      "summary": "",
+      "publishedAt": "2026-11-21T06:11:51.000Z",
+      "image": "",
+      "categories": [
+        "event",
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0e8dbe8f536d",
       "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
@@ -1457,6 +1510,27 @@
       "isNew": false
     },
     {
+      "id": "87b11c30703b",
+      "title": "【ポケモンGO】大きな足跡イベントの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/585781",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T03:47:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585781.png?date=1793340673",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "0051ca37f286",
       "title": "【ポケポケ】メガカイリューexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/586071",
@@ -1476,6 +1550,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4f6435cc8285",
+      "title": "「ええええ」「会いたかった」大人気女優が「ポケモンＧＯ」リアルイベントに参加していた…山本美月が“推し”明かす",
+      "url": "https://www.yomiuri.co.jp/culture/hochi/20261120064-OHT1T51200/",
+      "host": "yomiuri.co.jp",
+      "source": "読売新聞",
+      "summary": "",
+      "publishedAt": "2026-11-21T03:22:00.000Z",
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261120-064-OHT1I91200-L.jpg?type=ogp",
+      "categories": [
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "b3b92255bfaa",
@@ -1498,6 +1591,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "d8e6bdd2deee",
+      "title": "【ポケモンGO】ゆふいんさんのGOバトルリーグレポート2026年11月第3週",
+      "url": "https://pokemongo.gamewith.jp/article/show/589529",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T03:10:42.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/589529.png?date=1795230643",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "b03a928cddaa",
@@ -1580,6 +1694,48 @@
       "isNew": false
     },
     {
+      "id": "0587530d27d6",
+      "title": "【ポケモンGO】コマタナコミュニティデイの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/583519",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T02:28:10.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583519.png?date=1792626965",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c580b0ee84f9",
+      "title": "【ポケモンGO】2026年12月のコミュニティデイの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/589528",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T02:03:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/589528.png?date=1795226590",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "3a7de21ceb40",
       "title": "【ポケポケ】はじまりのパートナーの収録カード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/585818",
@@ -1599,6 +1755,93 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "7d48497941f1",
+      "title": "『ポケモン』新作映画も主人公交代！サトシ出ずファン嘆き ポケカ題材の作品で2027年公開",
+      "url": "https://www.sanyonews.jp/article/1981106?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-21T01:34:15.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/a/9/d/ca9d61bb8616f2e0f17c26dc7e60723c_1.jpg",
+      "categories": [
+        "new",
+        "tcgcat"
+      ],
+      "series": [
+        "main",
+        "tcg",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "371035340240",
+      "title": "ムゲンダイナのフル強化に必要な課金額は約3万円 →ただし3時間ではアメXLが半分も集まらない【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3757191",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-21T01:30:05.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7950.jpeg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "4e74c2e2797a",
+      "title": "【ポケモンGO】コマタナコミュニティデイ有料スペシャルリサーチの内容と報酬",
+      "url": "https://pokemongo.gamewith.jp/article/show/589507",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T00:37:45.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/589507.png?date=1795221467",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "29cf83a33a47",
+      "title": "【ポケモンGO】GOバトルリーグ黄昏の旅路シーズンのスケジュールと調整内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/574389",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-20T23:34:04.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574389.png?date=1788169180",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "a8671e3987bc",
@@ -1622,6 +1865,28 @@
       "isNew": false
     },
     {
+      "id": "10e3a0056245",
+      "title": "【ポケモンGO】デュオリンゴコラボタイムチャレンジの入手方法と報酬",
+      "url": "https://pokemongo.gamewith.jp/article/show/587963",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-20T22:40:11.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/587963.png?date=1794885975",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "7ff724f7fbfa",
       "title": "「技を覚えない？」「ドラゴンなのに瞬殺!?」『ポケモン赤・緑』に存在した「進化にまつわる痛恨の罠」（ふたまん＋）",
       "url": "https://news.yahoo.co.jp/articles/26d5913a2a3df8cb88a79a1f1972a0a6cf71e17e",
@@ -1639,6 +1904,48 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b2cc94a8eab8",
+      "title": "仙台市 試験日程共有へ 東北大入試 ポケGOと重複",
+      "url": "https://kahoku.news/articles/JY73044ZG0KHN.html",
+      "host": "kahoku.news",
+      "source": "河北新報オンライン",
+      "summary": "",
+      "publishedAt": "2026-11-20T22:00:00.000Z",
+      "image": "https://kahoku.news/images/2026/11/20/JY73044ZG0KHN/001_size7.jpg?timestamp=20261122055810",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "8f530d38249c",
+      "title": "山本美月が「ポケモンGO」リアルイベントに参加していた (2026年11月21日掲載)",
+      "url": "https://news.livedoor.com/topics/detail/32866971/",
+      "host": "news.livedoor.com",
+      "source": "ライブドアニュース",
+      "summary": "",
+      "publishedAt": "2026-11-20T21:50:00.000Z",
+      "image": "https://image.news.livedoor.com/newsimage/stf/8/b/8b6d9_60_bc126c39_27007f4d.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "5d9def4fe559",
@@ -1703,7 +2010,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "64209e90cd0b",
@@ -1724,7 +2031,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "39726ae1de1b",
@@ -1746,6 +2053,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "240cef3c49bf",
+      "title": "【ポケモンGO】ワイルドエリア2026グローバルの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/575992",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-20T17:08:31.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575992.png?date=1789015513",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "58cdd4dc00b9",
@@ -1783,6 +2111,50 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "1ae391affadb",
+      "title": "【ポケモンGO】ポケモンジェットコラボイベントの開催期間と場所",
+      "url": "https://pokemongo.gamewith.jp/article/show/567180",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-20T16:45:29.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/567180.png?date=1783412695",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fa40acc013ca",
+      "title": "11月21日（土）は「イーブイの日」！劇場版短編作品『ピカチュウとイーブイ☆フレンズ』をABEMAで当日午後1時より無",
+      "url": "https://news.nicovideo.jp/watch/nw20016969?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-20T16:30:21.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1877,8 +2249,29 @@
     },
     {
       "id": "d25b7aacbd0c",
-      "title": "11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送 | アニメニュース | アニメフリークス",
-      "url": "https://times.abema.tv/articles/-/10291001",
+      "title": "11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送",
+      "url": "https://news.infoseek.co.jp/amp/article/abematimes_10291001/",
+      "host": "news.infoseek.co.jp",
+      "source": "Infoseek",
+      "summary": "",
+      "publishedAt": "2026-11-20T13:10:00.000Z",
+      "image": "https://media.image.infoseek.co.jp/isnews/photos/abematimes/abematimes_10291001_0-enlarge.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "666d7aacc6d8",
+      "title": "【写真・画像】11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送 1枚目",
+      "url": "https://times.abema.tv/articles/photo/10291001?utm_campaign",
       "host": "times.abema.tv",
       "source": "ABEMA TIMES",
       "summary": "",
@@ -1894,7 +2287,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "2b999a92516f",
@@ -2027,60 +2420,18 @@
       "isNew": false
     },
     {
-      "id": "d5353b8fc8bd",
-      "title": "『ポケモン』11月21日は「イーブイの日」！ 劇場版短編作品『ピカチュウとイーブイ☆フレンズ』がABEMAで無料放送決定",
-      "url": "http://www.excite.co.jp/news/article/pashplus_EXCITE_503901/",
-      "host": "excite.co.jp",
-      "source": "Excite エキサイト",
-      "summary": "",
-      "publishedAt": "2026-11-20T11:00:00.000Z",
-      "image": "",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "76b9444ce489",
-      "title": "『ポケモン』クリムガン出現でバトル！ 第159話あらすじ＆場面カット解禁",
-      "url": "https://www.oricon.co.jp/news/2494049/",
+      "title": "『ポケモン』クリムガン出現でバトル! 第159話あらすじ&場面カット解禁",
+      "url": "https://www.oricon.co.jp/news/2494049/photo/2/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-20T10:25:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2495000/2494049/20261119_171648_p_o_43858202.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2495000/2494049/20261119_171644_p_o_95096359.jpg",
       "categories": [
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "0c36a702358d",
-      "title": "【ポケポケ】こいぬまみれデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565901",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-20T10:12:32.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565901.png?date=1782796990",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2106,7 +2457,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c1295aaeb39e",
@@ -2170,6 +2521,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "910b8394ad42",
+      "title": "【ポケモンGO】わくわくPokémon GO Lab.大調査の開催期間と内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/580836",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-20T08:10:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/580836.png?date=1791530418",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "029feb1ab7ab",
@@ -2257,6 +2629,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "88ce3de51ba3",
+      "title": "おはスタ【ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！】",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611200705.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "テレビ東京",
+      "summary": "",
+      "publishedAt": "2026-11-20T07:23:32.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "b1eb4df47e7c",
@@ -2676,6 +3067,28 @@
       "isNew": false
     },
     {
+      "id": "5bb20f34222e",
+      "title": "山本美月、『ポケモンGO』イベント参戦のオフショットを公開 「可愛すぎる…」など絶賛の声",
+      "url": "https://www.rbbtoday.com/article/2026/11/20/256191.html",
+      "host": "rbbtoday.com",
+      "source": "RBB TODAY",
+      "summary": "",
+      "publishedAt": "2026-11-20T02:09:04.000Z",
+      "image": "",
+      "categories": [
+        "new",
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "9e41c8f0b13d",
       "title": "「ポケモンジェット 青」就航記念！ANAと『Pokémon GO』のパートナーシップで、新たな冒険へ飛び立とう！",
       "url": "https://pokemongo.com/ja/news/2026_ana_blue",
@@ -2716,6 +3129,69 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "a78bf40f0f00",
+      "title": "ムゲンダイナはメガレックウザと並ぶドラゴン最強アタッカー / 「ダイマックスほう」はソロマックスバトルの救世主【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3756814",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-20T01:45:38.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_7952.jpeg",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c9447e49bbbb",
+      "title": "（写真）ポケモン短編アニメ18作品がディズニープラスに登場！ 12.18から一挙見放題配信 - アニメ･ゲーム - ニュース",
+      "url": "https://www.crank-in.net/gallery/news/194607/2?utm_source",
+      "host": "crank-in.net",
+      "source": "クランクイン！",
+      "summary": "",
+      "publishedAt": "2026-11-20T01:21:46.000Z",
+      "image": "https://www.crank-in.net/img/db/264118194191176_1200.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "08ab36f23249",
+      "title": "【垢BAN】アカウント停止の解除を持ちかける不審なDMに要注意 / 窓口は公式のヘルプセンターしか存在しません【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3756810",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-20T01:15:27.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/10/4310b16c0aa936da26c8fc2af7d0b8ff.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6c419b51f768",
@@ -2845,6 +3321,29 @@
       "isNew": false
     },
     {
+      "id": "de76189d39c5",
+      "title": "ポケモン短編アニメ18作品、12月18日から配信 ディズニープラスで新作『ネギガナイトとピチューの冒険』来年配信",
+      "url": "https://www.oricon.co.jp/news/2493982/full/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-20T01:00:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2494000/2493982/20261119_150205_p_o_26960531.jpg",
+      "categories": [
+        "media",
+        "new"
+      ],
+      "series": [
+        "main",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "b5e197e0b753",
       "title": "ポケモン短編アニメ18作品がディズニープラスで一挙見放題配信決定",
       "url": "https://www.cinematoday.jp/news/N0158065",
@@ -2883,29 +3382,6 @@
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "de76189d39c5",
-      "title": "ポケモン短編アニメ18作品、12月18日から配信 ディズニープラスで新作『ネギガナイトとピチューの冒険』来年配信",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTkpSUXVFUHJpZmpLYlZIRWE4TVNkSFlJelRjdVBiWWEtZ2dXcUptX3JQQVhHMzhaYmxONWJMU3BBNWVSX0NiS1E2MHYyWHlYVjhGdmxUNlJDbFVaT0dOaGV2UXUtM2VtY1NCLWQ1RkZadnBZYW9NVC1jZDhJU0xyVjRkM1BCUdIBhgFBVV95cUxPTkpSUXVFUHJpZmpLYlZIRWE4TVNkSFlJelRjdVBiWWEtZ2dXcUptX3JQQVhHMzhaYmxONWJMU3BBNWVSX0NiS1E2MHYyWHlYVjhGdmxUNlJDbFVaT0dOaGV2UXUtM2VtY1NCLWQ1RkZadnBZYW9NVC1jZDhJU0xyVjRkM1BCUQ?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
-      "summary": "",
-      "publishedAt": "2026-11-20T01:00:00.000Z",
-      "image": "",
-      "categories": [
-        "media",
-        "new"
-      ],
-      "series": [
-        "main",
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2952,6 +3428,48 @@
       "isNew": false
     },
     {
+      "id": "ea9daf5f48f6",
+      "title": "地域限定のペラップが実質無料で配布中 / ゲットの過程で英語力まで上がってしまうというボーナスタイム【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3756544",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-19T23:30:30.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1118_pokemon-5.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "781aebb2bb25",
+      "title": "【悲報】ムゲンダイナを0からフル強化するのは不可能 / アメ＆アメXLが8900個ずつ必要という現実【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3756542",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-19T23:00:43.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/10/IMG_6734.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "bc627621f846",
       "title": "【ポケポケ】「デュアルフュージョン」はどっちがおすすめ？【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/585949",
@@ -2971,7 +3489,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "6fef759720df",
@@ -3039,13 +3557,13 @@
     },
     {
       "id": "dcdde852906d",
-      "title": "ポケモンカードなど１００万円相当盗んだか ブラジル国籍の１８歳男逮捕 盗んだバイクで移動 広島",
-      "url": "https://www.fnn.jp/articles/-/1155837",
-      "host": "fnn.jp",
-      "source": "FNNプライムオンライン",
+      "title": "ポケモンカードなど１００万円相当盗んだか ブラジル国籍の１８歳男逮捕 盗んだバイクで移動 広島 (テレビ新広島)",
+      "url": "https://news.yahoo.co.jp/articles/577827204d54dddef8014a54256ecf48c98209e4/images/000",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
       "summary": "",
-      "publishedAt": "2026-11-19T10:27:00.000Z",
-      "image": "https://fnn.ismcdn.jp/mwimgs/c/3/600/img_c33af1f2e2f181c2d17e94a4f75e990c31968.jpg",
+      "publishedAt": "2026-11-19T10:28:01.000Z",
+      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26jQxFm1XpUTEfHwtDDh9cqsF6Kj5BBvMUD9_SFpdHjpujG3NPvwb0hAO7sEevfeig4K7eQnztuFWK0bjQyLHujrsANjYuhzz2Xlhf4aPxT4E",
       "categories": [
         "tcgcat"
       ],
@@ -3115,6 +3633,49 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "1aabe769145f",
+      "title": "アップルがポケモン30周年を記念した特別デザインの「カジッチュ」Apple Gift Cardを限定発売",
+      "url": "https://dime.jp/genre/2172840/",
+      "host": "dime.jp",
+      "source": "@DIME アットダイム",
+      "summary": "",
+      "publishedAt": "2026-11-19T07:12:57.000Z",
+      "image": "https://dime.jp/wp-content/uploads/2026/11/2117-02.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a3c6e44073d1",
+      "title": "【ポケモンGO最新情報】ムゲンダイナ再来イベント攻略！無料マックス粒子で最大6回挑戦＆Twitch限定報酬の受け取り方",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSGstZ1d5RVpfcDRNNjk4b29RU1R6N0pJd2ZaZUpMdFVZcjRIczdMSGZiUTg4WkhGZ3VwZnJnMkhkXzZsbzhKWVNkaVFGQUd2U2NlREpNZVZiR05IUTg2bTduWjltVGh6djh1OWNzSnNMMVkwR0FGdWpKNFdFZ2VfV3JHcXhJeFVtNER6VlljcWdpbmRQUzMxZWgwX25wM3FLaTM1R1NHWjFYNjU0Q01MQ1lNaWxQc2JybkNSd2F2QjJ4c2xXZWI2YzE0Z3JiSlMtdmNzMVpOOEtHUlM0Y0Voak56TGxpRkxIdmVHSVRDWEFLYk9OTEJ3R2tqa2Q?oc=5",
+      "host": "mmoexp.com",
+      "source": "MMOEXP",
+      "summary": "",
+      "publishedAt": "2026-11-19T06:49:45.000Z",
+      "image": "",
+      "categories": [
+        "event",
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -3138,7 +3699,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "f187fca8a488",
@@ -3184,6 +3745,27 @@
       "isNew": false
     },
     {
+      "id": "f2245413a23b",
+      "title": "【ポケモンGO】レガシー技一覧とおすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/55441",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T02:17:05.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/55441.png?date=1600589673",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "e96ad6ec5df4",
       "title": "閉店後のカードショップに侵入…ポケカなど10箱（総額約110万円相当）窃盗か 埼玉県川口市のブラジル国籍男（18）を逮捕 直前に盗んだバイクで移動か 広島（RCC中国放送）",
       "url": "https://news.yahoo.co.jp/articles/1679c136cb0f35e8c14259f29dbbafebdd77498f",
@@ -3200,6 +3782,25 @@
         "tcg",
         "anime"
       ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "d7a7b7b79c30",
+      "title": "山本美月さんが語る、ときめき『ポケモン GO』ライフ",
+      "url": "https://ananweb.jp/categories/entertainment/96279",
+      "host": "ananweb.jp",
+      "source": "anan",
+      "summary": "",
+      "publishedAt": "2026-11-19T01:39:28.000Z",
+      "image": "https://api.ananweb.jp/wp-content/uploads/2026/05/3bb1592fd5d07ec1bdf5277ecbed7f46.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -3228,6 +3829,48 @@
       "isNew": false
     },
     {
+      "id": "d27ddc80013c",
+      "title": "【ポケモンGO】ムウマの色違いと進化先・個体値早見表",
+      "url": "https://pokemongo.gamewith.jp/article/show/35842",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:32:32.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/35842.png?date=1560497007",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f2d44b2027eb",
+      "title": "【ポケモンGO】ハピナスの色違いとおすすめ技・弱点",
+      "url": "https://pokemongo.gamewith.jp/article/show/35887",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:32:01.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/35887.png?date=1556095107",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "7efa33e6bdcc",
       "title": "盗んだ原付バイクで移動しカードショップからポケカ10箱盗んだか 埼玉県の18歳の男を逮捕（HOME広島ホームテレビ）",
       "url": "https://news.yahoo.co.jp/articles/71c68ec76c3e55d1f277ef920789439f15a6334b",
@@ -3241,6 +3884,132 @@
       ],
       "series": [
         "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "f31d91932f17",
+      "title": "【ポケモンGO】レパルダスの色違いとおすすめ技・弱点",
+      "url": "https://pokemongo.gamewith.jp/article/show/36393",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:28:15.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/36393.png?date=1568675423",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7c16cf1fff3c",
+      "title": "【ポケモンGO】ガチグマの色違いとおすすめ技・弱点",
+      "url": "https://pokemongo.gamewith.jp/article/show/319414",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:21:17.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/319414.png?date=1668230633",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6882aba577ed",
+      "title": "【ポケモンGO】サーフゴーの色違いとおすすめ技・弱点",
+      "url": "https://pokemongo.gamewith.jp/article/show/389805",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:21:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/389805.png?date=1678251555",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "cd9162512c5f",
+      "title": "【ポケモンGO】コレクレー(とほフォルム)の色違いと進化先・個体値早見表",
+      "url": "https://pokemongo.gamewith.jp/article/show/389767",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:21:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/389767.png?date=1677519816",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2685baa03c6e",
+      "title": "【ポケモンGO】ラウドボーンの色違いとおすすめ技・弱点",
+      "url": "https://pokemongo.gamewith.jp/article/show/413968",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:21:09.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/413968.png?date=1693905379",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "451e0dcb9d4b",
+      "title": "【ポケモンGO】ソウブレイズの色違いとおすすめ技・弱点",
+      "url": "https://pokemongo.gamewith.jp/article/show/413934",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-19T00:20:41.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/413934.png?date=1709612608",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
