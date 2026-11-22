@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T12:30:14.953Z",
+  "updatedAt": "2026-11-22T13:00:19.871Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 24
+      "count": 25
     },
     {
       "id": "tcgcat",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 12
+      "count": 11
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 46
+      "count": 45
     }
   ],
   "series": [
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 52
+      "count": 50
     },
     {
       "name": "Yahoo!ニュース",
@@ -116,12 +116,12 @@
       "count": 7
     },
     {
-      "name": "ポケットモンスターオフィシャルサイト",
+      "name": "SNKRDUNK",
       "count": 4
     },
     {
-      "name": "SNKRDUNK",
-      "count": 3
+      "name": "ポケットモンスターオフィシャルサイト",
+      "count": 4
     },
     {
       "name": "玩具人 TOY PEOPLE",
@@ -137,6 +137,10 @@
     },
     {
       "name": "au Webポータル",
+      "count": 2
+    },
+    {
+      "name": "読売新聞",
       "count": 2
     },
     {
@@ -185,10 +189,6 @@
     },
     {
       "name": "MMOEXP",
-      "count": 1
-    },
-    {
-      "name": "読売新聞",
       "count": 1
     },
     {
@@ -713,13 +713,34 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-22T12:00:21.178Z",
-    "previousCount": 150,
-    "newCount": 10
+    "previousAt": "2026-11-22T12:30:14.953Z",
+    "previousCount": 149,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-22T13:00:14.953Z",
+  "nextUpdateAt": "2026-11-22T13:30:19.871Z",
   "items": [
+    {
+      "id": "7ce29a27e667",
+      "title": "【ポケカ】MEGAドリームexの当たりランキング/買取相場/封入率/レア別相場/値段まとめ",
+      "url": "https://snkrdunk.com/articles/29152/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-22T10:30:21.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/c2310c89-54fd-40da-b337-597a68223479.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "c8ea1588c640",
       "title": "【ポケモンGO】黄昏時の願いイベントの開催期間とボーナス",
@@ -739,7 +760,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01eef2d84448",
@@ -844,18 +865,20 @@
       "isNew": false
     },
     {
-      "id": "5395afe6b3a8",
-      "title": "【ぽこあポケモン】りんごキッチンの出現ポケモンと必要アイテム【ぽこポケ】",
-      "url": "https://gamewith.jp/pocoapokemon/587833",
+      "id": "13d897ffaed4",
+      "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-22T07:31:31.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/587833.png?date=1794822026",
+      "publishedAt": "2026-11-22T06:44:35.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583349.png?date=1792503111",
       "categories": [
-        "other"
+        "tcgcat"
       ],
-      "series": [],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1130,7 +1153,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "735f3f5b04e0",
@@ -1350,27 +1373,6 @@
       "summary": "",
       "publishedAt": "2026-11-21T17:59:17.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565898.png?date=1782796925",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "13d897ffaed4",
-      "title": "【ポケポケ】新パック「デュアルフュージョン」の収録カードと当たりカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/583349",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-21T17:27:44.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/583349.png?date=1792503111",
       "categories": [
         "tcgcat"
       ],
@@ -1892,7 +1894,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0051ca37f286",
@@ -1913,7 +1915,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4f6435cc8285",
@@ -2013,7 +2015,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "3a7de21ceb40",
@@ -2168,7 +2170,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-20T22:00:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/20/JY73044ZG0KHN/001_size7.jpg?timestamp=20261122213033",
+      "image": "https://kahoku.news/images/2026/11/20/JY73044ZG0KHN/001_size7.jpg?timestamp=20261122213417",
       "categories": [
         "other"
       ],
@@ -2669,7 +2671,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "9dce866417ef",
@@ -2712,7 +2714,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "07068a774ad8",
@@ -2764,7 +2766,7 @@
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-20T10:12:28.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570622.png?date=1785392737",
+      "image": "",
       "categories": [
         "tcgcat"
       ],
@@ -2972,7 +2974,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "275a913d2f2e",
@@ -3151,7 +3153,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンセンターは、11月28日より新たなグッズシリーズ「PIKA PIKA Fresh Farm」を発売する。価格はぬいるぐるみが3,850円など。ポケモンセンターオンラインでは11月26日10時より販売される。",
       "publishedAt": "2026-11-20T05:53:16.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2158/216/19.jpg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -3184,6 +3186,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "acb56cbaddd0",
+      "title": "全日空「ポケモンジェット 青」初便を石川・輪島のポケモン空港へ運航…記念イベントも",
+      "url": "https://www.yomiuri.co.jp/economy/20261120-GYT1T00253/",
+      "host": "yomiuri.co.jp",
+      "source": "読売新聞",
+      "summary": "",
+      "publishedAt": "2026-11-20T05:41:00.000Z",
+      "image": "https://www.yomiuri.co.jp/media/2026/11/20261120-GYT1I00255-1.jpg?type=ogpw",
+      "categories": [
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "13e623adac55",
@@ -3409,7 +3430,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5bb20f34222e",
@@ -3816,28 +3837,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "bc627621f846",
-      "title": "【ポケポケ】「デュアルフュージョン」はどっちがおすすめ？【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/585949",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-19T16:19:47.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585949.png?date=1793263680",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "6fef759720df",
