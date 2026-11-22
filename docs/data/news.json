@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-22T20:00:20.116Z",
+  "updatedAt": "2026-11-22T20:30:16.571Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 147,
+  "total": 150,
   "todayCount": 5,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 16
+      "count": 17
     },
     {
       "id": "update",
@@ -37,7 +37,7 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 18
+      "count": 20
     },
     {
       "id": "guide",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 43
+      "count": 44
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 26
+      "count": 27
     },
     {
       "id": "go",
@@ -79,7 +79,7 @@
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 16
+      "count": 19
     },
     {
       "id": "unite",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 50
+      "count": 49
     },
     {
       "name": "Yahoo!ニュース",
@@ -132,6 +132,10 @@
       "count": 3
     },
     {
+      "name": "山陽新聞",
+      "count": 3
+    },
+    {
       "name": "GAME Watch",
       "count": 3
     },
@@ -148,7 +152,7 @@
       "count": 2
     },
     {
-      "name": "山陽新聞",
+      "name": "ABEMA TIMES",
       "count": 2
     },
     {
@@ -161,6 +165,10 @@
     },
     {
       "name": "オリコンニュース",
+      "count": 2
+    },
+    {
+      "name": "クランクイン！",
       "count": 2
     },
     {
@@ -208,11 +216,7 @@
       "count": 1
     },
     {
-      "name": "ABEMA TIMES",
-      "count": 1
-    },
-    {
-      "name": "Excite エキサイト",
+      "name": "TRILL",
       "count": 1
     },
     {
@@ -229,6 +233,10 @@
     },
     {
       "name": "AIRLINE web",
+      "count": 1
+    },
+    {
+      "name": "テレビ東京",
       "count": 1
     },
     {
@@ -264,10 +272,6 @@
       "count": 1
     },
     {
-      "name": "クランクイン！",
-      "count": 1
-    },
-    {
       "name": "4Gamer.net",
       "count": 1
     }
@@ -282,7 +286,7 @@
       "leadSource": "4Gamer",
       "publishedAt": "2026-11-20T01:14:02.000Z",
       "sourceCount": 9,
-      "articleCount": 10,
+      "articleCount": 11,
       "categories": [
         "media",
         "new"
@@ -359,7 +363,7 @@
       "image": "https://times-abema.ismcdn.jp/mwimgs/e/b/1200w/img_ebd51caaedb38614b04068152286aa78462429.jpg",
       "leadSource": "ABEMA TIMES",
       "publishedAt": "2026-11-20T13:10:00.000Z",
-      "sourceCount": 4,
+      "sourceCount": 3,
       "articleCount": 4,
       "categories": [
         "media"
@@ -371,10 +375,10 @@
       ],
       "articles": [
         {
-          "title": "『ポケモン』11月21日は「イーブイの日」！ 劇場版短編作品『ピカチュウとイーブイ☆フレンズ』がABEMAで無料放送決定",
-          "url": "http://www.excite.co.jp/news/article/pashplus_EXCITE_503901/",
-          "source": "Excite エキサイト",
-          "publishedAt": "2026-11-20T11:00:00.000Z",
+          "title": "【写真・画像】11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送 1枚目",
+          "url": "https://times.abema.tv/articles/photo/10291001?utm_campaign",
+          "source": "ABEMA TIMES",
+          "publishedAt": "2026-11-20T13:10:00.000Z",
           "isPR": false
         },
         {
@@ -445,7 +449,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-11-22T16:28:21.000Z",
       "sourceCount": 2,
-      "articleCount": 20,
+      "articleCount": 19,
       "categories": [
         "tcgcat",
         "guide"
@@ -747,12 +751,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-22T19:30:16.690Z",
-    "previousCount": 150,
-    "newCount": 0
+    "previousAt": "2026-11-22T20:00:20.116Z",
+    "previousCount": 147,
+    "newCount": 5
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-22T20:30:20.116Z",
+  "nextUpdateAt": "2026-11-22T21:00:16.571Z",
   "items": [
     {
       "id": "13d897ffaed4",
@@ -1674,27 +1678,6 @@
       "isNew": false
     },
     {
-      "id": "ae4709b0349e",
-      "title": "【ポケポケ】メガジュカインexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/559107",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-21T18:38:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/559107.png?date=1777351550",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "64209e90cd0b",
       "title": "【ポケポケ】メガディアンシーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
@@ -2202,6 +2185,30 @@
       "isNew": false
     },
     {
+      "id": "7d48497941f1",
+      "title": "『ポケモン』新作映画も主人公交代！サトシ出ずファン嘆き ポケカ題材の作品で2027年公開",
+      "url": "https://www.sanyonews.jp/article/1981106?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-21T01:34:15.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/c/a/9/d/ca9d61bb8616f2e0f17c26dc7e60723c_1.jpg",
+      "categories": [
+        "new",
+        "tcgcat"
+      ],
+      "series": [
+        "main",
+        "tcg",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "371035340240",
       "title": "ムゲンダイナのフル強化に必要な課金額は約3万円 →ただし3時間ではアメXLが半分も集まらない【ポケモンGO】",
       "url": "https://getnews.jp/archives/3757191",
@@ -2312,7 +2319,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-20T22:00:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/20/JY73044ZG0KHN/001_size7.jpg?timestamp=20261123040728",
+      "image": "https://kahoku.news/images/2026/11/20/JY73044ZG0KHN/001_size7.jpg?timestamp=20261123053031",
       "categories": [
         "other"
       ],
@@ -2560,6 +2567,27 @@
       "isNew": false
     },
     {
+      "id": "cab773e356b5",
+      "title": "放送開始から２１年越し【ポケモン】大人気キャラの“意外すぎる事実”が判明→「マジか！？」「驚きを隠せない」相次いだ反響",
+      "url": "https://trilltrill.jp/articles/5140395",
+      "host": "trilltrill.jp",
+      "source": "TRILL",
+      "summary": "",
+      "publishedAt": "2026-11-20T13:35:00.000Z",
+      "image": "https://media.trilltrill.jp/articles/5140395/cover-image.3d562109d273034c8025fbb207fa6ec6?w=1200",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "d25b7aacbd0c",
       "title": "11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送 | アニメニュース | アニメフリークス",
       "url": "https://times.abema.tv/articles/-/10291001",
@@ -2579,6 +2607,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "666d7aacc6d8",
+      "title": "【写真・画像】11月21日は「イーブイの日」！劇場版短編『ピカチュウとイーブイ☆フレンズ』がABEMAで放送 1枚目",
+      "url": "https://times.abema.tv/articles/photo/10291001?utm_campaign",
+      "host": "times.abema.tv",
+      "source": "ABEMA TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-20T13:10:00.000Z",
+      "image": "https://times-abema.ismcdn.jp/mwimgs/e/b/1200w/img_ebd51caaedb38614b04068152286aa78462429.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "428f536cfccb",
@@ -2667,35 +2716,14 @@
       "isNew": false
     },
     {
-      "id": "d5353b8fc8bd",
-      "title": "『ポケモン』11月21日は「イーブイの日」！ 劇場版短編作品『ピカチュウとイーブイ☆フレンズ』がABEMAで無料放送決定",
-      "url": "http://www.excite.co.jp/news/article/pashplus_EXCITE_503901/",
-      "host": "excite.co.jp",
-      "source": "Excite エキサイト",
-      "summary": "",
-      "publishedAt": "2026-11-20T11:00:00.000Z",
-      "image": "",
-      "categories": [
-        "media"
-      ],
-      "series": [
-        "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "76b9444ce489",
-      "title": "『ポケモン』クリムガン出現でバトル！ 第159話あらすじ＆場面カット解禁",
-      "url": "https://www.oricon.co.jp/news/2494049/",
+      "title": "『ポケモン』クリムガン出現でバトル! 第159話あらすじ&場面カット解禁",
+      "url": "https://www.oricon.co.jp/news/2494049/photo/2/",
       "host": "oricon.co.jp",
       "source": "オリコンニュース",
       "summary": "",
       "publishedAt": "2026-11-20T10:25:00.000Z",
-      "image": "https://contents.oricon.co.jp/upimg/news/2495000/2494049/20261119_171648_p_o_43858202.jpg",
+      "image": "https://contents.oricon.co.jp/upimg/news/2495000/2494049/20261119_171644_p_o_95096359.jpg",
       "categories": [
         "other"
       ],
@@ -3137,6 +3165,25 @@
       "isNew": false
     },
     {
+      "id": "88ce3de51ba3",
+      "title": "おはスタ【ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！】",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611200705.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "テレビ東京",
+      "summary": "",
+      "publishedAt": "2026-11-20T07:23:32.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "bc5bc8c84311",
       "title": "【ポケモンチャンピオンズ】SVでしか出現しないポケモン一覧",
       "url": "https://gamewith.jp/pokemon-champions/552283",
@@ -3251,7 +3298,7 @@
       "source": "GAME Watch",
       "summary": "ポケモンセンターは、11月28日より新たなグッズシリーズ「PIKA PIKA Fresh Farm」を発売する。価格はぬいるぐるみが3,850円など。ポケモンセンターオンラインでは11月26日10時より販売される。",
       "publishedAt": "2026-11-20T05:53:16.000Z",
-      "image": "",
+      "image": "https://game.watch.impress.co.jp/img/gmw/list/2158/216/19.jpg",
       "categories": [
         "goodscat"
       ],
@@ -3747,6 +3794,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c9447e49bbbb",
+      "title": "（写真）ポケモン短編アニメ18作品がディズニープラスに登場！ 12.18から一挙見放題配信 - アニメ･ゲーム - ニュース",
+      "url": "https://www.crank-in.net/gallery/news/194607/2",
+      "host": "crank-in.net",
+      "source": "クランクイン！",
+      "summary": "",
+      "publishedAt": "2026-11-20T01:00:00.000Z",
+      "image": "https://www.crank-in.net/img/db/264118194191176_1200.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "4661c2e70463",
