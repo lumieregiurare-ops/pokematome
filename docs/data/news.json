@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-22T20:30:16.571Z",
+  "updatedAt": "2026-11-22T21:00:16.260Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 150,
+  "total": 148,
   "todayCount": 5,
   "categories": [
     {
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 44
+      "count": 42
     }
   ],
   "series": [
@@ -180,10 +180,6 @@
       "count": 1
     },
     {
-      "name": "www.tv-tokyo.co.jp",
-      "count": 1
-    },
-    {
       "name": "Goal.com",
       "count": 1
     },
@@ -233,10 +229,6 @@
     },
     {
       "name": "AIRLINE web",
-      "count": 1
-    },
-    {
-      "name": "テレビ東京",
       "count": 1
     },
     {
@@ -449,7 +441,7 @@
       "leadSource": "GameWith",
       "publishedAt": "2026-11-22T16:28:21.000Z",
       "sourceCount": 2,
-      "articleCount": 19,
+      "articleCount": 20,
       "categories": [
         "tcgcat",
         "guide"
@@ -496,6 +488,13 @@
           "isPR": false
         },
         {
+          "title": "【ポケポケ】メガカイリューexデッキのレシピと評価【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/586071",
+          "source": "GameWith",
+          "publishedAt": "2026-11-22T12:46:04.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
           "source": "GameWith",
@@ -507,13 +506,6 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
           "source": "GameWith",
           "publishedAt": "2026-11-22T11:49:18.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】はじまりのパートナーの収録カード一覧【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/585818",
-          "source": "GameWith",
-          "publishedAt": "2026-11-22T10:48:20.000Z",
           "isPR": false
         }
       ]
@@ -751,12 +743,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-22T20:00:20.116Z",
-    "previousCount": 147,
-    "newCount": 5
+    "previousAt": "2026-11-22T20:30:16.571Z",
+    "previousCount": 150,
+    "newCount": 1
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-22T21:00:16.571Z",
+  "nextUpdateAt": "2026-11-22T21:30:16.260Z",
   "items": [
     {
       "id": "13d897ffaed4",
@@ -1050,6 +1042,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "0051ca37f286",
+      "title": "【ポケポケ】メガカイリューexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586071",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-22T12:46:04.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586071.png?date=1793283564",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "10e3a0056245",
@@ -1761,25 +1774,6 @@
       "isNew": false
     },
     {
-      "id": "3a5a0473225f",
-      "title": "ポケモンとどこいく！？【東京ホテイソン、３時のヒロイン、土佐兄弟と進化合宿】 - www.tv-tokyo.co.jp",
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/26884_202611290730.html",
-      "host": "tv-tokyo.co.jp",
-      "source": "www.tv-tokyo.co.jp",
-      "summary": "",
-      "publishedAt": "2026-11-21T15:37:13.000Z",
-      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/da/c1/bf595f65a2200b900b3085f66f08.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "38739a09c501",
       "title": "【ポケモンGO】GOパス大きな足跡のリワード内容と挑戦期間",
       "url": "https://pokemongo.gamewith.jp/article/show/585785",
@@ -2206,7 +2200,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "371035340240",
@@ -2319,7 +2313,7 @@
       "source": "河北新報オンライン",
       "summary": "",
       "publishedAt": "2026-11-20T22:00:00.000Z",
-      "image": "https://kahoku.news/images/2026/11/20/JY73044ZG0KHN/001_size7.jpg?timestamp=20261123053031",
+      "image": "https://kahoku.news/images/2026/11/20/JY73044ZG0KHN/001_size7.jpg?timestamp=20261123060034",
       "categories": [
         "other"
       ],
@@ -2585,7 +2579,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "d25b7aacbd0c",
@@ -2627,7 +2621,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "428f536cfccb",
@@ -2787,27 +2781,6 @@
       "summary": "",
       "publishedAt": "2026-11-20T10:12:52.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546460.png?date=1772099486",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3febffdeb637",
-      "title": "【ポケポケ】オノノクス&アイリスデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/551311",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-20T10:12:48.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551311.png?date=1774496661",
       "categories": [
         "tcgcat"
       ],
@@ -3163,25 +3136,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
-    },
-    {
-      "id": "88ce3de51ba3",
-      "title": "おはスタ【ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！】",
-      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611200705.html",
-      "host": "tv-tokyo.co.jp",
-      "source": "テレビ東京",
-      "summary": "",
-      "publishedAt": "2026-11-20T07:23:32.000Z",
-      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
     },
     {
       "id": "bc5bc8c84311",
@@ -3548,7 +3502,7 @@
       "source": "GAME Watch",
       "summary": "",
       "publishedAt": "2026-11-20T01:55:24.000Z",
-      "image": "https://game.watch.impress.co.jp/img/gmw/list/2158/083/1.jpg",
+      "image": "",
       "categories": [
         "media"
       ],
@@ -3814,7 +3768,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4661c2e70463",
