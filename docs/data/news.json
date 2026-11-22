@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T23:30:19.285Z",
+  "updatedAt": "2026-11-22T00:00:16.555Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 23
+      "count": 22
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 40
     },
     {
       "id": "goodscat",
@@ -37,12 +37,12 @@
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 18
+      "count": 19
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 15
+      "count": 14
     },
     {
       "id": "community",
@@ -69,17 +69,17 @@
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 32
+      "count": 31
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 39
+      "count": 40
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 17
+      "count": 18
     },
     {
       "id": "unite",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 41
+      "count": 40
     },
     {
       "name": "Yahoo!ニュース",
@@ -113,7 +113,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 7
+      "count": 8
     },
     {
       "name": "ポケットモンスターオフィシャルサイト",
@@ -145,10 +145,6 @@
     },
     {
       "name": "MMOEXP",
-      "count": 2
-    },
-    {
-      "name": "読売新聞",
       "count": 2
     },
     {
@@ -185,6 +181,10 @@
     },
     {
       "name": "YouTube",
+      "count": 1
+    },
+    {
+      "name": "読売新聞",
       "count": 1
     },
     {
@@ -277,6 +277,10 @@
     },
     {
       "name": "4Gamer.net",
+      "count": 1
+    },
+    {
+      "name": "Nintendo",
       "count": 1
     },
     {
@@ -738,12 +742,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-21T23:00:18.999Z",
-    "previousCount": 151,
-    "newCount": 1
+    "previousAt": "2026-11-21T23:30:19.285Z",
+    "previousCount": 150,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-22T00:00:19.285Z",
+  "nextUpdateAt": "2026-11-22T00:30:16.555Z",
   "items": [
     {
       "id": "05b09cc76a18",
@@ -1043,6 +1047,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "09a1fbb9585b",
+      "title": "【ポケカ】ミュウex URの買取価格と最新相場と値段推移｜ポケモンカード151",
+      "url": "https://snkrdunk.com/articles/18649/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-21T14:00:05.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/e738c02f-9252-439f-93fa-f69baca82459.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "3f4e3bd3edff",
@@ -2723,25 +2748,6 @@
       "isNew": false
     },
     {
-      "id": "acb56cbaddd0",
-      "title": "全日空「ポケモンジェット 青」初便を石川・輪島のポケモン空港へ運航…記念イベントも",
-      "url": "https://www.yomiuri.co.jp/economy/20261120-GYT1T00253/",
-      "host": "yomiuri.co.jp",
-      "source": "読売新聞",
-      "summary": "",
-      "publishedAt": "2026-11-20T05:41:00.000Z",
-      "image": "https://www.yomiuri.co.jp/media/2026/11/20261120-GYT1I00255-1.jpg?type=ogpw",
-      "categories": [
-        "event"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "13e623adac55",
       "title": "「ゆきだるまぬいぐるみ」の新作が、ポケモンセンターに登場！｜ポケットモンスターオフィシャルサイト",
       "url": "https://www.pokemon.co.jp/goods/2026/11/261120_to01.html",
@@ -3499,6 +3505,27 @@
       "isNew": false
     },
     {
+      "id": "bcab8739673c",
+      "title": "「ポケモン総選挙720」第１位！ この夏、全国の映画館で「ゲッコウガ」を受け取ろう。",
+      "url": "https://www.nintendo.com/jp/topics/article/570c4cd4-2d56-11e6-8360-063b7ac45a6d",
+      "host": "nintendo.com",
+      "source": "Nintendo",
+      "summary": "",
+      "publishedAt": "2026-11-19T10:27:57.000Z",
+      "image": "https://assets.topics.apps-jp.nintendo.com/image/2019/08/27031542276512/820/gekkoga_820_462.png",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b9b7fba1b44a",
       "title": "「My Pokémon Party」 に関するお知らせ",
       "url": "https://shop.pokemon.co.jp/ja/shop/common/news/202611/000727.html",
@@ -3841,27 +3868,6 @@
       "summary": "",
       "publishedAt": "2026-11-19T00:21:17.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/319414.png?date=1668230633",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cd9162512c5f",
-      "title": "【ポケモンGO】コレクレー(とほフォルム)の色違いと進化先・個体値早見表",
-      "url": "https://pokemongo.gamewith.jp/article/show/389767",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-19T00:21:13.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/389767.png?date=1677519816",
       "categories": [
         "guide"
       ],
