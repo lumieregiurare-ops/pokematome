@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T08:00:16.224Z",
+  "updatedAt": "2026-11-23T08:30:16.426Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
@@ -7,12 +7,12 @@
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
   "total": 128,
-  "todayCount": 43,
+  "todayCount": 44,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 13
+      "count": 14
     },
     {
       "id": "update",
@@ -22,7 +22,7 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 22
+      "count": 21
     },
     {
       "id": "tcgcat",
@@ -32,7 +32,7 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 14
+      "count": 13
     },
     {
       "id": "media",
@@ -42,7 +42,7 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 18
+      "count": 20
     },
     {
       "id": "community",
@@ -57,7 +57,7 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 35
+      "count": 33
     }
   ],
   "series": [
@@ -94,14 +94,14 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 30
+      "count": 28
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 57
+      "count": 58
     },
     {
       "name": "SNKRDUNK",
@@ -112,16 +112,20 @@
       "count": 9
     },
     {
-      "name": "ファミ通",
+      "name": "山陽新聞",
       "count": 8
     },
     {
-      "name": "山陽新聞",
+      "name": "ファミ通",
       "count": 7
     },
     {
       "name": "ガジェット通信",
       "count": 4
+    },
+    {
+      "name": "インサイド",
+      "count": 3
     },
     {
       "name": "玩具人 TOY PEOPLE",
@@ -136,15 +140,7 @@
       "count": 2
     },
     {
-      "name": "インサイド",
-      "count": 2
-    },
-    {
       "name": "河北新報オンライン",
-      "count": 2
-    },
-    {
-      "name": "AppBank",
       "count": 2
     },
     {
@@ -208,6 +204,10 @@
       "count": 1
     },
     {
+      "name": "AppBank",
+      "count": 1
+    },
+    {
       "name": "ポケットモンスターオフィシャルサイト",
       "count": 1
     },
@@ -217,10 +217,6 @@
     },
     {
       "name": "コロコロコミック公式",
-      "count": 1
-    },
-    {
-      "name": "中日新聞Web",
       "count": 1
     },
     {
@@ -477,7 +473,7 @@
       "leadSource": "ガジェット通信",
       "publishedAt": "2026-11-22T05:00:05.000Z",
       "sourceCount": 2,
-      "articleCount": 4,
+      "articleCount": 5,
       "categories": [
         "guide"
       ],
@@ -495,6 +491,13 @@
           "isPR": false
         },
         {
+          "title": "【ポケモンGO】デカヌチャンの色違いとおすすめ技・弱点",
+          "url": "https://pokemongo.gamewith.jp/article/show/413906",
+          "source": "GameWith",
+          "publishedAt": "2026-11-20T18:46:29.000Z",
+          "isPR": false
+        },
+        {
           "title": "【ポケモンGO】マルノームの色違いとおすすめ技・弱点",
           "url": "https://pokemongo.gamewith.jp/article/show/36595",
           "source": "GameWith",
@@ -506,33 +509,6 @@
           "url": "https://pokemongo.gamewith.jp/article/show/36215",
           "source": "GameWith",
           "publishedAt": "2026-11-20T11:56:16.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "56262145fd4c",
-      "title": "ANA×『ポケットモンスター』30周年特別塗装機「ポケモンジェット 青」が12月12日就航！ 歴代のみずタイプのポケモンが大集合",
-      "summary": "",
-      "url": "https://www.toy-people.com/jp/?p",
-      "image": "https://static.chunichi.co.jp/image/article/size1/8/b/b/1/8bb1028750d023cd7456a9f278125882_1.jpg",
-      "leadSource": "玩具人 TOY PEOPLE",
-      "publishedAt": "2026-11-21T21:45:47.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "other"
-      ],
-      "keywords": [
-        "ポケモンジェット",
-        "日就航"
-      ],
-      "articles": [
-        {
-          "title": "全日空「ポケモンジェット青」能登空港で12月12日就航 赤と緑に続く第3弾",
-          "url": "https://www.chunichi.co.jp/article/1342414",
-          "source": "中日新聞Web",
-          "publishedAt": "2026-11-20T09:11:55.000Z",
           "isPR": false
         }
       ]
@@ -678,12 +654,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-23T07:30:17.422Z",
-    "previousCount": 125,
-    "newCount": 10
+    "previousAt": "2026-11-23T08:00:16.224Z",
+    "previousCount": 128,
+    "newCount": 4
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-23T08:30:16.224Z",
+  "nextUpdateAt": "2026-11-23T09:00:16.426Z",
   "items": [
     {
       "id": "2ac7df6cdbb9",
@@ -706,7 +682,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "0fc7bd51814f",
@@ -752,6 +728,46 @@
       "isNew": false
     },
     {
+      "id": "5ebbbec1eed8",
+      "title": "【ポケポケ】ギラティナexデッキ(デュアルフュージョン)のレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586070",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-23T05:50:02.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586070.png?date=1793283607",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "cab14809fc05",
+      "title": "【ポケモンチャンピオンズ】使用率ランキング",
+      "url": "https://gamewith.jp/pokemon-champions/555373",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-23T05:22:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/555373.png?date=1775763383",
+      "categories": [
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
       "id": "c8ea1588c640",
       "title": "【ポケモンGO】黄昏時の願いイベントの開催期間とボーナス",
       "url": "https://pokemongo.gamewith.jp/article/show/586413",
@@ -790,7 +806,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "2cebda773a2b",
@@ -1109,7 +1125,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "116193a7541f",
@@ -1149,25 +1165,6 @@
       "series": [
         "tcg"
       ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "cab14809fc05",
-      "title": "【ポケモンチャンピオンズ】使用率ランキング",
-      "url": "https://gamewith.jp/pokemon-champions/555373",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-22T23:03:05.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/555373.png?date=1775763383",
-      "categories": [
-        "community"
-      ],
-      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1599,27 +1596,6 @@
       "isNew": false
     },
     {
-      "id": "5ebbbec1eed8",
-      "title": "【ポケポケ】ギラティナexデッキ(デュアルフュージョン)のレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/586070",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-22T14:55:04.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586070.png?date=1793283607",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "833ac77d5fe0",
       "title": "【ポケポケ】メガサメハダーexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570620",
@@ -1718,7 +1694,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4d30b3a0bf2b",
@@ -1965,7 +1941,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "56262145fd4c",
@@ -2278,7 +2254,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "b3b92255bfaa",
@@ -2360,7 +2336,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4ea701f3e265",
@@ -2383,7 +2359,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "64460ced29ad",
@@ -2471,6 +2447,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "c7a0389979ed",
+      "title": "【ポケモンGO】ムゲンダイナマックスバトル対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/514474",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T00:20:27.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/514474.png?date=1755865722",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "5d6af1f077c1",
@@ -2639,6 +2636,46 @@
       "isNew": false
     },
     {
+      "id": "f752e2b958a3",
+      "title": "【ポケモンGO】デカヌチャンの色違いとおすすめ技・弱点",
+      "url": "https://pokemongo.gamewith.jp/article/show/413906",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-20T18:46:29.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/413906.png?date=1744782305",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "df5a4dae0e85",
+      "title": "ポケモン1025匹の名前を歌う曲完成 MV完全版は22分！9月公開でオーイシマサヨシ制作に苦労",
+      "url": "https://www.sanyonews.jp/article/1979230?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-20T18:23:53.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/3/9/a/639a777f086dccde6b068bb8fe529b9d_1.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "39726ae1de1b",
       "title": "2026年の「コミュニティ・デイ」に登場したポケモンが再び登場！",
       "url": "https://pokemongo.com/ja/news/community-day-december-2026",
@@ -2678,7 +2715,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "58cdd4dc00b9",
@@ -2720,7 +2757,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "1ae391affadb",
@@ -2807,6 +2844,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ca7fefbb24de",
+      "title": "『ポケモンレジェンズ Z-A』2,499円、『あつまれ どうぶつの森』2,728円、『マーベルズ ウルヴァリン』『P3R』は2,178円に！ ゲオ店舗＆ストアのブラックフライデーセールは11月21日から",
+      "url": "https://www.inside-games.jp/article/2026/11/20/191336.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-11-20T13:30:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1810260.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d25b7aacbd0c",
@@ -3208,25 +3266,6 @@
       "isNew": false
     },
     {
-      "id": "786330fe35ff",
-      "title": "全日空「ポケモンジェット青」能登空港で12月12日就航 赤と緑に続く第3弾",
-      "url": "https://www.chunichi.co.jp/article/1342414",
-      "host": "chunichi.co.jp",
-      "source": "中日新聞Web",
-      "summary": "",
-      "publishedAt": "2026-11-20T09:11:55.000Z",
-      "image": "https://static.chunichi.co.jp/image/article/size1/8/b/b/1/8bb1028750d023cd7456a9f278125882_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "85f82c3260c6",
       "title": "11月21日（土）はイーブイの日！劇場版短編作品をABEMA無料放送",
       "url": "https://www.entameplex.com/archives/107227",
@@ -3261,72 +3300,6 @@
       ],
       "series": [
         "anime"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "a95770967863",
-      "title": "画像ページ (16/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
-      "url": "https://www.famitsu.com/article/images/202611/93917/930456",
-      "host": "famitsu.com",
-      "source": "ファミ通",
-      "summary": "",
-      "publishedAt": "2026-11-20T08:21:43.000Z",
-      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/a548fa4a6af73a5440543590b43ac5e5c.jpg?x=1280",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "8ff62635dcfd",
-      "title": "『Pokémon GO』×ANAコラボ第三弾！ 「ポケモンジェット 青」連動イベントが12月11日から",
-      "url": "https://www.appbank.net/2026/11/20/game/3172981.php",
-      "host": "appbank.net",
-      "source": "AppBank",
-      "summary": "",
-      "publishedAt": "2026-11-20T08:14:53.000Z",
-      "image": "https://www.appbank.net/wp-content/uploads/2026/11/20261120_142458_972_02.webp",
-      "categories": [
-        "event",
-        "goodscat"
-      ],
-      "series": [
-        "go",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "910b8394ad42",
-      "title": "【ポケモンGO】わくわくPokémon GO Lab.大調査の開催期間と内容",
-      "url": "https://pokemongo.gamewith.jp/article/show/580836",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-20T08:10:07.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/580836.png?date=1791530418",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
       ],
       "isOfficial": false,
       "isPR": false,
