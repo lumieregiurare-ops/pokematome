@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-23T17:30:19.435Z",
+  "updatedAt": "2026-11-23T18:00:19.372Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 133,
-  "todayCount": 2,
+  "total": 132,
+  "todayCount": 3,
   "categories": [
     {
       "id": "new",
@@ -27,7 +27,7 @@
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 40
     },
     {
       "id": "goodscat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 18
+      "count": 16
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 5
+      "count": 3
     },
     {
       "id": "biz",
@@ -74,7 +74,7 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 40
+      "count": 41
     },
     {
       "id": "anime",
@@ -101,7 +101,7 @@
   "sources": [
     {
       "name": "GameWith",
-      "count": 63
+      "count": 61
     },
     {
       "name": "ファミ通",
@@ -109,7 +109,7 @@
     },
     {
       "name": "SNKRDUNK",
-      "count": 7
+      "count": 8
     },
     {
       "name": "山陽新聞",
@@ -663,12 +663,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-23T17:00:24.335Z",
-    "previousCount": 135,
-    "newCount": 5
+    "previousAt": "2026-11-23T17:30:19.435Z",
+    "previousCount": 133,
+    "newCount": 2
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-23T18:00:19.435Z",
+  "nextUpdateAt": "2026-11-23T18:30:19.372Z",
   "items": [
     {
       "id": "f44b0eadb0a7",
@@ -685,6 +685,27 @@
       "series": [
         "main",
         "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "7ce29a27e667",
+      "title": "【ポケカ】MEGAドリームexの当たりランキング/買取相場/封入率/レア別相場/値段まとめ",
+      "url": "https://snkrdunk.com/articles/29152/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-23T15:32:25.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/c2310c89-54fd-40da-b337-597a68223479.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -708,6 +729,28 @@
       "series": [
         "tcg",
         "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "dffa414ee5a2",
+      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ",
+      "url": "https://snkrdunk.com/articles/15950/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-23T14:20:45.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -858,28 +901,6 @@
       "categories": [
         "tcgcat",
         "goodscat"
-      ],
-      "series": [
-        "tcg",
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "dffa414ee5a2",
-      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ",
-      "url": "https://snkrdunk.com/articles/15950/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
-      "summary": "",
-      "publishedAt": "2026-11-23T11:16:25.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
-      "categories": [
-        "tcgcat"
       ],
       "series": [
         "tcg",
@@ -1118,46 +1139,6 @@
       "isNew": false
     },
     {
-      "id": "4891421959cc",
-      "title": "【ポケモンチャンピオンズ】メガグソクムシャの育成論と対策・パーティ",
-      "url": "https://gamewith.jp/pokemon-champions/575652",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-23T07:48:29.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/575652.png?date=1788944336",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c902cbc90842",
-      "title": "【ポケモンチャンピオンズ】最強ポケモンランキング・Tier表",
-      "url": "https://gamewith.jp/pokemon-champions/546413",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-23T07:33:02.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/546413.png?date=1776072905",
-      "categories": [
-        "guide",
-        "community"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "2ac7df6cdbb9",
       "title": "『ポケットモンスター』香港の女性ファン、ピカチュウグッズ2882点でギネス世界記録！ でも最初のコレクションはピカチュウじゃなかった",
       "url": "https://www.toy-people.com/jp/?p",
@@ -1284,7 +1265,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "578368d24971",
@@ -2341,27 +2322,6 @@
       "isNew": false
     },
     {
-      "id": "7ddb51dd5344",
-      "title": "【ポケモンGO】GOバトルリーグのルールやランク報酬について",
-      "url": "https://pokemongo.gamewith.jp/article/show/179797",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-22T12:29:22.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/179797.png?date=1580227657",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "44f4f43622f8",
       "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
@@ -3005,6 +2965,27 @@
       "isNew": false
     },
     {
+      "id": "5f895c87bbd9",
+      "title": "【ポケモンGO】デカハンマーの性能と覚えるポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/551858",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-21T03:23:53.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/551858.png?date=1795231434",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b3b92255bfaa",
       "title": "『ポケモン』センス抜群な新グッズ 全商品発表「ディグダ手袋」「ホエルコじょうろ」など",
       "url": "https://www.oricon.co.jp/news/2494336/photo/7/",
@@ -3191,7 +3172,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "4e74c2e2797a",
@@ -3212,7 +3193,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "5d6af1f077c1",
