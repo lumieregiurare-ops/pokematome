@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-24T22:30:18.188Z",
+  "updatedAt": "2026-11-24T23:00:19.159Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 134,
-  "todayCount": 20,
+  "total": 135,
+  "todayCount": 21,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 27
+      "count": 28
     },
     {
       "id": "update",
@@ -32,12 +32,12 @@
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 16
+      "count": 17
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 10
+      "count": 11
     },
     {
       "id": "guide",
@@ -47,7 +47,7 @@
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 4
+      "count": 5
     },
     {
       "id": "biz",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 41
+      "count": 40
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 18
+      "count": 19
     },
     {
       "id": "go",
@@ -94,7 +94,7 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 36
+      "count": 37
     }
   ],
   "weapons": [],
@@ -116,19 +116,19 @@
       "count": 6
     },
     {
-      "name": "山陽新聞",
-      "count": 5
+      "name": "Yahoo!ニュース",
+      "count": 6
     },
     {
       "name": "ガジェット通信",
       "count": 5
     },
     {
-      "name": "Yahoo!ニュース",
+      "name": "玩具人 TOY PEOPLE",
       "count": 5
     },
     {
-      "name": "玩具人 TOY PEOPLE",
+      "name": "山陽新聞",
       "count": 5
     },
     {
@@ -248,11 +248,11 @@
       "count": 1
     },
     {
-      "name": "日経クロストレンド",
+      "name": "AppMedia",
       "count": 1
     },
     {
-      "name": "Pokemon-France.com",
+      "name": "日経クロストレンド",
       "count": 1
     },
     {
@@ -466,18 +466,32 @@
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586071.png?date=1793283564",
       "leadSource": "GameWith",
       "publishedAt": "2026-11-24T18:25:59.000Z",
-      "sourceCount": 3,
-      "articleCount": 25,
+      "sourceCount": 4,
+      "articleCount": 27,
       "categories": [
         "tcgcat",
         "event"
       ],
       "keywords": [
-        "ポケモンカード",
         "カード",
+        "ポケモンカード",
         "ポケポケ"
       ],
       "articles": [
+        {
+          "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+          "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
+          "source": "GameWith",
+          "publishedAt": "2026-11-24T18:25:47.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】ストームエメラルダの収録カードリスト一覧",
+          "url": "https://snkrdunk.com/articles/32582/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-24T18:00:25.000Z",
+          "isPR": false
+        },
         {
           "title": "【ポケポケ】ハイクラスパックMEGA(メガ)の収録カードと当たりカード一覧【ポケモンカードアプリ】",
           "url": "https://gamewith.jp/pokemon-tcg-pocket/578648",
@@ -518,20 +532,6 @@
           "url": "https://gamewith.jp/pokemon-tcg-pocket/565898",
           "source": "GameWith",
           "publishedAt": "2026-11-24T11:39:33.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
-          "source": "GameWith",
-          "publishedAt": "2026-11-24T08:22:25.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケポケ】エンブオーデッキのレシピと評価【ポケモンカードアプリ】",
-          "url": "https://gamewith.jp/pokemon-tcg-pocket/559121",
-          "source": "GameWith",
-          "publishedAt": "2026-11-24T08:21:38.000Z",
           "isPR": false
         }
       ]
@@ -794,12 +794,12 @@
     }
   ],
   "churn": {
-    "previousAt": "2026-11-24T22:00:28.886Z",
-    "previousCount": 137,
-    "newCount": 10
+    "previousAt": "2026-11-24T22:30:18.188Z",
+    "previousCount": 134,
+    "newCount": 3
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-24T23:00:18.188Z",
+  "nextUpdateAt": "2026-11-24T23:30:19.159Z",
   "items": [
     {
       "id": "c58790ce981c",
@@ -818,7 +818,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "152bc989cfd7",
@@ -883,6 +883,25 @@
       "isNew": false
     },
     {
+      "id": "857e17d8625e",
+      "title": "ピカチュウの尻尾折れる 志賀町「世界一長いベンチ」 強風原因か 修理へ撤去（北國新聞社）",
+      "url": "https://news.yahoo.co.jp/articles/43da44233bde50abe7ac6acc0138bcaeb87cbccc",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-24T20:06:29.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/default.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "8a0df3af32aa",
       "title": "【ポケモンチャンピオンズ】ランクマ上位構築パーティ一覧(M-7構築記事)",
       "url": "https://gamewith.jp/pokemon-champions/560474",
@@ -896,28 +915,6 @@
         "guide"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "b3b92255bfaa",
-      "title": "『ポケモン』センス抜群な新グッズ 全商品発表「ディグダ手袋」「ホエルコじょうろ」など",
-      "url": "https://www.sanyonews.jp/article/2025115?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-24T19:03:08.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/5/7/5/a/575ad7f95ba82d33ce47cdce441bd9b4_1.jpg",
-      "categories": [
-        "new",
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -954,6 +951,27 @@
       "summary": "",
       "publishedAt": "2026-11-24T18:25:59.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586071.png?date=1793283564",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "3f4e3bd3edff",
+      "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T18:25:47.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564725.png?date=1784813440",
       "categories": [
         "tcgcat"
       ],
@@ -1004,7 +1022,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "7ce29a27e667",
@@ -1638,7 +1656,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "acbc8ea25c99",
@@ -1931,27 +1949,6 @@
       "series": [],
       "isOfficial": false,
       "isPR": true,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "3f4e3bd3edff",
-      "title": "【ポケポケ】天空の支配者の当たりカードと収録カード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/564725",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-24T08:05:35.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/564725.png?date=1784813440",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
@@ -2322,17 +2319,17 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "bd8b769db4f0",
       "title": "ポケモン30周年の最後のキーワードは「つづく」。Official髭男dism×山田尚子監督の新作MVを11月30日公開",
-      "url": "https://corriente.jp/pokemon-special-music-video-261130/",
+      "url": "https://corriente.jp/pokemon-special-music-video-261130/amp/",
       "host": "corriente.jp",
       "source": "CoRRiENTE",
       "summary": "",
       "publishedAt": "2026-11-24T07:00:00.000Z",
-      "image": "https://corriente.jp/wp-content/uploads/2026/11/pokemon-special-music-video-261130-1.webp",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -2404,7 +2401,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "01fe1416bcae",
@@ -2719,25 +2716,6 @@
       "isNew": false
     },
     {
-      "id": "e43ffb76806e",
-      "title": "プニプニしたポケモン愛でる「プニポケ活動」 頭にバチンウニ乗せたサラリーマン登場 『アニポケ』第149話あらすじ",
-      "url": "https://www.sanyonews.jp/article/1983935?rct",
-      "host": "sanyonews.jp",
-      "source": "山陽新聞",
-      "summary": "",
-      "publishedAt": "2026-11-24T00:58:33.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/f/1/f/5/f1f59f0a5b6c5a0a18a17f55b2b018aa_1.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "c8ea1588c640",
       "title": "【ポケモンGO】黄昏時の願いイベントの開催期間とボーナス",
       "url": "https://pokemongo.gamewith.jp/article/show/586413",
@@ -2801,7 +2779,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "ea7677af660c",
@@ -2974,6 +2952,26 @@
       "isNew": false
     },
     {
+      "id": "9f671a8362f5",
+      "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
+      "url": "https://appmedia.jp/pokemonchampions/79917667",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-11-23T18:38:16.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/04/154524_gfk4e.webp",
+      "categories": [
+        "media",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "48588bd87030",
       "title": "【ポケモンGO】デュオリンゴ(Duolingo)コラボタイムチャレンジの入手方法と報酬",
       "url": "https://pokemongo.gamewith.jp/article/show/587963",
@@ -3060,25 +3058,6 @@
       "isNew": false
     },
     {
-      "id": "3d6dc592645a",
-      "title": "ポケモンの謎のカウントダウン：11月30日に何が？ - Pokemon-France.com",
-      "url": "https://www.pokemon-france.com/ja/news/pokemon-mysterious-official-countdown-november-30-theories/",
-      "host": "pokemon-france.com",
-      "source": "Pokemon-France.com",
-      "summary": "",
-      "publishedAt": "2026-11-23T14:47:09.000Z",
-      "image": "https://cdn.pokemon-france.com/wp-content/uploads/2026/11/pokemon-30-ans-compte-a-rebours-676-pokemon-cojp.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "f7c2b24eb0f5",
       "title": "【ポケポケ】HP回復のおすすめカード一覧【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/466695",
@@ -3098,7 +3077,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "879408ecf506",
@@ -3336,6 +3315,29 @@
       "isNew": false
     },
     {
+      "id": "4ea701f3e265",
+      "title": "【きょうから】しまむら『ポケモン』新作グッズ、中身は？ 御三家やラティ兄弟のデザインに「良すぎないか…？」「開店凸します！」",
+      "url": "https://www.sanyonews.jp/article/2022162",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-23T01:38:03.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/2/2/c/922cb5b0cdfdb59d86948e5a08dbdd1b_1.jpg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "87b11c30703b",
       "title": "【ポケモンGO】大きな足跡イベントの開催期間とボーナス",
       "url": "https://pokemongo.gamewith.jp/article/show/585781",
@@ -3349,6 +3351,28 @@
       ],
       "series": [
         "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "b3b92255bfaa",
+      "title": "『ポケモン』センス抜群な新グッズ 全商品発表「ディグダ手袋」「ホエルコじょうろ」など",
+      "url": "https://www.sanyonews.jp/article/2025115?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-23T00:51:23.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/7/5/a/575ad7f95ba82d33ce47cdce441bd9b4_1.jpg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3459,7 +3483,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "c7a0389979ed",
