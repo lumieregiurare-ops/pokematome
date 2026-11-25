@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-25T16:00:20.485Z",
+  "updatedAt": "2026-11-25T16:30:24.251Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 169,
+  "total": 189,
   "todayCount": 0,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 28
+      "count": 31
     },
     {
       "id": "update",
@@ -22,12 +22,12 @@
     {
       "id": "event",
       "label": "イベント",
-      "count": 14
+      "count": 13
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 39
+      "count": 40
     },
     {
       "id": "goodscat",
@@ -42,12 +42,12 @@
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 20
+      "count": 21
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 4
+      "count": 6
     },
     {
       "id": "biz",
@@ -57,14 +57,14 @@
     {
       "id": "other",
       "label": "その他",
-      "count": 58
+      "count": 74
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 31
+      "count": 51
     },
     {
       "id": "go",
@@ -74,12 +74,12 @@
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 39
+      "count": 40
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 10
+      "count": 9
     },
     {
       "id": "unite",
@@ -94,22 +94,26 @@
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 42
+      "count": 43
     }
   ],
   "weapons": [],
   "sources": [
     {
       "name": "GameWith",
-      "count": 62
+      "count": 84
     },
     {
       "name": "Yahoo!ニュース",
-      "count": 16
+      "count": 14
     },
     {
       "name": "SNKRDUNK",
-      "count": 15
+      "count": 13
+    },
+    {
+      "name": "山陽新聞",
+      "count": 6
     },
     {
       "name": "ガジェット通信",
@@ -117,14 +121,6 @@
     },
     {
       "name": "インサイド",
-      "count": 5
-    },
-    {
-      "name": "Nintendo DREAM WEB",
-      "count": 5
-    },
-    {
-      "name": "山陽新聞",
       "count": 5
     },
     {
@@ -136,11 +132,15 @@
       "count": 4
     },
     {
-      "name": "Excite エキサイト",
+      "name": "Nintendo DREAM WEB",
       "count": 4
     },
     {
-      "name": "人鳥日記",
+      "name": "ファミ通",
+      "count": 3
+    },
+    {
+      "name": "Excite エキサイト",
       "count": 3
     },
     {
@@ -149,6 +149,14 @@
     },
     {
       "name": "WEBザテレビジョン",
+      "count": 2
+    },
+    {
+      "name": "47NEWS",
+      "count": 2
+    },
+    {
+      "name": "人鳥日記",
       "count": 2
     },
     {
@@ -164,11 +172,11 @@
       "count": 2
     },
     {
-      "name": "YouTube",
+      "name": "ニコニコニュース",
       "count": 2
     },
     {
-      "name": "Pokemon-France.com",
+      "name": "YouTube",
       "count": 2
     },
     {
@@ -176,15 +184,15 @@
       "count": 1
     },
     {
+      "name": "X",
+      "count": 1
+    },
+    {
       "name": "TOKYO HEADLINE",
       "count": 1
     },
     {
-      "name": "47NEWS",
-      "count": 1
-    },
-    {
-      "name": "ニコニコニュース",
+      "name": "AppMedia",
       "count": 1
     },
     {
@@ -197,10 +205,6 @@
     },
     {
       "name": "www.nagasakistadiumcity.com",
-      "count": 1
-    },
-    {
-      "name": "アットエス",
       "count": 1
     },
     {
@@ -220,7 +224,7 @@
       "count": 1
     },
     {
-      "name": "PASH! PLUS",
+      "name": "Mantan Web",
       "count": 1
     },
     {
@@ -236,14 +240,6 @@
       "count": 1
     },
     {
-      "name": "アニメ！アニメ！",
-      "count": 1
-    },
-    {
-      "name": "AGARA 紀伊民報",
-      "count": 1
-    },
-    {
       "name": "Goal.com",
       "count": 1
     },
@@ -252,11 +248,11 @@
       "count": 1
     },
     {
-      "name": "Dtimes",
+      "name": "にじめん",
       "count": 1
     },
     {
-      "name": "ｄメニューニュース",
+      "name": "ABEMA TIMES",
       "count": 1
     },
     {
@@ -272,31 +268,46 @@
       "count": 1
     },
     {
+      "name": "Pokemon-France.com",
+      "count": 1
+    },
+    {
       "name": "えんウチ",
+      "count": 1
+    },
+    {
+      "name": "ABEMA",
       "count": 1
     }
   ],
   "topics": [
     {
-      "id": "f42a3d10e16d",
-      "title": "Official髭男dism、12月1日リリースの新曲「エバーグリーン」が、ポケモン30周年「ポケモンとつづく」Pokémon Special Music Video楽曲に決定！",
+      "id": "1190141a1b7f",
+      "title": "ポケモン30周年フィナーレ Official髭男dism「エバーグリーン」MVプレミア公開 - X",
       "summary": "",
-      "url": "https://e.usen.com/news/news-movie/officialdism12130pokemon-special-music-video.html",
-      "image": "https://e.usen.com/image/7c5398b34595acf7efc22fbfc25cf031c0702ee9.jpg",
-      "leadSource": "USENの音楽情報サイト",
-      "publishedAt": "2026-11-25T03:02:42.000Z",
-      "sourceCount": 5,
-      "articleCount": 5,
+      "url": "https://x.com/i/trending/2125126134153216105",
+      "image": "https://pbs.twimg.com/media/HX30AGlbAAAkRlm?format=jpg&name=medium",
+      "leadSource": "X",
+      "publishedAt": "2026-11-25T11:45:43.000Z",
+      "sourceCount": 8,
+      "articleCount": 9,
       "categories": [
-        "other",
-        "goodscat"
+        "new",
+        "other"
       ],
       "keywords": [
+        "周年",
         "official",
-        "dism",
-        "エバーグリーン"
+        "髭男"
       ],
       "articles": [
+        {
+          "title": "Official髭男dism、12月1日リリースの新曲「エバーグリーン」が、ポケモン30周年「ポケモンとつづく」Pokémon Special Music Video楽曲に決定！",
+          "url": "https://e.usen.com/news/news-movie/officialdism12130pokemon-special-music-video.html",
+          "source": "USENの音楽情報サイト",
+          "publishedAt": "2026-11-25T03:02:42.000Z",
+          "isPR": false
+        },
         {
           "title": "Official髭男dism、新曲「エバーグリーン」ポケモン30周年スペシャルMV楽曲決定",
           "url": "https://news.yahoo.co.jp/articles/48f24af1da1012963386ffec5861da6b14e9e4ea",
@@ -312,10 +323,10 @@
           "isPR": false
         },
         {
-          "title": "新曲「エバーグリーン」で描く30周年の先！ポケモン30周年「ポケモンとつづく」Official髭男dismとのコラボレーション Pokémon Special Music Video",
-          "url": "https://dtimes.jp/post-1478773/",
-          "source": "Dtimes",
-          "publishedAt": "2026-11-24T08:53:48.000Z",
+          "title": "『ポケモン』名作MV「GOTCHA！」に続く新作が30周年記念で登場！ヒゲダン新曲「エバーグリーン」とコラボ、11月30日23時にプレミア公開（インサイド）",
+          "url": "https://news.yahoo.co.jp/articles/100ea8f85aeecb818703b1470a1f51c9e07956f8",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-24T07:55:03.000Z",
           "isPR": false
         },
         {
@@ -323,6 +334,77 @@
           "url": "https://skypenguin.net/2026/11/24/post-178430/",
           "source": "人鳥日記",
           "publishedAt": "2026-11-24T07:54:18.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモン』30周年のフィナーレを飾るスペシャルミュージックビデオが11月30日に公開。楽曲はOfficial髭男di",
+          "url": "https://news.nicovideo.jp/watch/nw20025052",
+          "source": "ニコニコニュース",
+          "publishedAt": "2026-11-24T07:45:14.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモン30周年、山田尚子監督の新作アニメMV公開へ 2020年「GOTCHA！」に続くシリーズ - KAI-YOU",
+          "url": "https://kai-you.net/article/97235",
+          "source": "KAI-YOU",
+          "publishedAt": "2026-11-24T07:00:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ポケモン30周年の最後のキーワードは「つづく」。Official髭男dism×山田尚子監督の新作MVを11月30日公開",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JemxDb3FMN0h4RVlaUkdrVVMxS29BeHFhQXRITjVSUE9PaERvaE4xc3NUUW9RU0VXUlpzb2pmVWZNSnRpN0w2S1ZtMFo2WkxlS0Z3WW83emYxZG10YTdGcG1Xem8wemp4cWZGRNIBbEFVX3lxTE1JemxDb3FMN0h4RVlaUkdrVVMxS29BeHFhQXRITjVSUE9PaERvaE4xc3NUUW9RU0VXUlpzb2pmVWZNSnRpN0w2S1ZtMFo2WkxlS0Z3WW83emYxZG10YTdGcG1Xem8wemp4cWZGRA?oc=5",
+          "source": "CoRRiENTE",
+          "publishedAt": "2026-11-24T07:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "5a7a3124eac5",
+      "title": "今年はジョウト地方のポケモンたちが集合！バレンタイン向け商品「ポケモン meets メリーチョコレート」27年1月上旬より発売",
+      "summary": "",
+      "url": "https://www.ndw.jp/pokemon-goods-261124-03/",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/261124-pokemongoods-3-00.jpg",
+      "leadSource": "Nintendo DREAM WEB",
+      "publishedAt": "2026-11-24T12:50:22.000Z",
+      "sourceCount": 5,
+      "articleCount": 5,
+      "categories": [
+        "other",
+        "new"
+      ],
+      "keywords": [
+        "ジョウト",
+        "地方",
+        "メリーチョコレート"
+      ],
+      "articles": [
+        {
+          "title": "「ポケモン meets メリーチョコレート」2027年バレンタインはジョウト地方のポケモンがドット絵に！12月23日予約開始",
+          "url": "https://nijimen.kusuguru.co.jp/topics/666510",
+          "source": "にじめん",
+          "publishedAt": "2026-11-24T10:35:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「ポケモン meets メリーチョコレート」の新作登場！ ホウオウやルギアなどジョウト地方のポケモンデザイン",
+          "url": "https://game.watch.impress.co.jp/docs/news/2158832.html",
+          "source": "GAME Watch",
+          "publishedAt": "2026-11-24T08:58:44.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモン』×「メリーチョコレート」新作は“ジョウト地方”ポケモンがドット絵に！ 「旅立ち缶」など全8種（クランクイン！）",
+          "url": "https://news.yahoo.co.jp/articles/c2457b42dccfa898790cabd1adc5955276e213e6",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-24T08:15:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケモン』のバレンタイン専用商品が12月23日より予約開始。ルギアやホウオウなど、ジョウト地方ならではのポケモンたち",
+          "url": "https://news.nicovideo.jp/watch/nw20025073?news_ref",
+          "source": "ニコニコニュース",
+          "publishedAt": "2026-11-24T07:48:30.000Z",
           "isPR": false
         }
       ]
@@ -421,29 +503,29 @@
       ]
     },
     {
-      "id": "c58790ce981c",
-      "title": "『ポケモン』スマホをシェイクするとケース背面でポケモンやモンスターボールが動き回る！ ピクセルアート表現がかわいいテックアクセサリーコレクション「Pokémon」が登場",
+      "id": "31f016df6427",
+      "title": "ケースティファイ「ポケモン」”ピクセルアート”のスマホケース、モンスターボール型イヤホンケースも",
       "summary": "",
-      "url": "https://www.pashplus.jp/goods/504414/",
-      "image": "https://www.pashplus.jp/wp-content/uploads/01-2657.jpg",
-      "leadSource": "PASH! PLUS",
-      "publishedAt": "2026-11-25T03:57:07.000Z",
-      "sourceCount": 4,
+      "url": "https://www.fashion-press.net/news/153803",
+      "image": "https://www.fashion-press.net/img/news/153803/top.jpg?1795570678",
+      "leadSource": "ファッションプレス",
+      "publishedAt": "2026-11-25T02:15:00.000Z",
+      "sourceCount": 3,
       "articleCount": 4,
       "categories": [
         "other"
       ],
       "keywords": [
+        "ピクセルアート",
         "スマホ",
-        "ケース",
-        "ピクセルアート"
+        "ケース"
       ],
       "articles": [
         {
-          "title": "ケースティファイ「ポケモン」”ピクセルアート”のスマホケース、モンスターボール型イヤホンケースも",
-          "url": "https://www.fashion-press.net/news/153803",
-          "source": "ファッションプレス",
-          "publishedAt": "2026-11-25T02:15:00.000Z",
+          "title": "『ポケモン』スマホをシェイクするとケース背面でポケモンやモンスターボールが動き回る！ ピクセルアート表現がかわいいテックアクセサリーコレクション「Pokémon」が登場",
+          "url": "https://www.excite.co.jp/news/article/pashplus_EXCITE_504414/",
+          "source": "Excite エキサイト",
+          "publishedAt": "2026-11-24T22:34:38.000Z",
           "isPR": false
         },
         {
@@ -458,92 +540,6 @@
           "url": "http://www.excite.co.jp/news/article/Nijimen_0000000000666381/",
           "source": "Excite エキサイト",
           "publishedAt": "2026-11-24T09:07:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "5a7a3124eac5",
-      "title": "今年はジョウト地方のポケモンたちが集合！バレンタイン向け商品「ポケモン meets メリーチョコレート」27年1月上旬より発売",
-      "summary": "",
-      "url": "https://www.ndw.jp/pokemon-goods-261124-03/",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/261124-pokemongoods-3-00.jpg",
-      "leadSource": "Nintendo DREAM WEB",
-      "publishedAt": "2026-11-24T12:50:22.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
-      "categories": [
-        "other",
-        "new"
-      ],
-      "keywords": [
-        "ジョウト",
-        "メリーチョコレート",
-        "地方"
-      ],
-      "articles": [
-        {
-          "title": "「ポケモン meets メリーチョコレート」2027年バレンタインはジョウト地方のポケモンがドット絵に！12月23日予約開始",
-          "url": "http://www.excite.co.jp/news/article/Nijimen_0000000000666510/",
-          "source": "Excite エキサイト",
-          "publishedAt": "2026-11-24T10:35:00.000Z",
-          "isPR": false
-        },
-        {
-          "title": "「ポケモン meets メリーチョコレート」の新作登場！ ホウオウやルギアなどジョウト地方のポケモンデザイン",
-          "url": "https://game.watch.impress.co.jp/docs/news/2158832.html",
-          "source": "GAME Watch",
-          "publishedAt": "2026-11-24T08:58:44.000Z",
-          "isPR": false
-        },
-        {
-          "title": "『ポケモン』×「メリーチョコレート」新作は“ジョウト地方”ポケモンがドット絵に！ 「旅立ち缶」など全8種（クランクイン！）",
-          "url": "https://news.yahoo.co.jp/articles/c2457b42dccfa898790cabd1adc5955276e213e6",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-24T08:15:00.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "9c7cc1e44b09",
-      "title": "Duolingoコラボの背景付きぺラップのレア度がヤバすぎ / 色違いの交換レートは史上最高レベル【ポケモンGO】",
-      "summary": "",
-      "url": "https://getnews.jp/archives/3757701",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/1124_pokemon-2.png",
-      "leadSource": "ガジェット通信",
-      "publishedAt": "2026-11-24T11:30:28.000Z",
-      "sourceCount": 3,
-      "articleCount": 4,
-      "categories": [
-        "goodscat",
-        "guide"
-      ],
-      "keywords": [
-        "ポケモンGO",
-        "色違",
-        "コラボ"
-      ],
-      "articles": [
-        {
-          "title": "ポケモンGO × ANA 第3弾 12月11日より7空港でコラボ開催!",
-          "url": "https://collabo-cafe.com/events/collabo/pocket-monster-event-pokemon-go-ana-blue-2026-2027/",
-          "source": "コラボカフェ",
-          "publishedAt": "2026-11-24T10:43:13.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケモンGO】カイオーガの色違いと進化先・個体値早見表",
-          "url": "https://pokemongo.gamewith.jp/article/show/36529",
-          "source": "GameWith",
-          "publishedAt": "2026-11-24T10:02:23.000Z",
-          "isPR": false
-        },
-        {
-          "title": "【ポケモンGO】ニャスパーの色違いと進化先・個体値早見表",
-          "url": "https://pokemongo.gamewith.jp/article/show/36223",
-          "source": "GameWith",
-          "publishedAt": "2026-11-23T22:19:29.000Z",
           "isPR": false
         }
       ]
@@ -575,45 +571,9 @@
         },
         {
           "title": "ポケモンGO ドラピオン",
-          "url": "https://youtu.be/mI6vUXU51zg?si",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRVWJNZzhUT1FWc3IyR2FqejdKNlQ0X3h2ek1IQ0w5bUg3LXU2dWg4MldkVkhzWmxtd0hoM3FRVGI4WHNzZ1ZMUk52X0V0MGdJVlRaOHVEMGVUcVVf?oc=5",
           "source": "YouTube",
           "publishedAt": "2026-11-23T23:27:33.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "9a916eb27580",
-      "title": "ポケモンアニメシリーズ【POKETOON】をはじめ短編アニメーション18作品がディズニープラスで見放題配信決定",
-      "summary": "",
-      "url": "https://thetv.jp/news/detail/1459145/landing/",
-      "image": "https://www.agara.co.jp/image/article/size1/5/8/d/c/58dc21faeb816623a5c8f10b33591d74_1.jpg",
-      "leadSource": "WEBザテレビジョン",
-      "publishedAt": "2026-11-25T13:04:41.000Z",
-      "sourceCount": 2,
-      "articleCount": 3,
-      "categories": [
-        "media",
-        "new"
-      ],
-      "keywords": [
-        "ディズニープラス",
-        "アニメ",
-        "短編"
-      ],
-      "articles": [
-        {
-          "title": "ポケモン短編アニメ18作品、12月18日から配信 ディズニープラスで新作『ネギガナイトとピチューの冒険』来年配信",
-          "url": "https://www.agara.co.jp/article/715200",
-          "source": "AGARA 紀伊民報",
-          "publishedAt": "2026-11-24T22:08:15.000Z",
-          "isPR": false
-        },
-        {
-          "title": "ポケモンテイルズ＞新作アニメが2027年にディズニープラスで配信 ネギガナイトとピチューが壮大な冒険へと旅立つ",
-          "url": "https://thetv.jp/news/detail/1436832/landing/",
-          "source": "WEBザテレビジョン",
-          "publishedAt": "2026-11-23T22:04:51.000Z",
           "isPR": false
         }
       ]
@@ -625,9 +585,9 @@
       "url": "https://game.watch.impress.co.jp/docs/news/2159215.html",
       "image": "https://game.watch.impress.co.jp/img/gmw/list/2159/215/0.jpg",
       "leadSource": "GAME Watch",
-      "publishedAt": "2026-11-25T12:00:00.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
+      "publishedAt": "2026-11-25T12:01:47.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
       "categories": [
         "other",
         "event"
@@ -639,10 +599,53 @@
       ],
       "articles": [
         {
+          "title": "横浜赤レンガ倉庫に「ピカッ」と彩り ポケモン３０周年でイルミ始まる １０２５匹のキャラ描かれたボックスも",
+          "url": "https://www.47news.jp/15286149.html",
+          "source": "47NEWS",
+          "publishedAt": "2026-11-25T12:01:47.000Z",
+          "isPR": false
+        },
+        {
           "title": "横浜赤レンガ倉庫に「ピカッ」と彩り ポケモン３０周年でイルミ始まる",
-          "url": "https://www.kanaloco.jp/news/life/article-1323613.html/gallery",
+          "url": "https://www.kanaloco.jp/news/life/article-1323613.html",
           "source": "カナロコ",
           "publishedAt": "2026-11-25T12:00:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "9c7cc1e44b09",
+      "title": "Duolingoコラボの背景付きぺラップのレア度がヤバすぎ / 色違いの交換レートは史上最高レベル【ポケモンGO】",
+      "summary": "",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Nc3V4cldlS3hrLUxseFd4S2dxQXY5ajMxdkVGVW5LTEVRQXYtdmdReUhSUGFhRmpiN3o3VWluR3p4TnJLTFd3NzBPNA?oc=5",
+      "image": "https://collabo-cafe.com/wp-content/uploads/pocket-monster-event-pokemon-go-ana-blue-2026-2027-eyecatch.jpg",
+      "leadSource": "ガジェット通信",
+      "publishedAt": "2026-11-24T11:30:28.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "goodscat",
+        "guide"
+      ],
+      "keywords": [
+        "ポケモンGO",
+        "コラボ",
+        "色違"
+      ],
+      "articles": [
+        {
+          "title": "ポケモンGO × ANA 第3弾 12月11日より7空港でコラボ開催!",
+          "url": "https://collabo-cafe.com/events/collabo/pocket-monster-event-pokemon-go-ana-blue-2026-2027/",
+          "source": "コラボカフェ",
+          "publishedAt": "2026-11-24T10:43:13.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】カイオーガの色違いと進化先・個体値早見表",
+          "url": "https://pokemongo.gamewith.jp/article/show/36529",
+          "source": "GameWith",
+          "publishedAt": "2026-11-24T10:02:23.000Z",
           "isPR": false
         }
       ]
@@ -664,38 +667,9 @@
       "articles": [
         {
           "title": "11月28日より、とある農場でお手伝いするポケモンたちをテーマにしたグッズがポケモンセンターに登場",
-          "url": "https://www.ndw.jp/pokemon-goods-261123-02/",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wMW1IUFRhX2dvUTlQdFBkT2sxT2U1N3ItQzZydGhMTlVHbGxPdjNNUVA0MldScGxqcWdTcmo0RXl5WEhicXpEUHRFX3ctVlAyMDU4RzJB?oc=5",
           "source": "Nintendo DREAM WEB",
           "publishedAt": "2026-11-23T11:06:54.000Z",
-          "isPR": false
-        }
-      ]
-    },
-    {
-      "id": "d5b98658df99",
-      "title": "ミスドのポケモンコラボに「ヤドン ドーナツ」が登場！のんびり遅れて本日発売開始",
-      "summary": "",
-      "url": "https://news.nicovideo.jp/watch/nw20030039",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26nBrI3aFaKL9u-IZxdRPjn_v5gtMf-CHqTCpgKeTwb-7KasSbqA4dc9WBdK9GWyWYJ4eNo2roz2Y_DWY1vfz8mn747Q5lhQP0AtTWmzoyeZSlQUlVU9yrT9fmcm5twgf1A==",
-      "leadSource": "ニコニコニュース",
-      "publishedAt": "2026-11-25T08:39:17.000Z",
-      "sourceCount": 2,
-      "articleCount": 2,
-      "categories": [
-        "goodscat",
-        "other"
-      ],
-      "keywords": [
-        "ミスド",
-        "ヤドン",
-        "ドーナツ"
-      ],
-      "articles": [
-        {
-          "title": "ミスド×ポケモン、新商品の「ヤドン ドーナツ」が本日より店頭発売 販売時刻や販売個数は事前にチェックしておくのがオススメ",
-          "url": "https://news.yahoo.co.jp/articles/68b654261a3c0c9e0e89a74cd4a26b3794211e8f/images/000",
-          "source": "Yahoo!ニュース",
-          "publishedAt": "2026-11-25T03:34:21.000Z",
           "isPR": false
         }
       ]
@@ -727,15 +701,73 @@
           "isPR": false
         }
       ]
+    },
+    {
+      "id": "2f513e35bc6b",
+      "title": "第3回との違いはある？ 連発！スキルウィーク vol.4 2026年12月7日開始【ポケモンスリープ】",
+      "summary": "",
+      "url": "https://skypenguin.net/2026/11/25/post-178516/",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/11/連発スキルウィークvol4.png",
+      "leadSource": "人鳥日記",
+      "publishedAt": "2026-11-25T07:20:57.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other",
+        "guide"
+      ],
+      "keywords": [
+        "ポケモンスリープ",
+        "vol",
+        "ウィーク"
+      ],
+      "articles": [
+        {
+          "title": "【ポケモンスリープ/Pokemon Sleep】「なんでもペロリ！ごちそうウィーク vol.1」最終日‼ モンメン厳選終わった？ #974【ポケスリ】",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9oZkxLTm5HN2owNjF0NTdpUGFRb09MVEpkdVQ0SEJ0ZVdFWkNzMERPLThRRkFLYTlmVWthQ2tuRG1WQQ?oc=5",
+          "source": "YouTube",
+          "publishedAt": "2026-11-23T23:05:43.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "4b3f18b69275",
+      "title": "ポケモン＞ヒゲダンコラボMV 11月30日公開 監督は山田尚子 マッドハウス制作（MANTANWEB）",
+      "summary": "",
+      "url": "https://news.yahoo.co.jp/articles/0435bf0e76f6324fcee0065ed5c42ca6cc2e010a",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000035-mantan-000-1-view.jpg?exp=10800",
+      "leadSource": "Yahoo!ニュース",
+      "publishedAt": "2026-11-25T03:58:00.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "keywords": [
+        "ヒゲダンコラボ",
+        "マッドハウス",
+        "日公開"
+      ],
+      "articles": [
+        {
+          "title": "ポケモン：ヒゲダンコラボMV 11月30日公開 監督は山田尚子 マッドハウス制作",
+          "url": "https://mantan-web.jp/article/20261125dog00m200037000a.html",
+          "source": "Mantan Web",
+          "publishedAt": "2026-11-25T03:52:00.000Z",
+          "isPR": false
+        }
+      ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-25T15:30:19.285Z",
-    "previousCount": 192,
-    "newCount": 12
+    "previousAt": "2026-11-25T16:00:20.485Z",
+    "previousCount": 169,
+    "newCount": 39
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-25T16:30:20.485Z",
+  "nextUpdateAt": "2026-11-25T17:00:24.251Z",
   "items": [
     {
       "id": "d5f1d8fce39b",
@@ -768,27 +800,6 @@
       "summary": "",
       "publishedAt": "2026-11-25T14:26:09.000Z",
       "image": "https://img.gamewith.jp/article/thumbnail/rectangle/589528.png?date=1795226590",
-      "categories": [
-        "event"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "c8ea1588c640",
-      "title": "【ポケモンGO】黄昏時の願いイベントの開催期間とボーナス",
-      "url": "https://pokemongo.gamewith.jp/article/show/586413",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-25T14:21:05.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586413.png?date=1793664036",
       "categories": [
         "event"
       ],
@@ -907,12 +918,31 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "b9cabe7fb6fe",
+      "title": "横浜赤レンガ倉庫に「ピカッ」と彩り ポケモン３０周年でイルミ始まる １０２５匹のキャラ描かれたボックスも",
+      "url": "https://www.47news.jp/15286149.html",
+      "host": "47news.jp",
+      "source": "47NEWS",
+      "summary": "",
+      "publishedAt": "2026-11-25T12:01:47.000Z",
+      "image": "https://img.cf.47news.jp/public/photo/c72de62e416580773622223a4d9d93c6/photo.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
       "id": "4e9d69562e04",
       "title": "横浜赤レンガ倉庫に「ピカッ」と彩り ポケモン３０周年でイルミ始まる",
-      "url": "https://www.kanaloco.jp/news/life/article-1323613.html/gallery",
+      "url": "https://www.kanaloco.jp/news/life/article-1323613.html",
       "host": "kanaloco.jp",
       "source": "カナロコ",
       "summary": "",
@@ -927,6 +957,25 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "1190141a1b7f",
+      "title": "ポケモン30周年フィナーレ Official髭男dism「エバーグリーン」MVプレミア公開 - X",
+      "url": "https://x.com/i/trending/2125126134153216105",
+      "host": "x.com",
+      "source": "X",
+      "summary": "",
+      "publishedAt": "2026-11-25T11:45:43.000Z",
+      "image": "https://pbs.twimg.com/media/HX30AGlbAAAkRlm?format=jpg&name=medium",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ce54ab3dcd6f",
@@ -988,6 +1037,26 @@
       "isNew": false
     },
     {
+      "id": "9f671a8362f5",
+      "title": "【ポケモンチャンピオンズ】配信時間は何時から？いつリリース？【ポケチャン】",
+      "url": "https://appmedia.jp/pokemonchampions/79917667",
+      "host": "appmedia.jp",
+      "source": "AppMedia",
+      "summary": "",
+      "publishedAt": "2026-11-25T11:05:07.000Z",
+      "image": "https://appmedia.jp/wp-content/uploads/2026/04/154524_gfk4e.webp",
+      "categories": [
+        "media",
+        "community"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "335db8fd22f0",
       "title": "郡山で「ポケモンラン」開催 来年４月29日 シティーマラソン一部門に 本州で初、３千人参加見込む",
       "url": "https://www.47news.jp/15286062.html",
@@ -1000,6 +1069,27 @@
         "other"
       ],
       "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "01e6f654bf7f",
+      "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-25T10:20:46.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -1047,6 +1137,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4152aafc81a1",
+      "title": "【ポケポケ】メガヤミラミexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565899",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-25T10:20:45.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565899.png?date=1782796950",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "1909f74d0bb3",
@@ -1133,6 +1244,27 @@
       "isNew": false
     },
     {
+      "id": "fb3b696295c7",
+      "title": "【ポケポケ】ホエルオーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570624",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-25T10:20:39.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570624.png?date=1785392839",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "b76506a0856d",
       "title": "【ポケポケ】フーパexデッキのレシピと評価【ポケモンカードアプリ】",
       "url": "https://gamewith.jp/pokemon-tcg-pocket/570627",
@@ -1152,6 +1284,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "240539a58df9",
+      "title": "【ポケポケ】みつあつめデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586316",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-25T10:20:23.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586316.png?date=1793605246",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "114719810f4b",
@@ -1304,6 +1457,25 @@
       "isNew": false
     },
     {
+      "id": "8b9bfca5fae0",
+      "title": "宮世琉弥はヒコザルに似てる？ 西野七瀬、3時のヒロインと“推しポケモン”イメージの衣装で登場（オリコン）",
+      "url": "https://news.yahoo.co.jp/articles/bcf1380dad0c5135d7270746217a1b6422c26aa7",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-25T08:57:31.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00000538-oric-000-2-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "ccabeed8fafd",
       "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
       "url": "https://snkrdunk.com/articles/16466/",
@@ -1367,19 +1539,19 @@
       "isNew": false
     },
     {
-      "id": "d5b98658df99",
-      "title": "ミスドのポケモンコラボに「ヤドン ドーナツ」が登場！のんびり遅れて本日発売開始",
-      "url": "https://news.nicovideo.jp/watch/nw20030039",
-      "host": "news.nicovideo.jp",
-      "source": "ニコニコニュース",
+      "id": "c8ea1588c640",
+      "title": "【ポケモンGO】黄昏時の願いイベントの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/586413",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-25T08:39:17.000Z",
-      "image": "",
+      "publishedAt": "2026-11-25T08:36:08.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586413.png?date=1793664036",
       "categories": [
-        "goodscat"
+        "event"
       ],
       "series": [
-        "goods"
+        "go"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -1513,28 +1685,6 @@
       "isNew": false
     },
     {
-      "id": "956cedb003f2",
-      "title": "【11/28・29に静岡・焼津・島田で開催】オータム大道芸フェスティバル2026、静岡はたらくクルマ展2026、終了間近のポケモンカードストアも！家族で行きたいおすすめイベント",
-      "url": "https://www.at-s.com/mamairo/article/2102128.html",
-      "host": "at-s.com",
-      "source": "アットエス",
-      "summary": "",
-      "publishedAt": "2026-11-25T07:29:00.000Z",
-      "image": "",
-      "categories": [
-        "event",
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "2f513e35bc6b",
       "title": "第3回との違いはある？ 連発！スキルウィーク vol.4 2026年12月7日開始【ポケモンスリープ】",
       "url": "https://skypenguin.net/2026/11/25/post-178516/",
@@ -1556,14 +1706,14 @@
       "isNew": false
     },
     {
-      "id": "780ca96f34b4",
-      "title": "【ポケカ】ポケモンカード151の再販はいつ？再販入荷情報まとめ【10/10更新】",
-      "url": "https://snkrdunk.com/articles/18862/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "9c5bf50fa91e",
+      "title": "【ポケポケ】メガヘルガーexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/572654",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-25T07:00:45.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/20231130021213-0.jpeg",
+      "publishedAt": "2026-11-25T07:01:15.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/572654.png?date=1786676147",
       "categories": [
         "tcgcat"
       ],
@@ -1575,27 +1725,6 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": true
-    },
-    {
-      "id": "01e6f654bf7f",
-      "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-25T06:59:11.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
-      "categories": [
-        "tcgcat"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
     },
     {
       "id": "07068a774ad8",
@@ -1831,25 +1960,6 @@
       "isNew": false
     },
     {
-      "id": "ae543e81e128",
-      "title": "山田尚子とMADHOUSEが制作したヒゲダン×ポケモンのMV、11月30日にプレミア公開 (コミックナタリー)",
-      "url": "https://news.yahoo.co.jp/articles/afbc23f079675592af5421fa3388e0577a107f5d/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-25T05:35:10.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26shDtaOXaRqWv1NUmty3lkeniH0FWatzpqraX7ki7LDW_5yzKDEtNxnsm3InfFIRbp_uQRhLE3g4ve4r0f-WFcSuDrmj6HmkwtmDvecQNvvM",
-      "categories": [
-        "new"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "29cf83a33a47",
       "title": "【ポケモンGO】GOバトルリーグ黄昏の旅路シーズンのスケジュールと調整内容",
       "url": "https://pokemongo.gamewith.jp/article/show/574389",
@@ -1956,19 +2066,20 @@
       "isNew": false
     },
     {
-      "id": "d0ee242ace4f",
-      "title": "【ポケカ】ハドウシーカーの再販はいつ？再販入荷情報まとめ【11/25更新】",
-      "url": "https://snkrdunk.com/articles/33824/",
-      "host": "snkrdunk.com",
-      "source": "SNKRDUNK",
+      "id": "2cebda773a2b",
+      "title": "画像ページ (1/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930457",
+      "host": "famitsu.com",
+      "source": "ファミ通",
       "summary": "",
-      "publishedAt": "2026-11-25T04:37:21.000Z",
-      "image": "https://cdn.snkrdunk.com/uploads/media/e085eb8f-5211-448d-8cc0-d0739aa02035.png",
+      "publishedAt": "2026-11-25T05:08:42.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/af4921c628ed5fe91984a11dce1617bba.jpg?x=1280",
       "categories": [
-        "tcgcat"
+        "other"
       ],
       "series": [
-        "tcg"
+        "main",
+        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2042,23 +2153,26 @@
       "isNew": false
     },
     {
-      "id": "c58790ce981c",
-      "title": "『ポケモン』スマホをシェイクするとケース背面でポケモンやモンスターボールが動き回る！ ピクセルアート表現がかわいいテックアクセサリーコレクション「Pokémon」が登場",
-      "url": "https://www.pashplus.jp/goods/504414/",
-      "host": "pashplus.jp",
-      "source": "PASH! PLUS",
+      "id": "e1d78e1f9df0",
+      "title": "ポケモン：ヒゲダンコラボMV 11月30日公開 監督は山田尚子 マッドハウス制作",
+      "url": "https://mantan-web.jp/article/20261125dog00m200037000a.html",
+      "host": "mantan-web.jp",
+      "source": "Mantan Web",
       "summary": "",
-      "publishedAt": "2026-11-25T03:57:07.000Z",
-      "image": "https://www.pashplus.jp/wp-content/uploads/01-2657.jpg",
+      "publishedAt": "2026-11-25T03:52:00.000Z",
+      "image": "https://storage.mantan-web.jp/w=1280,h=720,icr=0:0.1:1:1,a=2,g=2,f=webp:auto/images/2026/11/25/20261125dog00m200037000a/001.jpg",
       "categories": [
-        "other"
+        "new",
+        "goodscat"
       ],
-      "series": [],
+      "series": [
+        "goods"
+      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
       "id": "42b990238574",
@@ -2161,25 +2275,6 @@
       "isNew": false
     },
     {
-      "id": "ab4d979d40bd",
-      "title": "ポケモン30周年記念、懐かしのピクセルアートが描かれたスマホ・イヤホンケースなどがCASETiFYより登場 (リアルサウンド)",
-      "url": "https://news.yahoo.co.jp/articles/8742695966dff3658409bb65f586474a49c67716/images/000",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-25T03:07:04.000Z",
-      "image": "https://news-pctr.c.yimg.jp/uUzvQ3lML_bkIqyakc1vFhNrRI0RUQxg5aFkrX0xDg1_T0wXrbEJjtNGtrf1o9y32aKHaE9S6KKOAHNM7AL26qghOmYwyaJWlnKJr_vHLiYWeOAiYWvkWHslNlQVqWj1ETAfly6P0REljriV-lMyUhAOAvvu0zf6TcqwbuwX3YI27RtNRvEKo46trnyJ3VZf_GZ8s1bgkQAwkSsqV1b0lQ==",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "f42a3d10e16d",
       "title": "Official髭男dism、12月1日リリースの新曲「エバーグリーン」が、ポケモン30周年「ポケモンとつづく」Pokémon Special Music Video楽曲に決定！",
       "url": "https://e.usen.com/news/news-movie/officialdism12130pokemon-special-music-video.html",
@@ -2192,27 +2287,6 @@
         "other"
       ],
       "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "84b172040ccc",
-      "title": "能登復興を応援！「POKEMON with YOU」のポケモンパン能登産牛乳をミルククリームに使用し、12月1日（火）より発売！",
-      "url": "https://animeanime.jp/release/prtimes/20261125/329396.html",
-      "host": "animeanime.jp",
-      "source": "アニメ！アニメ！",
-      "summary": "",
-      "publishedAt": "2026-11-25T03:00:00.000Z",
-      "image": "https://animeanime.jp/release/imgs/list/577154.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "goods"
-      ],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2420,6 +2494,28 @@
       "isNew": false
     },
     {
+      "id": "c4c599ad8f8a",
+      "title": "画像ページ (12/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930452",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-25T00:57:36.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/af5f7f53126c7338ba6853826b033d668.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "ef4261ad063e",
       "title": "【ポケモンGO】2026年12月のイベントスケジュールまとめ",
       "url": "https://pokemongo.gamewith.jp/article/show/590093",
@@ -2439,6 +2535,29 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "4ea701f3e265",
+      "title": "【きょうから】しまむら『ポケモン』新作グッズ、中身は？ 御三家やラティ兄弟のデザインに「良すぎないか…？」「開店凸します！」",
+      "url": "https://www.sanyonews.jp/article/2022162",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-25T00:27:31.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/2/2/c/922cb5b0cdfdb59d86948e5a08dbdd1b_1.jpg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "80cfb8a61c94",
@@ -2462,22 +2581,18 @@
       "isNew": false
     },
     {
-      "id": "de76189d39c5",
-      "title": "ポケモン短編アニメ18作品、12月18日から配信 ディズニープラスで新作『ネギガナイトとピチューの冒険』来年配信",
-      "url": "https://www.agara.co.jp/article/715200",
-      "host": "agara.co.jp",
-      "source": "AGARA 紀伊民報",
+      "id": "c58790ce981c",
+      "title": "『ポケモン』スマホをシェイクするとケース背面でポケモンやモンスターボールが動き回る！ ピクセルアート表現がかわいいテックアクセサリーコレクション「Pokémon」が登場",
+      "url": "https://www.excite.co.jp/news/article/pashplus_EXCITE_504414/",
+      "host": "excite.co.jp",
+      "source": "Excite エキサイト",
       "summary": "",
-      "publishedAt": "2026-11-24T22:08:15.000Z",
-      "image": "https://www.agara.co.jp/image/article/size1/5/8/d/c/58dc21faeb816623a5c8f10b33591d74_1.jpg",
+      "publishedAt": "2026-11-24T22:34:38.000Z",
+      "image": "",
       "categories": [
-        "media",
-        "new"
+        "other"
       ],
-      "series": [
-        "main",
-        "anime"
-      ],
+      "series": [],
       "isOfficial": false,
       "isPR": false,
       "viaGoogle": false,
@@ -2530,12 +2645,12 @@
     {
       "id": "11dd19b69a7f",
       "title": "【ポケモンGO】GOツアーアローラ地方の開催期間と場所",
-      "url": "https://pokemongo.gamewith.jp/article/show/578534",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1SQzdkMzVBcF9QbjFJa3dabkVhNnlEYVNjTWloZ212bDY4UzNBRllWcUJXUkhULTNHY21NT1ZILWlEQmdWelBBcnJVQ3JzeTZVMXVNZndkLTJ4b19fQnc?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-24T17:26:40.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/578534.png?date=1795541202",
+      "image": "",
       "categories": [
         "other"
       ],
@@ -2544,7 +2659,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2674,6 +2789,28 @@
       "isNew": false
     },
     {
+      "id": "81dc0e1af3c6",
+      "title": "【ポケポケ】ダメージ軽減効果のおすすめカード一覧【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/507486",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T13:08:06.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/507486.png?date=1752565950",
+      "categories": [
+        "tcgcat",
+        "guide"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "5a7a3124eac5",
       "title": "今年はジョウト地方のポケモンたちが集合！バレンタイン向け商品「ポケモン meets メリーチョコレート」27年1月上旬より発売",
       "url": "https://www.ndw.jp/pokemon-goods-261124-03/",
@@ -2716,28 +2853,6 @@
       "isNew": false
     },
     {
-      "id": "e4d7dc04464f",
-      "title": "【ポケポケ】ドロー効果のおすすめカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466689",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-24T11:51:12.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466689.png?date=1743150224",
-      "categories": [
-        "tcgcat",
-        "guide"
-      ],
-      "series": [
-        "tcg"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
       "id": "fa06a82a82e0",
       "title": "【ポケモンSV】タイプ相性表と弱点一覧【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/372813",
@@ -2761,12 +2876,12 @@
     {
       "id": "9c7cc1e44b09",
       "title": "Duolingoコラボの背景付きぺラップのレア度がヤバすぎ / 色違いの交換レートは史上最高レベル【ポケモンGO】",
-      "url": "https://getnews.jp/archives/3757701",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Nc3V4cldlS3hrLUxseFd4S2dxQXY5ajMxdkVGVW5LTEVRQXYtdmdReUhSUGFhRmpiN3o3VWluR3p4TnJLTFd3NzBPNA?oc=5",
       "host": "getnews.jp",
       "source": "ガジェット通信",
       "summary": "",
       "publishedAt": "2026-11-24T11:30:28.000Z",
-      "image": "https://rensai.jp/wp-content/uploads/2026/11/1124_pokemon-2.png",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -2776,7 +2891,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -2801,7 +2916,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "639bcf4e87b7",
@@ -2821,6 +2936,28 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "a2a385a7fca4",
+      "title": "【ポケモンSV】ランクマ上位構築パーティ一覧(S40構築記事)【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/385638",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T10:44:04.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/385638.png?date=1677742033",
+      "categories": [
+        "guide",
+        "community"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "d4a317fa2360",
@@ -2847,39 +2984,17 @@
     {
       "id": "1a99fde77bf4",
       "title": "「ポケモン meets メリーチョコレート」2027年バレンタインはジョウト地方のポケモンがドット絵に！12月23日予約開始",
-      "url": "http://www.excite.co.jp/news/article/Nijimen_0000000000666510/",
-      "host": "excite.co.jp",
-      "source": "Excite エキサイト",
+      "url": "https://nijimen.kusuguru.co.jp/topics/666510",
+      "host": "nijimen.kusuguru.co.jp",
+      "source": "にじめん",
       "summary": "",
       "publishedAt": "2026-11-24T10:35:00.000Z",
-      "image": "",
+      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/ace7f0713f4f4f99b133bcfeb53d3fc3.png",
       "categories": [
         "new"
       ],
       "series": [
         "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "2777d82b3014",
-      "title": "ポケモン・サトシ役で知られる声優 松本梨香さんがアキレス腱断裂のけがを発表 当面は「車いすでの登壇・出演」",
-      "url": "https://news.yahoo.co.jp/articles/fc63b77e1c802130065533b5e8a916b97bc9c3d6",
-      "host": "news.yahoo.co.jp",
-      "source": "Yahoo!ニュース",
-      "summary": "",
-      "publishedAt": "2026-11-24T10:03:14.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-10291721-abemav-000-1-view.jpg?exp=10800",
-      "categories": [
-        "new",
-        "media"
-      ],
-      "series": [
-        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2901,6 +3016,28 @@
       ],
       "series": [
         "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "2777d82b3014",
+      "title": "ポケモン・サトシ役で知られる声優 松本梨香さんがアキレス腱断裂のけがを発表 当面は「車いすでの登壇・出演」",
+      "url": "https://times.abema.tv/articles/-/10291721",
+      "host": "times.abema.tv",
+      "source": "ABEMA TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-24T10:02:00.000Z",
+      "image": "https://times-abema.ismcdn.jp/mwimgs/3/e/1200w/img_3ec8ef767eb7d4fa232b8d28294c80f1162700.jpg",
+      "categories": [
+        "new",
+        "media"
+      ],
+      "series": [
+        "anime"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -2965,27 +3102,6 @@
       ],
       "series": [
         "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
-      "id": "aad570bdefe1",
-      "title": "新曲「エバーグリーン」で描く30周年の先！ポケモン30周年「ポケモンとつづく」Official髭男dismとのコラボレーション Pokémon Special Music Video",
-      "url": "https://dtimes.jp/post-1478773/",
-      "host": "dtimes.jp",
-      "source": "Dtimes",
-      "summary": "",
-      "publishedAt": "2026-11-24T08:53:48.000Z",
-      "image": "https://dtimes.jp/wp-content/uploads/2026/11/dtimes-engine-8eb4d0586c8ce687968d51498b3f0f77-20261124-5b8f71.jpg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
       ],
       "isOfficial": false,
       "isPR": false,
@@ -3102,6 +3218,46 @@
       "isNew": false
     },
     {
+      "id": "6512ec8e30f7",
+      "title": "『ポケモン』のバレンタイン専用商品が12月23日より予約開始。ルギアやホウオウなど、ジョウト地方ならではのポケモンたち",
+      "url": "https://news.nicovideo.jp/watch/nw20025073?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:48:30.000Z",
+      "image": "",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "26f91a8a8d35",
+      "title": "『ポケモン』30周年のフィナーレを飾るスペシャルミュージックビデオが11月30日に公開。楽曲はOfficial髭男di",
+      "url": "https://news.nicovideo.jp/watch/nw20025052",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:45:14.000Z",
+      "image": "",
+      "categories": [
+        "new"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "108e61900e8e",
       "title": "バンコクのポケモンセンター限定グッズ公開 ピカチュウがグローブ姿でムエタイに挑戦!? ゴマゾウのキュートなキーホルダーも",
       "url": "https://www.toy-people.com/jp/?p",
@@ -3124,13 +3280,35 @@
       "isNew": false
     },
     {
-      "id": "09ed384b934d",
-      "title": "【ポケモンSV】ガラナツブレスの入手方法と進化ポケモン【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/430280",
+      "id": "44bc941e83ba",
+      "title": "画像ページ (15/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930455",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:36:01.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/a6ae21722b4127e0c1d90009be7462968.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ce6850023365",
+      "title": "【ポケモンSV】西2番エリアのトレーナーの場所と出現ポケモン【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/377334",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-24T07:34:54.000Z",
+      "publishedAt": "2026-11-24T07:34:23.000Z",
       "image": "",
       "categories": [
         "other"
@@ -3142,28 +3320,70 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
     },
     {
-      "id": "086c4de3fd0d",
-      "title": "「ポケモン」声優の松本梨香 アキレス腱断裂「ライブの際に」…今後の活動について説明「当面は車いす」",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTllVZnJfNDduR2l3enhERDY4RGVsNndKSEZwY29qY1NLNHdhMjBSTWNyRHo4QThyMEpxSmZtV1dPVG1SQmhRaGlVV1JTQVNJcTNzQ3BiZFFYcGtPQVgtSEttMVY4WkhhUXJ3MDRPa3FMZHJONlRNRHhscUpHbGdwdTlWNU1zRHB3OGVvLVJ30gGTAUFVX3lxTFBhZ0w0VlpGVkdqaWpYLWdHQmJPaUxJTUY3aEdLOXZLMklQWlBObGVYRnhFU1VhMThndlAxbk93VjhheUxhVElGQlpBVk9ucG1FZHR5aXJ0SzdFZ1FKM2tQeHAtU1pLVEJlUUFrY1ZIa2VhU3NKQmxYQVJnVTdleFdyOGpFd2N2M2wtZ1U4UWpLVkF2aw?oc=5",
-      "host": "topics.smt.docomo.ne.jp",
-      "source": "ｄメニューニュース",
+      "id": "d20985f50f13",
+      "title": "【ポケモンSV】コンパンの進化と色違い・弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373715",
+      "host": "gamewith.jp",
+      "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-24T07:26:00.000Z",
+      "publishedAt": "2026-11-24T07:25:46.000Z",
       "image": "",
       "categories": [
-        "media"
+        "other"
       ],
       "series": [
-        "anime"
+        "main"
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": true,
+      "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
+    },
+    {
+      "id": "8b85bbe179f5",
+      "title": "【ポケモンSV】ガーディの進化と色違い・出現場所【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373705",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:25:37.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "db7aad703b35",
+      "title": "【ポケモンSV】ウインディの進化と色違い・技【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373704",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:25:35.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "b4cb1a684781",
@@ -3208,6 +3428,27 @@
       "isNew": false
     },
     {
+      "id": "95fcb3268b4c",
+      "title": "【ポケモンSV】サンダースの色違いと弱点・夢特性【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373681",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:25:18.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "71eb0abca018",
       "title": "【ポケモンSV】ウソッキーの弱点と進化・色違い【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373669",
@@ -3229,6 +3470,27 @@
       "isNew": false
     },
     {
+      "id": "85cd9eb5c511",
+      "title": "【ポケモンSV】ヤミカラスの進化と色違い・弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373661",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:24:59.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "8880b2b8b9b4",
       "title": "【ポケモンSV】ドンファンの弱点と進化・色違い【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373644",
@@ -3247,7 +3509,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "e2249772ff52",
@@ -3271,6 +3533,27 @@
       "isNew": false
     },
     {
+      "id": "9a41a493d3b1",
+      "title": "【ポケモンSV】チルタリスの弱点と色違い・進化【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373610",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:24:13.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "26ef848e25fe",
       "title": "【ポケモンSV】ジムリーダーの攻略順番とポケモン一覧【スカーレットバイオレット】",
       "url": "https://gamewith.jp/pokemon-sv/article/show/373925",
@@ -3289,7 +3572,7 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "a93c2892dd38",
@@ -3313,13 +3596,13 @@
       "isNew": false
     },
     {
-      "id": "f1cadc51588e",
-      "title": "【ポケモンSV】キリキザンの進化と弱点・色違いと群れの場所【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/373523",
+      "id": "4643028c0a89",
+      "title": "【ポケモンSV】ミカルゲの弱点と生息地・色違い【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373570",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-24T07:22:59.000Z",
+      "publishedAt": "2026-11-24T07:23:41.000Z",
       "image": "",
       "categories": [
         "other"
@@ -3331,7 +3614,133 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
-      "isNew": false
+      "isNew": true
+    },
+    {
+      "id": "24c7d6c46c80",
+      "title": "【ポケモンSV】リオルの進化と色違い・夢特性と出現場所【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373566",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:23:38.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "0d9d57ebe885",
+      "title": "【ポケモンSV】ルカリオの色違いと進化・弱点と技構成【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373565",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:23:38.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "bebcbbdf77e9",
+      "title": "【ポケモンSV】サザンドラの進化と色違い・弱点と技構成【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373518",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:22:54.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7df6d42cd826",
+      "title": "【ポケモンSV】ウルガモスの色違いと進化・弱点と特性【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373516",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:22:51.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2b5e37718196",
+      "title": "【ポケモンSV】ポットデスの弱点と進化・真作の違い【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373442",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:21:46.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a460e0e84c67",
+      "title": "【ポケモンSV】オラチフの進化と色違い・弱点タイプ【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/373394",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:20:58.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "7b1d4022eea1",
@@ -3394,6 +3803,27 @@
       "isPR": false,
       "viaGoogle": false,
       "sourceKind": "news",
+      "isNew": false
+    },
+    {
+      "id": "7502122bdb84",
+      "title": "【ポケモンSV】ヒトカゲの入手方法と色違い・進化【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/377366",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:19:53.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
       "isNew": true
     },
     {
@@ -3416,6 +3846,111 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ba08ae52f5b0",
+      "title": "【ポケモンSV】バサギリの進化と入手方法・色違いと弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/401422",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:18:39.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fcdeb7c13236",
+      "title": "【ポケモンSV】ダークライの入手方法と色違い・弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/417264",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:17:05.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "880151b087f3",
+      "title": "【ポケモンSV】エルフーンの色違いと進化・夢特性と弱点【スカーレットバイオレット】",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9aV1dGckZUb0pzbV9YMnZVanhEOENWSEdVVmwyZThCdldTYnNHUzZqYk1HbzhTNzFoajVMQjJDTG05VWtFcFNYY1QzRmVLSmtVcEZ1amZNNlpLWHVqY0Jn?oc=5",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:16:04.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "4c2c38294ebb",
+      "title": "【ポケモンSV】ニャビーの色違いと進化・生息地と弱点【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/429816",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:15:53.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "06c59121de22",
+      "title": "【ポケモンSV】れいかいのぬのの入手方法と進化ポケモン【スカーレットバイオレット】",
+      "url": "https://gamewith.jp/pokemon-sv/article/show/417315",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T07:14:42.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "bb5f4c1d77a5",
@@ -3460,27 +3995,6 @@
       "isNew": false
     },
     {
-      "id": "f63c6f286e64",
-      "title": "【ポケモンSV】もうかの効果とポケモン【スカーレットバイオレット】",
-      "url": "https://gamewith.jp/pokemon-sv/article/show/374985",
-      "host": "gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-24T07:09:08.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "cee3476ccd5f",
       "title": "ポケモン30周年、山田尚子監督の新作アニメMV公開へ 2020年「GOTCHA！」に続くシリーズ - KAI-YOU",
       "url": "https://kai-you.net/article/97235",
@@ -3506,12 +4020,12 @@
     {
       "id": "bd8b769db4f0",
       "title": "ポケモン30周年の最後のキーワードは「つづく」。Official髭男dism×山田尚子監督の新作MVを11月30日公開",
-      "url": "https://corriente.jp/pokemon-special-music-video-261130/",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JemxDb3FMN0h4RVlaUkdrVVMxS29BeHFhQXRITjVSUE9PaERvaE4xc3NUUW9RU0VXUlpzb2pmVWZNSnRpN0w2S1ZtMFo2WkxlS0Z3WW83emYxZG10YTdGcG1Xem8wemp4cWZGRNIBbEFVX3lxTE1JemxDb3FMN0h4RVlaUkdrVVMxS29BeHFhQXRITjVSUE9PaERvaE4xc3NUUW9RU0VXUlpzb2pmVWZNSnRpN0w2S1ZtMFo2WkxlS0Z3WW83emYxZG10YTdGcG1Xem8wemp4cWZGRA?oc=5",
       "host": "corriente.jp",
       "source": "CoRRiENTE",
       "summary": "",
       "publishedAt": "2026-11-24T07:00:00.000Z",
-      "image": "https://corriente.jp/wp-content/uploads/2026/11/pokemon-special-music-video-261130-1.webp",
+      "image": "",
       "categories": [
         "new"
       ],
@@ -3520,28 +4034,7 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "e02e61738df7",
-      "title": "「ポケモンキッズ ポケモン30周年記念編」が2026年12月発売予定！1996年当時の造形を参考にソフビ人形を復刻",
-      "url": "http://www.excite.co.jp/news/article/Nijimen_0000000000666249/",
-      "host": "excite.co.jp",
-      "source": "Excite エキサイト",
-      "summary": "",
-      "publishedAt": "2026-11-24T06:58:00.000Z",
-      "image": "",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3651,19 +4144,19 @@
     {
       "id": "057cb7ea24bb",
       "title": "アベイル「福袋」がオンラインストア先行販売実施！「ポケモン」「サンリオキャラクターズ」「HUNTER×HUNTER」など多数ラインナップ（インサイド）",
-      "url": "https://news.yahoo.co.jp/articles/8c3fe3c40aa552622dbffbcded4660c66d78a55b",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yVFRQa3FsT2FtR042cFR2azBlNUtZVjBWTTNVVXVPdExsTE9mQVVUbFdEOGQ3bWRQMklpVFctT21WVUNmTmFLY2ZYRFdCeExIdDlDMzcxU1JpZ3JGQXk3RC05OWlUWHo2aGZmSC1KdnFKM19JN3MzRFltOHhfUFk?oc=5",
       "host": "news.yahoo.co.jp",
       "source": "Yahoo!ニュース",
       "summary": "",
       "publishedAt": "2026-11-24T02:15:03.000Z",
-      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261124-00000012-isd-000-1-view.jpg?exp=10800",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
@@ -3757,7 +4250,7 @@
     {
       "id": "26b0ecff6ad0",
       "title": "ポケモンGO ドラピオン",
-      "url": "https://youtu.be/mI6vUXU51zg?si",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRVWJNZzhUT1FWc3IyR2FqejdKNlQ0X3h2ek1IQ0w5bUg3LXU2dWg4MldkVkhzWmxtd0hoM3FRVGI4WHNzZ1ZMUk52X0V0MGdJVlRaOHVEMGVUcVVf?oc=5",
       "host": "youtu.be",
       "source": "YouTube",
       "summary": "",
@@ -3771,14 +4264,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "25077fd033c4",
       "title": "【ポケモンスリープ/Pokemon Sleep】「なんでもペロリ！ごちそうウィーク vol.1」最終日‼ モンメン厳選終わった？ #974【ポケスリ】",
-      "url": "https://youtu.be/28_s94V4Lq8",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9oZkxLTm5HN2owNjF0NTdpUGFRb09MVEpkdVQ0SEJ0ZVdFWkNzMERPLThRRkFLYTlmVWthQ2tuRG1WQQ?oc=5",
       "host": "youtu.be",
       "source": "YouTube",
       "summary": "",
@@ -3792,14 +4285,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "ea7677af660c",
       "title": "【ポケモンGO】ポケストップ・ジム26個を回す(イベント)の報酬",
-      "url": "https://pokemongo.gamewith.jp/article/show/573496",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zZ0t2Z0w1Y3ZvSUhHNVZYdGJ3cW9LSmpWcG5GYWpTdE01d0ViUmx4NHM5Ykp6YjdZd0ExWm56NmlDQ0ktcURMWnhmM3JaTGUzQVJTakhla3V6Y2pXR1E?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
@@ -3813,40 +4306,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
-      "id": "eabe77021f82",
-      "title": "【ポケモンGO】ニャスパーの色違いと進化先・個体値早見表",
-      "url": "https://pokemongo.gamewith.jp/article/show/36223",
-      "host": "pokemongo.gamewith.jp",
-      "source": "GameWith",
-      "summary": "",
-      "publishedAt": "2026-11-23T22:19:29.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/36223.png?date=1606769047",
-      "categories": [
-        "guide"
-      ],
-      "series": [
-        "go"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": true
-    },
-    {
       "id": "f6c766e46cf9",
       "title": "アローラロコン、コダック、メタモンの「ゆきだるまぬいぐるみ」が11月28日よりポケモンセンターで発売",
-      "url": "https://www.ndw.jp/pokemon-goods-261123-03/",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE04cVhLamJxNUNPYkgzbEY1X1VvYU5vTEhTRTVCbTRlX2dKOFhWdWtWVjVHRkw1QkNnM3E1VmIwTmFmX01TYUxCY1NCcWZoVmZnNURadktR?oc=5",
       "host": "ndw.jp",
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-11-23T22:06:19.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/pokemon261123-3i.jpeg",
+      "image": "",
       "categories": [
         "goodscat"
       ],
@@ -3855,19 +4327,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "44e8e44f6fc0",
       "title": "【ポケモンGO】フライゴンの色違いとおすすめ技・弱点",
-      "url": "https://pokemongo.gamewith.jp/article/show/36582",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE83YWNkVnlieEUwZWNLR3hHckp0WmRGdms3NkpGUUd6V2stTTVfZWdRVW5ieU4xRWYwNjh3ZWlsRlhxSXhpZmdWRXdtVjNKZ1lUQkVQWVRUdUVRUTJV?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-23T22:05:36.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/36582.png?date=1597650461",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -3876,14 +4348,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "bce5fcc0a6a3",
       "title": "ポケモンテイルズ＞新作アニメが2027年にディズニープラスで配信 ネギガナイトとピチューが壮大な冒険へと旅立つ",
-      "url": "https://thetv.jp/news/detail/1436832/landing/",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jUGF2a2dNaXEyNHRoY2hxR0VUQ0hGMUNlTUdaVWVVMEwtcXdmNlFXYnlLQWRfaWZtbnQxaEljY19ERms2UHNiNVFzT3hDTTIyak9iODZYcl8?oc=5",
       "host": "thetv.jp",
       "source": "WEBザテレビジョン",
       "summary": "",
@@ -3899,19 +4371,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "3e3150e5b7f1",
       "title": "【ポケモンGO】ルカリオの色違いとおすすめ技・弱点",
-      "url": "https://pokemongo.gamewith.jp/article/show/36461",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uU1UzeXFLckNCa2ttOTlPb2NxT3VvVUNWODA5cm1CMUs1WmdQSDJhb055TGdUVDJ5NGR3bDNNVmJSbUZiajJXM3Z3aXotRFk0X0MwbXpkQ1RtdUtT?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-23T22:03:55.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/36461.png?date=1581030174",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -3920,19 +4392,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
-      "id": "4b5d1b1e1b7d",
-      "title": "【ポケモンGO】レシラムの色違いとおすすめ技・弱点",
-      "url": "https://pokemongo.gamewith.jp/article/show/36258",
+      "id": "5019f9aaa659",
+      "title": "【ポケモンGO】シャンデラの色違いとおすすめ技・弱点",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1nNi1tRWU5NGxGckNHVVRFM2Q0eFU4NkpsdGR1WmE1Rm9tQ1I0elowdDVSMERScHVVX0txWXN6WnBHXzdNVThwZnp4US1meklBTjVWTC1uOFNLSHlJ?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
-      "publishedAt": "2026-11-23T22:01:14.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/36258.png?date=1590531050",
+      "publishedAt": "2026-11-23T22:01:41.000Z",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -3941,19 +4413,40 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "4b5d1b1e1b7d",
+      "title": "【ポケモンGO】レシラムの色違いとおすすめ技・弱点",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9BSnJuVGZRWUZaNThsMnRfZk02THVrNUd5dVJtaEVKSUJMeDFOTnUzdnhicDBrdl9qNFBnaXFSM0t1UWlRQ01OeVFOcTJTM19IdEgyaEpGSVVfcGtj?oc=5",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-23T22:01:14.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "75f3a8681f18",
       "title": "【ポケモンGO】ホワイトキュレムの色違いとおすすめ技・弱点",
-      "url": "https://pokemongo.gamewith.jp/article/show/148567",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XNWRaNlpxd1BjNVZIakktQWV0NGd3aVFPaURUUmlFSzBWSkhjQS1pVkRaQ19YYTFXSklFMHMzemN0Qnd1UHI5SkdVcEt1dmdmalEtRnFiRF9nT3c2YWc?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-23T22:01:10.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/148567.png?date=1740973346",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -3962,19 +4455,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "d64a7faf2d22",
       "title": "【ポケモンGO】ヌメルゴンの色違いとおすすめ技・弱点",
-      "url": "https://pokemongo.gamewith.jp/article/show/36194",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91aTZ0ODg1ekpMdkNLblZmSUFacnUwbTlqNzdtLUFLelRhOWk5OUFxd0RIU0F2X3Z4VTRkWG1PM3hXc3ZMR1N6ZWdERC1yMl9BN0FyRTBpLUtqaFBa?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-23T22:00:24.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/36194.png?date=1620103118",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -3983,19 +4476,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "5a3876002d21",
       "title": "【ポケモンGO】インテレオンの色違いとおすすめ技・弱点",
-      "url": "https://pokemongo.gamewith.jp/article/show/289700",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBja2JUR1NZTFpRNTFDWUJKVHJUM19pMEFyamcwUUc2ODRDU2lwYndSSDRvSk52b0xyOGRFa0t2TU5VMk9iYmhxX3VBbU5QNWU5ZFdiak54RG0yV3RWLXc?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-23T21:57:42.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/289700.png?date=1725779398",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -4004,19 +4497,19 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "40bf11b0df58",
       "title": "【ポケモンGO】ディアルガ(オリジンフォルム)の色違いとおすすめ技・弱点",
-      "url": "https://pokemongo.gamewith.jp/article/show/319428",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE90RjBOdjU5TGhlczF3Vl9NVnk4T0tkTEI1cXV6d09FRU1JWnJqNl9ndTNqMTlBaWoxWFpjTzNwT1VZVGZLNFhla002OVdBSWQ1NWRUWGNDTElaXzVtUnc?oc=5",
       "host": "pokemongo.gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-23T21:56:29.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/319428.png?date=1708753926",
+      "image": "",
       "categories": [
         "guide"
       ],
@@ -4025,57 +4518,57 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "7756598330e8",
       "title": "『ポケモン』コライドン＆ミライドンに遭遇！モトトカゲレースに参加 第148話あらすじ＆場面カット解禁",
-      "url": "https://www.sanyonews.jp/article/1980028?kw",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4yalRvaXM4OFUxZkhaVFhEUkNDaExqcnNGX0trQTJ0S2VWVU53NjQtVGRXT2Q2T3ZNOEJ6NGdxb2xlc2liZnVRdndyTjJkdi1zTzNPLW5VUlZvaHdt?oc=5",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-23T20:02:02.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/b/d/0/7/bd0721cef7c1f7cf64dcac814867c1b6_1.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "c4a1e7373508",
       "title": "『ポケモン』新章開幕でタロちゃん初登場！豪華な追加キャスト3人発表 第115話あらすじ＆場面カット",
-      "url": "https://www.sanyonews.jp/article/1815541?rct",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JcXlnVnAtV2Y1NEw5b05XaWxhNUdFd1MydklXZkVyenR3MEZQTUpldXBlTV9LWHRmZm9IUGJ5bGVJLUxSVFhMZmpkNVN6UGVDYzh4bElhb3RITEd1QXZv?oc=5",
       "host": "sanyonews.jp",
       "source": "山陽新聞",
       "summary": "",
       "publishedAt": "2026-11-23T17:17:29.000Z",
-      "image": "https://static.sanyonews.jp/image/article/size1/8/e/6/f/8e6ffb5a3af4d5cee3b376ef49ce0ae0_1.jpg",
+      "image": "",
       "categories": [
         "new"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "d672a55e7779",
       "title": "ヒット予測【エンタメ・漫画他】「ポケカ」が題材のアニメ映画公開へ",
-      "url": "https://xtrend.nikkei.com/atcl/contents/18/01507/00021/",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CNVR6SWRYeUloNHhiMVRZTzZtVl9SaVJRdEtFZ3VyanlIcHRmdFBwNmNheTg2YVJzYV9vMHFYZVlrbFZuRUlNM25XbHBVeXY4VEhpaW9wamFQcWhPS0hkMXRqajBZdw?oc=5",
       "host": "xtrend.nikkei.com",
       "source": "日経クロストレンド",
       "summary": "",
       "publishedAt": "2026-11-23T15:00:00.000Z",
-      "image": "https://xtrend.nikkei.com/atcl/contents/18/01507/00021/nxr_m.jpg",
+      "image": "",
       "categories": [
         "media",
         "new"
@@ -4086,38 +4579,38 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "3d6dc592645a",
       "title": "ポケモンの謎のカウントダウン：11月30日に何が？ - Pokemon-France.com",
-      "url": "https://www.pokemon-france.com/ja/news/pokemon-mysterious-official-countdown-november-30-theories/",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTWtQWHFlNDRqMEhpeG9vdzlTRzlXMWsyck1zcldOYms2dUxpcFJFbmFqUGhYVnRvanBqNjc1a1Y0VlNNSjl2RGUwT2tnVFNqUEJ4WnRfb2YyQjFnOFJmWURnV3lncG9kTWtwY1hoY3RpWVJoelZGUDQ0a2JDZUhYR1g4M29CcWhfel9sYzQtMER0X3BhRURyREJSSURaNjg?oc=5",
       "host": "pokemon-france.com",
       "source": "Pokemon-France.com",
       "summary": "",
       "publishedAt": "2026-11-23T14:47:09.000Z",
-      "image": "https://cdn.pokemon-france.com/wp-content/uploads/2026/11/pokemon-30-ans-compte-a-rebours-676-pokemon-cojp.jpg",
+      "image": "",
       "categories": [
         "other"
       ],
       "series": [],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "f7c2b24eb0f5",
       "title": "【ポケポケ】HP回復のおすすめカード一覧【ポケモンカードアプリ】",
-      "url": "https://gamewith.jp/pokemon-tcg-pocket/466695",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xcW5JZGJOOVRBMVZ6MExqRlliNmVvSnZKVXBac0JmV0Q3WGZZSVJLWjV2TUp6akRYV016N1hhRW1TZEpMMGppRGhncWliSXlVaGpQQnNQbjU?oc=5",
       "host": "gamewith.jp",
       "source": "GameWith",
       "summary": "",
       "publishedAt": "2026-11-23T14:38:46.000Z",
-      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/466695.png?date=1743150329",
+      "image": "",
       "categories": [
         "tcgcat",
         "guide"
@@ -4127,54 +4620,14 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "547473501f5c",
-      "title": "ドリュウズと172 ポケモンとつづく 11月30日になにがおきる？【ポケットモンスター】",
-      "url": "https://skypenguin.net/2026/11/23/post-178355/",
-      "host": "skypenguin.net",
-      "source": "人鳥日記",
-      "summary": "",
-      "publishedAt": "2026-11-23T13:32:35.000Z",
-      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/11/ポケモンとつづくドリュウズ.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [
-        "main"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "1f323347b988",
-      "title": "ブラックフライデー2026 ポケモン：日程と注目セール - Pokemon-France.com",
-      "url": "https://www.pokemon-france.com/ja/news/black-friday-2026-pokemon-dates/",
-      "host": "pokemon-france.com",
-      "source": "Pokemon-France.com",
-      "summary": "",
-      "publishedAt": "2026-11-23T12:53:49.000Z",
-      "image": "https://cdn.pokemon-france.com/wp-content/uploads/2026/11/black-friday-pokemon-2026-fnac.jpg",
-      "categories": [
-        "other"
-      ],
-      "series": [],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "4af178c2026c",
       "title": "ポケモンセンターに農場シリーズ登場！ オボンのみがおぼん、ホエルコがじょうろに変身する全28商品",
-      "url": "https://www.toy-people.com/jp/?p",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9GMG1za2p2anJpd0pUcEtSTkQ3cmRjVHpiajB0eXlTQ2dsQ0FlNlNiQS0xMnFxWmNKNERhUTFKVTB1NlhqejhfNXFOSHJlSHpi?oc=5",
       "host": "toy-people.com",
       "source": "玩具人 TOY PEOPLE",
       "summary": "",
@@ -4188,42 +4641,21 @@
       ],
       "isOfficial": false,
       "isPR": false,
-      "viaGoogle": false,
+      "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
     },
     {
       "id": "247308d66864",
       "title": "11月28日より、とある農場でお手伝いするポケモンたちをテーマにしたグッズがポケモンセンターに登場",
-      "url": "https://www.ndw.jp/pokemon-goods-261123-02/",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wMW1IUFRhX2dvUTlQdFBkT2sxT2U1N3ItQzZydGhMTlVHbGxPdjNNUVA0MldScGxqcWdTcmo0RXl5WEhicXpEUHRFX3ctVlAyMDU4RzJB?oc=5",
       "host": "ndw.jp",
       "source": "Nintendo DREAM WEB",
       "summary": "",
       "publishedAt": "2026-11-23T11:06:54.000Z",
-      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/pokemon261123-2i.jpeg",
-      "categories": [
-        "goodscat"
-      ],
-      "series": [
-        "goods"
-      ],
-      "isOfficial": false,
-      "isPR": false,
-      "viaGoogle": false,
-      "sourceKind": "news",
-      "isNew": false
-    },
-    {
-      "id": "58070544514f",
-      "title": "ポケモン公式ベビーブランド「monpoké」のベビー＆キッズ歯ブラシ全6種が12月1日より発売",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HQ3Z4SWN1VEZycnZ5ZFNLOFlnVUkxYVdHbEF3VW5RYVlOS0daOVdUdk15M3dZaW9tR0tSRTgwaklwWTJVRVo4b2JTb0N3ZG1CU0E?oc=5",
-      "host": "ndw.jp",
-      "source": "Nintendo DREAM WEB",
-      "summary": "",
-      "publishedAt": "2026-11-23T10:16:34.000Z",
       "image": "",
       "categories": [
-        "other"
+        "goodscat"
       ],
       "series": [
         "goods"
@@ -4277,6 +4709,27 @@
       "viaGoogle": true,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "3102bb1d2fe9",
+      "title": "テレ東系にて「ポケモンとどこいく！？」が現在放送中！",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EQ0JrRXktaDVqandPQ2hmUmxMS08zMUUtVExHc3dYV18wUE9sLUFMaHpPdXUxaGVLZWxrWGo5QnBCZE5rcEJjRkxQaHNCWC1jT2FfaTNXV1VYdG83UG50a2E5SHhvNzQ?oc=5",
+      "host": "abema.tv",
+      "source": "ABEMA",
+      "summary": "",
+      "publishedAt": "2026-11-22T17:38:20.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
     }
   ]
 }
