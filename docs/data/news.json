@@ -1,110 +1,142 @@
 {
-  "updatedAt": "2026-11-27T14:30:23.555Z",
+  "updatedAt": "2026-11-27T15:00:28.328Z",
   "site": {
     "title": "ポケモン速報",
     "tagline": "ポケモン関連のニュースを、あちこちから集めてまとめています。",
     "url": "https://pokematome.gamelab.website/",
     "contactUrl": "https://docs.google.com/forms/d/e/1FAIpQLSesWyhmZ6sRS_ve-c3X2KqF_wC5PK2TgwgQbTKmnQltSlg5Jw/viewform"
   },
-  "total": 15,
-  "todayCount": 13,
+  "total": 142,
+  "todayCount": 1,
   "categories": [
     {
       "id": "new",
       "label": "新作・発表",
-      "count": 8
+      "count": 28
     },
     {
       "id": "update",
       "label": "アップデート",
-      "count": 0
+      "count": 2
     },
     {
       "id": "event",
       "label": "イベント",
-      "count": 0
+      "count": 16
     },
     {
       "id": "tcgcat",
       "label": "カード",
-      "count": 2
+      "count": 40
     },
     {
       "id": "goodscat",
       "label": "グッズ・コラボ",
-      "count": 8
+      "count": 30
     },
     {
       "id": "media",
       "label": "アニメ・映画・音楽",
-      "count": 0
+      "count": 13
     },
     {
       "id": "guide",
       "label": "攻略・データ",
-      "count": 1
+      "count": 6
     },
     {
       "id": "community",
       "label": "大会・コミュニティ",
-      "count": 0
+      "count": 3
     },
     {
       "id": "biz",
       "label": "売上・企業",
-      "count": 0
+      "count": 1
     },
     {
       "id": "other",
       "label": "その他",
-      "count": 3
+      "count": 38
     }
   ],
   "series": [
     {
       "id": "main",
       "label": "本編ゲーム",
-      "count": 9
+      "count": 30
     },
     {
       "id": "go",
       "label": "ポケモンGO",
-      "count": 0
+      "count": 35
     },
     {
       "id": "tcg",
       "label": "ポケカ",
-      "count": 2
+      "count": 40
     },
     {
       "id": "anime",
       "label": "アニメ・映画",
-      "count": 0
+      "count": 14
     },
     {
       "id": "unite",
       "label": "ユナイト",
-      "count": 0
+      "count": 1
     },
     {
       "id": "sleep",
       "label": "スリープ",
-      "count": 0
+      "count": 1
     },
     {
       "id": "goods",
       "label": "グッズ・コラボ",
-      "count": 11
+      "count": 54
     }
   ],
   "weapons": [],
   "sources": [
     {
+      "name": "GameWith",
+      "count": 22
+    },
+    {
+      "name": "SNKRDUNK",
+      "count": 19
+    },
+    {
+      "name": "Yahoo!ニュース",
+      "count": 9
+    },
+    {
+      "name": "ファミ通",
+      "count": 9
+    },
+    {
       "name": "インサイド",
-      "count": 4
+      "count": 6
+    },
+    {
+      "name": "ガジェット通信",
+      "count": 6
+    },
+    {
+      "name": "山陽新聞",
+      "count": 6
     },
     {
       "name": "Game*Spark",
+      "count": 4
+    },
+    {
+      "name": "Nintendo DREAM WEB",
+      "count": 4
+    },
+    {
+      "name": "ポケットモンスターオフィシャルサイト",
       "count": 4
     },
     {
@@ -113,6 +145,50 @@
     },
     {
       "name": "電ファミニコゲーマー",
+      "count": 3
+    },
+    {
+      "name": "Pokémon GO",
+      "count": 3
+    },
+    {
+      "name": "マイナビニュース",
+      "count": 2
+    },
+    {
+      "name": "日刊スポーツ",
+      "count": 2
+    },
+    {
+      "name": "ニコニコニュース",
+      "count": 2
+    },
+    {
+      "name": "Gamer",
+      "count": 2
+    },
+    {
+      "name": "リアルサウンド",
+      "count": 2
+    },
+    {
+      "name": "玩具人 TOY PEOPLE",
+      "count": 2
+    },
+    {
+      "name": "Pokemon-France.com",
+      "count": 2
+    },
+    {
+      "name": "時事ドットコム",
+      "count": 2
+    },
+    {
+      "name": "PR TIMES",
+      "count": 2
+    },
+    {
+      "name": "MMOEXP",
       "count": 2
     },
     {
@@ -120,11 +196,177 @@
       "count": 1
     },
     {
+      "name": "PASH! PLUS",
+      "count": 1
+    },
+    {
+      "name": "電撃オンライン",
+      "count": 1
+    },
+    {
+      "name": "モデルプレス",
+      "count": 1
+    },
+    {
+      "name": "オリコンニュース",
+      "count": 1
+    },
+    {
+      "name": "Goal.com",
+      "count": 1
+    },
+    {
+      "name": "テレビ東京",
+      "count": 1
+    },
+    {
+      "name": "TVer",
+      "count": 1
+    },
+    {
+      "name": "ウォーカープラス",
+      "count": 1
+    },
+    {
+      "name": "電撃ホビーウェブ",
+      "count": 1
+    },
+    {
+      "name": "WEBザテレビジョン",
+      "count": 1
+    },
+    {
+      "name": "横浜DeNAベイスターズ",
+      "count": 1
+    },
+    {
+      "name": "MEDIAMIXI",
+      "count": 1
+    },
+    {
+      "name": "47NEWS",
+      "count": 1
+    },
+    {
+      "name": "carview!",
+      "count": 1
+    },
+    {
+      "name": "にじめん",
+      "count": 1
+    },
+    {
+      "name": "Saiga NAK",
+      "count": 1
+    },
+    {
       "name": "IGN Japan",
+      "count": 1
+    },
+    {
+      "name": "BANGER!!!（バンガー!!!）映画評論・情報サイト",
+      "count": 1
+    },
+    {
+      "name": "マグミクス",
+      "count": 1
+    },
+    {
+      "name": "games.gg",
+      "count": 1
+    },
+    {
+      "name": "人鳥日記",
+      "count": 1
+    },
+    {
+      "name": "TBS NEWS DIG",
+      "count": 1
+    },
+    {
+      "name": "ファミリーマート",
       "count": 1
     }
   ],
   "topics": [
+    {
+      "id": "a5a38ef297c6",
+      "title": "「ポケットモンスター リサーチ!ピカピカ」なにわ男子&レインボーと一緒にポケモンの世界を冒険!2027年1月より放送決定!",
+      "summary": "",
+      "url": "https://news.mynavi.jp/article/20261127-5424183/",
+      "image": "https://news.mynavi.jp/article/20261127-5424183/ogp_images/ogp.jpg",
+      "leadSource": "マイナビニュース",
+      "publishedAt": "2026-11-27T11:58:19.000Z",
+      "sourceCount": 9,
+      "articleCount": 10,
+      "categories": [
+        "media",
+        "other"
+      ],
+      "keywords": [
+        "アニメ",
+        "番組",
+        "リサーチ"
+      ],
+      "articles": [
+        {
+          "title": "なにわ男子、アニメ「ポケモン」30周年記念番組のMCに就任 レインボーも",
+          "url": "https://www.nikkansports.com/entertainment/photonews/photonews_nsInc_202611270001833-1.html",
+          "source": "日刊スポーツ",
+          "publishedAt": "2026-11-27T10:54:32.000Z",
+          "isPR": false
+        },
+        {
+          "title": "なにわ男子、アニメ「ポケモン」30周年記念番組のMCに就任「夢のようです」レインボーも",
+          "url": "https://www.nikkansports.com/entertainment/photonews/photonews_nsInc_202611270001833-0.html",
+          "source": "日刊スポーツ",
+          "publishedAt": "2026-11-27T10:46:31.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アニメ『ポケモン』30周年記念のTVアニメ『ポケットモンスター リサーチ！ピカピカ』が1月8日から放送決定！",
+          "url": "https://news.nicovideo.jp/watch/nw20040275?from",
+          "source": "ニコニコニュース",
+          "publishedAt": "2026-11-27T10:45:25.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【アニポケ】アニメ『ポケモン』新シーズンは2027年10月から放送予定！ アニメ30周年記念番組として『ポケットモンスター リサーチ！ピカピカ』が1月より放送決定",
+          "url": "https://www.pashplus.jp/anime/504980/",
+          "source": "PASH! PLUS",
+          "publishedAt": "2026-11-27T10:32:16.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アニメ『ポケモン』ワンダーボヤージュの続編となる新シーズンが2027年10月より放送。アニポケ30周年記念番組の放送も決定",
+          "url": "https://www.famitsu.com/article/202611/95342",
+          "source": "ファミ通",
+          "publishedAt": "2026-11-27T10:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "アニメ『ポケモン』新シーズンは2027年10月の放送を予定。リコとロイの新たな冒険が始まる",
+          "url": "https://dengekionline.com/article/202611/95348",
+          "source": "電撃オンライン",
+          "publishedAt": "2026-11-27T10:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "なにわ男子＆レインボー、新番組MC就任でポケモン愛炸裂 大橋和也発の謎ポケモン「アジャシー」誕生？【「ポケットモンスター リサーチ！ピカピカ」取材全文】",
+          "url": "https://mdpr.jp/news/4884091",
+          "source": "モデルプレス",
+          "publishedAt": "2026-11-27T10:30:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "なにわ男子×レインボーが「ポケモン」をリサーチ！ アニポケ30周年記念の新番組がスタート（TVガイドWeb）",
+          "url": "https://news.yahoo.co.jp/articles/5e181813322d5abe21e320154788c07bd273e675",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-27T10:30:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
     {
       "id": "7d3bc5c16735",
       "title": "「ポケットモンスター ウインド・ウェーブ」，パートナーポケモン3匹のぬいぐるみが12月3日に発売決定",
@@ -133,8 +375,8 @@
       "image": "https://www.4gamer.net/games/986/G098683/20261127042/SS/001.jpg",
       "leadSource": "4Gamer",
       "publishedAt": "2026-11-27T10:46:13.000Z",
-      "sourceCount": 4,
-      "articleCount": 4,
+      "sourceCount": 8,
+      "articleCount": 8,
       "categories": [
         "new",
         "goodscat"
@@ -145,6 +387,13 @@
         "発売"
       ],
       "articles": [
+        {
+          "title": "ポケモン新作『ウインド・ウェーブ』発売に先駆け、ハブロウ・ポムケン・ミオリーのぬいぐるみが登場",
+          "url": "https://realsound.jp/tech/2026/11/post-2597208.html",
+          "source": "リアルサウンド",
+          "publishedAt": "2026-11-27T08:13:06.000Z",
+          "isPR": false
+        },
         {
           "title": "『ポケモン ウインド・ウェーブ』の御三家がぬいぐるみに初登場！ハブロウ、ポムケン、ミオリーたちを12月3日10時より順次発売",
           "url": "https://www.inside-games.jp/article/2026/11/27/191654.html",
@@ -160,23 +409,451 @@
           "isPR": false
         },
         {
+          "title": "「ポケモン風波」で冒険の最初のパートナーとなる、御三家たちのぬいぐるみが登場！（GAME Watch）",
+          "url": "https://news.yahoo.co.jp/articles/067ef0c52cce7953c5a336c49b1a321702ec5ba2",
+          "source": "Yahoo!ニュース",
+          "publishedAt": "2026-11-27T05:58:00.000Z",
+          "isPR": false
+        },
+        {
           "title": "『ポケモン ウインド・ウェーブ』の御三家ハブロウ・ポムケン・ミオリーのぬいぐるみが12月5日よりポケモンセンターに登場",
           "url": "https://news.denfaminicogamer.jp/news/2611272e",
           "source": "電ファミニコゲーマー",
           "publishedAt": "2026-11-27T05:55:05.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモン風波】『ポケットモンスターウインド・ウェーブ』最初のパートナー3匹が早くもぬいぐるみに。ポケモンセンターオンラインで12月3日発売",
+          "url": "https://www.famitsu.com/article/202611/95289",
+          "source": "ファミ通",
+          "publishedAt": "2026-11-27T05:42:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケットモンスター ウインド・ウェーブ』で冒険の最初のパートナーとなる、ポケモンたちのぬいぐるみが登場！",
+          "url": "https://www.pokemon.co.jp/goods/2026/11/261127_to01.html",
+          "source": "ポケットモンスターオフィシャルサイト",
+          "publishedAt": "2026-11-27T05:07:16.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "68d26ac36563",
+      "title": "【ポケモンGO】キョダイマックスインテレオンのマックスバトルデイの期間とボーナス",
+      "summary": "",
+      "url": "https://pokemongo.gamewith.jp/article/show/590252",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/590252.png?date=1795659515",
+      "leadSource": "GameWith",
+      "publishedAt": "2026-11-27T09:16:05.000Z",
+      "sourceCount": 7,
+      "articleCount": 16,
+      "categories": [
+        "other",
+        "event"
+      ],
+      "keywords": [
+        "ポケモンGO",
+        "開催",
+        "pok"
+      ],
+      "articles": [
+        {
+          "title": "【ポケモンGO】黄昏時の願いイベントの開催期間とボーナス",
+          "url": "https://pokemongo.gamewith.jp/article/show/586413",
+          "source": "GameWith",
+          "publishedAt": "2026-11-27T05:29:19.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】ポケモンチャンピオンズ(Pokémon Champions)コラボイベントの開催期間とボーナス",
+          "url": "https://pokemongo.gamewith.jp/article/show/590237",
+          "source": "GameWith",
+          "publishedAt": "2026-11-27T05:07:57.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【Pokémon GO Lab.】12月の『ポケモン GO』イベントの開催について",
+          "url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-megatokyo/go-lab/202611/000706.html",
+          "source": "ポケットモンスターオフィシャルサイト",
+          "publishedAt": "2026-11-27T03:07:36.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】熱帯楽園の開催期間とボーナス",
+          "url": "https://pokemongo.gamewith.jp/article/show/590254",
+          "source": "GameWith",
+          "publishedAt": "2026-11-27T02:02:58.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】ピクシーのスーパーメガレイドデイの開催期間とボーナス",
+          "url": "https://pokemongo.gamewith.jp/article/show/586872",
+          "source": "GameWith",
+          "publishedAt": "2026-11-26T22:07:18.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケモンGO】うたた寝の途シーズンの期間とボーナス",
+          "url": "https://pokemongo.gamewith.jp/article/show/590086",
+          "source": "GameWith",
+          "publishedAt": "2026-11-26T17:35:07.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『Pokémon Champions』×『Pokémon GO』コラボ決定！ ヒードランら伝説のポケモン8匹が登場",
+          "url": "https://www.toy-people.com/jp/?p",
+          "source": "玩具人 TOY PEOPLE",
+          "publishedAt": "2026-11-26T10:38:41.000Z",
+          "isPR": false
+        },
+        {
+          "title": "「Pokémon Champions」レギュレーションM-Dが12月2日から開始！ヒードラン・ヘイラッシャ・シャリタツが参戦",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HSXBlVzlwaDIyN0xDcDdTdjFzX1I0U0ktOHR0LW5sd1FoTy1Hc2F1M2dhOHBLNHhDMGhfNHJaQnR2emg4ZlRqUl9WWTNXa29xTzJXdElnNTJITzRfc05BX2xwMmljSF9xeFk5NGpVcGZaQ2lEbGNRc2RqTURwUdIBgwFBVV95cUxQemRZNzhpNGljeXMxZ0s3MEFMUUprRnlWZWEyQkxVVGpaWXFiZG5KV0hDcEE3VE8tazVRXzA3akFKMFIyV3B5QldQZFhNQm1QVlJoTmUwOF81eHJLaWxmb1ktOTljd2VVZzhpNkVNRk1fa0NGT2RXcGd0OGt3d3BYQ09NTQ?oc=5",
+          "source": "Saiga NAK",
+          "publishedAt": "2026-11-26T08:40:10.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "d177539396e2",
+      "title": "『ポケモンGO』初登場の色違いも狙いたい！3時間限定の「メガピクシー」レイドデイ重要ポイントまとめ",
+      "summary": "『ポケモンGO』に、メガピクシーが初登場！",
+      "url": "https://www.inside-games.jp/article/2026/11/28/191695.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1812048.png",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-11-27T15:00:03.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "event",
+        "other"
+      ],
+      "keywords": [
+        "ポケモンGO",
+        "メガピクシー"
+      ],
+      "articles": [
+        {
+          "title": "【ポケモンGO】2026年12月のイベントスケジュールまとめ",
+          "url": "https://pokemongo.gamewith.jp/article/show/590093",
+          "source": "GameWith",
+          "publishedAt": "2026-11-27T06:52:18.000Z",
+          "isPR": false
+        },
+        {
+          "title": "メガピクシーはガチるべきなのか？ →はい、ガチるべきです【ポケモンGO】",
+          "url": "https://getnews.jp/archives/3758299",
+          "source": "ガジェット通信",
+          "publishedAt": "2026-11-27T00:30:26.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "c554804ae38d",
+      "title": "『ポケモン ウインド・ウェーブ』の御三家も！歴代旅立ちのパートナーが大集合した、記念アート使用のグッズが発売決定",
+      "summary": "『ポケットモンスター』30周年のピックアップテーマ「つづく」をイメージした記念グッズが2026年12月3日10時より順次発売！",
+      "url": "http://www.gamespark.jp/article/2026/11/27/175387.html",
+      "image": "http://www.gamespark.jp/imgs/rss/1224446.jpg",
+      "leadSource": "Game*Spark",
+      "publishedAt": "2026-11-27T11:45:03.000Z",
+      "sourceCount": 3,
+      "articleCount": 3,
+      "categories": [
+        "goodscat"
+      ],
+      "keywords": [
+        "グッズ",
+        "使用",
+        "ポケモンセンター"
+      ],
+      "articles": [
+        {
+          "title": "ゲームフリーク描き下ろしアートを使用！ポケモン30周年テーマ「つづく」を描いたグッズが12月5日よりポケモンセンターに登場",
+          "url": "https://www.ndw.jp/pokemon-goods-261127-03/",
+          "source": "Nintendo DREAM WEB",
+          "publishedAt": "2026-11-27T09:54:22.000Z",
+          "isPR": false
+        },
+        {
+          "title": "ピックアップテーマ「つづく」のイラストを使用したグッズが、ポケモンセンターに登場！｜ポケットモンスターオフィシャルサイト",
+          "url": "https://www.pokemon.co.jp/goods/2026/11/261127_to02.html",
+          "source": "ポケットモンスターオフィシャルサイト",
+          "publishedAt": "2026-11-27T05:01:15.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "3b07161abb79",
+      "title": "【ポケカ】FUTURISTIC BOXの買取・相場価格と値段推移｜30th CELEBRATION",
+      "summary": "",
+      "url": "https://snkrdunk.com/articles/33089/",
+      "image": "https://cdn.snkrdunk.com/uploads/media/4f6bd714-e455-4d67-a1f5-6401f206cfe8.jpeg",
+      "leadSource": "SNKRDUNK",
+      "publishedAt": "2026-11-27T12:14:29.000Z",
+      "sourceCount": 2,
+      "articleCount": 6,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "ポケカ",
+        "買取",
+        "相場価格"
+      ],
+      "articles": [
+        {
+          "title": "【ポケカ】ヒロシマのピカチュウ プロモの買取・相場価格と値段推移｜スペシャルBOX「ヒロシマ」",
+          "url": "https://snkrdunk.com/articles/29064/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-27T09:25:03.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】フクオカのピカチュウ プロモの買取・相場価格と値段推移｜スペシャルBOX「フクオカ」",
+          "url": "https://snkrdunk.com/articles/29067/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-27T08:03:27.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】エクバリーリエの買取・相場価格と値段推移",
+          "url": "https://snkrdunk.com/articles/18031/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-27T04:50:59.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】メガルカリオZex MURの買取・相場価格と値段推移｜ハドウシーカー",
+          "url": "https://snkrdunk.com/articles/33840/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-27T04:49:45.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【ポケカ】『ハドウシーカー』SAR/AR/SRまとめ。メガルカリオZexや『北斗の拳』の原哲夫先生が描くマキシの熱血を収録【11月27日発売】",
+          "url": "https://www.famitsu.com/article/202611/94998",
+          "source": "ファミ通",
+          "publishedAt": "2026-11-26T21:30:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "6483488636b9",
+      "title": "『ポケカ』30周年記念商品がポケセンオンラインで抽選販売！拡張パック「30th CELEBRATION」や「エーフィ・ブラッキーセット」が対象",
+      "summary": "『ポケモンカードゲーム』30周年記念の拡張パック「30th CELEBRATION」、「エーフィ・ブラッキーセット」、「FUTURISTIC BOX」が12月1日14時より抽選販売！",
+      "url": "https://www.inside-games.jp/article/2026/11/27/191665.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1739636.jpg",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-11-27T07:40:02.000Z",
+      "sourceCount": 2,
+      "articleCount": 3,
+      "categories": [
+        "tcgcat"
+      ],
+      "keywords": [
+        "抽選販売",
+        "セット",
+        "celebration"
+      ],
+      "articles": [
+        {
+          "title": "エディオン「エンタメ福袋」にポケモンカードのスペシャルセット2種！「30th CELEBRATION」を含む6BOXを抽選販売",
+          "url": "https://nijimen.kusuguru.co.jp/topics/668915",
+          "source": "にじめん",
+          "publishedAt": "2026-11-26T11:12:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "『ポケカ』30周年記念パックや「ストームエメラルダ」などを1BOXずつ収録！エディオンで「福袋セット」2種が抽選販売",
+          "url": "https://www.inside-games.jp/article/2026/11/26/191605.html",
+          "source": "インサイド",
+          "publishedAt": "2026-11-26T10:00:03.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "2e1440e0f525",
+      "title": "【Amazonブラックフライデーセール】ポケモンGO(R)対応・挿すだけオートキャッチ「Pocket",
+      "summary": "",
+      "url": "https://news.nicovideo.jp/watch/nw20038062?news_ref",
+      "image": "",
+      "leadSource": "ニコニコニュース",
+      "publishedAt": "2026-11-27T02:30:22.000Z",
+      "sourceCount": 2,
+      "articleCount": 3,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "ポケモンGO",
+        "amazon",
+        "オートキャッチ"
+      ],
+      "articles": [
+        {
+          "title": "【Amazonブラックフライデー】\"歩くだけ\"でポケ活が進むポケモンGO(R)対応オートキャッチ『Auto Catch LIGHT』が年内最後の特別価格。わずか10g・1台で2アカウント接続",
+          "url": "https://www.jiji.com/jc/article?k",
+          "source": "時事ドットコム",
+          "publishedAt": "2026-11-27T02:16:00.000Z",
+          "isPR": false
+        },
+        {
+          "title": "【Amazonブラックフライデー】1台で4台同時接続・最大30日駆動のポケモンGO(R)対応オートキャッチ『Ultra Catcher 4』が年内最後の特別価格。家族みんなのポケ活を全自動でおまかせ",
+          "url": "https://www.jiji.com/jc/article?k",
+          "source": "時事ドットコム",
+          "publishedAt": "2026-11-27T02:16:00.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "029feb1ab7ab",
+      "title": "『ポケカ』のカードイラストを基に立体化！カードと一緒に飾れる台座付きフィギュア新作「30th CELEBRATION」が抽選販売",
+      "summary": "「カードイラストフィギュアコレクション 30th CELEBRATION」が11月27日より抽選発売！ラインナップは“ピカチュウ尽くし”の全13種。",
+      "url": "https://www.inside-games.jp/article/2026/11/27/191693.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1810205.jpg",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-11-27T13:00:02.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "keywords": [
+        "celebration",
+        "ポケカ"
+      ],
+      "articles": [
+        {
+          "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【11/27更新】",
+          "url": "https://snkrdunk.com/articles/33304/",
+          "source": "SNKRDUNK",
+          "publishedAt": "2026-11-27T06:32:28.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "88ce3de51ba3",
+      "title": "おはスタ【ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！】",
+      "summary": "",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611270705.html",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
+      "leadSource": "テレビ東京",
+      "publishedAt": "2026-11-27T09:42:57.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "チェック",
+        "ハナコ",
+        "アニポケルーム"
+      ],
+      "articles": [
+        {
+          "title": "ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！",
+          "url": "https://tver.jp/episodes/epi7at1xem",
+          "source": "TVer",
+          "publishedAt": "2026-11-27T08:21:10.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "2c093c52e467",
+      "title": "『ポケモン』ジガルデが、“50％フォルム”と“パーフェクトフォルム”にチェンジ！1つの商品で2つの姿を楽しめる変形玩具が12月26日発売",
+      "summary": "「ポケモンチェンジ ジガルデ 50％フォルム／パーフェクトフォルム」が12月26日発売！",
+      "url": "https://www.inside-games.jp/article/2026/11/27/191656.html",
+      "image": "https://www.inside-games.jp/imgs/rss/1812712.jpg",
+      "leadSource": "インサイド",
+      "publishedAt": "2026-11-27T06:30:03.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "other"
+      ],
+      "keywords": [
+        "ジガルデ",
+        "フォルム",
+        "パーフェクトフォルム"
+      ],
+      "articles": [
+        {
+          "title": "変形玩具「ポケモンチェンジ」に「ジガルデ 50％フォルム／パーフェクトフォルム」が新登場！12月26日に発売",
+          "url": "https://www.ndw.jp/pokemon-goods-261127/",
+          "source": "Nintendo DREAM WEB",
+          "publishedAt": "2026-11-27T05:09:16.000Z",
+          "isPR": false
+        }
+      ]
+    },
+    {
+      "id": "9a916eb27580",
+      "title": "ポケモンアニメシリーズ【POKETOON】をはじめ短編アニメーション18作品がディズニープラスで見放題配信決定",
+      "summary": "",
+      "url": "https://thetv.jp/news/detail/1459145/landing/",
+      "image": "https://www.banger.jp/wp-content/uploads/2026/11/af55a0152aefca46e30a83b5d55c83f5.jpg",
+      "leadSource": "WEBザテレビジョン",
+      "publishedAt": "2026-11-27T04:27:56.000Z",
+      "sourceCount": 2,
+      "articleCount": 2,
+      "categories": [
+        "media"
+      ],
+      "keywords": [
+        "アニメーション",
+        "ディズニープラス",
+        "短編"
+      ],
+      "articles": [
+        {
+          "title": "「ポケモン」短編アニメーション“18作品”が、ディズニープラスにて 12月18日より一挙見放題配信決定！決定！",
+          "url": "https://www.banger.jp/news/193612/",
+          "source": "BANGER!!!（バンガー!!!）映画評論・情報サイト",
+          "publishedAt": "2026-11-26T02:33:20.000Z",
           "isPR": false
         }
       ]
     }
   ],
   "churn": {
-    "previousAt": "2026-11-27T14:00:18.481Z",
-    "previousCount": 154,
-    "newCount": 0
+    "previousAt": "2026-11-27T14:30:23.555Z",
+    "previousCount": 15,
+    "newCount": 127
   },
   "updateGapMin": 30,
-  "nextUpdateAt": "2026-11-27T15:00:23.555Z",
+  "nextUpdateAt": "2026-11-27T15:30:28.328Z",
   "items": [
+    {
+      "id": "d177539396e2",
+      "title": "『ポケモンGO』初登場の色違いも狙いたい！3時間限定の「メガピクシー」レイドデイ重要ポイントまとめ",
+      "url": "https://www.inside-games.jp/article/2026/11/28/191695.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "『ポケモンGO』に、メガピクシーが初登場！",
+      "publishedAt": "2026-11-27T15:00:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/rss/1812048.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
     {
       "id": "029feb1ab7ab",
       "title": "『ポケカ』のカードイラストを基に立体化！カードと一緒に飾れる台座付きフィギュア新作「30th CELEBRATION」が抽選販売",
@@ -202,6 +879,27 @@
       "isNew": false
     },
     {
+      "id": "3b07161abb79",
+      "title": "【ポケカ】FUTURISTIC BOXの買取・相場価格と値段推移｜30th CELEBRATION",
+      "url": "https://snkrdunk.com/articles/33089/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T12:14:29.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/4f6bd714-e455-4d67-a1f5-6401f206cfe8.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "f408791c17f4",
       "title": "『ポケモン』人気の「てもち」ランキングが公開！1,025匹から選べるカスタマイズグッズ、まさかの組み合わせが堂々の1位に",
       "url": "http://www.gamespark.jp/article/2026/11/27/175388.html",
@@ -224,6 +922,28 @@
       "isNew": false
     },
     {
+      "id": "a5a38ef297c6",
+      "title": "「ポケットモンスター リサーチ!ピカピカ」なにわ男子&レインボーと一緒にポケモンの世界を冒険!2027年1月より放送決定!",
+      "url": "https://news.mynavi.jp/article/20261127-5424183/",
+      "host": "news.mynavi.jp",
+      "source": "マイナビニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T11:58:19.000Z",
+      "image": "https://news.mynavi.jp/article/20261127-5424183/ogp_images/ogp.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "main",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "c554804ae38d",
       "title": "『ポケモン ウインド・ウェーブ』の御三家も！歴代旅立ちのパートナーが大集合した、記念アート使用のグッズが発売決定",
       "url": "http://www.gamespark.jp/article/2026/11/27/175387.html",
@@ -244,6 +964,110 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "dffa414ee5a2",
+      "title": "【ポケカ】2026年の新弾発売スケジュールまとめ",
+      "url": "https://snkrdunk.com/articles/15950/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T11:43:23.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20251222061410-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "79d9252f26e9",
+      "title": "1025匹のポケモンが横浜赤レンガ倉庫に集結！ 推しポケと楽しむ「えらぶ！ ポケモン イルミネーション 1025」",
+      "url": "https://news.mynavi.jp/article/20261127-5423697/",
+      "host": "news.mynavi.jp",
+      "source": "マイナビニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T11:11:00.000Z",
+      "image": "https://news.mynavi.jp/article/20261127-5423697/ogp_images/ogp.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7ce29a27e667",
+      "title": "【ポケカ】MEGAドリームexの当たりランキング/買取相場/封入率/レア別相場/値段まとめ",
+      "url": "https://snkrdunk.com/articles/29152/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T11:05:43.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/c2310c89-54fd-40da-b337-597a68223479.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "1070537cbbf1",
+      "title": "なにわ男子、アニメ「ポケモン」30周年記念番組のMCに就任 レインボーも",
+      "url": "https://www.nikkansports.com/entertainment/photonews/photonews_nsInc_202611270001833-1.html",
+      "host": "nikkansports.com",
+      "source": "日刊スポーツ",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:54:32.000Z",
+      "image": "https://www.nikkansports.com/entertainment/news/img/202611270001833-w1300_1.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fd47e47d6fd9",
+      "title": "なにわ男子、アニメ「ポケモン」30周年記念番組のMCに就任「夢のようです」レインボーも",
+      "url": "https://www.nikkansports.com/entertainment/photonews/photonews_nsInc_202611270001833-0.html",
+      "host": "nikkansports.com",
+      "source": "日刊スポーツ",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:46:31.000Z",
+      "image": "https://www.nikkansports.com/entertainment/news/img/202611270001833-w1300_0.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "7d3bc5c16735",
@@ -269,6 +1093,115 @@
       "isNew": false
     },
     {
+      "id": "dd9d47dcf198",
+      "title": "アニメ『ポケモン』30周年記念のTVアニメ『ポケットモンスター リサーチ！ピカピカ』が1月8日から放送決定！",
+      "url": "https://news.nicovideo.jp/watch/nw20040275?from",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:45:25.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "main",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c2579649ba8c",
+      "title": "なにわ男子 来年１月放送開始のテレ東ポケモン番組でＭＣ（デイリースポーツ）",
+      "url": "https://news.yahoo.co.jp/articles/59d8b8fda99b2d3251409988055166ff260c857f",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:42:25.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000153-dal-000-4-view.jpg?exp=10800",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "e9a0e8e52834",
+      "title": "【ポケカ】ハドウシーカーの予約・抽選情報まとめ【11/26更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/33599/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:41:03.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/b82bd0a8-5400-450a-9b78-af65dc6f5e0c.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "741ed54c5a88",
+      "title": "【アニポケ】アニメ『ポケモン』新シーズンは2027年10月から放送予定！ アニメ30周年記念番組として『ポケットモンスター リサーチ！ピカピカ』が1月より放送決定",
+      "url": "https://www.pashplus.jp/anime/504980/",
+      "host": "pashplus.jp",
+      "source": "PASH! PLUS",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:32:16.000Z",
+      "image": "https://www.pashplus.jp/wp-content/uploads/01-2669.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "main",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ef7af8c0c35c",
+      "title": "なにわ男子 来年１月からポケモン番組のＭＣに「夢のよう」…アニメ新シーズンは来年１０月放送決定（スポーツ報知）",
+      "url": "https://news.yahoo.co.jp/articles/2dca962f40a2170719ff16a08fd282a85afb8117",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:30:04.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-11271270-sph-000-2-view.jpg?exp=10800",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "638317fcd39a",
       "title": "お得に“スイッチ2ライフ”を充実！『ポケモンZ-A』『あつ森』『SQ I・II・III』が2,728円、『ドラクエVIIR』『エリオットの千年物語』は3,278円─ゲオ店舗のブラックフライデーセールを現地調査",
       "url": "http://www.gamespark.jp/article/2026/11/27/175381.html",
@@ -289,6 +1222,494 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "b36a5459b6a5",
+      "title": "アニメ『ポケモン』ワンダーボヤージュの続編となる新シーズンが2027年10月より放送。アニポケ30周年記念番組の放送も決定",
+      "url": "https://www.famitsu.com/article/202611/95342",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:30:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/95342/thumbnail_KtXt.jpg?x=1280",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "8806d8ece69f",
+      "title": "アニメ『ポケモン』新シーズンは2027年10月の放送を予定。リコとロイの新たな冒険が始まる",
+      "url": "https://dengekionline.com/article/202611/95348",
+      "host": "dengekionline.com",
+      "source": "電撃オンライン",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:30:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/95348/ogp_acNf.jpg?x=1280",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "92abf92dbaca",
+      "title": "なにわ男子＆レインボー、新番組MC就任でポケモン愛炸裂 大橋和也発の謎ポケモン「アジャシー」誕生？【「ポケットモンスター リサーチ！ピカピカ」取材全文】",
+      "url": "https://mdpr.jp/news/4884091",
+      "host": "mdpr.jp",
+      "source": "モデルプレス",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:30:00.000Z",
+      "image": "https://img-mdpr.freetls.fastly.net/article/P1Xl/nm/P1Xl3d3gL97EcqbmsvBHeL8a87-GOYdu5nx6qNnl3X0.jpg?width=700&disable=upscale&format=auto&quality=80",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "32135037e79c",
+      "title": "なにわ男子×レインボーが「ポケモン」をリサーチ！ アニポケ30周年記念の新番組がスタート（TVガイドWeb）",
+      "url": "https://news.yahoo.co.jp/articles/5e181813322d5abe21e320154788c07bd273e675",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:30:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000026-tvguidew-000-2-view.jpg?exp=10800",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5ec21d1723af",
+      "title": "『ポケモン』新シーズン来年10月放送で主人公リコ＆ロイ続投 1月から新番組で過去回を深掘り",
+      "url": "https://www.oricon.co.jp/news/2495819/full/",
+      "host": "oricon.co.jp",
+      "source": "オリコンニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:30:00.000Z",
+      "image": "https://contents.oricon.co.jp/upimg/news/2496000/2495819/20261127_183039_p_o_36745793.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "3ed933d95c3d",
+      "title": "TVアニメ「ポケットモンスター」新シーズンが2027年10月より放送！なにわ男子とレインボーがポケモンたちをリサーチしていく番組も1月8日より開始",
+      "url": "https://www.gamer.ne.jp/news/202611270040/",
+      "host": "gamer.ne.jp",
+      "source": "Gamer",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:30:00.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "main",
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ec62c07e553e",
+      "title": "【11月26日更新】ポケモンカード抽選情報まとめ2026｜最新の予約・再販・倍率・当選の注意点まとめ",
+      "url": "https://www.goal.com/jp/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9/pokemon-card-lottery-information-2026/blt9aa2212834fd35bf",
+      "host": "goal.com",
+      "source": "Goal.com",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:17:37.000Z",
+      "image": "https://assets.goal.com/images/v3/blt19c9c61a7f596910/pokemon-card-20261127.jpg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ea43312e5777",
+      "title": "【ポケカ】MEGAドリームexの予約・抽選情報まとめ【11/27更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/30468/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T10:06:19.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/b643a748-1030-4250-ba01-57988f9642b0.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "07068a774ad8",
+      "title": "【ポケポケ】ミロカロスexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565896",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:57:11.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565896.png?date=1782796879",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5fe5ad261726",
+      "title": "ゲームフリーク描き下ろしアートを使用！ポケモン30周年テーマ「つづく」を描いたグッズが12月5日よりポケモンセンターに登場",
+      "url": "https://www.ndw.jp/pokemon-goods-261127-03/",
+      "host": "ndw.jp",
+      "source": "Nintendo DREAM WEB",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:54:22.000Z",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/261127-pokemongoods-3-01.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "818b3808f051",
+      "title": "【ポケモンフレンダ】エクストレジャー3だん でんせつのつばさ トリプルキャンペーン！",
+      "url": "https://shop.pokemon.co.jp/ja/shop/common/events/202611/000734.html?shop",
+      "host": "shop.pokemon.co.jp",
+      "source": "ポケットモンスターオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:54:00.000Z",
+      "image": "https://shop.pokemon.co.jp/ja/shop/common/images/216766c3180f220ca3811ea1cead18416804a814.jpg",
+      "categories": [
+        "event"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "76ac86a5edfc",
+      "title": "「ぽこ あ ポケモン」オフィシャル攻略ガイドが発売！全ポケモンずかん、全生息地ずかん、全コレクション（アイテム）の入手方法などを掲載",
+      "url": "https://www.gamer.ne.jp/news/202611270035/",
+      "host": "gamer.ne.jp",
+      "source": "Gamer",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:47:36.000Z",
+      "image": "",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "3796b0028033",
+      "title": "【ポケカ】黒炎の支配者の当たりカードランキング/相場推移情報/買取価格/再販/予約抽選まとめ | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/16992/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:44:09.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20250108084007-0.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "88ce3de51ba3",
+      "title": "おはスタ【ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！】",
+      "url": "https://www.tv-tokyo.co.jp/broad_tvtokyo/program/detail/202611/14189_202611270705.html",
+      "host": "tv-tokyo.co.jp",
+      "source": "テレビ東京",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:42:57.000Z",
+      "image": "https://www.tv-tokyo.co.jp/txcms/media/pg/L/609700629b339a9b26df0252f5eddcef.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c774ac346a44",
+      "title": "【ポケカ】ハドウシーカーの当たりランキング/買取相場/カードリスト/封入率/予約抽選/値段まとめ【11/27更新】",
+      "url": "https://snkrdunk.com/articles/31684/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:42:52.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/0cdd0de3-acd4-41ca-9c31-e58bd85f6e5b.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ffa2aa5268f7",
+      "title": "【ポケカ】ヒロシマのピカチュウ プロモの買取・相場価格と値段推移｜スペシャルBOX「ヒロシマ」",
+      "url": "https://snkrdunk.com/articles/29064/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:25:03.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20250924025828-0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "68d26ac36563",
+      "title": "【ポケモンGO】キョダイマックスインテレオンのマックスバトルデイの期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/590252",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:16:05.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/590252.png?date=1795659515",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "36607667788e",
+      "title": "【ポケポケ】新パックの実装日はいつ？｜新カード情報まとめ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/463560",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:14:56.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/463560.png?date=1736756219",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2579fb478e5b",
+      "title": "【ポケカ】ロケット団の栄光の当たりランキング/買取相場/封入率/予約抽選/値段まとめ",
+      "url": "https://snkrdunk.com/articles/27332/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T09:02:33.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20250417100209-0.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "4206076203a1",
+      "title": "【ポケカ】パラダイムトリガーの当たりランキングと買取価格・相場一覧まとめ",
+      "url": "https://snkrdunk.com/articles/14275/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T08:22:48.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/f5209586-3795-48f4-82d4-d496eb2a0134.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2859e1ffbef0",
+      "title": "ポケモン情報をチェック！＆ハナコのアニポケルームでクイズに挑戦！",
+      "url": "https://tver.jp/episodes/epi7at1xem",
+      "host": "tver.jp",
+      "source": "TVer",
+      "summary": "",
+      "publishedAt": "2026-11-27T08:21:10.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "9720ca3df30d",
+      "title": "ポケモン新作『ウインド・ウェーブ』発売に先駆け、ハブロウ・ポムケン・ミオリーのぬいぐるみが登場",
+      "url": "https://realsound.jp/tech/2026/11/post-2597208.html",
+      "host": "realsound.jp",
+      "source": "リアルサウンド",
+      "summary": "",
+      "publishedAt": "2026-11-27T08:13:06.000Z",
+      "image": "https://realsound.jp/wp-content/uploads/2026/11/20261127-windwave-99.jpeg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2e1ea2cfe942",
+      "title": "【ポケカ】フクオカのピカチュウ プロモの買取・相場価格と値段推移｜スペシャルBOX「フクオカ」",
+      "url": "https://snkrdunk.com/articles/29067/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T08:03:27.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20250924025828-1.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6483488636b9",
@@ -312,6 +1733,50 @@
       "isNew": false
     },
     {
+      "id": "0e8dbe8f536d",
+      "title": "【ポケポケ】メガレックウザexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570619",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T07:36:10.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570619.png?date=1785392718",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b10fa8809aa3",
+      "title": "『ポケットモンスター』×スターバックスに新作コラボグッズ！国内限定シリーズとは異なる発光ピカチュウマグやマグネット式万年カレンダーが登場へ",
+      "url": "https://www.toy-people.com/jp/?p",
+      "host": "toy-people.com",
+      "source": "玩具人 TOY PEOPLE",
+      "summary": "",
+      "publishedAt": "2026-11-27T07:29:27.000Z",
+      "image": "",
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "38ad4710e391",
       "title": "「ポケモンセンター いっしょにホリデー！」キャンペーン第2弾！ 歴代御三家のぬいぐるみを買うと「ポケモン30周年ロゴステッカー」がもらえるモンスターボールをイメージしたオリジナルボックスがもらえるキャンペーンも",
       "url": "https://game.watch.impress.co.jp/docs/news/2160001.html",
@@ -332,6 +1797,48 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "ef4261ad063e",
+      "title": "【ポケモンGO】2026年12月のイベントスケジュールまとめ",
+      "url": "https://pokemongo.gamewith.jp/article/show/590093",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T06:52:18.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/590093.png?date=1795568077",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fac512499116",
+      "title": "【ポケカ】30th CELEBRATIONの再販はいつ？再販入荷情報まとめ【11/27更新】",
+      "url": "https://snkrdunk.com/articles/33304/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T06:32:28.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/9e96f1c2-b6a6-4392-882d-c6596faff947.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "2c093c52e467",
@@ -378,6 +1885,29 @@
       "isNew": false
     },
     {
+      "id": "6ab063f1509f",
+      "title": "『ミスド福袋2020』が発売！ポケモン新作とコラボしたオリジナルグッズもゲットできる",
+      "url": "https://www.walkerplus.com/trend/matome/article/215829/",
+      "host": "walkerplus.com",
+      "source": "ウォーカープラス",
+      "summary": "",
+      "publishedAt": "2026-11-27T06:00:25.000Z",
+      "image": "https://news.walkerplus.com/article/215829/1334477_615.jpg",
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "1fc759616c13",
       "title": "『ポケモン ウインド・ウェーブ』の御三家がぬいぐるみに初登場！ハブロウ、ポムケン、ミオリーたちを12月3日10時より順次発売",
       "url": "https://www.inside-games.jp/article/2026/11/27/191654.html",
@@ -400,6 +1930,28 @@
       "isNew": false
     },
     {
+      "id": "aa1bd211741e",
+      "title": "ボドケやTCGのほか、サンリオ、『ちいかわ』、『ポケモン』のグッズが最大50％オフ！2026「Amazon ブラックフライデー」先行セール開催中！おもちゃ編③",
+      "url": "https://hobby.dengeki.com/news/3247543/",
+      "host": "hobby.dengeki.com",
+      "source": "電撃ホビーウェブ",
+      "summary": "",
+      "publishedAt": "2026-11-27T06:00:00.000Z",
+      "image": "https://hobby.dengeki.com/ss/hobby/2026/11/Amazon_Black_Friday_2026__tc_r9p6h5tn1pR3HyC07NH8amE2wqkfycep_iOWZGMgWzoxk_4F1EqtwHX71Zry-07jI.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "56d4fadf5869",
       "title": "「ポケモン風波」で冒険の最初のパートナーとなる、御三家たちのぬいぐるみが登場！ゲームの発売に先駆けて新たなパートナーを選ぼう",
       "url": "https://game.watch.impress.co.jp/docs/news/2159976.html",
@@ -420,6 +1972,27 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "bc543c75be89",
+      "title": "「ポケモン風波」で冒険の最初のパートナーとなる、御三家たちのぬいぐるみが登場！（GAME Watch）",
+      "url": "https://news.yahoo.co.jp/articles/067ef0c52cce7953c5a336c49b1a321702ec5ba2",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:58:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000034-impgmw-000-1-view.jpg?exp=10800",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "ba8a2d47fae8",
@@ -445,6 +2018,753 @@
       "isNew": false
     },
     {
+      "id": "a008710b6b64",
+      "title": "DPプロモカード — 42枚 (ポケカ) - Pokemon-France.com",
+      "url": "https://www.pokemon-france.com/ja/sets/promos-japonaises-diamant-et-perle-dp/",
+      "host": "pokemon-france.com",
+      "source": "Pokemon-France.com",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:48:12.000Z",
+      "image": "https://cdn.pokemon-france.com/wp-content/uploads/2026/10/pokemon-france-image-partage.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2d4828067ab8",
+      "title": "【ポケカ】「スカーレットex＆バイオレットex スペシャルセット」の収録アイテムリスト/予約/抽選/定価/販売店舗まとめ【1/20発売】",
+      "url": "https://snkrdunk.com/articles/15475/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:47:45.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20231230072339-1.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "main",
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "fed350c105b2",
+      "title": "【ポケモン風波】『ポケットモンスターウインド・ウェーブ』最初のパートナー3匹が早くもぬいぐるみに。ポケモンセンターオンラインで12月3日発売",
+      "url": "https://www.famitsu.com/article/202611/95289",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:42:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/95289/thumbnail_fCri.jpeg?x=1280",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c8ea1588c640",
+      "title": "【ポケモンGO】黄昏時の願いイベントの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/586413",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:29:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586413.png?date=1793664036",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "01e6f654bf7f",
+      "title": "【ポケポケ】デデンネexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/565897",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:15:35.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/565897.png?date=1782796902",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "dc6d1605bf3a",
+      "title": "【ポケポケ】ビークインexデッキのレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/570623",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:15:28.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/570623.png?date=1785392810",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5ebbbec1eed8",
+      "title": "【ポケポケ】ギラティナexデッキ(デュアルフュージョン)のレシピと評価【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/586070",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:15:15.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586070.png?date=1793283607",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "ccabeed8fafd",
+      "title": "【ポケカ】ポケモンカード151の当たりランキング/買取相場/封入率/予約抽選/値段まとめ | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/16466/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:11:46.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/aead94d8-945e-4e30-8efa-0eebe321a959.png",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "aa60c6d2cf87",
+      "title": "変形玩具「ポケモンチェンジ」に「ジガルデ 50％フォルム／パーフェクトフォルム」が新登場！12月26日に発売",
+      "url": "https://www.ndw.jp/pokemon-goods-261127/",
+      "host": "ndw.jp",
+      "source": "Nintendo DREAM WEB",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:09:16.000Z",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/261127-pokemongoods-00.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "1c77f0d64ed5",
+      "title": "【ポケカ】ブラックボルトの当たりランキング/買取相場/封入率/予約抽選/値段まとめ",
+      "url": "https://snkrdunk.com/articles/28051/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:08:42.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/f2ed19ef-5384-4573-a590-fed41cc15e89.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2788a0366d38",
+      "title": "【ポケモンGO】ポケモンチャンピオンズ(Pokémon Champions)コラボイベントの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/590237",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:07:57.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/590237.png?date=1795654391",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5108923d7b67",
+      "title": "『ポケットモンスター ウインド・ウェーブ』で冒険の最初のパートナーとなる、ポケモンたちのぬいぐるみが登場！",
+      "url": "https://www.pokemon.co.jp/goods/2026/11/261127_to01.html",
+      "host": "pokemon.co.jp",
+      "source": "ポケットモンスターオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:07:16.000Z",
+      "image": "https://www.pokemon.co.jp/PostImages/d9144516b633e144854177b526af1ab896ff5519.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "30e7dda15cdf",
+      "title": "【ポケカ】ホワイトフレアの当たりランキング/買取相場/封入率/予約抽選/値段まとめ",
+      "url": "https://snkrdunk.com/articles/28052/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:03:30.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/20250606055827-0.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f3b8df987a85",
+      "title": "ピックアップテーマ「つづく」のイラストを使用したグッズが、ポケモンセンターに登場！｜ポケットモンスターオフィシャルサイト",
+      "url": "https://www.pokemon.co.jp/goods/2026/11/261127_to02.html",
+      "host": "pokemon.co.jp",
+      "source": "ポケットモンスターオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-11-27T05:01:15.000Z",
+      "image": "https://www.pokemon.co.jp/PostImages/00fa0f256bb1fe2f023cafcdd5dd4edfe707f1b4.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "8f79a7ff5f42",
+      "title": "【ポケカ】エクバリーリエの買取・相場価格と値段推移",
+      "url": "https://snkrdunk.com/articles/18031/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T04:50:59.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/98605abb-b52f-423d-954c-1c514f114f20.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "59ea3b0da907",
+      "title": "【ポケカ】メガルカリオZex MURの買取・相場価格と値段推移｜ハドウシーカー",
+      "url": "https://snkrdunk.com/articles/33840/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T04:49:45.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/0cf99979-4747-4ebb-a33e-a43429ec78c0.jpeg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "9a916eb27580",
+      "title": "ポケモンアニメシリーズ【POKETOON】をはじめ短編アニメーション18作品がディズニープラスで見放題配信決定",
+      "url": "https://thetv.jp/news/detail/1459145/landing/",
+      "host": "thetv.jp",
+      "source": "WEBザテレビジョン",
+      "summary": "",
+      "publishedAt": "2026-11-27T04:27:56.000Z",
+      "image": "",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7493c755a132",
+      "title": "【めざせ！どまんなかストライク】ポケモンと連携し、子どもたちと野球の出会いを応援！",
+      "url": "https://www.baystars.co.jp/news/2026/11/1127_01.php",
+      "host": "baystars.co.jp",
+      "source": "横浜DeNAベイスターズ",
+      "summary": "",
+      "publishedAt": "2026-11-27T03:57:27.000Z",
+      "image": "https://www.baystars.co.jp/images/common/ydb_ogp.png",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "116193a7541f",
+      "title": "【ポケポケ】デュアルフュージョン限定バトルの攻略とおすすめデッキ【ポケモンカードアプリ】",
+      "url": "https://gamewith.jp/pokemon-tcg-pocket/588256",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T03:52:19.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/588256.png?date=1794984918",
+      "categories": [
+        "guide",
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "75533f5cd1db",
+      "title": "1億回再生「GOTCHA!」から6年 ポケモン特別MVの新作はヒゲダン×山田尚子 | ニュース | IT×エンタメの最前線を届ける",
+      "url": "https://mediamixi.jp/news/19868/",
+      "host": "mediamixi.jp",
+      "source": "MEDIAMIXI",
+      "summary": "",
+      "publishedAt": "2026-11-27T03:48:22.000Z",
+      "image": "https://mediamixi.jp/app/uploads/2026/11/1127_004.jpg",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "1e75a5bc4dd3",
+      "title": "【Pokémon GO Lab.】12月の『ポケモン GO』イベントの開催について",
+      "url": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-megatokyo/go-lab/202611/000706.html",
+      "host": "shop.pokemon.co.jp",
+      "source": "ポケットモンスターオフィシャルサイト",
+      "summary": "",
+      "publishedAt": "2026-11-27T03:07:36.000Z",
+      "image": "https://shop.pokemon.co.jp/ja/shop/pokemoncenter-megatokyo/images/spot-pokemongo-lab.webp",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "950283cc4d56",
+      "title": "ポケモンの「ハッピーセット」「ポケモンカード」問題 なぜここまで批判されるのか #エキスパートトピ(河村鳴紘)へのコメント",
+      "url": "https://news.yahoo.co.jp/profile/expert/comments/8b72516e-826a-4086-99b8-f62815f8d40e",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T02:59:09.000Z",
+      "image": "https://s.yimg.jp/images/news-web/versions/20261127-93b9b54/all/images/ogp_user_commentPerma.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c95421b3db58",
+      "title": "ガンプラ、ポケカ、BEYBLADE Xなどが対象！エディオンにてネットショップ限定「エンタメ福袋抽選販売」が実施中",
+      "url": "https://news.yahoo.co.jp/articles/e0745b42ae38fc95b742804814aa6c51731cd186",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T02:31:00.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261127-00000012-imphbw-000-1-view.jpg?exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2e1440e0f525",
+      "title": "【Amazonブラックフライデーセール】ポケモンGO(R)対応・挿すだけオートキャッチ「Pocket",
+      "url": "https://news.nicovideo.jp/watch/nw20038062?news_ref",
+      "host": "news.nicovideo.jp",
+      "source": "ニコニコニュース",
+      "summary": "",
+      "publishedAt": "2026-11-27T02:30:22.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "cde110fb2cae",
+      "title": "【Amazonブラックフライデー】\"歩くだけ\"でポケ活が進むポケモンGO(R)対応オートキャッチ『Auto Catch LIGHT』が年内最後の特別価格。わずか10g・1台で2アカウント接続",
+      "url": "https://www.jiji.com/jc/article?k",
+      "host": "jiji.com",
+      "source": "時事ドットコム",
+      "summary": "",
+      "publishedAt": "2026-11-27T02:16:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6db8bfab0408",
+      "title": "【Amazonブラックフライデー】1台で4台同時接続・最大30日駆動のポケモンGO(R)対応オートキャッチ『Ultra Catcher 4』が年内最後の特別価格。家族みんなのポケ活を全自動でおまかせ",
+      "url": "https://www.jiji.com/jc/article?k",
+      "host": "jiji.com",
+      "source": "時事ドットコム",
+      "summary": "",
+      "publishedAt": "2026-11-27T02:16:00.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5a54fab2bf47",
+      "title": "【ポケモンGO】熱帯楽園の開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/590254",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T02:02:58.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/590254.png?date=1795659674",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a9cc62e5751f",
+      "title": "申し込み１月８日から 郡山シティーマラソン ポケモンラン参加者 特製Ｔシャツ着用",
+      "url": "https://www.47news.jp/15293997.html",
+      "host": "47news.jp",
+      "source": "47NEWS",
+      "summary": "",
+      "publishedAt": "2026-11-27T02:00:00.000Z",
+      "image": "https://img.cf.47news.jp/static/renewal/common/img/thumb_large.png",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "40569b375b37",
+      "title": "メガピクシー戦は「ばくれつパンチ＋」発動で難易度大幅ダウン / 1人で2枚のシールドを破れる【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3758321",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-27T01:45:44.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_3370.jpeg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2c2db058e044",
+      "title": "メガピクシー戦の勝敗を分けるのはタイプ相性よりメガシンカポケモンの数 / 育成前でも火力不足でも必ず1匹は編成すべし【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3758319",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-27T01:30:18.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_3367.jpeg",
+      "categories": [
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "904b3abe9656",
+      "title": "色違い“ たそがれルガルガン”を作れる大チャンス / レア枠のイワンコは図鑑のサーチ機能で狙い撃つべし【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3758317",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-27T01:15:36.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/IMG_8013.jpeg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a1f4810513e5",
+      "title": "画像ページ (7/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930447",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-27T01:11:18.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/a2063d7323cff499db6a1edb950e9c98a.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "00cb832d659b",
+      "title": "メガピクシーはガチるべきなのか？ →はい、ガチるべきです【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3758299",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-27T00:30:26.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1126_pokemon3-1.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "29cf83a33a47",
+      "title": "【ポケモンGO】GOバトルリーグ黄昏の旅路シーズンのスケジュールと調整内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/574389",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T00:07:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/574389.png?date=1788169180",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a9fcf664ec3c",
+      "title": "【ポケモンGO】GOバトルリーグうたた寝の途スケジュールと調整内容",
+      "url": "https://pokemongo.gamewith.jp/article/show/589656",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-27T00:07:06.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/589656.png?date=1795540825",
+      "categories": [
+        "update"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "81d781c5f69a",
       "title": "【お得】『ゼルダの伝説 時のオカリナ』『ぽこ あ ポケモン』など初代Switch＆Switch 2のDL版ソフトが“2本まとめ買いで10％オフ”となるセール開催中。『スプラトゥーン レイダース』『FE 万紫千紅』などもラインナップ",
       "url": "https://news.denfaminicogamer.jp/news/261127i",
@@ -462,6 +2782,245 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "f42f0aec37ba",
+      "title": "【ポケカ】ストームエメラルダの予約・抽選情報まとめ【7/30更新】 | スニーカーダンク",
+      "url": "https://snkrdunk.com/articles/32581/",
+      "host": "snkrdunk.com",
+      "source": "SNKRDUNK",
+      "summary": "",
+      "publishedAt": "2026-11-27T00:02:43.000Z",
+      "image": "https://cdn.snkrdunk.com/uploads/media/893ca223-e47e-4dbb-82fa-26c769b2e442.jpeg",
+      "categories": [
+        "tcgcat",
+        "new"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "49b357e6bf6c",
+      "title": "【Amazonブラックフライデー】最大約17kmの広域アシスト×60分充電で26時間駆動、ポケモンGO®対応ARサポートツール「ARmate」が年内最後の特別価格。忙しい日も自分のペースでポケ活 | ONO貿易株式会社のプレスリリース",
+      "url": "https://prtimes.jp/main/html/rd/p/000000232.000084333.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-27T00:00:01.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/84333/232/84333-232-a777be88f731a76d6d831046702e36a4-989x979.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "756e8e52521b",
+      "title": "【Amazonブラックフライデー】iOS専用・高精度360°ジョイスティック「Flashman」がビックセール特別価格。数秒接続・設定不要で指一本の直感操作、ポケモンGO®など位置情報ゲームに対応 | ONO貿易株式会社のプレスリリース",
+      "url": "https://prtimes.jp/main/html/rd/p/000000230.000084333.html",
+      "host": "prtimes.jp",
+      "source": "PR TIMES",
+      "summary": "",
+      "publishedAt": "2026-11-27T00:00:01.000Z",
+      "image": "https://prcdn.freetls.fastly.net/release_image/84333/230/84333-230-41e7f81dd56ee64582cb9a24fa8b0993-1000x1000.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": true,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "9104756768c4",
+      "title": "YOSHIROTTENの「蕎麦屋で会いましょう」vol.10──対談相手は、ポケモンカードを手がけるクリーチャーズの長屋悟さん",
+      "url": "https://carview.yahoo.co.jp/news/detail/5a19fbf5ab0dbba2bdc28b5d1acf0f36ece869f4/",
+      "host": "carview.yahoo.co.jp",
+      "source": "carview!",
+      "summary": "",
+      "publishedAt": "2026-11-26T23:00:00.000Z",
+      "image": "https://autos-pctr.c.yimg.jp/dzF9o7ZTfctyx6yoKaI790Nk5GmrQv6w1hGpCL3eqdYcSLOH41oIWlXiycTr387gTUUZ33uJvmlgSru1hW4-NSfa2cwcil3jxpw63W7nPrJxw1CeXr5UJjHmqBJp0OsuJ7CqDxjFnzTcZvdWynaPuABrD2ZyL1gsmTdLbJREjWQ=",
+      "categories": [
+        "tcgcat",
+        "biz"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "38739a09c501",
+      "title": "【ポケモンGO】GOパス大きな足跡のリワード内容と挑戦期間",
+      "url": "https://pokemongo.gamewith.jp/article/show/585785",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-26T22:10:32.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/585785.png?date=1793238889",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "833446ce824a",
+      "title": "【ポケモンGO】ピクシーのスーパーメガレイドデイの開催期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/586872",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-26T22:07:18.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/586872.png?date=1793921307",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "4abafa89353c",
+      "title": "【ポケカ】『ハドウシーカー』SAR/AR/SRまとめ。メガルカリオZexや『北斗の拳』の原哲夫先生が描くマキシの熱血を収録【11月27日発売】",
+      "url": "https://www.famitsu.com/article/202611/94998",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-26T21:30:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/94998/thumbnail_vexg.png?x=1280",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "4ea701f3e265",
+      "title": "【きょうから】しまむら『ポケモン』新作グッズ、中身は？ 御三家やラティ兄弟のデザインに「良すぎないか…？」「開店凸します！」",
+      "url": "https://www.sanyonews.jp/article/2022162?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-26T19:30:18.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/9/2/2/c/922cb5b0cdfdb59d86948e5a08dbdd1b_1.jpg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "e67f4c7c3308",
+      "title": "【ポケモンGO】メガピクシーレイド対策おすすめポケモン",
+      "url": "https://pokemongo.gamewith.jp/article/show/587188",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-26T19:06:13.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/587188.png?date=1794201476",
+      "categories": [
+        "event",
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "45b8d0c798fa",
+      "title": "【ポケモンGO】うたた寝の途シーズンの期間とボーナス",
+      "url": "https://pokemongo.gamewith.jp/article/show/590086",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-26T17:35:07.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/590086.png?date=1795537863",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f44b0eadb0a7",
+      "title": "画像ページ (4/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930444",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-26T15:51:34.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/ac1b1c00d5d6c91d5c4ab86931feb51a2.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     },
     {
       "id": "6a3f637ae663",
@@ -486,6 +3045,111 @@
       "isNew": false
     },
     {
+      "id": "de99454b130a",
+      "title": "エディオン「エンタメ福袋」にポケモンカードのスペシャルセット2種！「30th CELEBRATION」を含む6BOXを抽選販売",
+      "url": "https://nijimen.kusuguru.co.jp/topics/668915",
+      "host": "nijimen.kusuguru.co.jp",
+      "source": "にじめん",
+      "summary": "",
+      "publishedAt": "2026-11-26T11:12:00.000Z",
+      "image": "https://nijimen.kusuguru.co.jp/wp-content/uploads/2026/11/e9acca1a7a314dc494cd611500732dfc.png",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f5d22be7966a",
+      "title": "『Pokémon Champions』×『Pokémon GO』コラボ決定！ ヒードランら伝説のポケモン8匹が登場",
+      "url": "https://www.toy-people.com/jp/?p",
+      "host": "toy-people.com",
+      "source": "玩具人 TOY PEOPLE",
+      "summary": "",
+      "publishedAt": "2026-11-26T10:38:41.000Z",
+      "image": "",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "1306574e5bfd",
+      "title": "『ポケカ』30周年記念パックや「ストームエメラルダ」などを1BOXずつ収録！エディオンで「福袋セット」2種が抽選販売",
+      "url": "https://www.inside-games.jp/article/2026/11/26/191605.html",
+      "host": "inside-games.jp",
+      "source": "インサイド",
+      "summary": "",
+      "publishedAt": "2026-11-26T10:00:03.000Z",
+      "image": "https://www.inside-games.jp/imgs/ogp_f/1812128.jpg",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2d21415cb86c",
+      "title": "【楽天】ポケモンキャンペーンで『ぽこ あ ポケモン』『ポケモンレジェンズZ-A』がセール中。抽選で30周年置き時計やブランケットが当たる",
+      "url": "https://www.famitsu.com/article/202611/92888",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-26T09:30:00.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/92888/thumbnail_HTIL.jpg?x=1280",
+      "categories": [
+        "event",
+        "tcgcat"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5f127acda713",
+      "title": "「Pokémon Champions」レギュレーションM-Dが12月2日から開始！ヒードラン・ヘイラッシャ・シャリタツが参戦",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1HSXBlVzlwaDIyN0xDcDdTdjFzX1I0U0ktOHR0LW5sd1FoTy1Hc2F1M2dhOHBLNHhDMGhfNHJaQnR2emg4ZlRqUl9WWTNXa29xTzJXdElnNTJITzRfc05BX2xwMmljSF9xeFk5NGpVcGZaQ2lEbGNRc2RqTURwUdIBgwFBVV95cUxQemRZNzhpNGljeXMxZ0s3MEFMUUprRnlWZWEyQkxVVGpaWXFiZG5KV0hDcEE3VE8tazVRXzA3akFKMFIyV3B5QldQZFhNQm1QVlJoTmUwOF81eHJLaWxmb1ktOTljd2VVZzhpNkVNRk1fa0NGT2RXcGd0OGt3d3BYQ09NTQ?oc=5",
+      "host": "saiganak.com",
+      "source": "Saiga NAK",
+      "summary": "",
+      "publishedAt": "2026-11-26T08:40:10.000Z",
+      "image": "",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
       "id": "89eef387e9d2",
       "title": "『Cassette Beasts 2002』プレビュー イギリスらしさ全開、期待を上回るモンスター収集RPG",
       "url": "https://jp.ign.com/games/84661/cassette-beasts-2002-rpg",
@@ -503,6 +3167,709 @@
       "viaGoogle": false,
       "sourceKind": "news",
       "isNew": false
+    },
+    {
+      "id": "013428760ab2",
+      "title": "『ポケモンチャンピオンズ』にて『Pokémon GO』との連携キャンペーンが2026年12月8日(火)10時より開催決定！",
+      "url": "https://gamewith.jp/gamedb/12973/articles/66319",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-26T08:06:03.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/gamearticle/12973/rectangle/66319.png?t=1795704392",
+      "categories": [
+        "event",
+        "community"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "edd63d5d587d",
+      "title": "Pokémon GO「Daydream Destinations」：GO Tourアローラと新メガ - Pokemon-France.com",
+      "url": "https://www.pokemon-france.com/ja/news/pokemon-go-daydream-destinations-season-go-tour-alola-new-megas/",
+      "host": "pokemon-france.com",
+      "source": "Pokemon-France.com",
+      "summary": "",
+      "publishedAt": "2026-11-26T07:30:00.000Z",
+      "image": "https://cdn.pokemon-france.com/wp-content/uploads/2026/11/pokemon-go-saison-destinations-de-reve.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "44432cf8b1a2",
+      "title": "『ポケモンチャンピオンズ』『ポケモンGO』がコラボ決定",
+      "url": "https://news.denfaminicogamer.jp/news/2611262a",
+      "host": "news.denfaminicogamer.jp",
+      "source": "電ファミニコゲーマー",
+      "summary": "",
+      "publishedAt": "2026-11-26T06:25:00.000Z",
+      "image": "https://news.denfaminicogamer.jp/wp-content/uploads/2026/11/1_1792388605_70471792475733.jpg",
+      "categories": [
+        "goodscat",
+        "community"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "38b61491a8bb",
+      "title": "『ポケモンGO(Pokémon GO)』×『Pokémon Champions』コラボイベント開催！ラティアスやラティオスらがレイドに登場",
+      "url": "https://gamewith.jp/gamedb/982/articles/66289",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-26T05:09:26.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/gamearticle/982/rectangle/66289.png?t=1795669786",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "go",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6d52d10dd08b",
+      "title": "「ポケモン」短編アニメーション“18作品”が、ディズニープラスにて 12月18日より一挙見放題配信決定！決定！",
+      "url": "https://www.banger.jp/news/193612/",
+      "host": "banger.jp",
+      "source": "BANGER!!!（バンガー!!!）映画評論・情報サイト",
+      "summary": "",
+      "publishedAt": "2026-11-26T02:33:20.000Z",
+      "image": "https://www.banger.jp/wp-content/uploads/2026/11/af55a0152aefca46e30a83b5d55c83f5.jpg",
+      "categories": [
+        "media"
+      ],
+      "series": [
+        "anime"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c14fd27d258e",
+      "title": "【ポケモンGO最新情報】12月イベント2種が開催！ナマコブシ初登場・メガヤドラン強化＆ポケモンチャンピオンズ限定背景レイド攻略",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQQ3VsZTYxbUVkZ25WV1FJbWRzU3EzQXlidnVxbE1kNE04MlNOanAzX2lCUXJxQTh4dGY3REhhUnpWVTRzX0VqRjc5a3p2X2dXZGJBYVhhV29BSFlndzNiQXZnSzF1eWNRUmlrNG5YRVZxMTNHbUVVUTRqVDdEMmZrdmdGcXd4UDFoQlRRbFJWTlRIM3pzdzlxdkJYb25DMWtfemlyRm9PZzdWekhYaS0wQWxzeTRocGhJM2FOV3QtS3ZZeVpLN1RHVlV0MzhPQjNXX2czb2xBd1RVQk5JMEUxUkZnLV9iQ01DTm5yM2lNMklZbloxS2dVM0lVN25fdG1PeExNQUhobk5FQjBVTm11dA?oc=5",
+      "host": "mmoexp.com",
+      "source": "MMOEXP",
+      "summary": "",
+      "publishedAt": "2026-11-26T01:31:03.000Z",
+      "image": "",
+      "categories": [
+        "event",
+        "guide"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b78a06ec5039",
+      "title": "3COINS×ポケモン、30周年記念グッズ登場 全62アイテムを10・10から展開",
+      "url": "https://www.sanyonews.jp/article/1988529?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-26T01:26:47.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/6/7/c/7/67c74ed3e23db15450e319590946508b_1.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "69f292cbf136",
+      "title": "現地レポ》「転売目的の人たちとは違う」12歳の日本人少年がポケモンカードをオークションに出品→“1枚100万円超”で取引され…国外にも広がるポケモン経済圏の『異常な熱狂』（文春オンライン",
+      "url": "https://news.yahoo.co.jp/articles/7a08e81fbd111fcf8e254ed928d5be826bee9127",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-26T01:12:16.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-00093427-bunshun-000-1-view.jpg?exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "e526f4b23e10",
+      "title": "デオキシスのアタックフォルムはソロで高速周回が可能 / ふしぎなアメとわざマシンを大量ストックするチャンス【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3758027",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-26T00:30:40.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1125_pokemon-1.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "6fbe04a56aee",
+      "title": "『ポケモン』キスマイ宮田俊哉が演じるキャラ登場 ポケモンユナイト回でサンダー出現！第141話あらすじ＆場面カット解禁",
+      "url": "https://www.sanyonews.jp/article/1937803?rct",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-26T00:27:36.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/d/e/5/9/de5970d0c587be37690b443c158a72c2_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "unite"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b61ee436383b",
+      "title": "あのエージェントポケモンがビッグに登場。「キョダイマックスインテレオン」の「マックスバトルデイ」をお楽しみに！",
+      "url": "https://pokemongo.com/ja/news/gigantamax-inteleon-max-battle-day-2026",
+      "host": "pokemongo.com",
+      "source": "Pokémon GO",
+      "summary": "",
+      "publishedAt": "2026-11-26T00:03:51.000Z",
+      "image": "https://lh3.googleusercontent.com/888Loq1T5DFCRDq3sK8yLv4eGMtc4A27YQ52O4aTy9epQ0jefToZtmmOWQHg_THwPQtPsj9pVyxl2rXK0Tp-7lCJII4ejpCyH862C_8ifZQ",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f97679403f9d",
+      "title": "Official髭男dism新曲は「ポケモン」コラボ！ 制作はMADHOUSE、監督は山田尚子のMVが公開控える（アニメ！アニメ！）",
+      "url": "https://news.yahoo.co.jp/articles/2ee81039a430a8878261bdb1b72d3efa7e94fed4?source",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-26T00:00:04.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261126-00000003-anmanmv-000-1-view.jpg?exp=10800",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "anime",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2cebda773a2b",
+      "title": "画像ページ (1/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930457",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-25T23:07:44.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/af4921c628ed5fe91984a11dce1617bba.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "44252e4acb95",
+      "title": "『ポケモン』ミノムッチの着脱可能なぬいぐるみ登場 まさかの「中身」のグッズ化にファン歓喜",
+      "url": "https://magmix.jp/post/387279",
+      "host": "magmix.jp",
+      "source": "マグミクス",
+      "summary": "",
+      "publishedAt": "2026-11-25T22:20:00.000Z",
+      "image": "https://magmix.jp/wp-content/uploads/2027/11/261125_minomuchi_00.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "59fc265a960e",
+      "title": "『ポケモンセンター』デデンネとバチュルの日常を描いたグッズ新登場 大量に発表",
+      "url": "https://www.sanyonews.jp/article/1998519?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-25T22:18:58.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/0/9/8/1/098185296bbd6fe910e67817e733ac2e_1.jpg",
+      "categories": [
+        "goodscat",
+        "new"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b3b92255bfaa",
+      "title": "『ポケモン』センス抜群な新グッズ 全商品発表「ディグダ手袋」「ホエルコじょうろ」など",
+      "url": "https://www.sanyonews.jp/article/2025115?kw",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-25T21:17:06.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/5/7/5/a/575ad7f95ba82d33ce47cdce441bd9b4_1.jpg",
+      "categories": [
+        "new",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "90a55d4c064d",
+      "title": "『Pokémon Champions』コラボイベント開催！",
+      "url": "https://pokemongo.com/ja/news/pokemon-champions-celebration-event-2026",
+      "host": "pokemongo.com",
+      "source": "Pokémon GO",
+      "summary": "",
+      "publishedAt": "2026-11-25T21:02:46.000Z",
+      "image": "https://lh3.googleusercontent.com/9c67O7XVZjVfvANIgmgMm2lqhIXp_5UGC1sYS9TAVvhbzBsE59bsRSS6nR-DSoqylugJSXcvX6RGZvpTRUG5CiL-B1vFOyj9JO4Gq3muoAJW",
+      "categories": [
+        "event",
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "01a60b3d73b3",
+      "title": "『Pokémon GO』の「熱帯楽園」イベントで南国気分を味わおう！",
+      "url": "https://pokemongo.com/ja/news/tropical-paradise-2026",
+      "host": "pokemongo.com",
+      "source": "Pokémon GO",
+      "summary": "",
+      "publishedAt": "2026-11-25T18:01:40.000Z",
+      "image": "https://lh3.googleusercontent.com/Xm5QFepUKlbitWVqkoEagfdpPBIe5aUjss60XUhm906VD8qBcckn4LeWbbgCf_wuVyMwbMgIeeO66cxrGEhT-niFpxq-_ASpDHP5eJDtitg",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a95770967863",
+      "title": "画像ページ (16/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930456",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-25T14:32:47.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/a548fa4a6af73a5440543590b43ac5e5c.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "5f88b1e90669",
+      "title": "【炎上】予告のメガメタグロスがメガレイドに現れず / 「忘れてただけでは？」とトレーナーから怒りの声【ポケモンGO】",
+      "url": "https://getnews.jp/archives/3758023",
+      "host": "getnews.jp",
+      "source": "ガジェット通信",
+      "summary": "",
+      "publishedAt": "2026-11-25T14:00:14.000Z",
+      "image": "https://rensai.jp/wp-content/uploads/2026/11/1124_pokemon1-1.png",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "683f4089ce0c",
+      "title": "『Pokémon GO』新シーズン「Daydream Destinations」発表",
+      "url": "https://games.gg/ja/news/pok%C3%A9mon-go%E6%96%B0%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3daydream-destinations%E7%99%BA%E8%A1%A8/",
+      "host": "games.gg",
+      "source": "games.gg",
+      "summary": "",
+      "publishedAt": "2026-11-25T11:22:00.000Z",
+      "image": "",
+      "categories": [
+        "new"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "b88b1281f50c",
+      "title": "限定グッズも登場の『ポケモンローカルActs物産展』長崎県で開催 デンリュウたちとのグリーティングも",
+      "url": "https://realsound.jp/tech/2026/11/post-2594682.html",
+      "host": "realsound.jp",
+      "source": "リアルサウンド",
+      "summary": "",
+      "publishedAt": "2026-11-25T08:34:06.000Z",
+      "image": "https://realsound.jp/wp-content/uploads/2026/11/20261125-localpokemon-99.jpeg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "7b95cc23a5f3",
+      "title": "隣人宅に侵入しポケモンカード約30万円相当を盗んだ疑い 会社員の男を逮捕 加古川署 / 兵庫県（サンテレビ）",
+      "url": "https://news.yahoo.co.jp/articles/04f30e20febb790e1010711fcb17ebaf03ad9a15",
+      "host": "news.yahoo.co.jp",
+      "source": "Yahoo!ニュース",
+      "summary": "",
+      "publishedAt": "2026-11-25T08:07:24.000Z",
+      "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261125-00010005-suntvv-000-1-view.jpg?exp=10800",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "f17dc8ddf369",
+      "title": "「ポケモンＧＯ」に神石高原町登場 帝釈峡など巡る公式４ルート",
+      "url": "https://www.sanyonews.jp/article/1713935/?c",
+      "host": "sanyonews.jp",
+      "source": "山陽新聞",
+      "summary": "",
+      "publishedAt": "2026-11-25T08:00:00.000Z",
+      "image": "https://static.sanyonews.jp/image/article/size1/d/4/4/f/d44fa75cc7211edcd9478d5634bd9e1e_1.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "3fc11d2d666f",
+      "title": "11月19日よりルミネクリスマス×『ぽこ あ ポケモン』のクリスマス企画が開催！ ピカチュウとの撮影会や限定グッズがもらえるスタンプラリーも実施",
+      "url": "https://www.ndw.jp/pokemon-news-261109/",
+      "host": "ndw.jp",
+      "source": "Nintendo DREAM WEB",
+      "summary": "",
+      "publishedAt": "2026-11-25T07:22:51.000Z",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/pokemon-news-261109_000.jpg",
+      "categories": [
+        "goodscat"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "2f513e35bc6b",
+      "title": "第3回との違いはある？ 連発！スキルウィーク vol.4 2026年12月7日開始【ポケモンスリープ】",
+      "url": "https://skypenguin.net/2026/11/25/post-178516/",
+      "host": "skypenguin.net",
+      "source": "人鳥日記",
+      "summary": "",
+      "publishedAt": "2026-11-25T07:20:57.000Z",
+      "image": "https://skypenguin.net/wp/wp-content/uploads/2026/11/連発スキルウィークvol4.png",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "sleep"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "907e84e0d07f",
+      "title": "仙台市内が多くのトレーナーでにぎわう「ポケモンGOワイルドエリア」レアなポケモンも出現！",
+      "url": "https://newsdig.tbs.co.jp/articles/gallery/3066194",
+      "host": "newsdig.tbs.co.jp",
+      "source": "TBS NEWS DIG",
+      "summary": "",
+      "publishedAt": "2026-11-25T07:15:00.000Z",
+      "image": "https://newsdig.ismcdn.jp/mwimgs/9/1/1200w/img_91620a537142d526e0e667cb89846d3b176261.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "a53da93b6b32",
+      "title": "【ポケモンGO】12月イベント最新情報まとめ！謎の伝説ポケモン登場？レイド・メガシンカ・マックスバトル予定を徹底解説",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTy1Xb2hZaG1zemlzWU92bGNoTnp5eXlYdUpWZmJFa1FLTG5mZTF5Y3NtQVlVeDJ3bGpHelZ2SkVFSWVFQUNsakJ1TDZ2N21YU3ZMSkE1WjE4NDZaX3RkWmtwZlBqT1pVS09CdC01QjhFWnRuZ0RXRS1ic0RYSUhQYzc1MngzTW5Dc0JwRExmdktvRkQzM0xZdk1uWWFLWmYtTGF2ck1UMTR6MWVqaDdhYmtfcURERVRjdVBSSWFTQUhKZFBWbGxfSGpvMXFkYTkwSVNmcm9ZaGRQUjBLRDdNalpmdnlOWHRFS3FlMlBPM2VfeVE?oc=5",
+      "host": "mmoexp.com",
+      "source": "MMOEXP",
+      "summary": "",
+      "publishedAt": "2026-11-25T05:51:51.000Z",
+      "image": "",
+      "categories": [
+        "event"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": true,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "05039a4cd680",
+      "title": "ポケモンカードゲーム MEGA 拡張パック 「ハドウシーカー」 ｜商品情報",
+      "url": "https://www.family.co.jp/goods/charakuji/7969560.html",
+      "host": "family.co.jp",
+      "source": "ファミリーマート",
+      "summary": "",
+      "publishedAt": "2026-11-25T05:19:01.000Z",
+      "image": "https://www.family.co.jp/content/dam/family/goods/7969560.webp",
+      "categories": [
+        "tcgcat"
+      ],
+      "series": [
+        "tcg"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "bc5bc8c84311",
+      "title": "【ポケモンチャンピオンズ】SVでしか出現しないポケモン一覧",
+      "url": "https://gamewith.jp/pokemon-champions/552283",
+      "host": "gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-25T03:24:11.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/552283.png?date=1775200425",
+      "categories": [
+        "community"
+      ],
+      "series": [
+        "main"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "c4c599ad8f8a",
+      "title": "画像ページ (12/16) 【ポケモンSV】『ポケットモンスター スカーレット・バイオレット』が発売された日。感動の物語に多くの人が涙した初のオープンワールド作品。エド・シーランの楽曲やナンジャモが話題に【今日は何の日？】",
+      "url": "https://www.famitsu.com/article/images/202611/93917/930452",
+      "host": "famitsu.com",
+      "source": "ファミ通",
+      "summary": "",
+      "publishedAt": "2026-11-25T00:57:36.000Z",
+      "image": "https://cimg.kgl-systems.io/camion/files/famitsu/93917/af5f7f53126c7338ba6853826b033d668.jpg?x=1280",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "main",
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "235c1de7800d",
+      "title": "ポケモンのピクセルアートをデザインしたテックアクセサリーコレクションが12月1日発売",
+      "url": "https://www.ndw.jp/pokemon-goods-261124-04/",
+      "host": "ndw.jp",
+      "source": "Nintendo DREAM WEB",
+      "summary": "",
+      "publishedAt": "2026-11-24T20:48:34.000Z",
+      "image": "https://www.ndw.jp/ndw/wordpress/wp-content/uploads/2026/11/261124-pokemongoods-4-00.jpg",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "goods"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
+    },
+    {
+      "id": "e3fedcb8d5ff",
+      "title": "【ポケモンGO】TwitchDropsの報酬受取方法",
+      "url": "https://pokemongo.gamewith.jp/article/show/536911",
+      "host": "pokemongo.gamewith.jp",
+      "source": "GameWith",
+      "summary": "",
+      "publishedAt": "2026-11-24T19:50:23.000Z",
+      "image": "https://img.gamewith.jp/article/thumbnail/rectangle/536911.png?date=1766456507",
+      "categories": [
+        "other"
+      ],
+      "series": [
+        "go"
+      ],
+      "isOfficial": false,
+      "isPR": false,
+      "viaGoogle": false,
+      "sourceKind": "news",
+      "isNew": true
     }
   ]
 }
